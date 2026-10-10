@@ -1,0 +1,980 @@
+{
+  "schema_version": 1,
+  "name": "Genji the Pollen Prophet",
+  "slug": "genji-the-pollen-prophet",
+  "source": {
+    "filename": "Genji.the.Pollen.Prophet.-.Official.Awesomenauts.Wiki.10.10.2026.17.48.56.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Genji_the_Pollen_Prophet",
+    "sha256": "3f54064f522d06e807369b64c63217e31c2b56d36ee49eb9ec132af61bed2923",
+    "size_bytes": 2684434
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1250 (2200)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.02"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Medium Range"
+    },
+    {
+      "label": "Role",
+      "value": "Support"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Butterfly",
+    "Type of abilities": "Damage Over Time , Healing , Slow , Shield , Lifesteal",
+    "Release Date": "February 28th, 2013"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Cocoon",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cocoon",
+      "description": "Entin silk is not only very fashionble in some parts of the galaxy, but it's also one of the most sturdy materials around! Gurgling and spitting out a ball of the webbed silk, Genji can envelop his enemies in a cocoon, making them unable to attack or be attack for a short period of time.",
+      "values": [
+        {
+          "label": "Cooldown",
+          "value": "10s"
+        },
+        {
+          "label": "Duration",
+          "value": "2"
+        },
+        {
+          "label": "Range",
+          "value": "6"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Butterfly Shot",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Butterfly_Shot",
+      "description": "Carrying the staff of the Popae office, Genji can shoot ethereal butterflies from its tip, sending them out in a flurry and making them return to cause another hit on their way back!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "65 (102.05)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "75"
+        },
+        {
+          "label": "Range",
+          "value": "7.4"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Monarch Blessing",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Monarch_Blessing",
+      "description": "Offering a prayer to the great and allmighty Space-Butterfly, Genji receives such a powerful blessing that it spills from his body to every nearby ally, wrapping them in a glowing blanket of protective goodness!",
+      "values": [
+        {
+          "label": "Shield",
+          "value": "20%"
+        },
+        {
+          "label": "Cooldown",
+          "value": "14s"
+        },
+        {
+          "label": "Duration",
+          "value": "3s"
+        },
+        {
+          "label": "Range",
+          "value": "8"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Flutter Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flutter_Jump",
+      "description": "Genji, as the chosen avatar to represent the Space-Butterfly in battle, is granted spectral wings to extend his jump for those crucial seconds that could mean the difference between life or a one-way ticket to the allmighty Bugzapper in the sky.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "7.2"
+        },
+        {
+          "label": "Additional Jump Height",
+          "value": "4"
+        },
+        {
+          "label": "Jumps",
+          "value": "3 (Hover)"
+        },
+        {
+          "label": "Max Hover Duration",
+          "value": "1s"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Butterfly Nebula Dust",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Butterfly_Nebula_Dust",
+      "group": "Cocoon",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Last Pieridae Transformae",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Last_Pieridae_Transformae",
+      "group": "Cocoon",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Jagra Eggs",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Jagra_Eggs",
+      "group": "Cocoon",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Misfortune Cookie",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Misfortune_Cookie",
+      "group": "Cocoon",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Prefab Cocoons",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Prefab_Cocoons",
+      "group": "Cocoon",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Moon Nectar",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Moon_Nectar",
+      "group": "Cocoon",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hidden Leaves",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hidden_Leaves",
+      "group": "Monarch Blessing",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Gettin' Out of Da Hood",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Gettin%27_Out_of_Da_Hood",
+      "group": "Monarch Blessing",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Cat Pillar",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Cat_Pillar",
+      "group": "Monarch Blessing",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bronco Yeast",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bronco_Yeast",
+      "group": "Monarch Blessing",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Kremzon Calendar",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Kremzon_Calendar",
+      "group": "Monarch Blessing",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Spiritual Cooking",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spiritual_Cooking",
+      "group": "Monarch Blessing",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Storm Drum",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Storm_Drum",
+      "group": "Butterfly Shot",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Plastic Praying Beads",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Plastic_Praying_Beads",
+      "group": "Butterfly Shot",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Glow Bracelets",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Glow_Bracelets",
+      "group": "Butterfly Shot",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Caterpillar King Statue",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Caterpillar_King_Statue",
+      "group": "Butterfly Shot",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space-Hippo Manure Incense",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space-Hippo_Manure_Incense",
+      "group": "Butterfly Shot",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wool Shawl",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wool_Shawl",
+      "group": "Butterfly Shot",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Flutter Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Flutter Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Flutter Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Flutter Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Flutter Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Flutter Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Kage Genji",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "From the land of wind, fire, water, lightning and earth comes Kage Genji. Defending the village of the Hidden Cocoon from all forces that would oppose it, Kage Genji holds the highest religious rank an Entin disciple can attain. Are you a weary traveler looking for spiritual guidance? Then turn your clouded gaze to Kage Genji! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Genji a kimono based on Akatsuki kimono from the Naruto franchise, a chinese straw hat and a praying beads necklace. His butterfly staff is replaced by a bamboo one as well."
+        }
+      ],
+      "assets": [
+        "asset-032"
+      ]
+    },
+    {
+      "name": "Genji the Grey",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Genji the Grey wizard is not some conjurer of cheap tricks. He's a trusty companion for any questing party in need of his wisdom or his crafty smoke rings! Are you in need of some fireballs, wisdom and balrog smiting? Look no further than Genji the Grey! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin is obviously based on Gandalf the Grey from The Lord of the Rings novel and, as such, gives Genji the vests of a wizard, completed with a wizard hat with a butterfly-shaped buckle on it. The tip of his staff is a glowing crystal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Although it's based on Gandalf there some other (possible) references to other media: Genji carries a giant scroll on his back, much like League of Legends' Ryze, while his beard is similar to Dumbledore, from the movie version of Harry Potter."
+        }
+      ],
+      "assets": [
+        "asset-033"
+      ]
+    },
+    {
+      "name": "Grim Genji",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "From the darkest reaches of space, the Void Moth comes to spreads its wings over all of creation. To aid him in his eternal struggle against the Space Butterfly, the Void Moth has sent out it's most powerful prophet, Grim Genji, to go forth and gather more souls for his master."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Genji in Awesomenauts, and comes with a fully customized voice set by Jesse Cox!"
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have not already unlocked the character, purchasing this DLC will do so."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grim Genji was designed by community member Li Yang 'Xethoz' Lim for the Design-a-skin competition and was chosen by the community as the most awesome concept from more than 250 submissions! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Genji the looks of the Grim Reaper: He has a skeletal body with exposed ribs, bony limbs and tusks. He wears a much darker team-colored cloak and has small bat wings on his back. He wields a scythe with glyphs etched on it, which he uses as a wand as usual."
+        },
+        {
+          "type": "paragraph",
+          "text": "A skull can be seen when he casts Monarch Blessing and unlike previous skins, he says lines when using Cocoon. Butterfly shot is replaced with a flying skull instead of the usual butterfly (with the Storm Drum cloud having flying bats on it as well)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with its own unique voice-acting."
+        }
+      ],
+      "assets": [
+        "asset-034"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Genji is one of the last of his species: an Entin. The Entin are rapidly reproducing caterpillars with a high libido and no sense of limitation. Any planet the Entin visit, they leave ravaged in their wake. They have been labeled a pest in need of extermination for eating entire continents worth of crops and terrorizing the local populace with late night techno raves. As a result, their kind has been bugsprayed to the brink of extinction."
+      },
+      {
+        "type": "paragraph",
+        "text": "Trying to better their ways, the remaining Entin have created the Order of Popae Monks on the fungi moon Pulvan. Fasting heavily they devote everything to their beloved deity: The Grand Space Butterfly!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Genji sinned with snacks and dirty literature however, and after repeated solitary cocoonfinements failed to make him better his ways, he was sent out on an emergency soul-cleansing pilgrimage through the galaxy."
+      },
+      {
+        "type": "paragraph",
+        "text": "Joining the Awesomenauts to cut back on the traveling costs of his journey, Genji has been the scourge of many a ship's pantry and is rumored to be the main reason some of the smaller more edible-looking 'naut recruits have gone missing."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "From the land of wind, fire, water, lightning and earth comes Kage Genji. Defending the village of the Hidden Cocoon from all forces that would oppose it, Kage Genji holds the highest religious rank an Entin disciple can attain. Are you a weary traveler looking for spiritual guidance? Then turn your clouded gaze to Kage Genji! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Genji a kimono based on Akatsuki kimono from the Naruto franchise, a chinese straw hat and a praying beads necklace. His butterfly staff is replaced by a bamboo one as well."
+      },
+      {
+        "type": "paragraph",
+        "text": "Genji the Grey wizard is not some conjurer of cheap tricks. He's a trusty companion for any questing party in need of his wisdom or his crafty smoke rings! Are you in need of some fireballs, wisdom and balrog smiting? Look no further than Genji the Grey! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin is obviously based on Gandalf the Grey from The Lord of the Rings novel and, as such, gives Genji the vests of a wizard, completed with a wizard hat with a butterfly-shaped buckle on it. The tip of his staff is a glowing crystal."
+      },
+      {
+        "type": "paragraph",
+        "text": "Although it's based on Gandalf there some other (possible) references to other media: Genji carries a giant scroll on his back, much like League of Legends' Ryze, while his beard is similar to Dumbledore, from the movie version of Harry Potter."
+      },
+      {
+        "type": "paragraph",
+        "text": "From the darkest reaches of space, the Void Moth comes to spreads its wings over all of creation. To aid him in his eternal struggle against the Space Butterfly, the Void Moth has sent out it's most powerful prophet, Grim Genji, to go forth and gather more souls for his master."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Genji in Awesomenauts, and comes with a fully customized voice set by Jesse Cox!"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you have not already unlocked the character, purchasing this DLC will do so."
+      },
+      {
+        "type": "paragraph",
+        "text": "Grim Genji was designed by community member Li Yang 'Xethoz' Lim for the Design-a-skin competition and was chosen by the community as the most awesome concept from more than 250 submissions! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Genji the looks of the Grim Reaper: He has a skeletal body with exposed ribs, bony limbs and tusks. He wears a much darker team-colored cloak and has small bat wings on his back. He wields a scythe with glyphs etched on it, which he uses as a wand as usual."
+      },
+      {
+        "type": "paragraph",
+        "text": "A skull can be seen when he casts Monarch Blessing and unlike previous skins, he says lines when using Cocoon. Butterfly shot is replaced with a flying skull instead of the usual butterfly (with the Storm Drum cloud having flying bats on it as well)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with its own unique voice-acting."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Genji was the last 'naut to be animated by Kewn of Ronimo Games, before he started working on Swords & Soldiers II.",
+          "Genji's worship of the \"Grand Space Butterfly\" is based on Jesse Cox's mock deity, the Space Butterfly.",
+          "Genji's Kage skin and description are a reference to the popular manga and anime series, Naruto[22].",
+          "Genji the Grey's concept was originally created by forum user and artist \"EldridgeSandokan\"[23]",
+          "Grim Genji was part of the Awesomenauts Skin Contest 2014, where it won first place. It was designed by Li Yang \"Xethoz\" Lim. The original concept art can be seen below:"
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Tapping the jump button will keep you in the air for longer than just holding it down.",
+          "Genji is able to play a variety of roles. He can set up ganks, push droids or focus on supporting with shields and heals.",
+          "Bronco Yeast will help you counter abilities and upgrades with low damage, but high attack speed such as Timerift, Laser and Fire Breath.",
+          "While inside Cocoon, enemies are invulnerable to all sorts of external damage. Tell your allies to save their abilities for when the target comes out of it.",
+          "Cocoon will bounce off of walls and the ceiling until it hits the ground, a target, or it expires.",
+          "Be mindful of your teammates when using Cocoon or you may end up \"saving\" your enemies from abilities such as Black Hole Sun or Explode.",
+          "Cocoon is able to interrupt some enemy abilities, such as Self-Destruct, Nuke and Snipe.",
+          "Cocoon is one of the most versatile abilities in the game. It can be used to secure a kill, allowing your teammates time to proper position themselves against the victim, as an escape mechanism or (with the proper upgrades) as a powerful pushing tool. Experiment with different upgrades to find your playstyle.",
+          "Despite being a crowd control effect, Cocoon will ignore cc-immunity shields.",
+          "Cocoon can be reflected. It might be useful to cast it anyway, to shield yourself from enemy damage.",
+          "Space-Hippo Manure Incense is applied to structures at reduced damage.",
+          "Caterpillar King Statue heals Awesomenauts only, don't bother using it on droids.",
+          "Storm Drum spawns at the maximum range of Butterfly Shot. To avoid overshooting droids with it when farming, fly above them and fire downwards so that the cloud spawns on the ground.",
+          "Storm Drum clouds affect a large area around them and ignore terrain. It is possible to kill an enemy hiding behind a turret with it.",
+          "When an enemy is cocooned, use Storm Drum right before they exit the cocoon to ensure they'll take the extra damage."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Be close to Genji whenever possible so that he can more easily shield you.",
+          "You might wanna save your more powerful abilities for after Genji uses his Cocoon, so that it is not wasted. With proper team coordination, it can be a very powerful ganking tool.",
+          "Do your best to protect Genji from his enemies: He has poor acceleration specially without boots. Cocoon is the only way he has for stopping enemies that may kill him. He's particularly vulnerable to ganks."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Avoid staying in a line with your team when facing a Genji, since his autoattack has innate piercing. This way you won't take as much damage as a group.",
+          "Genji has average speed and poor acceleration, especially before buying boots, making him easier to chase and land abilities on.",
+          "Monarch Blessing will reduce damage taken by a significant percentage. Consider saving your more powerful abilities for when the shield duration ends.",
+          "Genji can play many different roles in a match. Use the score screen (Tab on keyboards, back/select on controllers) to see what upgrades he has purchased and plan accordingly.",
+          "Being a projectile, cocoon is susceptible to reflect and deflect mechanics.",
+          "If you see Genji's staff glowing, it means that Storm Drum is ready. Try to bait out an attack so he wastes it.",
+          "Silencing Genji before he can use his powerful abilities can greatly assist in bringing him down.",
+          "Netting Genji away from his team and using much CC on him is a very good way to shut him down, because other than his abilities he has poor escape mechanics, especially when ganged up on.",
+          "The best way to trap Genji is by using hard CC abilities, such as snares and stuns. Due to his low acceleration, throws, heavy knockback, and stuns will keep him in one place better."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/characterrender-genji-2f9e717e.webp",
+      "source_name": "CharacterRender genji.png",
+      "alt": "CharacterRender genji",
+      "width": 512,
+      "height": 692,
+      "format": "WEBP",
+      "sha256": "2f9e717e6bca1831f7b69647e8a09296155e6641be8e26d84430176ccabd730a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-butterfly-cocoon-bf60eeb8.webp",
+      "source_name": "Ui skillbutton butterfly cocoon.png",
+      "alt": "Ui skillbutton butterfly cocoon",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "bf60eeb83e37d66b53f1efcdf7a12765178b55196b3656e4459537aaac112f05",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-butterfly-shoot-664e1d4a.webp",
+      "source_name": "Ui skillbutton butterfly shoot.png",
+      "alt": "Ui skillbutton butterfly shoot",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "664e1d4a33c38215e64fbe64adec7e2c8310a22716ce8f4f4a9ed9267d77d632",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-butterfly-blessing-7564a52e.webp",
+      "source_name": "Ui skillbutton butterfly blessing.png",
+      "alt": "Ui skillbutton butterfly blessing",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "7564a52e08893a05e6b50c299548900042f24a83f55322031f8e391e0afcdcbc",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-butterfly-jump-c836e83e.webp",
+      "source_name": "Ui skillbutton butterfly jump.png",
+      "alt": "Ui skillbutton butterfly jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "c836e83e72627251cb8951dec4754ee5cd590d702b2fba5c6648e6430b5d18a1",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-butterfly-skill-b-upgrade-a-2a586f67.webp",
+      "source_name": "Shop icons butterfly skill b upgrade a.png",
+      "alt": "Shop icons butterfly skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2a586f67f7f8a46103de4a4d0e6c15adfae9e9262fc9fec4bbbb1b9e9eb9514d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-butterfly-skill-b-upgrade-c-9b0b87ce.webp",
+      "source_name": "Shop icons butterfly skill b upgrade c.png",
+      "alt": "Shop icons butterfly skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9b0b87ce04da226154417a83c40941f85a624889f5a8bf3d02289ff3f3cb7809",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-butterfly-skill-b-upgrade-f-14cc1af3.webp",
+      "source_name": "Shop icons butterfly skill b upgrade f.png",
+      "alt": "Shop icons butterfly skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "14cc1af38cf802b9702816a0e130f130b7390fcfe4bd1b6d6de2ac55752e17fb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-butterfly-skill-b-upgrade-d-ee1a6ff7.webp",
+      "source_name": "Shop icons butterfly skill b upgrade d.png",
+      "alt": "Shop icons butterfly skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee1a6ff7ba49f6031a3eb714a11c38131e694481fd38e42a058048e3dd6fc375",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-butterfly-skill-b-upgrade-b-fe2688bf.webp",
+      "source_name": "Shop icons butterfly skill b upgrade b.png",
+      "alt": "Shop icons butterfly skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fe2688bf131ff580b412df7384f91731a880b5d83cfc002659ed18be4bc68f83",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-butterfly-skill-b-upgrade-e-26887ba2.webp",
+      "source_name": "Shop icons butterfly skill b upgrade e.png",
+      "alt": "Shop icons butterfly skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "26887ba28c93651ad5385ecb8f0d26ec0df58b35e3ba2069d1e57f83278a9bb6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-butterfly-skill-a-upgrade-c-35bb491c.webp",
+      "source_name": "Shop icons butterfly skill a upgrade c.png",
+      "alt": "Shop icons butterfly skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "35bb491ce1bea00bb87225260b1b12e9b13cdbb3aba3ccbfe382c321eeab907c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-butterfly-skill-a-upgrade-b-b76a0729.webp",
+      "source_name": "Shop icons butterfly skill a upgrade b.png",
+      "alt": "Shop icons butterfly skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b76a072929ae17935da06b6eb5a962c3628ff89de1d201360328089de7f6afdf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-butterfly-skill-a-upgrade-d-1fcfa84d.webp",
+      "source_name": "Shop icons butterfly skill a upgrade d.png",
+      "alt": "Shop icons butterfly skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1fcfa84d2519af86da468fd9150768d92ea07dd531e4a389ccd3408117fd1b44",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-butterfly-skill-a-upgrade-f-7e391881.webp",
+      "source_name": "Shop icons butterfly skill a upgrade f.png",
+      "alt": "Shop icons butterfly skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7e391881a1e646f83c23088c793973fbd51a5d928a7ec35441e6b56a35e9d6b5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-butterfly-skill-a-upgrade-e-d36f28a4.webp",
+      "source_name": "Shop icons butterfly skill a upgrade e.png",
+      "alt": "Shop icons butterfly skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d36f28a41160085e199fefa1e51555799e095bb013667edca423e989342ce43d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-butterfly-skill-a-upgrade-a-6148d9ab.webp",
+      "source_name": "Shop icons butterfly skill a upgrade a.png",
+      "alt": "Shop icons butterfly skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6148d9abece594d2a75f95e5dc14911332c5aedee0a809da9f3b5db7516c0417",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-butterfly-skill-c-upgrade-c-832ddef1.webp",
+      "source_name": "Shop icons butterfly skill c upgrade c.png",
+      "alt": "Shop icons butterfly skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "832ddef166830aec3d4153debecc2d5a4175347464eedea407c10b9a8d46d64f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-butterfly-skill-c-upgrade-f-395024d8.webp",
+      "source_name": "Shop icons butterfly skill c upgrade f.png",
+      "alt": "Shop icons butterfly skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "395024d839f42ebb50197e13ac0c2f8c8c24f30e5d72fecd6e4440f40db7b42f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-butterfly-skill-c-upgrade-b-ab69ca50.webp",
+      "source_name": "Shop icons butterfly skill c upgrade b.png",
+      "alt": "Shop icons butterfly skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ab69ca502ebc572828071582cd8e41c303ff4fd834897f913fdc17ecd33a7780",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-butterfly-skill-c-upgrade-d-ffb067bb.webp",
+      "source_name": "Shop icons butterfly skill c upgrade d.png",
+      "alt": "Shop icons butterfly skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ffb067bb5b9b36869af41823b8ce0feff33bcfbc9a5ceb83b6dfe97800676575",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-butterfly-skill-c-upgrade-e-eabe3710.webp",
+      "source_name": "Shop icons butterfly skill c upgrade e.png",
+      "alt": "Shop icons butterfly skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "eabe371095e8cbf653ba601ea6b3c30055569041f72f4dc2d162b6c0c6f52848",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-butterfly-skill-c-upgrade-a-1d3fb2e1.webp",
+      "source_name": "Shop icons butterfly skill c upgrade a.png",
+      "alt": "Shop icons butterfly skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1d3fb2e1d358373e4a13ec584aab401088c0f24313213ccb38c27c23826dc45a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/ui-minimap-player-butterfly-0-dfa5f4f9.webp",
+      "source_name": "Ui minimap player butterfly 0.png",
+      "alt": "Ui minimap player butterfly 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "dfa5f4f97928be4e7a6946559dad24a7a356b76d9bb37e600113096f1379c7ff",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/classicon-butterfly-281a079c.webp",
+      "source_name": "Classicon Butterfly.png",
+      "alt": "Classicon Butterfly",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "281a079ca744fc2466174548c854ab0bb7130b473269e35c6d54d739298d35da",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/characterrender-kage-genji-4f74365e.webp",
+      "source_name": "CharacterRender kage genji.png",
+      "alt": "CharacterRender kage genji",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "4f74365eddd55758c871a43fd378bee5f0265bbac2143470ff52f5527390f40b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/genji-dbdc71bc.webp",
+      "source_name": "Genji.png",
+      "alt": "Genji",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "dbdc71bc6c82862574704d447680c7bd08f27816ea89958f80c6191c0512c379",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/characterrender-butterfly-skin-grimgenji-redbg-676f7e3d.webp",
+      "source_name": "CharacterRender Butterfly Skin GrimGenji redBG.png",
+      "alt": "CharacterRender Butterfly Skin GrimGenji redBG",
+      "width": 180,
+      "height": 202,
+      "format": "WEBP",
+      "sha256": "676f7e3dd9682151813f927d1cd2db510d7909679198cebfb2f42c90afa3293f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/skincontest1-819ac6aa.webp",
+      "source_name": "Skincontest1.jpg",
+      "alt": "Click to enlarge.",
+      "width": 150,
+      "height": 150,
+      "format": "WEBP",
+      "sha256": "819ac6aa08bcc5a308346c3b542533f93945bf34d1bd736a4fd6fc065b3ffcdd",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_lazy_image",
+        "image": "Newgenjiingame.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/c/c3/Newgenjiingame.png/revision/latest?cb=20140126211636"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Base Genji Skin.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/8/8b/Base_Genji_Skin.png/revision/latest?cb=20140119233626"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Newkagegenjiingame.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/6/60/Newkagegenjiingame.png/revision/latest?cb=20140126211641"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Kage Genji Skin.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/d/df/Kage_Genji_Skin.png/revision/latest?cb=20140119234657"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Newgenjigrey.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/f/f4/Newgenjigrey.png/revision/latest?cb=20140126220113"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Genji the Gray Skin.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/5/57/Genji_the_Gray_Skin.png/revision/latest?cb=20140119234419"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Grimgenjiredingame.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/d/da/Grimgenjiredingame.png/revision/latest?cb=20140902093745"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Grimgenjiblueingame.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/3/32/Grimgenjiblueingame.png/revision/latest?cb=20140902093743"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Grim Genji Quotes"
+    ],
+    "status": "partial"
+  }
+}

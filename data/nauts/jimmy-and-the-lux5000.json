@@ -1,0 +1,879 @@
+{
+  "schema_version": 1,
+  "name": "Jimmy And The Lux5000",
+  "slug": "jimmy-and-the-lux5000",
+  "source": {
+    "filename": "Jimmy.And.The.Lux5000.-.Official.Awesomenauts.Wiki.10.10.2026.17.52.01.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Jimmy_And_The_Lux5000",
+    "sha256": "a22ded9dff42d51eed4aad44df69e925c51f35ef4779558a2d63af6ddabdaba8",
+    "size_bytes": 2484122
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1550 (2728)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Fighter"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Warrior",
+    "Type of abilities": "Damage over Time , Healing , Knockback , Lifesteal , Shield",
+    "Release Date": "March 2nd 2016"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "LUX Charge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/LUX_Charge",
+      "description": "Start charging into one direction to knock enemies back and deal damage per hit. Your movement speed increases and you receive a damage absorbing shield.",
+      "values": [
+        {
+          "label": "Damage Per Hit",
+          "value": "40 (62.8)"
+        },
+        {
+          "label": "Movement Speed",
+          "value": "+62%"
+        },
+        {
+          "label": "Cooldown",
+          "value": "9.5s"
+        },
+        {
+          "label": "Shield",
+          "value": "25%"
+        },
+        {
+          "label": "Duration",
+          "value": "2s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Rattle Smash",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rattle_Smash",
+      "description": "Jimmy smashes the LUX5000's rattle arms for damage. Each third smash unleashes a rattle area effect that deals an initial burst and three after bursts.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "105 (164.85)"
+        },
+        {
+          "label": "Attacks per second",
+          "value": "1.5"
+        },
+        {
+          "label": "Third smash damage",
+          "value": "150 (235.5)"
+        },
+        {
+          "label": "After bursts damage",
+          "value": "40 (62.8)"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Missile Barrage",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Missile_Barrage",
+      "description": "Go into the missile barrage mode and unleash long-ranged rockets unto your enemies, dealing damage. Press the button again to cancel the barrage.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "170 (266.9)"
+        },
+        {
+          "label": "Missiles",
+          "value": "4"
+        },
+        {
+          "label": "Cooldown",
+          "value": "10s"
+        },
+        {
+          "label": "Duration",
+          "value": "1.4s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Stroller-Jet Boost Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Stroller-Jet_Boost_Jump",
+      "description": "Stroller-jet boost jump.",
+      "values": [
+        {
+          "label": "Movement speed",
+          "value": "8"
+        },
+        {
+          "label": "Jump Height",
+          "value": "8.4"
+        },
+        {
+          "label": "Jump Duration",
+          "value": "0.5s"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Bovinian Breastmilk",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bovinian_Breastmilk",
+      "group": "LUX Charge",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Plutonium LUX Keys",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Plutonium_LUX_Keys",
+      "group": "LUX Charge",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Danger Pins",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Danger_Pins",
+      "group": "LUX Charge",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dirty Diapers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dirty_Diapers",
+      "group": "LUX Charge",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Flaming Stroller",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flaming_Stroller",
+      "group": "LUX Charge",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Castle Icecream Flavoured Pacifier",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Castle_Icecream_Flavoured_Pacifier",
+      "group": "LUX Charge",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Adventures In Rocketland",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Adventures_In_Rocketland",
+      "group": "Missile Barrage",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby's First Cage Fight",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby%27s_First_Cage_Fight",
+      "group": "Missile Barrage",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Robo Daddy And Robo Mommy",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Robo_Daddy_And_Robo_Mommy",
+      "group": "Missile Barrage",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Very Hungry Zurian",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Very_Hungry_Zurian",
+      "group": "Missile Barrage",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Micey The Mech-Pilot",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Micey_The_Mech-Pilot",
+      "group": "Missile Barrage",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Micey And The Missile Factory",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Micey_And_The_Missile_Factory",
+      "group": "Missile Barrage",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Flip Arm Add-On",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flip_Arm_Add-On",
+      "group": "Rattle Smash",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Steel Boxing Gloves",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Steel_Boxing_Gloves",
+      "group": "Rattle Smash",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Nano Repair Bots",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Nano_Repair_Bots",
+      "group": "Rattle Smash",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pop Out Cage",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pop_Out_Cage",
+      "group": "Rattle Smash",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Skullplate Trophy",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Skullplate_Trophy",
+      "group": "Rattle Smash",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fresh Sandpit Sand",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fresh_Sandpit_Sand",
+      "group": "Rattle Smash",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Stroller-Jet Boost Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Stroller-Jet Boost Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Stroller-Jet Boost Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Stroller-Jet Boost Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Stroller-Jet Boost Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Overdrive Gear",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Overdrive_Gear",
+      "group": "Stroller-Jet Boost Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Sir Jimmy Lionheart",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Overdrive expansion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sir Jimmy Lionheart and his sister, Lady Amy, are the finest knights in the realm. They've slain countless foes, laid waste to many invading armies, and are responsible for driving the dragons to extinction. Their prowess has become so legendary, that no opponent is foolish enough to challenge them or oppose the kingdom. After many centuries, peace finally rules in the realm."
+        },
+        {
+          "type": "paragraph",
+          "text": "But the Lionhearts are forged for battle, so after many years peace eventually grew boring. That's when they heard about the Awesomenauts, a band of mercenaries embroiled in perpetual war, and set off to a land far far away to once-again fight side by side."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Jimmy and the LUX5000 in Awesomenauts! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin replaces the LUX5000 with a suit of medieval armour, adorned with golden trim and various lion symbols. Jimmy and Amy are behind the mask and not visible. LUX's rattles are replaced with morning stars. The aiming line for Missile Barrage is given a new look and the missiles themselves are replaced with jousting lances. The explosions are shaped like lion heads. The skin also has a special teleport animation where the mask opens up to reveal Jimmy/Amy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Although this skin is not premium and doesn't have new voicelines, everything is played through a filter as if Jimmy/Amy were talking from inside a suit of armour."
+        }
+      ],
+      "assets": [
+        "asset-035"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Jimmy, Amy and the LUX5000 Toddletron are a mighty team. They have won numerous fights in robobrawls held in the many arenas and slums of Circuit City on Calias. The twins love to crush enemies and cause mayhem with the Toddletron's metal wrecking balls, which are basically two big rattles from their perspective. After each won fight Jimmy and Amy share a bottle of the finest Bovinian milk and watch cartoons before nap-time."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being big fans of the Awesomenauts they skipped the seasonal diaper league tournament and joined the team for some grown up fights."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Overdrive expansion."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sir Jimmy Lionheart and his sister, Lady Amy, are the finest knights in the realm. They've slain countless foes, laid waste to many invading armies, and are responsible for driving the dragons to extinction. Their prowess has become so legendary, that no opponent is foolish enough to challenge them or oppose the kingdom. After many centuries, peace finally rules in the realm."
+      },
+      {
+        "type": "paragraph",
+        "text": "But the Lionhearts are forged for battle, so after many years peace eventually grew boring. That's when they heard about the Awesomenauts, a band of mercenaries embroiled in perpetual war, and set off to a land far far away to once-again fight side by side."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Jimmy and the LUX5000 in Awesomenauts! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin replaces the LUX5000 with a suit of medieval armour, adorned with golden trim and various lion symbols. Jimmy and Amy are behind the mask and not visible. LUX's rattles are replaced with morning stars. The aiming line for Missile Barrage is given a new look and the missiles themselves are replaced with jousting lances. The explosions are shaped like lion heads. The skin also has a special teleport animation where the mask opens up to reveal Jimmy/Amy."
+      },
+      {
+        "type": "paragraph",
+        "text": "Although this skin is not premium and doesn't have new voicelines, everything is played through a filter as if Jimmy/Amy were talking from inside a suit of armour."
+      }
+    ],
+    "Awesomenaut Showcase": [
+      {
+        "type": "paragraph",
+        "text": "Showcase starts at 0:16 in the video, ends at 0:28."
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "The character concept of Jimmy and the LUX5000 was based on Ronimo Games lead artist Gijs' son, Lux.[7]",
+          "Jimmy is replaced by his sister Amy while on Blue team. This is only cosmetic, but it's very thorough. Amy's LUX wears a bow instead of a beanie cap on her sprite, splash art, and mini-map icon. The select screen name will show up as \"Amy and the LUX5000\" and typing in chat will display [Amy] next to your name. This makes them the first Awesomenaut to have different looks based on team (aside from color swapping) without the need of a skin. Because of the menu differences, hovering over Jimmy can tell you which team you're going to be on before the match starts. This makes Jimmy and Amy the first nauts to have blood relations with another 'naut (being siblings) along with Professor Milton Yoolip (who's related to his granddaughter Ayla).",
+          "Sir Jimmy Lionheart is the first non-premium skin to alter the character's voice. It's also the first non-premium skin to add a teleport animation to a 'Naut who didn't already have one.",
+          "Jimmy launched simultaneously alongside Professor Milton Yoolip and Chucho Krokk as part of Patch 3.0.",
+          "A voice clip of Jimmy is in the Awesomenauts Mega Mini Master Mix, making him the only one included who was not part of the 8 base nauts."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Like other 'nauts that can hover, tapping the jump button instead of holding it down will enable Jimmy to stay airborne for a longer period of time.",
+          "As Jimmy, you have access to a number of different ways to keep yourself alive: all your skills have shields or shield upgrades, and there are some options aimed at sustain as well.",
+          "Unlike with most skills, you have to hold down the button when using LUX Charge for it to run its full duration. Releasing the button prematurely interrupts the charge.",
+          "LUX Charge is a very versatile skill: it can be used to chase after enemies (be mindful of the knockback effect however), escape or putting enemies into nasty spots. Upgrades such as Plutonium LUX Keys or Dirty Diapers can make these tactics more effective.",
+          "You might wanna save your charge to push more dangerous enemies such as Clunk or Scoop away from your team. The knockback effect combined with the innate shield of the skill can provide you with some protection against melee.",
+          "Be very careful when using Missile Barrage as you have to stand still until it expires, or be forced to press the button again to cancel it earlier in order to escape. Upgrades like Robo Daddy And Robo Mommy and Micey The Mech-Pilot can minimize the risks involved in using the skill, however.",
+          "Missile Barrage is fired from slightly above your character (as opposed to the center, like most projectiles). This can make using it tricky in melee range and tight corridors, so stay mindful of the firing path.",
+          "Due to its good damage and long range, Missile Barrage can work as a powerful finisher.",
+          "Rattle Smash is very powerful. Particularly its third hit (rattle wave), but you have to keep the enemy within range of the wave in order to benefit from it.",
+          "Rattle Smash can be upgraded towards more survivability (Steel Boxing Gloves, Nano Repair Bots) or offense (Flip Arm Add-On, Skullplate Trophy), depending on your personal preference."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Use your crowd control effects to make it easier for Jimmy to land Missile Barrage and/or to make it harder for your enemies to escape it in the first place.",
+          "If Jimmy manages to trap and enemy or push them towards your team with LUX Charge, take advantage of it and help him finish them off."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "If possible, harass Jimmy from a safe distance and get them low. If you manage to force a retreat or make them waste their charge to escape, take the opportunity to push forward or even finish them off with more powerful skills.",
+          "Be careful when attacking Jimmy from behind as you may be pushed into his team by a LUX Charge This can be particularly deadly when in conjuction with other crowd control effects.",
+          "Silence greatly helps in bringing Jimmy down, as not only are a lot of his shields reliant on abilities, but he'll also be unable to charge away to safety.",
+          "Missile Barrage can make Jimmy hard to approach, but it can be rewarding if you can safely do so, as he can't move during it."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/warriorcharselect-3b92304f.webp",
+      "source_name": "Warriorcharselect.png",
+      "alt": "Warriorcharselect",
+      "width": 512,
+      "height": 401,
+      "format": "WEBP",
+      "sha256": "3b92304f6b0d0ae85497586f9f224197b762003a46fe9a0fa6a512dd3331eb99",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-warrior-charge-5efc485b.webp",
+      "source_name": "UI Skillbutton Warrior Charge.png",
+      "alt": "UI Skillbutton Warrior Charge",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5efc485b27040d0121d2f49c6f854a6a2231b1ee66b4bea09942236f9116d22b",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-warrior-attack-036fb5a4.webp",
+      "source_name": "UI Skillbutton Warrior Attack.png",
+      "alt": "UI Skillbutton Warrior Attack",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "036fb5a493cec612db45a8a99657c6c71b4d64dc3529dfefc26d2a8545507056",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-warrior-barrage-5bcfbbf2.webp",
+      "source_name": "UI Skillbutton Warrior Barrage.png",
+      "alt": "UI Skillbutton Warrior Barrage",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5bcfbbf215177a5f82168a7eebbf14c27395ade099ff53d3f52fed6e58ad5726",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-warrior-jump-efa93411.webp",
+      "source_name": "UI Skillbutton Warrior Jump.png",
+      "alt": "UI Skillbutton Warrior Jump",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "efa93411fcc41a5a15e30c3108627d5fd3ede6b2acb41867ad58efd0af40f8a7",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-warrior-skill-a-upgrade-a-9aea8367.webp",
+      "source_name": "Shop Icons Warrior skill a upgrade a.png",
+      "alt": "Shop Icons Warrior skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9aea8367e55cf106130e0406f4c969ec474ee05730df1d9c5ea70bd06edf91f9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-warrior-skill-a-upgrade-b-42b7a69c.webp",
+      "source_name": "Shop Icons Warrior skill a upgrade b.png",
+      "alt": "Shop Icons Warrior skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "42b7a69c8952718d761bfec8a6f976de9b6308cb9b4da05cc96f4450cf39e03c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-warrior-skill-a-upgrade-d-48553422.webp",
+      "source_name": "Shop Icons Warrior skill a upgrade d.png",
+      "alt": "Shop Icons Warrior skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4855342291f4dca1ad15df84a7b91772afc1c1084be313116aacbe04ba008aa0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-warrior-skill-a-upgrade-c-8337f680.webp",
+      "source_name": "Shop Icons Warrior skill a upgrade c.png",
+      "alt": "Shop Icons Warrior skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8337f6802aeabcc5f46573ea71183702b876aab4286a4c0427b8dbe851faefcd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-warrior-skill-a-upgrade-e-eeb11712.webp",
+      "source_name": "Shop Icons Warrior skill a upgrade e.png",
+      "alt": "Shop Icons Warrior skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "eeb1171216009ef55e162b4ed5997d5629fb56c01c168781328d8d9c1aa96ab8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-warrior-skill-a-upgrade-f-4bd57447.webp",
+      "source_name": "Shop Icons Warrior skill a upgrade f.png",
+      "alt": "Shop Icons Warrior skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4bd574473ace6484e2b112f985bcf106932275b913ea9596658491a0afc944de",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-warrior-skill-b-upgrade-a-cba70f59.webp",
+      "source_name": "Shop Icons Warrior skill b upgrade a.png",
+      "alt": "Shop Icons Warrior skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cba70f59cb7e5b605fe565cd16f55fe77d75f5337d9485870b2c9d7d399c2389",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-warrior-skill-b-upgrade-b-794b5c38.webp",
+      "source_name": "Shop Icons Warrior skill b upgrade b.png",
+      "alt": "Shop Icons Warrior skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "794b5c3800f8288d076d1c68501dc3b8c49bfe89dcf170176c1aec12a02fa438",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-warrior-skill-b-upgrade-c-68e3183f.webp",
+      "source_name": "Shop Icons Warrior skill b upgrade c.png",
+      "alt": "Shop Icons Warrior skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "68e3183fa1a344c9ece5ff89a50ec48f8bcd911976ea8d002afaba811c84acbf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-warrior-skill-b-upgrade-d-1d794626.webp",
+      "source_name": "Shop Icons Warrior skill b upgrade d.png",
+      "alt": "Shop Icons Warrior skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1d7946265430df699a30a93245534b504609c86ac8aba32979c4b097d6ae285e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-warrior-skill-b-upgrade-e-dbfab1b3.webp",
+      "source_name": "Shop Icons Warrior skill b upgrade e.png",
+      "alt": "Shop Icons Warrior skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "dbfab1b397a0d08bd72843319d9a79937a43ee8e4627716cfd700ef23e609e53",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-warrior-skill-b-upgrade-f-047c17bc.webp",
+      "source_name": "Shop Icons Warrior skill b upgrade f.png",
+      "alt": "Shop Icons Warrior skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "047c17bc0a2ec03336bd4696cbf15be523dcce0e55ea5a0e20ea37df4b617a8d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-warrior-skill-c-upgrade-a-b3c414eb.webp",
+      "source_name": "Shop Icons Warrior skill c upgrade a.png",
+      "alt": "Shop Icons Warrior skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b3c414ebe24440c2001b81d6e217fdf3990409549ba6c7ed5944a7e249757690",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-warrior-skill-c-upgrade-b-b19e7f71.webp",
+      "source_name": "Shop Icons Warrior skill c upgrade b.png",
+      "alt": "Shop Icons Warrior skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b19e7f71c486e14fc7c02b78ed9c4889d591445e9cb2b14a533b704c5e2ff8a3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-warrior-skill-c-upgrade-c-1c8b8392.webp",
+      "source_name": "Shop Icons Warrior skill c upgrade c.png",
+      "alt": "Shop Icons Warrior skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1c8b8392dd195c160446cf7aaef264e00dac0bff8bd68f66f967e3ab8b5ae5c3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-warrior-skill-c-upgrade-d-f031f227.webp",
+      "source_name": "Shop Icons Warrior skill c upgrade d.png",
+      "alt": "Shop Icons Warrior skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f031f227d15d71d5268774e9fbd3790146e63bb17839dab2eb913871c9dc5725",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-warrior-skill-c-upgrade-e-91bcf1cd.webp",
+      "source_name": "Shop Icons Warrior skill c upgrade e.png",
+      "alt": "Shop Icons Warrior skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "91bcf1cd9f814d99fabb61c59163431c03b4fa0779b84dea8a2ab260f8676a03",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-warrior-skill-c-upgrade-f-cd100943.webp",
+      "source_name": "Shop Icons Warrior skill c upgrade f.png",
+      "alt": "Shop Icons Warrior skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cd10094382e969548aaf7b19fe45b23f777f00e8b836d7b51573ef58d8160e08",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-overdrive-54a20e5d.webp",
+      "source_name": "Shop Icons Overall Overdrive.png",
+      "alt": "Shop Icons Overall Overdrive",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "54a20e5d68abbebd00e3b2a7b5973f52111c38c013f924d33c4ec22bf97e07e5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/jimmyingamered-73940ad0.webp",
+      "source_name": "Jimmyingamered.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 172,
+      "format": "WEBP",
+      "sha256": "73940ad0af3b36e2d43fb199dd159f6b978e69f1d9cf8ac861a7e23be0443728",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/amyingameblue-77128ec3.webp",
+      "source_name": "Amyingameblue.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 177,
+      "format": "WEBP",
+      "sha256": "77128ec3b71e06b4929821bd4f9d2c75d804f8e905ee8c6418fffcea6c3368af",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/sirjimmyingamered-bf79875a.webp",
+      "source_name": "Sirjimmyingamered.png",
+      "alt": "Sir Jimmy Lionheart.",
+      "width": 180,
+      "height": 184,
+      "format": "WEBP",
+      "sha256": "bf79875a5bf545984b9aef068580706f59baaa9c8f7ee59d9f986491ba9327e8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/ladyamyingameblue-f4932656.webp",
+      "source_name": "Ladyamyingameblue.png",
+      "alt": "Lady Amy Lionheart.",
+      "width": 180,
+      "height": 158,
+      "format": "WEBP",
+      "sha256": "f4932656e5bb80a351f6fc587dba592df66bb3211d22085267106a1fad1817d1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/classicon-warrior-93ddd7bc.webp",
+      "source_name": "Classicon Warrior.png",
+      "alt": "Classicon Warrior",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "93ddd7bc6d165ddff7cf397ee9b42c82d8174dc55cda3c9f025244dda94a58f4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/sirjimmysplash-2a3e9bc4.webp",
+      "source_name": "Sirjimmysplash.png",
+      "alt": "Sirjimmysplash",
+      "width": 200,
+      "height": 138,
+      "format": "WEBP",
+      "sha256": "2a3e9bc45383a9f11d59c623f69a09604a2d2c84528320cabbf6cac41ee5eca8",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_lazy_image",
+        "image": "Ui minimap player warrior 0.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/1/1a/Ui_minimap_player_warrior_0.png/revision/latest?cb=20160209221526"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Sir Jimmy Lionheart/Lady Amy quotes"
+    ],
+    "status": "partial"
+  }
+}

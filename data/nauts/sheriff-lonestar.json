@@ -1,0 +1,1192 @@
+{
+  "schema_version": 1,
+  "name": "Sheriff Lonestar",
+  "slug": "sheriff-lonestar",
+  "source": {
+    "filename": "Sheriff.Lonestar.-.Official.Awesomenauts.Wiki.10.10.2026.17.55.54.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Sheriff_Lonestar",
+    "sha256": "57fe3a9f4921909495c83dd2132c4973d6bfb3001d847a887da7c8074a0b89dd",
+    "size_bytes": 2690615
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1300 (2288)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.216"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Medium Range"
+    },
+    {
+      "label": "Role",
+      "value": "Fighter"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Cowboy",
+    "Type of abilities": "Slow , Lifesteal , Damage Over Time , Knockback",
+    "Release Date": "May 1st, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Dynamite Throw",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dynamite_Throw",
+      "description": "Lonestar is a great fan of shooting things, but sometimes bullets just won't cut it. So to make sure it stays down, Lonestar will chuck cigar-lit sticks of dynamite at his foes!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "140 (219.8)"
+        },
+        {
+          "label": "Dynamite",
+          "value": "3x"
+        },
+        {
+          "label": "Cooldown",
+          "value": "6"
+        },
+        {
+          "label": "Explosion Radius",
+          "value": "3.2"
+        },
+        {
+          "label": "Time",
+          "value": "0.7s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Blaster",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Blaster",
+      "description": "Even though it's a bit modern for his tastes, Lonestar has shot his way out of many a tight situation using his deadly and accurate space blaster!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "65 (102.05)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "166.7"
+        },
+        {
+          "label": "Range",
+          "value": "7.2"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Summon Hyper Bull",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Summon_Hyper_Bull",
+      "description": "To keep himself sharp, Lonestar trains with powerful holo-Bulls that knock anyone away. New fangled portable holo-tech allows him to turn his training program on his enemies!",
+      "values": [
+        {
+          "label": "Cooldown",
+          "value": "8s"
+        },
+        {
+          "label": "Speed",
+          "value": "8"
+        },
+        {
+          "label": "Health",
+          "value": "400 (704)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "428.6"
+        },
+        {
+          "label": "Knockback",
+          "value": "1.2"
+        },
+        {
+          "label": "Life Time",
+          "value": "2.6s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Double Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Double_Jump",
+      "description": "Using the simple thrusters he integrated into his classic cowboy boots, Lonestar can do an extra jump in mid-air. Handy for traversing mountains of wrangled Bovinions!",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "4.752"
+        },
+        {
+          "label": "Additional Jump Height",
+          "value": "4.752"
+        },
+        {
+          "label": "Jumps",
+          "value": "2 (3 Rocket Boots)"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Trinamite",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Trinamite",
+      "group": "Dynamite Throw",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mister TNT",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mister_TNT",
+      "group": "Dynamite Throw",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rubber Sleeve",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rubber_Sleeve",
+      "group": "Dynamite Throw",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bovinian Postcard",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bovinian_Postcard",
+      "group": "Dynamite Throw",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Transfusion Grenades",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Transfusion_Grenades",
+      "group": "Dynamite Throw",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Incendiary Bomb",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Incendiary_Bomb",
+      "group": "Dynamite Throw",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Super Breed 2.0",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Super_Breed_2.0",
+      "group": "Summon Hyper Bull",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cattle Rebooter",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cattle_Rebooter",
+      "group": "Summon Hyper Bull",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bull Charger",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bull_Charger",
+      "group": "Summon Hyper Bull",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ribbit Snail Slime",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ribbit_Snail_Slime",
+      "group": "Summon Hyper Bull",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Techno Viking Helmet",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Techno_Viking_Helmet",
+      "group": "Summon Hyper Bull",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mature Ribbit Snail Slime",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mature_Ribbit_Snail_Slime",
+      "group": "Summon Hyper Bull",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Eagle Bullets",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Eagle_Bullets",
+      "group": "Blaster",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cheetah Bullets",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cheetah_Bullets",
+      "group": "Blaster",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Missile",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Missile",
+      "group": "Blaster",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Crystal Eagle Bullets",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Crystal_Eagle_Bullets",
+      "group": "Blaster",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Booming Bullets",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Booming_Bullets",
+      "group": "Blaster",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Another Missile",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Another_Missile",
+      "group": "Blaster",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Double Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Double Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rocket Boots",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rocket_Boots",
+      "group": "Double Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Double Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Double Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Double Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Officer Lonestar",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Pull over buster! Freeze! The strong arm of the law has arrived and is gonna give you a ticket for looking horribly out of style in that old Cowboy attire! Your enemies will respect your authority if you upgrade your old Sheriff outfit with the new Officer Lonestar skin, and if they don't they'll be looking at four to five years in an intergalactic state penitentiary.\" - Official Steam Store Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lonestar wears the attire of a police officer, having his white hat replaced with a police hat, which has the Awesomenauts emblem on it. He also wears a pair of sunglasses, a shirt, a watch, and plain boots. His blaster is replaced with a modern pistol."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Holo-Bull has a siren on it's back and plays siren sounds when it is summoned."
+        }
+      ],
+      "assets": [
+        "asset-042"
+      ]
+    },
+    {
+      "name": "Private Mels",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mels is a cool kid that visited the Ronimo studio some months ago as part of a day that was organized for him by the Make-A-Wish Foundation. The Make-A-Wish Foundations is a non-profit organisation that grants wishes to children with life-threatening medical conditions, such as Mels. One of Mels' wishes was to experience and take part in the development process of a game, and we invited him to be part of Awesomenauts. We spent the day with Mels showing him how we make games and we also let him design a skin for his favorite character. This skin is the result of that day! We hope you like it Mels ;)"
+        },
+        {
+          "type": "paragraph",
+          "text": "All the revenue we receive from this skin between now and the end of the year will be donated to the Make-A-Wish Foundation, to help them grant more wishes to kids. - Official Steam Store description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Lonestar an urban camo vest, army helmet, glasses and gloves. He also wears team-colored body armor and a grenade belt and his blaster is replaced with a pistol with laser sights"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hyper Bull wears a helmet and is on tank threads."
+        }
+      ],
+      "assets": [
+        "asset-043"
+      ]
+    },
+    {
+      "name": "The Loninator",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hailing from an even more distant future than 3587, the Loninator has come to wrangle the Bovinion who would one day stop the rise of the Genetically Engineered Cowboy Overlords."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Sheriff Lonestar in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin is a robotic version of Lonestar based on The Terminator movie series. It is a metal body resembling a skeletal version of Lonestar with glowing eyes while keeping his trademark hat and jacket. It also maintains his facial hair. His arm and blaster are replaced by a minigun arm cannon with laser sight."
+        },
+        {
+          "type": "paragraph",
+          "text": "While his dynamite uses a new animation, the projectiles themselves are unaltered, being identical to the default version. His teleport animation is simplified to him raising his arm up, although it's accompanied by a new sound effect. Finally, his bull has a robotic look as well and making metallic sounds when spawned."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with its own custom voice set."
+        }
+      ],
+      "assets": [
+        "asset-044"
+      ]
+    },
+    {
+      "name": "Goldstar",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "No official description available."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Lonestar a differently colored cowboy vest: his hat is black with very dark tone of red/blue, his face is covered with a golden/bronze mask with a pink visor his jacket and glvoes are brown/silver, his shirt is red/blue and his sheriff badge is more well detailed. His belt has a different-looking buckle, his boots have stars instead of skulls on them and are brown/silver. His Blaster looks more advanced (blockier and with a different barrel), his Double Jump leaves behind a pink trail, his dynamites have golden details and explode into hexagon-shaped blasts and finally his hyper bull has golden armor, a sheriff badge and a helmet."
+        }
+      ],
+      "assets": [
+        "asset-045"
+      ]
+    }
+  ],
+  "sections": {
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "At the heart of the milky way lies the Bovinion system, ruled by a semi intelligent cow-like species. Although technologically advanced to an acceptable level, these Bovinions have maintained a tribal form of society for several thousands of years. Until recent years, an age-old custom in this society was to scare young Bovinion calves with bogeyman stories about a scary cowboy. Naughty Bovinion calves would, as the story went, be caught by this cowboy's unrelenting lasso."
+      },
+      {
+        "type": "paragraph",
+        "text": "Recently, a wealthy Bovinion visionary opened up a park where visitors would come to see a genetically re-engineered cowboy in action. But disaster struck and the cowboy escaped his cage. Before the Bovinions could react the cowboy had wrangled the entire park staff. Terror shook the Bovinion civilization as the cowboy started to wrangle every single Bovinion on the planet! Suddenly the Bovinions found themselves out of their cities and wrangled into herds on green meadows by the whisky drinking, bucket spitting, yeeehaawing horror."
+      },
+      {
+        "type": "paragraph",
+        "text": "Once the entire Bovinion civilization had been wrangled, the cowboy, naming himself Sheriff Lonestar, rode a rocket ship into the sunset, his job complete. Now Sheriff Lonestar fights as a mercenary in the robot wars, combining his awesome cowboy-powers with high tech weaponry to earn some Solar to spend on whisky and cigars."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"Pull over buster! Freeze! The strong arm of the law has arrived and is gonna give you a ticket for looking horribly out of style in that old Cowboy attire! Your enemies will respect your authority if you upgrade your old Sheriff outfit with the new Officer Lonestar skin, and if they don't they'll be looking at four to five years in an intergalactic state penitentiary.\" - Official Steam Store Description"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lonestar wears the attire of a police officer, having his white hat replaced with a police hat, which has the Awesomenauts emblem on it. He also wears a pair of sunglasses, a shirt, a watch, and plain boots. His blaster is replaced with a modern pistol."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Holo-Bull has a siren on it's back and plays siren sounds when it is summoned."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mels is a cool kid that visited the Ronimo studio some months ago as part of a day that was organized for him by the Make-A-Wish Foundation. The Make-A-Wish Foundations is a non-profit organisation that grants wishes to children with life-threatening medical conditions, such as Mels. One of Mels' wishes was to experience and take part in the development process of a game, and we invited him to be part of Awesomenauts. We spent the day with Mels showing him how we make games and we also let him design a skin for his favorite character. This skin is the result of that day! We hope you like it Mels ;)"
+      },
+      {
+        "type": "paragraph",
+        "text": "All the revenue we receive from this skin between now and the end of the year will be donated to the Make-A-Wish Foundation, to help them grant more wishes to kids. - Official Steam Store description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Lonestar an urban camo vest, army helmet, glasses and gloves. He also wears team-colored body armor and a grenade belt and his blaster is replaced with a pistol with laser sights"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hyper Bull wears a helmet and is on tank threads."
+      },
+      {
+        "type": "paragraph",
+        "text": "Hailing from an even more distant future than 3587, the Loninator has come to wrangle the Bovinion who would one day stop the rise of the Genetically Engineered Cowboy Overlords."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Sheriff Lonestar in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin is a robotic version of Lonestar based on The Terminator movie series. It is a metal body resembling a skeletal version of Lonestar with glowing eyes while keeping his trademark hat and jacket. It also maintains his facial hair. His arm and blaster are replaced by a minigun arm cannon with laser sight."
+      },
+      {
+        "type": "paragraph",
+        "text": "While his dynamite uses a new animation, the projectiles themselves are unaltered, being identical to the default version. His teleport animation is simplified to him raising his arm up, although it's accompanied by a new sound effect. Finally, his bull has a robotic look as well and making metallic sounds when spawned."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with its own custom voice set."
+      },
+      {
+        "type": "paragraph",
+        "text": "No official description available."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Lonestar a differently colored cowboy vest: his hat is black with very dark tone of red/blue, his face is covered with a golden/bronze mask with a pink visor his jacket and glvoes are brown/silver, his shirt is red/blue and his sheriff badge is more well detailed. His belt has a different-looking buckle, his boots have stars instead of skulls on them and are brown/silver. His Blaster looks more advanced (blockier and with a different barrel), his Double Jump leaves behind a pink trail, his dynamites have golden details and explode into hexagon-shaped blasts and finally his hyper bull has golden armor, a sheriff badge and a helmet."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Lonestar is one of the \"original six\" Awesomenauts that came with the game when it first launched, along with Clunk, Froggy G, Leon, Voltar and Yuri.",
+          "Lonestar's \"futuristic cowboy\" theme and name are likely based on the late 80s cartoon, BraveStarr[11].",
+          "Lonestar is usually the first Awesomenaut used by new players, being the tutorial character.",
+          "Sheriff Lonestar's name is misspelled \"Sherriff\" on the official soundtrack. This even includes his extended music from Patch 3.0.",
+          "Private Mels' was a skin Ronimo Games made for Mels: a child who visited Ronimo Games as part of the Make-A-Wish foundation. Mels chose this skin for his favorite character: Lonestar.",
+          "The orange glow on Private Mels' splash art is a reference to the Battlefield[12] video game series.",
+          "Lonestar was the first 'naut to have unique boots.",
+          "Lonestar was the first Awesomenaut to be given a full graphical rework, which included all of his skins. It went live in Patch 3.0. He was also the first Awesomenaut to have his music extended in a later patch. Both his main theme and killing spree were extended in Patch 3.0.",
+          "Lonestar is one of the \"beginner nauts\" and, as such, is can be played for free by players who are below profile level 8.",
+          "With five unique skins including the default one, Lonestar is tied with Coco and Leon and for the most skins in the game."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Default skin (Pre-Overdrive).",
+          "Default skin. (Pre-Overdrive)",
+          "Officer Lonestar (Pre-Overdrive).",
+          "Officer Lonestar. (Pre-Overdrive)",
+          "Private Mels (Pre-Overdrive).",
+          "Private Mels. (Pre-Overdrive)",
+          "Loninator (Pre-Overdrive).",
+          "Loninator (Pre-Overdrive).",
+          "Lonestar minimap icon (Pre-Overdrive)."
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Lonestar isn't very fast, but has a lot of vertical mobility. Use the additional jump provided by Rocket Boots to confuse enemies and evade their attacks.",
+          "The Rubber Sleeve upgrade allows Lonestar to attack turrets and enemies from a much safer distance, as long as the turret is currently firing at something else.",
+          "Lonestar's Incendiary Bomb upgrade has a fire effect that is visible on enemies even when they are stealthed. This is useful against invisibility.",
+          "You can trap enemies between your bull and terrain or one of your turrets for massive damage. Techno Viking Helmet makes this tactic even deadlier.",
+          "Bull is very useful for clearing lanes of enemy traps such as Yuri's Mines.",
+          "Bull can be used as a scouting tool. If you suspect a hide area has an enemy or trap awaiting, send the bull in first so it grants vision to you and your team.",
+          "Even an unupgraded Bull can be effective at keeping enemies at bay, trapping them against a turret or even doing some early game pushing. This can be particularly useful against enemies that are dangerous up close, such as Leon, Clunk or Skølldir."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Distracting the enemy team may aid Lonestar in splitpushing turrets in different lanes. Be sure to send him a defend command if you suspect the enemy team is going after him or to call him if you need his help fending off the enemy attackers, though.",
+          "If Lonestar manages to push enemies into your team with bull, try and follow that up for a kill.",
+          "When teaming up with Lonestar, aid him in his bull + dynamite push to make it even more effective."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Lonestar can jump again mid-air (twice with his boots). Try to keep track of his jumps to attack him once he comes down.",
+          "Slowing effects reduce both movement speed and jump height. Use them to severely cripple Lonestar's mobility.",
+          "Rubber Sleeve will make dynamites bounce as high as Lonestar's position the moment he throws them. Use this to predict its pattern and avoid them more easily.",
+          "Lonestar's Dynamite explode on contact. Be careful when approaching him at melee range, as you may suddenly take more damage than you'd expect.",
+          "Lonestar's only means of pushing his enemies away is his bull. It's easier to attack him when it is on cooldown.",
+          "Always keep an eye on the minimap, as Lonestar excels at pushing. If he goes to another lane to kill droids, you might want to follow him to repel the push or chase him off."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/sherifflonestar-alpha-490f913e.webp",
+      "source_name": "SheriffLonestar Alpha.png",
+      "alt": "SheriffLonestar Alpha",
+      "width": 512,
+      "height": 756,
+      "format": "WEBP",
+      "sha256": "490f913e7f9d5488fe29fa4f71b5eaebc0cd4d50a240885f60202b5366536588",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-cowboy-grenade-360391bb.webp",
+      "source_name": "UI Skillbutton Cowboy Grenade.png",
+      "alt": "UI Skillbutton Cowboy Grenade",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "360391bbc11df3db53cd5c37bd6dfa23846cad4579a6c19a85db17e230e3839e",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-cowboy-attack-0583c5ad.webp",
+      "source_name": "UI Skillbutton Cowboy Attack.png",
+      "alt": "UI Skillbutton Cowboy Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "0583c5ad708b591327fdf0088dcedfe21a2ee1d741489c9b9e2f4c4eba4c59f6",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-cowboy-bull-9d644168.webp",
+      "source_name": "UI Skillbutton Cowboy Bull.png",
+      "alt": "UI Skillbutton Cowboy Bull",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "9d644168784e2a3a472465ee72ad69007768f2daa5821fc068e71c0571f46598",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-cowboy-jump-840031a3.webp",
+      "source_name": "UI Skillbutton Cowboy Jump.png",
+      "alt": "UI Skillbutton Cowboy Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "840031a3399b7647545c98f95e687695afdc56b105aff6f460303e67ba90bc74",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/skill-lonestar-an-extra-stick-730580d5.webp",
+      "source_name": "Skill Lonestar An extra stick!.png",
+      "alt": "Skill Lonestar An extra stick!",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "730580d59dc28d8103eeaf641758e424effc5b97c6cfb591d3738d02423c8895",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/skill-lonestar-mister-tnt-b95c31d5.webp",
+      "source_name": "Skill Lonestar Mister TNT.png",
+      "alt": "Skill Lonestar Mister TNT",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b95c31d54dce629596991776e0752fdf088db31ce81a67b0fafc153f14d2eb1a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/skill-lonestar-rubber-sleeve-f42b898d.webp",
+      "source_name": "Skill Lonestar Rubber sleeve.png",
+      "alt": "Skill Lonestar Rubber sleeve",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f42b898d2799b626737dd1771791c14cdbab67b8207eadef13db45e06b23d299",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-cowboy-bovinian-postcard-98cdabd0.webp",
+      "source_name": "Shop Icons Cowboy Bovinian Postcard.png",
+      "alt": "Shop Icons Cowboy Bovinian Postcard",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "98cdabd0aa41b727fb2869ef9c7b060efbf038ee2bdb35be8e4769341121bf33",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/skill-lonestar-transfusion-grenades-db716e8c.webp",
+      "source_name": "Skill Lonestar Transfusion grenades.png",
+      "alt": "Skill Lonestar Transfusion grenades",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "db716e8c0b0d291864674ac0ec9b666fc6d325360eb15f62a4a2e96c6e619b74",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-cowboy-grenade-mine-841b01da.webp",
+      "source_name": "Shop Icons Cowboy Grenade Mine.png",
+      "alt": "Shop Icons Cowboy Grenade Mine",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "841b01daca9ffb3744758226f77b1189f3ce3defb66a03559cdabbfe85a12276",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/skill-lonestar-super-breed-2-0-0ef98140.webp",
+      "source_name": "Skill Lonestar Super breed 2.0.png",
+      "alt": "Skill Lonestar Super breed 2.0",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0ef98140c89587514f523cfc2266ec996f7f0920cc09db95fe040fb1558f4b41",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/skill-lonestar-cattle-rebooter-9a124b0c.webp",
+      "source_name": "Skill Lonestar Cattle rebooter.png",
+      "alt": "Skill Lonestar Cattle rebooter",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9a124b0cfb8621c625998ff48eb72052d479155ddf10bfd54867b12af57ce530",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/skill-lonestar-bull-charger-30c6dddd.webp",
+      "source_name": "Skill Lonestar Bull charger.png",
+      "alt": "Skill Lonestar Bull charger",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "30c6dddd73935851c8393358060a949cec9432405ab5221ca2fd529916a9ab82",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/skill-lonestar-ribbit-snail-slime-56a8c6af.webp",
+      "source_name": "Skill Lonestar Ribbit snail slime.png",
+      "alt": "Skill Lonestar Ribbit snail slime",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "56a8c6af709ad7ae9f23070cefad97c79cc0e324d09b7241a62d13e6195fb675",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/skill-lonestar-techno-viking-helmet-e837b631.webp",
+      "source_name": "Skill Lonestar Techno viking helmet.png",
+      "alt": "Skill Lonestar Techno viking helmet",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e837b631a840c4f8286d6b21f8b5ce5b50a633e9e5a68b5217fbb007a26699bc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/skill-lonestar-mature-ribbit-snail-slime-a20c19f8.webp",
+      "source_name": "Skill Lonestar Mature Ribbit snail slime.png",
+      "alt": "Skill Lonestar Mature Ribbit snail slime",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a20c19f83af9d1ec81c2da7eb81a13b181f3df2d884ff08be4d1e1b03799bdb2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/skill-lonestar-eagle-bullets-df2cad33.webp",
+      "source_name": "Skill Lonestar Eagle bullets.png",
+      "alt": "Skill Lonestar Eagle bullets",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "df2cad3340d53d7328dfdbc6c864cde1d9cffffa9a6247606cc614ac42c6a430",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/skill-lonestar-cheetah-bullets-d37148cf.webp",
+      "source_name": "Skill Lonestar Cheetah bullets.png",
+      "alt": "Skill Lonestar Cheetah bullets",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d37148cf77508098cf32703a68b981b404a33e3e0e65390336c28c235def7fce",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/skill-lonestar-missile-4653954e.webp",
+      "source_name": "Skill Lonestar Missile.png",
+      "alt": "Skill Lonestar Missile",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4653954e023eace05299387d29e45368d855fa8bf9a4d92cb9e2ed0dcf309c21",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/skill-lonestar-crystal-eagle-bullets-243107cc.webp",
+      "source_name": "Skill Lonestar Crystal eagle bullets.png",
+      "alt": "Skill Lonestar Crystal eagle bullets",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "243107cc4fb7246bc941edc6240c91d7f6b4f19b035701d8f156f53725e3c868",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/skill-lonestar-booming-bullets-49b53e21.webp",
+      "source_name": "Skill Lonestar Booming bullets.png",
+      "alt": "Skill Lonestar Booming bullets",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "49b53e2178aba18d7a0eacf8088cd5b10d09ca3df39c51bbdb84a36a10aa569b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/skill-lonestar-another-missile-b96ebec6.webp",
+      "source_name": "Skill Lonestar Another Missile.png",
+      "alt": "Skill Lonestar Another Missile",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b96ebec67f5381c1a67df1ecb24935a3426d9b701b3b176886d5f1c85ec3f4eb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-lonestar-rocket-boots-26dffc85.webp",
+      "source_name": "Upgrade Lonestar Rocket boots.png",
+      "alt": "Upgrade Lonestar Rocket boots",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "26dffc8544a77bcaabf85c7377d6f9c8558e4af0b2ce0b4c2449d36d8db25e7e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/30lonestaringamered-baf0206b.webp",
+      "source_name": "30lonestaringamered.png",
+      "alt": "Default skin.",
+      "width": 146,
+      "height": 167,
+      "format": "WEBP",
+      "sha256": "baf0206b3a5e9e78b406216144b39da6ac7acee93a63f29092420430512a8b60",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/30lonestaringameblue-e81c8d70.webp",
+      "source_name": "30lonestaringameblue.png",
+      "alt": "Default skin.",
+      "width": 150,
+      "height": 169,
+      "format": "WEBP",
+      "sha256": "e81c8d7045f041495defc32461ad09008512ea89381e8007755a231f0f8ac18e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/30officerlonestaringamered-53ed0f07.webp",
+      "source_name": "30officerlonestaringamered.png",
+      "alt": "Officer Lonestar.",
+      "width": 149,
+      "height": 167,
+      "format": "WEBP",
+      "sha256": "53ed0f07d23bc7a157eaa9d3fc43ce8993c9e1aab1f8dd1ba911954f52808851",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/30officerlonestaringameblue-4ae9272d.webp",
+      "source_name": "30officerlonestaringameblue.png",
+      "alt": "Officer Lonestar.",
+      "width": 147,
+      "height": 167,
+      "format": "WEBP",
+      "sha256": "4ae9272dde659caec2d3eb9f1dc4dff8b1a48a5e77d1b35509ba8eafc88c5f3a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/30privatemelsingamered-fd458e3e.webp",
+      "source_name": "30privatemelsingamered.png",
+      "alt": "Private Mels.",
+      "width": 164,
+      "height": 173,
+      "format": "WEBP",
+      "sha256": "fd458e3e45b72d8547afa7d477c519aa68e16f722ba48e7ecfa093b4d71b1a42",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/30privatemelsingameblue-bae9192d.webp",
+      "source_name": "30privatemelsingameblue.png",
+      "alt": "Private Mels.",
+      "width": 160,
+      "height": 169,
+      "format": "WEBP",
+      "sha256": "bae9192d0c1c5fecadb7a0dc90eb9ee432f818f72709525d27fd08edccc3e815",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/30loninatoringamered-ad464f95.webp",
+      "source_name": "30loninatoringamered.png",
+      "alt": "Loninator.",
+      "width": 152,
+      "height": 169,
+      "format": "WEBP",
+      "sha256": "ad464f95bc006dbfc6f07729068ced8e6722227b7ab8f2620b0e7b83bf0a031c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/30loninatoringameblue-9b685de0.webp",
+      "source_name": "30loninatoringameblue.png",
+      "alt": "Loninator.",
+      "width": 158,
+      "height": 169,
+      "format": "WEBP",
+      "sha256": "9b685de07ef78f0eb83d943afa767a55e5a73a621f82e369eedd7dd8db42e9ef",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/goldstaringamered-60e20490.webp",
+      "source_name": "Goldstaringamered.png",
+      "alt": "Goldstar.",
+      "width": 144,
+      "height": 168,
+      "format": "WEBP",
+      "sha256": "60e20490a1d00aef3fd126c74c08612635e530cd0c107779d1febdb7d0903512",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/goldstaringameblue-8386a2be.webp",
+      "source_name": "Goldstaringameblue.png",
+      "alt": "Goldstar.",
+      "width": 145,
+      "height": 170,
+      "format": "WEBP",
+      "sha256": "8386a2beb267c8d0735360478f499048f3592f691545021258d9992aa959c6b7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/ui-minimap-player-newcowboy-0-ce3b0068.webp",
+      "source_name": "Ui minimap player newcowboy 0.png",
+      "alt": "Ui minimap player newcowboy 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "ce3b00683612184b59f12be468b74d306068475f71ad36a6f423a0e94b728962",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/classicon-cowboy-c37cbd5b.webp",
+      "source_name": "Classicon Cowboy.png",
+      "alt": "Classicon Cowboy",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "c37cbd5ba707776504599ae58b4f6e8f840d24822a57d6f1f6f979c5e6363d6d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/characterrender-lonestar-skin-cop-redbg-6be49370.webp",
+      "source_name": "CharacterRender Lonestar Skin Cop redBG.png",
+      "alt": "CharacterRender Lonestar Skin Cop redBG",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "6be493708b061bb08ab480b518e9315dbf19e227e8100089a795d59ef7f71aeb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/ui-portraitcharacter-cowboybody003-0ef9f901.webp",
+      "source_name": "UI PortraitCharacter CowboyBody003.png",
+      "alt": "UI PortraitCharacter CowboyBody003",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "0ef9f90196f159c96308fd9766695e39603f2b1dc4c19d808c4186deab838f16",
+      "storage": "src"
+    },
+    {
+      "id": "asset-044",
+      "path": "assets/characterrender-lonestar-skin-lonelynator-1426a8cd.webp",
+      "source_name": "CharacterRender Lonestar Skin Lonelynator.png",
+      "alt": "CharacterRender Lonestar Skin Lonelynator",
+      "width": 180,
+      "height": 224,
+      "format": "WEBP",
+      "sha256": "1426a8cd946a112adbfd1e8366d2a84af1d1c101c2afda008a09466646a0cbae",
+      "storage": "src"
+    },
+    {
+      "id": "asset-045",
+      "path": "assets/lonestar-005-gold-9a1bed5b.webp",
+      "source_name": "Lonestar 005 Gold.png",
+      "alt": "Lonestar 005 Gold",
+      "width": 200,
+      "height": 247,
+      "format": "WEBP",
+      "sha256": "9a1bed5bdf6cd270053839191e7fcb2070b8d97f665dfb2db4d3fa41301feee9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-046",
+      "path": "assets/lonestaringame-d869b520.webp",
+      "source_name": "Lonestaringame.png",
+      "alt": "Default skin (Pre-Overdrive).",
+      "width": 98,
+      "height": 104,
+      "format": "WEBP",
+      "sha256": "d869b5208503a9ae38f079e82b46baee7c9f04635e954907cacceb807ac0c93e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-047",
+      "path": "assets/base-lonestar-skin-aa590895.webp",
+      "source_name": "Base Lonestar Skin.png",
+      "alt": "Default skin. (Pre-Overdrive)",
+      "width": 94,
+      "height": 119,
+      "format": "WEBP",
+      "sha256": "aa590895609928c35cdeb59c646e2fe05d0495c6deec69bb1c57cd0adbd9261b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-048",
+      "path": "assets/lonestarskin-df2e30d2.webp",
+      "source_name": "Lonestarskin.jpg",
+      "alt": "Officer Lonestar (Pre-Overdrive).",
+      "width": 101,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "df2e30d2722d0e8e3e94045baff306acd22efc96c8cb67cd6c3ea441a01c051d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-049",
+      "path": "assets/sheriff-lonestar-skin-e75bf28e.webp",
+      "source_name": "Sheriff Lonestar Skin.png",
+      "alt": "Officer Lonestar. (Pre-Overdrive)",
+      "width": 104,
+      "height": 112,
+      "format": "WEBP",
+      "sha256": "e75bf28ea46c8a82baf86a01358aca6ba13658ae5360966a8f33ffc90be87cfb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-050",
+      "path": "assets/melsingame-ce4e2bd9.webp",
+      "source_name": "Melsingame.png",
+      "alt": "Private Mels (Pre-Overdrive).",
+      "width": 91,
+      "height": 108,
+      "format": "WEBP",
+      "sha256": "ce4e2bd96bddeda96ddc76440e198694cd5b157d76979b46745f64c2ba84597d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-051",
+      "path": "assets/yetibluemels-289c8862.webp",
+      "source_name": "YetiBlueMELS.jpg",
+      "alt": "Private Mels. (Pre-Overdrive)",
+      "width": 101,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "289c88624895181613b1edd0fe59ac02ad847060ac089a976af956f462c91482",
+      "storage": "src"
+    },
+    {
+      "id": "asset-052",
+      "path": "assets/loninatoringamered-0a034b68.webp",
+      "source_name": "Loninatoringamered.png",
+      "alt": "Loninator (Pre-Overdrive).",
+      "width": 114,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "0a034b68305489efc7092f4bb00b4d2e2e7d78d78299b7af82d253751e0c32ad",
+      "storage": "src"
+    },
+    {
+      "id": "asset-053",
+      "path": "assets/loninatoringameblue-692ec248.webp",
+      "source_name": "Loninatoringameblue.png",
+      "alt": "Loninator (Pre-Overdrive).",
+      "width": 117,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "692ec2487ad7c970ca70c578563693f98abbbce8510da6e2f1251a13404cfd85",
+      "storage": "src"
+    },
+    {
+      "id": "asset-054",
+      "path": "assets/ui-minimap-player-cowboy-0-fda7efb9.webp",
+      "source_name": "Ui minimap player cowboy 0.png",
+      "alt": "Lonestar minimap icon (Pre-Overdrive).",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "fda7efb98952f0ba44c1895c2580849815ee5fad378a4c749c99713c692c49ff",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Loninator Quotes"
+    ],
+    "status": "extracted"
+  }
+}

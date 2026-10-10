@@ -1,0 +1,1106 @@
+{
+  "schema_version": 1,
+  "name": "Penny Fox",
+  "slug": "penny-fox",
+  "source": {
+    "filename": "Penny.Fox.-.Official.Awesomenauts.Wiki.10.10.2026.17.54.00.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Penny_Fox",
+    "sha256": "ef4bdfe3955e4f81bb7c31a67c7d6022279c388a984f38ce8a8c465f2203d6f3",
+    "size_bytes": 2815275
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1250 (2200)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.1"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee/Ranged"
+    },
+    {
+      "label": "Role",
+      "value": "Assassin"
+    },
+    {
+      "label": "Mobility",
+      "value": "Swift"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Hard",
+    "Development Name": "Assassin",
+    "Type of abilities": "Amplify Damage , Stun , Area of Effect , Knockback , Charges , Silence , Healing",
+    "Release Date": "April 10th 2014"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Pounce",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pounce",
+      "description": "Consume up to 4 charges to charge forward, knocking back enemies you come in contact with. Each charge increases the range, knockback and damage.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "87 (136.59)"
+        },
+        {
+          "label": "Damage per charge",
+          "value": "+48 (75.36) per charge"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7s"
+        },
+        {
+          "label": "Distance",
+          "value": "9 | 10.26 | 11.6 | 13.02"
+        },
+        {
+          "label": "Stun Duration",
+          "value": "0.4s"
+        },
+        {
+          "label": "Knockback",
+          "value": "0.6 | 0.8 | 0.95 | 1"
+        },
+        {
+          "label": "Area of Effect",
+          "value": "5"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Claw",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Claw",
+      "description": "Penny strikes with her claw awarding a charge when hitting an enemy. Max 4 charges.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "88 (138.16)"
+        },
+        {
+          "label": "Attacks per second",
+          "value": "2"
+        },
+        {
+          "label": "Range",
+          "value": "3.2"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Energy Pulse",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Energy_Pulse",
+      "description": "Consume up to 4 charges to shoot a piercing energy pulse that amplifies damage. Each charge increases the damage.",
+      "values": [
+        {
+          "label": "Damage per charge",
+          "value": "90 (141.3) per charge"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7s"
+        },
+        {
+          "label": "Range",
+          "value": "5.5"
+        },
+        {
+          "label": "Amplify Damage",
+          "value": "+10%"
+        },
+        {
+          "label": "Amplify Duration",
+          "value": "3.5s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Leap",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Leap",
+      "description": "Being super agile, Penny can leap up to perform a triple jump.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "9 (11 Foxy Boots)"
+        },
+        {
+          "label": "Additional Jump Height",
+          "value": "4"
+        },
+        {
+          "label": "Jumps",
+          "value": "3 (4 Foxy Boots)"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Electric Bike Lock",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Electric_Bike_Lock",
+      "group": "Pounce",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Zurian Mechanic",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Zurian_Mechanic",
+      "group": "Pounce",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Photovoltaic Lightning Charger",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Photovoltaic_Lightning_Charger",
+      "group": "Pounce",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Big Bang Horn",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Big_Bang_Horn",
+      "group": "Pounce",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Volatile Wheels",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Volatile_Wheels",
+      "group": "Pounce",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Stunt Helmet",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Stunt_Helmet",
+      "group": "Pounce",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Scout Binoculars",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Scout_Binoculars",
+      "group": "Energy Pulse",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Death Lens",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Death_Lens",
+      "group": "Energy Pulse",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bug Jars",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bug_Jars",
+      "group": "Energy Pulse",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sentient Rock",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sentient_Rock",
+      "group": "Energy Pulse",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chicken In Lunchbox",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chicken_In_Lunchbox",
+      "group": "Energy Pulse",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Heartshaped Net",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Heartshaped_Net",
+      "group": "Energy Pulse",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Nine Tails Badge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Nine_Tails_Badge",
+      "group": "Claw",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cookie Monster Badge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cookie_Monster_Badge",
+      "group": "Claw",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Living Treasure Map Badge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Living_Treasure_Map_Badge",
+      "group": "Claw",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Spiderbird Collector Badge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spiderbird_Collector_Badge",
+      "group": "Claw",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Herring Snack Badge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Herring_Snack_Badge",
+      "group": "Claw",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Grey Man Group Badge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Grey_Man_Group_Badge",
+      "group": "Claw",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Leap",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Leap",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Foxy Boots",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Foxy_Boots",
+      "group": "Leap",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Leap",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Leap",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Starstorm Statue",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Starstorm_Statue",
+      "group": "Leap",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Desperado Penny",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A stranger arrives on horseback at the border town of San Soleres, at the outskirts of the Raki star system. She is taciturn, watchful, and incredibly fast and accurate with her gun, able to outdraw and kill four bandits, out for blood and a quick solar buck, with startling ease. The innkeeper, Silvanito, asks the Stranger to stay in town, offer protection, become the Sherriff. The Stranger politely declines: \"I can never call any town home. I'm a drifter, a lone gunfighter. A desperado.\" - Official Steam Store Description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Penny cowboy clothes, with a poncho and a cowboy hat with a bullet hole. She also has a scar on one of her eyes and is missing a piece of her ear. Her claw glove is replaced by a metallic claw hand, Pounce's flaming fox image is wearing a handkerchief and also has a scarred eye and Energy Pulse becomes similar to a bullet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Her wrist-mounted gun is replaced by a magnum revolver which she uses to shoot bullet-shaped energy shots."
+        }
+      ],
+      "assets": [
+        "asset-030"
+      ]
+    },
+    {
+      "name": "Cheerleader Penny",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "2, 4, 6, 8"
+        },
+        {
+          "type": "paragraph",
+          "text": "Who do we appreciate?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Say it Loud!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Say it proud!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Goooo Awesomenauts! - Official Steam Store Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Penny a cheerleader attire, complete with a miniskirt, a crop top, tennis shoes. She also has a teddy bear, ponytail and a bow on her hair. Her claw glove is replaced by a pon pon, Pounce's flaming fox image wears a football helmet and leaves a flower trail behind her and Energy Pulse looks similar to a pon pon and also leaves a flower trail as it moves."
+        },
+        {
+          "type": "paragraph",
+          "text": "Her wrist-mounted gun is replaced by a ribbon which she uses to shoot flowers."
+        }
+      ],
+      "assets": [
+        "asset-031"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "As an honorary Star Scout, Penny's lifestyle was one of exploration and adventure. During her years out scout-badge-hunting among the stars on her trusty space-scooter, she saw many wonderous places and lifeforms."
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the many hobbies that developed during these years, is the collecting and stuffing in jars of those same wonderous lifeforms and various other doodads. Cataloguing and archiving everything in neatly labeled containers for her own private collection is something Penny takes great pride in."
+      },
+      {
+        "type": "paragraph",
+        "text": "While adding the latest uncooperative alien lifeform to her jar collection, she contemplated the meaning of life, the universe and everything. Looking back on all those innocently staring eyes from the rows upon rows of jars, Penny realised that there was so much more a sole Star Scout could do with a butterfly net! She swore a vow on scout's honor to stuff the galaxy's evil doers into her jars, making the universe a better place for the cute and the cuddly!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Without a second thought she jumped on her scooter and set off toward the stars. It was well beyond the point of no return when she realised that her trusty yet rather dated mode of transportation might not be up to the task of traversing the universe without the not-so-annual tune-up she forgot for the fifth year in a row."
+      },
+      {
+        "type": "paragraph",
+        "text": "As the scooter shuddered to an embarrassing stop somewhere in the Raki system, she kept her calm and assessed the situation. A brief scan for spare parts showed a strange uncharted derilict station in the vicinity which seemed to have everything she needed to fix her broken mode of transport. Awkwardly making her way toward it using the Star Scout approved Deep-Space Breast Stroke, she found the name \"Starstorm\" emblazened on the hull of this grimy time-worn, and seemingly abandoned spacestation."
+      },
+      {
+        "type": "paragraph",
+        "text": "During her searches inside the bowels of the station, she found a mysterious robotic claw artifact. Curiosity being known to killing the inferior feline species, this confident canine locked it immediately to her wrist and was suddenly awash with power."
+      },
+      {
+        "type": "paragraph",
+        "text": "Unbeknownst to Penny, she had just taken the first step toward the biggest adventure of her life!"
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "A stranger arrives on horseback at the border town of San Soleres, at the outskirts of the Raki star system. She is taciturn, watchful, and incredibly fast and accurate with her gun, able to outdraw and kill four bandits, out for blood and a quick solar buck, with startling ease. The innkeeper, Silvanito, asks the Stranger to stay in town, offer protection, become the Sherriff. The Stranger politely declines: \"I can never call any town home. I'm a drifter, a lone gunfighter. A desperado.\" - Official Steam Store Description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Penny cowboy clothes, with a poncho and a cowboy hat with a bullet hole. She also has a scar on one of her eyes and is missing a piece of her ear. Her claw glove is replaced by a metallic claw hand, Pounce's flaming fox image is wearing a handkerchief and also has a scarred eye and Energy Pulse becomes similar to a bullet."
+      },
+      {
+        "type": "paragraph",
+        "text": "Her wrist-mounted gun is replaced by a magnum revolver which she uses to shoot bullet-shaped energy shots."
+      },
+      {
+        "type": "paragraph",
+        "text": "2, 4, 6, 8"
+      },
+      {
+        "type": "paragraph",
+        "text": "Who do we appreciate?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Say it Loud!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Say it proud!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Goooo Awesomenauts! - Official Steam Store Description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Penny a cheerleader attire, complete with a miniskirt, a crop top, tennis shoes. She also has a teddy bear, ponytail and a bow on her hair. Her claw glove is replaced by a pon pon, Pounce's flaming fox image wears a football helmet and leaves a flower trail behind her and Energy Pulse looks similar to a pon pon and also leaves a flower trail as it moves."
+      },
+      {
+        "type": "paragraph",
+        "text": "Her wrist-mounted gun is replaced by a ribbon which she uses to shoot flowers."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Penny Fox was the 4th 'naut announced for the Awesomenauts: Starstorm Expansion as the $290,000 stretch goal of Ronimo Games' kickstarter project. Despite being the 4th Starstorm character to be announced, Penny was the second 'naut of this expansion pack to be released (after Ted McPain and before Sentry X-58)",
+          "Penny Fox has a number 17 on her clothes. This is a reference to her being the 17th 'naut to be released.",
+          "Prior to her official name reveal on the 14 of March 2014, Penny Fox was referred to as \"Foxy\" or \"Foxynaut\" by Ronimo members. Penny is also the first (and only, to date) Awesomenaut to have been revealed before having an official name. Ronimo considered several names (including Amelia Foxheart) before coming to a final decision. The name Penny was chosen by Fabian, who designed the 'naut in the first place.",
+          "Penny is the first 'naut since Ayla to not have been released with a premium skin, and the only Starstorm 'naut to have non-premium skins.",
+          "Penny Fox's theme song is sung by Brandon Delagraentiss, Ted McPain's voice actor.",
+          "Before her release, Penny's face on her splash art was different, with her eyes giving her a much more \"cute\" appearance. It was later changed when Patch 2.3 launched, likely based on community feedback.",
+          "Penny was the first Awesomenaut to be revealed via the Voltar's Vault.",
+          "Unlike other characters, Penny's killing spree theme does not transition into the base track of the killing spree (in this case, Spanking Stars) and instead ends abruptly.",
+          "According to an episode of The DropPod, Penny was originally going to be a robot, but was changed into a fox when they decided to ask Dodger to do the voice.",
+          "Despite the mechanical claw being a recent addition to her attire, it is somehow emblazoned with the same glowing triangle design that is on her belt and hat.",
+          "Penny's scientific name is Cerdocyon Stellaris.[13] Cerdocyon means she's a carnivorous, mammalian, canine. Stellaris being a reference to Marvel's \"Stellaris\", a universe trotting Female of unknown species.[14] Penny travels by space-scooter, similar to Stellaris' Skycycle, which was a part of her suit.[15]",
+          "A walk cycle animaiton of Penny's sillouette with a false \"loading...\" warning is shown before each Ronimo Games Streamisho. It serves as a \"stand by\" screen."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "\"Foxy\" 'naut early sketch ideas.",
+          "First \"Foxy\" teaser",
+          "Second \"Foxy\" teaser",
+          "Third \"Foxy\" teaser",
+          "Fourth \"Foxy\" teaser",
+          "\"Foxy\" revealed",
+          "First image of the skin from Voltar's Vault.",
+          "First image of the skin from Voltar's Vault.",
+          "Old splash art.",
+          "Old portrait icon.",
+          "Old scoreboard icon (Pre-Patch 3.4)"
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Charges can be gained by hitting enemies with Claw or by returning to the Shop area.",
+          "Always keep an eye on your charge count (see below) and plan accordingly. Your skills become more powerful if you spend more charges."
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Grey Man Group Badge may give you 5 charges, but Pounce and Energy Pulse only use up to 4 of them.",
+          "Energy Pulse can pierce through everything, terrain included.",
+          "Both Zurian Mechanic and Grey Man Group Badge allow Penny to keep an extra charge with her, making it easier to chain more effective combos.",
+          "Spiderbird Collector Badge and Death Lens shots can bounce off of terrain.",
+          "Using Spiderbird Collector Badge can grant you an easier time when dealing with 'nauts that are too dangerous to engage in close combat, such as Clunk or Skølldir.",
+          "The amplify damage effect from Energy Pulse causes targets to take extra damage from all sources, not just your attacks. Use it in conjunction with your team.",
+          "Using Pounce towards enemies in a way that they are knocked towards the floor will greatly help Penny in keeping up with then, at the cost of less knockback. Alternatively, consider pouncing on enemies so that they fly towards your own teammates to more easily get kills.",
+          "Combine Death Lens with Heartshaped Net for a powerful ranged damage combo. Herring Snack Badge makes this strategy even more effective."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Wait for Penny's Energy Pulse to land on enemies, so that you may benefit from its damage amplifying effect.",
+          "Coordinate with Penny so that when she pounces enemies into your team, you are ready to follow it up for a kill.",
+          "If you can spare it, let Penny get creeps and droids to replenish her charges."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "You can tell if Penny has a ranged attack from Death Lens/Spiderbird Collector Badge ready: She'll be pointing her gun in her animation.",
+          "Use crowd control effects that affect movement to counter Penny's great speed and vertical mobility.",
+          "Be careful not to overextend against Penny and get knocked into the enemy team.",
+          "If affected by the amplify damage from Energy Pulse it may be better to stay a safer distance from your enemies until the debuff wears off.",
+          "The best moment to approach Penny is when she has no charges available, but beware as it is easy for her to regain them.",
+          "If you can bait Energy Pulse, Penny will lose a large portion of her damage, the amplify debuff and most/all her charges. Take advantage of the slight firing delay and slow speed of the projectile."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/ui-portraitcharacter-assassin-ee266fe6.webp",
+      "source_name": "UI PortraitCharacter Assassin.png",
+      "alt": "UI PortraitCharacter Assassin",
+      "width": 512,
+      "height": 512,
+      "format": "WEBP",
+      "sha256": "ee266fe6f085164a03a5de2f2fbd3ff8e3539317c580dce62a44e1f7930830df",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-foxy-pounce-85dc60d6.webp",
+      "source_name": "UI Skillbutton Foxy Pounce.png",
+      "alt": "UI Skillbutton Foxy Pounce",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "85dc60d61ace541ec99b4ec522562f8d22e68fed8e48473610d491d92c8b4576",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-foxy-strike-melee-22f22101.webp",
+      "source_name": "UI Skillbutton Foxy Strike Melee.png",
+      "alt": "UI Skillbutton Foxy Strike Melee",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "22f221017a1ea8ec52b3538e8ff7dba2d5d5f48f8c553b3035aafd03b64e9f84",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-foxy-swipe-c7857d41.webp",
+      "source_name": "UI Skillbutton Foxy Swipe.png",
+      "alt": "UI Skillbutton Foxy Swipe",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "c7857d41b48515698566ec16a447dbf8f9e7b3cd7ec23d2c091396609fa416a9",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-foxy-leap-401fe113.webp",
+      "source_name": "UI Skillbutton Foxy Leap.png",
+      "alt": "UI Skillbutton Foxy Leap",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "401fe11351ca6aa24ffbfef878e43781f0976d2d9aba24b258766ff335dd2871",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-foxy-a-1-a56a924c.webp",
+      "source_name": "Shop Icons foxy A 1.png",
+      "alt": "Shop Icons foxy A 1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a56a924cd7428ccb57ff5a327aaf48a6ffced869d6769909d73c2110d3faea69",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-foxy-a-2-eb63fc8d.webp",
+      "source_name": "Shop Icons foxy A 2.png",
+      "alt": "Shop Icons foxy A 2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "eb63fc8dac9bf7337c9bd509d5d5f66f7507e50ce24e3b271b0c4dc5369baf83",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-foxy-a-3-bb6aa1a1.webp",
+      "source_name": "Shop Icons foxy A 3.png",
+      "alt": "Shop Icons foxy A 3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bb6aa1a1ca82a6c9b488495823591b74b672c20a0284865b10c124c6185cc6b2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-foxy-a-4-995af941.webp",
+      "source_name": "Shop Icons foxy A 4.png",
+      "alt": "Shop Icons foxy A 4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "995af941360b67872972fd72293812e1bc4ece3e7cad425853131d4233b3d22b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-foxy-a-5-968ece09.webp",
+      "source_name": "Shop Icons foxy A 5.png",
+      "alt": "Shop Icons foxy A 5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "968ece0921a68979579cdd096b93944dbb7e5fe1dfc6a53d315e606b91264030",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-foxy-a-6-cd531052.webp",
+      "source_name": "Shop Icons foxy A 6.png",
+      "alt": "Shop Icons foxy A 6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cd531052a9df5aa181a97ca217c6cc0628ba58d77e86e41e25a9beb8664972a8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-foxy-b-1-6627f633.webp",
+      "source_name": "Shop Icons foxy B 1.png",
+      "alt": "Shop Icons foxy B 1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6627f63342d8a7fe4f6165ddf68c4a1786780c28cfc5187394f3a79f6e48eb2d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-foxy-b-2-df9be1b6.webp",
+      "source_name": "Shop Icons foxy B 2.png",
+      "alt": "Shop Icons foxy B 2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "df9be1b6723668f1c53aa867d69975a286ad1d0e156ceef96b5994242eede0e3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-foxy-b-3-fb74de93.webp",
+      "source_name": "Shop Icons foxy B 3.png",
+      "alt": "Shop Icons foxy B 3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fb74de93157906101fb976b2543b9e745d7057373bdf233ba893f27943de22cf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-foxy-b-4-a7ea5baf.webp",
+      "source_name": "Shop Icons foxy B 4.png",
+      "alt": "Shop Icons foxy B 4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a7ea5bafbbf505c1d5659f3814dd9cee8a40fcd70687e86da61d5dd734f84f8f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-foxy-b-5-abcf4870.webp",
+      "source_name": "Shop Icons foxy B 5.png",
+      "alt": "Shop Icons foxy B 5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "abcf487079ee25911be33d1f5a2e132cd7183d951b542dd2daac982d18c2897f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-foxy-b-6-d10304f4.webp",
+      "source_name": "Shop Icons foxy B 6.png",
+      "alt": "Shop Icons foxy B 6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d10304f443b45539c76461c4ede48ee7aa049c06c0751bc28978d08b6cae3264",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-foxy-c-1-3d477697.webp",
+      "source_name": "Shop Icons foxy C 1.png",
+      "alt": "Shop Icons foxy C 1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3d4776977e97e1a924c250f5fa96bf9898a146fa0b819e49716ceab006dc052f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-foxy-c-2-4d6dd05d.webp",
+      "source_name": "Shop Icons foxy C 2.png",
+      "alt": "Shop Icons foxy C 2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4d6dd05d410e709a5fb1cc7f1512ff10061003c2255dfb24984c8e058ab10d78",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-foxy-c-4-31ae360d.webp",
+      "source_name": "Shop Icons foxy C 4.png",
+      "alt": "Shop Icons foxy C 4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "31ae360d53de3c26232780ab97fc79d66a1ff08344194552668374d1eb382c87",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-foxy-c-3-e34829e7.webp",
+      "source_name": "Shop Icons foxy C 3.png",
+      "alt": "Shop Icons foxy C 3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e34829e716c80d75e465150f11306a7182dde80d17f7567264d9a2e1c4057339",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-foxy-c-5-d4272ad0.webp",
+      "source_name": "Shop Icons foxy C 5.png",
+      "alt": "Shop Icons foxy C 5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d4272ad0dc2baaa8957a55c7786aa8a6e7363fbdc1bf40dd5c4e478a9ef9e2ec",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-foxy-c-6-f6ca50c0.webp",
+      "source_name": "Shop Icons foxy C 6.png",
+      "alt": "Shop Icons foxy C 6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f6ca50c022bc6624828b19bfb4b20c90df2b4d5be75cb1b6f2dcd2ed72635404",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/shop-icons-foxy-utility-boots-3dfa4edb.webp",
+      "source_name": "Shop Icons foxy utility boots.png",
+      "alt": "Shop Icons foxy utility boots",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3dfa4edbf1deb676f1470ec2a2865b098ea93db83b984618dd76c96988dfdcc9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-foxy-utility-dmg-increase-23ac9656.webp",
+      "source_name": "Shop Icons foxy utility dmg increase.png",
+      "alt": "Shop Icons foxy utility dmg increase",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "23ac965644ff932051dd4b4dfcd0f264e635beec914ba0780d1c1d62464273c7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/ui-portraitcharacter-assassin002-body-481131bc.webp",
+      "source_name": "UI PortraitCharacter Assassin002 Body.png",
+      "alt": "UI PortraitCharacter Assassin002 Body",
+      "width": 180,
+      "height": 203,
+      "format": "WEBP",
+      "sha256": "481131bc05681e4bf89859292400ec2c7bcc1b9837704bee5b8db3a7c5cff270",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/ui-portraitcharacter-assassin003-body-dad08c6c.webp",
+      "source_name": "UI PortraitCharacter Assassin003 Body.png",
+      "alt": "UI PortraitCharacter Assassin003 Body",
+      "width": 180,
+      "height": 271,
+      "format": "WEBP",
+      "sha256": "dad08c6c65601a96f881c01a52dbfaccd3b245d62fde236fcdf3f1d1f9dbfe88",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/spacefoxnautconceptart-2ac71681.webp",
+      "source_name": "SpaceFoxNautConceptArt.PNG",
+      "alt": "\"Foxy\" 'naut early sketch ideas.",
+      "width": 120,
+      "height": 115,
+      "format": "WEBP",
+      "sha256": "2ac71681d46ac7448f44783ac4bd5f150c8914b63b4a270d4ee3a89d457dae36",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/foxyteaser1-33de3ed8.webp",
+      "source_name": "Foxyteaser1.jpg",
+      "alt": "First \"Foxy\" teaser",
+      "width": 120,
+      "height": 71,
+      "format": "WEBP",
+      "sha256": "33de3ed80e2dd994776e1271564536ac0fef959aaa07433bd96a89d8e380d0c2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/foxyteaser2-773afaac.webp",
+      "source_name": "Foxyteaser2.jpg",
+      "alt": "Second \"Foxy\" teaser",
+      "width": 120,
+      "height": 71,
+      "format": "WEBP",
+      "sha256": "773afaacb6931869b21f398cbb0516ecd8bafa817644e93f3b7a10f74d83231b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/foxyteaser3-35fe34ef.webp",
+      "source_name": "Foxyteaser3.jpg",
+      "alt": "Third \"Foxy\" teaser",
+      "width": 100,
+      "height": 119,
+      "format": "WEBP",
+      "sha256": "35fe34efa7310d81db5d48cc81e7df152da5359f2b7a1449ad3996863dc853e4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/foxyteaser4-eaea32d2.webp",
+      "source_name": "Foxyteaser4.jpg",
+      "alt": "Fourth \"Foxy\" teaser",
+      "width": 120,
+      "height": 71,
+      "format": "WEBP",
+      "sha256": "eaea32d2a4b06cdd77fb49fa5e27d2d3a29dbe4418da0de3500e689430e8302e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/foxy2-ba5cbb14.webp",
+      "source_name": "Foxy2.png",
+      "alt": "\"Foxy\" revealed",
+      "width": 120,
+      "height": 68,
+      "format": "WEBP",
+      "sha256": "ba5cbb14e9b1a6e1a995b9d89e0c3a03745678d2efd610f7703b96e62bbf3124",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/vault-foxydesperado-unlock-188ed3c3.webp",
+      "source_name": "Vault foxydesperado unlock.png",
+      "alt": "First image of the skin from Voltar's Vault.",
+      "width": 103,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "188ed3c3acd35a253ff0dfc1d8d19fd9ab51f8bd69de3b8543f9b465a9fe050f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/cheerleader-penny-80bde7c4.webp",
+      "source_name": "Cheerleader penny.jpg",
+      "alt": "First image of the skin from Voltar's Vault.",
+      "width": 78,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "80bde7c4308b9e0496fecbd1901976fbfc2bf773f7cfc52a68bb437a44ca9e1a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/foxysplashart-0aae418e.webp",
+      "source_name": "Foxysplashart.png",
+      "alt": "Old splash art.",
+      "width": 120,
+      "height": 119,
+      "format": "WEBP",
+      "sha256": "0aae418e59e981ff4f80f42768c69431a8dc672adfb47bbec96db9bc0dd9322e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/menu-iconfoxy-9382849c.webp",
+      "source_name": "Menu IconFoxy.png",
+      "alt": "Old portrait icon.",
+      "width": 80,
+      "height": 80,
+      "format": "WEBP",
+      "sha256": "9382849c5c7074a845348a4a501455b8758c4157b86d11b2fa20c421f3c417e4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/classicon-assassin-7132317b.webp",
+      "source_name": "Classicon assassin.png",
+      "alt": "Old scoreboard icon (Pre-Patch 3.4)",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "7132317b500cfecf0d10ec456d25b3373f9c0d627de67dabaa09abde1b130652",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/pouncecharges-580defb3.webp",
+      "source_name": "Pouncecharges.png",
+      "alt": "Pouncecharges",
+      "width": 400,
+      "height": 80,
+      "format": "WEBP",
+      "sha256": "580defb37ff5e48cd5793520b20bb8b92ae595245eb2fb1efc7b4c3d013d9286",
+      "storage": "src"
+    },
+    {
+      "id": "asset-044",
+      "path": "assets/energypulsecharges-39f4e5da.webp",
+      "source_name": "Energypulsecharges.png",
+      "alt": "Energypulsecharges",
+      "width": 400,
+      "height": 80,
+      "format": "WEBP",
+      "sha256": "39f4e5da4e0676e326680c41773bd85f4c6b0de6720ce982f3e2e70054d18c24",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_lazy_image",
+        "image": "Pennyfoxingamered.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/8/84/Pennyfoxingamered.png/revision/latest?cb=20140324002615"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Pennyfoxingameblue.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/8/87/Pennyfoxingameblue.png/revision/latest?cb=20140324002621"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Desperado Penny (Red).png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/9/9d/Desperado_Penny_%28Red%29.png/revision/latest?cb=20140415032001"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Desperado Penny (Blue).png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/6/65/Desperado_Penny_%28Blue%29.png/revision/latest?cb=20140415032131"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Pennyclingamered.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/8/81/Pennyclingamered.png/revision/latest?cb=20140415063044"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Pennyclingameblue.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/8/84/Pennyclingameblue.png/revision/latest?cb=20140415063038"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Ui minimap player assassin 0.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/8/8e/Ui_minimap_player_assassin_0.png/revision/latest?cb=20141218143608"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Classicon PennyFox.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/5/59/Classicon_PennyFox.png/revision/latest?cb=20161215162127"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes"
+    ],
+    "status": "partial"
+  }
+}

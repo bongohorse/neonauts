@@ -1,6 +1,9 @@
 'use strict';
 const $ = s => document.querySelector(s);
 const $$ = s => [...document.querySelectorAll(s)];
+const archiveBase=new URL(document.baseURI);
+$('base').href=archiveBase.href;
+let currentNautPath=location.pathname,nautLoad=null;
 let toastTimer;
 function notify(message){$('#toast').textContent=message;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,3500);}
 let pageTransition=null,navigationRevision=0;
@@ -14,7 +17,8 @@ function openSection(animate=true){
   $$('[data-section]').forEach(a=>{a.classList.toggle('selected',a.dataset.section===name);if(a.dataset.section===name)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
   const page=document.getElementById(name);
   const heading=page.querySelector('h1');
-  document.title=(heading ? heading.textContent.replace(/\s+/g,' ').trim() : 'Nauts Archive')+' — Awesomenauts';
+  document.title=(name==='nauts' ? nautPage.name : heading ? heading.textContent.replace(/\s+/g,' ').trim() : 'Nauts Archive')+' — Awesomenauts';
+  document.dispatchEvent(new Event('archive:sectionchange'));
   if(animate){
    const target=heading || page;
    target.setAttribute('tabindex','-1');
@@ -39,12 +43,13 @@ $('.skip').addEventListener('click',event=>{
 window.addEventListener('hashchange',()=>openSection());openSection(false);
 // Regular pointy-top honeycomb. Tilt only the shared wing containers.
 const rosterNote=$('.roster-note');
-const defaultRosterNote=nautPage.name.toUpperCase()+' SELECTED';
+let defaultRosterNote=nautPage.name.toUpperCase()+' SELECTED';
 function setRosterNote(text){rosterNote.textContent=text;}
 const rosterWings={};
 for(const side of ['left','right']){const wing=document.createElement('div');wing.className='roster-wing '+side;rosterWings[side]=wing;$('#roster').append(wing);}
 archiveData.roster.forEach((naut,index)=>{
  const b=document.createElement('button');
+ b.dataset.nautSlug=naut.slug||'';
  b.className='naut-hex '+naut.wing+(naut.available?' available':'');
  b.style.left=((naut.x-39)/520*100)+'%';
  b.style.top=((naut.y-45)/245*100)+'%';
@@ -57,22 +62,24 @@ archiveData.roster.forEach((naut,index)=>{
  b.onmouseenter=()=>setRosterNote(naut.name.toUpperCase()+(naut.available?' / OPEN DOSSIER':' / DOSSIER AWAITING IMPORT'));
  b.onmouseleave=()=>setRosterNote(defaultRosterNote);
  b.onfocus=b.onmouseenter;b.onblur=b.onmouseleave;
- b.onclick=()=>{if(naut.available){if(naut.slug===nautPage.slug){selectTab('overview');}else{location.href=new URL(naut.url,document.baseURI).href;}}else notify(naut.name+' — this dossier has not been imported yet.');};
+ b.onclick=()=>{if(naut.available){if(naut.slug===nautPage.slug){selectTab('overview');}else{navigateNaut(new URL(naut.url,archiveBase));}}else notify(naut.name+' — this dossier has not been imported yet.');};
  rosterWings[naut.wing].append(b);
 });
 const randomButton=document.createElement('button');randomButton.className='random-hex';randomButton.title='Random available Naut';randomButton.setAttribute('aria-label','Select a random available Naut');
 randomButton.innerHTML=`<svg viewBox="-2 -2 162.7502 89.4478" aria-hidden="true" focusable="false"><defs><linearGradient id="random-face" x1="0" y1="0" x2="0" y2="1"><stop class="random-face-top"/><stop class="random-face-mid" offset=".5"/><stop class="random-face-bottom" offset="1"/></linearGradient><radialGradient id="random-light"><stop class="random-glint" stop-opacity=".65"/><stop offset="1" stop-opacity="0"/></radialGradient></defs><polygon class="random-rim" points="34.2148,0.0000 124.5354,0.0000 158.7502,21.0301 154.2562,63.7874 114.4625,85.4478 44.2876,85.4478 4.4940,63.7874 0.0000,21.0301"/><polygon class="random-bevel" points="36.9244,2.5634 121.8257,2.5634 153.9877,22.3317 149.7633,62.5236 112.3573,82.8844 46.3929,82.8844 8.9868,62.5236 4.7625,22.3317"/><polygon class="random-face" fill="url(#random-face)" points="40.9888,6.4086 117.7613,6.4086 146.8439,24.2841 143.0240,60.6278 109.1994,79.0393 49.5507,79.0393 15.7261,60.6278 11.9063,24.2841"/><ellipse fill="url(#random-light)" cx="79.3751" cy="42.7239" rx="68.2626" ry="29.0523"/><polygon class="random-inset" points="42.7953,8.1175 115.9549,8.1175 143.6689,25.1519 140.0288,59.7853 107.7959,77.3303 50.9542,77.3303 18.7214,59.7853 15.0813,25.1519"/><text class="random-question" x="79.3751" y="66.7239" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="69" stroke-width="1.5" paint-order="stroke">?</text></svg>`;
-randomButton.onclick=()=>{const available=archiveData.roster.filter(n=>n.available&&n.slug!==nautPage.slug);if(available.length)location.href=new URL(available[Math.floor(Math.random()*available.length)].url,document.baseURI).href;};
+randomButton.onclick=()=>{const available=archiveData.roster.filter(n=>n.available&&n.slug!==nautPage.slug);if(available.length)navigateNaut(new URL(available[Math.floor(Math.random()*available.length)].url,archiveBase));};
 randomButton.onmouseenter=()=>setRosterNote('RANDOM / CHOOSE AN AVAILABLE NAUT');randomButton.onmouseleave=()=>setRosterNote(defaultRosterNote);randomButton.onfocus=randomButton.onmouseenter;randomButton.onblur=randomButton.onmouseleave;
 $('#roster').append(randomButton);
+function selectTab(name,focus=false){$$('[data-tab]').forEach(b=>{const active=b.dataset.tab===name;b.setAttribute('aria-selected',String(active));b.tabIndex=active?0:-1;if(active&&focus)b.focus()});$$('.tab-panel').forEach(p=>p.hidden=p.id!==name);}
+let skinAnimation=null;
+function bindDossier(){
 const abilities=nautPage.abilities;
 abilities.forEach(a=>{const card=document.createElement('article');card.className='ability-card';card.id='ability-'+a.id;const head=document.createElement('header'),im=document.createElement('img'),h=document.createElement('h3');im.src=a.image;im.alt='';h.textContent=a.name;head.append(im,h);const p=document.createElement('p');p.textContent=a.text;const dl=document.createElement('dl');dl.className='ability-values';a.values.forEach(([k,v])=>{const wrap=document.createElement('div'),dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=k;dd.textContent=v;wrap.append(dt,dd);dl.append(wrap)});const tip=document.createElement('p');tip.className='ability-tip';tip.textContent=a.tip;card.append(head,p,dl,tip);$('#ability-cards').append(card)});
-function selectTab(name,focus=false){$$('[data-tab]').forEach(b=>{const active=b.dataset.tab===name;b.setAttribute('aria-selected',String(active));b.tabIndex=active?0:-1;if(active&&focus)b.focus()});$$('.tab-panel').forEach(p=>p.hidden=p.id!==name);}
 $$('[data-tab]').forEach(b=>{b.onclick=()=>selectTab(b.dataset.tab);b.onkeydown=e=>{const tabs=$$('[data-tab]'),i=tabs.indexOf(b);let n;if(e.key==='ArrowRight')n=(i+1)%tabs.length;if(e.key==='ArrowLeft')n=(i-1+tabs.length)%tabs.length;if(e.key==='Home')n=0;if(e.key==='End')n=tabs.length-1;if(n!==undefined){e.preventDefault();selectTab(tabs[n].dataset.tab,true)}}});
 $$('[data-open-ability]').forEach(b=>b.onclick=()=>{selectTab('abilities');$('#ability-'+b.dataset.openAbility).scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'nearest'})});
 nautPage.itemGroups.forEach((name,row)=>{const wrap=document.createElement('div');wrap.className='item-row';const heading=document.createElement('h3');heading.textContent=name;const grid=document.createElement('div');grid.className='items-grid';nautPage.items.filter(i=>i.row===row).forEach(item=>{const a=document.createElement('a');a.className='item-link';a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';a.title=item.name;a.setAttribute('aria-label',item.name+' — open Wiki entry in a new tab');const im=document.createElement('img');im.src=item.image;im.alt='';im.loading='lazy';const label=document.createElement('span');label.textContent=item.name;a.append(im,label);grid.append(a)});wrap.append(heading,grid);$('#item-rows').append(wrap)});
 const skins=nautPage.skins;
-const skinOrder=Object.keys(skins);let currentSkin=0,skinAnimation=null;
+const skinOrder=Object.keys(skins);let currentSkin=0;
 function selectSkin(key,direction=1){
  const index=skinOrder.indexOf(key);if(index<0||index===currentSkin)return;
  currentSkin=index;const skin=skins[key],art=$('#character-art');
@@ -88,13 +95,40 @@ function selectSkin(key,direction=1){
 $$('[data-skin]').forEach(button=>button.onclick=()=>selectSkin(button.dataset.skin,skinOrder.indexOf(button.dataset.skin)>=currentSkin?1:-1));
 $('#skin-prev').onclick=()=>selectSkin(skinOrder[(currentSkin+skinOrder.length-1)%skinOrder.length],-1);
 $('#skin-next').onclick=()=>selectSkin(skinOrder[(currentSkin+1)%skinOrder.length],1);
-// Browser-local audio player. No audio is uploaded, and no OST source is invented.
-const audio=$('#audio');audio.volume=.4;let tracks=[],trackIndex=0;
-function setRadio(open){$('#radio-panel').hidden=!open;$('#radio-toggle').setAttribute('aria-expanded',String(open));if(open)$('#radio-close').focus();}
-$('#radio-toggle').onclick=()=>setRadio($('#radio-panel').hidden);$('#radio-close').onclick=()=>{setRadio(false);$('#radio-toggle').focus()};
-function loadTrack(i,play=false){if(!tracks.length)return;trackIndex=(i+tracks.length)%tracks.length;audio.src=tracks[trackIndex].url;$('#track-title').textContent=tracks[trackIndex].name;$('#playlist').value=String(trackIndex);$('#radio-status').textContent='Local audio · stays on this device.';$('#play-track').textContent='▶';$('#play-track').setAttribute('aria-label','Play music');if(play)audio.play().catch(()=>notify('Playback could not start. Try another audio file.'));}
-$('#audio-files').onchange=e=>{audio.pause();audio.removeAttribute('src');audio.load();tracks.forEach(t=>URL.revokeObjectURL(t.url));tracks=[...e.target.files].map(f=>({name:f.name.replace(/\.[^.]+$/,''),url:URL.createObjectURL(f)}));$('#playlist').replaceChildren();tracks.forEach((t,i)=>{const op=document.createElement('option');op.value=i;op.textContent=t.name;$('#playlist').append(op)});$('#playlist').hidden=!tracks.length;$$('.radio-controls button').forEach(b=>b.disabled=!tracks.length);if(tracks.length)loadTrack(0);};
-$('#play-track').onclick=()=>{if(audio.paused)audio.play().catch(()=>notify('Audio could not be played.'));else audio.pause()};$('#prev-track').onclick=()=>loadTrack(trackIndex-1,!audio.paused);$('#next-track').onclick=()=>loadTrack(trackIndex+1,!audio.paused);$('#repeat-track').onclick=()=>{audio.loop=!audio.loop;$('#repeat-track').setAttribute('aria-pressed',String(audio.loop))};$('#playlist').onchange=e=>loadTrack(Number(e.target.value),!audio.paused);$('#volume').oninput=e=>audio.volume=Number(e.target.value);audio.onplay=()=>{$('#play-track').textContent='Ⅱ';$('#play-track').setAttribute('aria-label','Pause music')};audio.onpause=()=>{$('#play-track').textContent='▶';$('#play-track').setAttribute('aria-label','Play music')};audio.onended=()=>loadTrack(trackIndex+1,true);audio.onerror=()=>{if(tracks.length){$('#radio-status').textContent='Audio unavailable or format unsupported. Try another file.';notify('This audio file could not be played.')}};
+
+}
+bindDossier();
+async function navigateNaut(target,push=true){
+ const url=new URL(target,archiveBase);
+ const entry=archiveData.roster.find(n=>n.available&&new URL(n.url,archiveBase).pathname===url.pathname);
+ const slug=entry?.slug||(url.pathname===archiveBase.pathname?'admiral-swiggins':null);
+ if(url.origin!==archiveBase.origin||!slug)return;
+ if(nautLoad)nautLoad.abort();const request=new AbortController();nautLoad=request;
+ $('#main').setAttribute('aria-busy','true');
+ try{
+  const [pageResponse,dataResponse]=await Promise.all([
+   fetch(url,{signal:request.signal}),fetch(new URL('nauts/'+slug+'/page-data.json',archiveBase),{signal:request.signal})]);
+  if(!pageResponse.ok||!dataResponse.ok)throw Error('Unavailable dossier');
+  const [markup,data]=await Promise.all([pageResponse.text(),dataResponse.json()]);
+  const page=new DOMParser().parseFromString(markup,'text/html'),dossier=page.querySelector('.dossier');
+  if(request.signal.aborted)return;
+  if(!dossier||data.slug!==slug||!Array.isArray(data.abilities)||!data.skins)throw Error('Invalid dossier');
+  if(skinAnimation)skinAnimation.cancel();
+  $('.dossier').replaceWith(document.importNode(dossier,true));nautPage=data;currentNautPath=url.pathname;
+  defaultRosterNote=data.name.toUpperCase()+' SELECTED';setRosterNote(defaultRosterNote);
+  $$('.naut-hex[aria-pressed]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.nautSlug===slug)));
+  for(const link of $$('a[href]')){
+   const destination=new URL(link.getAttribute('href'),archiveBase);
+   if(destination.origin===archiveBase.origin&&destination.hash)link.setAttribute('href',url.pathname+destination.hash);
+  }
+  if(push)history.pushState(null,'',url.pathname+url.hash);
+  $('meta[name="description"]').content=page.querySelector('meta[name="description"]').content;
+  bindDossier();openSection(false);
+  const heading=$('.page:not([hidden]) h1');heading.tabIndex=-1;heading.focus({preventScroll:true});$('#main').scrollIntoView({behavior:'instant',block:'start'});
+ }catch(error){if(!request.signal.aborted)location.href=url.href;}
+ finally{if(nautLoad===request){nautLoad=null;$('#main').removeAttribute('aria-busy');}}
+}
+window.addEventListener('popstate',()=>{if(location.pathname!==currentNautPath)navigateNaut(new URL(location.href),false);});
 // Hidden Shoebox-inspired arcade. Frame-rate independent movement and bounded acceleration.
 const dialog=$('#arcade'),canvas=$('#game'),ctx=canvas.getContext('2d');let best=0;try{best=Number(localStorage.getItem('nauts-archive-high-score'))||0}catch{}$('#high-score').textContent=best;
 let mode='ready',ship=115,hazards=[],score=0,lives=3,elapsed=0,spawn=0,last=0,frame=0,invincible=0;const held=new Set();

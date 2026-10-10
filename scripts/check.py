@@ -13,18 +13,22 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def check(directory=None):
     directory=Path(directory) if directory else ROOT/'dist'
+    base_path=json.loads((directory/'.neonauts-build').read_text())['base_path']
     errors=[]
     for page in directory.rglob('*.html'):
         document=html.fromstring(page.read_text(encoding='utf-8'))
         ids=document.xpath('//@id')
         if len(ids)!=len(set(ids)):errors.append(f'{page}: duplicate IDs')
-        url='https://local.test/'+page.relative_to(directory).as_posix()
+        url='https://local.test'+base_path+page.relative_to(directory).as_posix()
         bases=document.xpath('//base/@href');base=urljoin(url,bases[0]) if bases else url
         for node in document.xpath('//*[@src] | //*[@href]'):
+            if node.tag=='base':continue
             ref=node.get('src') or node.get('href')
             resolved=urlsplit(urljoin(base,ref))
             if resolved.netloc!='local.test':continue
-            target=directory/unquote(resolved.path.lstrip('/'))
+            if not resolved.path.startswith(base_path):
+                errors.append(f'{page.name}: link escapes site base path: {ref}');continue
+            target=directory/unquote(resolved.path[len(base_path):])
             if target.is_dir():target=target/'index.html'
             if not target.is_file():errors.append(f'{page.name}: missing {ref}')
             if resolved.fragment and target.is_file() and target.suffix=='.html':

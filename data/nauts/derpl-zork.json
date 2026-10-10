@@ -1,0 +1,1006 @@
+{
+  "schema_version": 1,
+  "name": "Derpl Zork",
+  "slug": "derpl-zork",
+  "source": {
+    "filename": "Derpl.Zork.-.Official.Awesomenauts.Wiki.10.10.2026.17.47.31.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Derpl_Zork",
+    "sha256": "3ef76d11ebeadb8fbc563ca278a1ea6a6ab55fae6ebd3607fc838e5a5f69cf23",
+    "size_bytes": 2314069
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1800 (3168)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.44"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Medium Range"
+    },
+    {
+      "label": "Role",
+      "value": "Tank"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Hard",
+    "Development Name": "Heavy",
+    "Type of abilities": "Area of effect , Ensnare , Silence , Knockback , Slow",
+    "Release Date": "July 23rd, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Grid Trap / Nuke",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Grid_Trap_/_Nuke",
+      "description": "Deploy traps that will ensnare enemies, locking them in place. When in Siege Mode, this ability will fire a homing Nuke which can obliterate pretty much anything. Also good for toasting marshmallows.",
+      "values": [
+        {
+          "label": "Trap Cooldown",
+          "value": "6s"
+        },
+        {
+          "label": "Time",
+          "value": "9s"
+        },
+        {
+          "label": "Snare Duration",
+          "value": "1.2s"
+        },
+        {
+          "label": "Slow",
+          "value": "30%"
+        },
+        {
+          "label": "Slow Duration",
+          "value": "2.4s"
+        },
+        {
+          "label": "Nuke Damage",
+          "value": "500 (785)"
+        },
+        {
+          "label": "Nuke Cooldown",
+          "value": "14s"
+        },
+        {
+          "label": "Explosion Size",
+          "value": "8"
+        },
+        {
+          "label": "Nuke Range",
+          "value": "17.4"
+        },
+        {
+          "label": "Nuke Speed",
+          "value": "6"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Cat Shot \\ Gatling",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cat_Shot_%5C_Gatling",
+      "description": "Mew enemies into oblivion by shooting explosive holocats. Derpl’s love of felines should be shared with everyone. When in Siege Mode, the cats take a break and the machine gun takes over.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "90 (141.3)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "100"
+        },
+        {
+          "label": "Range",
+          "value": "9.8"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Siege Mode",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Siege_Mode",
+      "description": "When the going gets tough, the tough get tougher! Transform the combat walker into a stationary siege turret of doom, brandishing a free rotating machine gun in the process. Siege mode also provides debuff immunity.",
+      "values": [
+        {
+          "label": "Cooldown",
+          "value": "1/4.5s"
+        },
+        {
+          "label": "Turret Damage",
+          "value": "45 (70.65)"
+        },
+        {
+          "label": "Turret Attack Speed",
+          "value": "480"
+        },
+        {
+          "label": "Turret Range",
+          "value": "10.53"
+        },
+        {
+          "label": "Debuff Immunity",
+          "value": "Yes"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Booster Rocket",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Booster_Rocket",
+      "description": "Derpl's walking desk has a temporary jet boost, lifting him up high to soar with the pink elephants of joy!",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "8"
+        },
+        {
+          "label": "Jump Duration",
+          "value": "0.8s"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Empowered Grid",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Empowered_Grid",
+      "group": "Grid Trap / Nuke",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Strengthened Trap",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Strengthened_Trap",
+      "group": "Grid Trap / Nuke",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hydrocollision Lava Lamp",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hydrocollision_Lava_Lamp",
+      "group": "Grid Trap / Nuke",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Combustion Lava Lamp",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Combustion_Lava_Lamp",
+      "group": "Grid Trap / Nuke",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Lead Casing",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Lead_Casing",
+      "group": "Grid Trap / Nuke",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Super-powered Nuke",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Super-powered_Nuke",
+      "group": "Grid Trap / Nuke",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sweet Syrup Bullets",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sweet_Syrup_Bullets",
+      "group": "Siege Mode",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Force Field",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Force_Field",
+      "group": "Siege Mode",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hollow Point Bullets",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hollow_Point_Bullets",
+      "group": "Siege Mode",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Solid Fist Missiles",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Solid_Fist_Missiles",
+      "group": "Siege Mode",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Deployment Pads",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Deployment_Pads",
+      "group": "Siege Mode",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pussycat Album",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pussycat_Album",
+      "group": "Siege Mode",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Longcat",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Longcat",
+      "group": "Cat Shot \\ Gatling",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Kitty Catsuit",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Kitty_Catsuit",
+      "group": "Cat Shot \\ Gatling",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "CAT Package",
+      "source_url": "https://awesomenauts.fandom.com/wiki/CAT_Package",
+      "group": "Cat Shot \\ Gatling",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Split Personality Cat",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Split_Personality_Cat",
+      "group": "Cat Shot \\ Gatling",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fat Cat",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fat_Cat",
+      "group": "Cat Shot \\ Gatling",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bat Catsuit",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bat_Catsuit",
+      "group": "Cat Shot \\ Gatling",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Booster Rocket",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Booster Rocket",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Booster Rocket",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Booster Rocket",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Booster Rocket",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Booster Rocket",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Hotrod Derpl",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Get your motor running! Head out to the Milky Way! 1500CC Turbostomper engine, Custom paint job by Pond Pimpin' Customs and built-in fondue system. Turn heads on the intergalactic freeway as you cruise easy with Derpl's Hot Rod skin!\" - Official Steam Store Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives the combat walker a much darker color scheme, with a skull for lights, and a \"fire\" paint job. The Cat Gun now has spikes around the team-colored area."
+        },
+        {
+          "type": "paragraph",
+          "text": "The cats now wear a helmet and goggles. The nuke is replaced with a large skull, and Snares have a much darker color with an 8-ball in the middle."
+        }
+      ],
+      "assets": [
+        "asset-040"
+      ]
+    },
+    {
+      "name": "Ahrpl",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"Blooblblabl!!!!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Derpl in Awesomenauts, and comes with a fully customized voice set! If you have not already unlocked the character, purchasing this DLC will do so. - Official Steam Store Description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Derpl's walker a darker, wooden hull, although the legs are unchanged. The lights in the front are replaced with a hatch, the cat gun is an old cannon and the gatling gun spinner is a ship helm. The walker also has a black pirate flag and a parrot who leaves a trail of feathers behind as Derpl moves. Upon sieging up, the hatch is replaced by a \"mermaid Derpl\" statue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cat shot is changed to a cat holding on to a cannon ball, nuke becomes a skull and crossbones with an eye patch and grid trap is made of ropes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, the skin comes with new voice acting as well: S.U.S.I.'s speech being replaced by the talking parrot."
+        }
+      ],
+      "assets": [
+        "asset-041"
+      ]
+    }
+  ],
+  "sections": {
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "Riding his combat walker onto the battlefield, comes Derpl Zork. The nephew of Blabl Zork, president of Zork industries. Derpl Zork lacks his uncle's business-smarts. In fact he lacks any kind of smarts, managing to get his IQ rated under the level of plankton in the official galaxial IQ test."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nevertheless Derpl is the heir apparent to Blabl's galaxy-spanning business empire. This is something that doesn't sit well with Blabl, not well at all. Dreading the day Derpl would inherit the company and run all the hardfought accomplishments into the ground, Blabl put Derpl in charge of fieldtesting the new Specialized Universal Secretary Interface (S.U.S.I. for short) in one of Zork Industries' combat walkers. Asking Derpl what form of devastation should be issued forth from his vehicle of destruction he simply drooled and said: \"I wuv cats!\""
+      },
+      {
+        "type": "paragraph",
+        "text": "Now Blabl is anxiously awaiting the day that Derpl would suffer a fatal blow on the fields of battle but as of yet Derpl's combat walker has proven to keep making up for its dimwitted driver."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"Get your motor running! Head out to the Milky Way! 1500CC Turbostomper engine, Custom paint job by Pond Pimpin' Customs and built-in fondue system. Turn heads on the intergalactic freeway as you cruise easy with Derpl's Hot Rod skin!\" - Official Steam Store Description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives the combat walker a much darker color scheme, with a skull for lights, and a \"fire\" paint job. The Cat Gun now has spikes around the team-colored area."
+      },
+      {
+        "type": "paragraph",
+        "text": "The cats now wear a helmet and goggles. The nuke is replaced with a large skull, and Snares have a much darker color with an 8-ball in the middle."
+      },
+      {
+        "type": "paragraph",
+        "text": "A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"A group of pirate bandits was sitting around a campfire. The Pirate Captain told Ahrpl: \"Ahrpl, tell us a story!\" And Ahrpl spoke: \"Blooblblabl!!!!\""
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Derpl in Awesomenauts, and comes with a fully customized voice set! If you have not already unlocked the character, purchasing this DLC will do so. - Official Steam Store Description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Derpl's walker a darker, wooden hull, although the legs are unchanged. The lights in the front are replaced with a hatch, the cat gun is an old cannon and the gatling gun spinner is a ship helm. The walker also has a black pirate flag and a parrot who leaves a trail of feathers behind as Derpl moves. Upon sieging up, the hatch is replaced by a \"mermaid Derpl\" statue."
+      },
+      {
+        "type": "paragraph",
+        "text": "Cat shot is changed to a cat holding on to a cannon ball, nuke becomes a skull and crossbones with an eye patch and grid trap is made of ropes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, the skin comes with new voice acting as well: S.U.S.I.'s speech being replaced by the talking parrot."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Coco and Derpl were the first new characters added to the game in an update. They were released simultaneously.",
+          "Up until the addition of Professor Milton Yoolip, Derpl was the only Awesomenaut to have a known relative according to the game lore (Blabl Zork, the employer of the Awesomenauts).",
+          "Arhpl was the first premium skin not to be voiced by the same voice actor as the default skin."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Tapping the jump button slowly instead of holding it down allows Derpl to remain airborne for a longer period of time.",
+          "It is possible to drop down from glass platforms, even when you are in Siege Mode.",
+          "The Longcat upgrade for Derpl's cats allows Derpl to outrange Turrets with ease. This is only useful when something else is tanking the shots, however, as turrets are invincible when not firing.",
+          "Try to use your Grid Traps to block your enemies' paths or place them in areas they may go through, such as jump pad paths and hide areas. Placing your Grid Traps high up is also helpful, as enemy 'Nauts such as Raelynn or Rocco can accidentally jump into them, due to their single jump.",
+          "Staying near your Grid Traps is usually a good idea: if an enemy is caught on one of them, Siege up and fire a nuke at them while firing your bullets for massive amounts of damage. Getting the Empowered Grid upgrade makes this tactic even more effective, allowing you to deal more damage, enough to kill most 'Nauts.",
+          "Combining Super-powered Nuke and Combustion Lava Lamp can make it very hard for your enemies to escape from your Nuke, due to its high speed and large explosion radius.",
+          "Derpl can't be pushed while in Siege Mode.",
+          "You are immune to all forms of Crowd Control while in Siege Mode, except for Cocoon and Slowdowns.",
+          "It is possible to Siege up and charge your Nuke mid-air. This can give your enemies less time to escape the explosion.",
+          "Combining multiple defensive upgrades such as the Shields from Siege Mode and utility upgrades such as Med-i'-can and Power Pills Turbo can make Derpl extremely hard to kill while sieged.",
+          "Deployment Pads are extremely useful for escaping in a pinch while using Siege Mode, especially when fighting multiple enemy 'Nauts at once.",
+          "When facing a Raelynn, avoid entering Siege Mode on solid ground. She may easily trap you with her Timerift. Choose a glass platform instead, so you can drop down and escape her."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Use displacement and knockback to throw enemies on Derpl's traps.",
+          "If Derpl is sieged up, try and protect him as best as you can. It is very unlikely that he can flee as quickly as you can.",
+          "Like all tank characters, Derpl tends to do well when paired with 'nauts that have healing abilities."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "When facing a Derpl that uses cat shot upgrades, try and stay above him for as long as you can to take advantage of the cats' bullet drop effect.",
+          "Don't waste your crowd control effects while Derpl is on Siege Mode. He is immune to all forms of crowd control except for Cocoon and Slowdowns.",
+          "Derpl can be very difficult to approach while in Siege Mode. Consider waiting until he fires his Nuke before doing so.",
+          "If you must approach Derpl while he's sieged, try to get your team to help and approach him from different sides, so that his nuke hits less people. His siege shots are also unable to pierce, so hide behind droids if there are any available.",
+          "Consider using damage amplifying abilities to counter a Derpl who stacks a lot of defensive upgrades.",
+          "With the exception of Nuke's manual detonation, Derpl has no way of dealing damage to enemies that are using Reflection or Deflection effects.",
+          "Nuke has a very clear charge-up animation before launch. Run away from Derpl if you see it!",
+          "Grid Traps make a beeping sound while active. Use that sound to know if a trap is hidden inside a hide area before entering it.",
+          "Poke Derpl while he's sieged and save your crowd control effects for when he unsieges and tries to flee.",
+          "Think twice before chasing a Derpl, especially into a hide area or with a jump pad. You might be walking into a literal trap, followed by a nuke."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/derplzork-alpha-9838f254.webp",
+      "source_name": "DerplZork Alpha.png",
+      "alt": "DerplZork Alpha",
+      "width": 512,
+      "height": 457,
+      "format": "WEBP",
+      "sha256": "9838f254cdf8fc46760e6efc42af81682e5811da4d1918752647ac4f42b564b7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-turretguy-turretrocket-copy-2-a880422e.webp",
+      "source_name": "UI Skillbutton Turretguy Turretrocket copy 2.png",
+      "alt": "UI Skillbutton Turretguy Turretrocket copy 2",
+      "width": 512,
+      "height": 512,
+      "format": "WEBP",
+      "sha256": "a880422eb979c83f341f4c5d3656806dc49da422b17be18c6771dcdeae0fdf6a",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/derpl-zork-weapon-f2f853e8.webp",
+      "source_name": "Derpl Zork Weapon.png",
+      "alt": "Derpl Zork Weapon",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "f2f853e827c76d7da54d3097c61c50ff27c320bf1814ee6325ca4ed8d58ef634",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/derpl-zork-skill2-1d25a42a.webp",
+      "source_name": "Derpl Zork Skill2.png",
+      "alt": "Derpl Zork Skill2",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "1d25a42a187d6e78dd94bbfe959ae678752b48a9f50923a99967c54afaa999a5",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/derpl-zork-jump-1329f8d6.webp",
+      "source_name": "Derpl Zork Jump.png",
+      "alt": "Derpl Zork Jump",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "1329f8d6f6e2eefafbde756529fba56f1adb1c3fa5b763eafda6707ab2b85fef",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/derpl-zork-skill1-1-1919ae02.webp",
+      "source_name": "Derpl Zork Skill1-1.png",
+      "alt": "Derpl Zork Skill1-1",
+      "width": 128,
+      "height": 127,
+      "format": "WEBP",
+      "sha256": "1919ae020038b10894190e0a36a464ac3f39d6d672739ca8068668088b0de72f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/derpl-zork-skill1-2-f0e37546.webp",
+      "source_name": "Derpl Zork Skill1-2.png",
+      "alt": "Derpl Zork Skill1-2",
+      "width": 128,
+      "height": 127,
+      "format": "WEBP",
+      "sha256": "f0e37546b427a149d134e53bd6db1926cb346366e096c351d0d6b0c2191c13b4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/derpl-zork-skill1-3-2833f9f2.webp",
+      "source_name": "Derpl Zork Skill1-3.png",
+      "alt": "Derpl Zork Skill1-3",
+      "width": 124,
+      "height": 125,
+      "format": "WEBP",
+      "sha256": "2833f9f2009a13d26ee89c71b6df28ad403ef5607f24f3fd4e2f288959d01923",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/derpl-zork-skill1-4-fd21b914.webp",
+      "source_name": "Derpl Zork Skill1-4.png",
+      "alt": "Derpl Zork Skill1-4",
+      "width": 124,
+      "height": 125,
+      "format": "WEBP",
+      "sha256": "fd21b91403cae0d6010f8b749d9b94d682281c503fe930d6e6a5cd380e392f86",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/derpl-zork-skill1-5-709a25b1.webp",
+      "source_name": "Derpl Zork Skill1-5.png",
+      "alt": "Derpl Zork Skill1-5",
+      "width": 128,
+      "height": 127,
+      "format": "WEBP",
+      "sha256": "709a25b115195fed6ed3c7b543e8e010a43c1a28403357ac93540076754b511d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-heavy-turretmode-nukespeed-1421da76.webp",
+      "source_name": "Shop Icons Heavy TurretMode NukeSpeed.png",
+      "alt": "Shop Icons Heavy TurretMode NukeSpeed",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1421da76c83b06f2ed532546fe23f6b05d034542d8afb24fd6e444df832aa3b0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/derpl-zork-skill2-4-46c55e80.webp",
+      "source_name": "Derpl Zork Skill2-4.png",
+      "alt": "Derpl Zork Skill2-4",
+      "width": 128,
+      "height": 125,
+      "format": "WEBP",
+      "sha256": "46c55e804ea19263d634e504c22830ab2e2015046969790d03cb27d785bb0675",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/derpl-zork-skill2-2-fb3b37ca.webp",
+      "source_name": "Derpl Zork Skill2-2.png",
+      "alt": "Derpl Zork Skill2-2",
+      "width": 124,
+      "height": 125,
+      "format": "WEBP",
+      "sha256": "fb3b37cafdacba013633cd98a382b530341df90c8fd40197f2a5b2b57bc55b93",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/derpl-zork-skill2-1-00a1163d.webp",
+      "source_name": "Derpl Zork Skill2-1.png",
+      "alt": "Derpl Zork Skill2-1",
+      "width": 124,
+      "height": 125,
+      "format": "WEBP",
+      "sha256": "00a1163da858d150388671c3238243c7e226cadd2aff12dfa100f24d8cc1e8fc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/derpl-zork-skill2-3-5af9c66f.webp",
+      "source_name": "Derpl Zork Skill2-3.png",
+      "alt": "Derpl Zork Skill2-3",
+      "width": 124,
+      "height": 125,
+      "format": "WEBP",
+      "sha256": "5af9c66fe5dc85b747d662e2a533f4fed9e9a19f2870930c0fe9b0ea1868391d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/derpl-zork-skill2-5-a79185ad.webp",
+      "source_name": "Derpl Zork Skill2-5.png",
+      "alt": "Derpl Zork Skill2-5",
+      "width": 124,
+      "height": 125,
+      "format": "WEBP",
+      "sha256": "a79185ad4215decffa4049b9c9e5f7913dc6a05d788304c65672a79ecbf09821",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-heavy-pussycat-album-7893e4e1.webp",
+      "source_name": "Shop Icons Heavy Pussycat Album.png",
+      "alt": "Shop Icons Heavy Pussycat Album",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7893e4e1e373338a3708c7f653cb74a4cb082231a335ac1bdc6e2af73dcf57d7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/derpl-zork-weapon-1-0d95ed3b.webp",
+      "source_name": "Derpl Zork Weapon-1.png",
+      "alt": "Derpl Zork Weapon-1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0d95ed3b434ffbe0813ff3586c1fa6cb3ba3d923f8cfa9f82e9394c20590c9cd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/derpl-zork-weapon-2-cccdd054.webp",
+      "source_name": "Derpl Zork Weapon-2.png",
+      "alt": "Derpl Zork Weapon-2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cccdd05451a10091a211ae258b541d80e5909d0c46945a626bcd635d59901330",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/derpl-zork-weapon-3-2cf52ee3.webp",
+      "source_name": "Derpl Zork Weapon-3.png",
+      "alt": "Derpl Zork Weapon-3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2cf52ee342d9eb17abfecfbaa9e7581df91c2436b02c3815352a43a557778971",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/derpl-zork-weapon-4-86d22a91.webp",
+      "source_name": "Derpl Zork Weapon-4.png",
+      "alt": "Derpl Zork Weapon-4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "86d22a91cb5ad40b67ae4095013e25a64ab0518adfd982c6c3b8ac154f5c22df",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/derpl-zork-weapon-5-5ff2f713.webp",
+      "source_name": "Derpl Zork Weapon-5.png",
+      "alt": "Derpl Zork Weapon-5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5ff2f713abc7d548fc052e23ca9882f7bec8d8a58dffd57c0844da8cd83e7bab",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/derpl-zork-weapon-6-28f31b65.webp",
+      "source_name": "Derpl Zork Weapon-6.png",
+      "alt": "Derpl Zork Weapon-6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "28f31b652454b97d86787a4621f4d0533a3bb557ff3a7f2dbc5597c0b984924c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/derplingame-fcc49fb9.webp",
+      "source_name": "Derplingame.png",
+      "alt": "Default skin.",
+      "width": 133,
+      "height": 149,
+      "format": "WEBP",
+      "sha256": "fcc49fb90bcc7a54fb5187ef2d2a165a0d90a11915d34068eee013bf817c221d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-derpl-skin-regular-8d3745b5.webp",
+      "source_name": "Base Derpl Skin (Regular).png",
+      "alt": "Default skin",
+      "width": 137,
+      "height": 160,
+      "format": "WEBP",
+      "sha256": "8d3745b5fd4d87e215554ef15343bae7249d01c0c853a70e0b6e1b9f53790bf7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/derplturretingame-14e74c8c.webp",
+      "source_name": "Derplturretingame.png",
+      "alt": "Default skin (sieged).",
+      "width": 117,
+      "height": 152,
+      "format": "WEBP",
+      "sha256": "14e74c8c8d7f646983b33aeb3c56e137aed4337ecac929c719a45e78e5c7d672",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/base-derpl-skin-siege-mode-70a75753.webp",
+      "source_name": "Base Derpl Skin (Siege Mode).png",
+      "alt": "Default skin (sieged)",
+      "width": 122,
+      "height": 174,
+      "format": "WEBP",
+      "sha256": "70a75753da25ffc02ba4e891bee232ac27c423d00bc188cd397343422cb0445b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/derplskin-fa18721f.webp",
+      "source_name": "Derplskin.jpg",
+      "alt": "Hotrod Derpl.",
+      "width": 147,
+      "height": 148,
+      "format": "WEBP",
+      "sha256": "fa18721f7683ec9bd5c849449f74c17de0f106e6e6a400e03ff1428ec702bef5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/hotrod-derpl-skin-regular-a7e4c121.webp",
+      "source_name": "Hotrod Derpl Skin (Regular).png",
+      "alt": "Hotrod Derpl",
+      "width": 153,
+      "height": 167,
+      "format": "WEBP",
+      "sha256": "a7e4c1218e1ee87e71cba1d328f11bbad810cb6543d1b3225f1ca1e04240d695",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/derplsiege-e3246284.webp",
+      "source_name": "Derplsiege.jpg",
+      "alt": "Hotrod Derpl (sieged).",
+      "width": 129,
+      "height": 165,
+      "format": "WEBP",
+      "sha256": "e32462845f65e6af30b2decda1784e67161ec2858767e48f81004e4c3894ea3d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/hotrod-derpl-skin-siege-mode-c9630ca2.webp",
+      "source_name": "Hotrod Derpl Skin (Siege Mode).png",
+      "alt": "Hotrod Derpl (sieged)",
+      "width": 128,
+      "height": 168,
+      "format": "WEBP",
+      "sha256": "c9630ca25109c06fbe047627a557f257c2cac3795f6e72c6b7478658871faa6e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/ahrplingame-27e9cf56.webp",
+      "source_name": "Ahrplingame.jpg",
+      "alt": "Ahrpl",
+      "width": 161,
+      "height": 161,
+      "format": "WEBP",
+      "sha256": "27e9cf569a514ff88bc55524c548761203d5887d50cfd2dd1cbde76a9dbcac7a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/ahrpl-skin-regular-6db6c03a.webp",
+      "source_name": "Ahrpl Skin (Regular).png",
+      "alt": "Ahrpl(donated by Catti and Bowserslave)",
+      "width": 162,
+      "height": 163,
+      "format": "WEBP",
+      "sha256": "6db6c03aa57f89d568b8a1355e16cd8faec3132e5290b811d9cfe4b4618968ad",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/characterrender-heavy-skin-hotrod-redbg-bc0dd162.webp",
+      "source_name": "CharacterRender Heavy Skin Hotrod redBG.png",
+      "alt": "CharacterRender Heavy Skin Hotrod redBG",
+      "width": 180,
+      "height": 205,
+      "format": "WEBP",
+      "sha256": "bc0dd16297750e93c072aafd29fd0d625376beff6970c19ad9e7b4accaa12d0e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/characterrender-heavy-skin-pirate-redbg-8952fe25.webp",
+      "source_name": "CharacterRender Heavy Skin Pirate redBG.png",
+      "alt": "CharacterRender Heavy Skin Pirate redBG",
+      "width": 180,
+      "height": 205,
+      "format": "WEBP",
+      "sha256": "8952fe2558fe9c2790b8dcade72e277c690dd826b7e5159da082b40d214c5cdf",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_lazy_image",
+        "image": "Ahrplsiegedingame.jpg",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/9/9c/Ahrplsiegedingame.jpg/revision/latest?cb=20131031020156"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Ahrpl Skin (Siege Mode).png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/d/df/Ahrpl_Skin_%28Siege_Mode%29.png/revision/latest?cb=20140119233418"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Ui minimap player heavy 0.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/5/5a/Ui_minimap_player_heavy_0.png/revision/latest?cb=20141218143702"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Classicon Heavy.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/7/7d/Classicon_Heavy.png/revision/latest?cb=20130310174803"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Ahrpl Quotes"
+    ],
+    "status": "partial"
+  }
+}

@@ -1,0 +1,1039 @@
+{
+  "schema_version": 1,
+  "name": "Professor Milton Yoolip",
+  "slug": "professor-milton-yoolip",
+  "source": {
+    "filename": "Professor.Milton.Yoolip.-.Official.Awesomenauts.Wiki.10.10.2026.18.02.21.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Professor_Milton_Yoolip",
+    "sha256": "178f4979ada1841c4dec74e4133c8347b32e03605d3bb233e875d06c7f9959cd",
+    "size_bytes": 2797566
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1500 (2640)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.8"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Support"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Ellipto",
+    "Type of abilities": "Amplify Damage , Healthpack , Lifesteal , Stun",
+    "Release Date": "March 2nd 2016"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Gripping Gaze",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Gripping_Gaze",
+      "description": "Throw out a third eye that will stun you and the targeted enemy Awesomenaut as well as deal damage to them while it is active.",
+      "values": [
+        {
+          "label": "Damage per second",
+          "value": "175 (274.75)"
+        },
+        {
+          "label": "Stun duration",
+          "value": "1.2s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "9.5s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Wrench Smack",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wrench_Smack",
+      "description": "Professor Yoolip whacks his trusty wrench on the head of enemies. On top of that, it heals allied droids.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "95 (149.15)"
+        },
+        {
+          "label": "Attacks per second",
+          "value": "2"
+        },
+        {
+          "label": "Droid Heal",
+          "value": "10 (15.7)"
+        },
+        {
+          "label": "Summon Heal",
+          "value": "30 (47.1)"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Summon Robo Dinos",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Summon_Robo_Dinos",
+      "description": "Create robo dinos that will walk forward and attack enemies.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "75 (117.75)"
+        },
+        {
+          "label": "Attacks per second",
+          "value": "3.1"
+        },
+        {
+          "label": "Duration",
+          "value": "3.5s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "12s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Sadak High Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sadak_High_Jump",
+      "description": "Sadak High Jump",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "8.22"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Definitely Not Butter",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Definitely_Not_Butter",
+      "group": "Gripping Gaze",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Walking Fridge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Walking_Fridge",
+      "group": "Gripping Gaze",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Remote Controlled Whisk",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Remote_Controlled_Whisk",
+      "group": "Gripping Gaze",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Beard Trimming Fork",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Beard_Trimming_Fork",
+      "group": "Gripping Gaze",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pancake 3D Printer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pancake_3D_Printer",
+      "group": "Gripping Gaze",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Syrup Pouring Robot",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Syrup_Pouring_Robot",
+      "group": "Gripping Gaze",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Holo Pet Food",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Holo_Pet_Food",
+      "group": "Summon Robo Dinos",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Antigravity Ball",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Antigravity_Ball",
+      "group": "Summon Robo Dinos",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dino Poop",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dino_Poop",
+      "group": "Summon Robo Dinos",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Egg Hatcher",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Egg_Hatcher",
+      "group": "Summon Robo Dinos",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dino Training For Dummies",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dino_Training_For_Dummies",
+      "group": "Summon Robo Dinos",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Walking Rod",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Walking_Rod",
+      "group": "Summon Robo Dinos",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bunny Burner",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bunny_Burner",
+      "group": "Wrench Smack",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Laboratory Centrifuge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Laboratory_Centrifuge",
+      "group": "Wrench Smack",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Badly Washed Lab Coat",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Badly_Washed_Lab_Coat",
+      "group": "Wrench Smack",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Lab Rats",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Lab_Rats",
+      "group": "Wrench Smack",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sonic Wrench",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sonic_Wrench",
+      "group": "Wrench Smack",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Quark Microscope",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Quark_Microscope",
+      "group": "Wrench Smack",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Sadak High Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Sadak High Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Relativity Slippers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Relativity_Slippers",
+      "group": "Sadak High Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Sadak High Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Sadak High Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Overdrive Gear",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Overdrive_Gear",
+      "group": "Sadak High Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Clockwork Yoolip",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Professor Milton Yoolip has made many inventions, but his best work is quite possible a fully-sentient robot that mimics his every move. Whenever duty calls but Yoolip would rather spend his time tinkering on new gadgets or go to the park with his granddaughter, he sends Clockwork Yoolip to take his stead. Few people even notice the difference, given the Professors eccentric personality and the many tools he usually carries around."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Professor M. Yoolip in Awesomenauts! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Yoolip a more detailed hat with moving pistons and gears. While the hat is colored the same way for red team, in blue team his hat is colored violet instead of teal. His wrench is replaced with a tesla rod and his beard is done in two braids. Yoolip also wears red/green goggles with a green cover over his third eye. Standing still and walking will play new mechanical sound effects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Robo Dinos have a more bronze colour and some gold details. They also have wind-up keys on their backs. The hit graphic for Gripping Gaze is surrounded by gear teeth."
+        }
+      ],
+      "assets": [
+        "asset-038"
+      ]
+    },
+    {
+      "name": "8-Bit Yoolip",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Overdrive expansion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Professor Yoolip’s most dangerous invention is probably the 8-Bit Game Cartridge-to-Reality generator, which is capable of reading any game cartridge from that ‘80s and turn the world contained within to reality. When he first tried this invention, it unleashed dragons, demons, and countless other monsters into the world… and a lot of heroes that wouldn’t do anything unless told specifically where to go."
+        },
+        {
+          "type": "paragraph",
+          "text": "Among these armored knights, boys in tights, and foreign princes, Yoolip found what appeared to be an 8-Bit version of himself… just sitting there, waiting for someone to take control of his destiny."
+        },
+        {
+          "type": "paragraph",
+          "text": "Realising he had just become the hero to a dozen different games at the same time, Yoolip took matters into his own hands and modified his invention to allow him to take control of his 8-Bit counterpart. Now he and his Robo Dinos are ready for some old school action!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Professor M. Yoolip in Awesomenauts. The 8-Bit Yoolip skin comes with a unique character theme, killing spree theme, a unique voiceover, and special in-game audio effects for his abilities. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This ultimate skin gives Yoolip a complete overhaul: his helmet has a slightly flatter surface, his third eye is missing, the antennae are replaced by an arcade machine joystick and buttons and there's an unplugged power cord attached to it."
+        },
+        {
+          "type": "paragraph",
+          "text": "His face is replaced by a visor with a pixelated face that looks happy on red team and evil on blue team. It also changes according to his movements and attacks: arrows point up and down as he jumps up and falls down respectively and he has different facial expressions for his attacks and abilities. He has a mechanical body with robotic limbs, including claw-like hands. His wrench is replaced by a beam of light with an Atari 2600[31]-inspired joystick."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin also overhauls every visual effect available to him: there are three hearts under his health bar that mimic his current health, going down as it is depleted (based on percentage). Upon death, 8-bit Yoolip explodes in a cloud of pixelated gems and leaves behind a pixelated \"INSERT COIN\" message. The visual trails for when he walks and jumps are pixelated, Wrench smack leaves behind pixelated trails and generate pixelated green hearts when healing friendly droids, gripping gaze is not only pixelated, but also spawns a \"ring\" of Space Invaders[32]-like creatures around the victim and the robo-dinos are pixelated, and redrawn in retro-style. Even the healthpacks created by him are pixelated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Finally, he has a unique teleporting animation (displayed on his tv screen visor) depending on which team he's in: an hourglass on red team and a depleting battery on blue team."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being an ultimate skin, there are also additional changes regarding voice acting, sound effects and music: Yoolip's sound effects are all inspired by 80s videogames, his voice acting is not only unique, but also sounds like it's coming from a gameboy soundbox and he has unique theme and killing spree themes."
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to all that, as a previously secret easter egg, any player present in a match that has an 8-bit Yoolip in it, is able to type in \"/pixels\" in the game chat to enable/disable Ultrapixels mode reminiscent of Ronimo's April Fools' joke in 2016 regardless of if they own the skin or not. This causes the message \"Ultra Pixels: it's the future!\" To appear in the chatbox and the game to become pixelated via a filter. Typing the message in chat a second time displays the message \"Ultrapixels are so 1983!\" and disables the filter. This is likely a reference to the videogame crash of 1983[33]."
+        }
+      ],
+      "assets": [
+        "asset-039"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Yoolip has been a scientist for the greater part of his life on the transistor planet Calias. Creating wondrous inventions and contraptions like the dog aura reader, the nightmare-to-VHS recorder, the random number phone, the cereal-to-milk ratio calculator and an actual time machine. One day after combining the time machine into some comfy slippers, he teleported to the Mesozoic era and found himself surrounded by some scientist hungry velociraptors."
+      },
+      {
+        "type": "paragraph",
+        "text": "Barely escaping the predators he lost one of his slippers. Being stuck in time he spent years to craft a new slipper to travel forward in time to return to his beloved granddaughter, Ayla. He joined the Awesomenauts team to finally spend some quality time with her and eat some over-engineered pancakes."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "Professor Milton Yoolip has made many inventions, but his best work is quite possible a fully-sentient robot that mimics his every move. Whenever duty calls but Yoolip would rather spend his time tinkering on new gadgets or go to the park with his granddaughter, he sends Clockwork Yoolip to take his stead. Few people even notice the difference, given the Professors eccentric personality and the many tools he usually carries around."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Professor M. Yoolip in Awesomenauts! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Yoolip a more detailed hat with moving pistons and gears. While the hat is colored the same way for red team, in blue team his hat is colored violet instead of teal. His wrench is replaced with a tesla rod and his beard is done in two braids. Yoolip also wears red/green goggles with a green cover over his third eye. Standing still and walking will play new mechanical sound effects."
+      },
+      {
+        "type": "paragraph",
+        "text": "Robo Dinos have a more bronze colour and some gold details. They also have wind-up keys on their backs. The hit graphic for Gripping Gaze is surrounded by gear teeth."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Overdrive expansion."
+      },
+      {
+        "type": "paragraph",
+        "text": "Professor Yoolip’s most dangerous invention is probably the 8-Bit Game Cartridge-to-Reality generator, which is capable of reading any game cartridge from that ‘80s and turn the world contained within to reality. When he first tried this invention, it unleashed dragons, demons, and countless other monsters into the world… and a lot of heroes that wouldn’t do anything unless told specifically where to go."
+      },
+      {
+        "type": "paragraph",
+        "text": "Among these armored knights, boys in tights, and foreign princes, Yoolip found what appeared to be an 8-Bit version of himself… just sitting there, waiting for someone to take control of his destiny."
+      },
+      {
+        "type": "paragraph",
+        "text": "Realising he had just become the hero to a dozen different games at the same time, Yoolip took matters into his own hands and modified his invention to allow him to take control of his 8-Bit counterpart. Now he and his Robo Dinos are ready for some old school action!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Professor M. Yoolip in Awesomenauts. The 8-Bit Yoolip skin comes with a unique character theme, killing spree theme, a unique voiceover, and special in-game audio effects for his abilities. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This ultimate skin gives Yoolip a complete overhaul: his helmet has a slightly flatter surface, his third eye is missing, the antennae are replaced by an arcade machine joystick and buttons and there's an unplugged power cord attached to it."
+      },
+      {
+        "type": "paragraph",
+        "text": "His face is replaced by a visor with a pixelated face that looks happy on red team and evil on blue team. It also changes according to his movements and attacks: arrows point up and down as he jumps up and falls down respectively and he has different facial expressions for his attacks and abilities. He has a mechanical body with robotic limbs, including claw-like hands. His wrench is replaced by a beam of light with an Atari 2600[31]-inspired joystick."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin also overhauls every visual effect available to him: there are three hearts under his health bar that mimic his current health, going down as it is depleted (based on percentage). Upon death, 8-bit Yoolip explodes in a cloud of pixelated gems and leaves behind a pixelated \"INSERT COIN\" message. The visual trails for when he walks and jumps are pixelated, Wrench smack leaves behind pixelated trails and generate pixelated green hearts when healing friendly droids, gripping gaze is not only pixelated, but also spawns a \"ring\" of Space Invaders[32]-like creatures around the victim and the robo-dinos are pixelated, and redrawn in retro-style. Even the healthpacks created by him are pixelated."
+      },
+      {
+        "type": "paragraph",
+        "text": "Finally, he has a unique teleporting animation (displayed on his tv screen visor) depending on which team he's in: an hourglass on red team and a depleting battery on blue team."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being an ultimate skin, there are also additional changes regarding voice acting, sound effects and music: Yoolip's sound effects are all inspired by 80s videogames, his voice acting is not only unique, but also sounds like it's coming from a gameboy soundbox and he has unique theme and killing spree themes."
+      },
+      {
+        "type": "paragraph",
+        "text": "In addition to all that, as a previously secret easter egg, any player present in a match that has an 8-bit Yoolip in it, is able to type in \"/pixels\" in the game chat to enable/disable Ultrapixels mode reminiscent of Ronimo's April Fools' joke in 2016 regardless of if they own the skin or not. This causes the message \"Ultra Pixels: it's the future!\" To appear in the chatbox and the game to become pixelated via a filter. Typing the message in chat a second time displays the message \"Ultrapixels are so 1983!\" and disables the filter. This is likely a reference to the videogame crash of 1983[33]."
+      }
+    ],
+    "Awesomenaut Showcase": [
+      {
+        "type": "paragraph",
+        "text": "Showcase starts at 0:28 in the video, ends at 0:40."
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Yoolip is the first 'Naut to have blood relations with another 'Naut (along with Jimmy and Amy, who are related to each other, being siblings): his granddaughter Ayla.",
+          "Yoolip's skills are a composite of two old 'Naut concepts, as seen in the gallery below.",
+          "Clockwork Yoolip was given away for free as a pre-order bonus for Overdrive.",
+          "Yoolip launched simultaneously alongside Jimmy And The Lux5000 and Chucho Krokk as part of Patch 3.0.",
+          "Many of the particles created by 8-Bit Yoolip are characters from Roflnauts, a mini-game/easter egg within Awesomenauts.",
+          "8-Bit Yoolip was teased during the 2016 April Fools' joke. His theme song was used as the menu music, his killing spree played at the start of each match, and a pixelated screenshot of him could be seen on the patch's banner.",
+          "The \"/pixels\" easter egg that makes the game pixelated using a graphical filter can be used by any player in the match if a 8-bit Yoolip is present regardless if they own the skin themselves or not. This makes 8-Bit Yoolip the first skin with content that directly affects other players."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Concept Skill 1 (Became Gripping Gaze)",
+          "Concept Skill 2 (Became Summon Robo Dinos)",
+          "Ultra Pixels banner, with an image of 8-bit Yoolip.",
+          "Yoolip's scoreboard icon (Pre-patch 3.4)."
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Gripping Gaze will stun you as well as your target. Be very careful of when and where you use it. Carefully consider what your enemies can do and use Gripping Gaze on the biggest threat to your and your teammates.",
+          "It's possible to move around and jump when summoning your Robo Dinos.",
+          "Don't use Wrench Smack just to attack enemies, you can heal your team's own droids and other summonables as well.",
+          "Quark Microscope benefits from any healthpack. Whether if it comes from Creeps, other upgrades such as Dino Poop and Laboratory Centrifuge or are found around the map.",
+          "If you wanna focus on survivability by regaining lost health, Yoolip has a few tools available at his disposal, such as Dino Poop, Laboratory Centrifuge and Syrup Pouring Robot.",
+          "Both Summon Robo Dinos and Wrench Smack have several upgrades that can turn Yoolip into a reliable pusher."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Both Yoolip and his target will be very vulnerable during Gripping Gaze. You can be of assistance by protecting him from his other enemies or by trying to finish off his target.",
+          "Generally, staying around Yoolip is a good idea, as he provides a lot of offensive and defensive bonuses for those around him. Definitely Not Butter, Dino Poop and Lab Rats are good examples of this.",
+          "Save your hard-to-aim burst for when Yoolip uses Gripping Gaze. It essentially guarantees the damage."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Avoid walking alone at all costs and be specially careful of overextending or chasing Yoolip. His Gripping Gaze can lock you down near his friends or a turret and quickly turn the tables on you.",
+          "Yoolip can be dangerous even while low on health, depending on his upgrades, as several of them are aimed at regaining health.",
+          "The best time to attack Yoolip is perhaps when he uses Gripping Gaze on one of your teammates, as he himself is stunned by it as well, becoming vulnerable.",
+          "Yoolip's dinos can be dangerous, but are slow-moving. Get out of their way or jump above them, but be wary, as he might be using Holo Pet Food to counter this.",
+          "If you are a close combat character, consider waiting for Gripping Gaze to target someone else or even better, miss the target so you can approach Yoolip much more safely.",
+          "If you have Knockback available, consider saving it for Yoolip when he uses Gripping Gaze. If Yoolip is sent too far away from his target the Gaze will end early, so you might save your allies."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/yoolip-charselect-53ac7345.webp",
+      "source_name": "Yoolip charselect.png",
+      "alt": "Yoolip charselect",
+      "width": 512,
+      "height": 426,
+      "format": "WEBP",
+      "sha256": "53ac73456553b6db0ec5f1a8e29570f1d12c049c01abc21639dc34b68049c7bb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-yoolip-beam-d604339f.webp",
+      "source_name": "UI Skillbutton yoolip Beam.png",
+      "alt": "UI Skillbutton yoolip Beam",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d604339ff43ccdb41b672fc7064fc9c8b2ea93b311136535272d46102f7ff050",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-yoolip-attack-5cc9a034.webp",
+      "source_name": "UI Skillbutton yoolip Attack.png",
+      "alt": "UI Skillbutton yoolip Attack",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5cc9a034455e55a83cf0835fafc72e8267fe56dfda771426e39bd43704ec18f6",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-yoolip-monster-b920b2d9.webp",
+      "source_name": "UI Skillbutton yoolip Monster.png",
+      "alt": "UI Skillbutton yoolip Monster",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b920b2d9e1fd532753c08b004b0617716afea4ea97eaaa8bbd88573711c0517a",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-yoolip-jump-33115f94.webp",
+      "source_name": "UI Skillbutton yoolip Jump.png",
+      "alt": "UI Skillbutton yoolip Jump",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "33115f946343ea4420317babe80feff01cce365848065d9dd21110eb6b4ed321",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-yoolip-skill-a-upgrade-a-10aea666.webp",
+      "source_name": "Shop Icons yoolip skill a upgrade a.png",
+      "alt": "Shop Icons yoolip skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "10aea666500fb1a00b6d7980eb95a92b45c0c63c6c17b23ce93015d8ee474f23",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-yoolip-skill-a-upgrade-b-881eb143.webp",
+      "source_name": "Shop Icons yoolip skill a upgrade b.png",
+      "alt": "Shop Icons yoolip skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "881eb143e7db9cbbccaec6beca5b302a54988c4415ffc2a68c5e3a633addfe13",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-yoolip-skill-a-upgrade-c-faeb0e36.webp",
+      "source_name": "Shop Icons yoolip skill a upgrade c.png",
+      "alt": "Shop Icons yoolip skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "faeb0e36436d99a46ec579ac9ab3a04704f93bbb57e30c5da58e4bd60c042d01",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-yoolip-skill-a-upgrade-d-a16bb427.webp",
+      "source_name": "Shop Icons yoolip skill a upgrade d.png",
+      "alt": "Shop Icons yoolip skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a16bb42769a2e5241aaff3095322a667f3dcde238b974a2124247d7c2a6dc57a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-yoolip-skill-a-upgrade-e-4db7434e.webp",
+      "source_name": "Shop Icons yoolip skill a upgrade e.png",
+      "alt": "Shop Icons yoolip skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4db7434ebc3c69709a743ee93b58e31176bb38d94a3e0911fd194852de99c608",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-yoolip-skill-a-upgrade-f-35499bc6.webp",
+      "source_name": "Shop Icons yoolip skill a upgrade f.png",
+      "alt": "Shop Icons yoolip skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "35499bc6097f792fcf68c76ccddd2786374edf0a900ac0b22edd81df0f9109ff",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-yoolip-skill-b-upgrade-a-160976d3.webp",
+      "source_name": "Shop Icons yoolip skill b upgrade a.png",
+      "alt": "Shop Icons yoolip skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "160976d3253d93edb12f600d6fba354d8748a453695f8819fc029fb0cea07ad9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-yoolip-skill-b-upgrade-b-d8b04d8e.webp",
+      "source_name": "Shop Icons yoolip skill b upgrade b.png",
+      "alt": "Shop Icons yoolip skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d8b04d8e8b3a2a54f983e6f631bb0caa1360a8f18aa1a0a38000d743b5e12394",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-yoolip-skill-b-upgrade-c-569b0d57.webp",
+      "source_name": "Shop Icons yoolip skill b upgrade c.png",
+      "alt": "Shop Icons yoolip skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "569b0d576ebde07bf044211c9762b5a8889e47e3ca99e43abe89ea25153b6eb5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-yoolip-skill-b-upgrade-d-13396d6f.webp",
+      "source_name": "Shop Icons yoolip skill b upgrade d.png",
+      "alt": "Shop Icons yoolip skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "13396d6fda1ee89a7e127960f7490b16c4eeb3a9b966b5c1efe5ac366914d2f5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-yoolip-skill-b-upgrade-e-18170935.webp",
+      "source_name": "Shop Icons yoolip skill b upgrade e.png",
+      "alt": "Shop Icons yoolip skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "18170935ee9241f744a9c6fa822e00c0a9f743241434db7226d5d51b6f2a4d37",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-yoolip-skill-b-upgrade-f-d2e2d05c.webp",
+      "source_name": "Shop Icons yoolip skill b upgrade f.png",
+      "alt": "Shop Icons yoolip skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d2e2d05ca23dbc09b59024cec3678ce9f80d2ebc26c77603887cc5b167a79a3c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-yoolip-skill-c-upgrade-a-def2eac2.webp",
+      "source_name": "Shop Icons yoolip skill c upgrade a.png",
+      "alt": "Shop Icons yoolip skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "def2eac2068181ee112510192f1d57ff6b81257c97f8984879c8f0d35118e029",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-yoolip-skill-c-upgrade-d-9964b5eb.webp",
+      "source_name": "Shop Icons yoolip skill c upgrade d.png",
+      "alt": "Shop Icons yoolip skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9964b5ebc70ac79e97b128a2dd5a3595e45b611bc2a2bd41600c3e8c5547bf35",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-yoolip-skill-c-upgrade-c-ab4e50ec.webp",
+      "source_name": "Shop Icons yoolip skill c upgrade c.png",
+      "alt": "Shop Icons yoolip skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ab4e50ec444c7b365e598885e921dee7256328a1681d9a2b4185eab6409fd0be",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-yoolip-skill-c-upgrade-b-bb76c407.webp",
+      "source_name": "Shop Icons yoolip skill c upgrade b.png",
+      "alt": "Shop Icons yoolip skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bb76c40710ac86c8ff174607cfcbfee00d2f7396a807acb6ed88b87ee63767ed",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-yoolip-skill-c-upgrade-e-ec8e59c4.webp",
+      "source_name": "Shop Icons yoolip skill c upgrade e.png",
+      "alt": "Shop Icons yoolip skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ec8e59c41c64cb235ebe1cae80822cc8a3943e9c50f00561b02ac559a2b70be9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-yoolip-skill-c-upgrade-f-52436c46.webp",
+      "source_name": "Shop Icons yoolip skill c upgrade f.png",
+      "alt": "Shop Icons yoolip skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "52436c46afdfaa439880bb074bb1ee966c3750fd451d83632aecf7bcf7c28f79",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/shop-icons-overall-yoolipspeed-a93c5160.webp",
+      "source_name": "Shop Icons Overall YoolipSpeed.png",
+      "alt": "Shop Icons Overall YoolipSpeed",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a93c516027d416178868dab2f4e6803f716506768b5619b904f8b45bff4eafd5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-overdrive-54a20e5d.webp",
+      "source_name": "Shop Icons Overall Overdrive.png",
+      "alt": "Shop Icons Overall Overdrive",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "54a20e5d68abbebd00e3b2a7b5973f52111c38c013f924d33c4ec22bf97e07e5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/yoolipingamered-76cb9134.webp",
+      "source_name": "Yoolipingamered.png",
+      "alt": "Default skin.",
+      "width": 128,
+      "height": 179,
+      "format": "WEBP",
+      "sha256": "76cb91346c1d4a712f4ae37bd61e7dd48d9a2d421e60497ade80116474d36c70",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/yoolipingameblue-06bc2c89.webp",
+      "source_name": "Yoolipingameblue.png",
+      "alt": "Default skin.",
+      "width": 129,
+      "height": 178,
+      "format": "WEBP",
+      "sha256": "06bc2c89e98bd55cf8ab734d3a94e0cd0ebc8d0291d4d4a84a89a5e04fed0c74",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/clockworkyoolipingamered-aa21f974.webp",
+      "source_name": "Clockworkyoolipingamered.png",
+      "alt": "Clockwork Yoolip.",
+      "width": 132,
+      "height": 177,
+      "format": "WEBP",
+      "sha256": "aa21f97449728a3e17f3156a0a3b5f3f2c2bf278ea9fc30f60f20ebd1341d64c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/clockworkyoolipingameblue-f7238746.webp",
+      "source_name": "Clockworkyoolipingameblue.png",
+      "alt": "Clockwork Yoolip.",
+      "width": 131,
+      "height": 178,
+      "format": "WEBP",
+      "sha256": "f7238746bb28d41ce0c62fa11370f1d5a315c7f6dff9b0f1e5b24986419b2a65",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/8bityoolipingamered-b092b357.webp",
+      "source_name": "8bityoolipingamered.png",
+      "alt": "8-Bit Yoolip.",
+      "width": 119,
+      "height": 174,
+      "format": "WEBP",
+      "sha256": "b092b357acf20f1f783604d4d687d250923ad633e861a044dae5535cccd7f44d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/8bityoolipingameblue-f4671496.webp",
+      "source_name": "8bityoolipingameblue.png",
+      "alt": "8-Bit Yoolip.",
+      "width": 117,
+      "height": 176,
+      "format": "WEBP",
+      "sha256": "f467149606958e57c2506b67e3dfe24199f1c75957000f6d307ce46a76499c02",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/ui-minimap-player-yoolip-0-c77910e2.webp",
+      "source_name": "Ui minimap player yoolip 0.png",
+      "alt": "Ui minimap player yoolip 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "c77910e24bcd82e859fb489ec9f4d74cec8e2e3a4c6f1ddd660df7c51cfbc7a4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/classicon-yoolip-d421bd55.webp",
+      "source_name": "Classicon Yoolip.png",
+      "alt": "Classicon Yoolip",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "d421bd55200575e95aa00cd9b31bee06fe95fb893dc7f0094203b385b9598add",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/yoolip-002-charselect-53b80d86.webp",
+      "source_name": "Yoolip 002 charselect.png",
+      "alt": "Yoolip 002 charselect",
+      "width": 250,
+      "height": 250,
+      "format": "WEBP",
+      "sha256": "53b80d866fb049e3dbe625d5a2324fca27f3d70f47add9ebee78d6827b2147ed",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/yoolip-003-8bit-86a7ae11.webp",
+      "source_name": "Yoolip 003 8Bit.png",
+      "alt": "Yoolip 003 8Bit",
+      "width": 200,
+      "height": 244,
+      "format": "WEBP",
+      "sha256": "86a7ae11e7bc585a59f87c4f79e175494ff7fe1d78ac2744024407f296275f51",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/awesomenauts-character-concepts-rocket2-95ee3939.webp",
+      "source_name": "Awesomenauts Character Concepts - Rocket2.jpg",
+      "alt": "Concept Skill 1 (Became Gripping Gaze)",
+      "width": 120,
+      "height": 57,
+      "format": "WEBP",
+      "sha256": "95ee39390ba56ff5e553e60df85f4ebfa9c30dd3be255165d72a7d450f2f30c3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/awesomenauts-character-concepts-wozzle1-43526ae5.webp",
+      "source_name": "Awesomenauts Character Concepts - Wozzle1.jpg",
+      "alt": "Concept Skill 2 (Became Summon Robo Dinos)",
+      "width": 120,
+      "height": 76,
+      "format": "WEBP",
+      "sha256": "43526ae526077b1a7f0a9acda69830fa7044a8ea5da52bf4563245c28eabc046",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/awesomenauts-ultrapixels-sm-333e8c18.webp",
+      "source_name": "Awesomenauts UltraPixels SM.jpg",
+      "alt": "Ultra Pixels banner, with an image of 8-bit Yoolip.",
+      "width": 120,
+      "height": 85,
+      "format": "WEBP",
+      "sha256": "333e8c184b52cf9ba150f031497fe3448adef7fd221e151134b6604dc9d516fa",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/classicon-ellipto-f78ac2d2.webp",
+      "source_name": "Classicon Ellipto.png",
+      "alt": "Yoolip's scoreboard icon (Pre-patch 3.4).",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "f78ac2d2c1b4a083b9c545c457b87fae1925ed5ab46fb83ab994f745a72c4e95",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "8-Bit Yoolip Quotes"
+    ],
+    "status": "extracted"
+  }
+}

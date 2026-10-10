@@ -1,0 +1,1183 @@
+{
+  "schema_version": 1,
+  "name": "Ted McPain",
+  "slug": "ted-mcpain",
+  "source": {
+    "filename": "Ted.McPain.-.Official.Awesomenauts.Wiki.10.10.2026.17.58.08.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Ted_McPain",
+    "sha256": "db6b1fd5d873114056e235eca7a12ad09c46fbec2b91959fd9be997188bdcac0",
+    "size_bytes": 3176910
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1400 (2464)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.4"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Range"
+    },
+    {
+      "label": "Role",
+      "value": "Fighter"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Hard",
+    "Development Name": "Commando",
+    "Type of abilities": "Knockback , Stun , Long-ranged , Healthpack , Area of Effect , Damage Over Time , Attack Modifier",
+    "Release Date": "December 12th 2013"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Airstrike",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Airstrike",
+      "description": "Shoot a flare that marks the location for a powerful airstrike. Only available when holding the machinegun.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "450 (706.5)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "11s"
+        },
+        {
+          "label": "Range",
+          "value": "10"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Shotgun and Machine Gun",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Shotgun_and_Machine_Gun",
+      "description": "Ted can alternate between his shotgun and machine gun",
+      "values": [
+        {
+          "label": "Shotgun Damage",
+          "value": "210 (329.7) (piercing)"
+        },
+        {
+          "label": "Shotgun Attack Speed",
+          "value": "50"
+        },
+        {
+          "label": "Shotgun Range",
+          "value": "5"
+        },
+        {
+          "label": "Shotgun Reload Time",
+          "value": "2s"
+        },
+        {
+          "label": "Shotgun Knockback",
+          "value": "0.2"
+        },
+        {
+          "label": "Shotgun Spread",
+          "value": "20°"
+        },
+        {
+          "label": "Machine Gun Damage",
+          "value": "42 (65.94)"
+        },
+        {
+          "label": "Machine Gun Attack Speed",
+          "value": "352.9"
+        },
+        {
+          "label": "Machine Gun Range",
+          "value": "7.5"
+        },
+        {
+          "label": "Movement with machine gun",
+          "value": "+0.8"
+        },
+        {
+          "label": "Weapon Switch Cooldown",
+          "value": "0.6s"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Stimpack",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Stimpack",
+      "description": "Receive a temporary burst of attack speed. Only available when holding the shotgun.",
+      "values": [
+        {
+          "label": "Attack Speed",
+          "value": "+40%"
+        },
+        {
+          "label": "Swap Speed",
+          "value": "+40%"
+        },
+        {
+          "label": "Duration",
+          "value": "4s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "10s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Jumppack",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Jumppack",
+      "description": "This marine can handle any assault course with his jumppack",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "8"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Stealthy Ninja Weapons",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Stealthy_Ninja_Weapons",
+      "group": "Airstrike",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wheelbarrow with Ammo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wheelbarrow_with_Ammo",
+      "group": "Airstrike",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Double RPG",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Double_RPG",
+      "group": "Airstrike",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "I-Don't-Carebear",
+      "source_url": "https://awesomenauts.fandom.com/wiki/I-Don%27t-Carebear",
+      "group": "Airstrike",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hamburger Phone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hamburger_Phone",
+      "group": "Airstrike",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Adlez Princess Phonenumber",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Adlez_Princess_Phonenumber",
+      "group": "Airstrike",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Armpit Shaving Cream",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Armpit_Shaving_Cream",
+      "group": "Stimpack",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ammo Weekly",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ammo_Weekly",
+      "group": "Stimpack",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Personal Assistant",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Personal_Assistant",
+      "group": "Stimpack",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Angel Wing Toilet Paper",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Angel_Wing_Toilet_Paper",
+      "group": "Stimpack",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sniper Toothbrush",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sniper_Toothbrush",
+      "group": "Stimpack",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Grénaide pour Homme",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Gr%C3%A9naide_pour_Homme",
+      "group": "Stimpack",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ted McPain Unicorn Dance Karting",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ted_McPain_Unicorn_Dance_Karting",
+      "group": "Shotgun and Machine Gun",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Commando Ted Figurine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Commando_Ted_Figurine",
+      "group": "Shotgun and Machine Gun",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Teddy's Bullseyes",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Teddy%27s_Bullseyes",
+      "group": "Shotgun and Machine Gun",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Tedris Ville",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tedris_Ville",
+      "group": "Shotgun and Machine Gun",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Can O'Juice!",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Can_O%27Juice!",
+      "group": "Shotgun and Machine Gun",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ted's Power Briefs",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ted%27s_Power_Briefs",
+      "group": "Shotgun and Machine Gun",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Jumppack",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Jumppack",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Jumppack",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Jumppack",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Jumppack",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Starstorm Statue",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Starstorm_Statue",
+      "group": "Jumppack",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Party Boy McPain",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "It's time to get wild, baby! Celebrating a Bachelorette, Bar Mitzvah, Birthday, Graduation, or want to spice up your family Christmas dinner? No matter the occasion, you can hire Party Boy McPain for your next event. Anytime... Anywhere... Saddle up!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Ted McPain in Awesomenauts: Starstorm, and comes with a fully customized voice set! - Official Steam Store Description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Ted a cowboy-themed stripper costume. It has a pink cowboy hat and pink kneepads, leggings, a thong, jacket, star-shaped stickers covering his nipples, sleeve cuffs, heart-shaped sunglasses, and a bowtie collar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ted's jumppack is removed and his guns have golden stars attached to them, while Airstrike has a star-shaped beacon. Ted also leaves behind a trail of banknotes as he moves, similarly to Vinnie & Spike."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being a premium skin, Party Boy McPain comes with many unique lines as well."
+        }
+      ],
+      "assets": [
+        "asset-040"
+      ]
+    },
+    {
+      "name": "Titanium Ted",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When things get too hot, Ted rocks his Titanium Marine outfit. This armor has withstood gunfire, acid, solar flares, psionic radiation, power swords, plasma cannons, Zurian butterknives and rabid blowfish during the many battles Ted has fought. The armor comes with air-conditioning, aim assist, onboard battlefield diagnostics, cable television and a built in candy cotton machine. It's time to get TITANIUM."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Ted McPain in Awesomenauts: Starstorm, and comes with a fully customized voice set! - Official Steam Store Description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Ted an armor that covers his entire body. It hides exposed skin by adding leggings, armor on the forearms and a crested helmet with an orange visor. The armor is darker in color in comparison to that of the default skin and features details such as spiked shoulderpads and elbow pads."
+        },
+        {
+          "type": "paragraph",
+          "text": "It also removes Ted's jumppack, gives Airstrike a skull-shaped beacon at the targeted area and alters the visuals of his guns, with the shotgun looking more advanced and the machine gun featuring a bayonet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Finally, being a premium skin, Titanium Ted comes with many unique lines. These also have a radio filter effect, sounding slightly different in comparison to Ted's normal voice."
+        }
+      ],
+      "assets": [
+        "asset-041"
+      ]
+    },
+    {
+      "name": "Scourge Capitain McPain",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Starstorm expansion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Captain McPain was a feared pirate throughout the seven galaxies. The man was well-known for his stature, his ability to carry around a full-sized cannon by himself, and his skill in actually firing the thing. He boarded many shipping vessels, claimed some booty, and distributed it fairly amongst his crew. He was as much a gentlemen as he was a fearsome rogue."
+        },
+        {
+          "type": "paragraph",
+          "text": "But disaster struck when one day he boarded a vessel operated by the Order of Popae Monks. When one of the monks was accidentally sucked out of the airlock, The Grand Space Butterfly took offense and cursed the pirate and his crew. On that day, Captain McPain became a ghost that would forever haunt the shipping lanes throughout the Galaxy. A haunting visage that strikes fear into those that travel the void!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Ted McPain in Awesomenauts: Starstorm. The Scourge Captain McPain skin comes with a unique character theme, killing spree theme, a unique voiceover, and special in-game audio effects for his abilities. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Ted the appearance of a ghost pirate. His skin is sickly green and glows, his mouth is filled with jagged teeth, and he wears and eye patch and has a white beard. He has a pirate's hat with a very large feather on top of it. In this skin, he's given brown pants and leather boots. He wears a captain uniform with shoulder pads that have skulls on them. He also has a large cape. His machine gun is altered to look like an oversized flintlock pistol while his shotgun looks like a ship's cannon."
+        },
+        {
+          "type": "paragraph",
+          "text": "His Machinegun bullets are ghostly green and leave a faint trail. His Shotgun blast looks like a skull and is surrounded in green smoke. Grenades from Ted McPain Unicorn Dance Karting become bombs, and they are marked with an X when they're armed. Airstrike is marked with dotted lines leading to an X, and the impact of Airstrike is now a massive anchor falling from the sky (the anchor will not appear if Princess Adlez Phonenumber is bought). Using Stimpack will unleash a ghostly green figure from Ted and play the instrumental version of his theme song (this feature was added after official release in Patch 3.4)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being ultimate, this skin comes with unique voice acting as well as a unique theme song and killing spree."
+        }
+      ],
+      "assets": [
+        "asset-042"
+      ]
+    }
+  ],
+  "sections": {
+    "BackStory": [
+      {
+        "type": "paragraph",
+        "text": "Ted McPain was one of the great heroes of the first AI Wars, a long time ago. He has led his squad of elite super soldiers, the Killer Koala’s, against many opponents and has been decorated as an outstanding soldier a hundred times over. His ultimate achievement, during the climax of the First AI Wars, was a solo operation onto the AI’s battle station Starstorm. This mission ended in Ted McPain single handedly unhinging all of the station’s crucial power couplings, effectively making sure the station wouldn’t be completed before the end of the war. Ted McPain eventually died when he sacrificed himself to save the Sunny-Daisy Alien Orphanage from a band of bloodthirsty dinosaur zombies in 3021. Ted’s heroic deeds would never be forgotten."
+      },
+      {
+        "type": "paragraph",
+        "text": "He lived on as he became the star of various video games: Ted McPain I through XVII, Ted McPain: Zombie Blast, Ted McPain vs. evil Ted McPain and Ted McPain Unicorn Dance Karting."
+      },
+      {
+        "type": "paragraph",
+        "text": "When Voltar The Omniscient learned of the violent dimwitted video game star, he brewed up a plan that would backfire horribly. He created the Materializotron XT8000 with which he wanted to bring back the war hero of old to be his personal assistant. Extracting Ted McPain’s digital essence from his video games, Voltar managed to materialize a life-size flesh and blood version. The Ted McPain that appeared though was missing his pants for unknown reasons. Voltar waved the issue aside saying “Stop asking stupid questions! He looks fine to me.”"
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "It's time to get wild, baby! Celebrating a Bachelorette, Bar Mitzvah, Birthday, Graduation, or want to spice up your family Christmas dinner? No matter the occasion, you can hire Party Boy McPain for your next event. Anytime... Anywhere... Saddle up!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Ted McPain in Awesomenauts: Starstorm, and comes with a fully customized voice set! - Official Steam Store Description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Ted a cowboy-themed stripper costume. It has a pink cowboy hat and pink kneepads, leggings, a thong, jacket, star-shaped stickers covering his nipples, sleeve cuffs, heart-shaped sunglasses, and a bowtie collar."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ted's jumppack is removed and his guns have golden stars attached to them, while Airstrike has a star-shaped beacon. Ted also leaves behind a trail of banknotes as he moves, similarly to Vinnie & Spike."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being a premium skin, Party Boy McPain comes with many unique lines as well."
+      },
+      {
+        "type": "paragraph",
+        "text": "When things get too hot, Ted rocks his Titanium Marine outfit. This armor has withstood gunfire, acid, solar flares, psionic radiation, power swords, plasma cannons, Zurian butterknives and rabid blowfish during the many battles Ted has fought. The armor comes with air-conditioning, aim assist, onboard battlefield diagnostics, cable television and a built in candy cotton machine. It's time to get TITANIUM."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Ted McPain in Awesomenauts: Starstorm, and comes with a fully customized voice set! - Official Steam Store Description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Ted an armor that covers his entire body. It hides exposed skin by adding leggings, armor on the forearms and a crested helmet with an orange visor. The armor is darker in color in comparison to that of the default skin and features details such as spiked shoulderpads and elbow pads."
+      },
+      {
+        "type": "paragraph",
+        "text": "It also removes Ted's jumppack, gives Airstrike a skull-shaped beacon at the targeted area and alters the visuals of his guns, with the shotgun looking more advanced and the machine gun featuring a bayonet."
+      },
+      {
+        "type": "paragraph",
+        "text": "Finally, being a premium skin, Titanium Ted comes with many unique lines. These also have a radio filter effect, sounding slightly different in comparison to Ted's normal voice."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Starstorm expansion."
+      },
+      {
+        "type": "paragraph",
+        "text": "Captain McPain was a feared pirate throughout the seven galaxies. The man was well-known for his stature, his ability to carry around a full-sized cannon by himself, and his skill in actually firing the thing. He boarded many shipping vessels, claimed some booty, and distributed it fairly amongst his crew. He was as much a gentlemen as he was a fearsome rogue."
+      },
+      {
+        "type": "paragraph",
+        "text": "But disaster struck when one day he boarded a vessel operated by the Order of Popae Monks. When one of the monks was accidentally sucked out of the airlock, The Grand Space Butterfly took offense and cursed the pirate and his crew. On that day, Captain McPain became a ghost that would forever haunt the shipping lanes throughout the Galaxy. A haunting visage that strikes fear into those that travel the void!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Ted McPain in Awesomenauts: Starstorm. The Scourge Captain McPain skin comes with a unique character theme, killing spree theme, a unique voiceover, and special in-game audio effects for his abilities. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Ted the appearance of a ghost pirate. His skin is sickly green and glows, his mouth is filled with jagged teeth, and he wears and eye patch and has a white beard. He has a pirate's hat with a very large feather on top of it. In this skin, he's given brown pants and leather boots. He wears a captain uniform with shoulder pads that have skulls on them. He also has a large cape. His machine gun is altered to look like an oversized flintlock pistol while his shotgun looks like a ship's cannon."
+      },
+      {
+        "type": "paragraph",
+        "text": "His Machinegun bullets are ghostly green and leave a faint trail. His Shotgun blast looks like a skull and is surrounded in green smoke. Grenades from Ted McPain Unicorn Dance Karting become bombs, and they are marked with an X when they're armed. Airstrike is marked with dotted lines leading to an X, and the impact of Airstrike is now a massive anchor falling from the sky (the anchor will not appear if Princess Adlez Phonenumber is bought). Using Stimpack will unleash a ghostly green figure from Ted and play the instrumental version of his theme song (this feature was added after official release in Patch 3.4)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being ultimate, this skin comes with unique voice acting as well as a unique theme song and killing spree."
+      }
+    ],
+    "Awesomenaut Showcase": [
+      {
+        "type": "paragraph",
+        "text": "Showcase starts at 0:30 of the video, ends at 0:52."
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ted McPain was the first Starstorm exclusive Awesomenaut to be released.",
+          "Ted McPain was the first character to be released with two premium skins. He was also the first character to not have a non-premium skin.",
+          "With over 230 total voice files (both premium skins included), Ted McPain has the largest amount of lines in the game.",
+          "The Killer Koala logo can be seen on Ted McPain's machine gun in his splash art.",
+          "Ted Mcpain is one of the three 'nauts that originate from Earth (the others being Raelynn and Yuri).",
+          "In the Awesomenauts timeline according to his lore, Ted McPain died 566 years ago before being brought back to life by Voltar.",
+          "Titanium Ted has a \"16\" decal on his splash art. It's probably referencing the fact that he was the 16th 'naut to be released in the game.",
+          "Ted McPain's design closely resembles and is likely a parody of a Space Marine from Warhammer 40k or Starcraft.",
+          "Ted McPain is the first and only character to have an extended version of his character theme.",
+          "Scourge Captain McPain is the first Starstorm ultimate skin to be added to the game.",
+          "Titanium Ted had three different splash art and in-game looks. The first one was a space marine very similar to the StarCraft II version of Jim Raynor and was altered by Ronimo Games to avoid copyright issues with Blizzard Entertainment[32]. A temporary replacement skin was made and removed all the references the previous one had. It stayed around for a short while until Ronimo replaced it with the more detailed, current version. All three versions can be seen below. Ronimo Games[33] offered full refunds to anyone who had purchased the skin prior to its changes. Titanium Ted's original splash art also had what appears to be a Skroggle Skull insignia on his left shoulder, noting a parallel between Skroggles and the Zerg."
+        ]
+      }
+    ],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Previous ted model.",
+          "Early Ted walking animation.",
+          "Early Ted upgrade examples",
+          "Titanium Ted's original splash art."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ted moves faster while holding his Machine Gun.",
+          "Keep an eye on your Shotgun ammo count (picture below) and plan ahead."
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Holding down the Airstrike button will allow you to aim it more precisely with the aid of a laser sight.",
+          "Firing Airstrike's tracer directly inside a hide area will grant vision inside of it.",
+          "More so than any other 'naut, Ted must land his shotgun bullets to make the most use of their limited ammo. Being patient and waiting for the perfect moment to shoot one or more targets can make the difference in a teamfight.",
+          "Because Airstrike hits all targets above the impact point by default, it's a good idea to spend more time in the bottom parts of the map. With good minimap awareness, it is possible to kill unsuspecting enemies and recover health from creeps that would otherwise be too far away. Adlez Princess Phonenumber, removes this limitation, allowing you to strike enemies above and below the impact point, thus making your presence in the top lane more effective.",
+          "Stimpack's animation prevents Ted from attacking, but he can still walk around and switch to Machine Gun.",
+          "Stimpack affects both of Ted's weapons. Simply switch to the Machine Gun after using Stimpack for increased, constant DPS.",
+          "If an enemy Froggy G is using Right Back At Ya!, it will reflect both of Ted's weapons. Use Grénaide pour Homme and I-Don't-Carebear to break his Tornado.",
+          "The grenades from Ted McPain Unicorn Dance Karting have a brief arming time: using them at melee range will cause them to fly through the target, dealing no damage.",
+          "Keep in mind that despite Tedris Ville's very long range and high damage, it cannot damage turrets.",
+          "Use Ted's large hitbox and Shotgun's innate Knockback to keep your enemies within the Airstrike's tracer until it hits.",
+          "Can O'Juice! can turn the Machine Gun into a more effective poking tool.",
+          "When being chased, firing an Airstrike directly downwards may discourage your pursuers or even hit them if they are not careful, possibly allowing you to turn the fight around.",
+          "Combining Angel Wing Toilet Paper with Ammo Weekly can make you a very dangerous brawler."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Usually, it's a good idea to leave Ted to take care of the bottom lane while you keep the enemy busy in the top lane. That way he may hit your enemies with his Airstrike.",
+          "Coordenate with Ted and use your Crowd Control effects as he activates Stimpack to more easily kill your enemies.",
+          "Ted has average health, a large hitbox and has to get pretty close to his enemies to deal most of his damage. Protect him the best way you can.",
+          "Ted's great at pushing lanes. Assist him if you can for an even more effective push."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Try to keep your distance from Ted, especially during the early game. He's deadly at close range, but isn't very fast.",
+          "Ted has relatively low health and movement speed and a large hitbox, making him vulnerable to slows and long range poke.",
+          "Take advantage of Airstrike's slow, predictable animation and sound effect to get out of the way before it can hit you.",
+          "Ted's Stimpack's has a very clear animation which briefly prevents him from attacking. Use this opportunity to move away from him, as he's very powerful under the effects of that skill.",
+          "Blinding effects may make Ted miss his shotgun shots and waste ammo. He'll either be forced to rely on the machine gun, retreat or pop up Stimpack to reload (if using Angel Wing Toilet Paper).",
+          "Silence not only prevents Ted from using Airstrike and Stimpack, but it also prevents him from switching weapons as well."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/tedmcpain-6cdb0368.webp",
+      "source_name": "Tedmcpain.png",
+      "alt": "Tedmcpain",
+      "width": 512,
+      "height": 506,
+      "format": "WEBP",
+      "sha256": "6cdb036837388590afc4e69ef6f289039d50456fbed935c1bf1c61ef9fa7bac4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-commando-airstrike-ff0b4f0a.webp",
+      "source_name": "UI Skillbutton Commando Airstrike.png",
+      "alt": "UI Skillbutton Commando Airstrike",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "ff0b4f0acf790070ececb9aab678403156f76c6c1fa7d8562247bf5b0a9ec40c",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-commando-attackshotgun-b9d7a615.webp",
+      "source_name": "UI Skillbutton Commando AttackShotgun.png",
+      "alt": "UI Skillbutton Commando AttackShotgun",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "b9d7a6153a90057411085c4f241fbced21937a8ae0164e63a2c2f3165a60d4a0",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-commando-stim-dc6ab89b.webp",
+      "source_name": "UI Skillbutton Commando Stim.png",
+      "alt": "UI Skillbutton Commando Stim",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "dc6ab89b2dc408feff4bbe4f16544774c0cc6009b8ee33c18d68bc968fe67b54",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-commando-jump-037fbaa9.webp",
+      "source_name": "UI Skillbutton Commando Jump.png",
+      "alt": "UI Skillbutton Commando Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "037fbaa99352dc5e0cb7bc20a980f17f16bb2b9ee3f803d9784b45cc83880fb6",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-commando-skill-a-upgrade-a-c4590003.webp",
+      "source_name": "Shop icons commando skill a upgrade a.png",
+      "alt": "Shop icons commando skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c4590003336f65c1fc84444b5ddb1e1f2ed3ab6be3a3ad6140bf7fc606f293a0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-commando-skill-a-upgrade-f-b7006f64.webp",
+      "source_name": "Shop icons commando skill a upgrade f.png",
+      "alt": "Shop icons commando skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b7006f64bcd23f93ed2b569093973d5c59f14cec83ed8ddbb279d88dadc6fa59",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-commando-skill-a-upgrade-e-8b34ddd9.webp",
+      "source_name": "Shop icons commando skill a upgrade e.png",
+      "alt": "Shop icons commando skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8b34ddd92569d7c6c3681c61bcd679121a0b86c05f35273015f22dcc6a65e7d2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-commando-skill-a-upgrade-c-363ac536.webp",
+      "source_name": "Shop icons commando skill a upgrade c.png",
+      "alt": "Shop icons commando skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "363ac536417993397a08d3b55f170badfb5a2ab5d20362fdad0940dcf16a02a9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-commando-skill-a-upgrade-b-f3b45dd9.webp",
+      "source_name": "Shop icons commando skill a upgrade b.png",
+      "alt": "Shop icons commando skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f3b45dd9aa3ba43b0781a7b26d314719d9992ae807268eff60443b4c53668d0c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-commando-skill-a-upgrade-d-fde0815e.webp",
+      "source_name": "Shop icons commando skill a upgrade d.png",
+      "alt": "Shop icons commando skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fde0815e6a559163a462954eb83165d07f4c94d68c9a5495457b67ffb231a048",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-commando-skill-c-upgrade-b-8401cab3.webp",
+      "source_name": "Shop icons commando skill c upgrade b.png",
+      "alt": "Shop icons commando skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8401cab3f4ebb83cea2702f9dd60077f0ad2014e615c3aaf10d3f99c5bc3cbc4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-commando-skill-c-upgrade-e-8c038bb8.webp",
+      "source_name": "Shop icons commando skill c upgrade e.png",
+      "alt": "Shop icons commando skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8c038bb8c5c33b76ae268ded0d09d95218de389cc64c1570fe50753ef94469ef",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-commando-skill-c-upgrade-c-cce466c4.webp",
+      "source_name": "Shop icons commando skill c upgrade c.png",
+      "alt": "Shop icons commando skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cce466c48e1430cd50399d7b78a188293d3cd6e9f003392a137cb864b4e16221",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-commando-skill-c-upgrade-a-81d58fb7.webp",
+      "source_name": "Shop icons commando skill c upgrade a.png",
+      "alt": "Shop icons commando skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "81d58fb77fd39bef072ddca27606b8fa3591f1787aadef5d682dc82a33f80f2d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-commando-skill-c-upgrade-d-c6e7fabf.webp",
+      "source_name": "Shop icons commando skill c upgrade d.png",
+      "alt": "Shop icons commando skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c6e7fabf8f7e6cb5c54de4248ea3e087be96394ca04fb21c7e44f6185e1dd615",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-commando-skill-c-upgrade-f-9634645b.webp",
+      "source_name": "Shop icons commando skill c upgrade f.png",
+      "alt": "Shop icons commando skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9634645bc6f0fc1330767e8e0fbc0cbd0756783924b2e5d8e66f9e9447eb0bed",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-commando-skill-b-upgrade-a-ff1de35d.webp",
+      "source_name": "Shop icons commando skill b upgrade a.png",
+      "alt": "Shop icons commando skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ff1de35d11de142dacdf9bc1b86ba37f2ab864b32fa41e958ccd39ea1fead051",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-commando-skill-b-upgrade-b-5cd78945.webp",
+      "source_name": "Shop icons commando skill b upgrade b.png",
+      "alt": "Shop icons commando skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5cd78945ab858b757d5c3633b009a4240ca038d076f42c68a1105c7c70d26760",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-commando-skill-b-upgrade-f-a173190f.webp",
+      "source_name": "Shop icons commando skill b upgrade f.png",
+      "alt": "Shop icons commando skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a173190f8ad50ef77a1b0e69eeafb7d8da9a792c19854ddaa6d2fba2caab1cff",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-commando-skill-b-upgrade-d-d60acd0b.webp",
+      "source_name": "Shop icons commando skill b upgrade d.png",
+      "alt": "Shop icons commando skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d60acd0b6b0cde5adee9692ddb2a07d48f45a9a8cd9c2a5f91ce78d16c25a9b1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-commando-skill-b-upgrade-e-da6cf3c9.webp",
+      "source_name": "Shop icons commando skill b upgrade e.png",
+      "alt": "Shop icons commando skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "da6cf3c98683fedc543c063c28ea918bcea4f1f0f4e671d2a0642abf781bc36b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-commando-skill-b-upgrade-c-24377c56.webp",
+      "source_name": "Shop icons commando skill b upgrade c.png",
+      "alt": "Shop icons commando skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "24377c56b10ba4b22454fbd43e68e7e506ec2992114209d68355ac0a315c504a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-foxy-utility-dmg-increase-23ac9656.webp",
+      "source_name": "Shop Icons foxy utility dmg increase.png",
+      "alt": "Shop Icons foxy utility dmg increase",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "23ac965644ff932051dd4b4dfcd0f264e635beec914ba0780d1c1d62464273c7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/tedmcpainingame-6b667ebd.webp",
+      "source_name": "Tedmcpainingame.jpg",
+      "alt": "Default skin.",
+      "width": 139,
+      "height": 156,
+      "format": "WEBP",
+      "sha256": "6b667ebd5860e5eec212adc80786d845474feeeb22895dcbc1a17131bd460d7e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-ted-mcpain-b63776b4.webp",
+      "source_name": "Base Ted McPain.png",
+      "alt": "Default skin",
+      "width": 141,
+      "height": 161,
+      "format": "WEBP",
+      "sha256": "b63776b4aad2a398cd1801145ee572dee829737cb206ec65342675eb99ab2f8a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/titaniumted3rdingame-4093c076.webp",
+      "source_name": "Titaniumted3rdingame.jpg",
+      "alt": "Titanium Ted.",
+      "width": 148,
+      "height": 148,
+      "format": "WEBP",
+      "sha256": "4093c076c81ecfd10e3aa0e07b6880e7c05b58c03da75cbb65f8831fb720f6ec",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/titanium-ted-machine-gun-f1345278.webp",
+      "source_name": "Titanium Ted (Machine Gun).png",
+      "alt": "Titanium Ted",
+      "width": 157,
+      "height": 160,
+      "format": "WEBP",
+      "sha256": "f1345278505fdf82bfb5250c0dadc09db2527a4c240036efa8e223095d29d819",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/partyboyingame-3696e506.webp",
+      "source_name": "Partyboyingame.jpg",
+      "alt": "Party Boy McPain. Donated by Gatronix.",
+      "width": 138,
+      "height": 155,
+      "format": "WEBP",
+      "sha256": "3696e50609bdd290db4df468d7b075ac34d30bf374e44e4cf7cd08ba743da55b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/party-boy-mcpain-skin-machine-gun-2684d837.webp",
+      "source_name": "Party Boy McPain Skin (Machine Gun).png",
+      "alt": "Party Boy McPain",
+      "width": 145,
+      "height": 156,
+      "format": "WEBP",
+      "sha256": "2684d837b3bad790a89bc8af9e03a0ab801b3abbcc7cc481f9418a229fbc9bb1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/scourgecaptainmcpainingamered-6e3be5f1.webp",
+      "source_name": "Scourgecaptainmcpainingamered.png",
+      "alt": "Scourge Captain McPain.",
+      "width": 180,
+      "height": 169,
+      "format": "WEBP",
+      "sha256": "6e3be5f101ae05decb6cf90a7544f839583f55e71a8b17aafd65ee7de92ea830",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/scourgecaptainmcpainingameblue-a640ff6d.webp",
+      "source_name": "Scourgecaptainmcpainingameblue.png",
+      "alt": "Scourge Captain McPain.",
+      "width": 180,
+      "height": 173,
+      "format": "WEBP",
+      "sha256": "a640ff6d6d517a45bcb97aad7b7e918a38f232dd5a24a08bdc57b8bc25be2864",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/ui-minimap-player-commando-0-04bb2180.webp",
+      "source_name": "Ui minimap player commando 0.png",
+      "alt": "Ui minimap player commando 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "04bb2180cff09f314267d179c1e13ccb250a1345f9306b4a3d556f434afe0e86",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/classicon-commando-5b4174de.webp",
+      "source_name": "Classicon Commando.png",
+      "alt": "Classicon Commando",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "5b4174de31f18d3fcde525bf65614e54a018d66c65b28dc7417f72bacf03bf6c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/characterrender-ted-party-boy-0e184685.webp",
+      "source_name": "CharacterRender Ted Party Boy.png",
+      "alt": "CharacterRender Ted Party Boy",
+      "width": 300,
+      "height": 370,
+      "format": "WEBP",
+      "sha256": "0e1846855036077e36da39493a7d96b5263ebb1a8b2793a039355605eada4348",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/characterrender-ted-titanium-ted-0718110a.webp",
+      "source_name": "CharacterRender Ted Titanium Ted.png",
+      "alt": "CharacterRender Ted Titanium Ted",
+      "width": 300,
+      "height": 247,
+      "format": "WEBP",
+      "sha256": "0718110acbed606020fba0df8aca538cc9a1ee9d320ec06f7b11d54814b40418",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/tedmcpain-004-piratemcpain-13346f54.webp",
+      "source_name": "TedMcPain 004 PirateMcPain.png",
+      "alt": "TedMcPain 004 PirateMcPain",
+      "width": 300,
+      "height": 226,
+      "format": "WEBP",
+      "sha256": "13346f5463fbe7537c676024e43f7eb5d58a092d2c24331055344c7e2cf85e36",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/titaniumtedoriginal-627cc9b8.webp",
+      "source_name": "Titaniumtedoriginal.jpg",
+      "alt": "Original version",
+      "width": 108,
+      "height": 136,
+      "format": "WEBP",
+      "sha256": "627cc9b88e21ffcac526b01f0cf4aec5449f94fe11f6f836b97cf29ac3b29a81",
+      "storage": "src"
+    },
+    {
+      "id": "asset-044",
+      "path": "assets/titaniumtedin-game-87dbaced.webp",
+      "source_name": "Titaniumtedin-game.jpg",
+      "alt": "Temporary replacement",
+      "width": 144,
+      "height": 148,
+      "format": "WEBP",
+      "sha256": "87dbaced5a4f589dca265e8d4a7f6c0d429a377a94788ef5261ad0ff1464f509",
+      "storage": "src"
+    },
+    {
+      "id": "asset-045",
+      "path": "assets/mcpain-eefb5871.webp",
+      "source_name": "McPain.png",
+      "alt": "Previous ted model.",
+      "width": 120,
+      "height": 92,
+      "format": "WEBP",
+      "sha256": "eefb5871fbd49e615136a0a702eec55e08689a3713906f48fc38f8482b6303d4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-046",
+      "path": "assets/tedwalking-8225fb0f.webp",
+      "source_name": "Tedwalking.gif",
+      "alt": "Early Ted walking animation.",
+      "width": 120,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "8225fb0fefb16360af9ce0a157b31e88264441e02639c56e22b6877ee9691621",
+      "storage": "src"
+    },
+    {
+      "id": "asset-047",
+      "path": "assets/tedupgrades-127d1a2a.webp",
+      "source_name": "Tedupgrades.JPG",
+      "alt": "Early Ted upgrade examples",
+      "width": 120,
+      "height": 43,
+      "format": "WEBP",
+      "sha256": "127d1a2a8dcb9d1ce5b403ab3b9d0830a6eadd3b18ea395dee293cbcc92121c9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-048",
+      "path": "assets/titaniumtedoriginalsplash-b95833ae.webp",
+      "source_name": "Titaniumtedoriginalsplash.jpg",
+      "alt": "Titanium Ted's original splash art.",
+      "width": 120,
+      "height": 68,
+      "format": "WEBP",
+      "sha256": "b95833ae9b00c0beb70aaf650159ca88185450ee3c2b4c390fa78faa6a6ef525",
+      "storage": "src"
+    },
+    {
+      "id": "asset-049",
+      "path": "assets/newshotgunbulletcount-b886c606.webp",
+      "source_name": "Newshotgunbulletcount.png",
+      "alt": "Newshotgunbulletcount",
+      "width": 400,
+      "height": 80,
+      "format": "WEBP",
+      "sha256": "b886c606eb4e161bd352e5c4f4fec71ee03ae56b908b147bc87f6a44cbaa3483",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Party Boy McPain Quotes",
+      "Titanium Ted Quotes",
+      "Scourge Capitain McPain Quotes"
+    ],
+    "status": "extracted"
+  }
+}

@@ -1,0 +1,925 @@
+{
+  "schema_version": 1,
+  "name": "Commander Rocket",
+  "slug": "commander-rocket",
+  "source": {
+    "filename": "Commander.Rocket.-.Official.Awesomenauts.Wiki.10.10.2026.17.46.51.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Commander_Rocket",
+    "sha256": "3a9cb48a54271d409664f6e801229be378a2ed458777a64f12e3ebc087cfe0b6",
+    "size_bytes": 5205655
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1150 (2024)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.7"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Long-ranged"
+    },
+    {
+      "label": "Role",
+      "value": "Harasser"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Wakuwaku",
+    "Type of abilities": "Knockback , Slow",
+    "Release Date": "16 August 2017"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Rocket Launch",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rocket_Launch",
+      "description": "Fire a huge rocket that deals damage. Watch out for recoil.",
+      "values": [
+        {
+          "label": "Minimum Damage",
+          "value": "200 (314)"
+        },
+        {
+          "label": "Maximum Damage",
+          "value": "400 (628)"
+        },
+        {
+          "label": "Knockback (self)",
+          "value": "1.3"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7.5s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Charged Salvo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Charged_Salvo",
+      "description": "Load up missiles automatically and fire them as a salvo. For each missile added, the salvo deals more damage.",
+      "values": [
+        {
+          "label": "Minimum Damage",
+          "value": "60 (94.2)"
+        },
+        {
+          "label": "Maximum Damage",
+          "value": "180 (282.6)"
+        },
+        {
+          "label": "Missiles",
+          "value": "3"
+        },
+        {
+          "label": "Attacks per second",
+          "value": "2.2"
+        },
+        {
+          "label": "Loading Speed",
+          "value": "0.7s"
+        },
+        {
+          "label": "Range",
+          "value": "7.2"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Laser Trap",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Laser_Trap",
+      "description": "Places a rotating trap that deals damage to enemies in its path.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "90 (141.3)"
+        },
+        {
+          "label": "Duration",
+          "value": "3s"
+        },
+        {
+          "label": "Tick Time",
+          "value": "0.3s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "10s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Tactical Double Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tactical_Double_Jump",
+      "description": "Tactical Double Jump",
+      "values": [
+        {
+          "label": "Jumps",
+          "value": "2"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Toaster Rocket Launcher",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Toaster_Rocket_Launcher",
+      "group": "Rocket Launch",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fusion Potato Masher",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fusion_Potato_Masher",
+      "group": "Rocket Launch",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mad Bomb",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mad_Bomb",
+      "group": "Rocket Launch",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Zurian Bomb Wrangler",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Zurian_Bomb_Wrangler",
+      "group": "Rocket Launch",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Nuke Bug",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Nuke_Bug",
+      "group": "Rocket Launch",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mother Of Bombs",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mother_Of_Bombs",
+      "group": "Rocket Launch",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Multistage Rocket",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Multistage_Rocket",
+      "group": "Laser Trap",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Luxor Crystal Ashtray",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Luxor_Crystal_Ashtray",
+      "group": "Laser Trap",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Borgo Cigar Cutter",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Borgo_Cigar_Cutter",
+      "group": "Laser Trap",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Scorched Cigar Pouch",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Scorched_Cigar_Pouch",
+      "group": "Laser Trap",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Profanity Filters",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Profanity_Filters",
+      "group": "Laser Trap",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Box Of Cirean Cigars",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Box_Of_Cirean_Cigars",
+      "group": "Laser Trap",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Plan B Rockets",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Plan_B_Rockets",
+      "group": "Charged Salvo",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Liquid MRE",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Liquid_MRE",
+      "group": "Charged Salvo",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Can Of Eightballs",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Can_Of_Eightballs",
+      "group": "Charged Salvo",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Card With Kiss",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Card_With_Kiss",
+      "group": "Charged Salvo",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Medal Booster Pack",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Medal_Booster_Pack",
+      "group": "Charged Salvo",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Head In Jar",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Head_In_Jar",
+      "group": "Charged Salvo",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Tactical Double Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Tactical Double Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Tactical Double Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Tactical Double Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Tactical Double Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Tactical Double Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Commander Cook-It",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Serving the Scargi Emperor was one of the happiest times in the life of Commander Rocket. Not only was he allowed to lead his Renegades into battle in service of the Scargo race, he also spent a lot of his time in the palace kitchens to enjoy his third-greatest passion: cooking (the others being fighting and cursing). None of the Scargo cooks initially thought much of the little guy, but with a little help from a tiny companion he found in the pantry, he quickly turned out to be able to create beautiful banquets and majestic meals from the simplest ingredients. They gave him full access to the kitchen on just one condition: never to bring any salt into the kitchen, as it was a hazardous substance to the snail-like Scargo."
+        },
+        {
+          "type": "paragraph",
+          "text": "When the Renegades were driven from the Scargo forces, it not only meant the Commander was left without an army, but he also found a new hobby: hunting down the Scargo emperor! Sometimes he still dons his old apron though... just to remind him of happier times."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Commander Rocket in Awesomenauts. You need to have Commander Rocket available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Commander Rocket a chef costume, which includes a white outfit, a chef hat (which changes in style depending on which team you're on) and a white apron. He is no longer smoking a cigar and holds a wooden spoon. His rocket launcher is replaced by a giant pepper mill that fires tomatoes (on red team) or purple bell peppers (on blue team). Rocket Launch's projectile is a giant sausage and Laser Trap looks like an egg timer (the lasers themselves having spaghetti for special effects, including Box Of Cirean Cigars). All the abilities have unique sound effects. When teleporting, a mouse comes out of his hat and squeaks (this is a reference to the movie Ratatouille[7])."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with unique voice acting."
+        }
+      ],
+      "assets": [
+        "asset-036"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Rocket was a war hardened soldier fighting for the Scargi army. Known for his explosive temper he fought bravely among the Scargi until he actually lost his head while furiously cleaning his rocket launcher during the siege on the arachnid planet Smertzspin. Rocket being a Galspitter, known for their cursing and vulgar language was given an advanced head prosthetic with profanity filter. But more importantly he was promoted to commander of the security detail of the Scarg emperor Pierre Feu Darret AKA \"Unstoppable Pierre\". Rehabilitating in the royal court the commander found a new team of misfits to command, who he would train to become the Rocket Renagades."
+      },
+      {
+        "type": "paragraph",
+        "text": "Until 3584 when disaster struck. The team of four crack military court members was sent to prison by the Scarg emperor for the audacious crime of planning to salt his dinner. A highly deadly substance for the sensitive snail-like Scargos. The renegades were thought to be planning an assassination when they were actually just being caught eating fries they had salted with the salty seals they illegally had been hiding in their quarters."
+      },
+      {
+        "type": "paragraph",
+        "text": "Before the Scarg imperial guards could apprejend them, Rocket told them to go \"Zork\" themselves and they dispersed into the far reaches of the galaxy. Today, still wanted by the Scargos, they prepare to strike back at those who wronged them. They have the weapons. They have their mission. All they need now are allies."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "Serving the Scargi Emperor was one of the happiest times in the life of Commander Rocket. Not only was he allowed to lead his Renegades into battle in service of the Scargo race, he also spent a lot of his time in the palace kitchens to enjoy his third-greatest passion: cooking (the others being fighting and cursing). None of the Scargo cooks initially thought much of the little guy, but with a little help from a tiny companion he found in the pantry, he quickly turned out to be able to create beautiful banquets and majestic meals from the simplest ingredients. They gave him full access to the kitchen on just one condition: never to bring any salt into the kitchen, as it was a hazardous substance to the snail-like Scargo."
+      },
+      {
+        "type": "paragraph",
+        "text": "When the Renegades were driven from the Scargo forces, it not only meant the Commander was left without an army, but he also found a new hobby: hunting down the Scargo emperor! Sometimes he still dons his old apron though... just to remind him of happier times."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Commander Rocket in Awesomenauts. You need to have Commander Rocket available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Commander Rocket a chef costume, which includes a white outfit, a chef hat (which changes in style depending on which team you're on) and a white apron. He is no longer smoking a cigar and holds a wooden spoon. His rocket launcher is replaced by a giant pepper mill that fires tomatoes (on red team) or purple bell peppers (on blue team). Rocket Launch's projectile is a giant sausage and Laser Trap looks like an egg timer (the lasers themselves having spaghetti for special effects, including Box Of Cirean Cigars). All the abilities have unique sound effects. When teleporting, a mouse comes out of his hat and squeaks (this is a reference to the movie Ratatouille[7])."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with unique voice acting."
+      }
+    ],
+    "Awesomenauts Showcase": [
+      {
+        "type": "paragraph",
+        "text": "Showcase starts at 0:25 in the video."
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Commander Rocket was the first of the Rocket's Renegades to be teased by Ronimo. His image was first published in-game when Awesomenauts transitioned into free to play.",
+          "Commander Rocket is part of the Rocket's Renegades, along with Dizzy, Smiles and Qi'Tara.",
+          "Commander Rocket has the smallest hitbox of any Awesomenaut, to the point of being able to walk underneath certain Solar cubes and Healthpacks without actually touching them.",
+          "Commander Rocket has a different backstory for the console version of the game. It can be seen below:"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Rocket was a war hardened soldier fighting for the Scargi army, well known for his explosive temper, vulgar language, and love for explosions. He lost his head in an unfortunate accident, but was given an advanced head prosthetic with profanity filter. Most importantly: he was promoted to commander of the security detail of the Scarg emperor Pierre Feu Darret AKA “Unstoppable Pierre”. Rehabilitating in the royal court, Rocket found a new team of misfits to command, and he trained them to become Rocket Renegades."
+      },
+      {
+        "type": "paragraph",
+        "text": "Disaster struck a few years later, and the team of four was sent to prison by the Scarg emperor for the audacious crime of planning to salt his dinner - a highly deadly substance for the sensitive snail-like Scargos."
+      },
+      {
+        "type": "paragraph",
+        "text": "During a shift of the guards, the team quickly outsmarted the slow Scarg prison guards and Rocket told them to go “Zork” themselves. They hijacked an interplanetary vessel and dispersed into the far reaches of the galaxy."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "There is a bug present in Awesomenauts Assemble! where Rocket will use a voice clip of Jimmy And The Lux5000 in very specific scenarios."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Commander Rocket featured in the splash art of update 4.0. To be released in update 4.3. Smaller robotic naut that uses a 3 missile rocket launcher.",
+          "Portrait of Commander Rocket posted to the Official Ronimo Twitter revealing more of his hat."
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "You will automatically charge rockets for your Charged Salvo. Properly timing your attacks allows you to fire in bursts, dealing heavy damage to enemies. Liquid MRE makes this tactic far more effective.",
+          "Rocket Launch will reset your second jump if you already used it. This, combined with its considerable recoil can allow you to achieve great vertical movement.",
+          "Rocket Launch is an extremely versatile ability, allowing you to deal damage from a distance, surprise opponents up close, use the recoil to escape or even to close the gap between enemies and more.",
+          "Rocket Launch has a slow moving projectile: Aim where enemies will be, not where they are.",
+          "You can still use the recoil effect on Rocket Launch to escape enemies even if you are snared. Alternatively, aiming at places your enemies currently are may be useful to deny them presence in those areas. For example, firing towards droids fighting each other may make it more difficult for your enemy to get the finishing blow on them, especially if they rely on melee attacks to do so.",
+          "Laser Trap has a much shorter range than your abilities: use it to discourage enemies from getting too close to you.",
+          "Laser Trap has a small arming time before deploying, which may allow your enemies some time to move to safety. Consider upgrades such as Borgo Cigar Cutter and Luxor Crystal Ashtray to make it harder to avoid.",
+          "Consider purchasing Mad Bomb and/or Nuke Bug if you're having trouble escaping your enemies.",
+          "Crowd control effects can be very dangerous due to Rocket's low health pool. Consider purchasing Baby Kuri Mammoth if you need help countering these effects."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Crowd control effects that immobilize or otherwise hamper enemy movement can greatly aid Rocket in landing his abilities.",
+          "Consider investing in crowd control effects if they are available to you: Rocket does not have many options himself, so you can complement his playstyle.",
+          "Due to his small hitbox and mobility, Rocket can get in and out of situations that would have killed less slippery nauts. Be careful of when and where you follow him."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Be careful when approaching Commander Rocket: Not only is his damage output high, but he can also easily move back to safety with his Rocket Launch",
+          "Due to his small health pool, abilities that deal high damage can be particularly effective in bringing Rocket down, especially ones that are able to outrange him, such as Snipe and Ball Lightning.",
+          "Use displacement and tether effects to bring Rocket closer to your team and either burst him down or keep him there with additional crowd control.",
+          "Stealth and silencing abilities/upgrades can aid in approaching and shutting down Rocket, making him easier to kill.",
+          "Do not underestimate the damage output of Laser Trap! It can kill you very quickly if you stay in the laser beam. Back away or carefully manouver around it instead.",
+          "Abilities that require no aiming (such as Lightning Rod or Suicide Drones' lasers) can help you to counter Rocket's high mobility."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/commander-rocket-001-142127d9.webp",
+      "source_name": "Commander Rocket 001.png",
+      "alt": "Commander Rocket 001",
+      "width": 512,
+      "height": 376,
+      "format": "WEBP",
+      "sha256": "142127d997e060a38f7ed436745950b15e398a2b0cad94dfc270c047dabadb19",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/commander-rocket-skillbuttons-05-23d08f1e.webp",
+      "source_name": "Commander Rocket skillbuttons 05.png",
+      "alt": "Commander Rocket skillbuttons 05",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "23d08f1e89036ef80e637ed5f0351a36e3e5a8b561bdcd7b6e11bd2a161ab3eb",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/commander-rocket-skillbuttons-04-f2aa93b8.webp",
+      "source_name": "Commander Rocket skillbuttons 04.png",
+      "alt": "Commander Rocket skillbuttons 04",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "f2aa93b8dd3a90b0ee9e2d9b8182ec14fc2b9305a1edafde3684be35de998a56",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/commander-rocket-skillbuttons-06-99137f0d.webp",
+      "source_name": "Commander Rocket skillbuttons 06.png",
+      "alt": "Commander Rocket skillbuttons 06",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "99137f0dec5bfe093ad664108e5d274a30a736375870153e64b31cce9ffba71c",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/commander-rocket-skillbuttons-07-0f94eced.webp",
+      "source_name": "Commander Rocket skillbuttons 07.png",
+      "alt": "Commander Rocket skillbuttons 07",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "0f94eced0bdee00bf2d755273e1d0f30cbdf835dea9698db12234efdb1c597f4",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/commander-rocket-items-13-69f682c4.webp",
+      "source_name": "Commander Rocket items 13.png",
+      "alt": "Commander Rocket items 13",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "69f682c43d73318a36b5663e63a07988432c5b370e2df1bbc6abc012aaa5c5a3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/commander-rocket-items-14-b0a3e889.webp",
+      "source_name": "Commander Rocket items 14.png",
+      "alt": "Commander Rocket items 14",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "b0a3e8891818821a5ed7b690fadb2b8a6ca47b3e5ad45b5450d6d07b60321762",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/commander-rocket-items-16-d4ee6c6c.webp",
+      "source_name": "Commander Rocket items 16.png",
+      "alt": "Commander Rocket items 16",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "d4ee6c6c2cc54d310df00431c107f37b76f2495bdcd54ee5aab19ef2f67dd9ef",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/commander-rocket-items-18-a56c33a5.webp",
+      "source_name": "Commander Rocket items 18.png",
+      "alt": "Commander Rocket items 18",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "a56c33a5f2325ae14914a8c59d67ef0865b1a0f504c2f7ea68e83f15feef6e2b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/commander-rocket-items-17-5666f5b2.webp",
+      "source_name": "Commander Rocket items 17.png",
+      "alt": "Commander Rocket items 17",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "5666f5b20aae0065b3bb7a3a0b1bd2a525a5ee753a3af220ab86fc6c1a7b707f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/commander-rocket-items-15-c218d04d.webp",
+      "source_name": "Commander Rocket items 15.png",
+      "alt": "Commander Rocket items 15",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "c218d04d44bde51be279128e0c6bd5f23f841f2ba258f335a64ab32e751b50aa",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/commander-rocket-items-11-596dfcea.webp",
+      "source_name": "Commander Rocket items 11.png",
+      "alt": "Commander Rocket items 11",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "596dfcea2daf3edf9ed7a3473bc03042fc580f8f12030a1c231224e5f0c72fdf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/commander-rocket-items-09-9dba6995.webp",
+      "source_name": "Commander Rocket items 09.png",
+      "alt": "Commander Rocket items 09",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "9dba699545adcd794ddd91f37b8fb34c4a48e3b94526de5c72dbebf9986a21de",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/commander-rocket-items-07-f9143963.webp",
+      "source_name": "Commander Rocket items 07.png",
+      "alt": "Commander Rocket items 07",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "f914396350ceb3db12aae88f18baf688350fd95fdf6cfd0a2f0272d2bd1c4a91",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/commander-rocket-items-10-600d5c7f.webp",
+      "source_name": "Commander Rocket items 10.png",
+      "alt": "Commander Rocket items 10",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "600d5c7f591279f69d4a2f0f6767431eb3716ab183ea5efc11e4b37343d4379f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/commander-rocket-items-12-cb153cac.webp",
+      "source_name": "Commander Rocket items 12.png",
+      "alt": "Commander Rocket items 12",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "cb153cac54d1f576406ff09ad2502ab21854faa49acaa866889174b9cc6ec4b1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/commander-rocket-items-08-417dd0de.webp",
+      "source_name": "Commander Rocket items 08.png",
+      "alt": "Commander Rocket items 08",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "417dd0de7798afc818b8521492c5c78acc5bb4fe8a8b7d06905210a30ca6653d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/commander-rocket-items-05-edf302e6.webp",
+      "source_name": "Commander Rocket items 05.png",
+      "alt": "Commander Rocket items 05",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "edf302e6f9b4c51c3b26ce5430422aa489374128bf128df4a04bcf82a092dbe3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/commander-rocket-items-04-cb5adbba.webp",
+      "source_name": "Commander Rocket items 04.png",
+      "alt": "Commander Rocket items 04",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "cb5adbba74d4bfa196b64c7bf267f9a4aa4fd0c67134fecbeddc5ba18830e740",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/commander-rocket-items-06-b07ccb6e.webp",
+      "source_name": "Commander Rocket items 06.png",
+      "alt": "Commander Rocket items 06",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "b07ccb6e591fbe1c99c3a4f6813fe6603dd5f87bfd668fed34f06d36e0bbe700",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/commander-rocket-items-03-1adabc76.webp",
+      "source_name": "Commander Rocket items 03.png",
+      "alt": "Commander Rocket items 03",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "1adabc76d2584d0fd74f57097d8c0181d566a92f078c871fffa2aeb3ea1eac5e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/commander-rocket-items-01-665cce1b.webp",
+      "source_name": "Commander Rocket items 01.png",
+      "alt": "Commander Rocket items 01",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "665cce1ba72d99964fe010ec1de174d60c4f0d5c4e3181ad252b47fca9228d8d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/commander-rocket-items-02-c04a931f.webp",
+      "source_name": "Commander Rocket items 02.png",
+      "alt": "Commander Rocket items 02",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "sha256": "c04a931f6fb4ef84ba42928511afd6a10e0303b31df67467e682306c8432d987",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/commanderrocketingamered-23cfd0f1.webp",
+      "source_name": "Commanderrocketingamered.png",
+      "alt": "Default skin.",
+      "width": 174,
+      "height": 173,
+      "format": "WEBP",
+      "sha256": "23cfd0f1684063f0c96c1e935664016de9744a32f8c729d919beb1b881bd9137",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/commanderrocketingameblue-fc370c5b.webp",
+      "source_name": "Commanderrocketingameblue.png",
+      "alt": "Default skin.",
+      "width": 175,
+      "height": 172,
+      "format": "WEBP",
+      "sha256": "fc370c5b037bea4821fb88fefd851d27b11915441acdc29fa3325f3345c7cec5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/commandercookitingamered-1c613b9f.webp",
+      "source_name": "Commandercookitingamered.png",
+      "alt": "Commander Cook-It.",
+      "width": 171,
+      "height": 170,
+      "format": "WEBP",
+      "sha256": "1c613b9fb851da253a29c73e5debb8fb4880603a3c2f774e48bf63ed19665eb6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/commandercookitingameblue-d04414df.webp",
+      "source_name": "Commandercookitingameblue.png",
+      "alt": "Commander Cook-It.",
+      "width": 170,
+      "height": 172,
+      "format": "WEBP",
+      "sha256": "d04414df08a72b92184993f7f33f1b2cd5c3f7ab3a521e00ebecf183aa6324c4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/ui-minimap-player-wakuwaku-0-9d2cf5ea.webp",
+      "source_name": "Ui minimap player wakuwaku 0.png",
+      "alt": "Ui minimap player wakuwaku 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "9d2cf5ea99bc4cd8568353e24b94580a7d13ee875bc92573b1ccaf2a1b40b2cc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/classicon-wakuwaku-f1eea9c4.webp",
+      "source_name": "Classicon wakuwaku.png",
+      "alt": "Classicon wakuwaku",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "f1eea9c4ce069497b7bf1b2dd86ffbf6bb063b6e78c92e6a02b36452574e05a6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/commander-rocket-002-cook-it-0f8ee0fd.webp",
+      "source_name": "Commander Rocket 002 Cook-it.png",
+      "alt": "Commander Rocket 002 Cook-it",
+      "width": 200,
+      "height": 222,
+      "format": "WEBP",
+      "sha256": "0f8ee0fd5c3e87cbaa5a8be1f1892be0c39d66c45b30620b4c6c43bc8643123d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/rocketmouse-b4131761.webp",
+      "source_name": "Rocketmouse.png",
+      "alt": "Commander Rocket featured in the splash art of update 4.0. To be released in update 4.3. Smaller robotic naut that uses a 3 missile rocket launcher.",
+      "width": 120,
+      "height": 77,
+      "format": "WEBP",
+      "sha256": "b4131761dffd059369daf708f6e179b80cb7bff0d4f76e0e3066f4b1f5661c64",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/twittermouse-b2e76563.webp",
+      "source_name": "Twittermouse.jpg",
+      "alt": "Portrait of Commander Rocket posted to the Official Ronimo Twitter revealing more of his hat.",
+      "width": 120,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "b2e765635385ed9ad8cac715a027c879454363cf29b6de0eb3fd92716de4237c",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Commander Cook-it quotes"
+    ],
+    "status": "extracted"
+  }
+}

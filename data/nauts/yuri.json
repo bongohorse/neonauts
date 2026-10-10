@@ -1,0 +1,917 @@
+{
+  "schema_version": 1,
+  "name": "Yuri",
+  "slug": "yuri",
+  "source": {
+    "filename": "Yuri.-.Official.Awesomenauts.Wiki.10.10.2026.18.02.43.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Yuri",
+    "sha256": "81b516ef5dea122db80f697bba0aafd64487beda358c7335d33b20f3359245ba",
+    "size_bytes": 2186710
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1350 (2376)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.7"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Long Range"
+    },
+    {
+      "label": "Role",
+      "value": "Support"
+    },
+    {
+      "label": "Mobility",
+      "value": "Aerial"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Hard",
+    "Development Name": "Jetter",
+    "Type of abilities": "Flight , Healing , Area of effect , Slow , Time Modifier",
+    "Release Date": "May 1st, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Mine Deploying",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mine_Deploying",
+      "description": "What’s the use of a jetpack if all it can do is fly and warp space and time? Exactly, it needs explosions!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "410 (643.7)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "4s"
+        },
+        {
+          "label": "Time",
+          "value": "10s"
+        },
+        {
+          "label": "Size",
+          "value": "2.4"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Laser",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Laser",
+      "description": "Affixed on top of the jetpack is a deadly laser that is able to fire in a full circle with pinpoint precision. It is able to slice through multiple enemies and even bounce off walls to hit people around a corner!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "30 (47.1)"
+        },
+        {
+          "label": "Maximum Damage",
+          "value": "40 (62.8)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "300"
+        },
+        {
+          "label": "Range",
+          "value": "9"
+        },
+        {
+          "label": "Charge time",
+          "value": "0.5"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Time Warp",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Time_Warp",
+      "description": "After his brain got zapped in the anomaly, Yuri managed to recreate parts of it inside his new fancy jetpack, allowing him to alter the flow of time in an area around himself.",
+      "values": [
+        {
+          "label": "Cooldown",
+          "value": "15s"
+        },
+        {
+          "label": "Duration",
+          "value": "3.5s"
+        },
+        {
+          "label": "Size",
+          "value": "12.8"
+        },
+        {
+          "label": "Slow down",
+          "value": "30%"
+        },
+        {
+          "label": "Speed up",
+          "value": "10%"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Jet Pack",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Jet_Pack",
+      "description": "The pride and joy of Yuri: it alters the flow of time, shoots laserbeams, drops mines, can insult enemies in over six million forms of communication and oh yeah, it can fly.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "0 (Jet Pack)"
+        },
+        {
+          "label": "Jumps",
+          "value": "1 (Toggle)"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Titanium Spikes",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Titanium_Spikes",
+      "group": "Mine Deploying",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Toaster Timer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Toaster_Timer",
+      "group": "Mine Deploying",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Aerial Spring",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Aerial_Spring",
+      "group": "Mine Deploying",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mine Constructor",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mine_Constructor",
+      "group": "Mine Deploying",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Carpet Bombs",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Carpet_Bombs",
+      "group": "Mine Deploying",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Uranium Spikes",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Uranium_Spikes",
+      "group": "Mine Deploying",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chrono Rift",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chrono_Rift",
+      "group": "Time Warp",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Regeneration Pod",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Regeneration_Pod",
+      "group": "Time Warp",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pod Pack Deluxe With Banana",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pod_Pack_Deluxe_With_Banana",
+      "group": "Time Warp",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Flash Forward",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flash_Forward",
+      "group": "Time Warp",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Spacetime Continuity Device",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spacetime_Continuity_Device",
+      "group": "Time Warp",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Time Primer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Time_Primer",
+      "group": "Time Warp",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Giant Monocle",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Giant_Monocle",
+      "group": "Laser",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Instant Charge Battery",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Instant_Charge_Battery",
+      "group": "Laser",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Resonance Amplifier",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Resonance_Amplifier",
+      "group": "Laser",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Flyswatter",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flyswatter",
+      "group": "Laser",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hubble's Lens",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hubble%27s_Lens",
+      "group": "Laser",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Yeti",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Yeti",
+      "group": "Laser",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Jet Pack",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Jet Pack",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Jet Pack",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Jet Pack",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Jet Pack",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Jet Pack",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Kosmonaut Yuri",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "[Transcript from 1959 experimental Sputnik launch, Read with Russian accent] This is Launch control. Cabin atmosphere and pressure stable. Testmonkey is in seat. Ignition sequence starts. 4... 3... 2... 1... Boost. We have lift-off. All tanks pressurized. Tower cleared. Wait minute... Monkey is out of seat. Monkey get back in seat! Yuri!!! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin replaces Yuri's standard clothes with a full spacesuit and helmet. His jetpack's color is also changed to silver. Abilities and the autoattack are unaltered, but the jetpack releases blue flames instead of the normal yellow ones."
+        }
+      ],
+      "assets": [
+        "asset-038"
+      ]
+    },
+    {
+      "name": "Double-O-Yuri",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Double-O-Yuri's instructions are implicit. License to kill. From elegant clubrooms to exotic islands, Double-O-Yuri carries out the Secret Simeon Service's dirty work. An action filled adventure of intrigue, treachery and romance. In the world of adventure, the highest number is Double-O-Yuri! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Yuri a suit, helmet and jetpack based on the James Bond movie \"Thunderball\". Mines from Mine Deploying look different, with more glowing lights on them and a slightly different shape, while Warp Time has the image of the famous gun barrel sequence James Bond movies are most famous for."
+        }
+      ],
+      "assets": [
+        "asset-039"
+      ]
+    }
+  ],
+  "sections": {
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "Once part of the soviet space program, Yuri was a monkey, experimentally shot into space during the 1960's cold war spacerace. Mysteriously, monitoring soviet scientists suddenly lost track of monkey Yuri's spacecraft."
+      },
+      {
+        "type": "paragraph",
+        "text": "Puzzled by its sudden disappearence, Soviet space-command wondered what had become of their beloved test-pet Yuri. Little did they know that Yuri's spacecraft had entered a warpfield anomaly and was transported hundreds of years into the future!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Also, the warpfield's radiation boosted Yuri's mind to superintelligent levels. The new, more intelligent, mad and slightly sadistic Yuri quickly grasped the situation and modified his broken rocket into an equally mad timetravelling supercomputer jetpack."
+      },
+      {
+        "type": "paragraph",
+        "text": "With the jetpack translating everything Yuri says and does, enemies are never quite sure who is in control, the mad scientist monkey, or the computer it created?"
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "[Transcript from 1959 experimental Sputnik launch, Read with Russian accent] This is Launch control. Cabin atmosphere and pressure stable. Testmonkey is in seat. Ignition sequence starts. 4... 3... 2... 1... Boost. We have lift-off. All tanks pressurized. Tower cleared. Wait minute... Monkey is out of seat. Monkey get back in seat! Yuri!!! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin replaces Yuri's standard clothes with a full spacesuit and helmet. His jetpack's color is also changed to silver. Abilities and the autoattack are unaltered, but the jetpack releases blue flames instead of the normal yellow ones."
+      },
+      {
+        "type": "paragraph",
+        "text": "Double-O-Yuri's instructions are implicit. License to kill. From elegant clubrooms to exotic islands, Double-O-Yuri carries out the Secret Simeon Service's dirty work. An action filled adventure of intrigue, treachery and romance. In the world of adventure, the highest number is Double-O-Yuri! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Yuri a suit, helmet and jetpack based on the James Bond movie \"Thunderball\". Mines from Mine Deploying look different, with more glowing lights on them and a slightly different shape, while Warp Time has the image of the famous gun barrel sequence James Bond movies are most famous for."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Yuri is one of the \"original six\" Awesomenauts that came with the game when it first launched, along with Clunk, Froggy G, Leon, Lonestar, and Voltar.",
+          "Yuri was the first Awesomenaut able to achieve true flight.",
+          "Yuri's name is likely based on Yuri Gagarin[7], soviet cosmonaut and the first human to be sent to outer space.",
+          "Yuri is one of the three 'nauts that originate from Earth (the others being Raelynn and Ted McPain).",
+          "Assuming Yuri is a chimpanzee, and that he was 5 years old when he went he was sent into space, Yuri has exceeded the average male chimpanzee lifespan by over 1600 years.[8]",
+          "Yuri is the tallest character in the game by far. This is because his hitbox extends all the way to his laser for gameplay purposes, and his laser is fired from the top of his sprite."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "While the Jet Pack is active, Yuri will ignore any glass platforms, moving freely through them.",
+          "Some Yuri players like to conceal their Mines inside hide areas in order to surprise enemies.",
+          "Deploy mines in high traffic areas, jump pad paths and platforms to make it difficult for enemies to manouver around the lane. Other good locations include the Worm button on Sorona or the Creep Releaser on AI Station 205.",
+          "Combining Aerial Spring and Carpet Bombs allow Yuri to control entire corridors. This is specially useful in chokepoints and Aiguillon.",
+          "Stacking mines on top of each other is a great way of stopping droid pushes and dealing heavy damage to careless enemies, but it comes at cost, as you'll have much less area control.",
+          "Yuri is good when paired with Leon, considering you can stack your Mines, and have him pull enemies into a stack of them. Likewise Skølldir's throw with the right spacing. This is usually enough for a kill. If the enemy happens to survive, use your laser to aid your buddy in getting the kill.",
+          "Much like default Time Warp, Flash Forward affects the speed of everything inside the bubble, including Yuri's own attack speed. Consider taking it if you are running a laser build focused on damage.",
+          "With your team nearby, use your flight and hide areas to sneak on your enemies and get Time Warp on all of them.",
+          "When using Pod Pack Deluxe With Banana, take advantage of laser's innate piercing to lifesteal off of multiple targets at once.",
+          "Spin your Laser around to \"scan\" the area for invisible enemies. Giant Monocle and Baby Yeti make this tactic even more effective."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Use whatever displacement and knockback effects you have available to throw enemies on Yuri's Mines.",
+          "Try and stay close to Yuri if he has Regeneration Pod and/or Flash Forward so that you may benefit from these effects when he activates Time Warp.",
+          "Time Warp gives your team an advantage during a teamfight. Try and make the most of it.",
+          "While Yuri has some escape tools at his disposal, it is best to focus on protect him as best as possible, as he can be vulnerable to ganking."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "If possible, try to poke at Yuri with long range attacks early and often to force him to retreat and heal. This will harm his ability to farm Solar and by extension, his late game.",
+          "A common mistake made by many new players is to willingly step on mines in order to clear them for the rest of the team. It's very rarely worth it as they usually deal high damage (specially when stacked or late in the match) and Yuri can quickly and easily replace them.",
+          "Mines make a beeping sound. Use that to know when you are close to one. This is specially useful against mines planted inside hide areas. Keep in mind that Carpet Bombs removes this sound effect, however.",
+          "Keep in mind that mines deal damage in an area around them. You may still be hurt if a droid or friendly 'naut steps on them if you are too close.",
+          "Mobile minions such as bull and clones with Basic AI Chip can assist you in clearing mines, specially when they are stacked on top of each other. Splash Dash can also be useful due to the innate invulnerability.",
+          "When engaging Yuri in close combat, remember that he can lay a mine in melee range, which will immediately explode.",
+          "Leon's Slash attack and movement/displacement crowd control effects can turn off Yuri's Jet Pack, forcing him to reactivate it if he wishes to remain in-flight.",
+          "Yuri has a variety of powerful and dangerous upgrades to his Time Warp capable of turning an otherwise lost teamfight in his favor. Consider this before engaging him and his teammates.",
+          "Yuri cannot move and fire his laser at the same time. Keep that in mind when trying to hit him with abilities and attacks that are harder to land.",
+          "Yuri's Laser must stay active for a while in order to reach it's maximum damage potential. Crowd control effects interrupt this effect, however, making them particularly useful in this case."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/yuri-alpha-61d2d926.webp",
+      "source_name": "Yuri Alpha.png",
+      "alt": "Yuri Alpha",
+      "width": 512,
+      "height": 577,
+      "format": "WEBP",
+      "sha256": "61d2d9261b6edee919fc8c9c772f794e7d6f69adf8fb8821e7c1731de34418e8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-jetter-mine-842955a2.webp",
+      "source_name": "UI Skillbutton Jetter Mine.png",
+      "alt": "UI Skillbutton Jetter Mine",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "842955a2e173f400905ee68068d67d09ab8b02019509c3e20d0bff6614e8bfbd",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-jetter-attack-5dc61f9a.webp",
+      "source_name": "UI Skillbutton Jetter Attack.png",
+      "alt": "UI Skillbutton Jetter Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "5dc61f9a23afde26d1d19e5a12da84936f6c723b7816aac9457c9ad372c8c0b2",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-jetter-timebubble-f5c268cc.webp",
+      "source_name": "UI Skillbutton Jetter Timebubble.png",
+      "alt": "UI Skillbutton Jetter Timebubble",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "f5c268cc1929c36ea2a9edd9513442991189a7bd85cc05a7769422808587ac02",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-jetter-jump-0a754752.webp",
+      "source_name": "UI Skillbutton Jetter Jump.png",
+      "alt": "UI Skillbutton Jetter Jump",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "0a754752effa764f8d6082dff56035a474f01d5ec58f05396928dfc3edfe3708",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/upgrade-yuri-titanium-spikes-a1b3b1e2.webp",
+      "source_name": "Upgrade Yuri Titanium spikes.png",
+      "alt": "Upgrade Yuri Titanium spikes",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a1b3b1e287c65eb2d6c5b96edbbc7ec051340cc8d789b48acd86380ff5e93861",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/upgrade-yuri-toaster-timer-91dbae1d.webp",
+      "source_name": "Upgrade Yuri Toaster timer.png",
+      "alt": "Upgrade Yuri Toaster timer",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "91dbae1d31c55e4ef68e289258073f1327a65c2412eeaf272b13bf7655c7f749",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/upgrade-yuri-aerial-spring-d973fb0c.webp",
+      "source_name": "Upgrade Yuri Aerial spring.png",
+      "alt": "Upgrade Yuri Aerial spring",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d973fb0cf41a082aa4df2e19a0c88509ca8bba74359e245817c380bdf48b85a3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/upgrade-yuri-mine-constructor-b639c554.webp",
+      "source_name": "Upgrade Yuri Mine constructor.png",
+      "alt": "Upgrade Yuri Mine constructor",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b639c554aefe11b767311fc0cdcb21da1960f6d5204c834dfd5af903918a1bd0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/upgrade-yuri-carpet-bombs-22514a07.webp",
+      "source_name": "Upgrade Yuri Carpet bombs.png",
+      "alt": "Upgrade Yuri Carpet bombs",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "22514a07988928eac8a526241eaf2519629d78c39efcfd85b7bd3e081b434eb1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/upgrade-yuri-uranium-spikes-8be96bed.webp",
+      "source_name": "Upgrade Yuri Uranium spikes.png",
+      "alt": "Upgrade Yuri Uranium spikes",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8be96bed8f30258a0b90b3243f473d5682523e92d5407f71a347f09dae0838e5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/upgrade-yuri-chrono-rift-61c27be1.webp",
+      "source_name": "Upgrade Yuri Chrono rift.png",
+      "alt": "Upgrade Yuri Chrono rift",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "61c27be118c822dc508e3b2f542f95c6ed0183425422b859e6ad079de636273a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/upgrade-yuri-regeneration-pod-cc43c4b3.webp",
+      "source_name": "Upgrade Yuri Regeneration pod.png",
+      "alt": "Upgrade Yuri Regeneration pod",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cc43c4b3edcb018419d9660dd648b0ac0c16d5cb879ce3174a9645c958497fdd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-items-jetter-timebubble-heal-team-892c5d31.webp",
+      "source_name": "Shop Items Jetter TimeBubble Heal Team.png",
+      "alt": "Shop Items Jetter TimeBubble Heal Team",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "892c5d310b10a0efd0a8826da9ddf98276d1baf50eea1506585350541b5eb556",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/upgrade-yuri-flash-forward-211e6aae.webp",
+      "source_name": "Upgrade Yuri Flash forward.png",
+      "alt": "Upgrade Yuri Flash forward",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "211e6aae2127f173803e6553a827c7cdaa9359fc7e71bdd4a8765fa6cfc8ce1b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/upgrade-yuri-spacetime-continuity-device-1126e4f4.webp",
+      "source_name": "Upgrade Yuri Spacetime continuity device.png",
+      "alt": "Upgrade Yuri Spacetime continuity device",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1126e4f4d1559682cb6495a441dc658adad02f7c8c8bd8f3ae6e7b8bf367a96c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/upgrade-yuri-time-primer-cc3a4e4e.webp",
+      "source_name": "Upgrade Yuri Time Primer.png",
+      "alt": "Upgrade Yuri Time Primer",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cc3a4e4ea95a05d059b4e2dd0505d62291884a95018dd07237b27ff768fb3767",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/upgrade-yuri-giant-monocle-710f6333.webp",
+      "source_name": "Upgrade Yuri Giant monocle.png",
+      "alt": "Upgrade Yuri Giant monocle",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "710f6333d2f5b30d74b6f9504130e41a7b5917759ccb59d1b68f9f5148afefb9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/upgrade-yuri-instant-charge-battery-111e7314.webp",
+      "source_name": "Upgrade Yuri Instant charge battery.png",
+      "alt": "Upgrade Yuri Instant charge battery",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "111e7314e59aa54b8bef7ef73153f619a47c1d618669a11c7092769afda4afcd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/upgrade-yuri-resonance-amplifier-8d843c93.webp",
+      "source_name": "Upgrade Yuri Resonance amplifier.png",
+      "alt": "Upgrade Yuri Resonance amplifier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8d843c939949a934e081c2cd43ffca8c2edd2241a5d88d82fe020f337307edd1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/upgrade-yuri-tractor-beam-amplifier-726c4e14.webp",
+      "source_name": "Upgrade Yuri Tractor beam amplifier.png",
+      "alt": "Upgrade Yuri Tractor beam amplifier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "726c4e14a0e688fe3a4a5c0061a7a1e219c8798917a57ded029dec90653ed197",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/upgrade-yuri-hubble-s-lens-4c9541e0.webp",
+      "source_name": "Upgrade Yuri Hubble's lens.png",
+      "alt": "Upgrade Yuri Hubble's lens",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4c9541e0741fdd3a2ce7ffcf01340840cf3aee50bbb1b0204f1f9603cd14b714",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/upgrade-yuri-baby-yeti-6c0b54dd.webp",
+      "source_name": "Upgrade Yuri Baby yeti.png",
+      "alt": "Upgrade Yuri Baby yeti",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6c0b54ddb066ce32e9ec2bb2721a1889b8a2e8129e3b1b542fa87624064cf9fe",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/yuriingame-23226292.webp",
+      "source_name": "Yuriingame.png",
+      "alt": "Default skin.",
+      "width": 95,
+      "height": 156,
+      "format": "WEBP",
+      "sha256": "232262924cad855ad92991057dc7850d1d03909ec08c04f05f70c7d9ac74ddc9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-yuri-skin-dd4f3dff.webp",
+      "source_name": "Base Yuri Skin.png",
+      "alt": "Default skin",
+      "width": 102,
+      "height": 146,
+      "format": "WEBP",
+      "sha256": "dd4f3dffa7494760f121cb814cfb57e1dde6b61f92c25b47f85b54d0fdcec86a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/newkosmoyuriingame-9f609a46.webp",
+      "source_name": "Newkosmoyuriingame.png",
+      "alt": "Kosmonaut Yuri.",
+      "width": 98,
+      "height": 134,
+      "format": "WEBP",
+      "sha256": "9f609a4603e354dc1d01e5e8f4743a8ec807e27c2dbf8ab42a4d81f2b10c1eba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/cosmonaut-yuri-aerial-2ee509e2.webp",
+      "source_name": "Cosmonaut Yuri (Aerial).png",
+      "alt": "Kosmonaut Yuri",
+      "width": 103,
+      "height": 151,
+      "format": "WEBP",
+      "sha256": "2ee509e267a797dd8b661ec25e2e021af8325464cdffceec689688a8fefd5da6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/newdoubleoingame-2b7c8f6b.webp",
+      "source_name": "Newdoubleoingame.png",
+      "alt": "Double-O Yuri.",
+      "width": 103,
+      "height": 137,
+      "format": "WEBP",
+      "sha256": "2b7c8f6bf9ab39a79cf19e42f908c6e02adecd739c03e8104ebad9c08ab4a1a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/double-o-yuri-aerial-c6648365.webp",
+      "source_name": "Double O Yuri (Aerial).png",
+      "alt": "Double-O Yuri",
+      "width": 104,
+      "height": 136,
+      "format": "WEBP",
+      "sha256": "c66483659d24e6c20b221fff40b71bbdb0b2d187bb9b6f21fe9837fc8f32ee9f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/ui-minimap-player-jetter-0-427acc9e.webp",
+      "source_name": "Ui minimap player jetter 0.png",
+      "alt": "Ui minimap player jetter 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "427acc9ed8416b03e0061513e7ddb7497c9eaca6298cd950ca39cf6bf3a6d439",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/classicon-jetter-212fe359.webp",
+      "source_name": "Classicon Jetter.png",
+      "alt": "Classicon Jetter",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "212fe359a9d265fbb71722e6b39b9d15a5753af75a293f89eab6cc25279e80f3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/characterrender-yuri-skin-kosmonaut-e3bddd76.webp",
+      "source_name": "CharacterRender Yuri Skin Kosmonaut.png",
+      "alt": "CharacterRender Yuri Skin Kosmonaut",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "e3bddd76059a61a534b80d770a370c43c5c156dc11549aa4a19c3a2cc39b00d3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/characterrender-yuri-skin-double-0-6c271dfa.webp",
+      "source_name": "CharacterRender Yuri Skin double 0.png",
+      "alt": "CharacterRender Yuri Skin double 0",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "6c271dfa11e8e364009bd180aefe60b3e305ca9d9f00fe365820aaaf50d835e2",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes"
+    ],
+    "status": "extracted"
+  }
+}

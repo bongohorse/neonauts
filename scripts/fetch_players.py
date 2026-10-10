@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+"""Publish one timestamped Steam count for the static site; no key required."""
+import argparse
+import json
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+from urllib.request import Request, urlopen
+
+STEAM_URL='https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=204300'
+
+def snapshot(payload):
+    data=payload.get('response', {})
+    count=data.get('player_count')
+    if data.get('result')!=1 or type(count) is not int or count<0:
+        raise ValueError('Invalid Steam player count')
+    return {'players':count, 'checkedAt':datetime.now(timezone.utc).isoformat()}
+
+def clean_history(history, now=None):
+    now=now or datetime.now(timezone.utc)
+    points={}
+    if not isinstance(history,list):return []
+    for point in history[-200:]:
+        try:
+            count=point['players'];date=datetime.fromisoformat(point['checkedAt'].replace('Z','+00:00'))
+            if type(count) is int and 0<=count<=2**53-1 and now-timedelta(hours=24)<=date<=now:
+                points[date.isoformat()]={'players':count,'checkedAt':date.isoformat()}
+        except (KeyError,ValueError,TypeError,AttributeError):pass
+    return [points[k] for k in sorted(points)][-120:]
+
+def previous_history(url, opener=urlopen):
+    try:
+        with opener(url,timeout=15) as response:
+            return clean_history(json.loads(response.read(256000)).get('history',[]))
+    except (OSError,ValueError,TypeError,AttributeError):return []
+
+def publish(destination, opener=urlopen, history=None):
+    points=clean_history(history)
+    try:
+        request=Request(STEAM_URL,headers={'User-Agent':'Neonauts-player-count/1.0'})
+        with opener(request,timeout=20) as response:
+            data=snapshot(json.load(response))
+    except (OSError, ValueError, TypeError, AttributeError) as error:
+        # Never present a failed fetch as zero or preserve a misleading old count.
+        data={'players':None,'checkedAt':None}
+        print(f'Steam count unavailable: {type(error).__name__}')
+    if data['players'] is not None:points=clean_history(points+[data])
+    data['history']=points
+    destination.write_text(json.dumps(data,separators=(',',':'))+'\n',encoding='utf-8')
+    return data
+
+if __name__=='__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--out',type=Path,default=Path(__file__).resolve().parents[1]/'dist/players.json')
+    parser.add_argument('--history-url',help='Previous published players.json; optional')
+    args=parser.parse_args()
+    if args.history_url and not args.history_url.startswith('https://'):
+        parser.error('history-url must use HTTPS')
+    publish(args.out,history=previous_history(args.history_url) if args.history_url else [])

@@ -1,0 +1,1001 @@
+{
+  "schema_version": 1,
+  "name": "Nibbs",
+  "slug": "nibbs",
+  "source": {
+    "filename": "Nibbs.-.Official.Awesomenauts.Wiki.10.10.2026.17.53.41.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Nibbs",
+    "sha256": "8d623f1296d3dfdf27ef896494b458fc4cd0369021beff1ed4b28911772b6cf9",
+    "size_bytes": 2668872
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1250 (2200)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.4"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Assassin"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Blinker",
+    "Type of abilities": "Area of Effect , Damage Over Time , Frenzy , Shield , Slow",
+    "Release Date": "March 4th 2015"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Orb Of Omicron",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Orb_Of_Omicron",
+      "description": "Send out an orb to which you can teleport with a second press.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "225 (353.25)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7s"
+        },
+        {
+          "label": "Range",
+          "value": "12.4"
+        },
+        {
+          "label": "Speed",
+          "value": "18"
+        },
+        {
+          "label": "Hold Position",
+          "value": "2s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Dragon Frenzy",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dragon_Frenzy",
+      "description": "Strike with your claws. Each hit will give a stack of frenzy, increasing your attack speed.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "65 (102.05)"
+        },
+        {
+          "label": "Attack speed",
+          "value": "133.3"
+        },
+        {
+          "label": "Frenzy attack speed",
+          "value": "+10.7%"
+        },
+        {
+          "label": "Frenzy max stacks",
+          "value": "4"
+        },
+        {
+          "label": "Duration",
+          "value": "3s"
+        },
+        {
+          "label": "Range",
+          "value": "3.5"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Fire Breath",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fire_Breath",
+      "description": "Hold your position and unleash your fiery breath on your foes.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "15 (23.55)"
+        },
+        {
+          "label": "Awesomenaut Damage",
+          "value": "32 (50.24)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "1200"
+        },
+        {
+          "label": "Cooldown",
+          "value": "10.5s"
+        },
+        {
+          "label": "Duration",
+          "value": "1.5s"
+        },
+        {
+          "label": "Range",
+          "value": "7.2"
+        },
+        {
+          "label": "Size",
+          "value": "2.4"
+        },
+        {
+          "label": "Speed",
+          "value": "16"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Dragon Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dragon_Jump",
+      "description": "Nibbs can double jump. Press the button in mid-air to jump again.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "6.6"
+        },
+        {
+          "label": "Additional Jump Height",
+          "value": "5.5"
+        },
+        {
+          "label": "Jumps",
+          "value": "2"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Blue & Orange Berries",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Blue_%26_Orange_Berries",
+      "group": "Orb Of Omicron",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wormhole",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wormhole",
+      "group": "Orb Of Omicron",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Eye Of Coba",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Eye_Of_Coba",
+      "group": "Orb Of Omicron",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Beryl Scale Cloak",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Beryl_Scale_Cloak",
+      "group": "Orb Of Omicron",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mobile Analytic Laboratory Zurian",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mobile_Analytic_Laboratory_Zurian",
+      "group": "Orb Of Omicron",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Lion Tail",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Lion_Tail",
+      "group": "Orb Of Omicron",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Eternal Flame",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Eternal_Flame",
+      "group": "Fire Breath",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Autographed Picture Of Voran",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Autographed_Picture_Of_Voran",
+      "group": "Fire Breath",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chocolate Monster Egg",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chocolate_Monster_Egg",
+      "group": "Fire Breath",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dragon Wing Prosthetic",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dragon_Wing_Prosthetic",
+      "group": "Fire Breath",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sunscreen Mouthwash",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sunscreen_Mouthwash",
+      "group": "Fire Breath",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Darkenstone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Darkenstone",
+      "group": "Fire Breath",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dragon Speaker Idol",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dragon_Speaker_Idol",
+      "group": "Dragon Frenzy",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Demonic Animal Necklace",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Demonic_Animal_Necklace",
+      "group": "Dragon Frenzy",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Special Offer Skrogchu",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Special_Offer_Skrogchu",
+      "group": "Dragon Frenzy",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Skull Dundun's",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Skull_Dundun%27s",
+      "group": "Dragon Frenzy",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Misery Tarot Cards",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Misery_Tarot_Cards",
+      "group": "Dragon Frenzy",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chilas Wax Candle",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chilas_Wax_Candle",
+      "group": "Dragon Frenzy",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Dragon Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Dragon Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Red Sneakers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Red_Sneakers",
+      "group": "Dragon Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Dragon Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Dragon Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Starstorm Statue",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Starstorm_Statue",
+      "group": "Dragon Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Battle Nibbs",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For Graygrowl!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Battle Nibbs is here! Clad in fiercesome armor, and with freshly-brushed fur, she pounces onto the battlefield with the most powerful Zurian in the Universe! The hunt for Skreeletor is on!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Nibbs in Awesomenauts: Starstorm, and comes with a fully customized voice set! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin makes Nibbs look similar to Battle Cat[27] from He-Man and The Masters of the Universe[28], with battle armor, a metal saddle and helmet. Her body has yellow, tiger-like stripes and a lion tail. Her wings are removed and she gains cat-like fangs. A small, blonde-haired Zurian dressed like He-Man[29] (The \"He-Zurian\") rides on her back and wields a tiny sword."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nibbs' auto-attack is changed, as the He-Zurian also strikes enemies with his sword, fire breath has a different sound effect (more feline sounding) and orb of Omicron is shaped like Orko's[30] head from the same franchise."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin features a special teleporting animation which includes the He-Zurian raising his sword up in the air, which then sparkles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with its own unique voice acting."
+        }
+      ],
+      "assets": [
+        "asset-038"
+      ]
+    },
+    {
+      "name": "Unicorn Nibbs",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Starstorm expansion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Unicorn Nibbs is a unicorn warrior in service to the Unicornhood of Coba. This magical group was bound to the Ohmigosh dimension who, as soon as the Starstorm ripped a hole in the continuum, started an invasion of cuddliness."
+        },
+        {
+          "type": "paragraph",
+          "text": "Right after going through the portal, Nibbs' ship gently touched down on the space station in a pink cloud of smoke. Scouting around, she mistook Gnaw's tail for a juicy piece of lovely unicorn candy. After cheerfully biting down on the treat, the startled Gnaw led her right back to the Awesomenauts who managed to convince her to stay with a wide variety of exotic treats, lots of petting, and by brushing her manes."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Nibbs in Awesomenauts: Starstorm. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin puts Nibbs in a unicorn costume, complete with a mane, a puff at the end of her tail, and a unicorn horn. A zipper can be seen on it as well. Her collar and back leg now have a small hearts on them. Her wings are now pegasus wings. Walking around will leave behind a rainbow trail."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dragon Frenzy is slightly brighter and makes glittery effects. Orb of Omicron now looks like a heart with wings on it and leaves behind a rainbow trail while flying. Fire Breath itself is unchanged, but it has a new sound effect when it's used."
+        }
+      ],
+      "assets": [
+        "asset-039"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Nibbs is a dragon warrior in service to the Sisterhood of Coba. This demonic group was bound to the Omicron dimension who, as soon as the Starstorm ripped a hole in the continuum, started an invasion of conquest. Right after going through the portal, Nibbs's ship landed on the space station. Scouting around, she mistook Gnaw's tail for a juicy piece of fruit. After he was bitten, the startled Gnaw led her right back to the Awesomenauts who managed to convince her to stay with a wide variety of exotic treats."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "For Graygrowl!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Battle Nibbs is here! Clad in fiercesome armor, and with freshly-brushed fur, she pounces onto the battlefield with the most powerful Zurian in the Universe! The hunt for Skreeletor is on!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Nibbs in Awesomenauts: Starstorm, and comes with a fully customized voice set! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin makes Nibbs look similar to Battle Cat[27] from He-Man and The Masters of the Universe[28], with battle armor, a metal saddle and helmet. Her body has yellow, tiger-like stripes and a lion tail. Her wings are removed and she gains cat-like fangs. A small, blonde-haired Zurian dressed like He-Man[29] (The \"He-Zurian\") rides on her back and wields a tiny sword."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nibbs' auto-attack is changed, as the He-Zurian also strikes enemies with his sword, fire breath has a different sound effect (more feline sounding) and orb of Omicron is shaped like Orko's[30] head from the same franchise."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin features a special teleporting animation which includes the He-Zurian raising his sword up in the air, which then sparkles."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with its own unique voice acting."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Starstorm expansion."
+      },
+      {
+        "type": "paragraph",
+        "text": "Unicorn Nibbs is a unicorn warrior in service to the Unicornhood of Coba. This magical group was bound to the Ohmigosh dimension who, as soon as the Starstorm ripped a hole in the continuum, started an invasion of cuddliness."
+      },
+      {
+        "type": "paragraph",
+        "text": "Right after going through the portal, Nibbs' ship gently touched down on the space station in a pink cloud of smoke. Scouting around, she mistook Gnaw's tail for a juicy piece of lovely unicorn candy. After cheerfully biting down on the treat, the startled Gnaw led her right back to the Awesomenauts who managed to convince her to stay with a wide variety of exotic treats, lots of petting, and by brushing her manes."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Nibbs in Awesomenauts: Starstorm. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin puts Nibbs in a unicorn costume, complete with a mane, a puff at the end of her tail, and a unicorn horn. A zipper can be seen on it as well. Her collar and back leg now have a small hearts on them. Her wings are now pegasus wings. Walking around will leave behind a rainbow trail."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dragon Frenzy is slightly brighter and makes glittery effects. Orb of Omicron now looks like a heart with wings on it and leaves behind a rainbow trail while flying. Fire Breath itself is unchanged, but it has a new sound effect when it's used."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Nibbs is the first (and only, to date) Awesomenaut to come from a parallel dimension.",
+          "Nibbs' Frenzy indicator went through a few changes during Patch 2.9 beta. It started out light blue just like Penny's combo point bar, then it was changed to pink and finally to its current yellow version.",
+          "Nibbs is the only character who's \"Awesomenauts Showcase\" video doesn't use their theme song.",
+          "Nibbs' theme is sung by Jeffrey Zuhdy, who also sung the Awesomenauts' main theme.",
+          "Nibbs' theme makes specific references to several in-game elements: Fire Breath, Turrets, Orb Of Omicron, and Killing Sprees. No other theme does this.",
+          "Nibbs is the first 'Naut released without a teleport animation since Penny Fox.",
+          "Nibbs' killing spree theme is the first one to be solely a remix of her theme, as opposed to mix of her theme with a map track. This change was meant to make Sonic Picnic's job less limiting, as explained by Ronimo Games.",
+          "Nibbs is the first Awesomenaut that doesn't have an extended backstory."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Nibbs is very frail and needs to get close to the enemy to deal most of her damage. Consider investing in survivability. Upgrades like Power Pills Turbo and Chocolate Monster Egg can be invaluable in keeping her alive.",
+          "Frenzy will disappear shortly after you stop hitting enemies, however, even hitting one enemy in passing will reset the countdown. Keep hitting something whenever possible to keep a full meter and benefit from the extra attack speed.",
+          "Combining Misery Tarot Cards and Special Offer Skrogchu will maximize the regeneration from Misery Tarot Cards.",
+          "You will keep all of your momentum when teleporting to the Orb of Omicron.",
+          "Use Orb Of Omicron to break free from tether effects.",
+          "Using Lion Tail and Mobile Analytic Laboratory Zurian, Orb Of Omicron can become a very powerful Crowd Control without even needing to teleport to it.",
+          "Mobile Analytic Laboratory Zurian can help you play mind-games on your opponents.",
+          "Fire Breath will lock you in place when you activate it. Think carefully about when and where to use it.",
+          "Fire Breath does considerably less damage to droids, so don't waste it clearing lanes.",
+          "Fire Breath can be easily avoided by mobile 'Nauts like Coco or Froggy G. Use Chilas Wax Candle and Lion Tail to make it easier to land.",
+          "Fire Breath can be cancelled by teleporting to the Orb Of Omicron."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "If you have an Ensnare or Stun, try to save it for when Nibbs is around. It helps her hit with Fire Breath. Alternatively; follow up on Nibbs, should she initiate with stuns or slows of her own.",
+          "Try to make sure that enemies can't hurt Nibbs while she's using her Fire Breath. It leaves her very vulnerable."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Being very frail and slow, Nibbs is naturally vulnerable to burst damage, though she can still escape via Orb Of Omicron. Try to save high damage abilities for when it is on cooldown, or surprise her before she can teleport away.",
+          "slowdown effects like Time Warp and Timerift can \"trap\" Nibbs while she's using Fire Breath.",
+          "Most crowd control effects cannot prevent Nibbs from using her Fire Breath, but stuns will make her unable to aim it where she wants to.",
+          "Nibbs can use Orb Of Omicron while ensnared, but will still be snared when she teleports. Follow the Orb to keep attacking her.",
+          "When chasing a fleeing Nibbs as a team, consider splitting up if she throws out an Orb Of Omicron. That way, there will be someone waiting for her at the orb's location if she teleports and people still chasing her should she choose not to teleport.",
+          "Nibbs is fairly slow for a low health melee 'Naut. You can abuse this to out-manoeuvre her.",
+          "The trail of Fire Breath has a slight delay when aiming it. Keep your movements unpredictable to avoid the bulk of the damage.",
+          "Be careful where you are while on low health; Nibbs can easily close the distance and get in range of you with Orb Of Omicron, while Fire Breath can hit through solid walls. Don't stick around when low on health."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/characterrender-blinker-d264887f.webp",
+      "source_name": "CharacterRender Blinker.png",
+      "alt": "CharacterRender Blinker",
+      "width": 512,
+      "height": 501,
+      "format": "WEBP",
+      "sha256": "d264887fcdb864a34c6ea3a54145d72b25e874d9fee6330604f3dc97802fb8d3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-blinker-blink-8da0061c.webp",
+      "source_name": "UI Skillbutton Blinker Blink.png",
+      "alt": "UI Skillbutton Blinker Blink",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8da0061c6bc43cbf6018aa86717d70e882b17b65296ad0ae27c306b657f0b9ce",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-blinker-attack-f61af4f6.webp",
+      "source_name": "UI Skillbutton Blinker Attack.png",
+      "alt": "UI Skillbutton Blinker Attack",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f61af4f693716a0390d3401507955300babe3a4ae6f3cc03ba62ff89cf2095df",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-blinker-twirl-d1f5b54b.webp",
+      "source_name": "UI Skillbutton Blinker Twirl.png",
+      "alt": "UI Skillbutton Blinker Twirl",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d1f5b54b670aa692078d55db98f07c768746c7d6be8f2f2c160bc84932fb63ed",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-blinker-jump-afc8659a.webp",
+      "source_name": "UI Skillbutton Blinker Jump.png",
+      "alt": "UI Skillbutton Blinker Jump",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "afc8659a6a9afac6380ceae0c7f10967cd23a4f4f45048cb708b349be148e76e",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-blinker-skill-a-upgrade-a-65002499.webp",
+      "source_name": "Shop icons blinker skill a upgrade a.png",
+      "alt": "Shop icons blinker skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "650024996e1ad81c0378fb8fc3bb082efc729831754e84f36fde0951a547e8f2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-blinker-skill-a-upgrade-b-7401985e.webp",
+      "source_name": "Shop icons blinker skill a upgrade b.png",
+      "alt": "Shop icons blinker skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7401985ec50c7c004bc18de3e68f0a0d62d6ca9197b6711c56fc02706a24e290",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-blinker-skill-a-upgrade-c-27c8c37d.webp",
+      "source_name": "Shop icons blinker skill a upgrade c.png",
+      "alt": "Shop icons blinker skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "27c8c37debb8f7c6cf5196425289e24fded4f7ed4f4add4f4d2482fa1d858e7f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-blinker-skill-a-upgrade-d-e0f6aa23.webp",
+      "source_name": "Shop icons blinker skill a upgrade d.png",
+      "alt": "Shop icons blinker skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e0f6aa230ce3f5fd7d5de9ea7e64cb76de2d980a6a01e1c5b66e4cc54984ce2d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-blinker-skill-a-upgrade-e-8d76a16e.webp",
+      "source_name": "Shop icons blinker skill a upgrade e.png",
+      "alt": "Shop icons blinker skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8d76a16eef4cbcf9bd6ce43dced81c5491c281445685871ff00579ad76096724",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-blinker-skill-a-upgrade-f-746bb5f9.webp",
+      "source_name": "Shop icons blinker skill a upgrade f.png",
+      "alt": "Shop icons blinker skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "746bb5f9bdd330b1304a3315f019f91746063e364161b18f0a6829cdbca5767c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-blinker-skill-b-upgrade-a-7437c1d0.webp",
+      "source_name": "Shop icons blinker skill b upgrade a.png",
+      "alt": "Shop icons blinker skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7437c1d019a57886835e90ef03ae4cd5b61adcdbe4a3ba7d2478c5428ea7ab91",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-blinker-skill-b-upgrade-b-5bfc5508.webp",
+      "source_name": "Shop icons blinker skill b upgrade b.png",
+      "alt": "Shop icons blinker skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5bfc550813bee7a48f6579990a68e82a0934ca39d7bda3788c8087324744d959",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-blinker-skill-b-upgrade-c-f99c2fc5.webp",
+      "source_name": "Shop icons blinker skill b upgrade c.png",
+      "alt": "Shop icons blinker skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f99c2fc5b127239af26b9847e48f203ef8fd25204a5859138f5138b8d29ebf39",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-blinker-skill-b-upgrade-d-e54dc711.webp",
+      "source_name": "Shop icons blinker skill b upgrade d.png",
+      "alt": "Shop icons blinker skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e54dc711535a0b9120d994bf30f3a36447474d6353a3656b085d5aed640cbf12",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-blinker-skill-b-upgrade-e-efe71335.webp",
+      "source_name": "Shop icons blinker skill b upgrade e.png",
+      "alt": "Shop icons blinker skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "efe71335d1663f0ab02c1964c1d02f1d5e52099a29ff263dd386acb60812268c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-blinker-skill-b-upgrade-f-a57ce7c9.webp",
+      "source_name": "Shop icons blinker skill b upgrade f.png",
+      "alt": "Shop icons blinker skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a57ce7c995665d720ee851f35d35df0ffe30634efe0fe98b2dd657279bd09a7e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-blinker-skill-c-upgrade-a-446de6e0.webp",
+      "source_name": "Shop icons blinker skill c upgrade a.png",
+      "alt": "Shop icons blinker skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "446de6e02253e36aaf00d3c4aa590362fb3cd580c726d5282852b3bc7df66b0a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-blinker-skill-c-upgrade-b-b27dc2fb.webp",
+      "source_name": "Shop icons blinker skill c upgrade b.png",
+      "alt": "Shop icons blinker skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b27dc2fba2538eada01fc05df5093a246776e8bbc7a4feb5dfe53e5903d60faf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-blinker-skill-c-upgrade-c-568fbdcd.webp",
+      "source_name": "Shop icons blinker skill c upgrade c.png",
+      "alt": "Shop icons blinker skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "568fbdcd70a1e24294aa5bb7b6322a2dfe595d295671001fc2dee50cc0b1d55a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-blinker-skill-c-upgrade-d-dc7256c5.webp",
+      "source_name": "Shop icons blinker skill c upgrade d.png",
+      "alt": "Shop icons blinker skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "dc7256c56259f17c30fa97c54a3871118e3a35657d67fa4f6c537c7c6725800c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-blinker-skill-c-upgrade-e-b3a16eff.webp",
+      "source_name": "Shop icons blinker skill c upgrade e.png",
+      "alt": "Shop icons blinker skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b3a16effe1275f56e129635ada8d78bdbb3d695ac386d79666c14ebcc79fd3d5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-blinker-skill-c-upgrade-f-740419f0.webp",
+      "source_name": "Shop icons blinker skill c upgrade f.png",
+      "alt": "Shop icons blinker skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "740419f0a29876d63afc6d418b30a9a3f13766875a858541555127602209d3f2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/shop-icons-overall-blinkerspeed-542c6183.webp",
+      "source_name": "Shop Icons Overall BlinkerSpeed.png",
+      "alt": "Shop Icons Overall BlinkerSpeed",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "542c61830be29941fe02e04b4e77e34cea5415683be88ae99b577e670c5a33c2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-foxy-utility-dmg-increase-23ac9656.webp",
+      "source_name": "Shop Icons foxy utility dmg increase.png",
+      "alt": "Shop Icons foxy utility dmg increase",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "23ac965644ff932051dd4b4dfcd0f264e635beec914ba0780d1c1d62464273c7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/nibbsingamered-3b284f7a.webp",
+      "source_name": "Nibbsingamered.png",
+      "alt": "Default skin.",
+      "width": 141,
+      "height": 172,
+      "format": "WEBP",
+      "sha256": "3b284f7a65211fa92d73bb0c0b82fff7a8bf8e8743ea24fad1253f8ef3a7307f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/nibbsingameblue-e2232037.webp",
+      "source_name": "Nibbsingameblue.png",
+      "alt": "Default skin.",
+      "width": 142,
+      "height": 173,
+      "format": "WEBP",
+      "sha256": "e223203768997d993717e7fbedd3d04d46e06156a578a02b38a930d7f6724de6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/battlenibbsingamered-ed9cbc96.webp",
+      "source_name": "Battlenibbsingamered.png",
+      "alt": "Battle Nibbs.",
+      "width": 175,
+      "height": 177,
+      "format": "WEBP",
+      "sha256": "ed9cbc96887e03451eeaa29ab7f64fd6e69a886d2fbca382556aa90d1b1ec5db",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/battlenibbsingameblue-229199de.webp",
+      "source_name": "Battlenibbsingameblue.png",
+      "alt": "Battle Nibbs.",
+      "width": 170,
+      "height": 176,
+      "format": "WEBP",
+      "sha256": "229199de8254fa7363c311a75834016bf931d3e3916f3f6145b7317a39f08a57",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/unicornnibbsingamered-7e6b1c32.webp",
+      "source_name": "Unicornnibbsingamered.png",
+      "alt": "Unicorn Nibbs.",
+      "width": 155,
+      "height": 174,
+      "format": "WEBP",
+      "sha256": "7e6b1c32c439b988529452fc464ce498857effe04678d8e22499736f551584b0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/unicornnibbsingameblue-71d1953b.webp",
+      "source_name": "Unicornnibbsingameblue.png",
+      "alt": "Unicorn Nibbs.",
+      "width": 150,
+      "height": 173,
+      "format": "WEBP",
+      "sha256": "71d1953b794a97e35dab39bd018902ab29b668e4f3abfa1ea78e94017be8b08c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/ui-minimap-player-blinker-0-e67be92a.webp",
+      "source_name": "Ui minimap player blinker 0.png",
+      "alt": "Ui minimap player blinker 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "e67be92ab95cd10116a04610b84454af2aaeea4226843e1dde0db0488bf6a92f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/classicon-blinker-f8e25d3c.webp",
+      "source_name": "Classicon Blinker.png",
+      "alt": "Classicon Blinker",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "f8e25d3cc80f428cb65f8a41c3a55fd0efbc0d56d0cc208d6ff8783a39eeed36",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/battlenibbssplash-68a8a1eb.webp",
+      "source_name": "Battlenibbssplash.png",
+      "alt": "Battlenibbssplash",
+      "width": 250,
+      "height": 314,
+      "format": "WEBP",
+      "sha256": "68a8a1ebab428e1d3d997e962325679dc30d085521461ca2aee2acbaa8b226c0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/nibbs-003-pegasus-3f103c3b.webp",
+      "source_name": "Nibbs 003 Pegasus.png",
+      "alt": "Nibbs 003 Pegasus",
+      "width": 250,
+      "height": 276,
+      "format": "WEBP",
+      "sha256": "3f103c3b1ac88fb876524a713b3e176f689669c4e4fbd8b2cbb3458a309f91c4",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Battle Nibbs Quotes"
+    ],
+    "status": "extracted"
+  }
+}

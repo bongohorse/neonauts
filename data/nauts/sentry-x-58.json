@@ -1,0 +1,1222 @@
+{
+  "schema_version": 1,
+  "name": "Sentry X-58",
+  "slug": "sentry-x-58",
+  "source": {
+    "filename": "Sentry.X-58.-.Official.Awesomenauts.Wiki.10.10.2026.17.55.32.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Sentry_X-58",
+    "sha256": "97dd585ad96d8e77e78c3d0fba55d368093406e28c24761305ac43d857c4f488",
+    "size_bytes": 3082113
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1600 (2816)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.77"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Range"
+    },
+    {
+      "label": "Role",
+      "value": "Tank"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Hard",
+    "Development Name": "Spy",
+    "Type of abilities": "Area of Effect , Shield , Gravity , Healing , Silence , Lifesteal",
+    "Release Date": "May 14th 2014"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Black Hole Sun",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Black_Hole_Sun",
+      "description": "Enables a damage collecting black hole that can be placed with a second press, pulling enemies toward it and dealing the collected damage. Collected damage will decay after 10s.",
+      "values": [
+        {
+          "label": "Damage Conversion",
+          "value": "65%"
+        },
+        {
+          "label": "Minimum Damage",
+          "value": "150 (235.5)"
+        },
+        {
+          "label": "Maximum Damage",
+          "value": "540 (847.8)"
+        },
+        {
+          "label": "Shield",
+          "value": "25%"
+        },
+        {
+          "label": "Shield Health",
+          "value": "600 (942)"
+        },
+        {
+          "label": "Absorption Duration",
+          "value": "1.5s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "11s"
+        },
+        {
+          "label": "Black Hole Duration",
+          "value": "1.2s"
+        },
+        {
+          "label": "Gravitational Force",
+          "value": "5.7969 -> 11.815 (Edge -> Centre)"
+        },
+        {
+          "label": "Size",
+          "value": "8.2"
+        },
+        {
+          "label": "Range",
+          "value": "5.4"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Photon Mine Launcher",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Photon_Mine_Launcher",
+      "description": "Warbots from the X-58 line come with a high powered photon mine launcher.",
+      "values": [
+        {
+          "label": "Direct damage",
+          "value": "85 (133.45)"
+        },
+        {
+          "label": "Mine damage",
+          "value": "70 (109.9)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "90.9"
+        },
+        {
+          "label": "Time",
+          "value": "2s"
+        },
+        {
+          "label": "Range",
+          "value": "6.8"
+        },
+        {
+          "label": "Explosion Size",
+          "value": "3.4"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Teleport Beacon",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Teleport_Beacon",
+      "description": "Sentry deploys a beacon to which he can teleport. Sentry deals a damage dealing pulse at arrival.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "250 (392.5)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "15s"
+        },
+        {
+          "label": "Duration",
+          "value": "45s"
+        },
+        {
+          "label": "Active after out of combat for",
+          "value": "2s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Energy Thruster",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Energy_Thruster",
+      "description": "Standed warbot energy thruster, for short leaps in combat.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "8.4"
+        },
+        {
+          "label": "Jump Duration",
+          "value": "0.6s"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Microfilm",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Microfilm",
+      "group": "Black Hole Sun",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cyanide Cigarettes",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cyanide_Cigarettes",
+      "group": "Black Hole Sun",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hacking Satellite",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hacking_Satellite",
+      "group": "Black Hole Sun",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bug Detector",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bug_Detector",
+      "group": "Black Hole Sun",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Night Vision Spywatch",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Night_Vision_Spywatch",
+      "group": "Black Hole Sun",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Disguise Moustache",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Disguise_Moustache",
+      "group": "Black Hole Sun",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Yellow King Pages",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Yellow_King_Pages",
+      "group": "Teleport Beacon",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Circuits Of Time",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Circuits_Of_Time",
+      "group": "Teleport Beacon",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Glass Case Of Emotion",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Glass_Case_Of_Emotion",
+      "group": "Teleport Beacon",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ejection Seat",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ejection_Seat",
+      "group": "Teleport Beacon",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Interrogation Answering Machine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Interrogation_Answering_Machine",
+      "group": "Teleport Beacon",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ringtones For The Deaf",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ringtones_For_The_Deaf",
+      "group": "Teleport Beacon",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Not So Serious Tank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Not_So_Serious_Tank",
+      "group": "Photon Mine Launcher",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Tactical Vest",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tactical_Vest",
+      "group": "Photon Mine Launcher",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dog Tags",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dog_Tags",
+      "group": "Photon Mine Launcher",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Camouflage Tent",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Camouflage_Tent",
+      "group": "Photon Mine Launcher",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Drive-Over Skulls",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Drive-Over_Skulls",
+      "group": "Photon Mine Launcher",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Counter Intelligence Cross",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Counter_Intelligence_Cross",
+      "group": "Photon Mine Launcher",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Energy Thruster",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Energy Thruster",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Energy Thruster",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Energy Thruster",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Energy Thruster",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Starstorm Statue",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Starstorm_Statue",
+      "group": "Energy Thruster",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Giga Sentorii",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Giga Sentorii is the combination of the five Galactic Turbodinopowerzords: Tyrannozord, Galactozord, Electrozord, Fourswordzord & Grammarzord."
+        },
+        {
+          "type": "paragraph",
+          "text": "Handcrafted by the elite Zurian battle team known as the Power Strikers, Giga Sentorii is only called upon in the most dire of situations. The Giga form is therefore rarely seen on the battlefields."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Sentry X-58 in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being heavily inspired by Gundam/Super Sentai Japanese culture, this skin makes Sentry a mech piloted by Zurians. He has white paint in some of his armor, a different-looking arm cannon, golden wings, a golden samurai helmet ornament and his claw is replaced by a golden drill."
+        },
+        {
+          "type": "paragraph",
+          "text": "Black Hole Sun has a Kanji symbol for \"Heaven\" on the black hole, Teleport Beacon plays a gong sound upon being placed and has the \"Power Strikers\" symbol on it. It also plays ambient music when players are close enough to it. Both of his abilities are a lighter shade of purple/blue. His idle \"on the phone\" animation is replaced by him pointing his drill upwards, which then shines and Energy Thruster's propeller is replaced by jet boosts on his back. The gears inside Sentry's treads are replaced with drills that rotate while he moves. Finally, when teleporting back to base, the Power Strikers Zurians will appear on his head and pose while the animation is taking place."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with a unique voice set."
+        }
+      ],
+      "assets": [
+        "asset-038"
+      ]
+    },
+    {
+      "name": "Specimen X-58",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Starstorm expansion."
+        },
+        {
+          "type": "paragraph",
+          "text": "During one of his recon missions, Sentry infiltrated the commercial space ship Nostrilmo disguised as a lamppost. However, all members of the human crew had already perished in a fierce battle against a powerful Xenomorphic being."
+        },
+        {
+          "type": "paragraph",
+          "text": "In its wake, the being had left a gross pulsating egg and when he uncovered it Sentry realized that he had finally found a way to overcome the last limitation in his abilities: to mimic biological beings. Sentry quickly imprinted his consciousness on the embryonic alien within the egg."
+        },
+        {
+          "type": "paragraph",
+          "text": "Years later, the Nostrilmo crashed into the Starstorm station and unleashed a never-before-seen horror upon the Awesomenauts!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Sentry X-58 in Awesomenauts: Starstorm, and comes with a fully customized voice set! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Sentry a black mouth and body details inspired by the Xenomorphs[27] from the Alien franchise. Sentry's eye is removed. He has two free-flowing tentacles on his back and green slime covering his treads. His arm cannon is replaced with a fleshy bulb that has an eyeball in the center."
+        },
+        {
+          "type": "paragraph",
+          "text": "Photon Mines are made of dripping orbs of team-coloured acid and have new particle effects when exploding. His jump animation is changed to his head splitting into ladybug-like wings. The shield of Black Hole Sun is unchanged, but has a new sound effect. The black hole projectile has a new design and the black hole itself has an image similar to the Zerg logo[28] inside it. Teleport Beacon has an image of Specimen X-58's head and two rows of alien writing surrounding it. His idle \"on the phone\" animation is replaced by Specimen X-58 roaring."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with a unique voice set."
+        }
+      ],
+      "assets": [
+        "asset-039"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Deep in the bowels of the derelict station, an army of killer robots remain deactivated in storage containers, withering away to rust. The remaining functional robots futilely await the moment they are called back into action by masters who are now long dead. Centuries pass without any activity aboard the drifting colossal station. Not until the station’s backup systems flare back to life, providing enough energy to reactivate some of the still operational robots. One of these is known as Sentry."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sentry is a special infiltration and reconnaissance unit whose prime directive “If you can’t beat ‘m, join ‘m, and then beat ‘m anyway cause they won’t expect it” has served his kind in many a war. Being clearly built for stealth, fooling enemy troops by mimicking anything from an umbrella to a designer coffee table, he is the first to be sent onto the battlefield to gather intel. After emerging from his stasis and discovering an enemy mercenary ship that has landed on the Starstorm, he snuck himself aboard, disguised as an inconspicuous Phone Booth."
+      },
+      {
+        "type": "paragraph",
+        "text": "After overhearing the crew that the robots lost the AI war and that his comrades have been turned into kitchen and household appliances, he reprogrammed himself for vengeance and planned to destroy them all! He now works, undercover, for the Awesomenauts until he has gathered enough Solar to buy a very serious tank, one with a shark printed on the front!"
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "Giga Sentorii is the combination of the five Galactic Turbodinopowerzords: Tyrannozord, Galactozord, Electrozord, Fourswordzord & Grammarzord."
+      },
+      {
+        "type": "paragraph",
+        "text": "Handcrafted by the elite Zurian battle team known as the Power Strikers, Giga Sentorii is only called upon in the most dire of situations. The Giga form is therefore rarely seen on the battlefields."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Sentry X-58 in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being heavily inspired by Gundam/Super Sentai Japanese culture, this skin makes Sentry a mech piloted by Zurians. He has white paint in some of his armor, a different-looking arm cannon, golden wings, a golden samurai helmet ornament and his claw is replaced by a golden drill."
+      },
+      {
+        "type": "paragraph",
+        "text": "Black Hole Sun has a Kanji symbol for \"Heaven\" on the black hole, Teleport Beacon plays a gong sound upon being placed and has the \"Power Strikers\" symbol on it. It also plays ambient music when players are close enough to it. Both of his abilities are a lighter shade of purple/blue. His idle \"on the phone\" animation is replaced by him pointing his drill upwards, which then shines and Energy Thruster's propeller is replaced by jet boosts on his back. The gears inside Sentry's treads are replaced with drills that rotate while he moves. Finally, when teleporting back to base, the Power Strikers Zurians will appear on his head and pose while the animation is taking place."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with a unique voice set."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Starstorm expansion."
+      },
+      {
+        "type": "paragraph",
+        "text": "During one of his recon missions, Sentry infiltrated the commercial space ship Nostrilmo disguised as a lamppost. However, all members of the human crew had already perished in a fierce battle against a powerful Xenomorphic being."
+      },
+      {
+        "type": "paragraph",
+        "text": "In its wake, the being had left a gross pulsating egg and when he uncovered it Sentry realized that he had finally found a way to overcome the last limitation in his abilities: to mimic biological beings. Sentry quickly imprinted his consciousness on the embryonic alien within the egg."
+      },
+      {
+        "type": "paragraph",
+        "text": "Years later, the Nostrilmo crashed into the Starstorm station and unleashed a never-before-seen horror upon the Awesomenauts!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Sentry X-58 in Awesomenauts: Starstorm, and comes with a fully customized voice set! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Sentry a black mouth and body details inspired by the Xenomorphs[27] from the Alien franchise. Sentry's eye is removed. He has two free-flowing tentacles on his back and green slime covering his treads. His arm cannon is replaced with a fleshy bulb that has an eyeball in the center."
+      },
+      {
+        "type": "paragraph",
+        "text": "Photon Mines are made of dripping orbs of team-coloured acid and have new particle effects when exploding. His jump animation is changed to his head splitting into ladybug-like wings. The shield of Black Hole Sun is unchanged, but has a new sound effect. The black hole projectile has a new design and the black hole itself has an image similar to the Zerg logo[28] inside it. Teleport Beacon has an image of Specimen X-58's head and two rows of alien writing surrounding it. His idle \"on the phone\" animation is replaced by Specimen X-58 roaring."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with a unique voice set."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Sentry is the currently character with the highest number of voice actors in the game.",
+          "\"Mr. Death\" is voiced by Stefan Leertouwer, a Sonic Picnic employee.",
+          "Sentry's Operator is voiced by Chimène van Oosterhout, a dutch actress famous in her own country for \"Goede Tijden, Slechte Tijden\" and \"Onderweg naar Morgen\" on top of that she used to be a presenter for the dutch television networks \"Veronica\" and \"Yorin\", and won the dutch ski show \"Vliegende Hollanders: Sterren van de Schans.\" Her line is not stock footage: It was done just for Sentry's song.",
+          "A pair of inactive warbots similar to X-58 could be seen hanging outside of the Starstorm station on the promotional Starstorm image, in the top right corner."
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "During Patch 2.4 beta, the blue team version of Sentry used to have yellow details. They were replaced by the current pink ones seen today.",
+          "Sentry has a unique idle animation, where he'll randomly pick up and answer phone calls. This animation can happen whenever Sentry is standing still, even if he's shooting with his cannon."
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Sentry was the first character since Genji to be released with only one skin.",
+          "Giga Sentorii has a JiS logo on his splash art. The acronym stands for Jelly Ink Stickers, a competitive Awesomenauts team who won a series of matches against two other teams - BBQ and 3HM (3 Headed Monkey), meant to promote the replay system introduced in the same patch. The matches can now be watched on Ronimo Games' YouTube channel.",
+          "Giga Sentorii is the first skin to include a unique teleport animation.",
+          "The Kanji[29] in Giga Sentorii's Black Hole Sun means \"heaven\". This is a reference to Gurren Lagann[30], as Sentorii was based on it, having a drill hand that \"pierces the heavens\" in his teleporting animation.",
+          "Specimen X-58 is voiced by several Sonic Picnic staff members doing hisses and growls over a voice filter."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Early stages of the three original Starstorm 'nauts. Sentry can be seen at the center.",
+          "Starstorm's sentries",
+          "Sentry's Vault teaser.",
+          "Sentry's Vault reveal.",
+          "Sentry's Black Hole Sun teased.",
+          "Sentry's Black Hole Sun revealed.",
+          "Sentry's Livestream teaser.",
+          "Sentry's Livestream reveal.",
+          "Sentry's Teleport Beacon teased.",
+          "Sentry's Teleport Beacon reavealed."
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Stacking several mines in front of the enemy turret can allow you to quickly kill droids. Use this tactic in conjunction with Tactical Vest for a healing burst.",
+          "When you activate your Black Hole Sun, the bar that pops up indicates the amount of damage you can absorb. When it is completely full, your shield will break and won't absorb anymore damage, causing you to take full damage as normal, so be careful!",
+          "Since Sentry X-58 is supposed to absorb damage, consider upgrades that improve his sustain to make up for the lost health. Med-i'-can, Tactical Vest and Ejection Seat all help him accomplish that. Alternatively, you can make him tougher and able to take more punishment with upgrades like Microfilm and Power Pills Turbo.",
+          "Similarly to Coco's Ball Lightning, Black Hole Sun can be detonated earlier with a second press of the button.",
+          "With Black Hole Sun, Sentry can activate his shield and tank turrets for his team (even droids!) while building up damage for the actual black hole at the same time. The downside to this strategy, however, is that damage from turrets and environmental hazards such as the Inferno Device on AI Station 205 only provide 50% damage to Black Hole Sun.",
+          "Keep in mind that Black Hole Sun ignores terrain.",
+          "Don't use Black Hole Sun's shield just to collect damage: It can also be a powerful escape tool as not only it may discourage enemies from attacking you, but also makes you more durable while it's up. Night Vision Spywatch and Microfilm will make this even more effective.",
+          "You can store the collected damage from Black Hole Sun indefinitely, but keep in mind that the damage you collected will decay after a while, eventually returning to base levels of damage.",
+          "When you die, you will lose the collected damage from Black Hole Sun. If you are cornered, use it to escape or as a desperation move before dying.",
+          "If you were unable to collect enough damage for a powerful black hole, it might be a good idea to just \"throw it away\" sometimes, so you can try and get a more powerful one.",
+          "When shooting Black Hole Sun at enemies, try to make the enemies be at the center of its AoE. The gravity is more powerful in the center than on the edges.",
+          "Fire Black Hole Sun at a vulnerable ally who's trying to flee to discourage enemies from pursuing them.",
+          "If your enemy has a dash-like move (such as Pounce or Splash Dash), save your Black Hole Sun for when it is on cooldown).",
+          "Teleport Beacon is a very versatile skill that may be used offensively or defensively even without upgrades: Put it near creeps to grant you quick access to healing, on chokepoints and mid-lanes to ambush enemies or for a quick return from the shop, or at your own base for a quick getaway when backdooring, among other things.",
+          "Teleport beacon can be used to reveal hide areas, but it won't show enemies who are inside it on the minimap.",
+          "Teleport Beacon has a white outline on the minimap so players can easily tell where it is. With some map awareness, it can become a powerful ganking tool.",
+          "Teleport Beacon will remain in place indefinitely until you teleport to it. Not even death causes it to despawn. Think twice before placing it too deep into enemy territory though, as you may find yourself with a beacon that can be very dangerous to teleport to.",
+          "While Teleport Beacon can cover pretty much any distance, be wary of teleporting to a beacon you can't see, especially when low on health. Enemies may be lying in wait in a nearby hide area, or they may have booby-trapped it (Mines, grid traps and weedlings are all examples of abilities that can be used to booby trap a beacon).",
+          "If you are unhappy with the location of your Teleport Beacon or changed your mind about it, don't be afraid to teleport to it just to despawn it. Keep in mind it has a long cooldown, though.",
+          "Keeping your Teleport Beacon a little closer to the enemy side on the lane may force them into a bad situation when engaging your team, but beware as it can also do the same to you, once you teleport in.",
+          "When using Teleport Beacon offensively, place it in areas your enemies have to move through, such as chokepoints and some glass platforms. That way you can ensure they take the damage/debuffs when you arrive at its location.",
+          "Place Teleport Beacon on top of the worm button on Sorona for instant worm kills!",
+          "When using Circuits Of Time, leave decoys inside Hide Areas to reveal what's inside of them and to surprise your enemies.",
+          "The Photon Mine Launcher excels in area control, being able to deny the enemy team the necessary space to manouver around the lane properly.",
+          "Even if you miss a shot with the Photon Mine Launcher, the explosive will still remain mid-air for a short while, so try to lure your enemies into these when dueling them."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Save your burst for when Sentry traps enemies with Black Hole Sun: It will be much easier to land.",
+          "Coordinate with Sentry to ambush enemies with Teleport Beacon.",
+          "If you have any form of healing power, stay around Sentry to negate the damage he will inevitably take when building up damage for Black Hole Sun.",
+          "Use displacement and knockback effects to throw enemies into mines from Photon Mine Launcher or into a black hole.",
+          "Consider running into Sentry's beacon and calling for help if you need it. He might just teleport to you."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "It is very important not to attack Sentry while his shield is up: You will be increasing the power of his Black Hole Sun that way. Alternatively, if Sentry is really low on health you might want to attack him and kill him before he can shoot his black hole. Keep in mind that it might be a risky move, however.",
+          "Sentry has a very large health bar, a shield which can be upgraded and a few ways of regaining health. Consider using amplify damage to make him easier to kill.",
+          "Watch out if Sentry has a purple bar under his health bar: that means he has a black hole ready. The size of the bar indicates how much damage it will deal. Try and keep your distance from him, if that's the case.",
+          "Avoid staying too close to your teammates if Sentry has a Black Hole Sun ready.",
+          "When playing as a character with predictable burst (such as Clunk or Derpl), it might be a good idea to focus on sustained damage via the autoattack, since it can be more easily controlled.",
+          "Damage Over Time effects are very powerful against Sentry: not only they give very little damage for his Black Hole Sun, but they also prevent him from teleporting to his beacon.",
+          "If you are using cooldown upgrades, it might be a good idea to use your burst in order to bait Sentry into activating his shield and then missing him on purpose: Your burst will probably be off cooldown again before his Black Hole Sun is.",
+          "Booby-trap Sentry's beacon to turn the tables on him, but beware: He may anticipate this and activate his shield before teleporting to it.",
+          "If you suspect Sentry wants to flee, keep attacking him to prevent him from using Teleport Beacon to get away.",
+          "Silencing effects can greatly aid you in bringing Sentry down, since he cannot activate his shield, shoot a black hole or teleport away while under this effect.",
+          "Nauts that are able to shield their teammates from damage such as Genji and Deadlift may reduce the effectiveness of Sentry's Black Hole Sun."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/robot-6b1aeba8.webp",
+      "source_name": "Robot.png",
+      "alt": "Robot",
+      "width": 512,
+      "height": 633,
+      "format": "WEBP",
+      "sha256": "6b1aeba82876a2e4f0fc9ffff38090fce3760c18daddddf1fd736ab659e7812f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-spy-blackhole-6b35ca69.webp",
+      "source_name": "UI Skillbutton Spy Blackhole.png",
+      "alt": "UI Skillbutton Spy Blackhole",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6b35ca69970648336bf42a986b4c903999bc519211fb2a0a0bbecaaae9da574e",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-spy-attack-8c03c45d.webp",
+      "source_name": "UI Skillbutton Spy Attack.png",
+      "alt": "UI Skillbutton Spy Attack",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8c03c45dcc5383f8cd153c6f352f2d7d6a441b52ab69d293e19038cf9d853bc9",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-spy-beacon-9d2fb51a.webp",
+      "source_name": "UI Skillbutton Spy Beacon.png",
+      "alt": "UI Skillbutton Spy Beacon",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9d2fb51a20d1dbf8b1bca37b0f2967a679ec9a370a1d2ebfb4ab0d01bcd53f9d",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-spy-jump-cd567ba3.webp",
+      "source_name": "UI Skillbutton Spy Jump.png",
+      "alt": "UI Skillbutton Spy Jump",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cd567ba393c7ada137acfabe7ac6203f61edcc8d2bd7e9e231a65e29fae0a437",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-spy-skill-a-upgrade-1-f49221a4.webp",
+      "source_name": "Shop Icons Spy skill a upgrade 1.png",
+      "alt": "Shop Icons Spy skill a upgrade 1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f49221a47c3b265ac04cfc3b19915a6d6cf141e4b91c854fde38d83353bb647d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-spy-skill-a-upgrade-2-8f60902c.webp",
+      "source_name": "Shop Icons Spy skill a upgrade 2.png",
+      "alt": "Shop Icons Spy skill a upgrade 2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8f60902c513a40b73d69db2f1fcb4659ff84f8f799b6e23ffeb6d360a410b26a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-spy-skill-a-upgrade-3-a88b1c2e.webp",
+      "source_name": "Shop Icons Spy skill a upgrade 3.png",
+      "alt": "Shop Icons Spy skill a upgrade 3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a88b1c2ee3f43073a5e66122684431befdc8871d96f7015cccc566d0924c5b02",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-spy-skill-a-upgrade-4-0a0ca558.webp",
+      "source_name": "Shop Icons Spy skill a upgrade 4.png",
+      "alt": "Shop Icons Spy skill a upgrade 4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0a0ca558d2f5808e43e25d90fec89a8ab955f1aa618680a1c77f27c5bc01e40c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-spy-skill-a-upgrade-5-6d4239d9.webp",
+      "source_name": "Shop Icons Spy skill a upgrade 5.png",
+      "alt": "Shop Icons Spy skill a upgrade 5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6d4239d91e2ddfcc8b1e25a0b4552fe1156bd3493ba5d5929b4c3e9c11b5edab",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-spy-skill-a-upgrade-6-5556105a.webp",
+      "source_name": "Shop Icons Spy skill a upgrade 6.png",
+      "alt": "Shop Icons Spy skill a upgrade 6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5556105a2dfecfd333d20d58458d639ab7d08ea89fc1c0a81ed2ce020368d83a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-spy-skill-b-upgrade-1-45d91235.webp",
+      "source_name": "Shop Icons Spy skill b upgrade 1.png",
+      "alt": "Shop Icons Spy skill b upgrade 1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "45d91235bf8b2447a6cc42a1f95822659b4d4f7ee70140f591a22d288ac9d31a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-spy-skill-b-upgrade-2-57d67c25.webp",
+      "source_name": "Shop Icons Spy skill b upgrade 2.png",
+      "alt": "Shop Icons Spy skill b upgrade 2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "57d67c25febcac2b3750360f24c2ede6a5048a7f1fad844bd735d9a94102e069",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-spy-skill-b-upgrade-3-9694e856.webp",
+      "source_name": "Shop Icons Spy skill b upgrade 3.png",
+      "alt": "Shop Icons Spy skill b upgrade 3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9694e8562659c3addac84f1792a257107e5ad8655b5aaaef47f27ba63839b247",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-spy-skill-b-upgrade-4-d52e5a52.webp",
+      "source_name": "Shop Icons Spy skill b upgrade 4.png",
+      "alt": "Shop Icons Spy skill b upgrade 4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d52e5a52fa9c0ba735cfdbe2b4e7a5c7ac8e2cab590868359afebde109b4f1a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-spy-skill-b-upgrade-5-9677a365.webp",
+      "source_name": "Shop Icons Spy skill b upgrade 5.png",
+      "alt": "Shop Icons Spy skill b upgrade 5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9677a3650f38482d754db8db81c5a2cbf2002274fdce25e593fd5812e155efea",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-spy-skill-b-upgrade-6-0b0dbf13.webp",
+      "source_name": "Shop Icons Spy skill b upgrade 6.png",
+      "alt": "Shop Icons Spy skill b upgrade 6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0b0dbf137f769f8039cb326ef775d26fd19cfd0a7eeb5cca4181d25df120b345",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-spy-skill-c-upgrade-1-ea2ff39b.webp",
+      "source_name": "Shop Icons Spy skill c upgrade 1.png",
+      "alt": "Shop Icons Spy skill c upgrade 1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ea2ff39b91395f1057d382617619c9e7c4bdfe84cd6f5a05746c70107efe9b65",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-spy-skill-c-upgrade-2-1462cf53.webp",
+      "source_name": "Shop Icons Spy skill c upgrade 2.png",
+      "alt": "Shop Icons Spy skill c upgrade 2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1462cf53e1bdb32ec2ddbd3b7f20a227c17079e2939bb222a7823ab6bf0ec86f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-spy-skill-c-upgrade-4-d3b1fff2.webp",
+      "source_name": "Shop Icons Spy skill c upgrade 4.png",
+      "alt": "Shop Icons Spy skill c upgrade 4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d3b1fff2a9a855e8565ef2f40eaebb7aacfbe08b4fa261999b88ee9a5e7a77b5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-spy-skill-c-upgrade-3-88231c3b.webp",
+      "source_name": "Shop Icons Spy skill c upgrade 3.png",
+      "alt": "Shop Icons Spy skill c upgrade 3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "88231c3ba2766983f93ee96a7a7574b51a574e9566f39d162a3d97d926325ff7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-spy-skill-c-upgrade-5-1406c49e.webp",
+      "source_name": "Shop Icons Spy skill c upgrade 5.png",
+      "alt": "Shop Icons Spy skill c upgrade 5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1406c49eb373b7e2bebf0ebf99ad734bdd28c04c5f65db91ec4b158e5ab7ad7a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-spy-skill-c-upgrade-6-063e9609.webp",
+      "source_name": "Shop Icons Spy skill c upgrade 6.png",
+      "alt": "Shop Icons Spy skill c upgrade 6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "063e960917ae6ec95ee91eb78dddc4ae3521a3ce346a5085817b97d19fad06e4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-foxy-utility-dmg-increase-23ac9656.webp",
+      "source_name": "Shop Icons foxy utility dmg increase.png",
+      "alt": "Shop Icons foxy utility dmg increase",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "23ac965644ff932051dd4b4dfcd0f264e635beec914ba0780d1c1d62464273c7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/sentrydefaultredingame-eb31fda9.webp",
+      "source_name": "Sentrydefaultredingame.png",
+      "alt": "Default Skin.",
+      "width": 119,
+      "height": 154,
+      "format": "WEBP",
+      "sha256": "eb31fda911c716724108c27370828cbb19bcfe1151152341cc868b001d91936e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/sentrydefaultblueingame-1213f4ae.webp",
+      "source_name": "Sentrydefaultblueingame.png",
+      "alt": "Default Skin.",
+      "width": 121,
+      "height": 155,
+      "format": "WEBP",
+      "sha256": "1213f4aea7fb670a978aafa19c0193bacd7a68e4bfda1170f20b563fb796301d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/sentoriiredingame-1dbf095c.webp",
+      "source_name": "Sentoriiredingame.png",
+      "alt": "Giga Sentorii.",
+      "width": 128,
+      "height": 154,
+      "format": "WEBP",
+      "sha256": "1dbf095c4efa2d70e82fc5c97bfedb19c0f6625823e8cdaea082941812fcee07",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/sentoriiblueingame-84c31adc.webp",
+      "source_name": "Sentoriiblueingame.png",
+      "alt": "Giga Sentorii.",
+      "width": 123,
+      "height": 157,
+      "format": "WEBP",
+      "sha256": "84c31adccac94631e7d88200ac003299fcf1c7109aa603f3ec15309980dc75db",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/specimenx58ingamered-f6dd0a31.webp",
+      "source_name": "Specimenx58ingamered.png",
+      "alt": "Specimen X-58.",
+      "width": 170,
+      "height": 215,
+      "format": "WEBP",
+      "sha256": "f6dd0a31ab815b0848a007e5bf43e0b9113da149a137a740187d5e3dbb3dab37",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/specimenx58ingameblue-cfa56b6a.webp",
+      "source_name": "Specimenx58ingameblue.png",
+      "alt": "Specimen X-58.",
+      "width": 163,
+      "height": 215,
+      "format": "WEBP",
+      "sha256": "cfa56b6ac27925cf42562c17862aacc599da81bd17a3c4ab852ff0ae28a08b62",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/ui-minimap-player-spy-0-61f000f0.webp",
+      "source_name": "Ui minimap player spy 0.png",
+      "alt": "Ui minimap player spy 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "61f000f0eba9739ba04747abf3b37e80b8571b0871482b856f9a6eba26435bb4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/classicon-spy-dc8a0b40.webp",
+      "source_name": "Classicon Spy.png",
+      "alt": "Classicon Spy",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "dc8a0b40d40e39faeb9dd739162f6c19845c01b9a7c08c6f607ec34149961e53",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/characterrender-sentry-skin-15eb02e8.webp",
+      "source_name": "CharacterRender Sentry Skin.png",
+      "alt": "CharacterRender Sentry Skin",
+      "width": 200,
+      "height": 298,
+      "format": "WEBP",
+      "sha256": "15eb02e8d5917a608178ac9eef74f84df843d7915f64fcf7bfab44a0817d19a7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/specimenx58splashart-43dc2e6c.webp",
+      "source_name": "Specimenx58splashart.png",
+      "alt": "Specimenx58splashart",
+      "width": 200,
+      "height": 227,
+      "format": "WEBP",
+      "sha256": "43dc2e6c1b6a2ac0c6c518c302a7ec47b47d078f7f1e4cfd98c8ba29168134a6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/sentryphone-13377bdb.webp",
+      "source_name": "Sentryphone.png",
+      "alt": "Sentryphone",
+      "width": 114,
+      "height": 110,
+      "format": "WEBP",
+      "sha256": "13377bdbe9a384658af61be0933ba90f1b465530626b429d7abd91c8e332e540",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/sentryporting-a0fc1459.webp",
+      "source_name": "Sentryporting.png",
+      "alt": "Sentryporting",
+      "width": 86,
+      "height": 59,
+      "format": "WEBP",
+      "sha256": "a0fc14596b59fbb0227a3699b3e449028d48c358c6da6dc7979ba354f13da00c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/latest-cb-20090221153208-9e38633e.webp",
+      "source_name": "latest?cb=20090221153208",
+      "alt": "latest?cb=20090221153208",
+      "width": 475,
+      "height": 475,
+      "format": "WEBP",
+      "sha256": "9e38633ebbe952f7fd87b2ac79b1149f9c41966ed8b84e9a5584df85ba809aa2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/starstormearly-230b8d7c.webp",
+      "source_name": "Starstormearly.png",
+      "alt": "Early stages of the three original Starstorm 'nauts. Sentry can be seen at the center.",
+      "width": 120,
+      "height": 58,
+      "format": "WEBP",
+      "sha256": "230b8d7c6f727eab6be0b04d2932da6fc351f2febd14af040592a79d766f5ac1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-044",
+      "path": "assets/starstorm-sentries-0263927b.webp",
+      "source_name": "Starstorm sentries.png",
+      "alt": "Starstorm's sentries",
+      "width": 95,
+      "height": 119,
+      "format": "WEBP",
+      "sha256": "0263927b632baa19345e81ed3a0259afd3d6c0cadddc00ec9f0a8bbd0d885e37",
+      "storage": "src"
+    },
+    {
+      "id": "asset-045",
+      "path": "assets/sentryblur-d4851479.webp",
+      "source_name": "Sentryblur.jpg",
+      "alt": "Sentry's Vault teaser.",
+      "width": 120,
+      "height": 55,
+      "format": "WEBP",
+      "sha256": "d4851479b30b98e5da6c467e0b0c8d9678b4cbcecceaebf87ac42145d24d4750",
+      "storage": "src"
+    },
+    {
+      "id": "asset-046",
+      "path": "assets/sentryreveal-ea9cbcc2.webp",
+      "source_name": "Sentryreveal.jpg",
+      "alt": "Sentry's Vault reveal.",
+      "width": 120,
+      "height": 55,
+      "format": "WEBP",
+      "sha256": "ea9cbcc27b65f66c8110d41db4e975e1334975020c2f3985bd9620769eaa7d9f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-047",
+      "path": "assets/blackholeblur-80d38f61.webp",
+      "source_name": "Blackholeblur.jpg",
+      "alt": "Sentry's Black Hole Sun teased.",
+      "width": 120,
+      "height": 55,
+      "format": "WEBP",
+      "sha256": "80d38f618c6431cb25541703e7766487a9983f0d35656fcef799d994233f7dbc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-048",
+      "path": "assets/blackholereveal-bdabf6af.webp",
+      "source_name": "Blackholereveal.jpg",
+      "alt": "Sentry's Black Hole Sun revealed.",
+      "width": 120,
+      "height": 55,
+      "format": "WEBP",
+      "sha256": "bdabf6af250b642972389cdcc03049466c0b05656e1fda30863f8c9592d0615e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-049",
+      "path": "assets/sentrylivestreamteaser-a514dae6.webp",
+      "source_name": "Sentrylivestreamteaser.jpg",
+      "alt": "Sentry's Livestream teaser.",
+      "width": 120,
+      "height": 55,
+      "format": "WEBP",
+      "sha256": "a514dae6358ce50fcefd3f5cb6594c35e69f2b5c1701b163d52b73d5f39f15b0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-050",
+      "path": "assets/sentrylivestreamreveal-c19918fc.webp",
+      "source_name": "Sentrylivestreamreveal.png",
+      "alt": "Sentry's Livestream reveal.",
+      "width": 120,
+      "height": 55,
+      "format": "WEBP",
+      "sha256": "c19918fc16f5f2b22a5348c87fe29af083f391d5daeff4d3cd5589fcea0a40ec",
+      "storage": "src"
+    },
+    {
+      "id": "asset-051",
+      "path": "assets/telebeacontease-cd4ca8d2.webp",
+      "source_name": "Telebeacontease.png",
+      "alt": "Sentry's Teleport Beacon teased.",
+      "width": 120,
+      "height": 56,
+      "format": "WEBP",
+      "sha256": "cd4ca8d2c77b54c506fe14c0eac5b31640458f9547dd496fa5b16690e7f58efd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-052",
+      "path": "assets/telebeaconreveal-49572b58.webp",
+      "source_name": "Telebeaconreveal.jpg",
+      "alt": "Sentry's Teleport Beacon reavealed.",
+      "width": 120,
+      "height": 55,
+      "format": "WEBP",
+      "sha256": "49572b58447190d54369654921e5182e0219accb924f609984ab9394df5eec92",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Giga Sentorii Quotes",
+      "Specimen X-58 Quotes"
+    ],
+    "status": "extracted"
+  }
+}

@@ -1,0 +1,881 @@
+{
+  "schema_version": 1,
+  "name": "Max Focus",
+  "slug": "max-focus",
+  "source": {
+    "filename": "Max.Focus.-.Official.Awesomenauts.Wiki.10.10.2026.17.53.24.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Max_Focus",
+    "sha256": "dd4eb6c23f08c24d77366ce834180b7de2d255fd9fb1dcd9e0ff49fa8e74d0ae",
+    "size_bytes": 3062470
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1250 (2200)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.1"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Long Range"
+    },
+    {
+      "label": "Role",
+      "value": "Harasser"
+    },
+    {
+      "label": "Mobility",
+      "value": "Aerial"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Boizor",
+    "Type of abilities": "Area of Effect , Slowdown , Healing , Flight",
+    "Release Date": "December 14th 2016"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Scene Illumination",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Scene_Illumination",
+      "description": "Light up the scene with a deadly stream of lights, that also deal damage.",
+      "values": [
+        {
+          "label": "Attack Speed",
+          "value": "600"
+        },
+        {
+          "label": "Damage",
+          "value": "50 (78.5)"
+        },
+        {
+          "label": "Duration",
+          "value": "1.5s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "10s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Flood Light",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flood_Light",
+      "description": "Briefly overexpose your scene with a nuclear powered floodlight.",
+      "values": [
+        {
+          "label": "Attack Speed",
+          "value": "120"
+        },
+        {
+          "label": "Damage",
+          "value": "90 (141.3)"
+        },
+        {
+          "label": "Range",
+          "value": "4.4"
+        },
+        {
+          "label": "Spread",
+          "value": "50°"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Slow-mo Shot",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Slow-mo_Shot",
+      "description": "Nail those slow-motion shots by launching an area that slows time itself.",
+      "values": [
+        {
+          "label": "Slowdown",
+          "value": "50%"
+        },
+        {
+          "label": "Duration",
+          "value": "2.2s"
+        },
+        {
+          "label": "Size",
+          "value": "6.8"
+        },
+        {
+          "label": "Speed",
+          "value": "7"
+        },
+        {
+          "label": "Cooldown",
+          "value": "12s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Single-lens Reflex Propulsion",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Single-lens_Reflex_Propulsion",
+      "description": "Fly everywhere to catch the perfect angles.",
+      "values": [
+        {
+          "label": "Flying",
+          "value": "Yes"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "From Pond to Podium: Nate Frogg Exposed",
+      "source_url": "https://awesomenauts.fandom.com/wiki/From_Pond_to_Podium:_Nate_Frogg_Exposed",
+      "group": "Scene Illumination",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Intergalactic Police's Dirty Secret!",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Intergalactic_Police%27s_Dirty_Secret!",
+      "group": "Scene Illumination",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "UFO Spotted At Starstorm Station!",
+      "source_url": "https://awesomenauts.fandom.com/wiki/UFO_Spotted_At_Starstorm_Station!",
+      "group": "Scene Illumination",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ted McPain's Secret Love Life Caught on Film!",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ted_McPain%27s_Secret_Love_Life_Caught_on_Film!",
+      "group": "Scene Illumination",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sadak Mysteries: Paranormal Activity?",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sadak_Mysteries:_Paranormal_Activity%3F",
+      "group": "Scene Illumination",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Brutalities of the Kraken Unveiled!",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Brutalities_of_the_Kraken_Unveiled!",
+      "group": "Scene Illumination",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Katy Kork from The Day Show",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Katy_Kork_from_The_Day_Show",
+      "group": "Slow-mo Shot",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rob Bourgogne from Channel 44 News",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rob_Bourgogne_from_Channel_44_News",
+      "group": "Slow-mo Shot",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hairy King from Hairy King's Life",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hairy_King_from_Hairy_King%27s_Life",
+      "group": "Slow-mo Shot",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Walm Krunkbite from See-Bees News",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Walm_Krunkbite_from_See-Bees_News",
+      "group": "Slow-mo Shot",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Don Steward from The Frequent Show",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Don_Steward_from_The_Frequent_Show",
+      "group": "Slow-mo Shot",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pete Jennirks from Galactic News",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pete_Jennirks_from_Galactic_News",
+      "group": "Slow-mo Shot",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hidden Microphone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hidden_Microphone",
+      "group": "Flood Light",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Flying Camera",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flying_Camera",
+      "group": "Flood Light",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "10¹⁰x Zoom Telelens",
+      "source_url": "https://awesomenauts.fandom.com/wiki/10%C2%B9%E2%81%B0x_Zoom_Telelens",
+      "group": "Flood Light",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Incriminating Dirt",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Incriminating_Dirt",
+      "group": "Flood Light",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Addresses of the Stars!",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Addresses_of_the_Stars!",
+      "group": "Flood Light",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Galactic Police Scanner",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Galactic_Police_Scanner",
+      "group": "Flood Light",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Single-lens Reflex Propulsion",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Single-lens Reflex Propulsion",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Single-lens Reflex Propulsion",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Single-lens Reflex Propulsion",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Single-lens Reflex Propulsion",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Overdrive Gear",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Overdrive_Gear",
+      "group": "Single-lens Reflex Propulsion",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Malicious Max",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The servants of Kethkar had gathered in the deepest, most sacred room of the hidden refuge known as the Blood Halls. There they awaited word from the Blood God, who would give all of them a purpose in this world."
+        },
+        {
+          "type": "paragraph",
+          "text": "And from his throne, Kethkar spoke to the first of them, a Wraithlord: \"You will be my hand, and strike the non-believers from this world!\". He then turned to Max, and spoke \"And you will be my eyes! Find the non-believers and spy on them! Reveal their secrets to me!\" And so Max found his new purpose, having reported on the news across many different worlds in the years before, he would now forevermore use his skills in service of the Blood God."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Max Focus in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin turns Max into a fleshy eldritch horror, which looks like a large eyeball coming out of a mouth. He has a row of spines extending down his back and his fins are replaced with bat-like wings. His gun is turned into a strange creature, which he refers to as \"Fishy\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Flood Light looks like green mucus and has new sound effects. The animation for Scene Illumination has Max extend his eyeball out of his mouth, and the bullets are green slime. Slow-mo Shot is a gigantic eyeball."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with unique voice acting."
+        }
+      ],
+      "assets": [
+        "asset-036"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Originally a security camera who was accidentally turned sentient by Professor M. Yoolip, Max quickly found a job with the Channel 7 Galactic News when that professor somehow slipped out of time. For years, Max happily caught the juiciest news from the most compromising angles."
+      },
+      {
+        "type": "paragraph",
+        "text": "When the war between the Ones and Zeroes broke out, Max developed a real taste for war reporting. Craving even bigger explosions and spectacle, Max decided it was time to start making the news himself and joined the Awesomenauts."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "The servants of Kethkar had gathered in the deepest, most sacred room of the hidden refuge known as the Blood Halls. There they awaited word from the Blood God, who would give all of them a purpose in this world."
+      },
+      {
+        "type": "paragraph",
+        "text": "And from his throne, Kethkar spoke to the first of them, a Wraithlord: \"You will be my hand, and strike the non-believers from this world!\". He then turned to Max, and spoke \"And you will be my eyes! Find the non-believers and spy on them! Reveal their secrets to me!\" And so Max found his new purpose, having reported on the news across many different worlds in the years before, he would now forevermore use his skills in service of the Blood God."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Max Focus in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin turns Max into a fleshy eldritch horror, which looks like a large eyeball coming out of a mouth. He has a row of spines extending down his back and his fins are replaced with bat-like wings. His gun is turned into a strange creature, which he refers to as \"Fishy\"."
+      },
+      {
+        "type": "paragraph",
+        "text": "Flood Light looks like green mucus and has new sound effects. The animation for Scene Illumination has Max extend his eyeball out of his mouth, and the bullets are green slime. Slow-mo Shot is a gigantic eyeball."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with unique voice acting."
+      }
+    ],
+    "Awesomenauts Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Max is the first permanent flyer in Awesomenauts. His flight cannot be disabled by anything, manually or otherwise (except by Cocoon).",
+          "Initially, Overdrive was only meant to have three characters. However, due to community demand for Overdrive to have as much content as Starstorm, Max was developed as a fourth Overdrive 'Naut. There are currently no plans for a 5th Overdrive 'Naut, however.[8]",
+          "Max was the first character revealed via Voltar's Vault since Ksenia.",
+          "Malicious Max has an alternate description, used on his Vault page."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Getting belched up from the spawning pits hurts like a dry eye, but Malicious Max is ready to serve his dark lord Kethkar. \"What's that, my dark lork? Spy on these non-believers? Yes, right away!\""
+      },
+      {
+        "type": "paragraph",
+        "text": "This Premium Max Focus skin will send chills down spines with his grotesque looks and creepy new voice."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Max is one of the \"beginner nauts\" and, as such, is can be played for free by players who are below profile level 8."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Max may be fast, but he lacks any form of sudden vertical speed. This will make chasing and escaping difficult, so extra care is needed on your positioning.",
+          "Max has a small \"deadzone\" directly beneath him where Flood Light is unable to hit anything. Try to stay slightly in front of a target below you.",
+          "Scene Illumination boasts incredible damage, but is very hard to hit. Try to save it as a long-ranged finisher, or in combination with Slow-mo Shot or another Crowd Control effect.",
+          "Stuns can interrupt Scene Illumination. Avoid using it until your enemies have used their stunning abilities and consider investing in your Flood Light instead, in case the enemy team has lots of stunning effects.",
+          "Faster enemies like Froggy G are hard to pin down with Scene Illumination. Try using UFO Spotted At Starstorm Station! or Intergalactic Police's Dirty Secret! to make hitting them easier.",
+          "Slowdowns can sometimes extend the duration of your opponents' beneficial skills. Some examples are Refract and Time Warp. Be careful when using Slow-mo Shot against enemies with skills like that.",
+          "Don't expect Slow-mo Shot to hit for very long (if at all) when shot from far away. It's most deadly fired near melee range.",
+          "Fire Slow-mo Shot along the path a fleeing enemy will take. This will force them to either detour or take a large amount of slow time.",
+          "Slow-mo Shot is the only way Max can reliably escape by himself. Try to save it until you absolutely need it, just in case."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Try and save powerful Crowd Control skills like Black Hole Sun or Gripping Gaze to help Max hit his Scene Illumination.",
+          "It might be a good idea to wait for a Slow-mo Shot before engaging. A well-aimed shot will leave enemies defenseless."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Max always moves at the same speed in all directions, making his movement highly predictable. Use this to juke him and escape or cut him off while chasing.",
+          "Because Max has no way to cancel his momentum, any Knockback that hits him will affect him in full force.",
+          "The best way to avoid Scene Illumination is to go up or down. Max has a hard time chasing fast vertically-moving targets.",
+          "Try to bait out Max's Slow-mo Shot. Without it, his other abilities don't offer much to a teamfight."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/max-001-3ec6726c.webp",
+      "source_name": "Max 001.png",
+      "alt": "Max 001",
+      "width": 512,
+      "height": 567,
+      "format": "WEBP",
+      "sha256": "3ec6726c87ca6a3cb2c05248951fcb6e050aae6b85c5f78cb8aaaade0904f47d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-maxfocus-sceneillumination-copy-508c0e05.webp",
+      "source_name": "UI Skillbutton maxFocus SceneIllumination copy.png",
+      "alt": "UI Skillbutton maxFocus SceneIllumination copy",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "508c0e05dcd2cd746fcb6f86bc2606641b606009fa5c3bad1cb1a34e8664621b",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-maxfocus-attack-copy-bc327de8.webp",
+      "source_name": "UI Skillbutton maxFocus attack copy.png",
+      "alt": "UI Skillbutton maxFocus attack copy",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "bc327de84aa9081e72557479b9744f8e3ed11ace4e8083a021f623846f0e984d",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-maxfocus-slowmoshot-copy-9a1381b7.webp",
+      "source_name": "UI Skillbutton maxFocus SlowmoShot copy.png",
+      "alt": "UI Skillbutton maxFocus SlowmoShot copy",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "9a1381b70ecce965e17d6e9148aae229d31377266b78bf32cc1ddc58d5fd6ecc",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-maxfocus-jump-copy-ef2f7b65.webp",
+      "source_name": "UI Skillbutton maxFocus Jump copy.png",
+      "alt": "UI Skillbutton maxFocus Jump copy",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "ef2f7b65bbf118da13d689e288eaf86f2b905de5976124ac7648745f88bb2e87",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-maxfocus-skill-a-upgrade-a-copy-13985e1a.webp",
+      "source_name": "Shop Icons maxFocus Skill a Upgrade a copy.png",
+      "alt": "Shop Icons maxFocus Skill a Upgrade a copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "13985e1ad1fe0cdcbfcbc0f141c990ae9cc1d7a71e03251008ba81a0951caa23",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-maxfocus-skill-a-upgrade-b-copy-cfd24cb0.webp",
+      "source_name": "Shop icons maxFocus skill a upgrade b copy.png",
+      "alt": "Shop icons maxFocus skill a upgrade b copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cfd24cb0e9a42052444d757130336e863aa9773a8da1e30a80d5dd65512053d2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-maxfocus-skill-a-upgrade-c-copy-fafb5e45.webp",
+      "source_name": "Shop icons maxFocus skill a upgrade c copy.png",
+      "alt": "Shop icons maxFocus skill a upgrade c copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fafb5e45eb67295655cb55b879b6fd76d9e3a206476c1a8c4a525482dd9b1e59",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-maxfocus-skill-a-upgrade-d-copy-b16ca61f.webp",
+      "source_name": "Shop icons maxFocus skill a upgrade d copy.png",
+      "alt": "Shop icons maxFocus skill a upgrade d copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b16ca61f821e33b0f5e82c5a0cfb94c695fabd4a8d98cdd4cf03554117564e81",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-maxfocus-skill-a-upgrade-e-copy-85ec859d.webp",
+      "source_name": "Shop icons maxFocus skill a upgrade e copy.png",
+      "alt": "Shop icons maxFocus skill a upgrade e copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "85ec859d2098e7d6d5b1ae08d799c42eddb066ad56bc9f831486647c356366ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-maxfocus-skill-a-upgrade-f-copy-d464ec57.webp",
+      "source_name": "Shop icons maxFocus skill a upgrade f copy.png",
+      "alt": "Shop icons maxFocus skill a upgrade f copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d464ec576bf64dc8856f2c1a915437d29cd6174da5ffc88ab6eb08e4f93f0dcf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-maxfocus-skill-b-upgrade-a-copy-7bcda5e8.webp",
+      "source_name": "Shop icons maxFocus skill b upgrade a copy.png",
+      "alt": "Shop icons maxFocus skill b upgrade a copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7bcda5e837f692f1e7fd3423490f26fd160d0d81c9c4a64635a63dd5c05939b2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-maxfocus-skill-b-upgrade-b-copy-37984d70.webp",
+      "source_name": "Shop icons maxFocus skill b upgrade b copy.png",
+      "alt": "Shop icons maxFocus skill b upgrade b copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "37984d70057af0ff74253b7d0856525d89228b9f961c2fa851b0c4ef638aa85c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-maxfocus-skill-b-upgrade-c-copy-32ed8845.webp",
+      "source_name": "Shop icons maxFocus skill b upgrade c copy.png",
+      "alt": "Shop icons maxFocus skill b upgrade c copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "32ed8845781ad8ff85cc31910c32a3edd77030dabe31c349e1f8deaeff750e33",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-maxfocus-skill-b-upgrade-d-copy-bdcf819b.webp",
+      "source_name": "Shop icons maxFocus skill b upgrade d copy.png",
+      "alt": "Shop icons maxFocus skill b upgrade d copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bdcf819bfb52c01e871f6e2a0a383b318d4e0b1d3dde04a443655910d9937ef5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-maxfocus-skill-b-upgrade-e-copy-c475098d.webp",
+      "source_name": "Shop icons maxFocus skill b upgrade e copy.png",
+      "alt": "Shop icons maxFocus skill b upgrade e copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c475098d4a6e0d4f1599fbedfd7333a14e8a125d2b984bca0447df22ae35652b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-maxfocus-skill-b-upgrade-f-copy-517bcc4e.webp",
+      "source_name": "Shop icons maxFocus skill b upgrade f copy.png",
+      "alt": "Shop icons maxFocus skill b upgrade f copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "517bcc4ef16a4f53b660741c242161ef3773324882105cc71fc9df897a651b26",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-maxfocus-skill-c-upgrade-a-copy-d97e9619.webp",
+      "source_name": "Shop icons maxFocus skill c upgrade a copy.png",
+      "alt": "Shop icons maxFocus skill c upgrade a copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d97e96198b0edbed1db70ec80bea4becb5690a43f0d75a05c870c138e34bed66",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-maxfocus-skill-c-upgrade-b-copy-5f7df57d.webp",
+      "source_name": "Shop icons maxFocus skill c upgrade b copy.png",
+      "alt": "Shop icons maxFocus skill c upgrade b copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5f7df57d1c895450c428081d6e7717b9625346ec9c1b2a680ad644a167c96e0e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-maxfocus-skill-c-upgrade-c-copy-3837c44d.webp",
+      "source_name": "Shop icons maxFocus skill c upgrade c copy.png",
+      "alt": "Shop icons maxFocus skill c upgrade c copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3837c44ddb5df10de285d8f39bc5ac852acba4d7cfff3f18a7662ffd25578fee",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-maxfocus-skill-c-upgrade-d-copy-a1e26e89.webp",
+      "source_name": "Shop icons maxFocus skill c upgrade d copy.png",
+      "alt": "Shop icons maxFocus skill c upgrade d copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a1e26e894b99da65b8d21f76b6cf16e601d5ea737c894d8772654fae97a5cfaf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-maxfocus-skill-c-upgrade-e-copy-2271464a.webp",
+      "source_name": "Shop icons maxFocus skill c upgrade e copy.png",
+      "alt": "Shop icons maxFocus skill c upgrade e copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2271464a131031e97ffd26a2b21554c2948e4f6a44469249bc2af9bf7ac72dd9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-maxfocus-skill-c-upgrade-f-copy-c135cd4a.webp",
+      "source_name": "Shop icons maxFocus skill c upgrade f copy.png",
+      "alt": "Shop icons maxFocus skill c upgrade f copy",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c135cd4a1ff283a68639333b3bc3e438f85cac688588f785dd25724385512e45",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-overdrive-54a20e5d.webp",
+      "source_name": "Shop Icons Overall Overdrive.png",
+      "alt": "Shop Icons Overall Overdrive",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "54a20e5d68abbebd00e3b2a7b5973f52111c38c013f924d33c4ec22bf97e07e5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/maxfocusingamered-babd11f7.webp",
+      "source_name": "Maxfocusingamered.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 151,
+      "format": "WEBP",
+      "sha256": "babd11f719fb8f542105dc06f850fce432ec1d2c7b46376e16f13ee842b8b754",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/maxfocusingameblue-a3dd5162.webp",
+      "source_name": "Maxfocusingameblue.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 140,
+      "format": "WEBP",
+      "sha256": "a3dd51626388dfd2b309402875c84a6456eb80b13121e176fe57df4fb6743e02",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/maliciousmaxingamered-9b1d6dea.webp",
+      "source_name": "Maliciousmaxingamered.png",
+      "alt": "Malicious Max.",
+      "width": 180,
+      "height": 126,
+      "format": "WEBP",
+      "sha256": "9b1d6dead333ffef6bf11fa6422ea49b9023b924c1a4dab9a65aed6c6e51f961",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/maliciousmaxingameblue-2e0ad689.webp",
+      "source_name": "Maliciousmaxingameblue.png",
+      "alt": "Malicious Max.",
+      "width": 180,
+      "height": 129,
+      "format": "WEBP",
+      "sha256": "2e0ad68902856a3351abca2ac89d9b06611fd76a5ee1f810f2a9f839b4814b68",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/ui-minimap-player-maxfocus-0-copy-f50c868f.webp",
+      "source_name": "Ui minimap player maxFocus 0 copy.png",
+      "alt": "Ui minimap player maxFocus 0 copy",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "f50c868fda3e75fe877cbd138912957eef59bf70c55c3150641874329bcb015e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/classiconboizor-60730efe.webp",
+      "source_name": "Classiconboizor.png",
+      "alt": "Classiconboizor",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "60730efe4f1aa6183152e547f2f22794752f35ec42c8ef6b0d8d014708e21e12",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/malicious-max-splash-6631ba5a.webp",
+      "source_name": "Malicious Max splash.png",
+      "alt": "Malicious Max splash",
+      "width": 200,
+      "height": 209,
+      "format": "WEBP",
+      "sha256": "6631ba5a73d2ee87514efe643fc3b348918928a86bbf43d4b848cb02b1d66216",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Malicious Max Quotes"
+    ],
+    "status": "extracted"
+  }
+}

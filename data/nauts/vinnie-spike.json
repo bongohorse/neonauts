@@ -1,0 +1,910 @@
+{
+  "schema_version": 1,
+  "name": "Vinnie & Spike",
+  "slug": "vinnie-spike",
+  "source": {
+    "filename": "Vinnie.Spike.-.Official.Awesomenauts.Wiki.10.10.2026.17.58.25.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Vinnie_%26_Spike",
+    "sha256": "bb62744a812e908fcfe38fe7f5745d8a76534d60b2b1f36216ccdc05a3a9f55a",
+    "size_bytes": 2224945
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1250 (2200)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "5.71206 x1.5(Airborne)"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Medium Range"
+    },
+    {
+      "label": "Role",
+      "value": "Assassin"
+    },
+    {
+      "label": "Mobility",
+      "value": "Aerial"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Bird",
+    "Type of abilities": "Area of Effect , Blind , Flight , Healing , Invisibility , Lifesteal , Silence",
+    "Release Date": "December 18th, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Spike Dive",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spike_Dive",
+      "description": "In many a mad dash to escape them flat-flooted coppers, Spike has specialised in a Dive that lets him torpedo through just about any roadblock. It delivers a lethal dose of spikes shot from his spine to add to the mayhem!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "400 (628)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "8s"
+        },
+        {
+          "label": "Radius",
+          "value": "6"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Bubble Gun",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bubble_Gun",
+      "description": "The small difference between the bubbles shot from Spike’s mouth, and the gently tumbling soapy dreams we all adore from our childhood, is that Spike’s bubbles will take your arm off if you try to pop ‘m!",
+      "values": [
+        {
+          "label": "Bullets",
+          "value": "3"
+        },
+        {
+          "label": "Damage",
+          "value": "35 (54.95)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "85.7"
+        },
+        {
+          "label": "Range",
+          "value": "7"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Smoke Screen",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Smoke_Screen",
+      "description": "Whenever Spike gets cornered, he squirts out a misty cloud that leaves everyone blinded in its wake. Vinnie has long since learned to use this nervous tick in his trusty pal to beat a hasty retreat when things get nasty!",
+      "values": [
+        {
+          "label": "Cooldown",
+          "value": "11s"
+        },
+        {
+          "label": "Duration",
+          "value": "4s"
+        },
+        {
+          "label": "Size",
+          "value": "8"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "160"
+        },
+        {
+          "label": "Blind Duration",
+          "value": "0.38s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Inflate",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Inflate",
+      "description": "Being the smart guy that he is, Vinnie uses Spike’s ability to bloat his body and float around. Apart from a hilarious party trick, this will get the duo up to those hard to reach places for the choicest pieces of loot!",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "4"
+        },
+        {
+          "label": "Jumps",
+          "value": "500"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Bag Full of Gold Fish",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bag_Full_of_Gold_Fish",
+      "group": "Spike Dive",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dead Seahorse Head",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dead_Seahorse_Head",
+      "group": "Spike Dive",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Alien Abduction Kit",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Alien_Abduction_Kit",
+      "group": "Spike Dive",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Antique Machinegun",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Antique_Machinegun",
+      "group": "Spike Dive",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chrome File",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chrome_File",
+      "group": "Spike Dive",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rigged Casino Games",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rigged_Casino_Games",
+      "group": "Spike Dive",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Red Bandana",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Red_Bandana",
+      "group": "Smoke Screen",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Clown's Mask",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Clown%27s_Mask",
+      "group": "Smoke Screen",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mammoth Sock with Holes",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mammoth_Sock_with_Holes",
+      "group": "Smoke Screen",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Withered President Mask",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Withered_President_Mask",
+      "group": "Smoke Screen",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rocketeer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rocketeer",
+      "group": "Smoke Screen",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rubber Mask",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rubber_Mask",
+      "group": "Smoke Screen",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sharky & Remora",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sharky_%26_Remora",
+      "group": "Bubble Gun",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Scarfish",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Scarfish",
+      "group": "Bubble Gun",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Yakoiza",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Yakoiza",
+      "group": "Bubble Gun",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Al Carper",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Al_Carper",
+      "group": "Bubble Gun",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Codfather",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Codfather",
+      "group": "Bubble Gun",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Loanshark",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Loanshark",
+      "group": "Bubble Gun",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Inflate",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Solar Krab Burgers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Solar_Krab_Burgers",
+      "group": "Inflate",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Inflate",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Inflate",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Inflate",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Inflate",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Cap'n Vinnie & Seadog Spike",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"You knew there was gonna be some sort of pirate-skin at some point, right? Chatting in piratespeech will never be more appropriate than when you rock this baby during an Awesomenauts match. All Yo Ho's, plank-walking references, plundering references and buried treasure references will be 74,2% funnier (and totally non-cliche) if you are manly enough to tread the interstellar battlefields as Cap'n Vinnie & Seadog Spike.\" - Official Steam Store Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Vinnie the clothes of a stereotypical pirate, with a large hat and a fake red beard. Spike becomes transparent and ghostly, and his pupils disappear."
+        },
+        {
+          "type": "paragraph",
+          "text": "They leave a trail of fishbones when they move instead of the traditional dollar bills, all bubbles fired from the Bubble Gun gain the same ghostly color as Spike. New team-colored glow effects are added to Spike Dive."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "name": "Cynical Vinnie & Total Spike",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Being part of the Royal British Digital Society of Well-Mannered Gentlemen, Cynical Vinnie and Total Spike have donned their finest attire just to treat you to their deadly fish and chips. Huzzah!\" - Official Steam Store Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin is based on Vinnie & Spike's voice actor TotalBiscuit and therefore has several references to him and to the United Kingdom. Vinnie Wears a top hat, while Spike has a mustache and wears a suit, a bowler hat and a monocle. He also has soundboxes on his back and a microphone which stays in front of Vinnie. Finally, Spike also has an upside-down Union Jack on his back."
+        },
+        {
+          "type": "paragraph",
+          "text": "The dollar bill trail they leave behind is replaced by a trail of french fries and he plays music when using Smokescreen. If Mammoth Sock with Holes is purchased, the question mark normally seen on the cloud is replaced by the \"WTF\" logo from TotalBiscuit's \"WTF is...\" series. Spike Dive and Bubble Gun are unaltered."
+        }
+      ],
+      "assets": [
+        "asset-039"
+      ]
+    }
+  ],
+  "sections": {
+    "Background": [
+      {
+        "type": "paragraph",
+        "text": "Vinnie and Spike are notorious partners in crime and BFF's. Spike is the muscle of the team and a bit of a silent guy, he loves late night krab burgers.Vinnie is quite the hothead, leaving Spike to do the heavy lifting while he plots out the next heist. With a pack full of restraining orders this little plankton devil is not to be messed with. They are wanted on numerous planets including their homeplanet Okeanos where the largest crime syndicate Shisu has put a reward on their head for stealing the Kullinan Koi, the biggest golden Koi ever known to fish and worth 4.8 Billion Solar.Unfortunately the duo lost the Koi somewhere in the Atlantic ocean while fleeing from Interpool.Being a pufferfish, Spike can gasp for air and float up, flapping his fins to move around. He is always ready for a fast getaway and can dash out of combat, leaving a smokebomb behind to fool his enemies, while both Vinnie and Spike run with the loot."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"You knew there was gonna be some sort of pirate-skin at some point, right? Chatting in piratespeech will never be more appropriate than when you rock this baby during an Awesomenauts match. All Yo Ho's, plank-walking references, plundering references and buried treasure references will be 74,2% funnier (and totally non-cliche) if you are manly enough to tread the interstellar battlefields as Cap'n Vinnie & Seadog Spike.\" - Official Steam Store Description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Vinnie the clothes of a stereotypical pirate, with a large hat and a fake red beard. Spike becomes transparent and ghostly, and his pupils disappear."
+      },
+      {
+        "type": "paragraph",
+        "text": "They leave a trail of fishbones when they move instead of the traditional dollar bills, all bubbles fired from the Bubble Gun gain the same ghostly color as Spike. New team-colored glow effects are added to Spike Dive."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"Being part of the Royal British Digital Society of Well-Mannered Gentlemen, Cynical Vinnie and Total Spike have donned their finest attire just to treat you to their deadly fish and chips. Huzzah!\" - Official Steam Store Description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin is based on Vinnie & Spike's voice actor TotalBiscuit and therefore has several references to him and to the United Kingdom. Vinnie Wears a top hat, while Spike has a mustache and wears a suit, a bowler hat and a monocle. He also has soundboxes on his back and a microphone which stays in front of Vinnie. Finally, Spike also has an upside-down Union Jack on his back."
+      },
+      {
+        "type": "paragraph",
+        "text": "The dollar bill trail they leave behind is replaced by a trail of french fries and he plays music when using Smokescreen. If Mammoth Sock with Holes is purchased, the question mark normally seen on the cloud is replaced by the \"WTF\" logo from TotalBiscuit's \"WTF is...\" series. Spike Dive and Bubble Gun are unaltered."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Vinnie's concept changed quite a bit during development. He was first designed as a bird, then as a tiny alien in a UFO and finally as the plankton/blowfish criminal duo currently in the game.",
+          "Vinnie's voice and peculiar way of talking are based on Edward G. Robinson[3], an american actor famous for his role in gangster movies.",
+          "Despite having the largest amount of selected entries in the Awesomenauts Create-A-Skin contest, Vinnie didn't win the competition, being outvoted by Grim Genji, Leon Legionnaire and Jotunn Skølldir.",
+          "The Cynical Vinnie & Total Spike skin is based off of his voice actor: TotalBiscuit."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Vinnie & Spike are noticeably faster while moving on air, rather than on land. Players are encouraged to keep flying instead of walking.",
+          "Solar Krab Burgers will not give you more health if you pick up a golden Solar cube instead of a silver one.",
+          "Spike Dive starts off pretty weak early game. Use it to farm Solar, poke enemies or as an escape tool. With some upgrades, it becomes more effective at killing enemies.",
+          "If you are using Bag Full of Gold Fish, it might be a good idea to play more passively and focus on farming whenever you drop below the required Solar limit. Once you have enough Solar again, you can go back to ganks and pushes.",
+          "Aiming downwards with Spike Dive while close to the ground is an effective way of landing both spike explosions from Dead Seahorse Head on the same target.",
+          "Remember that if you use Spike Dive to attack your enemies, you won't have it available for an escape. Smoke Screen (and any upgrades it may have) can assist you in your escape. Rigged Casino Games can also help you compensate for this.",
+          "Smoke Screen can be used defensively against droids: since blind incapacitates them, use it to prevent your turret from being attacked by them. This is also useful against Gnaw's weedlings.",
+          "Solar Krab Burgers work with Loanshark, for a big heal after killing an enemy Awesomenaut.",
+          "Combining Mammoth Sock With Holes, Withered President Mask and Space Air Max can turn Vinnie & Spike into very powerful escape artists.",
+          "Using Sharky & Remora can help you stay at a safe distance from your enemy while attacking or to get kills that wouldn't be possible otherwise. This upgrade also allows Vinnie & Spike to outrange turrets, making them great at pushing as long as something else is tanking for them, specially when combined with Smoke Screen which stops droids from attacking, giving you time to kill them while destroying the turret.",
+          "Although Bubble Gun deals fairly low damage early on, it pierces through enemies, making it a good droid farming tool.",
+          "When using The Godfish upgrade, keep in mind that you will glow when you are near an enemy with 150 or more Solar even if he's inside a hide area or invisible. Use this as a \"radar\" and be prepared to attack or flee accordingly."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "If Vinnie is using his Mammoth Sock with Holes upgrade, coordenate with him to set up effective ganks.",
+          "Take advantage of Vinnie's Smoke Screen to more easily destroy enemy droids and weedlings.",
+          "Crowd Control enemies to help Vinnie land his Spike Dive on them.",
+          "Try and force the enemy team to fight close to Smoke Screen, specially if Vinnie & Spike have purchased Red Bandana."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Vinnie & Spike have poor acceleration when falling, making it easier to land abilities on them during that time.",
+          "Mammoth Sock With Holes will apply not only to Vinnie & Spike, but to their teammates as well. Be wary of stealth ambushes.",
+          "Unlike Froggy G, Vinnie & Spike are vulnerable to damage during Spike Dive. Attack them when they use it offensively.",
+          "If you notice that Vinnie & Spike are surrounded by a white bubble after using Smoke Screen, don't try to crowd control them: they are protected by Clown's Mask.",
+          "While it may look like Vinnie & Spike launch spikes at the end of their spike dive,it is actually an explosion and getting hit by it will do the full damage of the spike dive."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/characterrender-birdman-redbg-197e0d8b.webp",
+      "source_name": "CharacterRender Birdman redBG.png",
+      "alt": "CharacterRender Birdman redBG",
+      "width": 512,
+      "height": 541,
+      "format": "WEBP",
+      "sha256": "197e0d8b58e14a63d58c89bb6bb3595b1f68b16867a9e0c2a0dc82deec42e669",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-bird-dash-644ab7d7.webp",
+      "source_name": "UI Skillbutton Bird Dash.png",
+      "alt": "UI Skillbutton Bird Dash",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "644ab7d70bec8ff36dc12303c0a5db841de957db250ba62aae71c6f75e265445",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-bird-shot-6b8b7bcd.webp",
+      "source_name": "UI Skillbutton Bird Shot.png",
+      "alt": "UI Skillbutton Bird Shot",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "6b8b7bcd8906fd9b79c8b4937c73b629c062d7175eb2df909a2fc5f16c42f234",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-bird-smoke-c4cfc471.webp",
+      "source_name": "UI Skillbutton Bird Smoke.png",
+      "alt": "UI Skillbutton Bird Smoke",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "c4cfc47119e311524b5469348523618d6b0760f0f47189d7de1e85bef07078c6",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-bird-jump-670fb6b8.webp",
+      "source_name": "UI Skillbutton Bird Jump.png",
+      "alt": "UI Skillbutton Bird Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "670fb6b82113985a6c4d6a5964cafa911a08399e2b581cca5202e50d1dcca19f",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-bird-skill-b-upgrade-e-ca4fdf27.webp",
+      "source_name": "Shop icons bird skill b upgrade e.png",
+      "alt": "Shop icons bird skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ca4fdf27fa43abe01063a6a0c0f556c6e7fef258231f5792070d576de270dc17",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-bird-skill-b-upgrade-b-63627d07.webp",
+      "source_name": "Shop icons bird skill b upgrade b.png",
+      "alt": "Shop icons bird skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "63627d07aba65fa122c7472ba67df678c7f229183cf8caea63117aef2aed6d1d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-bird-skill-b-upgrade-c-f467743f.webp",
+      "source_name": "Shop icons bird skill b upgrade c.png",
+      "alt": "Shop icons bird skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f467743f2a3de21de8e89aed2873093f0da32946228c0549fcea4a3a2862d9b9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-bird-skill-b-upgrade-f-4262962b.webp",
+      "source_name": "Shop icons bird skill b upgrade f.png",
+      "alt": "Shop icons bird skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4262962b9812fc086c62e7b50ad13551e934a6c7f4e0f35e0b51927b04f4e198",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-bird-skill-b-upgrade-a-1dcf6672.webp",
+      "source_name": "Shop icons bird skill b upgrade a.png",
+      "alt": "Shop icons bird skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1dcf66729321bf793ff332bfb8bcbab495e904b115fe6f4b64b0418503e4a9d4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-bird-skill-b-upgrade-d-87022745.webp",
+      "source_name": "Shop icons bird skill b upgrade d.png",
+      "alt": "Shop icons bird skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8702274594674a2f2e8ba7a7077b3389c2a59cc198512c5a8cd67943843df0fd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-bird-skill-c-upgrade-b-dde468f8.webp",
+      "source_name": "Shop icons bird skill c upgrade b.png",
+      "alt": "Shop icons bird skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "dde468f8db49355ce0ee6de5e23ab7b596e32dd68be05eb01321c0130567947b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-bird-skill-c-upgrade-a-268f9d35.webp",
+      "source_name": "Shop icons bird skill c upgrade a.png",
+      "alt": "Shop icons bird skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "268f9d35505097f7293ac42a8c441c785f3b067a2882bfae131f97add995ae5a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-bird-skill-c-upgrade-e-cf74dd8d.webp",
+      "source_name": "Shop icons bird skill c upgrade e.png",
+      "alt": "Shop icons bird skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cf74dd8dd7167f828e449a07643279200d68f327e16a90060b8b96f0036c1053",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-bird-skill-c-upgrade-c-e14465e7.webp",
+      "source_name": "Shop icons bird skill c upgrade c.png",
+      "alt": "Shop icons bird skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e14465e7772e56e4107ae548f7913ae9cf6b91817f23886834c0f36789cd5f21",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-bird-skill-c-upgrade-d-1d780f3e.webp",
+      "source_name": "Shop icons bird skill c upgrade d.png",
+      "alt": "Shop icons bird skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1d780f3e176a63455ecac0550ff301a7f6cc0bf70c8838343f47ab42827c73c1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-bird-skill-c-upgrade-f-3fbc035a.webp",
+      "source_name": "Shop icons bird skill c upgrade f.png",
+      "alt": "Shop icons bird skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3fbc035a39242c340ec8e466043ad957796b9291ef5fc621c7a7477a422098ce",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-bird-skill-a-upgrade-a-b3ce4947.webp",
+      "source_name": "Shop icons bird skill a upgrade a.png",
+      "alt": "Shop icons bird skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b3ce49472c1a3f61891215a5d636567bca7f5c91fb3eab30bcbd9d44c594ef60",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-bird-skill-a-upgrade-f-22d20d20.webp",
+      "source_name": "Shop icons bird skill a upgrade f.png",
+      "alt": "Shop icons bird skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "22d20d20f4d05fda2762e8b5b5a5f9470ab1e91655f75513077ca48198a46209",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-bird-skill-a-upgrade-c-1601f089.webp",
+      "source_name": "Shop icons bird skill a upgrade c.png",
+      "alt": "Shop icons bird skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1601f08921f5a11db65463acc8875a7b73e49306cd0e8e120ed679e9afbe2eb2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-bird-skill-a-upgrade-d-7a0c3779.webp",
+      "source_name": "Shop icons bird skill a upgrade d.png",
+      "alt": "Shop icons bird skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7a0c37797bd1e22a14543acc2d17ec54a460fa6e042cbd4d28c291b8785f96d0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-bird-skill-a-upgrade-e-47e5e77e.webp",
+      "source_name": "Shop icons bird skill a upgrade e.png",
+      "alt": "Shop icons bird skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "47e5e77ea607d4ca0f4e135df00554bbcf911e60931c0e3932987875946147fc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-bird-skill-a-upgrade-b-c3dbcaec.webp",
+      "source_name": "Shop icons bird skill a upgrade b.png",
+      "alt": "Shop icons bird skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c3dbcaec3e6c7befe21033957d7aa08707f7477a20b873456d1117a4bcbc35e3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/shop-icons-overall-birdsolarhealth-788cee67.webp",
+      "source_name": "Shop Icons Overall BirdSolarHealth.png",
+      "alt": "Shop Icons Overall BirdSolarHealth",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "788cee67ac2a1e863954759614cd85a131503c58049e51a44a1698a00c9d09c5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/vinniespikeingame-159d44ed.webp",
+      "source_name": "Vinniespikeingame.png",
+      "alt": "Default skin.",
+      "width": 84,
+      "height": 157,
+      "format": "WEBP",
+      "sha256": "159d44ed2dd555b0021681ab4354cbd5ee1a1685f0b1be84c1b60febe347b247",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-vinnie-skin-2db11845.webp",
+      "source_name": "Base Vinnie Skin.png",
+      "alt": "Default skin",
+      "width": 91,
+      "height": 137,
+      "format": "WEBP",
+      "sha256": "2db1184560c35fa4f7f82556bcc6b029b6be1970f3c92e41fcc0fd879cf8592b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/capvinnie-5e0e6072.webp",
+      "source_name": "Capvinnie.jpg",
+      "alt": "Cap'n Vinnie & Seadog Spike.",
+      "width": 84,
+      "height": 157,
+      "format": "WEBP",
+      "sha256": "5e0e6072aea041a216903128025d96b4058064d5cd466abeeacae685bbcc6edc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/captain-vinnie-and-seadog-spike-skin-27cc1a25.webp",
+      "source_name": "Captain Vinnie and Seadog Spike Skin.png",
+      "alt": "Cap'n Vinnie & Seadog Spike",
+      "width": 89,
+      "height": 143,
+      "format": "WEBP",
+      "sha256": "27cc1a25cdb354c4cb1fb6c46e3adc03f1484e5551d073f69278866a0463d455",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/cynvsingamered-0b0ac1c6.webp",
+      "source_name": "Cynvsingamered.png",
+      "alt": "Cynical Vinnie & Total Spike",
+      "width": 180,
+      "height": 160,
+      "format": "WEBP",
+      "sha256": "0b0ac1c663aeb395465c604d7e8f7ae66366507191fab93547316c5b3c4ee76e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/cynvsingameblue-fb18e0f2.webp",
+      "source_name": "Cynvsingameblue.png",
+      "alt": "Cynical Vinnie & Total Spike",
+      "width": 180,
+      "height": 169,
+      "format": "WEBP",
+      "sha256": "fb18e0f2faf5337b3d54b921913f354ae9fba2b7eaa15d271e3a6c269aaf9796",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/ui-minimap-player-bird-0-86831329.webp",
+      "source_name": "Ui minimap player bird 0.png",
+      "alt": "Ui minimap player bird 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "868313296e2be20725a8cdd8ebeed34f8e1e7fee44778bccecb83bb6a4c4fa70",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/classicon-bird-7cc96036.webp",
+      "source_name": "Classicon bird.png",
+      "alt": "Classicon bird",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "7cc96036055549f5c61e2eba0fee97a40c0e77cb7403c319c8a58a67fb729bd3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/characterrender-birdman-skin-pirate-d2967500.webp",
+      "source_name": "CharacterRender Birdman Skin Pirate.png",
+      "alt": "CharacterRender Birdman Skin Pirate",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "d296750018487b04a3ae3219d45ee442b5f1b0dc79c60251281c2c8257353ec1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/ui-portraitcharacter-cynical-vinnie-8083b720.webp",
+      "source_name": "UI PortraitCharacter Cynical Vinnie.png",
+      "alt": "UI PortraitCharacter Cynical Vinnie",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "8083b720c98f3b2fa5ff6a15ccb573d94abc14171183e37b733299ab93124219",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_skin_image",
+        "skin": "Cap'n Vinnie & Seadog Spike"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes"
+    ],
+    "status": "partial"
+  }
+}

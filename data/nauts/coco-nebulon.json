@@ -1,0 +1,1095 @@
+{
+  "schema_version": 1,
+  "name": "Coco Nebulon",
+  "slug": "coco-nebulon",
+  "source": {
+    "filename": "Coco.Nebulon.-.Official.Awesomenauts.Wiki.10.10.2026.17.46.27.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Coco_Nebulon",
+    "sha256": "5510fbc3b8c79f47b984d73f7e98cc8cca42caece59fc502c6a177a0997254e2",
+    "size_bytes": 2687520
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1300 (2288)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.36"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Harasser"
+    },
+    {
+      "label": "Mobility",
+      "value": "Swift"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Blazer",
+    "Type of abilities": "Damage Over Time , Long-ranged , Slow , Lifesteal , Area of Effect , Knockback",
+    "Release Date": "July 23rd, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Ball Lightning",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ball_Lightning",
+      "description": "Coco shoots an actual ball of lightning from her hands, which she can detonate at any time while it's traveling through the air. This little bundle of bolts is able to pass through any solid object.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "400 (628)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7s"
+        },
+        {
+          "label": "Range",
+          "value": "8"
+        },
+        {
+          "label": "Knockback",
+          "value": "1.5"
+        },
+        {
+          "label": "Speed",
+          "value": "9.6"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Shock",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Shock",
+      "description": "Coco channels her psycho-electric powers through her unfortunate enemies, frying anything foolish enough to stand in front of her. Machine or mammal, they are all in for a nasty shock.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "35 (54.95)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "428.6"
+        },
+        {
+          "label": "Range",
+          "value": "3.3"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Blaze",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Blaze",
+      "description": "Leaving a trail of lightning, Blaze will damage anyone who is foolish enough to step into it. Helpful to get rid of “the man” when he’s persuing you about those unpaid bills.",
+      "values": [
+        {
+          "label": "Damage Over Time",
+          "value": "165 (259.05)"
+        },
+        {
+          "label": "Damage Duration",
+          "value": "2s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "8s"
+        },
+        {
+          "label": "Length",
+          "value": "8"
+        },
+        {
+          "label": "Time",
+          "value": "1.6s"
+        },
+        {
+          "label": "Slow Power",
+          "value": "10%"
+        },
+        {
+          "label": "Slow Duration",
+          "value": "1s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Ollie",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ollie",
+      "description": "Always willing to entertain the crowds and show off her skills, Coco will occasionally do a Front-Flip while soaring through the air.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "10.8"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        },
+        {
+          "label": "Frontflip Chance",
+          "value": "50%"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Voltage Amplifier",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Voltage_Amplifier",
+      "group": "Ball Lightning",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Gyroscopic Dynamo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Gyroscopic_Dynamo",
+      "group": "Ball Lightning",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Conducting Gel",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Conducting_Gel",
+      "group": "Ball Lightning",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Thunder Striker",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Thunder_Striker",
+      "group": "Ball Lightning",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Flashing Lights",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flashing_Lights",
+      "group": "Ball Lightning",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Heavenly Fire",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Heavenly_Fire",
+      "group": "Ball Lightning",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Silver Coating",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Silver_Coating",
+      "group": "Blaze",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chuck's Board",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chuck%27s_Board",
+      "group": "Blaze",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Disruptor",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Disruptor",
+      "group": "Blaze",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Time Travel Turbine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Time_Travel_Turbine",
+      "group": "Blaze",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Syphon Disruptor",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Syphon_Disruptor",
+      "group": "Blaze",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wave Raiser",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wave_Raiser",
+      "group": "Blaze",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Static Gloves",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Static_Gloves",
+      "group": "Shock",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Flexible Heat Sinks",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flexible_Heat_Sinks",
+      "group": "Shock",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wetsuit",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wetsuit",
+      "group": "Shock",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Gloves",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Gloves",
+      "group": "Shock",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hoover Hands",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hoover_Hands",
+      "group": "Shock",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Super Conductor",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Super_Conductor",
+      "group": "Shock",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Ollie",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Ollie",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Ollie",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Ollie",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Ollie",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Ollie",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Coco Hawaii",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Aloha! The fresh, floral air energizes you. The warm, tranquil waters refresh you. The breathtaking, natural beauty renews you. As the sun sets, you look around, you're on an exotic island, wearing a straw skirt and flowers in your hair. This can be your life if you upgrade now to Hawaii Coco! - Official Steam Store description.\" - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "In this skin, Coco is dressed like a Polynesian hula dancer, with a grass skirt, flowers on her hair tentacles and a flower garland around her neck. Her hoverboard is replaced by a common wooden surfboard that leaves a water trail when she moves around. The flowers on her hair also leave a trail when she moves around."
+        },
+        {
+          "type": "paragraph",
+          "text": "The pattern inside Ball Lightning is changed."
+        }
+      ],
+      "assets": [
+        "asset-042"
+      ]
+    },
+    {
+      "name": "Coco McFly",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Coco has accidentally been sent back to the year 2015 by mad scientist monkey Yuri! 2015... when hoverboards had a weirdly nineteen-eighties-like design! Coco McFly must now find a way to go home in the future! Will she ever get back?\" - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "In this skin Coco is dressed up like Marty McFly from Back to the Future, complete with jeans, shirt, jacket and tennis shoes. Her goggles are replaced by sunglasses and she has a wristwatch."
+        },
+        {
+          "type": "paragraph",
+          "text": "The pattern inside Ball Lightning is changed. Her Blaze also gains a fiery effect, similar to the one left by Damage Over Time attacks like Earthquake."
+        }
+      ],
+      "assets": [
+        "asset-043"
+      ]
+    },
+    {
+      "name": "Cyber Coco",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This skin was awarded to players who donated to the Bronze Coco/Silver Tier or higher, in the Awesomenauts: Starstorm Expansion Kickstarter campaign. No official description available."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin covers Coco in futuristic armor with power gloves and a visor. Her board also looks advanced. Unlike the rest of her skins, Coco has a ponytail on this one."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ball Lightning has a different look on this skin. New hexagon particle effects are also added to Blaze."
+        }
+      ],
+      "assets": [
+        "asset-044"
+      ]
+    },
+    {
+      "name": "Wicked Coco",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Witches were hunted down throughout the middle ages, but one of them managed to escape to a place where the inquisition was unable to follow her: a planet near the outer brim of the universe, called Okeanos. On this world she was finally free to practice her magic. Over time, the Witch traded her trusty broom for a more modern combat waveboard and updated her wardrobe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Old habits die hard (just like witches, by the way), so on one special day every year the Witch still dons the outfit that she wore so many years ago and visits Earth on her broom. Together with the Earthlings she celebrates their victory over Witchcraft, creepyness, and ghouls... or something. Like, whatever. If only they knew..."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Coco in Awesomenauts, and comes with a fully customized voice set! If you have not unlocked the character yet, purchasing this content will do so. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Coco a witch costume, including a pointy hat with a skull strapped to it, a jacket, a leotard, a belt with a skull buckle, striped socks and pointy shoes. Her hair tentacles are colored green instead of the usual purple and her hoverboard is replaced by a broom and she leaves a faint trail of bats behind whenever she moves. Her skin is colored differently on blue team."
+        },
+        {
+          "type": "paragraph",
+          "text": "Blaze leaves a more intense bat trail and ball lightning looks like a spinning jack-o'-lantern (which also explodes in a jack-o'-lantern shaped blast). Both skills have unique sound effects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with custom voice acting."
+        }
+      ],
+      "assets": [
+        "asset-045"
+      ]
+    }
+  ],
+  "sections": {
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "Hailing from a psyonic race near the outer brim of the galaxy, comes Coco Nebulon, the cosmic waveblazer. Coco rides her combat waveboard into battle, using her psyonic powers to subdue her adversaries. Why Coco fights in the war is a bit unclear, as no-one can really understand her when she talks."
+      },
+      {
+        "type": "paragraph",
+        "text": "Excerpt from her spacelog: \"It's just like, dude, I was cruisin' the galaxy, you know, in this totally tubular, space-van, searching for the best cosmic waves man. And, you know, like, when I was, like, you know, like acing these waves once, there was like this giant robot corporation that wanted to make like these waves like into a giant galactic like battlefield you know? And I was all like, oh man, that's so un-gnarly dude. But those robots were all like 10100111001 or whatever. So I was all like, yeah but ok, you know? And then these robots were all like, ohh we have to fight each other. And they were like shooting lasers at eachother man. And I was like, man, I gotta fight, you know, like totally with these robots against the other robots because it's like, you know, whatever.\""
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"Aloha! The fresh, floral air energizes you. The warm, tranquil waters refresh you. The breathtaking, natural beauty renews you. As the sun sets, you look around, you're on an exotic island, wearing a straw skirt and flowers in your hair. This can be your life if you upgrade now to Hawaii Coco! - Official Steam Store description.\" - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "In this skin, Coco is dressed like a Polynesian hula dancer, with a grass skirt, flowers on her hair tentacles and a flower garland around her neck. Her hoverboard is replaced by a common wooden surfboard that leaves a water trail when she moves around. The flowers on her hair also leave a trail when she moves around."
+      },
+      {
+        "type": "paragraph",
+        "text": "The pattern inside Ball Lightning is changed."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"Coco has accidentally been sent back to the year 2015 by mad scientist monkey Yuri! 2015... when hoverboards had a weirdly nineteen-eighties-like design! Coco McFly must now find a way to go home in the future! Will she ever get back?\" - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "In this skin Coco is dressed up like Marty McFly from Back to the Future, complete with jeans, shirt, jacket and tennis shoes. Her goggles are replaced by sunglasses and she has a wristwatch."
+      },
+      {
+        "type": "paragraph",
+        "text": "The pattern inside Ball Lightning is changed. Her Blaze also gains a fiery effect, similar to the one left by Damage Over Time attacks like Earthquake."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin was awarded to players who donated to the Bronze Coco/Silver Tier or higher, in the Awesomenauts: Starstorm Expansion Kickstarter campaign. No official description available."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin covers Coco in futuristic armor with power gloves and a visor. Her board also looks advanced. Unlike the rest of her skins, Coco has a ponytail on this one."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ball Lightning has a different look on this skin. New hexagon particle effects are also added to Blaze."
+      },
+      {
+        "type": "paragraph",
+        "text": "Witches were hunted down throughout the middle ages, but one of them managed to escape to a place where the inquisition was unable to follow her: a planet near the outer brim of the universe, called Okeanos. On this world she was finally free to practice her magic. Over time, the Witch traded her trusty broom for a more modern combat waveboard and updated her wardrobe."
+      },
+      {
+        "type": "paragraph",
+        "text": "Old habits die hard (just like witches, by the way), so on one special day every year the Witch still dons the outfit that she wore so many years ago and visits Earth on her broom. Together with the Earthlings she celebrates their victory over Witchcraft, creepyness, and ghouls... or something. Like, whatever. If only they knew..."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Coco in Awesomenauts, and comes with a fully customized voice set! If you have not unlocked the character yet, purchasing this content will do so. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Coco a witch costume, including a pointy hat with a skull strapped to it, a jacket, a leotard, a belt with a skull buckle, striped socks and pointy shoes. Her hair tentacles are colored green instead of the usual purple and her hoverboard is replaced by a broom and she leaves a faint trail of bats behind whenever she moves. Her skin is colored differently on blue team."
+      },
+      {
+        "type": "paragraph",
+        "text": "Blaze leaves a more intense bat trail and ball lightning looks like a spinning jack-o'-lantern (which also explodes in a jack-o'-lantern shaped blast). Both skills have unique sound effects."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with custom voice acting."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Coco and Derpl were the first new characters added to the game in an update. They were released simultaneously.",
+          "Coco was the first female character added into the game.",
+          "Shock can be aimed, making Coco the only 'Naut to have an aimable melee autoatack.",
+          "Coco's style of speech is a parody of the dialect used by people during the 1980s.",
+          "Coco's voice actress, Claire King, also voiced Derpl Zork's combat walker, S.U.S.I.",
+          "With five unique skins including the default one, Coco is tied with Leon, Lonestar and Scoop for the most skins in the game. On top of that, Leon and Coco have very similar skin layouts. They both have two premium skins, two regular skins, one kickstarter-exclusive skin, and one skin that won a contest.",
+          "Coco was one of the two 'nauts to receive a kickstarter-exclusive skin (the other being Leon).",
+          "The Coco McFly skin was chosen by the community via a FaceBook voting. It received the most votes, beating the other options (Snowco and Wicked Coco). They can be seen below. Wicked Coco was eventually added to the game in a later patch due to community feedback."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Coco can be played as a harasser, focusing on poking enemies with Ball Lightning while using Blaze to keep enemies at bay, or as a fighter, via powerful autoattack upgrades.",
+          "When autoattacking Droids and turrets, keep in mind that Coco does not stop immediatly after moving. You may end up taking unecessary damage if you are not careful.",
+          "As with many 'naut, boots will increase Coco's jump height slightly, allowing her to have an easier time reaching certain platforms.",
+          "With Ball Lightning's natural range and ability to pierce through terrain, you may use it to farm neutral creeps wihout actually going into the jungle areas. This is specially useful on Ribbit IV and Aiguillon.",
+          "If you manage to launch a Ball Lightning behind your enemy, the explosion will launch him towards you. Use this tactic to throw your enemy at turrets or on your team. Thunder Striker helps with this.",
+          "Try to surprise your opponents by Ball Lightning at unexpected angles or try to predict their movement and aim it accordingly. It'll probably help you compensate for the projectile's slow speed.",
+          "Slowing enemies with Blaze makes it easier to land Ball Lightning on them.",
+          "Silver Coating gives Coco very high mobility, allowing her to escape or chase targets much more effectively.",
+          "Upon activating Blaze, going through a high-traffic jumppad may cause enemies who are using it to be effected by the blaze. It can also work as short-term area denial.",
+          "Blaze can be used to create a \"barrier\" to discourage enemy pursuers that may want to engage you or your allies."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "If Coco is focusing on her autoattack, Crowd Control may help her deal with enemies more easily.",
+          "Position yourself in a way that, if Coco manages to knock an enemy into your team, you'll be able to quickly follow it up for a kill."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "With high movement speed and an innate slowing effect, Coco may be hard to approach. Try to sneak up on her using hide areas or from above/below and use crowd control to keep her in place.",
+          "Ball Lightning can pierce through terrain and deal high damage, but it moves slowly. Timing your jumps can help you avoid it.",
+          "Dying is always worse than retreating. Keep an eye on your health bar and see if you can survive another Ball Lightning. If the answer is no, it is better to retreat and heal.",
+          "If Coco uses her Silver Coating to quickly join a fight, she just lost a powerful escape tool. Punish her for it.",
+          "Coco cannot detonate Ball Lightning while silenced or cocooned."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/coconebulon-alpha-df33b336.webp",
+      "source_name": "CocoNebulon Alpha.png",
+      "alt": "CocoNebulon Alpha",
+      "width": 512,
+      "height": 623,
+      "format": "WEBP",
+      "sha256": "df33b33658ef9b71c716c1ca68ae76e70f88793b3a4466bc15decdf2c6c3e9e8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/coco-nebulon-skill1-f5557739.webp",
+      "source_name": "Coco Nebulon Skill1.png",
+      "alt": "Coco Nebulon Skill1",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "f55577396a606d0597ec2f7ede36fc4698f865a1ddc262d59e61b7cf838c8489",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/coco-nebulon-weapon-4039e757.webp",
+      "source_name": "Coco Nebulon Weapon.png",
+      "alt": "Coco Nebulon Weapon",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "4039e757fd1885845db80d1b9dbd534aac7362c7cd1b1bb7a512aabce10f7736",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/coco-nebulon-skill2-7cf7c58c.webp",
+      "source_name": "Coco Nebulon Skill2.png",
+      "alt": "Coco Nebulon Skill2",
+      "width": 256,
+      "height": 258,
+      "format": "WEBP",
+      "sha256": "7cf7c58c25942a31d99723e3cf90b13c0725ab9d3ac9cf99ce6ee5b304e55cac",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/coco-nebulon-jump-74ea60ab.webp",
+      "source_name": "Coco Nebulon Jump.png",
+      "alt": "Coco Nebulon Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "74ea60ab6f38317a09d2b8cffe1c98c3d1c0a6ef0e3c88b2472dc791f9be45e5",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/coco-nebulon-skill1-1-19c0e288.webp",
+      "source_name": "Coco Nebulon Skill1-1.png",
+      "alt": "Coco Nebulon Skill1-1",
+      "width": 125,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "19c0e288aec426837f588980e03f90860ff3587810010bec31c50e9065a85daf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/coco-nebulon-skill1-2-ba6d0cba.webp",
+      "source_name": "Coco Nebulon Skill1-2.png",
+      "alt": "Coco Nebulon Skill1-2",
+      "width": 125,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ba6d0cba68db90248b814573c9bc5b51d939c370a715a1e67a5064eaa224ba51",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/coco-nebulon-skill1-4-b8174f71.webp",
+      "source_name": "Coco Nebulon Skill1-4.png",
+      "alt": "Coco Nebulon Skill1-4",
+      "width": 125,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b8174f710929309cbb79ddc87689774fa47a4e54eeeee01b9f58e99d74484da5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/coco-nebulon-skill1-3-794a4f2e.webp",
+      "source_name": "Coco Nebulon Skill1-3.png",
+      "alt": "Coco Nebulon Skill1-3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "794a4f2e0cb7f2b304a7f503227178a9bd778aae0685555cb5e1ae75646a166c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/coco-nebulon-skill1-5-9d963656.webp",
+      "source_name": "Coco Nebulon Skill1-5.png",
+      "alt": "Coco Nebulon Skill1-5",
+      "width": 125,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9d963656977c7005457afbc21737791d43a8d7bc12abbdf3df224689ec80f208",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/coco-nebulon-skill1-6-cbb43d53.webp",
+      "source_name": "Coco Nebulon Skill1-6.png",
+      "alt": "Coco Nebulon Skill1-6",
+      "width": 125,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cbb43d537f8778a9c3cab4d87d46305a73de12d28c1bdb19c2ce196a6bdbbb46",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/coco-nebulon-skill2-1-ee881235.webp",
+      "source_name": "Coco Nebulon Skill2-1.png",
+      "alt": "Coco Nebulon Skill2-1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee8812356e650f924fe4c9161535c77364a2402b094e7a34b3030355391a2a3e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/coco-nebulon-skill2-2-09153b2a.webp",
+      "source_name": "Coco Nebulon Skill2-2.png",
+      "alt": "Coco Nebulon Skill2-2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "09153b2a2aa3e77421489a3184df4c5cfa3aac274f186b2a72c30e6687634d07",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/coco-nebulon-skill2-3-cb50ab57.webp",
+      "source_name": "Coco Nebulon Skill2-3.png",
+      "alt": "Coco Nebulon Skill2-3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cb50ab57661a7258bcf874f7dc6f425af832873911ec9e0dd1dcbd85f0153c2e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/coco-nebulon-skill2-4-759ff92b.webp",
+      "source_name": "Coco Nebulon Skill2-4.png",
+      "alt": "Coco Nebulon Skill2-4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "759ff92b303e59f4e67f2b722ea9b6818212429f515a5749c101f19794ad44dd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/coco-nebulon-skill2-5-311bbca8.webp",
+      "source_name": "Coco Nebulon Skill2-5.png",
+      "alt": "Coco Nebulon Skill2-5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "311bbca8514ab630005001a603593044f2486c3d9d7e06fdd7f40f009593a008",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/coco-nebulon-skill2-6-3f80da5a.webp",
+      "source_name": "Coco Nebulon Skill2-6.png",
+      "alt": "Coco Nebulon Skill2-6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3f80da5a07db591ed04e96dc8e37a48f1e6bb62417b75ba5ebb2d511487046a0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/coco-nebulon-weapon-1-93bf57bd.webp",
+      "source_name": "Coco Nebulon Weapon-1.png",
+      "alt": "Coco Nebulon Weapon-1",
+      "width": 126,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "93bf57bd7c7a23db7c06e8d9999027e296953402c2d7de4d59cd170760bff46a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/coco-nebulon-weapon-2-1886772b.webp",
+      "source_name": "Coco Nebulon Weapon-2.png",
+      "alt": "Coco Nebulon Weapon-2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1886772bfc8953542120775bc4b5b3d51f114f7f6381d3afb42a95a2dfc88ce8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/coco-nebulon-weapon-3-9552355b.webp",
+      "source_name": "Coco Nebulon Weapon-3.png",
+      "alt": "Coco Nebulon Weapon-3",
+      "width": 127,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9552355bae30a09e48355a3871a4108c4300634187cf83879756cb44701ae1be",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/coco-nebulon-weapon-4-9cc368dc.webp",
+      "source_name": "Coco Nebulon Weapon-4.png",
+      "alt": "Coco Nebulon Weapon-4",
+      "width": 127,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9cc368dc7d84b101a6c15c925129bd955a6007d990298a73e2ed171927ada30c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/coco-nebulon-weapon-5-7f4b1864.webp",
+      "source_name": "Coco Nebulon Weapon-5.png",
+      "alt": "Coco Nebulon Weapon-5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7f4b18643847c13651f30696a33250016f550f0aab7447bf8ee7a22660262b22",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/coco-nebulon-weapon-6-6e6f42a2.webp",
+      "source_name": "Coco Nebulon Weapon-6.png",
+      "alt": "Coco Nebulon Weapon-6",
+      "width": 126,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6e6f42a25213f71e41fd60546cd02d3d17e12d832f99718a892a5628eee58d0b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/cocoingame-42edf7c1.webp",
+      "source_name": "Cocoingame.png",
+      "alt": "Default Skin.",
+      "width": 96,
+      "height": 105,
+      "format": "WEBP",
+      "sha256": "42edf7c1343dc98a0c643f013567863c68afe3fc9d5f76eef2ec6215ee6a24c3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-coco-skin-355e8523.webp",
+      "source_name": "Base Coco Skin.png",
+      "alt": "Default Skin(donated by Catti and Bowserslave)",
+      "width": 101,
+      "height": 122,
+      "format": "WEBP",
+      "sha256": "355e8523264fa8774e3196adb9082447840de5eb846875fc3ea36478e61b436e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/cocoskin-930f6309.webp",
+      "source_name": "Cocoskin.jpg",
+      "alt": "Coco Hawaii.",
+      "width": 100,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "930f63094f5777698d52a06bec715c19175878a5639fc27dc5aa16aecb1268b1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/hawaiian-coco-skin-e81ea2c2.webp",
+      "source_name": "Hawaiian Coco Skin.png",
+      "alt": "Coco Hawaii",
+      "width": 97,
+      "height": 122,
+      "format": "WEBP",
+      "sha256": "e81ea2c2ccde72f443a072916e45dd78c6e0099aea702a1884b6c19f6bcbe3dc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/cocomcflyingame-4d848537.webp",
+      "source_name": "Cocomcflyingame.png",
+      "alt": "Coco McFly (Donated by CrimsonYeti).",
+      "width": 100,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4d8485372e7756b43257e12eb8b4f2ab1f0e7946fdb1e2a40a58e4c61bcd63da",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/coco-mcfly-skin-3c59dcb6.webp",
+      "source_name": "Coco McFly Skin.png",
+      "alt": "Coco McFly(donated by Catti and Bowserslave)",
+      "width": 100,
+      "height": 105,
+      "format": "WEBP",
+      "sha256": "3c59dcb6773dde93e12df34f58981782e7f82d5859b8ecad9a23241f63daa265",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/cybercocoingame-8409197d.webp",
+      "source_name": "Cybercocoingame.png",
+      "alt": "Cyber Coco (Donated by CrimsonYeti).",
+      "width": 100,
+      "height": 129,
+      "format": "WEBP",
+      "sha256": "8409197dc254d27ac32ad48e7d43bbbf3b69fe2914abaf739493ca263ef9a067",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/cyber-coco-skin-4e0645da.webp",
+      "source_name": "Cyber Coco Skin.png",
+      "alt": "Cyber Coco(donated by Catti and Bowserslave)",
+      "width": 89,
+      "height": 124,
+      "format": "WEBP",
+      "sha256": "4e0645dac8ac10d2974ef09710ac65b96e13d739fdc272474764a99c0a3d3d65",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/wickedcocoingamered-2193920c.webp",
+      "source_name": "Wickedcocoingamered.png",
+      "alt": "Wicked Coco.",
+      "width": 180,
+      "height": 160,
+      "format": "WEBP",
+      "sha256": "2193920c69741f93fc30b109e624c6afb7e0a256ce6174caf865175eb0cee4c3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/wickedcocoingameblue-53de8c2b.webp",
+      "source_name": "Wickedcocoingameblue.png",
+      "alt": "Wicked Coco.",
+      "width": 180,
+      "height": 163,
+      "format": "WEBP",
+      "sha256": "53de8c2b3293370dbca36e05509ce8f1c1acf45db4c657da2f41fefd770d945f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/ui-minimap-player-blazer-0-6dfe31b4.webp",
+      "source_name": "Ui minimap player blazer 0.png",
+      "alt": "Ui minimap player blazer 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "6dfe31b4f8807ee722ad67cb8db40a07cfbc8f9910d71989985a287ae1752bbf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/classicon-blazer-6212aa25.webp",
+      "source_name": "Classicon Blazer.png",
+      "alt": "Classicon Blazer",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "6212aa2545b8daca73e3626d70a799fe8f52043fccf54c1b1fe2bd144ca0ce0b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/characterrender-blazer-skin-hawaii-redbg-3c6bc289.webp",
+      "source_name": "CharacterRender Blazer Skin Hawaii redBG.png",
+      "alt": "CharacterRender Blazer Skin Hawaii redBG",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "3c6bc289c26b92f2249b2bccde4448398d7dc7b1463e04d83aec29af0fa0199f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/characterrender-coco-61f4dbe8.webp",
+      "source_name": "CharacterRender Coco.png",
+      "alt": "CharacterRender Coco",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "61f4dbe8ba6d5615f9bf9367519bfcb3d06e72de3da7c9a35d34387757cf1d16",
+      "storage": "src"
+    },
+    {
+      "id": "asset-044",
+      "path": "assets/characterrender-coco-cyborg-0098309e.webp",
+      "source_name": "CharacterRender coco cyborg.png",
+      "alt": "CharacterRender coco cyborg",
+      "width": 180,
+      "height": 244,
+      "format": "WEBP",
+      "sha256": "0098309e8c2d175fbd40e1e27856e19952ab556d521aa5fc5684407993aa3b9f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-045",
+      "path": "assets/coco-005-wicked-329c52bc.webp",
+      "source_name": "Coco 005 Wicked.png",
+      "alt": "Coco 005 Wicked",
+      "width": 230,
+      "height": 230,
+      "format": "WEBP",
+      "sha256": "329c52bc185701692a07d5f90b8f3ca6d00d86a9c5826f24bfac72785f33f139",
+      "storage": "src"
+    },
+    {
+      "id": "asset-046",
+      "path": "assets/cocovoting-f614df58.webp",
+      "source_name": "Cocovoting.jpg",
+      "alt": "Coco McFly along with the other vote options.",
+      "width": 400,
+      "height": 223,
+      "format": "WEBP",
+      "sha256": "f614df587dc02592a829a38c111458f3e5f29c727c1f165af13df0b2eaaf4ca7",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Cyber Coco Quotes",
+      "Wicked Coco Quotes"
+    ],
+    "status": "extracted"
+  }
+}

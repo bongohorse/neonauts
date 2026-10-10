@@ -1,0 +1,22 @@
+<div class="dossier">
+<header class="dossier-heading">
+<h1></h1>
+<div class="subtitle"></div>
+<div class="trait-row"></div>
+<p class="intro"></p>
+</header>
+<article class="dossier-content" aria-label="Naut field guide">
+<div class="detail-tabs" role="tablist" aria-label="Naut dossier"><button role="tab" id="tab-overview" aria-controls="overview" aria-selected="true" data-tab="overview">OVERVIEW</button><button role="tab" id="tab-abilities" aria-controls="abilities" aria-selected="false" tabindex="-1" data-tab="abilities">ABILITIES</button><button role="tab" id="tab-items" aria-controls="items" aria-selected="false" tabindex="-1" data-tab="items">ITEMS</button><button role="tab" id="tab-story" aria-controls="story" aria-selected="false" tabindex="-1" data-tab="story">BACKSTORY</button></div>
+<div id="overview" class="tab-panel" role="tabpanel" aria-labelledby="tab-overview">
+<div class="stats-grid"></div>
+<h2>YOUR ARSENAL</h2><div class="ability-strip"></div>
+<div class="field-note"><span class="note-icon" aria-hidden="true">!</span><div><strong>CREW BRIEFING</strong><p></p></div></div>
+<details class="tactics"></details>
+</div>
+<div id="abilities" class="tab-panel" role="tabpanel" aria-labelledby="tab-abilities" hidden><h2>ABILITIES &amp; MOVEMENT</h2><p class="panel-intro"></p><p class="muted">Values are copied from the saved Wiki. Parenthetical damage values are retained as supplied; their scaling context has not been verified.</p><div id="ability-cards"></div></div>
+<div id="items" class="tab-panel" role="tabpanel" aria-labelledby="tab-items" hidden><h2>UPGRADE ARMORY</h2><p class="muted">Browse all 24 upgrades by ability. Each card links to its individual Wiki entry. Costs and effects are awaiting a verified source; they are not included in the supplied snapshot.</p><div id="item-rows"></div></div>
+<div id="story" class="tab-panel story" role="tabpanel" aria-labelledby="tab-story" hidden></div>
+<p class="data-note"></p>
+</article>
+<aside class="character-stage" aria-label="Naut character and skins"><div class="stage-art"><button id="skin-prev" class="skin-arrow prev" aria-label="Previous skin" aria-controls="character-art skin-description"><span aria-hidden="true"></span></button><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><img id="character-art" alt=""><div class="platform"><span></span></div><button id="skin-next" class="skin-arrow next" aria-label="Next skin" aria-controls="character-art skin-description"><span aria-hidden="true"></span></button></div><div class="skin-selector"><div class="section-line"><span>SKIN GALLERY</span><span id="skin-name">DEFAULT</span></div><div class="skin-gallery"><div class="skin-buttons"></div></div><p class="skin-position" id="skin-position"></p><p id="skin-description" aria-live="polite"></p><p class="skin-caption">Cosmetic preview · artwork from the saved Wiki</p></div></aside>
+</div>

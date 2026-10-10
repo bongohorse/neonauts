@@ -1,0 +1,950 @@
+{
+  "schema_version": 1,
+  "name": "Dizzy",
+  "slug": "dizzy",
+  "source": {
+    "filename": "Dizzy.-.Official.Awesomenauts.Wiki.10.10.2026.17.47.53.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Dizzy",
+    "sha256": "e818079f6bde61c2a783d40ebfe0f4630a78cd781e3c0723c2defbd860fc6e3f",
+    "size_bytes": 3202832
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1150 (2024)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.8"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Medium Range"
+    },
+    {
+      "label": "Role",
+      "value": "Fighter"
+    },
+    {
+      "label": "Mobility",
+      "value": "Swift"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Rascal",
+    "Type of abilities": "Shield , Slow , Knockback",
+    "Release Date": "14th June 2017"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Multi Dash",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Multi_Dash",
+      "description": "Save multiple dashes to unleash unto your enemies. Deals damage per dash.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "160 (251.2)"
+        },
+        {
+          "label": "Charges",
+          "value": "3"
+        },
+        {
+          "label": "Reload Time",
+          "value": "4s"
+        },
+        {
+          "label": "Cooldown Between Dashes",
+          "value": "0.4s"
+        },
+        {
+          "label": "Distance",
+          "value": "7.5"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Bubble Shot",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bubble_Shot",
+      "description": "Fire a fast-moving bubble that deals damage.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "70 (109.9)"
+        },
+        {
+          "label": "Attack speed",
+          "value": "120"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "22"
+        },
+        {
+          "label": "Range",
+          "value": "5.7"
+        },
+        {
+          "label": "Explosion Size",
+          "value": "1.8"
+        },
+        {
+          "label": "Projectile Size",
+          "value": "0.6"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Explosive Clone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Explosive_Clone",
+      "description": "Leave a water clone at your location that explodes after a delay.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "360 (565.2)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7s"
+        },
+        {
+          "label": "Radius",
+          "value": "4.4"
+        },
+        {
+          "label": "Explosive Arm Time",
+          "value": "0.9s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Sassy Hop",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sassy_Hop",
+      "description": "Hop around with a sassy look.",
+      "values": [
+        {
+          "label": "Jumps",
+          "value": "1"
+        },
+        {
+          "label": "Jump Height",
+          "value": "11"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "\"Dizzy Greatest Hits\"",
+      "source_url": "https://awesomenauts.fandom.com/wiki/%22Dizzy_Greatest_Hits%22",
+      "group": "Multi Dash",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Butterfly Tour Yo-yo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Butterfly_Tour_Yo-yo",
+      "group": "Multi Dash",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "\"Ribbit Ribbit Real Good\"",
+      "source_url": "https://awesomenauts.fandom.com/wiki/%22Ribbit_Ribbit_Real_Good%22",
+      "group": "Multi Dash",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Backstage Pass",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Backstage_Pass",
+      "group": "Multi Dash",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Walkbot Pro",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Walkbot_Pro",
+      "group": "Multi Dash",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Obsessive Fan-mail",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Obsessive_Fan-mail",
+      "group": "Multi Dash",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Backwards High Cap",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Backwards_High_Cap",
+      "group": "Explosive Clone",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "\"Purple Prince\" Lipstick",
+      "source_url": "https://awesomenauts.fandom.com/wiki/%22Purple_Prince%22_Lipstick",
+      "group": "Explosive Clone",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Torn D-shirt",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Torn_D-shirt",
+      "group": "Explosive Clone",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Golden G Necklace",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Golden_G_Necklace",
+      "group": "Explosive Clone",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Matching Glittery Dungarees",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Matching_Glittery_Dungarees",
+      "group": "Explosive Clone",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fake Band Aid",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fake_Band_Aid",
+      "group": "Explosive Clone",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Blowfish Nozzle",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Blowfish_Nozzle",
+      "group": "Bubble Shot",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Blackhole Compressed Canister",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Blackhole_Compressed_Canister",
+      "group": "Bubble Shot",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Tipi Teal",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tipi_Teal",
+      "group": "Bubble Shot",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Slimy Markers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Slimy_Markers",
+      "group": "Bubble Shot",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Graffiti Artist",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Graffiti_Artist",
+      "group": "Bubble Shot",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Concrete Wall",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Concrete_Wall",
+      "group": "Bubble Shot",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Sassy Hop",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Sassy Hop",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "One-time-only Exclusive Retro Edition Sneakers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/One-time-only_Exclusive_Retro_Edition_Sneakers",
+      "group": "Sassy Hop",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Sassy Hop",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Sassy Hop",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Sassy Hop",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Kunoichi Dizzy",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When the Aqua-Fu calls, you answer. Nowadays the Aqua-Fu also tends to send a text message when it can't reach you by phone."
+        },
+        {
+          "type": "paragraph",
+          "text": "When Dizzy got the text she set off on a pilgrimage to the Aqua-Fu home nebula: the Waxxon spiral. There, she met with Noodle Smiggs, a man with a terrible name but mythical Aqua-Fu skills. She spent three gruelling years in training, lifting rocks with nothing but the drops of sweat on her forehead, washing dishes while manipulating the flow of water from across the room, and cleaning spaceships down in the spaceport for some extra cash."
+        },
+        {
+          "type": "paragraph",
+          "text": "After years of training, Dizzy was introduced to the secrets of the Scrolls of Xi-Pang and her training entered it's final stages. The scrolls had given her untold insight into how Aqua-Fu Masters were all that stood between hidden, unspeakable horrors and the people of the galaxy, and the role she was set to play in events yet to unfold. She had become Kunoichi Dizzy, Master of the Aqua-Fu."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Dizzy in Awesomenauts. You need to have Dizzy available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Dizzy the looks of a ninja. Her hair is tied up in a braid instead of dreadlocks and she has a small mask to the side of her head. She's wearing a black kimono and a red/blue scarf and her gloves are slightly more detailed. She wears a kung-fu red/blue belt around her waist and is missing her water tank. Her feet are wrapped in bandages."
+        },
+        {
+          "type": "paragraph",
+          "text": "Her fish gun is replaced by some sort of hard shell monster with sharp teeth and glowing eyes. Her Multi Dash has unique sound effects, and the grafitti effect is replaced by katakana and a trail of leaves and a log. The hit area of her Explosive Clone is shaped like a gong and the skill itself plays a gong sound when deployed. Blowfish Nozzle has the appearance of kanji that says \"bomb\" and leave a trail of leaves upon exploding."
+        },
+        {
+          "type": "paragraph",
+          "text": "Her teleporting animation is slightly altered, as she puts on a mask while it is taking place."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with unique voice acting."
+        }
+      ],
+      "assets": [
+        "asset-036"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Using her mastery in Aqua-fu, Dizzy fooled the Scarg prison guards with her water clones and escaped along with her team. After being separated, she went back to her home planet: Ribbit IV, with the plan to visit her family and revitalize her singing career."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dizzy decided to form her own girl band, called the Dizzies, with two of her water clones. In no time she conquered the Universal Music Charts and toured all across the Galaxy, while angering some concert hall owners due to her 'explosive' performances."
+      },
+      {
+        "type": "paragraph",
+        "text": "After a popularity poll showed that one of the clones, Fizzy, was way more popular than Dizzy a fight erupted between the two, causing Fizzy to start her own successful solo career. In a fit of rage caused by the betrayal, Dizzy left the band and redirected her anger into vandalizing the modern streets of Ribbit IV with graffiti. Before being caught, she was calmed by an old friend who presented her with the perfect plan to both clear their names and redirect her rage. She now joins her old friends and follows her cousin's footsteps into joining the Awesomenauts!"
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "When the Aqua-Fu calls, you answer. Nowadays the Aqua-Fu also tends to send a text message when it can't reach you by phone."
+      },
+      {
+        "type": "paragraph",
+        "text": "When Dizzy got the text she set off on a pilgrimage to the Aqua-Fu home nebula: the Waxxon spiral. There, she met with Noodle Smiggs, a man with a terrible name but mythical Aqua-Fu skills. She spent three gruelling years in training, lifting rocks with nothing but the drops of sweat on her forehead, washing dishes while manipulating the flow of water from across the room, and cleaning spaceships down in the spaceport for some extra cash."
+      },
+      {
+        "type": "paragraph",
+        "text": "After years of training, Dizzy was introduced to the secrets of the Scrolls of Xi-Pang and her training entered it's final stages. The scrolls had given her untold insight into how Aqua-Fu Masters were all that stood between hidden, unspeakable horrors and the people of the galaxy, and the role she was set to play in events yet to unfold. She had become Kunoichi Dizzy, Master of the Aqua-Fu."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Dizzy in Awesomenauts. You need to have Dizzy available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Dizzy the looks of a ninja. Her hair is tied up in a braid instead of dreadlocks and she has a small mask to the side of her head. She's wearing a black kimono and a red/blue scarf and her gloves are slightly more detailed. She wears a kung-fu red/blue belt around her waist and is missing her water tank. Her feet are wrapped in bandages."
+      },
+      {
+        "type": "paragraph",
+        "text": "Her fish gun is replaced by some sort of hard shell monster with sharp teeth and glowing eyes. Her Multi Dash has unique sound effects, and the grafitti effect is replaced by katakana and a trail of leaves and a log. The hit area of her Explosive Clone is shaped like a gong and the skill itself plays a gong sound when deployed. Blowfish Nozzle has the appearance of kanji that says \"bomb\" and leave a trail of leaves upon exploding."
+      },
+      {
+        "type": "paragraph",
+        "text": "Her teleporting animation is slightly altered, as she puts on a mask while it is taking place."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with unique voice acting."
+      }
+    ],
+    "Awesomenaut Showcase": [
+      {
+        "type": "paragraph",
+        "text": "Showcase starts at 0:32 in the video."
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Dizzy, along with Commander Rocket, Qi'Tara, and Smiles, is part of a group called Rocket's Renegades. All of them were revealed by Ronimo Games at the same time. The old friend mentioned in her backstory and theme is Commander Rocket.",
+          "Dizzy was the first of \"Rocket's Renegades\" 'Nauts made available for play, via Beta.",
+          "Dizzy is related to Froggy G, being his cousin. She was his aunt during 4.1 Beta due to a translation error.",
+          "Dizzy has the longest theme song in the game, at 2 minutes and 53 seconds. This is technically topped by the extended version of Ted's theme song, but that never plays in-game."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Dizzy teaser 1",
+          "Dizzy teaser 2",
+          "Dizzy teaser 3"
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Use your Multi Dash to quickly get in and out of combat as well as to chase and escape enemies.",
+          "When compared to Froggy G, Dizzy's dashes are shorter ranged, do not apply stun and do not make her invincible. Extra care needs to be taken when using it.",
+          "Should you feel the need to be more mobile on the battlefield, upgrades such as \"Ribbit Ribbit Real Good\", Backstage Pass and Walkbot Pro can all help you to achieve that.",
+          "Play more defensively when faced with crowd control reliant enemies and if possible, try to bait their attacks in order to more safely approach them and consider purchasing Baby Kuri Mammoth.",
+          "Your Explosive Clone spawns at your exact location. Try to use your multi-dash to leave it closer to an enemy, or to block their escape route. You can also use it to block paths, so that enemies are discouraged from chasing after your low health teammates.",
+          "Try to predict where your enemies will go next and lay a clone on their path.",
+          "Take advantage of your many dashes and Explosive Clone's low cooldown and clear lanes of as many enemy droids as you can.",
+          "Golden G Necklace can make provide your explosive clones with more area denial.",
+          "\"Purple Prince\" Lipstick and Matching Glittery Dungarees can provide you with some manner of crowd control, to allow you to help your team during fights as well as make it harder for enemies to escape.",
+          "Purchasing Blowfish Nozzle for your Bubble Shot can improve your zoning capabilities."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Dizzy's multi dash is more fitting as a damage dealing tool rather than initiation. She is better at following up on what you do than starting a fight by herself.",
+          "Dizzy's low health make her more vulnerable than the average 'naut. Try and protect her if you have the tools to do so."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Remember: unlike Froggy G, Dizzy's dashes won't make her invincible. Feel free to attack her during it.",
+          "Abilities that are easy to land can be even more effective than high damaging ones when dealing with Dizzy, such as Acid Spit, Suicide Drones' lasers and Weedling projectiles can be effective, considering her low health. Conversely, investing in area denial can make it very hard for her to manouver into your team with her dashes to lay an explosive clone. Grid Traps, Mines and Saw Blade are a few examples of abilities that can do that.",
+          "Dizzy's low health is her greatest weakness, which can be particularly exploited via crowd control and high burst damage. Since Dizzy is heavily reliant on her skills, silence is particularly strong against her.",
+          "Dizzy can easily push lanes via Explosive Clone. Try forcing her out of the lane even if you can't kill her.",
+          "Keep track of Dizzy's multi dash charges to know when to better punish her.",
+          "Avoid staying around Dizzy when low on health as she can very easily close the gap between you and her."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/dizzy-001-7de64399.webp",
+      "source_name": "Dizzy 001.png",
+      "alt": "Dizzy 001",
+      "width": 512,
+      "height": 466,
+      "format": "WEBP",
+      "sha256": "7de64399eaf2fb4f976f437043f6f435f0d99e06961356fb074dd591945520c7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-dizzy-dash-83fc7363.webp",
+      "source_name": "UI Skillbutton Dizzy Dash.png",
+      "alt": "UI Skillbutton Dizzy Dash",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "83fc7363c9cbb9319cca30691d39b988de741aca4edb860200dad488d401e8c0",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-dizzy-attack-a5d805c1.webp",
+      "source_name": "UI Skillbutton Dizzy Attack.png",
+      "alt": "UI Skillbutton Dizzy Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "a5d805c1aa2f7385e857f02eb8dd0840506da15c30354fee2bf1a25ccc2ea024",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-dizzy-blow-684f14c6.webp",
+      "source_name": "UI Skillbutton Dizzy Blow.png",
+      "alt": "UI Skillbutton Dizzy Blow",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "684f14c66d47f5a23aad2f5df87aba5bf408e3d0f4c03641a2e51bfc5189fe82",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-dizzy-jump-3d0346ed.webp",
+      "source_name": "UI Skillbutton Dizzy Jump.png",
+      "alt": "UI Skillbutton Dizzy Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "3d0346edb00cd10c2114235f078ce1a0eeb1657ad28aa05909a170f8d5c41f18",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-dizzy-skill-a-upgrade-a-acbdac04.webp",
+      "source_name": "Shop Icons Dizzy skill a upgrade a.png",
+      "alt": "Shop Icons Dizzy skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "acbdac04d9450b499ecfb3815504e525495816839052da28f6fdfb01dc64115b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-dizzy-skill-a-upgrade-f-9f6e5ab9.webp",
+      "source_name": "Shop Icons Dizzy skill a upgrade f.png",
+      "alt": "Shop Icons Dizzy skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9f6e5ab91c0d12826b1d9454ee8bfd1de70df756886d79e9f076d7796f08ac21",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-dizzy-skill-a-upgrade-e-828bcb12.webp",
+      "source_name": "Shop Icons Dizzy skill a upgrade e.png",
+      "alt": "Shop Icons Dizzy skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "828bcb12c2d98bfb468560ea56afe621e88bdddce51d8a843514ed14278c2298",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-dizzy-skill-a-upgrade-d-693d7e11.webp",
+      "source_name": "Shop Icons Dizzy skill a upgrade d.png",
+      "alt": "Shop Icons Dizzy skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "693d7e1123b884fed26df0fae5de4c68ddfd46c75a58979fe28b06fa92810a2d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-dizzy-skill-a-upgrade-c-18bdcd55.webp",
+      "source_name": "Shop Icons Dizzy skill a upgrade c.png",
+      "alt": "Shop Icons Dizzy skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "18bdcd55c752b7f84c6bc015879e6abb8c8e613b42428225c32bdf42cad084fc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-dizzy-skill-a-upgrade-b-6eb2e999.webp",
+      "source_name": "Shop Icons Dizzy skill a upgrade b.png",
+      "alt": "Shop Icons Dizzy skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6eb2e999b2f3f2fec748b30730cdb5a8bb2f4573e7a0bca8db4696a3385c8b4a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-dizzy-skill-b-upgrade-d-2a970359.webp",
+      "source_name": "Shop Icons Dizzy skill b upgrade d.png",
+      "alt": "Shop Icons Dizzy skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2a9703592acd420b4e1fd511432dce5aa200542b45da5adb3b7c9b30a083a04a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-dizzy-skill-b-upgrade-b-ce8a6631.webp",
+      "source_name": "Shop Icons Dizzy skill b upgrade b.png",
+      "alt": "Shop Icons Dizzy skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ce8a663148272e7d394f26da3271eb0a78858fa99f8bdef30be52f1deda1fe8c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-dizzy-skill-b-upgrade-c-5704599e.webp",
+      "source_name": "Shop Icons Dizzy skill b upgrade c.png",
+      "alt": "Shop Icons Dizzy skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5704599ec938d5cfe2d3623c60fae4c3d4302bb5972754a048d0acd83bdef9c7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-dizzy-skill-b-upgrade-f-2384e0ec.webp",
+      "source_name": "Shop Icons Dizzy skill b upgrade f.png",
+      "alt": "Shop Icons Dizzy skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2384e0ecb0f3dc6f15afe962847a28ed5e3855be6e45bd3ae29430dec7345441",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-dizzy-skill-b-upgrade-a-4898500c.webp",
+      "source_name": "Shop Icons Dizzy skill b upgrade a.png",
+      "alt": "Shop Icons Dizzy skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4898500c23a012577f94f42aa09fee27beda18b3f8520557bdc7149ad163a5fb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-dizzy-skill-b-upgrade-e-09ff271c.webp",
+      "source_name": "Shop Icons Dizzy skill b upgrade e.png",
+      "alt": "Shop Icons Dizzy skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "09ff271c3febbd229d6c743a42f0e315cb0a1a9c32a844f91cdfe80b71fcaadb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-dizzy-skill-c-upgrade-a-e5b1f133.webp",
+      "source_name": "Shop Icons Dizzy skill c upgrade a.png",
+      "alt": "Shop Icons Dizzy skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e5b1f1336e5e4f22c30785097280989b0baa1dc471c800273ec0887c1c69751a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-dizzy-skill-c-upgrade-b-7b849973.webp",
+      "source_name": "Shop Icons Dizzy skill c upgrade b.png",
+      "alt": "Shop Icons Dizzy skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7b849973a7601c6e9a0caa162cabfc62c0aaf4ae717a22f9b298afe8ad55a8cb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-dizzy-skill-c-upgrade-c-1bd7a790.webp",
+      "source_name": "Shop Icons Dizzy skill c upgrade c.png",
+      "alt": "Shop Icons Dizzy skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1bd7a7905c01ca3e31c2a33efbb768c237ce2aa742af5cc3d7a8458ed56bb9ff",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-dizzy-skill-c-upgrade-e-08b1b544.webp",
+      "source_name": "Shop Icons Dizzy skill c upgrade e.png",
+      "alt": "Shop Icons Dizzy skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "08b1b544a08dee58ff71313d05288429b963726a73c2d1915a371bb55c1ec6dc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-dizzy-skill-c-upgrade-d-5a877f7b.webp",
+      "source_name": "Shop Icons Dizzy skill c upgrade d.png",
+      "alt": "Shop Icons Dizzy skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5a877f7b54196938ed9e323e7841fcf16886d8e35d4be64b5f7bda0d00f24e40",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-dizzy-skill-c-upgrade-f-100e733b.webp",
+      "source_name": "Shop Icons Dizzy skill c upgrade f.png",
+      "alt": "Shop Icons Dizzy skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "100e733b0694b1885af82723ff76b5434bec72fe7c285cfd722e565d787e04c3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/shop-icons-overall-dizzyspeed-457bc167.webp",
+      "source_name": "Shop Icons Overall DizzySpeed.png",
+      "alt": "Shop Icons Overall DizzySpeed",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "457bc1673712ee656107f9a1df6423fc7c8f0e310aeef5f194ea8ba3f13326f6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/dizzyingamered-e6950b49.webp",
+      "source_name": "Dizzyingamered.png",
+      "alt": "Default skin.",
+      "width": 155,
+      "height": 174,
+      "format": "WEBP",
+      "sha256": "e6950b49d1c362c902b14972a251910d4694987b6967ef4ea07a5a85d67fb72b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/dizzyingameblue-37d45358.webp",
+      "source_name": "Dizzyingameblue.png",
+      "alt": "Default skin.",
+      "width": 152,
+      "height": 176,
+      "format": "WEBP",
+      "sha256": "37d453580bbd9d695d80d31f21c98420e3832941e22fee1d2525158a6af0fc0c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/kunoichidizzyingamered-298bac83.webp",
+      "source_name": "Kunoichidizzyingamered.png",
+      "alt": "Kunoichi Dizzy.",
+      "width": 180,
+      "height": 180,
+      "format": "WEBP",
+      "sha256": "298bac83ee4a5ceafc518ac787c07760bc1a68c7f35dd6ffc0a749cad6550619",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/kunoichidizzyingameblue-37a0da4c.webp",
+      "source_name": "Kunoichidizzyingameblue.png",
+      "alt": "Kunoichi Dizzy.",
+      "width": 180,
+      "height": 188,
+      "format": "WEBP",
+      "sha256": "37a0da4ca95917081a204e2eb0357133e47c3b421abc360106b5e140472d1d82",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/ui-minimap-player-dizzy-0-ac6f7ec5.webp",
+      "source_name": "Ui minimap player Dizzy 0.png",
+      "alt": "Ui minimap player Dizzy 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "ac6f7ec565ae7644281b034756ff411e9db3a3c4c340f55eb3cbf56db7e606f9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/classicon-dizzy-460c3c68.webp",
+      "source_name": "Classicon Dizzy.png",
+      "alt": "Classicon Dizzy",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "460c3c68a55b24633d2da74d054e333fbf5c5c17617cbe82946ec04e771eaecf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/dizzy-002-kunoichi-cd1d1287.webp",
+      "source_name": "Dizzy 002 Kunoichi.png",
+      "alt": "Dizzy 002 Kunoichi",
+      "width": 200,
+      "height": 247,
+      "format": "WEBP",
+      "sha256": "cd1d128725ea08cf99d80035be22123c2fc04ab14029d1a51f8abf508a331615",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/4-1paper3-204ab0b8.webp",
+      "source_name": "4.1Paper3.png",
+      "alt": "Dizzy teaser 1",
+      "width": 120,
+      "height": 68,
+      "format": "WEBP",
+      "sha256": "204ab0b8e4cb8a1ff524f5d2c61b9518a7d2c9bbf41ff4069f3fac244a228f4b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/paper4-0adb6476.webp",
+      "source_name": "Paper4.png",
+      "alt": "Dizzy teaser 2",
+      "width": 120,
+      "height": 68,
+      "format": "WEBP",
+      "sha256": "0adb6476475823ae7ed09c3d763df9ff54808227bdf21b4a9a51109dc50153dd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/dizzyteaser-b5149278.webp",
+      "source_name": "DizzyTeaser.jpg",
+      "alt": "Dizzy teaser 3",
+      "width": 120,
+      "height": 68,
+      "format": "WEBP",
+      "sha256": "b5149278ff2450aa58a35d3d1663c91c72ce9220e0a416ef0c26e876d6609d29",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Kunoichi Dizzy Quotes"
+    ],
+    "status": "extracted"
+  }
+}

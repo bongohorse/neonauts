@@ -1,0 +1,950 @@
+{
+  "schema_version": 1,
+  "name": "Ksenia",
+  "slug": "ksenia",
+  "source": {
+    "filename": "Ksenia.-.Official.Awesomenauts.Wiki.10.10.2026.17.52.19.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Ksenia",
+    "sha256": "89e98164a48ba1a07a5b0c431c94e3f1b2a8ec9bfded8080ac8de6abf5843ac9",
+    "size_bytes": 2752879
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1250 (2200)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.46"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Ranged"
+    },
+    {
+      "label": "Role",
+      "value": "Assassin"
+    },
+    {
+      "label": "Mobility",
+      "value": "Swift"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Hard",
+    "Development Name": "Crawler",
+    "Type of abilities": "Invisibility , Knockback , Lifesteal , Silence , Slow",
+    "Release Date": "September 2nd 2015"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Scissors Throw",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Scissors_Throw",
+      "description": "Thow fast flying scissors that deal bonus damage on enemy Awesomenauts based on their maximum health. Scissors can also be picked up if they hit terrain.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "100 (157)"
+        },
+        {
+          "label": "Bonus damage",
+          "value": "4% of max HP"
+        },
+        {
+          "label": "Maximum Scissors",
+          "value": "4"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "240"
+        },
+        {
+          "label": "Recharge time",
+          "value": "3s"
+        },
+        {
+          "label": "Range",
+          "value": "11.2"
+        },
+        {
+          "label": "Cooldown",
+          "value": "0.33s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Cut and Trim",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cut_and_Trim",
+      "description": "Give your opponents a haircut with a combo of 3 cuts that increase in damage with every hit.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "64 (100.48) | 88 (138.16) | 159 (249.63)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "150"
+        },
+        {
+          "label": "Range",
+          "value": "3.8"
+        },
+        {
+          "label": "Combo Timeout",
+          "value": "2s"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Vanish",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Vanish",
+      "description": "Roll into stealth for a short time and silence your opponents when you break stealth with an attack.",
+      "values": [
+        {
+          "label": "Stealth Time",
+          "value": "4s"
+        },
+        {
+          "label": "Silence Duration",
+          "value": "1s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "13s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Acrobatic Double Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Acrobatic_Double_Jump",
+      "description": "Double Jump. Press the button to jump again.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "5.6"
+        },
+        {
+          "label": "Additional Jump Height",
+          "value": "5.6"
+        },
+        {
+          "label": "Jumps",
+          "value": "2"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Laser Bladed Scissors",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Laser_Bladed_Scissors",
+      "group": "Scissors Throw",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Abrasive Hair Blaster",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Abrasive_Hair_Blaster",
+      "group": "Scissors Throw",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Skroggle Hair Gel",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Skroggle_Hair_Gel",
+      "group": "Scissors Throw",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Steel Feathers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Steel_Feathers",
+      "group": "Scissors Throw",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Occam's Razor",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Occam%27s_Razor",
+      "group": "Scissors Throw",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Interstellar Hair Trophy",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Interstellar_Hair_Trophy",
+      "group": "Scissors Throw",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Spare 4th Wall",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spare_4th_Wall",
+      "group": "Vanish",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Deja Vu Blocker",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Deja_Vu_Blocker",
+      "group": "Vanish",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Virtual Girl",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Virtual_Girl",
+      "group": "Vanish",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Gorge and the Beautiful",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Gorge_and_the_Beautiful",
+      "group": "Vanish",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Remembrance Machine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Remembrance_Machine",
+      "group": "Vanish",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Virtual Reality Hairdryer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Virtual_Reality_Hairdryer",
+      "group": "Vanish",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Steel Mohawk",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Steel_Mohawk",
+      "group": "Cut and Trim",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Frog Afro",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Frog_Afro",
+      "group": "Cut and Trim",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Braided Tentacles",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Braided_Tentacles",
+      "group": "Cut and Trim",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fury Blowout",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fury_Blowout",
+      "group": "Cut and Trim",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bob Cat",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bob_Cat",
+      "group": "Cut and Trim",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Scaled Mullet",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Scaled_Mullet",
+      "group": "Cut and Trim",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Acrobatic Double Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Acrobatic Double Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Acrobatic Double Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Acrobatic Double Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Acrobatic Double Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Acrobatic Double Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Cosmic Captain Ksenia",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "While she was a freshman at the Halion VI Hairdresser Academy Ksenia was chosen by a cosmic force along with four fellow students. This cosmic force promised to unlock the hidden potential within each of them, and arranged for brightly-colored spandex suits of armor to be delivered to their student dorms."
+        },
+        {
+          "type": "paragraph",
+          "text": "They were tasked with fighting evil monsters that threatened the galaxy, and boldly they faced their destiny. Sadly, the 'cosmic force' turned out to be some hacker kid that had been rejected from the academy a year earlier, and Ksenia's fellow chosen-ones were squished when a 20-story tall monster waltzed into town."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ksenia still managed to defeat the monster on her own, and even though she never heard from the 'cosmic force' again after that, she continued to hunt down giant monsters as a part-time job during her time at the academy."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Ksenia in Awesomenauts! If you have not unlocked the character yet, purchasing this content will do so. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Ksenia a suit based on the Power Rangers[11] franchise, with a similar-looking spandex suit, white boots and gloves and a bird-shaped helmet with a visor and crest. She also wields custom laser daggers. The helmet's crest, her clothes, shoulderpads and dagger hilts all have golden details."
+        },
+        {
+          "type": "paragraph",
+          "text": "Scissors throw's scissors are shaped like lightning bolts and vanish has different animations as well as special sound effects."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "name": "Dragon Huntress Ksenia",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Scorched leaves flew on the wind as she made her approach. She had been stalking her prey for days, though the events that had lead her to this moment spanned decades. Ksenia tightened the grip on her daggers as she entered the cavern, where she was met with a pair of eyes that burned in the shadow. Only one dragon remained in this world, but it would fall to her blades all the same."
+        },
+        {
+          "type": "paragraph",
+          "text": "She leapt forward and killed her opponent with a single blow. Pieces of armor, weapons, and gold dropped all around her, but she cursed as the ring she had hoped to find was nowhere in sight. \"Dammit, now I'll have to grind this part for the seventh time.\" As the townsfolk entered the cavern to thank her for saving their lives and proclaim her the greatest Hero of all time Ksenia was already browsing through the menu to restart this particular chapter of her favorite game: 'Warrior Princess: Dragon Huntress'."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ksenia played the game whenever she had a few minutes in between the clients that visited her barber shop, but even when she was cutting their hair she sometimes felt like a fearsome warrior, ready to go toe-to-toe with even the mightiest of foes - she was a Dragon Huntress at heart!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Ksenia in Awesomenauts, and comes with a fully customized voice set! If you have not unlocked the character yet, purchasing this content will do so. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Ksenia the looks of a typical Action RPG character, the likes of the Elder Scrolls[12] or Monster Hunter[13] series, giving her armor made from dragon scales and a dragon skull helmet with glowing eyes, horns and spikes. She wields bone daggers instead of her usual scissors."
+        },
+        {
+          "type": "paragraph",
+          "text": "Her skin mesh is removed, revealing her actual skin and her hair isn't stylized like in the default, being red and flowing instead."
+        },
+        {
+          "type": "paragraph",
+          "text": "Scissors throw's scissors are small lizard skulls, Vanish has new animations and sound effects and acrobatic double jump has a dragon wings effect upon using the double jump."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with its own unique voice acting."
+        }
+      ],
+      "assets": [
+        "asset-032"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Ksenia was once the best hair dresser in the galaxy. Year after year she won the renowned Venus hair style tournament with her outrageous hairstyle creations. She enjoyed the great fame that came with the status as master hair dresser, unfortunately her father Vladimir Pewchenko a rich weapons manufacturer on planet Russia (formerly known as the moon) had other plans for her."
+      },
+      {
+        "type": "paragraph",
+        "text": "With a virtual reality hood dryer showing her a hair cutting simulator, he made her into one of the best assassins in the galaxy. While thinking she was cutting hair, in reality she was cutting down Pewchencko's enemies."
+      },
+      {
+        "type": "paragraph",
+        "text": "With no competition left her father assigned her to the Awesomenauts, where she still wears the VR hood. Many suspect that Ksenia is actually just watching soap opera's on her hood and perfectly knows what she is doing."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "While she was a freshman at the Halion VI Hairdresser Academy Ksenia was chosen by a cosmic force along with four fellow students. This cosmic force promised to unlock the hidden potential within each of them, and arranged for brightly-colored spandex suits of armor to be delivered to their student dorms."
+      },
+      {
+        "type": "paragraph",
+        "text": "They were tasked with fighting evil monsters that threatened the galaxy, and boldly they faced their destiny. Sadly, the 'cosmic force' turned out to be some hacker kid that had been rejected from the academy a year earlier, and Ksenia's fellow chosen-ones were squished when a 20-story tall monster waltzed into town."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ksenia still managed to defeat the monster on her own, and even though she never heard from the 'cosmic force' again after that, she continued to hunt down giant monsters as a part-time job during her time at the academy."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Ksenia in Awesomenauts! If you have not unlocked the character yet, purchasing this content will do so. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Ksenia a suit based on the Power Rangers[11] franchise, with a similar-looking spandex suit, white boots and gloves and a bird-shaped helmet with a visor and crest. She also wields custom laser daggers. The helmet's crest, her clothes, shoulderpads and dagger hilts all have golden details."
+      },
+      {
+        "type": "paragraph",
+        "text": "Scissors throw's scissors are shaped like lightning bolts and vanish has different animations as well as special sound effects."
+      },
+      {
+        "type": "paragraph",
+        "text": "Scorched leaves flew on the wind as she made her approach. She had been stalking her prey for days, though the events that had lead her to this moment spanned decades. Ksenia tightened the grip on her daggers as she entered the cavern, where she was met with a pair of eyes that burned in the shadow. Only one dragon remained in this world, but it would fall to her blades all the same."
+      },
+      {
+        "type": "paragraph",
+        "text": "She leapt forward and killed her opponent with a single blow. Pieces of armor, weapons, and gold dropped all around her, but she cursed as the ring she had hoped to find was nowhere in sight. \"Dammit, now I'll have to grind this part for the seventh time.\" As the townsfolk entered the cavern to thank her for saving their lives and proclaim her the greatest Hero of all time Ksenia was already browsing through the menu to restart this particular chapter of her favorite game: 'Warrior Princess: Dragon Huntress'."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ksenia played the game whenever she had a few minutes in between the clients that visited her barber shop, but even when she was cutting their hair she sometimes felt like a fearsome warrior, ready to go toe-to-toe with even the mightiest of foes - she was a Dragon Huntress at heart!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Ksenia in Awesomenauts, and comes with a fully customized voice set! If you have not unlocked the character yet, purchasing this content will do so. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Ksenia the looks of a typical Action RPG character, the likes of the Elder Scrolls[12] or Monster Hunter[13] series, giving her armor made from dragon scales and a dragon skull helmet with glowing eyes, horns and spikes. She wields bone daggers instead of her usual scissors."
+      },
+      {
+        "type": "paragraph",
+        "text": "Her skin mesh is removed, revealing her actual skin and her hair isn't stylized like in the default, being red and flowing instead."
+      },
+      {
+        "type": "paragraph",
+        "text": "Scissors throw's scissors are small lizard skulls, Vanish has new animations and sound effects and acrobatic double jump has a dragon wings effect upon using the double jump."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with its own unique voice acting."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Despite being a human, Ksenia does not originate from Earth like Ted McPain or Raelynn, instead being born on the Moon (called Planet Russia in Awesomenauts' universe).",
+          "Ksenia's theme song was sung by Nola Klop.",
+          "Ksenia is the first Awesomenaut since Penny Fox to be released with two skins.",
+          "Ksenia is the first (and only, to date) Awesomenaut to be released without any Area of Effect abilities or upgrades whatsoever. Cut and Trim was only given its piercing effect in Patch 2.13."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ksenia is very weak early in the game, but can become very powerful later on. Play defensively at first.",
+          "Unlike Skølldir, Ksenia must be hitting an enemy unit or structure for her Cut and Trim combo to happen. Try landing the 3rd hit from it frequently, as some upgrades benefit from it.",
+          "When hitting an enemy Awesomenaut, Scissors Throw will deal additional damage based on a percentage of the target's maximum health, ensuring it remains effective throughout the match.",
+          "Despite being limited by an ammo count, Scissors Throw has a very short cooldown: you can unleash all the scissors in quick succession.",
+          "Since scissors from Scissors Throw can be picked back up if they hit terrain, it might be a good idea to attack your targets from above. This way, if you do miss them, the scissors will be stuck on the ground, ready to be picked up instead of expiring upon reaching maximum range without hitting anything. Scissors will also be regained over time or instantly by returning to the shop.",
+          "There are several upgrades that can help you regain lost scissors such as Abrasive Hair Blaster or The Gorge and the Beautiful. Experiment with these to find out which ones better suit your playstyle.",
+          "Remember: In order to use the silencing effect from Vanish, be sure to attack an enemy with Scissors Throw or Cut and Trim before the invisibility effect expires, or it won't work.",
+          "Try using Vanish when you are out of sight of your enemies and then sneak in while invisible to surprise them.",
+          "Ksenia can move through enemy units during the rolling animation of Vanish, but not when Invisible, unless she has purchased Virtual Girl.",
+          "Cut and Trim and Scissors Throw attacks that break the invisibility effect from Vanish will silence the enemy unit hit."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ksenia benefits from having teammates that can trap the enemies in place, allowing her an easier time in landing all her scissors, such as Derpl, Swiggins and Sentry.",
+          "Coordinate with Ksenia to make the most use of her innate silencing effect, preventing enemies from initiating or fleeing via their abilities.",
+          "Consider using 'nauts capable of dealing amplify damage to the enemy to increase Ksenia's already high damage output."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "If Ksenia misses her scissors, try \"guarding\" them from her, so she can't recover so easily.",
+          "Take advantage of Ksenia's weak early game and keep the pressure on her in order to hamper her Solar gain. Harasser and Area Controller type of 'nauts can give her a particularly hard time.",
+          "Since Scissors Throw deal damage based on a percentage of your maximum (not current) health, upgrades that focus on recovering lost health and damage mitigation might be more effective in countering her than raw health. healing and lifesteal upgrades are good examples.",
+          "Having very little health, Ksenia is extremely vulnerable to crowd control and burst damage.",
+          "Avoid walking around alone or with low health if you suspect Ksenia is around. She can deal very high damage with Scissors Throw and might be using Vanish to sneak up on you."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/ksenia-alpha-3215fec6.webp",
+      "source_name": "Ksenia Alpha.png",
+      "alt": "Ksenia Alpha",
+      "width": 512,
+      "height": 574,
+      "format": "WEBP",
+      "sha256": "3215fec69292937f730d021925b83f60621a8a359a6eb1919a726278f0796b54",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-crawler-knives-8e24398f.webp",
+      "source_name": "UI Skillbutton Crawler Knives.png",
+      "alt": "UI Skillbutton Crawler Knives",
+      "width": 264,
+      "height": 264,
+      "format": "WEBP",
+      "sha256": "8e24398fb073ad4ea8ff1967632d2059262d91e3cdf5582621eb8acf9c7b4d62",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-crawler-attack-55ed74a5.webp",
+      "source_name": "UI Skillbutton Crawler Attack.png",
+      "alt": "UI Skillbutton Crawler Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "55ed74a55e156b2f3b01eded6101b0b6faad9e8ccbf739fc04e327649f21614c",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-crawler-stealth-51f6a24b.webp",
+      "source_name": "UI Skillbutton Crawler Stealth.png",
+      "alt": "UI Skillbutton Crawler Stealth",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "51f6a24bbf071527d9d064c0ec1b40c6c324b98244181813cd9663f6ef2f2b84",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-crawler-jump-7be2e608.webp",
+      "source_name": "UI Skillbutton Crawler Jump.png",
+      "alt": "UI Skillbutton Crawler Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "7be2e6081b8ddf9ff71e07786dadc603a6001d4e11b17b4f51d2559dbf54d4a3",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-crawler-skill-b-upgrade-d-a986ea55.webp",
+      "source_name": "Shop icons crawler skill b upgrade d.png",
+      "alt": "Shop icons crawler skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a986ea55293c0371ebdee5a37379385ccff5eba58e49476ea4b9f32eca70e295",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-crawler-skill-b-upgrade-b-32e40cf6.webp",
+      "source_name": "Shop icons crawler skill b upgrade b.png",
+      "alt": "Shop icons crawler skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "32e40cf6ff3eb232920c9acfec3f7e427ba5c2856c208a485cc7453bf84c16bf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-crawler-skill-b-upgrade-c-30684171.webp",
+      "source_name": "Shop icons crawler skill b upgrade c.png",
+      "alt": "Shop icons crawler skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "30684171c35f02658d6400d6f335d7ffbbaace1df802d6981f27248809dc0bf5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-crawler-skill-b-upgrade-a-66ebb3b1.webp",
+      "source_name": "Shop icons crawler skill b upgrade a.png",
+      "alt": "Shop icons crawler skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "66ebb3b1707dc32269d64ec0a8a0e3ffa41aafbca7c6676e491ee47959612c2d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-crawler-skill-b-upgrade-e-c5d4fff2.webp",
+      "source_name": "Shop icons crawler skill b upgrade e.png",
+      "alt": "Shop icons crawler skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c5d4fff240fcc606c3ef40fb45aeee10535df2e4cf5fb2973a0792b1e86cf1f9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-crawler-skill-b-upgrade-f-ba29b48f.webp",
+      "source_name": "Shop icons crawler skill b upgrade f.png",
+      "alt": "Shop icons crawler skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ba29b48f9d72793a960c8aaa0448131daaa6d399648cd328c083c85aa8b67748",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-crawler-skill-c-upgrade-a-b8a3a710.webp",
+      "source_name": "Shop icons crawler skill c upgrade a.png",
+      "alt": "Shop icons crawler skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b8a3a7106a6c37d9ee2adbf854df414a199b2d366b31aa2d57c774b96f98d9a0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-crawler-skill-c-upgrade-b-3020bf74.webp",
+      "source_name": "Shop icons crawler skill c upgrade b.png",
+      "alt": "Shop icons crawler skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3020bf74034dd143f63ae01fa7122b9b81d55f805513b7d03cc3d98040cc653b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-crawler-skill-c-upgrade-c-11c55795.webp",
+      "source_name": "Shop icons crawler skill c upgrade c.png",
+      "alt": "Shop icons crawler skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "11c55795a35ff14a12e14099496511bf5354d66536d5bf565873c18a9507eabc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-crawler-skill-c-upgrade-d-1e3db446.webp",
+      "source_name": "Shop icons crawler skill c upgrade d.png",
+      "alt": "Shop icons crawler skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1e3db4469dc87abf8d47b58611be0a4c325ec2ac8f649bfa3bffd8b4cd596a29",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-crawler-skill-c-upgrade-e-34b82f4b.webp",
+      "source_name": "Shop icons crawler skill c upgrade e.png",
+      "alt": "Shop icons crawler skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "34b82f4be1892598ae6e21deebc99a03c916a2b1924a2af8bf33c458066826ac",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-crawler-skill-c-upgrade-f-bd4982fa.webp",
+      "source_name": "Shop icons crawler skill c upgrade f.png",
+      "alt": "Shop icons crawler skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bd4982fababb68b791c328715ea4d485ff43191c737a524da035677b6afe3ff7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-crawler-skill-a-upgrade-a-08b1e0ae.webp",
+      "source_name": "Shop icons crawler skill a upgrade a.png",
+      "alt": "Shop icons crawler skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "08b1e0ae2351ebdef2cc39a6e53d488d066d6da3e277e3d8005056f236f15e41",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-crawler-skill-a-upgrade-b-fd603bd7.webp",
+      "source_name": "Shop icons crawler skill a upgrade b.png",
+      "alt": "Shop icons crawler skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fd603bd758f843651b2fb972ea365122b2c3131d39274a27682c23f980d599fc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-crawler-skill-a-upgrade-d-0c5ce1ce.webp",
+      "source_name": "Shop icons crawler skill a upgrade d.png",
+      "alt": "Shop icons crawler skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0c5ce1cede2e43a5d5d5aacb15f86b991b8b03fdaf2a73f64dd76c16f26ab59f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-crawler-skill-a-upgrade-c-6c7ac8bc.webp",
+      "source_name": "Shop icons crawler skill a upgrade c.png",
+      "alt": "Shop icons crawler skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6c7ac8bc1122fc6b2884d3c09dc759ad0921731c3a1fb4337939fea54af089c3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-crawler-skill-a-upgrade-e-c69cd481.webp",
+      "source_name": "Shop icons crawler skill a upgrade e.png",
+      "alt": "Shop icons crawler skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c69cd481e44f02130299525257d0239f3f7ee918820e344199bbd4936eddf454",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-crawler-skill-a-upgrade-f-5038649d.webp",
+      "source_name": "Shop icons crawler skill a upgrade f.png",
+      "alt": "Shop icons crawler skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5038649d54cc98ae70e5b1c78f1e4dba0beaf7481d2bf29402042bd0e189bf51",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/kseniaingamered-c13d21e8.webp",
+      "source_name": "Kseniaingamered.png",
+      "alt": "Default skin.",
+      "width": 114,
+      "height": 199,
+      "format": "WEBP",
+      "sha256": "c13d21e89ad2cecb3831c32e7f617c65769e1ee913b89034f24314c6cd35fc56",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/kseniaingameblue-f3b45ba2.webp",
+      "source_name": "Kseniaingameblue.png",
+      "alt": "Default skin.",
+      "width": 104,
+      "height": 197,
+      "format": "WEBP",
+      "sha256": "f3b45ba23ef76e53ad60eda1479cc61b44fd68350148a5989239bdeb36afdd88",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/dragonhuntressksenia-alpha-f40da9b3.webp",
+      "source_name": "DragonHuntressKsenia Alpha.png",
+      "alt": "DragonHuntressKsenia Alpha",
+      "width": 250,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "f40da9b3a9be6435d6d433a7f6b4dc34180f494b4cee9a9cd74395cf852565f8",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_lazy_image",
+        "image": "Prkseniaingamered.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/8/8a/Prkseniaingamered.png/revision/latest?cb=20150911210634"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Prkseniaingameblue.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/6/65/Prkseniaingameblue.png/revision/latest?cb=20150911210640"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Dragonkseniaingamered.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/f/f7/Dragonkseniaingamered.png/revision/latest?cb=20150911210646"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Dragonkseniaingameblue.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/f/f3/Dragonkseniaingameblue.png/revision/latest?cb=20150911210657"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Ui minimap player crawler 0.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/f/f0/Ui_minimap_player_crawler_0.png/revision/latest?cb=20150808024143"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Classicon Crawler.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/4/4d/Classicon_Crawler.png/revision/latest?cb=20160908171626"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "CosmicCaptainKSenia Alpha.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/5/5c/CosmicCaptainKSenia_Alpha.png/revision/latest/scale-to-width-down/200?cb=20150903202403"
+      },
+      {
+        "code": "missing_skin_image",
+        "skin": "Cosmic Captain Ksenia"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Dragon Huntress Ksenia Quotes"
+    ],
+    "status": "partial"
+  }
+}

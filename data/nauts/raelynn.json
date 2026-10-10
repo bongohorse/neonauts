@@ -1,0 +1,1074 @@
+{
+  "schema_version": 1,
+  "name": "Raelynn",
+  "slug": "raelynn",
+  "source": {
+    "filename": "Raelynn.-.Official.Awesomenauts.Wiki.10.10.2026.17.54.49.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Raelynn",
+    "sha256": "eba9d4d0b38702d228ce609dafae0e1704393dd5f7a11ccb1e9162be4e9f568d",
+    "size_bytes": 2440378
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1300 (2288)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.8"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Long Range"
+    },
+    {
+      "label": "Role",
+      "value": "Harasser"
+    },
+    {
+      "label": "Mobility",
+      "value": "Balanced"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Hunter",
+    "Type of abilities": "Area of Effect , Blind , Long-ranged , Time Modifier , Shield",
+    "Release Date": "November 1st, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Timerift",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Timerift",
+      "description": "An expandable wall held within a nifty grenade! With this gadget, Raelynn can create some cover out of just about any terrain. Also great for blocking off annoying ex-es.",
+      "values": [
+        {
+          "label": "Damage/s",
+          "value": "57 (89.49)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "250"
+        },
+        {
+          "label": "Slowing Power",
+          "value": "65%"
+        },
+        {
+          "label": "Cooldown",
+          "value": "11s"
+        },
+        {
+          "label": "Height",
+          "value": "5"
+        },
+        {
+          "label": "Width",
+          "value": "2"
+        },
+        {
+          "label": "Duration",
+          "value": "4s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Protoblaster",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Protoblaster",
+      "description": "Cuddles all folded up into a widdle gun makes most go “d’awwww” upon seeing it. This reaction usually transitions smoothly into a highpitched scream as they find out what “cuddling” really means.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "75 (117.75)"
+        },
+        {
+          "label": "Attackspeed",
+          "value": "150"
+        },
+        {
+          "label": "Range",
+          "value": "8"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Snipe",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Snipe",
+      "description": "Cuddles folds out to form a supercute variable Sniper-Pulserifle! Able to zap any target over great distances, the resulting beam will take out most of the surroundings along with the target. If you see a laser-point, best run!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "460 (722.2)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "10s"
+        },
+        {
+          "label": "Range",
+          "value": "18.36"
+        },
+        {
+          "label": "Arming Time",
+          "value": "0.65s (+0.55s Animation)"
+        },
+        {
+          "label": "Max Aiming Time",
+          "value": "1.8s"
+        },
+        {
+          "label": "Knockback",
+          "value": "0.7"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Six Million Solar Human Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Six_Million_Solar_Human_Jump",
+      "description": "Six Million Solar human jump.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "7.6"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Higgs Grenade",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Higgs_Grenade",
+      "group": "Timerift",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Nuclear Warhead",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Nuclear_Warhead",
+      "group": "Timerift",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Retro Spaceship",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Retro_Spaceship",
+      "group": "Timerift",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "T-800 Dome",
+      "source_url": "https://awesomenauts.fandom.com/wiki/T-800_Dome",
+      "group": "Timerift",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "HC-Bomb",
+      "source_url": "https://awesomenauts.fandom.com/wiki/HC-Bomb",
+      "group": "Timerift",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "1.21 Gigawatt Battery",
+      "source_url": "https://awesomenauts.fandom.com/wiki/1.21_Gigawatt_Battery",
+      "group": "Timerift",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pump Rifle",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pump_Rifle",
+      "group": "Snipe",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Casettedeck Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Casettedeck_Magazine",
+      "group": "Snipe",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Laserpointer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Laserpointer",
+      "group": "Snipe",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Flashy Glasses",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flashy_Glasses",
+      "group": "Snipe",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Iron Rifle",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Iron_Rifle",
+      "group": "Snipe",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Gryc Lubricator",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Gryc_Lubricator",
+      "group": "Snipe",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Skull Bracelet",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Skull_Bracelet",
+      "group": "Protoblaster",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Unknown Alien Hand",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Unknown_Alien_Hand",
+      "group": "Protoblaster",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Monkey Hand",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Monkey_Hand",
+      "group": "Protoblaster",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Lucky Cat Air Freshener",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Lucky_Cat_Air_Freshener",
+      "group": "Protoblaster",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Joe Doll",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Joe_Doll",
+      "group": "Protoblaster",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Receding Ponytail",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Receding_Ponytail",
+      "group": "Protoblaster",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Six Million Solar Human Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Six Million Solar Human Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Denny's Boots",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Denny%27s_Boots",
+      "group": "Six Million Solar Human Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Six Million Solar Human Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Six Million Solar Human Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Six Million Solar Human Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Ravishing Raelynn",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Who needs practical body armor anyway when you're carrying a retractable sniper cannon? You might as well dress up and look fabulous as you lay down a hail of sniper fire upon your enemies!\" - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This Raelynn skin replaces her clothes and visor with an elegant party dress, high heels, and a holster strapped to her thigh. She also uses lipstick, make-up, and a scarf around her neck."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is also a beauty mark close to her eye."
+        }
+      ],
+      "assets": [
+        "asset-040"
+      ]
+    },
+    {
+      "name": "Bionic Raelynn",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Raelynn has been recruited by a supersecret bionic spec ops team. The new and improved Bionic Raelynn has augmented her already impressive battlefield performance with bionics, cybernetics, a worn cloak and shiny lights.\" - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bionic Raelynn adds a \"greyish\" hue to her natural armor coloration and covers her arms as well instead of having them exposed like in the default look. Her cape is team-colored and she wears a helmet and a hood."
+        },
+        {
+          "type": "paragraph",
+          "text": "New digital hexagon particle effects are added to Snipe and Timerift."
+        }
+      ],
+      "assets": [
+        "asset-041"
+      ]
+    },
+    {
+      "name": "Soulhuntress Raelynn",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Whoever said 'The enemy of my enemy is my friend' sure never met Soulhuntress Raelynn. Though she spends her days hunting demons, cultists, and other evil scum (which lots of folk appreciate), she's not particularly nice company at parties and friendly get-togethers. One time she attended a feast some villagers organized in her honor and she used her laser rifle to 'cleanse' the demon-shaped chocolate cake the villagers had spent days to prepare for her in secret. In the end, she's just not a people person, and most people have learned to leave her alone and not invite her to their parties."
+        },
+        {
+          "type": "paragraph",
+          "text": "She is GREAT friends with Cuddles though. Together they've cleansed more demons and other evildoers from this world than you'd feel comfortable knowing. And a chocolate cake."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Raelynn in Awesomenauts. You need to have Raelynn available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Raelynn a \"dark\" huntress of evil look. She wears a hood and cloak and her jumpsuit is replaced by dark armor with skull-shaped shoulderpads and a glowing green timerift grenaded on her belt. She has pale skin, white hair and glowing green eyes. Cuddles is modified, having two blades (one on top and on on the bottom)."
+        },
+        {
+          "type": "paragraph",
+          "text": "While mostly unchanged, Snipe has a different sound effect. Timerift has a fog and skulls visual effect and protoblaster shots are green."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with its own unique voicelines."
+        }
+      ],
+      "assets": [
+        "asset-042"
+      ]
+    }
+  ],
+  "sections": {
+    "Contents": [],
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "Raelynn loves big guns. After highschool she went straight into the E.L.F. army to fight against the invading robots, just before the first AI war."
+      },
+      {
+        "type": "paragraph",
+        "text": "She was trained by the best and excelled in long range weaponary. Within a year she was given the honor of joining an elite squad called the SkyHawks, where she met the love of her life: her Pulserifle \"Cuddles\"."
+      },
+      {
+        "type": "paragraph",
+        "text": "For years they did covert missions together as a team to disrupt robot production and steal robot technologies. They were feared by all robots (well...the ones with emo-chips)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Until that one deep space mission to AI station 404 in the year 3009, where she ran into a robot ambush, and \"Cuddles\" was brutally taken away from her. Raelynn was put into cryostasis. Decades passed until a small mercenary team found her hidden on the planet. There she was rejoined with \"Cuddles\" and many warm 'hugs' were given that day to all robots on 404."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"Who needs practical body armor anyway when you're carrying a retractable sniper cannon? You might as well dress up and look fabulous as you lay down a hail of sniper fire upon your enemies!\" - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This Raelynn skin replaces her clothes and visor with an elegant party dress, high heels, and a holster strapped to her thigh. She also uses lipstick, make-up, and a scarf around her neck."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is also a beauty mark close to her eye."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"Raelynn has been recruited by a supersecret bionic spec ops team. The new and improved Bionic Raelynn has augmented her already impressive battlefield performance with bionics, cybernetics, a worn cloak and shiny lights.\" - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "Bionic Raelynn adds a \"greyish\" hue to her natural armor coloration and covers her arms as well instead of having them exposed like in the default look. Her cape is team-colored and she wears a helmet and a hood."
+      },
+      {
+        "type": "paragraph",
+        "text": "New digital hexagon particle effects are added to Snipe and Timerift."
+      },
+      {
+        "type": "paragraph",
+        "text": "Whoever said 'The enemy of my enemy is my friend' sure never met Soulhuntress Raelynn. Though she spends her days hunting demons, cultists, and other evil scum (which lots of folk appreciate), she's not particularly nice company at parties and friendly get-togethers. One time she attended a feast some villagers organized in her honor and she used her laser rifle to 'cleanse' the demon-shaped chocolate cake the villagers had spent days to prepare for her in secret. In the end, she's just not a people person, and most people have learned to leave her alone and not invite her to their parties."
+      },
+      {
+        "type": "paragraph",
+        "text": "She is GREAT friends with Cuddles though. Together they've cleansed more demons and other evildoers from this world than you'd feel comfortable knowing. And a chocolate cake."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Raelynn in Awesomenauts. You need to have Raelynn available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Raelynn a \"dark\" huntress of evil look. She wears a hood and cloak and her jumpsuit is replaced by dark armor with skull-shaped shoulderpads and a glowing green timerift grenaded on her belt. She has pale skin, white hair and glowing green eyes. Cuddles is modified, having two blades (one on top and on on the bottom)."
+      },
+      {
+        "type": "paragraph",
+        "text": "While mostly unchanged, Snipe has a different sound effect. Timerift has a fog and skulls visual effect and protoblaster shots are green."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with its own unique voicelines."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "According to her backstory, Raelynn is over 578 years old. She spent that time in cryo-stasis, before being brought back to life.",
+          "The Killer Koala icon was added to Bionic Raelynn's official artwork during the Awesomenauts: Starstorm Expansion Kickstarter Campaign.[19] This would make Bionic Raelynn the first character to have her splash artwork altered after release.",
+          "Raelynn is one of the three 'nauts that originate from Earth (the others being Ted McPain and Yuri).",
+          "\"E.L.F.\" in Raelynn's backstory stands for Earth's Liberation Front.",
+          "Raelynn is the first character to have their splash art remade.",
+          "Raelynn can be obtained for free as a reward for using the recruitment system."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Raelynn's splash art (Pre-Patch 3.4).",
+          "Raelynn's portrait (Pre-Patch 3.4).",
+          "Raelynn's scoreboard icon (Pre-Patch 3.4)."
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Most of Raelynn's playstyles involves keeping her enemies at a safe distance. Denny's Boots, Gryc Lubricator and most of Timerift's upgrades will help her accomplish that.",
+          "Remember: the laser sight for Raelynn's Snipe becomes yellow when you are targetting an enemy Awesomenaut. This is specially useful when using the Gryc Lubricator upgrade for offscreen kills. Watching the minimap also helps in these cases.",
+          "When charging up Snipe, it is possible to press the Snipe button a second time after hearing the beep to fire the beam earlier.",
+          "Aiming Snipe away from your enemy or at the ground can prevent them from seeing the laser sight right away. Quickly direct it to your enemies and fire, surprising them. Alternatively, you can begin charging Snipe while Raelynn is mid-air. Jump from a high place and activate it. By the time you hit the ground, Snipe will likely be ready to fire, giving less reaction time to your enemies.",
+          "The shield effect from Iron Rifle can prevent many crowd control effects from interrupting your Snipe.",
+          "Timerift is a very effective tool against sieged Derpls as it affects the unsiege animation, making it way longer. Some players may notice this and will start sieging on glass platforms so they can drop down and escape, however.",
+          "Despite what it may look like, Timerift isn't a slow, but a Slowdown and, as such, isn't affected by CC immunity.",
+          "With the T-800 Dome upgrade for Timerift, it is possible to solo turrets very effectively if they are left unguarded by your enemy",
+          "Without the Higgs Grenade upgrade, Timerift is best used to block chokepoints.",
+          "If taking HC-Bomb, it's best to attempt to trap enemies in Timerift and use your HC-shots to whittle them down until you're able to finish them off with Snipe. Using Gryc Lubricator helps to finish off fleeing enemies very well."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Raelynn is very effect at long range. Try and protect her from the enemy team so that she can damage them from a safe distance.",
+          "Use displacement and knockback effects to throw enemies into Timerift.",
+          "Aid Raelynn in pushing enemy turrets if she's using T-800 Dome."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Denny's Boots, Timerift and Snipe (especially with Gryc Lubricator) can make Raelynn incredibly hard to approach. Try to use hide areas or Jump Pads to sneak up on her.",
+          "Don't stay lined up with your teammates. It'll make it harder for Raelynn to Snipe multiple members of your team all at once.",
+          "Consider timing your jump(s) irregularly to confuse the enemy Raelynn and make it harder for her to aim Snipe properly.",
+          "Snipe can be interrupted by most crowd control effects, and will go on cooldown if this happens.",
+          "Snipe can't go through terrain. Stay out of Raelynn's direct line of sight to discourage her from firing it.",
+          "Before engaging an enemy Raelynn, make sure you will be able to kill her quickly. She may get you low enough on health so that her Snipe will finish you off.",
+          "Saving abilities that are harder to land for when Raelynn uses Snipe might be a good idea, as she can't move until the she fires the beam or is interrupted.",
+          "The cooldown on Timerift exceeds its duration. This is true even with the 1.21 Gigawatt Battery upgrade. You can use that window of opportunity to approach a Raelynn, but be mindful of Snipe as well.",
+          "Raelynn's Protoblaster can deal high dps with proper upgrades. Don't underestimate her ability to engage in close combat."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/raelynn-newsplash-dd5b9d8e.webp",
+      "source_name": "Raelynn newsplash.png",
+      "alt": "Raelynn newsplash",
+      "width": 512,
+      "height": 513,
+      "format": "WEBP",
+      "sha256": "dd5b9d8e3f86ca304794b5f51045018e5264ac6bfc2a2d64794275fcfb7dcd91",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-hunter-timerift-211ef848.webp",
+      "source_name": "UI Skillbutton Hunter Timerift.png",
+      "alt": "UI Skillbutton Hunter Timerift",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "211ef8481a04b72871bbf16b617c280eed41a61359289844a4f8c57ec542c510",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-hunter-attack-8bca5820.webp",
+      "source_name": "UI Skillbutton Hunter Attack.png",
+      "alt": "UI Skillbutton Hunter Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "8bca58205d66ab9ac35df178c94c9da42fc1ae455273afa30300fa0a69954245",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-hunter-snipe-4377328d.webp",
+      "source_name": "UI Skillbutton Hunter Snipe.png",
+      "alt": "UI Skillbutton Hunter Snipe",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "4377328d63d1b0b52fbc5dcd120471f2cad7f0505a39b0014dfe50c44cc8be13",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-hunter-jump-54812dd4.webp",
+      "source_name": "UI Skillbutton Hunter Jump.png",
+      "alt": "UI Skillbutton Hunter Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "54812dd4251ab5ef2cad3c412f36537805beeb046b3259c7e4098e41df9a1967",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-hunter-timerift-upgrade-f-5ee6b8b1.webp",
+      "source_name": "Shop Icons Hunter Timerift Upgrade F.png",
+      "alt": "Shop Icons Hunter Timerift Upgrade F",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5ee6b8b1709f4b07a42e702af4df6745c9ebbe0c23d4341290a178160ffac857",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-hunter-timerift-upgrade-c-cb9deff6.webp",
+      "source_name": "Shop Icons Hunter Timerift Upgrade C.png",
+      "alt": "Shop Icons Hunter Timerift Upgrade C",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cb9deff6d4bb342cdaa2dab1789f53ff7a66e40de2a6232ece8d451273405a5a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-hunter-timerift-upgrade-a-897a41c5.webp",
+      "source_name": "Shop Icons Hunter Timerift Upgrade A.png",
+      "alt": "Shop Icons Hunter Timerift Upgrade A",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "897a41c5239b593455a63fd778babfdba3844d54d0d18750ca50d45fb79c7b71",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-hunter-timerift-upgrade-b-d8481edf.webp",
+      "source_name": "Shop Icons Hunter Timerift Upgrade B.png",
+      "alt": "Shop Icons Hunter Timerift Upgrade B",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d8481edf6c67f2f781da6a954dfd670dc89e89ddd0de2c76f01af478ae22c94c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-hunter-timerift-upgrade-e-692f46bc.webp",
+      "source_name": "Shop Icons Hunter Timerift Upgrade E.png",
+      "alt": "Shop Icons Hunter Timerift Upgrade E",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "692f46bcb216af520f86b7190a90b5c03f3367684aebbf2c06d17f4ea5a81547",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-hunter-timerift-upgrade-d-afa464fd.webp",
+      "source_name": "Shop Icons Hunter Timerift Upgrade D.png",
+      "alt": "Shop Icons Hunter Timerift Upgrade D",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "afa464fdaa0b7261ee060aac7afe42fe07218be556ba02b9c1b4ad2485cbfd20",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-hunter-snipe-upgrade-c-cf5c0708.webp",
+      "source_name": "Shop Icons Hunter Snipe Upgrade C.png",
+      "alt": "Shop Icons Hunter Snipe Upgrade C",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cf5c0708b2519a7823bce45d7928ae68e0e48ba50434eec38706a5e9d17368a7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-hunter-snipe-upgrade-d-5d6b51c7.webp",
+      "source_name": "Shop Icons Hunter Snipe Upgrade D.png",
+      "alt": "Shop Icons Hunter Snipe Upgrade D",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d6b51c7e4f4b6fb31a5b7c62486e676fa51c0c761b2712d9122095486460a52",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-hunter-snipe-upgrade-e-ff8a16ee.webp",
+      "source_name": "Shop Icons Hunter Snipe Upgrade E.png",
+      "alt": "Shop Icons Hunter Snipe Upgrade E",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ff8a16eea41dac426e1a19e198d0010299c6640f9bf278de2b3e7371246d9c46",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-hunter-snipe-upgrade-f-a021fe24.webp",
+      "source_name": "Shop Icons Hunter Snipe Upgrade F.png",
+      "alt": "Shop Icons Hunter Snipe Upgrade F",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a021fe240ff3937f3bfafffc181679f2a5e07aecf54bf526c5f97774a911a5f8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-hunter-snipe-upgrade-b-9dde85a0.webp",
+      "source_name": "Shop Icons Hunter Snipe Upgrade B.png",
+      "alt": "Shop Icons Hunter Snipe Upgrade B",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9dde85a0da9d8aa0b6a79cc29aa42395e59095e7ca0418d65b465191acf8ee2c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-hunter-snipe-upgrade-a-4249e754.webp",
+      "source_name": "Shop Icons Hunter Snipe Upgrade A.png",
+      "alt": "Shop Icons Hunter Snipe Upgrade A",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4249e754bf39f946b5b40ea6d019017eeb78730b96955f09e47144527713db1a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-hunter-base-attack-upgrade-a-73bd41ec.webp",
+      "source_name": "Shop Icons Hunter Base Attack Upgrade A.png",
+      "alt": "Shop Icons Hunter Base Attack Upgrade A",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "73bd41ecd9dba06dd48abb922c7cecf5f48ea079b20148075f444fde8e25fe13",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-hunter-base-attack-upgrade-f-a61f2b70.webp",
+      "source_name": "Shop Icons Hunter Base Attack Upgrade F.png",
+      "alt": "Shop Icons Hunter Base Attack Upgrade F",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a61f2b70e9e641aee697b61f340a5201fbc616899b78e5a41d5823ac88414e35",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-hunter-base-attack-upgrade-d-bc141155.webp",
+      "source_name": "Shop Icons Hunter Base Attack Upgrade D.png",
+      "alt": "Shop Icons Hunter Base Attack Upgrade D",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bc1411558434498f15e2c92f403ba8b7da63ab25d7edc2163cb71e5111da69a5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-hunter-base-attack-upgrade-e-61ae27f3.webp",
+      "source_name": "Shop Icons Hunter Base Attack Upgrade E.png",
+      "alt": "Shop Icons Hunter Base Attack Upgrade E",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "61ae27f3ceee494e69e1fd0c9d02e6fd2769202555c3eb46e2045be5b0f4f0f0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-hunter-base-attack-upgrade-c-eb04a4f0.webp",
+      "source_name": "Shop Icons Hunter Base Attack Upgrade C.png",
+      "alt": "Shop Icons Hunter Base Attack Upgrade C",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "eb04a4f09b587d360c38ceff3fb1a58dfce2fe8c4cdd871d28524dcd3acc7111",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-hunter-base-attack-upgrade-b-72943779.webp",
+      "source_name": "Shop Icons Hunter Base Attack Upgrade B.png",
+      "alt": "Shop Icons Hunter Base Attack Upgrade B",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "729437792e2b3a723e0092f7b9639b1c9ef8b5266fb3a320a9318e1dc42f4be5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/shop-icons-overall-hunterspeed-837b63aa.webp",
+      "source_name": "Shop Icons Overall HunterSpeed.png",
+      "alt": "Shop Icons Overall HunterSpeed",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "837b63aab3ea6aa984a2087e73eb8a9e35dcd85fbe7f36bcd9d0b1f4a404c87b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/raelynningame-5dc7ce92.webp",
+      "source_name": "Raelynningame.png",
+      "alt": "Default skin.",
+      "width": 89,
+      "height": 140,
+      "format": "WEBP",
+      "sha256": "5dc7ce9231ed214e479b4ae21023796753658bbd3842223b7711fc1125915bc3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-raelynn-skin-ee9bcabb.webp",
+      "source_name": "Base Raelynn Skin.png",
+      "alt": "Default skin",
+      "width": 99,
+      "height": 127,
+      "format": "WEBP",
+      "sha256": "ee9bcabbf2746f1456a0c2a704e963bc9b7144b9549e1359de89163c3ea82ed9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/newravraeingame-11e630de.webp",
+      "source_name": "Newravraeingame.png",
+      "alt": "Ravishing Raelynn.",
+      "width": 86,
+      "height": 124,
+      "format": "WEBP",
+      "sha256": "11e630de935026d3b6290a250c6fac12affe15abb023c475d46ec1e661066ab8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/ravishing-raelynn-skin-d4f5b089.webp",
+      "source_name": "Ravishing Raelynn Skin.png",
+      "alt": "Ravishing Raelynn",
+      "width": 98,
+      "height": 129,
+      "format": "WEBP",
+      "sha256": "d4f5b089798889661e51c1ecd3ba38264677a21e5b4f652edfc0c11acebfa93d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/newbioraeingame-be9b57ec.webp",
+      "source_name": "Newbioraeingame.png",
+      "alt": "Bionic Raelynn.",
+      "width": 88,
+      "height": 122,
+      "format": "WEBP",
+      "sha256": "be9b57ec51410194687294a4fe2789aaa6210f92068b9e6b5c6690b632b982fe",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/bionic-raelynn-skin-57112058.webp",
+      "source_name": "Bionic Raelynn Skin.png",
+      "alt": "Bionic Raelynn",
+      "width": 97,
+      "height": 132,
+      "format": "WEBP",
+      "sha256": "57112058859cb61389d458435f950385210bdf71910b9002d1ffcd8da3a8dcb1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/soulhuntressraelynningamered-d4af6ff9.webp",
+      "source_name": "Soulhuntressraelynningamered.png",
+      "alt": "Soulhuntress Raelynn.",
+      "width": 163,
+      "height": 184,
+      "format": "WEBP",
+      "sha256": "d4af6ff9878ad61ee73a96f9c6b158cb82bf06973b6a2e037ace8386f7ac81e7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/soulhuntressraelynningameblue-02e51193.webp",
+      "source_name": "Soulhuntressraelynningameblue.png",
+      "alt": "Soulhuntress Raelynn.",
+      "width": 156,
+      "height": 185,
+      "format": "WEBP",
+      "sha256": "02e51193bdf6625cd2cba702f43b8c0c8aa4a578b480615c678ac8ddfa62050e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/ui-minimap-player-hunter-0-ab0ee90a.webp",
+      "source_name": "Ui minimap player hunter 0.png",
+      "alt": "Ui minimap player hunter 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "ab0ee90a17c09434ef1ff7578a9aa5cc9f1a74e65c687fd32988063d2477bf12",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/classicon-raelynn-0418ac94.webp",
+      "source_name": "Classicon Raelynn.png",
+      "alt": "Classicon Raelynn",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "0418ac94a90150181443ac9ca8305bf3261dbd37a088650270a3994173fa5d2d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/characterrender-hunter-ravishing-redbg-0ea7dae9.webp",
+      "source_name": "CharacterRender Hunter ravishing redBG.png",
+      "alt": "CharacterRender Hunter ravishing redBG",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "0ea7dae97104c20ef26616be65e9285cbb9313bf0545e86abacdb3ecb339b8b1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/characterrender-raelynn-10b4ec5b.webp",
+      "source_name": "CharacterRender Raelynn.png",
+      "alt": "CharacterRender Raelynn",
+      "width": 180,
+      "height": 172,
+      "format": "WEBP",
+      "sha256": "10b4ec5bad3d45e709c3f26bcc70a296f66997ee76363db65cc632692c121e0b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/raelynn-004-soulhuntress-8e2188ac.webp",
+      "source_name": "Raelynn 004 Soulhuntress.png",
+      "alt": "Raelynn 004 Soulhuntress",
+      "width": 200,
+      "height": 257,
+      "format": "WEBP",
+      "sha256": "8e2188ace5282e41782fcfbfda2513ffb383db0db78f6c557919d02bcddfcfb2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/characterrender-hunter-6f87cf28.webp",
+      "source_name": "CharacterRender Hunter.png",
+      "alt": "Raelynn's splash art (Pre-Patch 3.4).",
+      "width": 87,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "6f87cf28fd23e23115844f38262542865b9418d11d991de3ae520e2aa2958519",
+      "storage": "src"
+    },
+    {
+      "id": "asset-044",
+      "path": "assets/menu-iconcharacterhunter-8f0a3ad5.webp",
+      "source_name": "Menu IconCharacterHunter.png",
+      "alt": "Raelynn's portrait (Pre-Patch 3.4).",
+      "width": 80,
+      "height": 80,
+      "format": "WEBP",
+      "sha256": "8f0a3ad57f5f1ce79e20e74af23b8e81580f0a712ae1d5c1878a72afe02a5d72",
+      "storage": "src"
+    },
+    {
+      "id": "asset-045",
+      "path": "assets/classicon-hunter-2a7eff2d.webp",
+      "source_name": "Classicon Hunter.png",
+      "alt": "Raelynn's scoreboard icon (Pre-Patch 3.4).",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "2a7eff2dbaf6891369b447955e2525049116b7b0d648c075d80c6478b2dcb7c1",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Soulhuntress Raelynn Quotes"
+    ],
+    "status": "extracted"
+  }
+}

@@ -1,0 +1,1032 @@
+{
+  "schema_version": 1,
+  "name": "Skølldir",
+  "slug": "skolldir",
+  "source": {
+    "filename": "Skolldir.-.Official.Awesomenauts.Wiki.10.10.2026.17.56.31.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Sk%C3%B8lldir",
+    "sha256": "1c6fc7b6f00c13c155336bd2dc0d149e66398cbfef07e6cca1be88d8796691c8",
+    "size_bytes": 2218973
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1600 (2816)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.8"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Fighter"
+    },
+    {
+      "label": "Mobility",
+      "value": "Balanced"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Brute",
+    "Type of abilities": "Ensnare , Stun , Knockback , Deflect , Slow",
+    "Release Date": "October 4th, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Mighty Throw",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mighty_Throw",
+      "description": "Always up for a Bear Hug, Skølldir never knew how to handle that awkward pause in the middle. His solution? Throw ‘m away! He ended up liking the throwing better than the hugging, so he stuck with that.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "100 (157)"
+        },
+        {
+          "label": "Knockback",
+          "value": "1.7"
+        },
+        {
+          "label": "Cooldown",
+          "value": "8s"
+        },
+        {
+          "label": "Stun duration",
+          "value": "0.8s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Bash",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bash",
+      "description": "No man should ever come within reach of Skølldir’s best friends, Lefty ‘n Righty. Better known as his Fists of Fury, he is able to pummel enemies with a devastating 3-hit combo that’ll leave their ears ringing!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "110 (172.7) | 139 (218.23) | 247 (387.79)"
+        },
+        {
+          "label": "Range",
+          "value": "3.8 | 3.8 | 7.2"
+        },
+        {
+          "label": "Combo Timeout",
+          "value": "0s | 0.2s | 0.5s"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Earthquake",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Earthquake",
+      "description": "Putting on some weight made his buns of steel a force to be reckoned with. Planting them firmly on the ground after a daring leap shatters earth and enemies alike!",
+      "values": [
+        {
+          "label": "Damage over time",
+          "value": "350 (549.5)"
+        },
+        {
+          "label": "Damage Duration",
+          "value": "5s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "8s"
+        },
+        {
+          "label": "Range",
+          "value": "9"
+        },
+        {
+          "label": "Time",
+          "value": "1s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Explosive Fart",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Explosive_Fart",
+      "description": "Able to channel his inner “strength”, Skølldir lets out a thunderous fart that lifts his bulk to new-found heights during a jump.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "4.8"
+        },
+        {
+          "label": "Additional Jump Height",
+          "value": "4.8"
+        },
+        {
+          "label": "Jumps",
+          "value": "2"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Power Briefs",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Briefs",
+      "group": "Mighty Throw",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cortexiphan Shake",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cortexiphan_Shake",
+      "group": "Mighty Throw",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Axethrowing Trophy",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Axethrowing_Trophy",
+      "group": "Mighty Throw",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Crankin' Dumbbells",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Crankin%27_Dumbbells",
+      "group": "Mighty Throw",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Homeless Gnome",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Homeless_Gnome",
+      "group": "Mighty Throw",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Oily Spray on Bronze",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Oily_Spray_on_Bronze",
+      "group": "Mighty Throw",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Electric Hammer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Electric_Hammer",
+      "group": "Earthquake",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Stolen Couch",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Stolen_Couch",
+      "group": "Earthquake",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Stone Twins",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Stone_Twins",
+      "group": "Earthquake",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Iridium Bricks Game",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Iridium_Bricks_Game",
+      "group": "Earthquake",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Enhanced Muscle Fibers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Enhanced_Muscle_Fibers",
+      "group": "Earthquake",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Small Volcano",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Small_Volcano",
+      "group": "Earthquake",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Perfumed White Flowers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Perfumed_White_Flowers",
+      "group": "Bash",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rubber Ducky Choker",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rubber_Ducky_Choker",
+      "group": "Bash",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chunk of Salted Meat",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chunk_of_Salted_Meat",
+      "group": "Bash",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Flaming Fists",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flaming_Fists",
+      "group": "Bash",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fistbump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fistbump",
+      "group": "Bash",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pale Mead",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pale_Mead",
+      "group": "Bash",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Explosive Fart",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Explosive Fart",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "League Seven Boots",
+      "source_url": "https://awesomenauts.fandom.com/wiki/League_Seven_Boots",
+      "group": "Explosive Fart",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Explosive Fart",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Explosive Fart",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Explosive Fart",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Honeydew Skølldir",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Check out the new, free Honeydew skin for Skølldir, provided by the Yogscast. Honeydew has been unleashed upon the Galaxy! Defending his right to bear Jaffa Cakes and pummeling evildoers with his Fists of Fury!\" - Official description."
+        },
+        {
+          "type": "paragraph",
+          "text": "It can be found here for free. This skin replaces Skølldir's metal armor with one made of leather with dark pants that does not protect his face, arms and belly. He also has a leather belt and an orange beard."
+        },
+        {
+          "type": "paragraph",
+          "text": "His skills are unchanged, but Bash has a new animation on the third hit, being a giant pickaxe instead of a giant fist. Mighty Throw has a new pattern. The Homeless Gnome's appearance is changed to resemble William Riker."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin is a \"homage\" to The Yogscast, seeing as Skølldir was voiced by Simon Lane."
+        }
+      ],
+      "assets": [
+        "asset-040"
+      ]
+    },
+    {
+      "name": "Demon Skølldir",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Summoned by a sorcerous ritual, Demon Skølldir has entered our realm! Chaos follows in his wake! Tremble mortals, and despair for Demon Skølldir's fiery fists of doom are upon you!\" - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Skølldir dark leather armor with black fur on his pants and shoulders. He has metal ornaments on his gloves, a different belt and a necklace made of skulls. He has demon-like horns instead of the usual ones on his helmet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Homeless Gnome is a replaced by a tiny demon and a Bash's third hit is a giant claw instead of the usual fist. Mighty Throw gains a fire effect."
+        }
+      ],
+      "assets": [
+        "asset-041"
+      ]
+    },
+    {
+      "name": "Jotunn Skølldir",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Old spacesailors tell the tale of Jotunn Skølldir, who was banished from his homeworld and carved a path of destruction through the galaxy. Worlds that fell victim to his rage were swallowed by lava or entombed in ice, leaving none alive. Supposed to wield both fists of undying flame and the cold of an eternal winter, Jotunn Skølldir truly is one of the last remain legends of the galaxy. Those who have witnessed the destruction left behind by him are never the same."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Skølldir in Awesomenauts. The skin-design and sound effects vary depending on whether the player is currently playing for the Red or the Blue team, with Jotunn Skølldir assuming his fire-form in the Red team, and an ice-form in the Blue team. The Jotunn Skølldir skin does NOT have a unique voice over."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have not already unlocked the character, purchasing this DLC will do so."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jotunn Skølldir was designed by community member CrimsonYeti for the Design-a-skin competition and was chosen by the community as one the runner-ups to Grim Genji from more than 250 submissions! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Skølldir the looks of a mythological Norse giant, or Jötunn: His beard and horns are made of magma/ice and he wears a team-colored helmet with a golden ornament in it. He wears team-colored leather armor with golden details below the waist and on the shoulder pads (those have fur on blue team). His belt is a golden chain with a shield as the buckle and his leather gloves have brass knuckles with spikes on them. Finally, he has a wooden shield with an arrow stuck on it attached to his shoulder pad."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mighty throw has more fiery/frost sparkles and Homeless Gnome is replaced by a tiny yeti (orange with brown fur for red team, blue with white fur for blue team). Earthquake's default shockwave is replaced by magma spikes/icicles and bash has the same shape as his unique gloves."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being an ultimate skin, Jotunn Skølldir has unique looks depending on which team you're on: Fire-themed for red team, ice-themed for blue team."
+        }
+      ],
+      "assets": [
+        "asset-042"
+      ]
+    }
+  ],
+  "sections": {
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "Skølldir the Terrible Space Viking has raided over a hundred spaceports, cargo ships and grocery stores. His legendary thirst for battle is unquenchable. Great raids are usually followed by great feasts and soon his nickname was altered to Skølldir The Terribly Overweight Space Viking. Nothing could scorn Skølldir more than this honorless title!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Skølldir has set out on his space barge to impress the universe with his lightning fast fighting skills to prove this moniker wrong and show his nimbleness. Anyone who would dare to call him fat is met with a rapid series of crushing punches and is thrown aside. All the while, Skølldir's metallic suit is telling him how many calories he is burning."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you find yourself on the battlefield, and hear the sound of crushing bones and thunderous farts in the distance, flee as Skølldir's fury is upon you!"
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"Check out the new, free Honeydew skin for Skølldir, provided by the Yogscast. Honeydew has been unleashed upon the Galaxy! Defending his right to bear Jaffa Cakes and pummeling evildoers with his Fists of Fury!\" - Official description."
+      },
+      {
+        "type": "paragraph",
+        "text": "It can be found here for free. This skin replaces Skølldir's metal armor with one made of leather with dark pants that does not protect his face, arms and belly. He also has a leather belt and an orange beard."
+      },
+      {
+        "type": "paragraph",
+        "text": "His skills are unchanged, but Bash has a new animation on the third hit, being a giant pickaxe instead of a giant fist. Mighty Throw has a new pattern. The Homeless Gnome's appearance is changed to resemble William Riker."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin is a \"homage\" to The Yogscast, seeing as Skølldir was voiced by Simon Lane."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"Summoned by a sorcerous ritual, Demon Skølldir has entered our realm! Chaos follows in his wake! Tremble mortals, and despair for Demon Skølldir's fiery fists of doom are upon you!\" - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Skølldir dark leather armor with black fur on his pants and shoulders. He has metal ornaments on his gloves, a different belt and a necklace made of skulls. He has demon-like horns instead of the usual ones on his helmet."
+      },
+      {
+        "type": "paragraph",
+        "text": "Homeless Gnome is a replaced by a tiny demon and a Bash's third hit is a giant claw instead of the usual fist. Mighty Throw gains a fire effect."
+      },
+      {
+        "type": "paragraph",
+        "text": "Old spacesailors tell the tale of Jotunn Skølldir, who was banished from his homeworld and carved a path of destruction through the galaxy. Worlds that fell victim to his rage were swallowed by lava or entombed in ice, leaving none alive. Supposed to wield both fists of undying flame and the cold of an eternal winter, Jotunn Skølldir truly is one of the last remain legends of the galaxy. Those who have witnessed the destruction left behind by him are never the same."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Skølldir in Awesomenauts. The skin-design and sound effects vary depending on whether the player is currently playing for the Red or the Blue team, with Jotunn Skølldir assuming his fire-form in the Red team, and an ice-form in the Blue team. The Jotunn Skølldir skin does NOT have a unique voice over."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you have not already unlocked the character, purchasing this DLC will do so."
+      },
+      {
+        "type": "paragraph",
+        "text": "Jotunn Skølldir was designed by community member CrimsonYeti for the Design-a-skin competition and was chosen by the community as one the runner-ups to Grim Genji from more than 250 submissions! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Skølldir the looks of a mythological Norse giant, or Jötunn: His beard and horns are made of magma/ice and he wears a team-colored helmet with a golden ornament in it. He wears team-colored leather armor with golden details below the waist and on the shoulder pads (those have fur on blue team). His belt is a golden chain with a shield as the buckle and his leather gloves have brass knuckles with spikes on them. Finally, he has a wooden shield with an arrow stuck on it attached to his shoulder pad."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mighty throw has more fiery/frost sparkles and Homeless Gnome is replaced by a tiny yeti (orange with brown fur for red team, blue with white fur for blue team). Earthquake's default shockwave is replaced by magma spikes/icicles and bash has the same shape as his unique gloves."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being an ultimate skin, Jotunn Skølldir has unique looks depending on which team you're on: Fire-themed for red team, ice-themed for blue team."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Skølldir was the first Awesomenaut to have lines for his abilities and autoattack.",
+          "Skølldir was the first 'naut voiced by a community member \"guest star\" (Simon Lane).",
+          "Skølldir is the only character with a melee auto-attack that can't hit multiple targets at the same time.",
+          "Skølldir was the first 'naut to get an ultimate skin: instead of unique voice acting, is has different looks depending on which team (red/blue) the player's on.",
+          "Jotunn Skølldir was part of the Awesomenauts Skin Contest 2014, where it won third place. It was designed by Stephen \"CrimsonYeti\" Kelly. The original concept art can be seen below:"
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "When playing as Skølldir, learning to time your 3rd punch is vital, as some of the Bash upgrades will only affect it.",
+          "When combined with Axethrowing Trophy, Homeless Gnome can a useful harassing tool. With some skill and practice, it can even be used to finish off fleeing enemies.",
+          "When using Perfumed White Flowers, try to kill creeps with the 3rd hit from bash so you can recover more health than you normally would.",
+          "Skølldir may use Earthquake from a high place to quickly \"drop\" in front of enemies, often surprising them.",
+          "If you see an enemy jumping, try timing your Earthquake so it hits them on their way down.",
+          "With the right upgrades, Skølldir can make his Earthquake very hard to avoid. Stolen Couch, Stone Twins and Small Volcano all help him accomplish that. Try to \"study\" your enemy to see how they are escaping your Earthquake. If facing a lot of characters who can fly or hover, for instance, Small Volcano may be the better option.",
+          "Every one of Skølldir's abilities have at least one form of crowd control available. WIth the right build he can become a powerful disruptor.",
+          "Homeless Gnome can be useful to attack turrets or the Solar drill from a safe distance, making it a somewhat useful weapon against structures.",
+          "Fistbump tends to be more effective if you time your punches so that you never get the 3rd hit off. Try to use only the first two to better destroy enemy projectiles."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Skølldir has a variety of Crowd Control effects at his disposal. Be sure to work alongside him to take advantage of it.",
+          "Skølldir is not the strongest 'naut when it comes to pushing. You may want a 'naut that excels at that to compensate for this weakness."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Skølldir is a very dangerous 'naut at close range. Try poking him if you have more range than him or use some form of crowd control before approaching him.",
+          "A Skølldir that uses Perfumed White Flowers can be very hard to bring down, specially when paired with Med-i'-can, Power Pills Turbo and Oily Spray on Bronze. Avoid the 3rd hit from bash at all costs.",
+          "Possibly the best way to deal with a Skølldir is to be above or below him, as he has trouble dealing with enemies in a different vertical plane. Characters like Lonestar and Vinnie & Spike are good examples of 'nauts that can do this. If the map has a lot of open areas (like Sorona) Skølldir may have an even harder time.",
+          "Some Skølldirs prefer to delay Earthquake in favor of Mighty Throw and Bash upgrades. They can have trouble defending their turrets from many droids at once in this case. Upgrades such as the T-800 Dome and The Last Pieridae Transformae may make defending the turret even harder.",
+          "Baby Kuri Mammoth will reduce the range of Mighty Throw by a considerable amount."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/skolldir-alpha-bb02a476.webp",
+      "source_name": "Skolldir Alpha.png",
+      "alt": "Skolldir Alpha",
+      "width": 512,
+      "height": 586,
+      "format": "WEBP",
+      "sha256": "bb02a4764660c752a0d911855385c25625788bcb1d766c69fc133cfe7cb48c57",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-brute-throw-df44ade5.webp",
+      "source_name": "UI Skillbutton Brute Throw.PNG",
+      "alt": "UI Skillbutton Brute Throw",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "df44ade5eb57620d5cc23020c4bbaad6c26fbe4d5f461605ed7b05c8787eaede",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-brute-attack-bea2472e.webp",
+      "source_name": "UI Skillbutton Brute Attack.PNG",
+      "alt": "UI Skillbutton Brute Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "bea2472ee977cdf3cccf75c6eff2be7111dd26470a3d12761ccf40a43c3e861e",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-brute-earthquake-dc5f201b.webp",
+      "source_name": "UI Skillbutton Brute Earthquake.PNG",
+      "alt": "UI Skillbutton Brute Earthquake",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "dc5f201b2d6cfa18f0ac32b3f2b5e6518f77956e162b46e67a8ecc04e1757eaa",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-brute-jump-a4fcf6ff.webp",
+      "source_name": "UI Skillbutton Brute Jump.PNG",
+      "alt": "UI Skillbutton Brute Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "a4fcf6ff7fe00d765c52d11c4cc6f6528ec418c2229f134840845b28d56b7035",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-brute-throw-upgrade-b-6e93d1b8.webp",
+      "source_name": "Shop Icons Brute Throw Upgrade B.PNG",
+      "alt": "Shop Icons Brute Throw Upgrade B",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6e93d1b81226d894004cda9f0895ae8a7d247e63b665c0fa2c43dc84548f7a69",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-brute-throw-upgrade-d-60db795e.webp",
+      "source_name": "Shop Icons Brute Throw Upgrade D.PNG",
+      "alt": "Shop Icons Brute Throw Upgrade D",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "60db795ea291cd1249fccc1f6bcd9e25d57fb9dc5fda49ba59984acaa18c3910",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-brute-throw-upgrade-a-7a237095.webp",
+      "source_name": "Shop Icons Brute Throw Upgrade A.PNG",
+      "alt": "Shop Icons Brute Throw Upgrade A",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7a2370952172a57799ac3a9c37556c92921c170fdafe0ed1df8db62406520178",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-brute-throw-upgrade-e-cee089a3.webp",
+      "source_name": "Shop Icons Brute Throw Upgrade E.PNG",
+      "alt": "Shop Icons Brute Throw Upgrade E",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cee089a32d4feb7a51c82923a92a3fa0e5c314aba30e177c5bfd44bf3fd87378",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-brute-throw-upgrade-c-d5655602.webp",
+      "source_name": "Shop Icons Brute Throw Upgrade C.PNG",
+      "alt": "Shop Icons Brute Throw Upgrade C",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d56556029e6246510d3e65aff7e63547d93fbb9430b31925590e5f8f3778b6ca",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-brute-throw-upgrade-f-16665d66.webp",
+      "source_name": "Shop Icons Brute Throw Upgrade F.PNG",
+      "alt": "Shop Icons Brute Throw Upgrade F",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "16665d66d7808b4f61ff6ae933d278134cbba8c86b92a012dbeb3bd4ce9781c9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-brute-earthquake-upgrade-f-9dc283d9.webp",
+      "source_name": "Shop Icons Brute Earthquake Upgrade F.PNG",
+      "alt": "Shop Icons Brute Earthquake Upgrade F",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9dc283d9ae967e6e07c74bc40d56ff2aecc960eace07ac6e54683709a851c7e2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-brute-earthquake-upgrade-c-046be91b.webp",
+      "source_name": "Shop Icons Brute Earthquake Upgrade C.PNG",
+      "alt": "Shop Icons Brute Earthquake Upgrade C",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "046be91bd92a817b4324b378815f78919c19dc51334cd44ae3dbbe9d0f5dfa38",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-brute-earthquake-upgrade-b-79e03e4e.webp",
+      "source_name": "Shop Icons Brute Earthquake Upgrade B.PNG",
+      "alt": "Shop Icons Brute Earthquake Upgrade B",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "79e03e4e18aae7415b7f08ce3023ace82747faf45c8ac57b603b1985e7f6ed47",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-brute-earthquake-upgrade-a-369e0995.webp",
+      "source_name": "Shop Icons Brute Earthquake Upgrade A.PNG",
+      "alt": "Shop Icons Brute Earthquake Upgrade A",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "369e09952f2b2204c35962f822cb7678e3a5da084d3b9e5c1671a3aedb75807b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-brute-earthquake-upgrade-d-80b92829.webp",
+      "source_name": "Shop Icons Brute Earthquake Upgrade D.PNG",
+      "alt": "Shop Icons Brute Earthquake Upgrade D",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "80b9282922f44b562514ffd4ea9df9ce3cf5e75bb262272508855b81d35e839a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-brute-earthquake-upgrade-e-2f8eae6b.webp",
+      "source_name": "Shop Icons Brute Earthquake Upgrade E.PNG",
+      "alt": "Shop Icons Brute Earthquake Upgrade E",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2f8eae6bdeb40644a2414726e269c2ae99d1d03a5ccd4b6d1d9e9383ffb04366",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-brute-base-attack-upgrade-f-4f012a7a.webp",
+      "source_name": "Shop Icons Brute Base Attack Upgrade F.PNG",
+      "alt": "Shop Icons Brute Base Attack Upgrade F",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4f012a7a7f739db18c72ba70531f81a23f4130b7f15af590624f2187b0eb7844",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-brute-base-attack-upgrade-d-71def7e3.webp",
+      "source_name": "Shop Icons Brute Base Attack Upgrade D.PNG",
+      "alt": "Shop Icons Brute Base Attack Upgrade D",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "71def7e321a33177144f1ec237864c16dc9176ba3d93711c6bb430f222bfd812",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-brute-base-attack-upgrade-e-1f65049c.webp",
+      "source_name": "Shop Icons Brute Base Attack Upgrade E.PNG",
+      "alt": "Shop Icons Brute Base Attack Upgrade E",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1f65049cabaf7b8616f23c0eb6e358e6f049438988a8f5358780f39bbb8e6afc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-brute-base-attack-upgrade-b-2965cf29.webp",
+      "source_name": "Shop Icons Brute Base Attack Upgrade B.PNG",
+      "alt": "Shop Icons Brute Base Attack Upgrade B",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2965cf2905fd93d7d9fc5c6b9c5b5bb9eedbdb5106f94b1b66fe6b0e455d12ce",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-brute-base-attack-upgrade-c-c4656d7e.webp",
+      "source_name": "Shop Icons Brute Base Attack Upgrade C.PNG",
+      "alt": "Shop Icons Brute Base Attack Upgrade C",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c4656d7ea9491c9ced4253b495a7fabc0be12fbfdd71faf74e41aeaa56878249",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-brute-base-attack-upgrade-a-cf14d824.webp",
+      "source_name": "Shop Icons Brute Base Attack Upgrade A.PNG",
+      "alt": "Shop Icons Brute Base Attack Upgrade A",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cf14d8240549fc1fedba44f87eb07bccd8c31f056ce08b827ba0a9d29154b688",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/shop-icons-overall-brutespeed-be4e67e0.webp",
+      "source_name": "Shop Icons Overall BruteSpeed.png",
+      "alt": "Shop Icons Overall BruteSpeed",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "be4e67e0b90136d60e1cf428dc3ad3ba6a5000d7ae0bd55fd2579f5887ff9e16",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/skolldiringame-e015b3a9.webp",
+      "source_name": "Skolldiringame.png",
+      "alt": "Default skin.",
+      "width": 136,
+      "height": 135,
+      "format": "WEBP",
+      "sha256": "e015b3a94bc89117dac6a0dd79178fc9c4cd55aecc21876f5af1148e1839525c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-skolldir-skin-5e92bd34.webp",
+      "source_name": "Base Skolldir Skin.png",
+      "alt": "Default skin",
+      "width": 132,
+      "height": 152,
+      "format": "WEBP",
+      "sha256": "5e92bd34ce1b4610850d6c73d2ab3ffa0522cb2dfe64a8413a0192b82e4e3a59",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/honeydewskolldiringame-f31bafb0.webp",
+      "source_name": "Honeydewskolldiringame.png",
+      "alt": "Honeydew Skølldir.",
+      "width": 134,
+      "height": 159,
+      "format": "WEBP",
+      "sha256": "f31bafb05dfd975c4cffe0239753119e4b7c445d76f52ad746bbd3b4c7832572",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/honeydew-skolldir-skin-a1447104.webp",
+      "source_name": "Honeydew Skolldir Skin.png",
+      "alt": "Honeydew Skølldir",
+      "width": 138,
+      "height": 159,
+      "format": "WEBP",
+      "sha256": "a1447104a6bd5c654672391bec8258e3017914189944eabdcefa62741e043ea7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/demonskolldir-f8507873.webp",
+      "source_name": "Demonskolldir.jpg",
+      "alt": "Demon Skølldir.",
+      "width": 134,
+      "height": 159,
+      "format": "WEBP",
+      "sha256": "f85078738632e251c7d7b6877d585ff4fabe42d0f0cb3997c79adbb092007bdf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/demon-skolldir-skin-51821721.webp",
+      "source_name": "Demon Skolldir Skin.png",
+      "alt": "Demon Skølldir",
+      "width": 144,
+      "height": 158,
+      "format": "WEBP",
+      "sha256": "51821721bd708873a4a559b6fe2a23ebb790f6f2b745180f93074e4cdafc85b7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/jotunnskolldirredingame-8c7fbb13.webp",
+      "source_name": "Jotunnskolldirredingame.png",
+      "alt": "Jotunn Skølldir.",
+      "width": 132,
+      "height": 138,
+      "format": "WEBP",
+      "sha256": "8c7fbb136e38f75d87419eadb9920f2605212466a22b50b6bd3105616e5c4bc2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/jotunnskolldirblueingame-9480c895.webp",
+      "source_name": "Jotunnskolldirblueingame.png",
+      "alt": "Jotunn Skølldir.",
+      "width": 132,
+      "height": 139,
+      "format": "WEBP",
+      "sha256": "9480c895d057d084f95be0302928089f834c1e3fd9d04de7614af0e02b1eb2af",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/ui-minimap-player-brute-0-f1d48d19.webp",
+      "source_name": "Ui minimap player brute 0.png",
+      "alt": "Ui minimap player brute 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "f1d48d19de2bbb6335d2d8202707143755b37081cb68fa6643d6fd3e31915e9a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/classicon-brute-40c7bdf5.webp",
+      "source_name": "Classicon Brute.png",
+      "alt": "Classicon Brute",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "40c7bdf5aac04b04a8017ec2dc477008370492ffca581c1d9b2a6f8a7a0b83ef",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/characterrender-skolldir-yogscast-redbg-f1bf8975.webp",
+      "source_name": "CharacterRender skØlldir Yogscast redBG.png",
+      "alt": "CharacterRender skØlldir Yogscast redBG",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "f1bf897529c3b07d293573128bf6a553462e37536d74b89ca89765d4be688dd8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/skolldir-e3745428.webp",
+      "source_name": "Skolldir.png",
+      "alt": "Skolldir",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "e3745428e6dcffe91b90288aa97b65e24e35550ae440ae6836d45355cbae4fb0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/characterrender-skolldir-skin-lavaiceskin-redbg-d1fa44ef.webp",
+      "source_name": "CharacterRender skØlldir Skin LavaIceSkin redBG.png",
+      "alt": "CharacterRender skØlldir Skin LavaIceSkin redBG",
+      "width": 180,
+      "height": 212,
+      "format": "WEBP",
+      "sha256": "d1fa44ef72826b1e3579d454a4a17cf9185a675f99673279f8e3edbbaea4fccb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/skincontest3-26f4c72a.webp",
+      "source_name": "Skincontest3.jpg",
+      "alt": "Click to enlarge.",
+      "width": 250,
+      "height": 139,
+      "format": "WEBP",
+      "sha256": "26f4c72a85472707f74746efe5bda12016b40784e8bd1d737138e5022cf2c6f2",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes"
+    ],
+    "status": "extracted"
+  }
+}

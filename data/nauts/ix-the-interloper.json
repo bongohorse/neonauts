@@ -1,0 +1,960 @@
+{
+  "schema_version": 1,
+  "name": "Ix the Interloper",
+  "slug": "ix-the-interloper",
+  "source": {
+    "filename": "Ix.the.Interloper.-.Official.Awesomenauts.Wiki.10.10.2026.17.51.45.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Ix_the_Interloper",
+    "sha256": "b22a243fad290dc2f0bc8bf6b740a1c6982141add975e3306a53bab4ce376377",
+    "size_bytes": 2515331
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1250 (2200)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Medium Range"
+    },
+    {
+      "label": "Role",
+      "value": "Support"
+    },
+    {
+      "label": "Mobility",
+      "value": "Swift"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Hard",
+    "Development Name": "Shifter",
+    "Type of abilities": "Amplify Damage , Healing , Lifesteal , Shield , Displacement , Weaken , Empower , Slow",
+    "Release Date": "July 7th 2016"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Psionic Bond / Displace",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Psionic_Bond_/_Displace",
+      "description": "Throw a crystal against another naut to create a bond, healing allies or damaging enemies upon connection. While bonded, use the skill again to switch places with the naut. The bond breaks when the line reaches its limit, when it collides with a turret/team wall or when it expires.",
+      "values": [
+        {
+          "label": "Heal",
+          "value": "160 (251.2)"
+        },
+        {
+          "label": "Heal over time",
+          "value": "75 (117.75)"
+        },
+        {
+          "label": "Damage",
+          "value": "160 (251.2)"
+        },
+        {
+          "label": "Damage per second",
+          "value": "65 (102.05)"
+        },
+        {
+          "label": "Duration",
+          "value": "3s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "8s"
+        },
+        {
+          "label": "Cooldown (Displace)",
+          "value": "12s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Radiate",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Radiate",
+      "description": "Shoot a crystalline bolt and short ranged scattering crystals.",
+      "values": [
+        {
+          "label": "Bolt damage",
+          "value": "60 (94.2)"
+        },
+        {
+          "label": "Scatter damage",
+          "value": "12 (18.84)"
+        },
+        {
+          "label": "Attacks per second",
+          "value": "2.2"
+        },
+        {
+          "label": "Scatter amount",
+          "value": "3"
+        },
+        {
+          "label": "Bolt range",
+          "value": "6.6"
+        },
+        {
+          "label": "Scatter range",
+          "value": "2.9"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Refract",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Refract",
+      "description": "Disperse into energized crystals to become impervious to any damage and crowd control effects.",
+      "values": [
+        {
+          "label": "Duration",
+          "value": "0.8s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "10s"
+        },
+        {
+          "label": "Invulnerable",
+          "value": "Yes"
+        },
+        {
+          "label": "Crowd control immunity",
+          "value": "Yes"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Crystallized Ascension",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Crystallized_Ascension",
+      "description": "Ascend into the air and stay afloat by using the crystal's powers.",
+      "values": [
+        {
+          "label": "Jumps",
+          "value": "2"
+        },
+        {
+          "label": "Jump height",
+          "value": "7.8"
+        },
+        {
+          "label": "Hover time",
+          "value": "2s"
+        },
+        {
+          "label": "Hover extra height",
+          "value": "12"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Crystal Leaves",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Crystal_Leaves",
+      "group": "Psionic Bond / Displace",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Vegan Sewer Pizza",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Vegan_Sewer_Pizza",
+      "group": "Psionic Bond / Displace",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mammoth Hair Scarf",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mammoth_Hair_Scarf",
+      "group": "Psionic Bond / Displace",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Overexposed Nature Photo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Overexposed_Nature_Photo",
+      "group": "Psionic Bond / Displace",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Tree Hugger",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tree_Hugger",
+      "group": "Psionic Bond / Displace",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Root Tea",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Root_Tea",
+      "group": "Psionic Bond / Displace",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Diamond Pickaxe",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Diamond_Pickaxe",
+      "group": "Refract",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Shredded Mining Permit",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Shredded_Mining_Permit",
+      "group": "Refract",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Broken Solar Tree",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Broken_Solar_Tree",
+      "group": "Refract",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Salt Miner",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Salt_Miner",
+      "group": "Refract",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Zork Industries Porta Potty",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Zork_Industries_Porta_Potty",
+      "group": "Refract",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Robot Wrecking Ball",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Robot_Wrecking_Ball",
+      "group": "Refract",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Personality Crystal",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Personality_Crystal",
+      "group": "Radiate",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Crystal Crunch",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Crystal_Crunch",
+      "group": "Radiate",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Time-Travelled Diamond",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Time-Travelled_Diamond",
+      "group": "Radiate",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Shrubbery Gems",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Shrubbery_Gems",
+      "group": "Radiate",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Luxor's Purest Crystal",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Luxor%27s_Purest_Crystal",
+      "group": "Radiate",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Prismatic Moonstone Dust",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Prismatic_Moonstone_Dust",
+      "group": "Radiate",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Crystallized Ascension",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Crystallized Ascension",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Crystallized Ascension",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Crystallized Ascension",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Crystallized Ascension",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Crystallized Ascension",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Steel Seraph Ix",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "As angels are usually peaceful and quite focused on their herbal infusions, the Heavens did little more than weep as soulless robots and demonic mercenaries slowly spread across the galaxy. However, one of these angels could no longer stand idly by and decided that the time had come to intervene in the realm of mortals."
+        },
+        {
+          "type": "paragraph",
+          "text": "Turning the weapons of the robotic overlords against themselves, this angel became an armored being of high-tech destruction. Now this fusion-powered, nano-enhanced, tungsten-plated angel is feared across the galaxy. In their frightened whispers its adversaries call this mysterious being 'the Steel Seraph'."
+        },
+        {
+          "type": "paragraph",
+          "text": "Having made landfall on Luxor, the Steel Seraph strikes fear in the hearts of all droids, robots, and demonic influences in the region of space dominated by the ones and zeros. Its first destination? The Awesomenauts!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Ix the Interloper in Awesomenauts, and comes with a fully customized voice set! If you have not unlocked the character yet, purchasing this content will do so. Steel Seraph Ix has unique voicelines when encountering robotic or demonic opponents. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin makes Ix into a robotic angel. He has a visor instead of a face, with a crystal floating slightly above his head. He has large shoulder pads and two holographic wings on his back. The bottom of his feet have jet thrusters, which can be seen when he moves and jumps. He leaves a green glow effect whenever he moves."
+        },
+        {
+          "type": "paragraph",
+          "text": "The projectiles for Radiate are holographic and more streamlined. Many of his particles are changed into polygon grids, including the impact of Radiate bolt, particles from Refract, and the dust trail from Prismatic Moonstone Dust. The projectile from Psionic Bond is a mechanical claw and the bond itself is thicker. Displace has the same polygon appearance. Refract becomes a forcefield surrounding Ix."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with custom voice acting and voice lines."
+        }
+      ],
+      "assets": [
+        "asset-035"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Ix was a courageous Luxuxi spirit who roamed the crystal planet of Luxor. Carefree and totally zenned out, the infinite crystal reflections were all the family and friends Ix needed. But then the Disaster struck. Intergalactic megacorporations started to drill Luxor’s dark side on a massive scale, as it housed unusually energetic crystals."
+      },
+      {
+        "type": "paragraph",
+        "text": "At first Ix tried to ‘discourage’ the miners in various ways. Most annoying was when he swapped the sugar for crystals, causing several aliens to break their teeth and having to stop using sugar in their coffee altogether. Despite the meddling of this ethereal interloper however, the miners kept drilling with dogged determination."
+      },
+      {
+        "type": "paragraph",
+        "text": "In a flash of self-righteous outrage over this, Ix merged its life force with some high-energy crystals. This unprecedented merging of forces finally gave Ix a corporeal form. Harnessing the energies of this new crystalline body, Ix razed the miner’s facilities to the ground. The destruction of their Zork industries porta potties turned out to be the last straw, as the miners finally gave up and left."
+      },
+      {
+        "type": "paragraph",
+        "text": "Feeling particularly good about himself after this deed, Ix decided to keep harassing intergalactic mining operations. After a while Blabl Zork got wind of this raw talent for drill destruction. He then convinced Ix to join the Awesomenauts by presenting the mercenary team as an environmental force for good."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "As angels are usually peaceful and quite focused on their herbal infusions, the Heavens did little more than weep as soulless robots and demonic mercenaries slowly spread across the galaxy. However, one of these angels could no longer stand idly by and decided that the time had come to intervene in the realm of mortals."
+      },
+      {
+        "type": "paragraph",
+        "text": "Turning the weapons of the robotic overlords against themselves, this angel became an armored being of high-tech destruction. Now this fusion-powered, nano-enhanced, tungsten-plated angel is feared across the galaxy. In their frightened whispers its adversaries call this mysterious being 'the Steel Seraph'."
+      },
+      {
+        "type": "paragraph",
+        "text": "Having made landfall on Luxor, the Steel Seraph strikes fear in the hearts of all droids, robots, and demonic influences in the region of space dominated by the ones and zeros. Its first destination? The Awesomenauts!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Ix the Interloper in Awesomenauts, and comes with a fully customized voice set! If you have not unlocked the character yet, purchasing this content will do so. Steel Seraph Ix has unique voicelines when encountering robotic or demonic opponents. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin makes Ix into a robotic angel. He has a visor instead of a face, with a crystal floating slightly above his head. He has large shoulder pads and two holographic wings on his back. The bottom of his feet have jet thrusters, which can be seen when he moves and jumps. He leaves a green glow effect whenever he moves."
+      },
+      {
+        "type": "paragraph",
+        "text": "The projectiles for Radiate are holographic and more streamlined. Many of his particles are changed into polygon grids, including the impact of Radiate bolt, particles from Refract, and the dust trail from Prismatic Moonstone Dust. The projectile from Psionic Bond is a mechanical claw and the bond itself is thicker. Displace has the same polygon appearance. Refract becomes a forcefield surrounding Ix."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with custom voice acting and voice lines."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ix is the first Awesomenaut not to have a defined gender. They were altered from male to genderless by Ronimo Games, presumably to make their voice acting contest more accessible.",
+          "Ix the Interloper was the second fan-made Awesomenaut to be added in the game (after Admiral Swiggins). They were designed by community member conorbebe and was chosen as one of the top 5 finalists in the Design-Your-Naut 2 contest (out of 944 entries), along with P. Geist, Ow Ling & Ow Lei, Valentina and Samuel. Ix received the most votes, being chosen by the community to be added to the Awesomenauts cast. A second contest was hosted to decide on Ix's appearance which was won by PixelHat, who won the most votes over the other five finalists. Ix's current splash art was also drawn by PixelHat[21]. It was redrawn to better match the sprite, which had been changed to increase readability.",
+          "Ix is the first naut to have their voice defined via a contest, together with Sonic Picnic, Ronimo Games narrowed their choices down to 4 unannounced finalists. And stated that a voting system similarly to the one used in the previous contest (which decided on Ix's appearance) was going to be used to determine his voice[22]. Later however, Sonic Picnic and \"some audiophiles\" from Ronimo decided that one (then unknown) finalist clearly stood out above the rest, making them decide against a vote[23]. Ronimo also stated that the runner up voice, while unsuitable for Ix, could be used in another, future 'naut, but didn't confirm this or elaborate any further. On June 15th 2016, during the Streamisho, Ronimo Games announced that Arin Scalfo won the Ix voice acting competition.",
+          "Ix's theme is performed by Mr Macke[24], a community member known for his a capella covers of the 'Naut themes."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ix art contest finalists: (left to right) Sandokan, PixelHat, Desastre, Lune, Enos, lowgrasswhite.",
+          "Ix's initial design that won the contest.",
+          "Ix's voice acting contest banner."
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Radiate bolt may be ranged, but most of Ix's damage comes from the scatter, making him most deadly in melee range.",
+          "Always be mindful of where you are and where your target is during displacement to avoid accidentally putting yourself in a bad spot.",
+          "Open every engagement by creating a Psionic Bond. Its benefits are crucial to Ix's teamfight power.",
+          "If you see a low health teammate fleeing an enemy, immediately use Psionic Bond. You can either heal them to safety, or Displace to substitute them for yourself and begin attacking.",
+          "Both Ix and his target are untargetable while displacement takes place. Time this accordingly to protect you and/or allies from damage, but be careful when displacing enemies, as you may accidentally protect them from your team's own damage.",
+          "You can Displace a fleeing enemy to set them farther from safety and block their path of escape.",
+          "Try to only Displace when you really need it. Displacing puts Psionic Bond on a longer cooldown, which may hurt your next engagement.",
+          "Displace can also be used as an escape. Simply bond with an enemy who's ahead of you then reactivate to travel forwards.",
+          "Don't be disappointed if Psionic Bond hit an ally instead of an enemy by mistake. All of Ix's upgrades benefit both it's offensive and supportive utilities. Simply switch your focus to aiding your ally.",
+          "Combined with Ix's powerful jump, Refract allows Ix to extend much further than he should be able to. You can use this to chase or push more safely.",
+          "Refract is most powerful against telegraphed burst like Snipe or Airstrike.",
+          "Refract doesn't need to block damage to be an effective escape. You can use the floating effect to trick opponents by staying in the air at times they'd expect you to fall.",
+          "The combination of Salt Miner and Shredded Mining Permit can turn Refract into a shockingly effective combat tool.",
+          "Ix's chase is very strong with Mammoth Hair Scarf. It can either let him slow an enemy down, or speed himself and a teammate up."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ix can use his Psionic Bond to heal you and (with certain upgrades) give you extra effects. Stay close to Ix, as the bond will still break with distance.",
+          "If you are playing a 'naut that's very dangerous at melee range (such as Clunk, Ayla or Skølldir, for instance) consider coordinating with Ix and having him charge at the enemy team and quickly displacing, putting you in range of your enemies more quickly.",
+          "When playing a very mobile 'naut, consider slowing down a bit if you feel like Ix is trying to heal you. Psionic Bond can still miss.",
+          "Keep an eye on Ix if he has an enemy bonded. Watch for a Displace; it has a notable cast time, so you can prepare to attack the Displaced enemy. Alternatively, try to cover Ix's escape if he misjudged his Displace and is in a bad spot."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Outside of Radiate, Ix doesn't do much damage. Keep your distance and he will be less effective.",
+          "While immune to all sorts of crowd control, Refract \"only\" makes Ix invincible, not untargetable. Lifesteal effects such as Vacuum Bite and damage over time effects can still be applied to him.",
+          "If Ix has you in a Psionic Bond, get behind a Turret or team barrier, or simply run away to break it. Alternatively, if you have good escape, save it for when Ix Displaces you. If neither turrets nor energy walls are available, try to stick to your teammates: This will make displacement more risky for Ix, should he attempt it against your team.",
+          "If you are close to the point where Ix will appear after displacing, save your burst to \"welcome\" him. Be careful though, as he might immediatly use Refract on arrival.",
+          "Stuns will break Psionic Bond, preventing the damage or healing effect and stopping Ix from using Displace.",
+          "Although arguably risky, consider putting yourself between Ix and a low health ally of his to make it harder for him to land Psionic Bond on them.",
+          "Refract is only as effective as Ix's reaction time. The element of surprise can be used to catch him with slower burst skills.",
+          "You may not be able to hurt Ix during Refract, but he will slow down and be unable to attack you. Use this moment to prepare your attack.",
+          "As with all mobile, squishy Awesomenauts, Ix is weak to Crowd Control effects. Careful timing is needed however: Refract protects him from CCs too."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/ix-splash-art-001-61d3ae7c.webp",
+      "source_name": "Ix splash art 001.png",
+      "alt": "Ix splash art 001",
+      "width": 512,
+      "height": 368,
+      "format": "WEBP",
+      "sha256": "61d3ae7cccd6134347db83c6290546e643e353d09ae5e620a3b7509a02e31fed",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-shifter-bondnew-fa469342.webp",
+      "source_name": "UI Skillbutton Shifter Bondnew.png",
+      "alt": "UI Skillbutton Shifter Bondnew",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "fa469342c4a0cc994292eb891989f77202822eff885d4a0a529bfce1f0b43dc9",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-shifter-attacknew-563e6768.webp",
+      "source_name": "UI Skillbutton Shifter Attacknew.png",
+      "alt": "UI Skillbutton Shifter Attacknew",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "563e676898b76a0547684f1c956205b549a3958d67cabadc3f15a9977a5829c7",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-shifter-refractnew-a5abbe88.webp",
+      "source_name": "UI Skillbutton Shifter Refractnew.png",
+      "alt": "UI Skillbutton Shifter Refractnew",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "a5abbe88feedeceee34f97b45a0b3ad100874666e60fc7d42d9f8761a7d4c7fd",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-shifter-jumpnew-0f7e6333.webp",
+      "source_name": "UI Skillbutton Shifter Jumpnew.png",
+      "alt": "UI Skillbutton Shifter Jumpnew",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "0f7e633319c30af6dfbdfd2f9a5f1e5137a523948dc96e9b598f3df6b8d3db1b",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-shifter-skill-a-upgrade-anew-b841528e.webp",
+      "source_name": "Shop Icons Shifter skill a upgrade anew.png",
+      "alt": "Shop Icons Shifter skill a upgrade anew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b841528efbc384d0a4c8ffbae5197d04a7daef9ebc6bef78ff7221f80b3926d4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-shifter-skill-a-upgrade-bnew-ea659b74.webp",
+      "source_name": "Shop Icons Shifter skill a upgrade bnew.png",
+      "alt": "Shop Icons Shifter skill a upgrade bnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ea659b740f51cb4d99c80c5e4c89d92af272aa6b911d59a5b192a4a83c5ee689",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-shifter-skill-a-upgrade-cnew-6fa31af3.webp",
+      "source_name": "Shop Icons Shifter skill a upgrade cnew.png",
+      "alt": "Shop Icons Shifter skill a upgrade cnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6fa31af3e870d075f1538d1d72f7a5f6c9aef144fdd5928fbc3ebd99e4c3ebaa",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-shifter-skill-a-upgrade-dnew-11db95d7.webp",
+      "source_name": "Shop Icons Shifter skill a upgrade dnew.png",
+      "alt": "Shop Icons Shifter skill a upgrade dnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "11db95d763524e1513bbc06d6e90bae14fa26cc0b549f3393731e43d96f49668",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-shifter-skill-a-upgrade-enew-00ae022b.webp",
+      "source_name": "Shop Icons Shifter skill a upgrade enew.png",
+      "alt": "Shop Icons Shifter skill a upgrade enew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "00ae022b38d97da71f44f30996dd8d5cb7b388341a227083dc1436d3dddcaac5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-shifter-skill-a-upgrade-fnew-e6881844.webp",
+      "source_name": "Shop Icons Shifter skill a upgrade fnew.png",
+      "alt": "Shop Icons Shifter skill a upgrade fnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e68818441fad9e5237916ed79760023d8a5f89e76c8c759834b4971db97a52da",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-shifter-skill-b-upgrade-anew-9f3148e3.webp",
+      "source_name": "Shop Icons Shifter skill b upgrade anew.png",
+      "alt": "Shop Icons Shifter skill b upgrade anew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9f3148e343fc50beef8e0215cbc8331dbc83b7373d5a54182a162f131eedd57b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-shifter-skill-b-upgrade-bnew-851ef126.webp",
+      "source_name": "Shop Icons Shifter skill b upgrade bnew.png",
+      "alt": "Shop Icons Shifter skill b upgrade bnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "851ef126efce416ea7647dfc7ea92ea4ad35f5a8f79091759af64fff8dc73480",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-shifter-skill-b-upgrade-cnew-706f36d3.webp",
+      "source_name": "Shop Icons Shifter skill b upgrade cnew.png",
+      "alt": "Shop Icons Shifter skill b upgrade cnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "706f36d3b333c16885bc7c93244f36afec08dd92c1dedc2d4f8ebbf61580ca78",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-shifter-skill-b-upgrade-dnew-c1a89cb2.webp",
+      "source_name": "Shop Icons Shifter skill b upgrade dnew.png",
+      "alt": "Shop Icons Shifter skill b upgrade dnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c1a89cb212dace30cb474157e505bc7b4ebb7a140f38704b060b2da0da8732d3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-shifter-skill-b-upgrade-enew-f33aca5c.webp",
+      "source_name": "Shop Icons Shifter skill b upgrade enew.png",
+      "alt": "Shop Icons Shifter skill b upgrade enew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f33aca5cd38bb549def9e681ea1d02df3b712b606437e6a1b613fba2ec4186b0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-shifter-skill-b-upgrade-fnew-4f40db6a.webp",
+      "source_name": "Shop Icons Shifter skill b upgrade fnew.png",
+      "alt": "Shop Icons Shifter skill b upgrade fnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4f40db6aeb214c9e7892a35d9a2b82d4c0d79d8dc0f165ac76a792a2260b3dd3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-shifter-skill-c-upgrade-anew-339ec969.webp",
+      "source_name": "Shop Icons Shifter skill c upgrade anew.png",
+      "alt": "Shop Icons Shifter skill c upgrade anew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "339ec969d7f7e1fcdf3b3ae792f5d79ed75d08324d08223e0f6c18af13ccba8c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-shifter-skill-c-upgrade-bnew-3f739a9b.webp",
+      "source_name": "Shop Icons Shifter skill c upgrade bnew.png",
+      "alt": "Shop Icons Shifter skill c upgrade bnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3f739a9b85deee941e72af1d9243c8b7f527a48cce589fe326e01785d543615b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-shifter-skill-c-upgrade-cnew-acf463c0.webp",
+      "source_name": "Shop Icons Shifter skill c upgrade cnew.png",
+      "alt": "Shop Icons Shifter skill c upgrade cnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "acf463c05b6f4e5e179c984343018a8f3d50320166a09f0c7d4bac297a26404c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-shifter-skill-c-upgrade-enew-bd1d41ae.webp",
+      "source_name": "Shop Icons Shifter skill c upgrade enew.png",
+      "alt": "Shop Icons Shifter skill c upgrade enew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bd1d41ae096b348650efa4caf6f5b627f45c5d442abf60d9a713acff2431bc6b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-shifter-skill-c-upgrade-dnew-2ac0a0bb.webp",
+      "source_name": "Shop Icons Shifter skill c upgrade dnew.png",
+      "alt": "Shop Icons Shifter skill c upgrade dnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2ac0a0bb5736315c1a0724df7846b0d48a664e29154ed92b44c31faf827e568a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-shifter-skill-c-upgrade-fnew-cb39025e.webp",
+      "source_name": "Shop Icons Shifter skill c upgrade fnew.png",
+      "alt": "Shop Icons Shifter skill c upgrade fnew",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cb39025ec406e0de0360c939e987017ee6432f22c010b856c9e3d1d29ce4bf57",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/ixingameblue2-de1d156d.webp",
+      "source_name": "Ixingameblue2.png",
+      "alt": "Default skin.",
+      "width": 106,
+      "height": 207,
+      "format": "WEBP",
+      "sha256": "de1d156d4408f8cd09f09eacd76422d12caa4ba2ebb2b822907fc7792eee4cf7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/steelseraphixingamered-0f5f1aab.webp",
+      "source_name": "Steelseraphixingamered.png",
+      "alt": "Steel Seraph Ix.",
+      "width": 163,
+      "height": 211,
+      "format": "WEBP",
+      "sha256": "0f5f1aab350ce6d5f189e93c36973f2278b2ff0513252846c4a24c8e779e4a20",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/steelseraphixingameblue-ad3c5d6d.webp",
+      "source_name": "Steelseraphixingameblue.png",
+      "alt": "Steel Seraph Ix.",
+      "width": 162,
+      "height": 201,
+      "format": "WEBP",
+      "sha256": "ad3c5d6df3a1a5d0b48f25200e25b2bd7c5167c86b9cfc88a9ba5ec102d75f8b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/ui-minimap-player-shifter-0-2b9dce24.webp",
+      "source_name": "Ui minimap player shifter 0.png",
+      "alt": "Ui minimap player shifter 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "2b9dce24d7b762cb93969bd8ab7284451d6c6bd692fe8fd68ae4845919969254",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/classicon-shifter-8c744757.webp",
+      "source_name": "Classicon Shifter.png",
+      "alt": "Classicon Shifter",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "8c74475711d23cdc0e60011c6f574f563ee45c2e01a5b2a14b69f6b7dbee9772",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/ui-portraitcharacter-shifter002-body-c14cad7e.webp",
+      "source_name": "UI PortraitCharacter Shifter002 body.png",
+      "alt": "UI PortraitCharacter Shifter002 body",
+      "width": 250,
+      "height": 250,
+      "format": "WEBP",
+      "sha256": "c14cad7eca855c9b58a4952127b7513ddfd0b039fed05c199d20b067ee3f5117",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/ixartcontestfinalists-968737bf.webp",
+      "source_name": "Ixartcontestfinalists.png",
+      "alt": "Ix art contest finalists: (left to right) Sandokan, PixelHat, Desastre, Lune, Enos, lowgrasswhite.",
+      "width": 120,
+      "height": 18,
+      "format": "WEBP",
+      "sha256": "968737bf1b8b3c2106888d5e357a9786d5804bc34b6b697ab8802c1e69671b67",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/ix-first-concept-1e4e6d60.webp",
+      "source_name": "Ix first concept.png",
+      "alt": "Ix's initial design that won the contest.",
+      "width": 93,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "1e4e6d6049064a5bb7612462a1dceb6b34548329c2934c3b826b22fe134380eb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/ixvoice-d72b73d8.webp",
+      "source_name": "Ixvoice.jpg",
+      "alt": "Ix's voice acting contest banner.",
+      "width": 120,
+      "height": 53,
+      "format": "WEBP",
+      "sha256": "d72b73d85a5cd18d081f04b57932160b438d5480a375df3a4ddd5a85e0a321df",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_lazy_image",
+        "image": "Ixingamered2.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/a/a4/Ixingamered2.png/revision/latest?cb=20160624165240"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Steel Seraph Quotes"
+    ],
+    "status": "partial"
+  }
+}
