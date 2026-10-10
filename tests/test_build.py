@@ -5,8 +5,17 @@ import unittest
 from pathlib import Path
 from lxml import html
 from build import build, make_dossier, page_data, ROOT
+from check import check
 
 class BuildTests(unittest.TestCase):
+    def test_github_pages_prefix_and_404_assets(self):
+        with tempfile.TemporaryDirectory() as temp:
+            out=build(Path(temp)/'site',base_path='/neonauts/')
+            doc=html.fromstring((out/'404.html').read_text())
+            self.assertIn('/neonauts/styles.css',doc.xpath('//link/@href'))
+            self.assertIn('/neonauts/index.html#nauts',doc.xpath('//a/@href'))
+            check(out)
+
     def test_build_is_deterministic_and_pages_are_separate(self):
         with tempfile.TemporaryDirectory() as temp:
             out=Path(temp)/'site';build(out)

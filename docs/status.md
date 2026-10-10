@@ -12,11 +12,14 @@
 - Six maps, holiday archive and existing community features retained.
 - Public service configuration separated from behaviour scripts.
 - GitHub CI and a manually triggered Neocities upload workflow prepared.
+- GitHub Pages preview workflow added, including project-prefix-safe 404 pages.
+  Preview URL: https://bongohorse.github.io/neonauts/
+  Initial activation uses Settings → Pages → Source → GitHub Actions.
 - Sources, Windows setup, import flow and remaining tasks documented.
 
 ## Verification
 
-12 extractor/build tests pass locally. Site checks pass for local HTML links,
+13 extractor/build tests pass locally. Site checks pass for local HTML links,
 CSS paths, IDs, ARIA references, JavaScript syntax, decoded raster images and
 Naut asset references. Guestbook origin/length/honeypot checks, cooldown,
 pending moderation and published feed pass in an in-memory Worker test.

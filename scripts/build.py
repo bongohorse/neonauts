@@ -112,7 +112,9 @@ def make_dossier(template, data, runtime):
     stage.xpath('.//*[@id="skin-position"]')[0].text='01 / '+str(len(runtime['skins'])).zfill(2)
     return dossier
 
-def build(output=None):
+def build(output=None, base_path='/'):
+    if not re.fullmatch(r'/(?:[A-Za-z0-9_-]+/)*',base_path):
+        raise ValueError('base_path must be an absolute directory path ending in /')
     output = Path(output) if output else ROOT/'dist'
     # Do not delete an arbitrary directory if a caller mistypes --out.
     if output.resolve() == ROOT.resolve() or ROOT.resolve().is_relative_to(output.resolve()):
@@ -121,7 +123,7 @@ def build(output=None):
         if not (output/'.neonauts-build').exists(): raise ValueError('Output directory is not a marked build directory')
         shutil.rmtree(output)
     shutil.copytree(ROOT/'src/static',output)
-    (output/'.neonauts-build').write_text('generated\n')
+    (output/'.neonauts-build').write_text(json.dumps({'base_path':base_path})+'\n')
     (output/'config.js').write_text(js_assignment('siteConfig',load(ROOT/'site.config.json')),encoding='utf-8')
     datasets = [load(p) for p in sorted((ROOT/'data/nauts').glob('*.json'))]
     overrides=load(ROOT/'data/presentation.json')
@@ -181,10 +183,17 @@ def build(output=None):
                 anchor.set('href','#'+anchor.get('href').split('/#')[-1])
             (output/'index.html').write_text('<!doctype html>\n'+html.tostring(root_doc,encoding='unicode',method='html'),encoding='utf-8')
     for name in ['404.html','not_found.html']:
-        shutil.copyfile(ROOT/'src/templates'/name,output/name)
+        error_page=html.fromstring((ROOT/'src/templates'/name).read_text(encoding='utf-8'))
+        for node in error_page.xpath('//*[@href] | //*[@src]'):
+            for attr in ['href','src']:
+                value=node.get(attr,'')
+                if value.startswith('/') and not value.startswith('//'):
+                    node.set(attr,base_path+value.lstrip('/'))
+        (output/name).write_text('<!doctype html>\n'+html.tostring(error_page,encoding='unicode',method='html'),encoding='utf-8')
     print(f'Built {len(datasets)} Naut pages in {output}')
     return output
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path)
-    build(parser.parse_args().out)
+    parser.add_argument('--base-path',default='/')
+    args=parser.parse_args();build(args.out,args.base_path)

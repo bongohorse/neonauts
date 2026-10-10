@@ -3,6 +3,13 @@
 Unofficial Awesomenauts fan archive for Neocities. The interface is English;
 the visual language follows the game UI, with an open space background.
 
+**Website preview:** https://bongohorse.github.io/neonauts/
+
+The preview is published by GitHub Pages after the one-time activation in
+Settings → Pages → Source → GitHub Actions. See [preview setup](docs/github-pages.md).
+Every subsequent push to `main` rebuilds and updates the preview automatically.
+Neocities remains available as the separate publication target.
+
 The repository is the maintained source. A small Python build generates static
 HTML, CSS, JavaScript and external images in `dist/`. No server or Python is
 needed on Neocities. Each Naut has its own JSON file and URL; the browser does
