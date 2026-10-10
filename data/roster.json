@@ -1,0 +1,308 @@
+[
+  {
+    "image": "assets/nauts/IconCharacterFroggy_G.webp",
+    "name": "Froggy G",
+    "available": false,
+    "row": 0,
+    "x": 80,
+    "y": 52.0,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterSheriff_Lonestar.webp",
+    "name": "Sheriff Lonestar",
+    "available": false,
+    "row": 0,
+    "x": 160,
+    "y": 52.0,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterLeon_Chameleon.webp",
+    "name": "Leon Chameleon",
+    "available": false,
+    "row": 0,
+    "x": 240,
+    "y": 52.0,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterScoop_of_Justice.webp",
+    "name": "Scoop",
+    "available": false,
+    "row": 0,
+    "x": 320,
+    "y": 52.0,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterGnaw.webp",
+    "name": "Gnaw",
+    "available": false,
+    "row": 0,
+    "x": 400,
+    "y": 52.0,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterRaelynn.webp",
+    "name": "Raelynn",
+    "available": false,
+    "row": 0,
+    "x": 480,
+    "y": 52.0,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterAyla.webp",
+    "name": "Ayla",
+    "available": false,
+    "row": 0,
+    "x": 40,
+    "y": 52.0,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterClunk.webp",
+    "name": "Clunk",
+    "available": false,
+    "row": 0,
+    "x": 120,
+    "y": 52.0,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterVoltar_the_Omniscient.webp",
+    "name": "Voltar the Omniscient",
+    "available": false,
+    "row": 0,
+    "x": 200,
+    "y": 52.0,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterCoco_Nebulon.webp",
+    "name": "Coco Nebulon",
+    "available": false,
+    "row": 0,
+    "x": 280,
+    "y": 52.0,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterSkolldir.webp",
+    "name": "Skølldir",
+    "available": false,
+    "row": 0,
+    "x": 360,
+    "y": 52.0,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterYuri.webp",
+    "name": "Yuri",
+    "available": false,
+    "row": 0,
+    "x": 440,
+    "y": 52.0,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterDerpl_Zork.webp",
+    "name": "Derpl Zork",
+    "available": false,
+    "row": 1,
+    "x": 40,
+    "y": 121.28203230275508,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterVinnie_and_Spike.webp",
+    "name": "Vinnie and Spike",
+    "available": false,
+    "row": 1,
+    "x": 120,
+    "y": 121.28203230275508,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterGenji_the_Pollen_Prophet.webp",
+    "name": "Genji the Pollen Prophet",
+    "available": false,
+    "row": 1,
+    "x": 200,
+    "y": 121.28203230275508,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterAdmiral_Swiggins.webp",
+    "name": "Admiral Swiggins",
+    "available": true,
+    "row": 1,
+    "x": 280,
+    "y": 121.28203230275508,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterRocco.webp",
+    "name": "Rocco",
+    "available": false,
+    "row": 1,
+    "x": 360,
+    "y": 121.28203230275508,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterKsenia.webp",
+    "name": "Ksenia",
+    "available": false,
+    "row": 1,
+    "x": 440,
+    "y": 121.28203230275508,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterIx_the_Interloper.webp",
+    "name": "Ix the Interloper",
+    "available": false,
+    "row": 1,
+    "x": 80,
+    "y": 121.28203230275508,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterTed_McPain.webp",
+    "name": "Ted McPain",
+    "available": false,
+    "row": 1,
+    "x": 160,
+    "y": 121.28203230275508,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterPenny_Fox.webp",
+    "name": "Penny Fox",
+    "available": false,
+    "row": 1,
+    "x": 240,
+    "y": 121.28203230275508,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterSentry_X-58.webp",
+    "name": "Sentry X-58",
+    "available": false,
+    "row": 1,
+    "x": 320,
+    "y": 121.28203230275508,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterSkree.webp",
+    "name": "Skree",
+    "available": false,
+    "row": 1,
+    "x": 400,
+    "y": 121.28203230275508,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterNibbs.webp",
+    "name": "Nibbs",
+    "available": false,
+    "row": 1,
+    "x": 480,
+    "y": 121.28203230275508,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterProfessor_Milton_Yoolip.webp",
+    "name": "Professor Yoolip",
+    "available": false,
+    "row": 2,
+    "x": 160,
+    "y": 190.56406460551017,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterChucho_Krokk.webp",
+    "name": "Chucho Krokk",
+    "available": false,
+    "row": 2,
+    "x": 240,
+    "y": 190.56406460551017,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterJimmy_And_The_Lux5000.webp",
+    "name": "Jimmy and the LUX5000",
+    "available": false,
+    "row": 2,
+    "x": 320,
+    "y": 190.56406460551017,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterMax_Focus.webp",
+    "name": "Max Focus",
+    "available": false,
+    "row": 2,
+    "x": 400,
+    "y": 190.56406460551017,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterDeadlift.webp",
+    "name": "Deadlift",
+    "available": false,
+    "row": 2,
+    "x": 480,
+    "y": 190.56406460551017,
+    "wing": "left"
+  },
+  {
+    "image": "assets/nauts/IconCharacterDizzy.webp",
+    "name": "Dizzy",
+    "available": false,
+    "row": 2,
+    "x": 40,
+    "y": 190.56406460551017,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterSmiles.webp",
+    "name": "Smiles",
+    "available": false,
+    "row": 2,
+    "x": 120,
+    "y": 190.56406460551017,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterCommander_Rocket.webp",
+    "name": "Commander Rocket",
+    "available": false,
+    "row": 2,
+    "x": 200,
+    "y": 190.56406460551017,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterQitara.webp",
+    "name": "Qi’Tara",
+    "available": false,
+    "row": 2,
+    "x": 280,
+    "y": 190.56406460551017,
+    "wing": "right"
+  },
+  {
+    "image": "assets/nauts/IconCharacterSnork_Gunk.webp",
+    "name": "Snork Gunk",
+    "available": false,
+    "row": 2,
+    "x": 360,
+    "y": 190.56406460551017,
+    "wing": "right"
+  }
+]

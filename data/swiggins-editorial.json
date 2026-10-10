@@ -1,0 +1,159 @@
+{
+  "assets": {
+    "logo": "assets/logo.webp",
+    "swiggins": "assets/swiggins.webp",
+    "hook": "assets/hook.webp",
+    "swing": "assets/swing.webp",
+    "drop": "assets/drop.webp",
+    "jump": "assets/jump.webp",
+    "swiggins-icon": "assets/swiggins-icon.webp",
+    "phd": "assets/phd.webp",
+    "abyssal": "assets/abyssal.webp"
+  },
+  "items": [
+    {
+      "name": "Flying Fish Compass",
+      "image": "assets/item-7.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Flying_Fish_Compass",
+      "row": 0
+    },
+    {
+      "name": "Blue Heart Medal",
+      "image": "assets/item-8.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Blue_Heart_Medal",
+      "row": 0
+    },
+    {
+      "name": "Mobile Periscope",
+      "image": "assets/item-9.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Mobile_Periscope",
+      "row": 0
+    },
+    {
+      "name": "Treasure Lottery Map",
+      "image": "assets/item-10.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Treasure_Lottery_Map",
+      "row": 0
+    },
+    {
+      "name": "Kraken Statue",
+      "image": "assets/item-11.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Kraken_Statue",
+      "row": 0
+    },
+    {
+      "name": "Ancient Octant",
+      "image": "assets/item-12.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Ancient_Octant",
+      "row": 0
+    },
+    {
+      "name": "Bovinian Skimmed Milk",
+      "image": "assets/item-14.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Bovinian_Skimmed_Milk",
+      "row": 1
+    },
+    {
+      "name": "Pneumatic Spoon",
+      "image": "assets/item-15.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Pneumatic_Spoon",
+      "row": 1
+    },
+    {
+      "name": "Alien Sweetener",
+      "image": "assets/item-16.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Alien_Sweetener",
+      "row": 1
+    },
+    {
+      "name": "Palladium Teabag Chain",
+      "image": "assets/item-17.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Palladium_Teabag_Chain",
+      "row": 1
+    },
+    {
+      "name": "Magnetic Anchor",
+      "image": "assets/item-18.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Magnetic_Anchor",
+      "row": 1
+    },
+    {
+      "name": "Double Glazed Royal Porcelain",
+      "image": "assets/item-19.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Double_Glazed_Royal_Porcelain",
+      "row": 1
+    },
+    {
+      "name": "Aquarium Pump",
+      "image": "assets/item-21.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Aquarium_Pump",
+      "row": 2
+    },
+    {
+      "name": "Energized Hook",
+      "image": "assets/item-22.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Energized_Hook",
+      "row": 2
+    },
+    {
+      "name": "Krill Biscuits",
+      "image": "assets/item-23.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Krill_Biscuits",
+      "row": 2
+    },
+    {
+      "name": "Not Seeweed",
+      "image": "assets/item-24.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Not_Seeweed",
+      "row": 2
+    },
+    {
+      "name": "Royal Toy Castle",
+      "image": "assets/item-25.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Royal_Toy_Castle",
+      "row": 2
+    },
+    {
+      "name": "Pool Boy",
+      "image": "assets/item-26.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Pool_Boy",
+      "row": 2
+    },
+    {
+      "name": "Power Pills Turbo",
+      "image": "assets/item-28.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "row": 3
+    },
+    {
+      "name": "Med-i'-can",
+      "image": "assets/item-29.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "row": 3
+    },
+    {
+      "name": "Space Air Max",
+      "image": "assets/item-30.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "row": 3
+    },
+    {
+      "name": "Barrier Magazine",
+      "image": "assets/item-31.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "row": 3
+    },
+    {
+      "name": "Piggy Bank",
+      "image": "assets/item-32.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "row": 3
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "image": "assets/item-33.webp",
+      "url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "row": 3
+    }
+  ]
+}

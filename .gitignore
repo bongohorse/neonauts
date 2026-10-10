@@ -1,0 +1,11 @@
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+sources/raw/
+imports/
+node_modules/
+*.zip

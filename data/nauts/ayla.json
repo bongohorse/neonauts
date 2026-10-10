@@ -1,0 +1,1031 @@
+{
+  "schema_version": 1,
+  "name": "Ayla",
+  "slug": "ayla",
+  "source": {
+    "filename": "Ayla - Official Awesomenauts Wiki (10.10.2026 17：45：05).html",
+    "url": "https://awesomenauts.fandom.com/wiki/Ayla",
+    "sha256": "cc2a078f4c48ae296d01e5a66351f7397aa2949f4b63ebfde9fceee0f531ff68",
+    "size_bytes": 2146017
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1400 (2464)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.3"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Fighter"
+    },
+    {
+      "label": "Mobility",
+      "value": "Balanced"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Hard",
+    "Development Name": "Vampire",
+    "Type of abilities": "Area of Effect , Damage Over Time , Flight , Lifesteal , Shield , Slow , No Collision",
+    "Release Date": "June 13th, 2013"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Evil Eye",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Evil_Eye",
+      "description": "Unleash your third eye. The evil eye is more effective the less health you have.",
+      "values": [
+        {
+          "label": "Health stages",
+          "value": "<100% <70% <45% <20%"
+        },
+        {
+          "label": "Damage",
+          "value": "300 (471)"
+        },
+        {
+          "label": "Extra Damage per Stage",
+          "value": "84 (131.88)"
+        },
+        {
+          "label": "Slowing Power",
+          "value": "7.5%"
+        },
+        {
+          "label": "Extra Slowing per Stage",
+          "value": "+7.5%"
+        },
+        {
+          "label": "Slow Duration",
+          "value": "2.5s"
+        },
+        {
+          "label": "Range",
+          "value": "9.2"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7.5s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Chain Whack",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chain_Whack",
+      "description": "Ayla swings the lock on her chain",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "80 (125.6)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "150"
+        },
+        {
+          "label": "Lifesteal",
+          "value": "20%"
+        },
+        {
+          "label": "Range",
+          "value": "2.6"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Rage",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rage",
+      "description": "Toggle rage mode on/off making Ayla float, and deal heavy damage",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "79 (124.03) (+15% per target)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "209.6"
+        },
+        {
+          "label": "Self damage",
+          "value": "40 (62.8)"
+        },
+        {
+          "label": "Size",
+          "value": "5.6"
+        },
+        {
+          "label": "Shield",
+          "value": "10% (+% per target)"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Hop Skip",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hop_Skip",
+      "description": "Ayla's favored mode of transportation is the ancient art of hop skipping. Constantly using this natural force of propulsion, her resulting muscles allow her stubby little legs to propel her into the great (depending on the current planet) blue yonder!",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "7.8"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Fresh Scrubs",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fresh_Scrubs",
+      "group": "Evil Eye",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Toothbrush Shank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Toothbrush_Shank",
+      "group": "Evil Eye",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fake Family Pictures",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fake_Family_Pictures",
+      "group": "Evil Eye",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Biter Mask",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Biter_Mask",
+      "group": "Evil Eye",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Jail Food",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Jail_Food",
+      "group": "Evil Eye",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dummy Prisoner",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dummy_Prisoner",
+      "group": "Evil Eye",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Angry Drawings",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Angry_Drawings",
+      "group": "Rage",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rip-Apart Bear",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rip-Apart_Bear",
+      "group": "Rage",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Neon Jumping Rope",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Neon_Jumping_Rope",
+      "group": "Rage",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Blue Three-Wheeler",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Blue_Three-Wheeler",
+      "group": "Rage",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rubberband Ball",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rubberband_Ball",
+      "group": "Rage",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fiery Jawbreakers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fiery_Jawbreakers",
+      "group": "Rage",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Thief Tools",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Thief_Tools",
+      "group": "Chain Whack",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hungry Zurian",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hungry_Zurian",
+      "group": "Chain Whack",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Explosive Neckband",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Explosive_Neckband",
+      "group": "Chain Whack",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Prison Guard Keys",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Prison_Guard_Keys",
+      "group": "Chain Whack",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ion Blowtorch",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ion_Blowtorch",
+      "group": "Chain Whack",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sonic Listening Device",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sonic_Listening_Device",
+      "group": "Chain Whack",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Hop Skip",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Hop Skip",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Hop Skip",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Solar Krab Burgers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Solar_Krab_Burgers",
+      "group": "Hop Skip",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Hop Skip",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Hop Skip",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Teddy Ayla",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Look who's here children: it's Teddy Ayla! Yay!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Teddy Bear, Teddy Bear, turn around! Teddy Bear, Teddy Bear, touch the ground! Teddy Bear, Teddy bear, polish your shoes! Teddy Bear, Teddy Bear, burn your enemies in a sea of fire! Teddy Bear, Teddy Bear, turn off the light! Teddy Bear, Teddy Bear, say goodnight!\" -Official Steam Store Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Ayla a bear suit wearing a ribbon, and a wooden bee hive for restraining her hands. Her chain's lock is replaced with a heart shape."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin creates new \"heart\" particles when Ayla goes in Rage mode, and the trail for Chain Whack is now a rainbow. Small bee particle effects appear around Ayla. It also alters the Evil Eye projectile, turning it into a heart with a rainbow trail."
+        }
+      ],
+      "assets": [
+        "asset-040"
+      ]
+    },
+    {
+      "name": "Shaolin Ayla",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Ayla, you are now a monk, a disciple - you are prepared. Your studies are now complete. These are your instructions: remember the way of Shaolin, the true reflection of wisdom. Respect the way. Be true Shaolin. Now you go out into the world. Always be merciful. Practice kindness.\" - Official Steam Store Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Ayla a traditional chinese attire that does not have a lock restraining her hands, and a new pair of shoes. Her chain is replaced with a golden flail, and she has a new hairstyle, which is colored much darker."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives the Rage bubble a new pattern of symbols."
+        }
+      ],
+      "assets": [
+        "asset-041"
+      ]
+    },
+    {
+      "name": "Augmented Ayla",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "There was a time when the Killer Koalas were as legendary as the Awesomenauts are today, and one of their members actually came from the future! Ayla used one of Yoolip's inventions to travel back in time, and she became the youngest member of the Killer Koalas. They gave her a pretty neat eye-patch to help her focus her psychic abilities. She became known as one of their most feared members and was nicknamed 'The Eraser'. Augmented Ayla is a FREE skin for members of the Awesomenauts Steam community. Click âFollowâ on the Awesomenauts Steam store or community page to get it. So join up today and get Augmented! - Official patch description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin is part of the \"Killer Koalas\" group of skins and as such, gives Ayla a futuristic military attire, including a beret, a glowing eyepatch, leg armor, a trenchcoat with long sleeves, and stronger-looking handcuffs. Her lock and chain are made of energy (with matching trails when swinging it)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Evil eye is shaped like the Killer Koalas logo and Rage has the hexagon pattern common to the Killer Koalas skins. Both are accompanied by new futuristic sound effects."
+        }
+      ],
+      "assets": [
+        "asset-042"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Ayla is a devious little girl. She comes from an old species called the Sadak, known for their great psychokinetic powers. Her parents were killed during the great Sevenelevian Coupon Wars and she was adopted by a sweet alien family. The couple grew fearful, however, when suspicious things started happening around the house: evil drawings on the wall, weird sounds at night and dead rapper frogs in the garden."
+      },
+      {
+        "type": "paragraph",
+        "text": "When they finally figured out Ayla's \"gifts\" and dark sense of humor, they turned her over to the Sunny-daisy School of Social Re-adjustment. A few short days and several fires later, she got transferred to a maximum security psychiatric ward where she went berserk and chose the nearest wall for her stage exit. Using her cute puppy-dog eye routine she managed to hitchhike her way across the galaxy and ended up with the Awesomenauts who, after her tantrums left half the ship in ruins, couldn't wait to get her in a droppod and away from their precious belongings. Still, she's a cherished member of the group, requiring only a gold-star sticker for her efforts on the field of battle!"
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"Look who's here children: it's Teddy Ayla! Yay!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Teddy Bear, Teddy Bear, turn around! Teddy Bear, Teddy Bear, touch the ground! Teddy Bear, Teddy bear, polish your shoes! Teddy Bear, Teddy Bear, burn your enemies in a sea of fire! Teddy Bear, Teddy Bear, turn off the light! Teddy Bear, Teddy Bear, say goodnight!\" -Official Steam Store Description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Ayla a bear suit wearing a ribbon, and a wooden bee hive for restraining her hands. Her chain's lock is replaced with a heart shape."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin creates new \"heart\" particles when Ayla goes in Rage mode, and the trail for Chain Whack is now a rainbow. Small bee particle effects appear around Ayla. It also alters the Evil Eye projectile, turning it into a heart with a rainbow trail."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"Ayla, you are now a monk, a disciple - you are prepared. Your studies are now complete. These are your instructions: remember the way of Shaolin, the true reflection of wisdom. Respect the way. Be true Shaolin. Now you go out into the world. Always be merciful. Practice kindness.\" - Official Steam Store Description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Ayla a traditional chinese attire that does not have a lock restraining her hands, and a new pair of shoes. Her chain is replaced with a golden flail, and she has a new hairstyle, which is colored much darker."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives the Rage bubble a new pattern of symbols."
+      },
+      {
+        "type": "paragraph",
+        "text": "There was a time when the Killer Koalas were as legendary as the Awesomenauts are today, and one of their members actually came from the future! Ayla used one of Yoolip's inventions to travel back in time, and she became the youngest member of the Killer Koalas. They gave her a pretty neat eye-patch to help her focus her psychic abilities. She became known as one of their most feared members and was nicknamed 'The Eraser'. Augmented Ayla is a FREE skin for members of the Awesomenauts Steam community. Click âFollowâ on the Awesomenauts Steam store or community page to get it. So join up today and get Augmented! - Official patch description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin is part of the \"Killer Koalas\" group of skins and as such, gives Ayla a futuristic military attire, including a beret, a glowing eyepatch, leg armor, a trenchcoat with long sleeves, and stronger-looking handcuffs. Her lock and chain are made of energy (with matching trails when swinging it)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Evil eye is shaped like the Killer Koalas logo and Rage has the hexagon pattern common to the Killer Koalas skins. Both are accompanied by new futuristic sound effects."
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ayla is shown to be missing a piece of her ear in the splash art, but it is never explained why, lore-wise.",
+          "In her spritesheet, Ayla is never shown with all three of her eyes open, except when she is using Evil Eye or Rage.",
+          "Ayla was the first 'naut to be animated by Tim of Ronimo Games.",
+          "Ayla was the first Awesomenaut to be actively teased with cryptic clues and distorted images by the developers in what would eventually become a Ronimo Games tradition. She was also the first Awesomenaut to be revealed via a livestream.",
+          "Ayla is the first 'naut to be released without an \"Awesomenauts Showcase\" video.",
+          "Ayla was the first 'naut to be released with two purchasable skins.",
+          "Ayla's original concept was that of a vampire bat.",
+          "Ayla is the granddaughter of Professor Milton Yoolip."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Boots will increase movement speed as well as jump height, allowing Ayla to reach some platforms that were previously too high in a single jump.",
+          "Evil Eye becomes more powerful as Ayla's health drops. This ability's icon will change to reflect this at the corresponding damage thresholds, as seen below:"
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Evil Eye damages turrets. If no enemies are nearby, it might be a good idea to use it against them.",
+          "Be careful of enemies that may try and ambush you when you are low on health before you can use your Evil Eye.",
+          "Evil Eye has some versatility: you can use its slowing effect as an opener to trap enemies within Rage or as a finisher, when you are typically low on health after a battle.",
+          "Activating Rage disables Chain Whack. It'll reactivate once Rage is deactivated.",
+          "It is possible to kill yourself using Rage. Be careful and keep an eye on your health bar!",
+          "Activating Rage isn't enough! You must press the jump button to fly.",
+          "Rage will increase in damage and shield if you have more targets within its area. Try to get as many enemies as possible!",
+          "Save Rage for when the enemies' high burst and dangerous crowd control abilities are on cooldown.",
+          "Rage goes through terrain. Use this to kill unsuspecting enemies at low health, to kill creeps, and to damage enemies from a safe distance.",
+          "Blue Three-Wheeler and Fiery Jawbreakers can help you if you are having trouble keeping your enemies within your Rage.",
+          "Use Chain Whack to recover health lost while Rage was active. Hit multiple enemies for increased effectiveness. Hungry Zurian makes this tactic even stronger.",
+          "Ayla can use Sonic Listening Device, attack a creep without killing it and allowing an ally to deal the killing blow, so he gets increased health. Be careful, however, as an enemy may steal the creep and get the health bonus instead!",
+          "Ayla's particularly vulnerable to knockback effects. Consider purchasing Baby Kuri Mammoth to counter opponents who rely heavily on this, such as Coco or SkÃ¸lldir."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Use whatever Crowd Control effects you have available to help Ayla keep her Rage on enemies.",
+          "Targets hit by Evil Eye are more vulnerable: try and finish them off if it's safe to do so.",
+          "If Ayla is low on health, let her attack droids, so that she can recover health via Chain Whack."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Try and poke at Ayla when she goes after droids to heal. Damage over time is also an option.",
+          "Ayla excels at dueling. A one on one fight against her will likely end in her favor. Go as a team instead, but don't stick too close to each other: Ayla's Rage damage and shield will become more powerful if she has more targets within its area.",
+          "Similarly to Coco, Ayla has some inertia when moving around, specially during rage. Watch where she's going and go the opposite way. You may spend a few seconds into her bubble, but she'll have a harder time adjusting her movement and resuming her chase, giving you an opportunity to flee.",
+          "Ayla is extremely vulnerable to knockback when Rage is active, flying further than the average 'naut. Use this to push her away from you or into dangerous situations, such as near your turrets. Particularly effective upgrades include Axethrowing Trophy, Ted's Power Briefs and Thunder Striker.",
+          "Amplify Damage can help you counter Rage's innate shield.",
+          "Ayla may have no collision when Rage is active, but she can still be hit by bull, mines, tongue and other projectiles normally.",
+          "Be very careful when approaching a low health Ayla, specially if she has purchased Toothbrush Shank and/or Dummy Prisoner. Evil Eye deals high damage, slows the target and is a fast-moving projectile.",
+          "Silence is a very powerful tool against Ayla. Many of them will try to get low on health to finish you off with a more powerful Evil Eye. Silence prevents that.",
+          "Save your burst damage to kill Ayla instead of damaging her. If she has enough health to survive your abilities, she'll likely be low enough for a powerful Evil Eye."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/characterrender-vampire-1c5dd958.webp",
+      "source_name": "CharacterRender Vampire.png",
+      "alt": "CharacterRender Vampire",
+      "width": 512,
+      "height": 491,
+      "format": "WEBP",
+      "sha256": "1c5dd95882f704e76583f17a3d3cd0b7defd782b27b153bf4c86f7cf98fdf197",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-vampire-bolas-7ad12b1a.webp",
+      "source_name": "UI Skillbutton Vampire Bolas.png",
+      "alt": "UI Skillbutton Vampire Bolas",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "7ad12b1a88e694ac2ddc27721905b04a008540da0a5c5d98fb81d7db22e00dbe",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-vampire-attack-5af36533.webp",
+      "source_name": "UI Skillbutton Vampire Attack.png",
+      "alt": "UI Skillbutton Vampire Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "5af365339665bdf03a1051cd2709c1ba0f7a196889e4e6730f5e8b0807eb8f9f",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-vampire-lifesteal-on-1c46bc8d.webp",
+      "source_name": "UI Skillbutton Vampire Lifesteal On.png",
+      "alt": "UI Skillbutton Vampire Lifesteal On",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "1c46bc8dd48185bed46d939dc81cc2b8c374956a5505159cd5e176d8b881d36f",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-vampire-jump-1a9f1488.webp",
+      "source_name": "UI Skillbutton Vampire Jump.png",
+      "alt": "UI Skillbutton Vampire Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "1a9f148821b2d80bccf2eb920932bf6015cb9d12785e4524f87870253bdb1c10",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-vampire-skill-a-upgrade-c-59d830e7.webp",
+      "source_name": "Shop Icons Vampire skill a upgrade c.png",
+      "alt": "Shop Icons Vampire skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "59d830e7490ea054a6033c60f00a2562bef0cab0ed57b5a2dde295eb059535d6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-vampire-skill-a-upgrade-a-49171d5f.webp",
+      "source_name": "Shop Icons Vampire skill a upgrade a.png",
+      "alt": "Shop Icons Vampire skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "49171d5fdf09cee27e6970e9c043fd54248796d020bccae53850f8c2ac8dce79",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-vampire-skill-a-upgrade-d-bbed3399.webp",
+      "source_name": "Shop Icons Vampire skill a upgrade d.png",
+      "alt": "Shop Icons Vampire skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bbed3399eafa43cf30605565f189d8a0ece8fd0e3170dfb816798c36701d2f56",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-vampire-skill-a-upgrade-e-c0c2667a.webp",
+      "source_name": "Shop Icons Vampire skill a upgrade e.png",
+      "alt": "Shop Icons Vampire skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c0c2667a82bccef747b410979593e1b85552ad9f8960e2728a23d5994a77eeb7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-vampire-skill-a-upgrade-b-6150f542.webp",
+      "source_name": "Shop Icons Vampire skill a upgrade b.png",
+      "alt": "Shop Icons Vampire skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6150f542c14c2338d0da4de4342f42bcbe43294960add27f9b33cfbf449cd1a0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-vampire-skill-a-upgrade-f-bdac1e28.webp",
+      "source_name": "Shop Icons Vampire skill a upgrade f.png",
+      "alt": "Shop Icons Vampire skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bdac1e28762d17c94525011b2a1214e50e7774b124b6f621e8ee2e9ce38efc9b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-vampire-skill-b-upgrade-c-6ff61553.webp",
+      "source_name": "Shop Icons Vampire skill b upgrade c.png",
+      "alt": "Shop Icons Vampire skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6ff61553f59b868b874cf06550cf9f42ca09d2941c7bdca0a4beeb3f2fdf950f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-vampire-skill-b-upgrade-d-f9325938.webp",
+      "source_name": "Shop Icons Vampire skill b upgrade d.png",
+      "alt": "Shop Icons Vampire skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f9325938419e09933fe365056c6a5e99fceb160e64b3cb99a4db0daff42ac6a9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-vampire-skill-b-upgrade-a-54ad63fb.webp",
+      "source_name": "Shop Icons Vampire skill b upgrade a.png",
+      "alt": "Shop Icons Vampire skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "54ad63fb2618bef23224372c20798b615c7907b0eb5d87cc7729474adea45f49",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-vampire-skill-b-upgrade-b-cf4ea6e6.webp",
+      "source_name": "Shop Icons Vampire skill b upgrade b.png",
+      "alt": "Shop Icons Vampire skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cf4ea6e6f04bf9893caee09074e973c29443b195a847c1abd0ec1654b2cebf56",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-vampire-skill-b-upgrade-f-6782b60b.webp",
+      "source_name": "Shop Icons Vampire skill b upgrade f.png",
+      "alt": "Shop Icons Vampire skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6782b60b56fc02b45913272352f1d3a9c410a767287fd6d8ef869174af095843",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-vampire-skill-b-upgrade-e-5bf666c9.webp",
+      "source_name": "Shop Icons Vampire skill b upgrade e.png",
+      "alt": "Shop Icons Vampire skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5bf666c999b23a5c4668350cd87068a64289bb6ec3227949eac9de921421b814",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-vampire-skill-c-upgrade-c-afc9db23.webp",
+      "source_name": "Shop Icons Vampire skill c upgrade c.png",
+      "alt": "Shop Icons Vampire skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "afc9db23764bdfc587d76f2fe94788af418089e52c13e3b2addfdbb0deb4a0fd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-vampire-skill-c-upgrade-b-bf42c43e.webp",
+      "source_name": "Shop Icons Vampire skill c upgrade b.png",
+      "alt": "Shop Icons Vampire skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bf42c43e43c1f2e065b4d177f957b2d91f8038bfda2616ade59b93475cba10cd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-vampire-skill-c-upgrade-f-ba69641b.webp",
+      "source_name": "Shop Icons Vampire skill c upgrade f.png",
+      "alt": "Shop Icons Vampire skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ba69641b29055202bc24553eb11a365a126c44868946982d9c1804874cb8033f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-vampire-skill-c-upgrade-e-35067f8c.webp",
+      "source_name": "Shop Icons Vampire skill c upgrade e.png",
+      "alt": "Shop Icons Vampire skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "35067f8c4b477aaed31d474ab672d420c5b8d79a675a8bc9b27aaf315683ede2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-vampire-skill-c-upgrade-d-c1f2ef9e.webp",
+      "source_name": "Shop Icons Vampire skill c upgrade d.png",
+      "alt": "Shop Icons Vampire skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c1f2ef9e244f36b43b4258000c844995ac60223caba535332d63516214c984c3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-vampire-skill-c-upgrade-a-25629794.webp",
+      "source_name": "Shop Icons Vampire skill c upgrade a.png",
+      "alt": "Shop Icons Vampire skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "25629794b1682a1b53b1864ee926026b7802139d7c2c0ea906bccfba373770f1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-birdsolarhealth-788cee67.webp",
+      "source_name": "Shop Icons Overall BirdSolarHealth.png",
+      "alt": "Shop Icons Overall BirdSolarHealth",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "788cee67ac2a1e863954759614cd85a131503c58049e51a44a1698a00c9d09c5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/aylaingame-e97ed708.webp",
+      "source_name": "Aylaingame.png",
+      "alt": "Default Skin.",
+      "width": 66,
+      "height": 116,
+      "format": "WEBP",
+      "sha256": "e97ed708b17f9b54f8cc4c763034e9c5d92a1a372a334a7f21351396a751f496",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-ayla-skin-292b1324.webp",
+      "source_name": "Base Ayla Skin.png",
+      "alt": "Default Skin",
+      "width": 80,
+      "height": 121,
+      "format": "WEBP",
+      "sha256": "292b1324af3cbd7bf0d2c021fc2797cf64920369b3333b9d1ab1de7520f89454",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/shaolinaylaingame-3b756fd3.webp",
+      "source_name": "Shaolinaylaingame.png",
+      "alt": "Shaolin Ayla (donated by DarkDXZ).",
+      "width": 77,
+      "height": 133,
+      "format": "WEBP",
+      "sha256": "3b756fd3d6575498e49f5e4c5ab69ebe81b8090228daf1f97bce9651490bf0c0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/shaolin-ayla-skin-a297f562.webp",
+      "source_name": "Shaolin Ayla Skin.png",
+      "alt": "Shaolin Ayla",
+      "width": 80,
+      "height": 131,
+      "format": "WEBP",
+      "sha256": "a297f562aae904ad28e449fe7a3454107398e50efe18336712c8238940a9699e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/teddyaylaingame-88a59d9e.webp",
+      "source_name": "Teddyaylaingame.png",
+      "alt": "Teddy Ayla (donated by Tomasoares).",
+      "width": 75,
+      "height": 136,
+      "format": "WEBP",
+      "sha256": "88a59d9e8678b6b08e3ffcf7df09a231277419ee384c3a5a95fc3be10b335e35",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/teddy-ayla-skin-86f6524c.webp",
+      "source_name": "Teddy Ayla Skin.png",
+      "alt": "Teddy Ayla",
+      "width": 86,
+      "height": 127,
+      "format": "WEBP",
+      "sha256": "86f6524cef520f7f1b7881d6f97f38b96f4ebe7ade6aa5fad2252fec4ac878b8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/augmentedaylaingamered-3e50f4e8.webp",
+      "source_name": "Augmentedaylaingamered.png",
+      "alt": "Augmented Ayla.",
+      "width": 104,
+      "height": 155,
+      "format": "WEBP",
+      "sha256": "3e50f4e8fea8c5afe24c5a22a134027c856d7e032081b9cd55494cb619453eaf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/augmentedaylaingameblue-eb725804.webp",
+      "source_name": "Augmentedaylaingameblue.png",
+      "alt": "Augmented Ayla.",
+      "width": 102,
+      "height": 155,
+      "format": "WEBP",
+      "sha256": "eb725804cba01da8e8309f26f5e3b40772240e8315faa9c1f396140917f90a6b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/ui-minimap-player-vampire-0-5f206487.webp",
+      "source_name": "Ui minimap player vampire 0.png",
+      "alt": "Ui minimap player vampire 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "5f2064870941b484b925c2ac6fc8d91dc9292a2e1578a6f2c4614b276fde43b5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/classicon-vampire-cf86c82d.webp",
+      "source_name": "Classicon Vampire.png",
+      "alt": "Classicon Vampire",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "cf86c82d74a95d73a370c58cd178247d56a46ceff4ce24aee6997f45c4ce0bd7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/characterrender-vampire-skin-bear-94a68a27.webp",
+      "source_name": "CharacterRender Vampire Skin Bear.png",
+      "alt": "CharacterRender Vampire Skin Bear",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "94a68a271759a811042b65c9096f521c1ae37e61605bbef2704d425ab5f532b0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/characterrender-vampire-skin-shaolin-82ae5d9c.webp",
+      "source_name": "CharacterRender Vampire Skin Shaolin.png",
+      "alt": "CharacterRender Vampire Skin Shaolin",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "82ae5d9cbddcc69d059416541eeaeb8e47b87275dbb94df47f4aa0868780089a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/ayla-004-koala-e935eb04.webp",
+      "source_name": "Ayla 004 Koala.png",
+      "alt": "Ayla 004 Koala",
+      "width": 200,
+      "height": 239,
+      "format": "WEBP",
+      "sha256": "e935eb042842d7e91141b0e5201511c5cc71afb0fc4ed31c22c10d3dfd4ab9d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/evileyestages-b5c1266e.webp",
+      "source_name": "Evileyestages.png",
+      "alt": "Evileyestages",
+      "width": 400,
+      "height": 100,
+      "format": "WEBP",
+      "sha256": "b5c1266eb8b40f14cbe1945a535deeeca37cdc49f0e34159346a8a6197e8ecce",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes"
+    ],
+    "status": "extracted"
+  }
+}

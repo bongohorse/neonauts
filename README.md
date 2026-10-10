@@ -1,3 +1,118 @@
 # Neonauts
 
-Unofficial Awesomenauts fan archive for Neocities. Repository setup in progress.
+Unofficial Awesomenauts fan archive for Neocities. The interface is English;
+the visual language follows the game UI, with an open space background.
+
+The repository is the maintained source. A small Python build generates static
+HTML, CSS, JavaScript and external images in `dist/`. No server or Python is
+needed on Neocities. Each Naut has its own JSON file and URL; the browser does
+not download every Naut dossier when opening one character.
+
+## Start locally (Windows / PowerShell)
+
+```powershell
+git clone https://github.com/bongohorse/neonauts.git
+cd neonauts
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe scripts/build.py
+.\.venv\Scripts\python.exe -m http.server 8000 --directory dist
+```
+
+Open http://localhost:8000. Keep the server running while testing. On Linux or
+macOS use `python3` and `.venv/bin/python` instead. Node.js is only needed for
+JavaScript syntax checks and Worker tests, not to build or serve the site.
+
+## Layout
+
+| Path | Purpose |
+|---|---|
+| `data/nauts/*.json` | Extracted data, canonical sources, hashes and diagnostics |
+| `data/roster.json` | Supplied portrait order and honeycomb coordinates |
+| `data/presentation.json` | Explicit image choices when a source lacks splash art |
+| `src/templates/` | Shared HTML shell and approved Swiggins dossier |
+| `src/static/` | Shared CSS, JS, fonts, cursor and image files |
+| `src/static/assets/nauts/<slug>/` | External images for each imported Naut |
+| `scripts/` | Offline extraction, import, build, validation and upload |
+| `workers/` | Separate player-count and moderated guestbook services |
+| `tests/` | Extractor, build and Worker checks |
+| `site.config.json` | Public website and service addresses; no secrets |
+| `dist/` | Generated upload output, ignored by Git |
+
+## Current content
+
+| Naut | Abilities | Items | Additional skins | Extracted images | Import status |
+|---|---:|---:|---:|---:|---|
+| Admiral Swiggins | 4 | 24 | 2 | 41 | Extracted |
+| Ayla | 4 | 24 | 3 | 43 | Extracted |
+| Chucho Krokk | 4 | 24 | 2 | 39 | Partial: 6 missing embedded images |
+
+URLs: `/nauts/admiral-swiggins/`, `/nauts/ayla/`, `/nauts/chucho-krokk/`.
+The home page opens the approved Swiggins dossier. The roster links to all
+imported Nauts; random selection chooses another imported dossier. The supplied
+roster contains 34 icons; the remaining dossiers honestly await imports.
+
+Existing features retained: six map dossiers, holiday screenshots, rookie
+guide, searchable glossary, badges/blinkies/stamps, guestbook terminal, 404
+page, local audio radio, hidden arcade, 32px normal/hover cursor, external game
+links, reduced-motion handling and View Transition enhancement for section
+navigation. Naut changes use ordinary links between generated pages.
+
+## Import another Naut
+
+```powershell
+.\.venv\Scripts\python.exe scripts/import_naut.py "C:\path\Naut.html"
+.\.venv\Scripts\python.exe scripts/build.py
+```
+
+Import reads the saved HTML once, writes a per-Naut JSON and extracts embedded
+images. Read the printed diagnostics and review the Git diff before committing.
+It never downloads remote images. Raw snapshots can stay outside the repo or
+under the ignored `sources/raw/` directory. Their source names and SHA-256
+hashes remain in the JSON. Each new Wiki template still needs an import review.
+
+Item costs/effects are unknown when only item links were saved. Parenthesized
+values are retained without guessing their scaling. Quotes/song lyrics are
+excluded. Chucho's missing skin splash images use explicitly selected embedded
+in-game art; the missing-image diagnostics are preserved.
+
+## Checks
+
+```powershell
+$env:PYTHONPATH = "scripts"
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+.\.venv\Scripts\python.exe scripts/build.py
+.\.venv\Scripts\python.exe scripts/check.py
+node tests/page-data.mjs
+node tests/workers.mjs
+```
+
+GitHub Actions runs these on pushes to `main` and pull requests. Checks cover
+deterministic builds, protected output directories, escaped imported text,
+asset associations, extraction edge cases, local links, CSS paths, unique IDs,
+ARIA targets, JavaScript syntax, image decoding and guestbook moderation.
+Local verification uses Python 3.12 and Node 24; CI targets Python 3.13.
+Native browser visual/touch verification and live Neocities hosting remain
+separate checks, not implied by these automated results.
+
+## Publish
+
+See [Neocities setup](docs/neocities.md). The manual GitHub Actions deployment
+workflow is ready. Add the `NEOCITIES_API_KEY` repository secret and configure
+the public site URL before using it. Only generated files from `dist/` are
+uploaded. The uploader does not delete existing remote files.
+
+Player count and public guestbook require separately deployed Workers; until
+their URLs are configured, the site displays connection-pending states and
+keeps guestbook drafts local. Radio currently plays visitor-selected local
+audio; no hosted soundtrack is connected.
+
+## Sources and rights
+
+See [sources and attribution](docs/sources.md). Wiki text is attributed under
+CC BY-SA 3.0 unless a source says otherwise. Game artwork, logos, fonts and
+music are not relicensed by this repository. This is an unofficial fan site.
+
+See [status and next steps](docs/status.md) for the remaining work. Historical
+notes in `docs/previous-site-notes.md` describe earlier standalone versions;
+this README and current code take precedence.

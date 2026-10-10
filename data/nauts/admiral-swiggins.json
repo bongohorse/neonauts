@@ -1,0 +1,1033 @@
+{
+  "schema_version": 1,
+  "name": "Admiral Swiggins",
+  "slug": "admiral-swiggins",
+  "source": {
+    "filename": "Admiral Swiggins - Official Awesomenauts Wiki (10.10.2026 11：49：38).html",
+    "url": "https://awesomenauts.fandom.com/wiki/Admiral_Swiggins",
+    "sha256": "84977db6b54f92fab2082357586349b03a8542a08a850d29e49743ddf353cee8",
+    "size_bytes": 2371507
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1500 (2640)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.2"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee/Ranged"
+    },
+    {
+      "label": "Role",
+      "value": "Fighter"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Hard",
+    "Development Name": "Captain",
+    "Type of abilities": "Stun , Blind , Shield , Tether , Amplify Damage , Slow",
+    "Release Date": "August 29th 2013"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Anchor Hook",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Anchor_Hook",
+      "description": "Swiggins hurls Homboldt forward, and grapples towards whatever he hits. If you thought getting hit by an anchor is bad, wait for the iron-clad squid that's coming after it!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "310 (486.7)"
+        },
+        {
+          "label": "Droid damage",
+          "value": "100 (157)"
+        },
+        {
+          "label": "Stun Duration",
+          "value": "0.25s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7s"
+        },
+        {
+          "label": "Range",
+          "value": "11"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Anchor Swing/Ink Spray",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Anchor_Swing/Ink_Spray",
+      "description": "Admiral Swiggins carries his trustworthy anchor Homboldt anywhere. Quite handy for smacking people on the head with! Especially when they fail to pay a highborn squid admiral his properly earned respect!",
+      "values": [
+        {
+          "label": "Anchor Swing Damage",
+          "value": "120 (188.4)"
+        },
+        {
+          "label": "Anchor Swing Attack Speed",
+          "value": "95.2"
+        },
+        {
+          "label": "Anchor Swing Range",
+          "value": "3.2"
+        },
+        {
+          "label": "Ink Spray Damage",
+          "value": "80 (125.6)"
+        },
+        {
+          "label": "Ink Spray Attack Speed",
+          "value": "130.4"
+        },
+        {
+          "label": "Ink Spray Range",
+          "value": "7.2"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Drop Anchor",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Drop_Anchor",
+      "description": "Swiggins throws Homboldt in an arch. If it hits an enemy Awesomenaut, it will be chained to homboldt for a couple of seconds. The anchor can be destroyed. Now that's anchor management!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "80 (125.6)"
+        },
+        {
+          "label": "Chain break damage",
+          "value": "50 (78.5)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "11s"
+        },
+        {
+          "label": "Duration",
+          "value": "3s"
+        },
+        {
+          "label": "Homboldt Health",
+          "value": "350 (616)"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Ink Propulsion",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ink_Propulsion",
+      "description": "Who said tentacles are only good for swimming in a weird manner? The admiral has no issues whatsoever with manouvering ground based obstacles. Swiggins can also perform a hovering technique by propelling himself upward with ink squirts. Quite splendid.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "7.6"
+        },
+        {
+          "label": "Descending Speed",
+          "value": "1.4"
+        },
+        {
+          "label": "Jumps",
+          "value": "1 (Hover)"
+        },
+        {
+          "label": "Max Hover Duration",
+          "value": "3s"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Flying Fish Compass",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flying_Fish_Compass",
+      "group": "Anchor Hook",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Blue Heart Medal",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Blue_Heart_Medal",
+      "group": "Anchor Hook",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mobile Periscope",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mobile_Periscope",
+      "group": "Anchor Hook",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Treasure Lottery Map",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Treasure_Lottery_Map",
+      "group": "Anchor Hook",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Kraken Statue",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Kraken_Statue",
+      "group": "Anchor Hook",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ancient Octant",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ancient_Octant",
+      "group": "Anchor Hook",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bovinian Skimmed Milk",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bovinian_Skimmed_Milk",
+      "group": "Drop Anchor",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pneumatic Spoon",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pneumatic_Spoon",
+      "group": "Drop Anchor",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Alien Sweetener",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Alien_Sweetener",
+      "group": "Drop Anchor",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Palladium Teabag Chain",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Palladium_Teabag_Chain",
+      "group": "Drop Anchor",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Magnetic Anchor",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Magnetic_Anchor",
+      "group": "Drop Anchor",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Double Glazed Royal Porcelain",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Double_Glazed_Royal_Porcelain",
+      "group": "Drop Anchor",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Aquarium Pump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Aquarium_Pump",
+      "group": "Anchor Swing/Ink Spray",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Energized Hook",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Energized_Hook",
+      "group": "Anchor Swing/Ink Spray",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Krill Biscuits",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Krill_Biscuits",
+      "group": "Anchor Swing/Ink Spray",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Not Seeweed",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Not_Seeweed",
+      "group": "Anchor Swing/Ink Spray",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Royal Toy Castle",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Royal_Toy_Castle",
+      "group": "Anchor Swing/Ink Spray",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pool Boy",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pool_Boy",
+      "group": "Anchor Swing/Ink Spray",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Ink Propulsion",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Ink Propulsion",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Ink Propulsion",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Ink Propulsion",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Ink Propulsion",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Ink Propulsion",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Admiral Swiggins, PHD",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "So we asked the guys at Team Meat if they would be cool with us making a Dr. Fetus skin for Admiral Swiggins. They told us \"awesome. do as you wish with it :)\", so here's what would have happened if Swiggins went to Med School instead of War School. He still ends up as an Admiral in the Navy, somehow - but now with an extra degree and a violent hatred against jumping pieces of bloody meat."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Admiral Swiggins in Awesomenauts, and will automatically unlock the character if you have not already done so. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "In this skin, Swiggins is replaced by Dr. Fetus, a character from Super Meat Boy which can be seen floating inside the glass tank where Swiggins' head is normally. The tentacles are replaced by robotic limbs and the armor has a darker color scheme, a suit and a tie. The anchor is covered in bandages and the glass tank has a top hat and monocle."
+        }
+      ],
+      "assets": [
+        "asset-038"
+      ]
+    },
+    {
+      "name": "Abyssal Swiggins",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "TÍÍ oÌÍÍÌÍÌ Ì­ÍÌ°Ì©ÌÌ®ÍiÌ¸ÌºÌ«ÍÌ nÍvÌ§ÍÌ±Ì®Ì°Ì©oÌ²ÍÌ«ÍkÌ¦ÍÍÌ³ÍÌ¥eÌ ÍÌ¤Ì­Ì­ ÌÌÌÌÌtÍÌÌ ÍÌhÌÌ£ÍÌ¯ÍÍÍ eÌ¹ÍÌ¯Ì±ÌÌº ÌhÍÌÍiÌ±ÌÌ­ÌÌÌ¼Ì©vÌ Ì Ì©ÍÌ¼eÌ´Ì¤ÍÌ Ì¯Í-ÌÌ±ÍÌ°Ì«Ì¯mÌiÍÌ°Ì±Ì­nÌÌ¹Ì¯Ì ÌÌ»ÌdÌÍÍ ÍÌÌºrÌ¨eÌ»Ì»pÌ»Ì©Ì¤ÌÌ«Í¡rÍÍÍÍÌ»ÍÌ²ÍeÌÌ¯ÌÍÌÍ sÌµÍeÍÌ¤ÍÍÌ³Í nÌÍÍÍtÍÌ»ÌªÌ®Ì»Ì®Í iÍÍ¢ngÌÌÌ¯ÌÌ¯Ì¯ Ì¦Ì¥ÌcÍÍÌÍÍÌ»hÌªÌÌ«ÌÌ©Ì¦Ì°aÌ²Ì¬Ì¯oÌÌÍÍÍÍs.Ì©ÌºÌÍÌ±Ì¤"
+        },
+        {
+          "type": "paragraph",
+          "text": "IÌ¡ÍÌ©nÌ¡ÍÌ°ÍÍÌºÍÌ¤vÌ­ÌºÌÍoÌ©ÌªÌ Ì©ÌªkÍÍÍÌ°ÍiÌÌ²ÍÍÍ nÍÍÍÌgÌÌÌ©ÌÍÍ¢ ÌÌ±ÍÌ²ÍÌ¹Ì±tÌÌ£Ì¯ÍhÍÌ¬Ì©ÌÌÍeÍÌ°Ì»Ì°Ìª Ì®ÍÍÍÍ fÌºÌ¹ÍÍÍÌÌ»eÍÌ±Ì¹ÍÍ eÌ±ÍlÌ¥ÌºÍÌºÌÍÍ iÍÌ¼ÍÌ¦ng ÍÌ¥ÍÌ°ÍÌ²oÌ¡ÍÍÌ«Ì¤fÌµÌ²Ì¥ÌªÌ­ÌªÌ» ÌÍÌ£Ì«ÍÌ²Ì°cÌ¢ÍÌÌhÌ¹ÍaÌ¬ÍÌ»ÍÌªÌ²Í oÌÍÍÍÌÌ ÌÍ ÅÌ¦ÌÌ±ÌÍ.Ì²Ì°"
+        },
+        {
+          "type": "paragraph",
+          "text": "WÌÌºÌÌ«ÌÌ¯iÍÌ²Ì®ÌtÍÌ£Ì²ÍÌ²hÌ¦ÍÌ¤Í ÍÍÍÌºÍoÌ¸ÍÌÍuÍÌ®ÌÌ¬Ì©ÍÍtÌ¼ÌÌ«Í ÒÍÌÍoÍÌ­ÍÍ rÌ©ÌdÌ¶ÍeÍÍrÌ.ÍÌ­ÍÌ¬ÍÌ¹Ì¤"
+        },
+        {
+          "type": "paragraph",
+          "text": "TÌ°Ì±Ì®ÍÌ«ÌÌ hÌÍÌÌ«Ì¦eÌ¸ÌÌ¼Ì©Ì©ÍÍÌ« Ì¨ÍÌ±ÌªÌ­ÌÌ¬ÍNÃ¨ÍÌ³ÍÌÌ¬Ì¤ÌzÌ¯ÌÌ Ì¤ÍÍÍá¹Ì©eÌªÍÌÌÌºrÍdÍÌÌÌ°ÌÍ iÌ¼Ì¼ÌÍÌ¤aÌªÌnÌÌ³ÍÍÌ Ì­ÍÍÌ¬Í hÌ«ÍÌºÌ°ÍÌ¤ÌiÌµÍÍÌÌ®vÌ¶ÍÍÌeÌ¦Í¢-ÌµÌ£ÍmÌÍiÌ­ÍÌªÍnÌ»ÌªÌ²ÍÍÌÍ¢dÌ¸Í oÌ¼ÍÌÌºfÌ±ÌÌÌ¬ÌÌÌ± Ì§Ì³cÍ¡hÌ´ÍÌÍÍÌ ÍÌ°aÌÌ¼ÍÍ¢oÌ¢ÍsÌ»ÌÌªÌÌÌÌ.ÒÍÌºÌ¹Í ÌºÍÌ³Ì»ÌÌ SÍÍÌwÌÌ ÌigÌ¹gÌÌ³ÍÌ¹Í¢iÌ¡nÌ¥Ì¼sÌ¢Ì¼.ÌÌ ÍÌÌ«Í"
+        },
+        {
+          "type": "paragraph",
+          "text": "HÍÍÌeÌ³ÌÌÍÍ Ì¨wÒÌ°hoÍÌ²ÌÍ Ì¶Ì­Ì¹WÌ¯Ì«Ì¼ÍaÌÍÌ¬Ì¼Ì¦ÍiÍÌ¤Ì¦ÍÍÌ­Í tÍÍÍÌ°Ì®ÌÍ sÒÌÍÍ Ì¶Ì¬ÌÌ«Ì­Ì«Ì¬ÌBÌ¨ÌÌÌ¤ÌÍÌeÌ³ÌÍÍÌ¬Ì°ÌhÍiÍÌ°Ì­ÍÌ nÌ®Ì dÍÌ Ì´TÌ»Ì®ÌÌ Ì¬hÍÌ®ÍÌ»Ì¯Ì¹eÍÍÌÍÍ¢ Ì·Ì¼ÍÍÌ¬ÍÌ©WÍaÌÍllÌ©Ì¼.Ì"
+        },
+        {
+          "type": "paragraph",
+          "text": "SÌ»ÌºÍÍÌ®ÌÍÍWÌ»ÍÌ»Ì»Ì­Ì¯IÌÌ¬Ì¬ÌÌºGÌ¤ÍÌ»Ì³ÍÌªGÒÌ©ÌÌ¹Ì¬Ì¬Ä®Ì±Ì»Ì«ÍNSÍÍÍÌ¦Ì«Ì©Ì!Ì¯Ì©Í"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Admiral Swiggins in Awesomenauts, and comes with a fully customized voice set!"
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have not already unlocked the character, this DLC will do so. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin removes Swiggins' cap and glass tank and gives him different skin color (dark green for red team, light blue for blue team). He has a glyph drawn on his forehead and red glowing eyes. The armor, anchor and claw hand have evil-looking faces on them. Anchor Hook's chain is replaced by a tentacle. Being a premium skin, it also comes with different voice acting."
+        }
+      ],
+      "assets": [
+        "asset-039"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Raised in the Swiggins Navy Family on the Kraken planet Titan, Charles Swiggins was the youngest of 30 siblings. Graduating from Wet Point with top honors, he quickly rose through the ranks to become Captain of his very first ship in the Royal Fleet. This ship was called the âSweet Homboldtâ.Tasked with finding and defeating Pirates, Swiggins set out with a loyal crew on many succesful sortees. One day, the Homboldt chanced upon the massive Pirateship 'Colossus' helmed by the dreaded Captain Inkbeard!After a furious battle, which reduced both ships to floating heaps of debris, the two captains were the only ones alive for a final showdown. Being nearly overpowered, Swiggins' grasping tentacle found a chain just below the surface of the churning water. Powered by his desperation he hurled the object at his foe. This object was Sweet Homboldts anchor! With one massive blow, Swiggins ended the biggest Pirate threat on Titan once and for all.Now an Admiral, he has exchanged the seas for the voids of space where his fame and leadership skills have found him a contract among the Awesomenauts!"
+      }
+    ],
+    "Extra": [
+      {
+        "type": "paragraph",
+        "text": "In the beginning, Swiggins was a part of the 2012 Design-Your-Naut contest, in which hundreds of character concepts were sent in, with only one making it into the game. Admiral Swiggins was initially chosen by Ronimo Games staff to be in the top 5, of which would then be voted on by the community in order to decide which of the 5 would be made. User Channfree's Admiral Swiggins was chosen."
+      },
+      {
+        "type": "paragraph",
+        "text": "Another contest was later made to decide how Admiral Swiggins would look. Once again, the community was able to send in their entries, showcasing many different depictions of the character. In the end, user coffeybean4 won the contest with the design seen below."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "So we asked the guys at Team Meat if they would be cool with us making a Dr. Fetus skin for Admiral Swiggins. They told us \"awesome. do as you wish with it :)\", so here's what would have happened if Swiggins went to Med School instead of War School. He still ends up as an Admiral in the Navy, somehow - but now with an extra degree and a violent hatred against jumping pieces of bloody meat."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Admiral Swiggins in Awesomenauts, and will automatically unlock the character if you have not already done so. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "In this skin, Swiggins is replaced by Dr. Fetus, a character from Super Meat Boy which can be seen floating inside the glass tank where Swiggins' head is normally. The tentacles are replaced by robotic limbs and the armor has a darker color scheme, a suit and a tie. The anchor is covered in bandages and the glass tank has a top hat and monocle."
+      },
+      {
+        "type": "paragraph",
+        "text": "TÍÍ oÌÍÍÌÍÌ Ì­ÍÌ°Ì©ÌÌ®ÍiÌ¸ÌºÌ«ÍÌ nÍvÌ§ÍÌ±Ì®Ì°Ì©oÌ²ÍÌ«ÍkÌ¦ÍÍÌ³ÍÌ¥eÌ ÍÌ¤Ì­Ì­ ÌÌÌÌÌtÍÌÌ ÍÌhÌÌ£ÍÌ¯ÍÍÍ eÌ¹ÍÌ¯Ì±ÌÌº ÌhÍÌÍiÌ±ÌÌ­ÌÌÌ¼Ì©vÌ Ì Ì©ÍÌ¼eÌ´Ì¤ÍÌ Ì¯Í-ÌÌ±ÍÌ°Ì«Ì¯mÌiÍÌ°Ì±Ì­nÌÌ¹Ì¯Ì ÌÌ»ÌdÌÍÍ ÍÌÌºrÌ¨eÌ»Ì»pÌ»Ì©Ì¤ÌÌ«Í¡rÍÍÍÍÌ»ÍÌ²ÍeÌÌ¯ÌÍÌÍ sÌµÍeÍÌ¤ÍÍÌ³Í nÌÍÍÍtÍÌ»ÌªÌ®Ì»Ì®Í iÍÍ¢ngÌÌÌ¯ÌÌ¯Ì¯ Ì¦Ì¥ÌcÍÍÌÍÍÌ»hÌªÌÌ«ÌÌ©Ì¦Ì°aÌ²Ì¬Ì¯oÌÌÍÍÍÍs.Ì©ÌºÌÍÌ±Ì¤"
+      },
+      {
+        "type": "paragraph",
+        "text": "IÌ¡ÍÌ©nÌ¡ÍÌ°ÍÍÌºÍÌ¤vÌ­ÌºÌÍoÌ©ÌªÌ Ì©ÌªkÍÍÍÌ°ÍiÌÌ²ÍÍÍ nÍÍÍÌgÌÌÌ©ÌÍÍ¢ ÌÌ±ÍÌ²ÍÌ¹Ì±tÌÌ£Ì¯ÍhÍÌ¬Ì©ÌÌÍeÍÌ°Ì»Ì°Ìª Ì®ÍÍÍÍ fÌºÌ¹ÍÍÍÌÌ»eÍÌ±Ì¹ÍÍ eÌ±ÍlÌ¥ÌºÍÌºÌÍÍ iÍÌ¼ÍÌ¦ng ÍÌ¥ÍÌ°ÍÌ²oÌ¡ÍÍÌ«Ì¤fÌµÌ²Ì¥ÌªÌ­ÌªÌ» ÌÍÌ£Ì«ÍÌ²Ì°cÌ¢ÍÌÌhÌ¹ÍaÌ¬ÍÌ»ÍÌªÌ²Í oÌÍÍÍÌÌ ÌÍ ÅÌ¦ÌÌ±ÌÍ.Ì²Ì°"
+      },
+      {
+        "type": "paragraph",
+        "text": "WÌÌºÌÌ«ÌÌ¯iÍÌ²Ì®ÌtÍÌ£Ì²ÍÌ²hÌ¦ÍÌ¤Í ÍÍÍÌºÍoÌ¸ÍÌÍuÍÌ®ÌÌ¬Ì©ÍÍtÌ¼ÌÌ«Í ÒÍÌÍoÍÌ­ÍÍ rÌ©ÌdÌ¶ÍeÍÍrÌ.ÍÌ­ÍÌ¬ÍÌ¹Ì¤"
+      },
+      {
+        "type": "paragraph",
+        "text": "TÌ°Ì±Ì®ÍÌ«ÌÌ hÌÍÌÌ«Ì¦eÌ¸ÌÌ¼Ì©Ì©ÍÍÌ« Ì¨ÍÌ±ÌªÌ­ÌÌ¬ÍNÃ¨ÍÌ³ÍÌÌ¬Ì¤ÌzÌ¯ÌÌ Ì¤ÍÍÍá¹Ì©eÌªÍÌÌÌºrÍdÍÌÌÌ°ÌÍ iÌ¼Ì¼ÌÍÌ¤aÌªÌnÌÌ³ÍÍÌ Ì­ÍÍÌ¬Í hÌ«ÍÌºÌ°ÍÌ¤ÌiÌµÍÍÌÌ®vÌ¶ÍÍÌeÌ¦Í¢-ÌµÌ£ÍmÌÍiÌ­ÍÌªÍnÌ»ÌªÌ²ÍÍÌÍ¢dÌ¸Í oÌ¼ÍÌÌºfÌ±ÌÌÌ¬ÌÌÌ± Ì§Ì³cÍ¡hÌ´ÍÌÍÍÌ ÍÌ°aÌÌ¼ÍÍ¢oÌ¢ÍsÌ»ÌÌªÌÌÌÌ.ÒÍÌºÌ¹Í ÌºÍÌ³Ì»ÌÌ SÍÍÌwÌÌ ÌigÌ¹gÌÌ³ÍÌ¹Í¢iÌ¡nÌ¥Ì¼sÌ¢Ì¼.ÌÌ ÍÌÌ«Í"
+      },
+      {
+        "type": "paragraph",
+        "text": "HÍÍÌeÌ³ÌÌÍÍ Ì¨wÒÌ°hoÍÌ²ÌÍ Ì¶Ì­Ì¹WÌ¯Ì«Ì¼ÍaÌÍÌ¬Ì¼Ì¦ÍiÍÌ¤Ì¦ÍÍÌ­Í tÍÍÍÌ°Ì®ÌÍ sÒÌÍÍ Ì¶Ì¬ÌÌ«Ì­Ì«Ì¬ÌBÌ¨ÌÌÌ¤ÌÍÌeÌ³ÌÍÍÌ¬Ì°ÌhÍiÍÌ°Ì­ÍÌ nÌ®Ì dÍÌ Ì´TÌ»Ì®ÌÌ Ì¬hÍÌ®ÍÌ»Ì¯Ì¹eÍÍÌÍÍ¢ Ì·Ì¼ÍÍÌ¬ÍÌ©WÍaÌÍllÌ©Ì¼.Ì"
+      },
+      {
+        "type": "paragraph",
+        "text": "SÌ»ÌºÍÍÌ®ÌÍÍWÌ»ÍÌ»Ì»Ì­Ì¯IÌÌ¬Ì¬ÌÌºGÌ¤ÍÌ»Ì³ÍÌªGÒÌ©ÌÌ¹Ì¬Ì¬Ä®Ì±Ì»Ì«ÍNSÍÍÍÌ¦Ì«Ì©Ì!Ì¯Ì©Í"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Admiral Swiggins in Awesomenauts, and comes with a fully customized voice set!"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you have not already unlocked the character, this DLC will do so. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin removes Swiggins' cap and glass tank and gives him different skin color (dark green for red team, light blue for blue team). He has a glyph drawn on his forehead and red glowing eyes. The armor, anchor and claw hand have evil-looking faces on them. Anchor Hook's chain is replaced by a tentacle. Being a premium skin, it also comes with different voice acting."
+      }
+    ],
+    "Awesomenaut Showcase": [
+      {
+        "type": "paragraph",
+        "text": "Abyssal Swiggins showcase starts at 0:50, ends at 1:06."
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Admiral Swiggins was the first 'naut to be created via a community contest. He was designed by Channfree and got the most votes from the community of all the five finalist 'nauts chosen by Ronimo Games (the others being Ivan Romanov, Nodja, Jebediah Molecoon and Yowie the Yeti). Coffeybean4 won the art contest for Swiggins which went on to become the official design.",
+          "Swiggins was the first Awesomenaut to have splash art not made by Ronimo Games.",
+          "Swiggins' in-game sprite was meant to have an eye patch, to mirror its splash art. This was later changed because it caused animation issues, not being clear enough. Ronimo Games opted for a mechanical eye instead.",
+          "Many of the lines spoken by Swiggins in-game were suggested to Ronimo Games by the Awesomenauts community. This trend was later followed with new 'nauts, certain premium skins and exclusive Starstorm announcers all using community-created voicelines up until Nibbs, after which Ronimo started working with a professional writer for voice lines.",
+          "The Admiral Swiggins PHD, and Abyssal Swiggins skins are clear references to Dr. Fetus from Super Meat Boy [20] and the famous Lovecraftian [21] monster, Cthulhu [22], respectively.",
+          "Swiggins' in-game sprite was secretly shown in the trailer for Gnaw's Gnabot skin. (Shown below)",
+          "Swiggins was the first 'naut to be released with a premium skin.",
+          "Ronimo originally wanted community member Quinn \"Weazel\" Chert as Swiggins' voice actor. Despite the fact that he was ultimately voiced by Clint Hacklemen (aka Myndflame). Weazel would later be chosen by Ronimo Games to be the voice actor of Skree.",
+          "Swiggins' in-game sprite has an \"M\" on his armor. Possibly a reference to his voice actor: Myndflame.",
+          "According to The Droppod #8[23], Swiggins' theme song was actually sung by just one person who recorded the song 15 times to make it sound like a choir.",
+          "The name for Swiggins' anchor, Homboldt, appears to originate from the Humboldt Squid[24]."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "All Admiral Swiggins Art Contest finalists with the winner at the center: CopperPot (Top left, bottom right), CrimsonYeti (Bottom Left), Siljin (Top Right) and Coffeybean4 Center).",
+          "Swiggins' in-game look hidden teaser."
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Think twice before using Anchor Hook, as it'll put you right next to your enemy, should it connect. Watch out for enemy crowd control, take note when their abilities are on cooldown, see if your team is nearby to back you up.",
+          "A successful Anchor Hook will generally put you in a good position to use Drop Anchor right away, but you might wanna save it for when you are sure you can garantee a kill by using it.",
+          "While Anchor Hook can be used on terrain for a faster escape, it can be unreliable as the terrain hitbox often differ from the actual textures. Only attempt this if you are positive you'll be able to land it properly, or your escape will be delayed instead.",
+          "Due to its considerable hitbox and range, it's generally a good idea to use Drop Anchor behind you when fleeing, as it'll usually latch on to an enemy chasing you.",
+          "Swiggins becomes lighter and faster after dropping the anchor, allowing him a bit of extra mobility. Krill Biscuits increases this bonus even further.",
+          "It is possible to keep your anchor in a safe place (such as the store or behind a turret) in order to keep yourself in range mode. You can recall it at any time you need it afterwards.",
+          "Always try to touch your anchor back up after dropping it: it will allow you to recall it immediately and use your powerful Anchor Swing again. Furthermore, it enables you to use Anchor Hook if you didn't use it to initiate a fight.",
+          "If a ranged ally ('naut or non-buzzsaw droid) is tanking a turret for you, it might be a good idea to use Drop Anchor just to enable your ranged Ink Spray to attack it without taking damage. Alternatively, with proper upgrades, the anchor itself can have a large amount of health, enabling it to briefly tank the turret shots while you attack it with Ink Shot.",
+          "If enemies are relying on crowd control to deter you, consider purchasing Treasure Lottery Map, to more safely approach them. This is particular useful against static crowd control such as grid traps."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Swiggins rely on teamplay to be successful, more so than the average 'naut. Try to stay close to him or encourage him to follow you.",
+          "If Swiggins manages to trap someone with his Anchor Hook + Drop Anchor combo, help him finish the target off the best way you can.",
+          "If it's safe to do so, protect Swiggins' anchor so he can pick it back up."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "When trapped by Drop Anchor, destroying the anchor is almost always better than staying and fighting. Specially if Swiggins has his team nearby.",
+          "If the anchor fails to latch on to you after it hits the ground, it will not do so again. Approach it without fear.",
+          "If you are anchored, make sure not to fall through platforms. They might hold you in the air, making you very vulnerable to all attacks. If you do happen to get in this situation, use a ranged attack or ability to take the anchor out as soon a possible and use the help command to get your allies to help you.",
+          "Swiggins is very vulnerable to snares himself, as his only long-ranged move forces him to close the gap. Use traps like Yuri's mines or Derpl's grid traps to keep him from diving.",
+          "Swiggins loses much of his damage potential without his anchor, if you can avoid it when thrown, you are likely to have an advantage over him.",
+          "Crowd control immunity effects will break Drop Anchor's chaining effect immediatly.",
+          "Destroying the anchor will no longer force Swiggins to wait 20 seconds before picking it again. However, this can prevent the instant recall if he tries to touch his anchor right after dropping it."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/characterrender-swiggins-redbg-6c8d6e63.webp",
+      "source_name": "CharacterRender swiggins redBG.png",
+      "alt": "CharacterRender swiggins redBG",
+      "width": 512,
+      "height": 554,
+      "format": "WEBP",
+      "sha256": "6c8d6e639cc7f493780fae1d8b1a1d07cd44a457b7c5a2034a35004a8439d3b7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-captain-anchorhook-5b7dc41d.webp",
+      "source_name": "UI Skillbutton Captain AnchorHook.png",
+      "alt": "UI Skillbutton Captain AnchorHook",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "5b7dc41d3c87c4ea732b08aadb3b9dbe1348acbb3937fe4c2f71b96b88f6db42",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-captain-melee-16bf653e.webp",
+      "source_name": "UI Skillbutton Captain Melee.png",
+      "alt": "UI Skillbutton Captain Melee",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "16bf653ed2d188275211bf59fd5c264d4cd10a1581af9074709fbd7923d456d4",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-captain-anchordrop-9ab271cf.webp",
+      "source_name": "UI Skillbutton Captain AnchorDrop.png",
+      "alt": "UI Skillbutton Captain AnchorDrop",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "9ab271cfdb1190cda235926e1d660d807bf28c18bb4494c249718c5bde55e23c",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-captain-jump-da0c98fb.webp",
+      "source_name": "UI Skillbutton Captain Jump.png",
+      "alt": "UI Skillbutton Captain Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "da0c98fb0a675c7732564ce112d00b32a318f341ceaa2a477425877dfdf9425c",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-captain-skill-b-upgrade-a-fb0d4ec8.webp",
+      "source_name": "Shop icons captain skill b upgrade a.png",
+      "alt": "Shop icons captain skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fb0d4ec83115556ced96233f4c22e70d366975048429bf53d7ea0fd28c439476",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-captain-skill-b-upgrade-c-346549db.webp",
+      "source_name": "Shop icons captain skill b upgrade c.png",
+      "alt": "Shop icons captain skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "346549db39267e4e4f9bf692bb40b809534ae871c19cacefda35fb4aba521e8f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-captain-skill-b-upgrade-e-d2d1ab54.webp",
+      "source_name": "Shop icons captain skill b upgrade e.png",
+      "alt": "Shop icons captain skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d2d1ab54cfc87e209ce69092ebefacc01e7bb8ec168c8f0b5205aabfb1c4c941",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-captain-skill-b-upgrade-d-ef89affb.webp",
+      "source_name": "Shop icons captain skill b upgrade d.png",
+      "alt": "Shop icons captain skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ef89affb11135515fc07b4627224c3e3553f4a7de82a2f4ecde8ef918a4b12b9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-captain-skill-b-upgrade-f-e54f3473.webp",
+      "source_name": "Shop icons captain skill b upgrade f.png",
+      "alt": "Shop icons captain skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e54f3473abc55286e0a02581b8de339d98bf4367b151ef1da98edd4096f79b91",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-captain-skill-b-upgrade-b-6eb419ad.webp",
+      "source_name": "Shop icons captain skill b upgrade b.png",
+      "alt": "Shop icons captain skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6eb419adfbdbbc1415e6806b3938f00c5e6b1ac565a4cea17c5a72f701293e61",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-captain-skill-a-upgrade-f-2f45ee25.webp",
+      "source_name": "Shop icons captain skill a upgrade f.png",
+      "alt": "Shop icons captain skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2f45ee25037e1a1d5cf1047373609cb47397267d7f0bc4b193da6c48c5e1a0c9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-captain-skill-a-upgrade-b-1ba3ee22.webp",
+      "source_name": "Shop icons captain skill a upgrade b.png",
+      "alt": "Shop icons captain skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ba3ee228565466277c858c72b93ce30ff5eb05d309f3d42c175ea53fee87418",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-captain-skill-a-upgrade-a-bb4de44c.webp",
+      "source_name": "Shop icons captain skill a upgrade a.png",
+      "alt": "Shop icons captain skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bb4de44c37fe97377dd64f4c1f31da96e540718920cfbdc5e8d6d454eb5e1963",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-captain-skill-a-upgrade-d-01f89963.webp",
+      "source_name": "Shop icons captain skill a upgrade d.png",
+      "alt": "Shop icons captain skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "01f89963da7511e3527d2d773749226ae4a282c3b4dd7271db71cede7820df9c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-captain-skill-a-upgrade-e-f3fdf7b2.webp",
+      "source_name": "Shop icons captain skill a upgrade e.png",
+      "alt": "Shop icons captain skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f3fdf7b23bdf6e3ee88361ecca70f6cb58dd16d3ae7b779258f1ef37673618ae",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-captain-skill-a-upgrade-c-1a953933.webp",
+      "source_name": "Shop icons captain skill a upgrade c.png",
+      "alt": "Shop icons captain skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1a9539332baf95a2740eeb5ffc23b0cb63074d93054c2195597775633176c316",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-captain-skill-c-upgrade-a-e57248ed.webp",
+      "source_name": "Shop icons captain skill c upgrade a.png",
+      "alt": "Shop icons captain skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e57248ed849764273599ae161983febc779a50af7c626e50c0a229c34adbf84e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-captain-skill-c-upgrade-c-0aa6365e.webp",
+      "source_name": "Shop icons captain skill c upgrade c.png",
+      "alt": "Shop icons captain skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0aa6365ef056398d9584015673c1412c5c46268348107a800c2a65fff28d0dc1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-captain-skill-c-upgrade-e-3670a04c.webp",
+      "source_name": "Shop icons captain skill c upgrade e.png",
+      "alt": "Shop icons captain skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3670a04c13d453b4d94af35395b959ae9e73e8532c30208e17c1fdc219fe3078",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-captain-skill-c-upgrade-b-fdeafb56.webp",
+      "source_name": "Shop icons captain skill c upgrade b.png",
+      "alt": "Shop icons captain skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fdeafb5606ebe092436f75cc196083657e479a0602685be24fe5ad3bf5a54a2b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-captain-skill-c-upgrade-f-d0ad6d6a.webp",
+      "source_name": "Shop icons captain skill c upgrade f.png",
+      "alt": "Shop icons captain skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d0ad6d6a46d6ef82363f6db87e676639c2f7eaeb2be8cb4bf9a195f3324d7970",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-captain-skill-c-upgrade-d-69ad6278.webp",
+      "source_name": "Shop icons captain skill c upgrade d.png",
+      "alt": "Shop icons captain skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "69ad62783f62a8505bf1bba1645808cde7c6ae109b5457cb6978841da8918060",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/newswigsingame-4e3083de.webp",
+      "source_name": "Newswigsingame.png",
+      "alt": "Default Skin.",
+      "width": 113,
+      "height": 131,
+      "format": "WEBP",
+      "sha256": "4e3083de2b1f73363dc608cb64ad8d86438eb20511d1168e091bbaf7c5ff3375",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-swiggins-skin-0f4c9147.webp",
+      "source_name": "Base Swiggins Skin.png",
+      "alt": "Default Skin",
+      "width": 128,
+      "height": 135,
+      "format": "WEBP",
+      "sha256": "0f4c914787b58327a2f7bff454e282b13375c0299ac99116c47db9b1532beffb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/newphdswigs-f201e98d.webp",
+      "source_name": "Newphdswigs.png",
+      "alt": "Admiral Swiggins, PHD (donated by Gatronix).",
+      "width": 113,
+      "height": 124,
+      "format": "WEBP",
+      "sha256": "f201e98d8404a2f8960d5945974a21d9ce3a8334758eaebf5c0acdd84a8f3849",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/phd-swiggins-skin-62e70f04.webp",
+      "source_name": "PHD Swiggins Skin.png",
+      "alt": "Admiral Swiggins, PHD",
+      "width": 123,
+      "height": 139,
+      "format": "WEBP",
+      "sha256": "62e70f0413aba0d1e402989fc778cad13b84279b948fd5363ae7da18af6f3d84",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/newabysswigsingame-6a1f5553.webp",
+      "source_name": "Newabysswigsingame.png",
+      "alt": "Abyssal Swiggins.",
+      "width": 115,
+      "height": 126,
+      "format": "WEBP",
+      "sha256": "6a1f555391ccd5f6ded5f9f2448e36ef06d80809fcb27dab420b70c2faf60b62",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/abyssal-swiggins-skin-03413da7.webp",
+      "source_name": "Abyssal Swiggins Skin.png",
+      "alt": "Abyssal Swiggins",
+      "width": 125,
+      "height": 126,
+      "format": "WEBP",
+      "sha256": "03413da74b511391194d3f9d6c5eb5975c5f57a07444c53f5511fc32b833b2bf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/ui-minimap-player-captain-0-9a092d03.webp",
+      "source_name": "Ui minimap player captain 0.png",
+      "alt": "Ui minimap player captain 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "9a092d03fcc168ff68d97fa1f4e84c6118edf158af8dcb8bd980fd3250d1910b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/classicon-captain-42efae5e.webp",
+      "source_name": "ClassIcon Captain.png",
+      "alt": "ClassIcon Captain",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "42efae5e30f87d18c85a83799a444be6894e12e07935b9d9550eda289fece19e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/characterrender-swiggins-drfetus-redbg-801db152.webp",
+      "source_name": "CharacterRender Swiggins DrFetus RedBG.png",
+      "alt": "CharacterRender Swiggins DrFetus RedBG",
+      "width": 180,
+      "height": 222,
+      "format": "WEBP",
+      "sha256": "801db152b301099967b260c0aa3606da5d268da00f71c7d1defbbaa346748762",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/characterrender-swigginsctulhu-redbg-72828f92.webp",
+      "source_name": "CharacterRender swigginsctulhu redBG.png",
+      "alt": "CharacterRender swigginsctulhu redBG",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "72828f928f23e9f304cd3857a2365523adaa7823ccca3fdaf5ef7c82a7ccd391",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/admiral-swiggins-4dfeaa31.webp",
+      "source_name": "Admiral Swiggins.jpg",
+      "alt": "All Admiral Swiggins Art Contest finalists with the winner at the center: CopperPot (Top left, bottom right), CrimsonYeti (Bottom Left), Siljin (Top Right) and Coffeybean4 Center).",
+      "width": 120,
+      "height": 68,
+      "format": "WEBP",
+      "sha256": "4dfeaa31735d640b5614f6b2ecdb7045ccf786dde9524e46277ccb3cb4da8d99",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/swiggins-e1001668.webp",
+      "source_name": "Swiggins.png",
+      "alt": "Swiggins' in-game look hidden teaser.",
+      "width": 120,
+      "height": 67,
+      "format": "WEBP",
+      "sha256": "e10016683e7579ded44c56db9c27c2964d1963a4e1849d37cf2b3596f9ef8b59",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Abyssal Swiggins Quotes"
+    ],
+    "status": "extracted"
+  }
+}

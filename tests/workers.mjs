@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import worker from '../workers/guestbook-worker.js';
+const rows=new Map();
+const kv={get:async(key,type)=>{const v=rows.get(key);return type==='json'&&v?JSON.parse(v):v||null},put:async(key,value)=>rows.set(key,value),list:async({prefix,limit})=>({keys:[...rows.keys()].filter(k=>k.startsWith(prefix)).sort().slice(0,limit).map(name=>({name}))})};
+const env={GUESTBOOK:kv,SITE_ORIGIN:'https://example.neocities.org'};
+const post=(data,origin=env.SITE_ORIGIN)=>new Request('https://guestbook.example/',{method:'POST',headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':'192.0.2.1'},body:JSON.stringify(data)});
+const valid={callsign:'Space visitor',naut:'Admiral Swiggins',message:'<script>alert(1)</script> Hello!',website:''};
+assert.equal((await worker.fetch(post(valid,'https://wrong.example'),env)).status,403);
+assert.equal((await worker.fetch(post({...valid,message:'x'.repeat(501)}),env)).status,400);
+assert.equal((await worker.fetch(post({...valid,website:'spam'}),env)).status,400);
+const accepted=await worker.fetch(post(valid),env);assert.equal(accepted.status,202);assert.equal(accepted.headers.get('Access-Control-Allow-Origin'),env.SITE_ORIGIN);
+assert.equal((await worker.fetch(post(valid),env)).status,429);
+let feed=await worker.fetch(new Request('https://guestbook.example/'),env);assert.deepEqual((await feed.json()).entries,[]);
+const pending=[...rows.keys()].find(k=>k.startsWith('pending:'));assert.ok(pending);
+rows.set(pending.replace('pending:','published:'),rows.get(pending));rows.delete(pending);
+feed=await worker.fetch(new Request('https://guestbook.example/'),env);assert.equal((await feed.json()).entries[0].message,valid.message);
+assert.equal((await worker.fetch(new Request('https://guestbook.example/'),{})).status,503);
+console.log('Passed: origin and input checks, pending moderation, hidden pending entries, rate cooldown and published feed.');

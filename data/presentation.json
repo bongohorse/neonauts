@@ -1,0 +1,9 @@
+{
+  "chucho-krokk": {
+    "skin_assets": {
+      "Skull Chopper Chucho": "asset-030",
+      "Summertime Chucho": "asset-034"
+    },
+    "note": "Use embedded red-team in-game artwork; skin splash images are missing from this snapshot."
+  }
+}

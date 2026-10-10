@@ -1,0 +1,30 @@
+name: Deploy to Neocities
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: neocities-production
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+        env:
+          PYTHONPATH: scripts
+      - run: node tests/workers.mjs
+      - run: python scripts/build.py
+      - run: node tests/page-data.mjs
+      - run: python scripts/deploy_neocities.py
+        env:
+          NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}

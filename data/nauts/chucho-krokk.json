@@ -1,0 +1,1024 @@
+{
+  "schema_version": 1,
+  "name": "Chucho Krokk",
+  "slug": "chucho-krokk",
+  "source": {
+    "filename": "Chucho Krokk - Official Awesomenauts Wiki (10.10.2026 17：45：34).html",
+    "url": "https://awesomenauts.fandom.com/wiki/Chucho_Krokk",
+    "sha256": "4884f8bbfa0f793efaa2995488e924f1b432201a4a5780c4e6ff52b9155830ac",
+    "size_bytes": 2797124
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1250 (2200)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.3"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Ranged"
+    },
+    {
+      "label": "Role",
+      "value": "Fighter"
+    },
+    {
+      "label": "Mobility",
+      "value": "Aerial and Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Hyper",
+    "Type of abilities": "Damage over Time , Flight , Knockback , Area of Effect , Shield , Slow",
+    "Release Date": "March 2nd 2016"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Sticky Bomb/Nitro Boost",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sticky_Bomb/Nitro_Boost",
+      "description": "Throw a sticky bomb that attaches to enemies and walls and detonates after a few seconds. While on your bike, this skill becomes nitro boost, which grants a movement speed boost for a brief period of time.",
+      "values": [
+        {
+          "label": "Sticky Bomb Damage",
+          "value": "400 (628)"
+        },
+        {
+          "label": "Sticky Bomb Time",
+          "value": "3s"
+        },
+        {
+          "label": "Sticky Bomb Cooldown",
+          "value": "9.5s"
+        },
+        {
+          "label": "Nitro Boost Movement Speed",
+          "value": "+75%"
+        },
+        {
+          "label": "Nitro Boost Duration",
+          "value": "1s"
+        },
+        {
+          "label": "Nitro Boost Cooldown",
+          "value": "12s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Double Pistol/Bike Blaster",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Double_Pistol/Bike_Blaster",
+      "description": "Shoot two successive shots which deal damage. When on the bike, this becomes bike blaster, a directional shot.",
+      "values": [
+        {
+          "label": "Double Pistol Damage",
+          "value": "46 (72.22)"
+        },
+        {
+          "label": "Double Pistol Attacks per second",
+          "value": "4"
+        },
+        {
+          "label": "Bike Blaster Damage",
+          "value": "58 (91.06)"
+        },
+        {
+          "label": "Bike Blaster Attacks per second",
+          "value": "6"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Hyper Bike/Turret",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hyper_Bike/Turret",
+      "description": "Step on your bike to drive into combat with increased speed and a directional shot. Use the skill again to deploy your bike as a rapid shooting turret. Hold the skill button to either remote destroy your turret or mount it again when close. While on the bike your other skill becomes nitro boost.",
+      "values": [
+        {
+          "label": "Turret Damage",
+          "value": "66 (103.62)"
+        },
+        {
+          "label": "Turret Health",
+          "value": "600 (1056)"
+        },
+        {
+          "label": "Turret attacks per second",
+          "value": "2.5"
+        },
+        {
+          "label": "Cooldown (self-destruct)",
+          "value": "5s"
+        },
+        {
+          "label": "Cooldown (destroyed)",
+          "value": "10s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Dramatic Entrance High Jump/Hyper Bike Hover",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dramatic_Entrance_High_Jump/Hyper_Bike_Hover",
+      "description": "Dramatic Entrance High Jump when on foot. Hovers around when on his bike.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "7.6"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Krokk License To Kill",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Krokk_License_To_Kill",
+      "group": "Sticky Bomb/Nitro Boost",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Secret Krokk Mission Brief",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Secret_Krokk_Mission_Brief",
+      "group": "Sticky Bomb/Nitro Boost",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Zork Industries Share Certificate",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Zork_Industries_Share_Certificate",
+      "group": "Sticky Bomb/Nitro Boost",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Four-Eye Visor",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Four-Eye_Visor",
+      "group": "Sticky Bomb/Nitro Boost",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Black Mail",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Black_Mail",
+      "group": "Sticky Bomb/Nitro Boost",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Trick-Up-Your-Sleeve",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Trick-Up-Your-Sleeve",
+      "group": "Sticky Bomb/Nitro Boost",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "12th Gear",
+      "source_url": "https://awesomenauts.fandom.com/wiki/12th_Gear",
+      "group": "Hyper Bike/Turret",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Alien-Repellent Varnish",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Alien-Repellent_Varnish",
+      "group": "Hyper Bike/Turret",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Neon Nitro Muffler",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Neon_Nitro_Muffler",
+      "group": "Hyper Bike/Turret",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "BOOM Gas",
+      "source_url": "https://awesomenauts.fandom.com/wiki/BOOM_Gas",
+      "group": "Hyper Bike/Turret",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Anti-Zork Windscreen Wipers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Anti-Zork_Windscreen_Wipers",
+      "group": "Hyper Bike/Turret",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Retracting-Spikes Fender",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Retracting-Spikes_Fender",
+      "group": "Hyper Bike/Turret",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Koi-Robbers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Koi-Robbers",
+      "group": "Double Pistol/Bike Blaster",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Matt Parasite Roid",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Matt_Parasite_Roid",
+      "group": "Double Pistol/Bike Blaster",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Team Toddletron",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Team_Toddletron",
+      "group": "Double Pistol/Bike Blaster",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "One Armed Chameleon",
+      "source_url": "https://awesomenauts.fandom.com/wiki/One_Armed_Chameleon",
+      "group": "Double Pistol/Bike Blaster",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Blabl Zork",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Blabl_Zork",
+      "group": "Double Pistol/Bike Blaster",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Time Slipper",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Time_Slipper",
+      "group": "Double Pistol/Bike Blaster",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Dramatic Entrance High Jump/Hyper Bike Hover",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Dramatic Entrance High Jump/Hyper Bike Hover",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Dramatic Entrance High Jump/Hyper Bike Hover",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Dramatic Entrance High Jump/Hyper Bike Hover",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Dramatic Entrance High Jump/Hyper Bike Hover",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Overdrive Gear",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Overdrive_Gear",
+      "group": "Dramatic Entrance High Jump/Hyper Bike Hover",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Skull Chopper Chucho",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Overdrive expansion."
+        },
+        {
+          "type": "paragraph",
+          "text": "As the Inquisition engulfed Europe in the first centuries of the previous millennium, whispers spread of a dark hunter. These stories spoke of a man wielding weapons forged in Hellfire, laying waste to demons and witches and leaving only charred skulls in his wake. Even the the fiercest demons would scatter to the winds as soon as they heard the roar of his steel horse, and their numbers dwindled rapidly."
+        },
+        {
+          "type": "paragraph",
+          "text": "After slaying the last demon in Europe in a dark forest late in the fifteenth century, the man got atop his steel horse and set off to another world in need of his services. One of the villagers saved by the man said he had a face pale as bone and introduced himself Skull Chopper Chucho, and that he would return if our world was ever threatened by hellspawn once more."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Chucho Krokk in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin turns Chucho into a skeleton, and gives him a tan jacket and a wide-brimmed hat that covers his eyes. He also has a shoulder pad with a cross on it. Chucho's pistols are replaced with crossbows. The Hyper Bike's front is replaced with a demonic skull and a large glowing portal, and it has bones down the spine and crosses in its thrusters. All of the bike's glow is now bright red on red team (they remain purple on blue)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Double Pistol now makes fire while shooting and has a new impact graphic. One-Armed Chameleon makes the skull on Chucho's hat glow. Sticky Bomb has a skull on it and has a new sound effect for ticking down. Bike Blaster has a new impact graphic when hitting an enemy. Mounting or destroying the bike has new graphic and new sound. The Turret now has a more detailed cannon and a team-colour banner hanging from it. Detonating the bike causes Chucho to pull out a purple rune bag and crush it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with its own custom voice set."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "name": "Summertime Chucho",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Overdrive expansion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Even an infamous bounty hunter needs to let off a little steam sometimes and Chucho could do with a little sun. Equipped with two water pistols, a swim ring, and an inflatable plastic mammal, he's ready to just lie in the sand and work on that tan a little. That said... the water pistols look surprisingly similar to his regular pistols with some cool modifications, and you can hear a couple of sticky bombs rattling under his swim ring. Who ever said you can't be ready to collect bounties AND relax on the beach at the same time?"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Chucho Krokk in Awesomenauts!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Chucho a Hawaiian shirt, shorts, sandals, and a pair of sunglasses below his eyes. His robotic eye is gone. He also has a pool ring on, which looks like Gnaw on red team and Nibbs on blue team. Chucho's pistols are now water guns. His bike and turret is replaced by an inflatable pink dolphin on red team or an orca whale on blue team. He has a trail of water following him while riding his bike."
+        },
+        {
+          "type": "paragraph",
+          "text": "Double Pistol and Bike Blaster now shoot bubbles instead of bullets and have new sound effects. Sticky Bomb looks like a beach ball and gets a bubbly sound effect while ticking down, in addition to the default one. Nitro Boost now looks like a stream of bubbles, and plays a new sound effect (either a dolphin noise or an orca noise depending on which team he's on)."
+        }
+      ],
+      "assets": []
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Chucho comes from a rich, if slightly shady family called the Krokk. Let's face facts here: they may have achieved fame and fortune on Calias by hunting down the biggest criminals in the galaxy, but they're just as bad themselves. But hey, it takes a crook to catch a crook, so Chucho has taken up the family mantel of being a BAD-ASS BOUNTY HUNTER."
+      },
+      {
+        "type": "paragraph",
+        "text": "Which wouldn't be so awkward if he didn't have the world's biggest lisp. Oh well. No time for that, because the self-styled \"Time Krokk\" is on the hunt for a time-travelling criminal (a practice strictly forbidden under the intergalactic portal law, ever since someone went back in time to steal cocoa beans for a fondue, and accidentally ended up wiping chocolate from history)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Since the Krokks and the Zorks have been vicious rivals for centuries, he raised quite some eyebrows when out of nowhere he signed up for the Awesomenauts. In his inventory rests a suspicious, smelly time slipper that might lead him to an altogether deadly confrontation with his unsuspecting bounty..."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Krokk have been suspected to work together with many criminal organizations such as Shishu the underwater mafia, the religious clown killer known as the Grint, and even some suspect links with the lizard Sisterhood of Coba. None of these have ever been confirmed however. Chucho's homeplanet is Calias which is a rich and tech heavy planet. A lot of rich industrial corporations are based here mainly due to the mining of power crystals on Luxor, Calias' last moon"
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Overdrive expansion."
+      },
+      {
+        "type": "paragraph",
+        "text": "As the Inquisition engulfed Europe in the first centuries of the previous millennium, whispers spread of a dark hunter. These stories spoke of a man wielding weapons forged in Hellfire, laying waste to demons and witches and leaving only charred skulls in his wake. Even the the fiercest demons would scatter to the winds as soon as they heard the roar of his steel horse, and their numbers dwindled rapidly."
+      },
+      {
+        "type": "paragraph",
+        "text": "After slaying the last demon in Europe in a dark forest late in the fifteenth century, the man got atop his steel horse and set off to another world in need of his services. One of the villagers saved by the man said he had a face pale as bone and introduced himself Skull Chopper Chucho, and that he would return if our world was ever threatened by hellspawn once more."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Chucho Krokk in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin turns Chucho into a skeleton, and gives him a tan jacket and a wide-brimmed hat that covers his eyes. He also has a shoulder pad with a cross on it. Chucho's pistols are replaced with crossbows. The Hyper Bike's front is replaced with a demonic skull and a large glowing portal, and it has bones down the spine and crosses in its thrusters. All of the bike's glow is now bright red on red team (they remain purple on blue)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Double Pistol now makes fire while shooting and has a new impact graphic. One-Armed Chameleon makes the skull on Chucho's hat glow. Sticky Bomb has a skull on it and has a new sound effect for ticking down. Bike Blaster has a new impact graphic when hitting an enemy. Mounting or destroying the bike has new graphic and new sound. The Turret now has a more detailed cannon and a team-colour banner hanging from it. Detonating the bike causes Chucho to pull out a purple rune bag and crush it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with its own custom voice set."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Overdrive expansion."
+      },
+      {
+        "type": "paragraph",
+        "text": "Even an infamous bounty hunter needs to let off a little steam sometimes and Chucho could do with a little sun. Equipped with two water pistols, a swim ring, and an inflatable plastic mammal, he's ready to just lie in the sand and work on that tan a little. That said... the water pistols look surprisingly similar to his regular pistols with some cool modifications, and you can hear a couple of sticky bombs rattling under his swim ring. Who ever said you can't be ready to collect bounties AND relax on the beach at the same time?"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Chucho Krokk in Awesomenauts!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Chucho a Hawaiian shirt, shorts, sandals, and a pair of sunglasses below his eyes. His robotic eye is gone. He also has a pool ring on, which looks like Gnaw on red team and Nibbs on blue team. Chucho's pistols are now water guns. His bike and turret is replaced by an inflatable pink dolphin on red team or an orca whale on blue team. He has a trail of water following him while riding his bike."
+      },
+      {
+        "type": "paragraph",
+        "text": "Double Pistol and Bike Blaster now shoot bubbles instead of bullets and have new sound effects. Sticky Bomb looks like a beach ball and gets a bubbly sound effect while ticking down, in addition to the default one. Nitro Boost now looks like a stream of bubbles, and plays a new sound effect (either a dolphin noise or an orca noise depending on which team he's on)."
+      }
+    ],
+    "Awesomenaut Showcase": [
+      {
+        "type": "paragraph",
+        "text": "Showcase starts at 0:40 in the video."
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Chucho has an alternate version of his lore, used during 3.0 Beta 4:"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Chucho Krokk is a feared bounty hunter from Calias, scouring every corner of spacetime between here and the Omicron on his hyper bike. He has been nicknamed \"the time krokk\" because he specializes in time travelling criminals, which has been strictly under the intergalactic portal law since someone went back in time to steal cocoa beans to make chocolate and caused the disappearance of cocoa trees all around the galaxy."
+      },
+      {
+        "type": "paragraph",
+        "text": "Since the Krokks and Zorks have been vicious rivals for centuries he raised quite some eyebrows when he signed up for the Awesomenauts. With a smelly time slipper as evidence he is on the hunt for one of the other Awesomenauts. This can't end well..."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "All of Chucho's Double Pistol upgrades are wanted posters. Four of them directly reference other Awesomenauts.",
+          "Chucho launched simultaneously alongside Professor Milton Yoolip and Jimmy And The Lux5000 as part of Patch 3.0.",
+          "Out of the original 3, Chucho was the only Overdrive Awesomenaut to be released with a premium skin. This was changed with the addition of Max Focus to Overdrive, which also released with a premium skin.",
+          "Summertime Chucho was the first regularly priced skin to feature significant differences between the red team version and the blue team version. It alters the appearance of his pool ring, bike, and even has unique sound effects."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Double Pistol is a surprisingly weak brawling tool, so you should only be fighting on foot while near your Hyper Bike.",
+          "Sticky Bombs will still explode even if they miss, turning them into mild area denial. This can be augmented with upgrades like Black Mail and Zork Industries Share Certificate.",
+          "Sticky Bombs not only stick to enemies, but also the terrain. Sticking it to the front of a Turret while pushing can scare enemies away.",
+          "If an enemy is hit with Sticky Bomb, don't worry about finishing them off. Just get their health low enough so that the bomb will kill them and move onto a different target.",
+          "Nitro Boost isn't a normal charge: you actually have move in order to benefit from it. Beware of snares and stuns, as these will make Nitro Boost useless.",
+          "You can use your Turret to reveal what's inside hide areas.",
+          "If you plan on leaving your Hyper Bike behind and not using the turret, it might be a good idea to detonate it so that the bike is always available if needed.",
+          "Keep an eye on the mini-map when you're away from your Hyper Bike. If you suspect enemies are about to destroy it, you should detonate to reduce the bike's cooldown. If enemies are attacking your Hyper Bike frequently, you can use BOOM Gas to discourage them.",
+          "Mounting your Hyper Bike and re-deploying it as a turret will spawn it at full health, so be sure to get on if you see it's injured.",
+          "If you're having trouble pushing lanes, try using The Koi-Robbers. It turns your Bike Blaster into an effective droid clearing tool."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Follow up on Chucho's Sticky Bomb to ensure that it scores a kill. It does less damage on its own than you might expect.",
+          "Try to protect Chucho's Hyper Bike. Not only is it useful as a turret, he might need it available to make an escape. Alternatively, if you need backup and Chucho left it behind, fall back to it, to have some help against your enemies."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "If an ally is hit with Sticky Bomb, back away. The bomb still explodes in an AoE. Alternatively, don't go near your friends while you have a bomb stuck to you.",
+          "Skills that provide you with invunerability, shields, healing and lifesteal effects can all help you survive a Sticky Bomb.",
+          "Chucho is very mobile on his Hyper Bike but rather slow on foot. Punish him with your harder-to-land skills when he dismounts to throw a Sticky Bomb.",
+          "Nitro Boost can be activated while Chucho is snared, but he still won't be able to move. Try to snare him if you suspect he's about to boost away. This will waste his cooldown. Likewise, stuns and snares will force him to stop moving even if he's in the middle of a Nitro Boost.",
+          "When One Armed Chameleon is active, Chucho's missing eye (or other part of his head depending on the skin) and guns will glow purple.",
+          "It's usually a good idea to try to destroy Chucho's Hyper Bike, as this puts his escape on a lengthy cooldown. However, beware of BOOM Gas if you're a melee 'Naut."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/hypercharselect-f8f89608.webp",
+      "source_name": "Hypercharselect.png",
+      "alt": "Hypercharselect",
+      "width": 512,
+      "height": 488,
+      "format": "WEBP",
+      "sha256": "f8f8960849b98865e4faed9da710854f68c434bd388b1771472f250151919200",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-hyper-bolas-6e2ee8f8.webp",
+      "source_name": "UI Skillbutton Hyper Bolas.png",
+      "alt": "UI Skillbutton Hyper Bolas",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "6e2ee8f8d1f5eb513e160664222835321d786fe299c8bb997594a8e9cfe63a3a",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-hyper-attack-c255d33a.webp",
+      "source_name": "UI Skillbutton Hyper Attack.png",
+      "alt": "UI Skillbutton Hyper Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "c255d33a9f4d94b29a96fb3e0cee02455d7d72296ed8131b0abc773e95f2b13e",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-hyper-jumpbike-ae68f291.webp",
+      "source_name": "UI Skillbutton Hyper JumpBike.png",
+      "alt": "UI Skillbutton Hyper JumpBike",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "ae68f29115e0a5762dd9875d26ec9ddd5dd049aeb9651a175c05fd6a279c8b13",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-hyper-jump-347e405c.webp",
+      "source_name": "UI Skillbutton Hyper Jump.png",
+      "alt": "UI Skillbutton Hyper Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "347e405cb9fbea8035925bb0ae5c8011092ca5c3a16ba6389895281f8c47b811",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-hyper-skill-a-upgrade-a-0200da0d.webp",
+      "source_name": "Shop Icons Hyper skill a upgrade a.png",
+      "alt": "Shop Icons Hyper skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0200da0d2fb60860c41fd3e117965941253d43e03db6375c14be55ff63425eb1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-hyper-skill-a-upgrade-b-9dff5ab2.webp",
+      "source_name": "Shop Icons Hyper skill a upgrade b.png",
+      "alt": "Shop Icons Hyper skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9dff5ab239356fa90eea04d819e18045fd751b024a00e1655b332dcf73c1d120",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-hyper-skill-a-upgrade-c-d275f947.webp",
+      "source_name": "Shop Icons Hyper skill a upgrade c.png",
+      "alt": "Shop Icons Hyper skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d275f947cf5c1f66562ea2e3d0261ae6f9757a7635ea648d7b94299b242f48f8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-hyper-skill-a-upgrade-d-bd980015.webp",
+      "source_name": "Shop Icons Hyper skill a upgrade d.png",
+      "alt": "Shop Icons Hyper skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bd980015c9d117d21ded713707a0dab93b973435d83b5d4d39b386dd9db4e50d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-hyper-skill-a-upgrade-e-b4fd23c4.webp",
+      "source_name": "Shop Icons Hyper skill a upgrade e.png",
+      "alt": "Shop Icons Hyper skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b4fd23c4cf60d222f97a3c71bd47f0a812ae2a6ffdf2af9eb904de1935dc0c68",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-hyper-skill-a-upgrade-f-70af5983.webp",
+      "source_name": "Shop Icons Hyper skill a upgrade f.png",
+      "alt": "Shop Icons Hyper skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "70af59839b9ffa2fc2210b2d294f90cf6c3ae1c9fe322d194f987ca72bff0a23",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-hyper-skill-b-upgrade-a-c0aab75d.webp",
+      "source_name": "Shop Icons Hyper skill b upgrade a.png",
+      "alt": "Shop Icons Hyper skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c0aab75dbe440b7bdc5ae714201e51cc321b3f0e77cb35a5aef9738482cb1dce",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-hyper-skill-b-upgrade-b-eae95801.webp",
+      "source_name": "Shop Icons Hyper skill b upgrade b.png",
+      "alt": "Shop Icons Hyper skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "eae9580160ac51f4f3c19b1744c2c462ff156bfeb192bc3f749d90738c05732c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-hyper-skill-b-upgrade-c-9f24ce36.webp",
+      "source_name": "Shop Icons Hyper skill b upgrade c.png",
+      "alt": "Shop Icons Hyper skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9f24ce36266ab1598f7e4dda181674e7feffc2f477f634ead4197ce669f21643",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-hyper-skill-b-upgrade-d-649694f1.webp",
+      "source_name": "Shop Icons Hyper skill b upgrade d.png",
+      "alt": "Shop Icons Hyper skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "649694f17e21209be568e9bd68913af870b2958d04fd0177798bd53f3e4c5170",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-hyper-skill-b-upgrade-e-c21f70c0.webp",
+      "source_name": "Shop Icons Hyper skill b upgrade e.png",
+      "alt": "Shop Icons Hyper skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c21f70c0bda6ce974ea0bb87738e72621c8048f04a0de535b2cefba9e2f9b829",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-hyper-skill-b-upgrade-f-e27ad317.webp",
+      "source_name": "Shop Icons Hyper skill b upgrade f.png",
+      "alt": "Shop Icons Hyper skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e27ad317472bf139becf5a655bcf7ddfa17eb9e14c1130c99094c7d62e6bf97a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-hyper-skill-c-upgrade-a-bc0c2326.webp",
+      "source_name": "Shop Icons Hyper skill c upgrade a.png",
+      "alt": "Shop Icons Hyper skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bc0c23268e418d9fb7f17d310733f363068abfc5492f121be05f9afb9a2d5ea1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-hyper-skill-c-upgrade-b-be9fce7a.webp",
+      "source_name": "Shop Icons Hyper skill c upgrade b.png",
+      "alt": "Shop Icons Hyper skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "be9fce7af78deee2e93bf3cf4a023aa93334897f4c9f32af95fca516812b73cb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-hyper-skill-c-upgrade-d-8efc1026.webp",
+      "source_name": "Shop Icons Hyper skill c upgrade d.png",
+      "alt": "Shop Icons Hyper skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8efc10260a6bbb6b8c541213e6749f5d412401c5baef60e8ec6cb17f9e3b82bc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-hyper-skill-c-upgrade-c-db56b05e.webp",
+      "source_name": "Shop Icons Hyper skill c upgrade c.png",
+      "alt": "Shop Icons Hyper skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "db56b05e44c4f33730b4ad619d62734d5f38ff601d289c52c1403cd9adc5ce6e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-hyper-skill-c-upgrade-e-ff20d1ab.webp",
+      "source_name": "Shop Icons Hyper skill c upgrade e.png",
+      "alt": "Shop Icons Hyper skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ff20d1ab7d8663e200471839666964b7215071ae5f50b6b00223fd36ba031ec0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-hyper-skill-c-upgrade-f-219a5efa.webp",
+      "source_name": "Shop Icons Hyper skill c upgrade f.png",
+      "alt": "Shop Icons Hyper skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "219a5efa5c9e179b03461904f1713c73ec1aecac5e7f7b54083f1f650822c71d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-overdrive-54a20e5d.webp",
+      "source_name": "Shop Icons Overall Overdrive.png",
+      "alt": "Shop Icons Overall Overdrive",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "54a20e5d68abbebd00e3b2a7b5973f52111c38c013f924d33c4ec22bf97e07e5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/skullchopperchuchoingamered-45420bb6.webp",
+      "source_name": "Skullchopperchuchoingamered.png",
+      "alt": "Skull Chopper Chucho.",
+      "width": 166,
+      "height": 185,
+      "format": "WEBP",
+      "sha256": "45420bb65475cfe6094998ee6a6a95f293afd30309675f0f77d6be062f46dd76",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/skullchopperchuchoingameblue-75b842f7.webp",
+      "source_name": "Skullchopperchuchoingameblue.png",
+      "alt": "Skull Chopper Chucho.",
+      "width": 160,
+      "height": 183,
+      "format": "WEBP",
+      "sha256": "75b842f7c7ef9c97aa23bf82afc3c9d328ac3ad6b8d7a083e0a783c2dba2c0d2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/skullchopperchuchobikeingamered-78b6e817.webp",
+      "source_name": "Skullchopperchuchobikeingamered.png",
+      "alt": "Skull Chopper Chucho (hyper bike).",
+      "width": 180,
+      "height": 170,
+      "format": "WEBP",
+      "sha256": "78b6e817625c4e1ef4bcd2d191443e5a0acd31e136d35de411936fb4636b85a6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/skullchopperchuchobikeingameblue-b3fb519f.webp",
+      "source_name": "Skullchopperchuchobikeingameblue.png",
+      "alt": "Skull Chopper Chucho (hyper bike).",
+      "width": 180,
+      "height": 168,
+      "format": "WEBP",
+      "sha256": "b3fb519f897a8705d29d564d00cc8555139aa0f0b79ed53357b7ef0a88c2088e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/summertimechuchoingamered-9bc83cee.webp",
+      "source_name": "Summertimechuchoingamered.png",
+      "alt": "Summertime Chucho.",
+      "width": 159,
+      "height": 182,
+      "format": "WEBP",
+      "sha256": "9bc83cee5e8196c086761e163a85cf30fb8feb10173d5abda4c16927463ba960",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/summertimechuchoingameblue-abb17b98.webp",
+      "source_name": "Summertimechuchoingameblue.png",
+      "alt": "Summertime Chucho.",
+      "width": 157,
+      "height": 188,
+      "format": "WEBP",
+      "sha256": "abb17b98e99245c0b288d0a0e3194076c3edf8408022d7ed7339548e32489253",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/summertimechuchoingameredbike-db5e5d7f.webp",
+      "source_name": "Summertimechuchoingameredbike.png",
+      "alt": "Summertime Chucho (hyper bike).",
+      "width": 180,
+      "height": 162,
+      "format": "WEBP",
+      "sha256": "db5e5d7f1488cad279d2e4b87bb2dcad134faf796d30588c7982544e2548ff51",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/summertimechuchoingamebluebike-6d46db25.webp",
+      "source_name": "Summertimechuchoingamebluebike.png",
+      "alt": "Summertime Chucho (hyper bike).",
+      "width": 180,
+      "height": 167,
+      "format": "WEBP",
+      "sha256": "6d46db257b52dac0d4e4001a4b4d778aba939766093971cb9c4b80297900ddec",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/ui-minimap-player-hyper-0-7cc320e7.webp",
+      "source_name": "Ui minimap player hyper 0.png",
+      "alt": "Ui minimap player hyper 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "7cc320e7d81726dc5fae7e4171d0a2d85ba5c429085a02056a9df0b257218f20",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/classicon-hyper-ea82a20c.webp",
+      "source_name": "Classicon Hyper.png",
+      "alt": "Classicon Hyper",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "ea82a20cfb1b815a96b82c2624f573bd7a1c5175b343ab5dbfd20e871016a333",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_lazy_image",
+        "image": "Chuchokrokkingamered.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/6/6c/Chuchokrokkingamered.png/revision/latest?cb=20160122035240"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Chuchokrokkingameblue.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/d/d7/Chuchokrokkingameblue.png/revision/latest?cb=20160122035253"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Chuchokrokkingamebikered.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/7/72/Chuchokrokkingamebikered.png/revision/latest/scale-to-width-down/180?cb=20160122035246"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Chuchokrokkingamebikeblue.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/e/e6/Chuchokrokkingamebikeblue.png/revision/latest/scale-to-width-down/180?cb=20160122035259"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Skullchopperchuchosplash.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/3/32/Skullchopperchuchosplash.png/revision/latest/scale-to-width-down/200?cb=20160303142026"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Chucho 003 Summertime.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/b/bf/Chucho_003_Summertime.png/revision/latest/scale-to-width-down/200?cb=20170309100237"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Skull Chopper Chucho Quotes"
+    ],
+    "status": "partial"
+  }
+}
