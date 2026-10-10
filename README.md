@@ -93,6 +93,7 @@ $env:PYTHONPATH = "scripts"
 .\.venv\Scripts\python.exe scripts/build.py
 .\.venv\Scripts\python.exe scripts/check.py
 node tests/page-data.mjs
+node tests/radio.mjs
 node tests/workers.mjs
 node tests/players-client.mjs
 ```
@@ -122,8 +123,13 @@ The public guestbook still requires its own Worker/KV and keeps drafts local
 until configured. Radio loads SonicPicnic’s official Bandcamp Ultimate Edition
 player when opened. Minimize keeps playback running while sections and Nauts
 change; Restore opens the same player. Close/Stop ends playback. Each imported
-Naut has a theme button using verified Bandcamp track IDs. Theme playback starts
-with the embedded player’s Play control; local audio is still available.
+Naut has a theme button using verified Bandcamp track IDs. Theme buttons sit beside the Naut identity with a Play icon. The compact
+nonmodal radio retains Bandcamp’s native Play/Pause controls; Previous/Next
+select verified Naut themes (start the selected theme in the native player).
+A scrolling title pauses on hover/focus and respects reduced motion. Local
+audio has custom mini Play/Pause/Previous/Next controls. Album playback remains
+inside Bandcamp, whose own display shows the playing album track; the outer
+ticker identifies the selected theme or album, not an inferred live track.
 
 Steam history carries forward the prior published snapshot, retains up to 120
 valid observations from the last 24 hours, and shows recorded peak/low/sample

@@ -27,6 +27,7 @@ jobs:
       - run: python scripts/build.py
       - run: python scripts/fetch_players.py
       - run: node tests/page-data.mjs
+      - run: node tests/radio.mjs
       - run: python scripts/deploy_neocities.py
         env:
           NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}

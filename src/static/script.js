@@ -129,37 +129,6 @@ async function navigateNaut(target,push=true){
  finally{if(nautLoad===request){nautLoad=null;$('#main').removeAttribute('aria-busy');}}
 }
 window.addEventListener('popstate',()=>{if(location.pathname!==currentNautPath)navigateNaut(new URL(location.href),false);});
-// Browser-local audio player. No audio is uploaded, and no OST source is invented.
-const audio=$('#audio');audio.volume=.4;let tracks=[],trackIndex=0;
-const radio=$('#radio-panel'),bandcamp=$('#bandcamp-player');
-let radioMode='closed',radioSource=bandcamp.dataset.src;
-function setRadio(open){
- if(open){radioMode='full';$('#radio-mini').hidden=true;if(!bandcamp.hasAttribute('src')&&!$('#local-radio').open)bandcamp.src=radioSource;radio.showModal();$('#radio-toggle').setAttribute('aria-expanded','true');$('#radio-close').focus();}
- else{radioMode='closed';if(radio.open)radio.close();else stopRadio();}
-}
-function stopRadio(){audio.pause();bandcamp.removeAttribute('src');$('#radio-mini').hidden=true;$('#radio-toggle').setAttribute('aria-expanded','false');$('#radio-toggle').focus();}
-$('#radio-toggle').onclick=()=>setRadio(!radio.open);
-$('#radio-close').onclick=()=>setRadio(false);
-$('#radio-minimize').onclick=()=>{radioMode='minimized';radio.close();$('#radio-mini').hidden=false;$('#radio-toggle').setAttribute('aria-expanded','false');$('#radio-restore').focus();};
-$('#radio-album').onclick=()=>{radioSource=bandcamp.dataset.src;bandcamp.classList.remove('single-theme');bandcamp.title='Awesomenauts Ultimate Edition — Bandcamp music player';$('#radio-bandcamp-link').href='https://sonicpicnic.bandcamp.com/album/awesomenauts-ultimate-edition';$('#radio-bandcamp-link').textContent='Open soundtrack on Bandcamp ↗';$('#radio-now-playing').textContent='ULTIMATE EDITION';$('#radio-mini-title').textContent='SPACE RADIO';$('#local-radio').open=false;audio.pause();bandcamp.src=radioSource;};
-$('#radio-restore').onclick=()=>setRadio(true);$('#radio-stop').onclick=()=>setRadio(false);
-radio.addEventListener('cancel',()=>{radioMode='closed';});
-radio.addEventListener('close',()=>{if(radioMode!=='minimized'){radioMode='closed';stopRadio();}});
-$('#local-radio').addEventListener('toggle',()=>{
- if($('#local-radio').open)bandcamp.removeAttribute('src');
- else{audio.pause();if(radioMode!=='closed')bandcamp.src=radioSource;}
-});
-document.addEventListener('click',event=>{
- if(!event.target.closest('[data-naut-theme]')||!nautPage.theme)return;
- const theme=nautPage.theme;
- radioSource=`https://bandcamp.com/EmbeddedPlayer/track=${theme.id}/size=large/bgcol=071c28/linkcol=18d8df/tracklist=false/artwork=small/transparent=true/`;
- bandcamp.classList.add('single-theme');bandcamp.title=`${theme.title} — Bandcamp music player`;$('#radio-bandcamp-link').href=theme.url;$('#radio-bandcamp-link').textContent='Open Naut theme on Bandcamp ↗';
- $('#radio-now-playing').textContent=theme.title;$('#radio-mini-title').textContent=theme.title;
- $('#local-radio').open=false;audio.pause();bandcamp.src=radioSource;if(!radio.open)setRadio(true);
-});
-function loadTrack(i,play=false){if(!tracks.length)return;trackIndex=(i+tracks.length)%tracks.length;audio.src=tracks[trackIndex].url;$('#track-title').textContent=tracks[trackIndex].name;$('#radio-mini-title').textContent=tracks[trackIndex].name;$('#playlist').value=String(trackIndex);$('#radio-status').textContent='Local audio · stays on this device.';$('#play-track').textContent='▶';$('#play-track').setAttribute('aria-label','Play music');if(play)audio.play().catch(()=>notify('Playback could not start. Try another audio file.'));}
-$('#audio-files').onchange=e=>{audio.pause();audio.removeAttribute('src');audio.load();tracks.forEach(t=>URL.revokeObjectURL(t.url));tracks=[...e.target.files].map(f=>({name:f.name.replace(/\.[^.]+$/,''),url:URL.createObjectURL(f)}));$('#playlist').replaceChildren();tracks.forEach((t,i)=>{const op=document.createElement('option');op.value=i;op.textContent=t.name;$('#playlist').append(op)});$('#playlist').hidden=!tracks.length;$$('.radio-controls button').forEach(b=>b.disabled=!tracks.length);if(tracks.length)loadTrack(0);};
-$('#play-track').onclick=()=>{if(audio.paused)audio.play().catch(()=>notify('Audio could not be played.'));else audio.pause()};$('#prev-track').onclick=()=>loadTrack(trackIndex-1,!audio.paused);$('#next-track').onclick=()=>loadTrack(trackIndex+1,!audio.paused);$('#repeat-track').onclick=()=>{audio.loop=!audio.loop;$('#repeat-track').setAttribute('aria-pressed',String(audio.loop))};$('#playlist').onchange=e=>loadTrack(Number(e.target.value),!audio.paused);$('#volume').oninput=e=>audio.volume=Number(e.target.value);audio.onplay=()=>{$('#play-track').textContent='Ⅱ';$('#play-track').setAttribute('aria-label','Pause music')};audio.onpause=()=>{$('#play-track').textContent='▶';$('#play-track').setAttribute('aria-label','Play music')};audio.onended=()=>loadTrack(trackIndex+1,true);audio.onerror=()=>{if(tracks.length){$('#radio-status').textContent='Audio unavailable or format unsupported. Try another file.';notify('This audio file could not be played.')}};
 // Hidden Shoebox-inspired arcade. Frame-rate independent movement and bounded acceleration.
 const dialog=$('#arcade'),canvas=$('#game'),ctx=canvas.getContext('2d');let best=0;try{best=Number(localStorage.getItem('nauts-archive-high-score'))||0}catch{}$('#high-score').textContent=best;
 let mode='ready',ship=115,hazards=[],score=0,lives=3,elapsed=0,spawn=0,last=0,frame=0,invincible=0;const held=new Set();

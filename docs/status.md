@@ -115,3 +115,19 @@ Single-theme embeds use a compact 120px frame and a track-specific title/link;
 Full Soundtrack restores the full album player.
 Content hashes on generated CSS/JavaScript links prevent a cached old script
 from being combined with newly deployed markup.
+
+## Compact theme radio — 11 October 2026
+
+- Theme action moved from skin artwork to the Naut heading, with a left Play icon.
+- Radio behaviour extracted into radio.js; radio-data.js contains verified
+  theme metadata only, not all dossiers.
+- Minimize uses a nonmodal dialog with the existing iframe still visible.
+  Bandcamp's native Play/Pause remains usable without restoring the full panel.
+- Mini Previous/Next selects from 34 verified Naut themes with wrapping; a new
+  Bandcamp selection must be started in its own player. No guessed remote API.
+- Local audio has mini Play/Pause and Previous/Next, preserving paused state.
+- Compact ticker identifies selected theme/local file (or album); actual album
+  track remains in Bandcamp's native display. Motion stops on hover/focus and
+  reduced-motion devices get a static title. Restore/Stop remain available.
+- Radio lifecycle and source switching are covered by a dedicated VM test.
+- Live browser acceptance follows publication; phone playback is not implied.

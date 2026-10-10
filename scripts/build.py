@@ -138,6 +138,8 @@ def build(output=None, base_path='/'):
     editorial=load(ROOT/'data/swiggins-editorial.json')
     editorial_runtime=load(ROOT/'data/swiggins-runtime.json')
     ost=load(ROOT/'data/ost.json')
+    themes=[dict(name=n['name'],**ost['tracks'][n['name']]) for n in roster if n['name'] in ost['tracks']]
+    (output/'radio-data.js').write_text(js_assignment('radioThemes',themes),encoding='utf-8')
     (output/'roster-data.js').write_text(js_assignment('archiveData',{'roster':roster,'items':editorial['items']}),encoding='utf-8')
     shell=html.fromstring((ROOT/'src/templates/shell.html').read_text(encoding='utf-8'))
     site_url=load(ROOT/'site.config.json').get('siteUrl','').rstrip('/')
@@ -158,8 +160,12 @@ def build(output=None, base_path='/'):
         else:dossier=make_dossier(dossier_template,d,runtime)
         slot=document.get_element_by_id('dossier-slot');slot.getparent().replace(slot,dossier)
         if runtime['theme']:
-            theme=element('button','♫ NAUT THEME',type='button',data_naut_theme='true',**{'class':'mini-action naut-theme','aria-label':'Listen to '+d['name']+' theme'})
-            dossier.xpath('.//*[@class="character-stage"]')[0].append(theme)
+            theme=element('button',None,type='button',data_naut_theme='true',**{'class':'mini-action naut-theme','aria-label':'Listen to '+d['name']+' theme'})
+            theme.append(element('span','▶',aria_hidden='true',**{'class':'theme-play-icon'}))
+            theme.append(element('span','NAUT THEME'))
+            heading=dossier.xpath('.//*[@class="dossier-heading"]')[0]
+            name=heading.xpath('./h1')[0]
+            name.addnext(theme)
         document.xpath('//title')[0].text=d['name']+' — Nauts Archive'
         document.xpath('//meta[@name="description"]')[0].set('content','Unofficial Awesomenauts field guide: '+d['name']+' abilities, upgrades, archived skins and story.')
         counter=document.xpath('//*[@id="nauts"]/*[@class="section-line"]/span')[1]
@@ -171,7 +177,7 @@ def build(output=None, base_path='/'):
         # A relative base keeps every shared asset/navigation working on nested URLs.
         head=document.xpath('//head')[0];head.insert(0,element('base',href='../../'))
         old_scripts=document.xpath('//script[@src]');first=old_scripts[0]
-        for src in ['config.js','roster-data.js','nauts/'+d['slug']+'/page-data.js']:
+        for src in ['config.js','roster-data.js','radio-data.js','nauts/'+d['slug']+'/page-data.js']:
             first.addprevious(element('script',src=src,defer='defer'))
         # Hash navigation stays on the chosen dossier rather than resolving to root.
         for anchor in document.xpath('//a[starts-with(@href,"#")]'):

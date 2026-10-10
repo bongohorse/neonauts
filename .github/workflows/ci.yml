@@ -25,5 +25,6 @@ jobs:
       - run: python scripts/build.py
       - run: python scripts/check.py
       - run: node tests/page-data.mjs
+      - run: node tests/radio.mjs
       - run: node tests/players-client.mjs
       - run: node tests/workers.mjs
