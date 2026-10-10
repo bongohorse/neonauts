@@ -242,3 +242,25 @@ footer{justify-content:center;min-height:60px;padding:18px 12px;margin-top:12px}
  .map-picker{grid-template-columns:minmax(0,1fr)}
  .map-card>img{aspect-ratio:300 / 169;object-fit:cover}
 }
+
+/* Stable artwork size while mobile browser chrome expands and retracts. */
+body::before{inset:auto;left:0;top:0;width:100%;height:100vh;height:100lvh}
+.steam-mini{display:flex;align-items:center;justify-content:flex-end;gap:8px;width:fit-content;max-width:100%;margin:12px 0 8px auto;padding:7px 12px;border:1px solid #265866;background:#061b26c9;font-size:8px;letter-spacing:.8px;color:#90b5c1;flex-wrap:wrap}
+.steam-mini strong,.steam-mini b{color:var(--gold);font-size:12px;font-variant-numeric:tabular-nums}
+.steam-mini-peak{border-left:1px solid #265866;padding-left:8px}
+.steam-history{margin:24px 12px 48px;padding:24px;border:1px solid #265866;background:#071e29bb}
+.steam-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:20px 0}
+.steam-stats>div{border-left:2px solid #167687;padding-left:12px;min-width:0}
+.steam-stats dt{font-size:9px;letter-spacing:.6px;color:var(--muted)}
+.steam-stats dd{margin:5px 0 0;font:italic 900 24px var(--heading);color:var(--gold)}
+#steam-chart{display:block;width:100%;max-height:300px;overflow:visible}
+.chart-grid{stroke:#245463;stroke-width:1}.chart-label{fill:#9dbfc9;font:11px Rubik,sans-serif}
+.chart-line{fill:none;stroke:var(--cyan);stroke-width:2;stroke-linejoin:round}.chart-dot{fill:var(--gold)}
+.steam-table summary{min-height:44px;color:var(--cyan);font-size:10px;cursor:pointer}
+.steam-table>div{max-height:250px;overflow:auto}.steam-table table{width:100%;border-collapse:collapse;font-size:11px;text-align:left}.steam-table th,.steam-table td{padding:8px;border-bottom:1px solid #245463}
+.radio-mini{position:fixed;z-index:10;right:18px;bottom:18px;display:flex;align-items:center;gap:8px;max-width:calc(100vw - 28px);padding:6px 8px 6px 14px;border:1px solid var(--cyan);background:#071c28f5;box-shadow:0 8px 30px #0009;color:var(--cyan)}
+#radio-mini-title{max-width:210px;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.radio-mini button{width:44px;height:44px;border:1px solid #245463;background:#123440;color:var(--gold);font-size:18px}
+#radio-minimize{margin-left:auto;margin-right:8px}
+.naut-theme{display:block;min-height:44px;margin:16px auto 0}
+@media(max-width:720px){.steam-history{margin:20px 0 36px;padding:16px}.steam-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.radio-mini{right:14px;bottom:14px}#radio-mini-title{max-width:calc(100vw - 160px)}.steam-mini{justify-content:center;font-size:7px;padding:6px 10px}}

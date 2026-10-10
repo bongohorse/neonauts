@@ -19,7 +19,7 @@
 
 ## Verification
 
-17 extractor/build/player-fetch tests pass locally. Site checks pass for local HTML links,
+19 extractor/build/player-fetch tests pass locally. Site checks pass for local HTML links,
 CSS paths, IDs, ARIA references, JavaScript syntax, decoded raster images and
 Naut asset references. Guestbook origin/length/honeypot checks, cooldown,
 pending moderation and published feed pass in an in-memory Worker test.
@@ -84,3 +84,24 @@ no horizontal page overflow on the checked Maps view.
 Small-screen CSS changes were reviewed in source, not accepted as a real-phone
 test. This browser has no supported viewport-resize API; an attempted inline
 preview was rejected by its URL policy, so it was not used.
+
+## Radio, themes, background and activity history
+
+- Native radio dialog can be minimized without unloading the Bandcamp iframe.
+  A compact Restore/Stop bar remains available while browsing.
+- Enhanced roster navigation preserves the radio iframe and its playback
+  across Naut dossiers. The build emits an independent page-data.json per Naut;
+  failed navigation falls back to the complete static URL. Back restores the
+  requested dossier. Swiggins approved runtime data moved to maintained JSON.
+- Theme buttons added to all imported dossiers. Verified Bandcamp track IDs
+  cover all 34 roster entries, including explicit name aliases.
+- Background layer uses stable 100lvh sizing instead of a height derived from
+  changing browser chrome. Portrait/landscape changes can still resize it.
+- Compact Steam current/recorded-peak widget added to the Naut home section.
+- Community now shows a sampled 24h graph, peak, low, sample average and last
+  change, with an accessible count table. History is carried over from the
+  previous published JSON, validated and bounded; no artificial samples.
+- Local tests cover history bounds/deduplication/outages, zero-value graphs,
+  gap rendering, statistics, per-Naut JSON parity and theme associations.
+
+Real-device browser-bar movement still requires user-device acceptance.

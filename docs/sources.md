@@ -43,3 +43,10 @@ by Bandcamp, not downloaded or redistributed in this repository.
 Player snapshots query Valve’s public GetNumberOfCurrentPlayers endpoint for
 appid 204300. SteamDB and SteamCharts remain external reference links; no chart
 pages are scraped. The fetch time is shown and unavailable data is never zero.
+
+Character theme IDs and URLs are stored in data/ost.json, extracted from the
+official Ultimate Edition album metadata on 10 October 2026. Aliases cover
+Sheriff/Sherriff, Skølldir/Skolldir, Genji, Vinnie & Spike, Professor Milton
+Yoolip and Qi’Tara. Each dossier opens its own official embedded track player.
+Recorded Steam summaries use only our timestamped samples; they do not claim
+a complete SteamCharts history or an all-time player peak.

@@ -63,7 +63,9 @@ Existing features retained: six map dossiers, holiday screenshots, rookie
 guide, searchable glossary, badges/blinkies/stamps, guestbook terminal, 404
 page, Bandcamp soundtrack radio with optional local audio, hidden arcade, 32px normal/hover cursor, external game
 links, reduced-motion handling and View Transition enhancement for section
-navigation. Naut changes use ordinary links between generated pages.
+navigation. Naut URLs remain independently readable. The enhanced roster fetches the selected
+dossier and its own runtime JSON in place, preserving minimized radio playback.
+Direct URLs and fallback navigation still open complete static pages.
 
 ## Import another Naut
 
@@ -118,7 +120,17 @@ For continually refreshed counts on Neocities, configure the optional player
 Worker URL (or arrange periodic uploads); a one-time upload is only a snapshot.
 The public guestbook still requires its own Worker/KV and keeps drafts local
 until configured. Radio loads SonicPicnic’s official Bandcamp Ultimate Edition
-player when opened. Closing it stops playback; local audio is still available.
+player when opened. Minimize keeps playback running while sections and Nauts
+change; Restore opens the same player. Close/Stop ends playback. Each imported
+Naut has a theme button using verified Bandcamp track IDs. Theme playback starts
+with the embedded player’s Play control; local audio is still available.
+
+Steam history carries forward the prior published snapshot, retains up to 120
+valid observations from the last 24 hours, and shows recorded peak/low/sample
+average/change with a graph and accessible table. The graph begins collecting
+with this feature; gaps over 45 minutes are not connected. The compact homepage
+widget links to the full Community statistics. Counts are Steam-wide concurrent
+players, not players on any particular game server.
 
 ## Sources and rights
 

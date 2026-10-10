@@ -135,6 +135,8 @@ def build(output=None, base_path='/'):
         d=imported.get(n['name']);n['available']=bool(d)
         if d:n.update(slug=d['slug'],url='nauts/'+d['slug']+'/')
     editorial=load(ROOT/'data/swiggins-editorial.json')
+    editorial_runtime=load(ROOT/'data/swiggins-runtime.json')
+    ost=load(ROOT/'data/ost.json')
     (output/'roster-data.js').write_text(js_assignment('archiveData',{'roster':roster,'items':editorial['items']}),encoding='utf-8')
     shell=html.fromstring((ROOT/'src/templates/shell.html').read_text(encoding='utf-8'))
     site_url=load(ROOT/'site.config.json').get('siteUrl','').rstrip('/')
@@ -145,13 +147,18 @@ def build(output=None, base_path='/'):
     dossier_template=html.fromstring((ROOT/'src/templates/swiggins-dossier.html').read_text(encoding='utf-8'))
     for d in datasets:
         runtime=page_data(d,overrides)
+        runtime['theme']=ost['tracks'].get(d['name'])
         document=copy.deepcopy(shell)
         if d['slug']=='admiral-swiggins':
             dossier=copy.deepcopy(dossier_template)
             runtime.update(itemGroups=['ANCHOR HOOK','DROP ANCHOR','ANCHOR SWING / INK SPRAY','UTILITY'])
             runtime['items']=editorial['items']
+            runtime.update(editorial_runtime)
         else:dossier=make_dossier(dossier_template,d,runtime)
         slot=document.get_element_by_id('dossier-slot');slot.getparent().replace(slot,dossier)
+        if runtime['theme']:
+            theme=element('button','♫ NAUT THEME',type='button',data_naut_theme='true',**{'class':'mini-action naut-theme','aria-label':'Listen to '+d['name']+' theme'})
+            dossier.xpath('.//*[@class="character-stage"]')[0].append(theme)
         document.xpath('//title')[0].text=d['name']+' — Nauts Archive'
         document.xpath('//meta[@name="description"]')[0].set('content','Unofficial Awesomenauts field guide: '+d['name']+' abilities, upgrades, archived skins and story.')
         counter=document.xpath('//*[@id="nauts"]/*[@class="section-line"]/span')[1]
@@ -165,19 +172,12 @@ def build(output=None, base_path='/'):
         old_scripts=document.xpath('//script[@src]');first=old_scripts[0]
         for src in ['config.js','roster-data.js','nauts/'+d['slug']+'/page-data.js']:
             first.addprevious(element('script',src=src,defer='defer'))
-        if d['slug']=='admiral-swiggins':
-            first.addprevious(element('script',src='swiggins-editorial.js',defer='defer'))
         # Hash navigation stays on the chosen dossier rather than resolving to root.
         for anchor in document.xpath('//a[starts-with(@href,"#")]'):
             anchor.set('href','nauts/'+d['slug']+'/'+anchor.get('href'))
         directory=output/'nauts'/d['slug'];directory.mkdir(parents=True)
-        code=js_assignment('nautPage',runtime)
-        if d['slug']=='admiral-swiggins':code+='nautPage.abilities=editorialAbilities;nautPage.skins=editorialSkins;\n'
-        # Editorial must load before page-data on the Swiggins page.
-        if d['slug']=='admiral-swiggins':
-            e=document.xpath('//script[@src="swiggins-editorial.js"]')[0]
-            p=document.xpath('//script[contains(@src,"page-data.js")]')[0]
-            e.getparent().remove(e);p.addprevious(e)
+        code=js_assignment('nautPage',runtime).replace('const nautPage=','let nautPage=',1)
+        (directory/'page-data.json').write_text(json.dumps(runtime,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
         (directory/'page-data.js').write_text(code,encoding='utf-8')
         markup='<!doctype html>\n'+html.tostring(document,encoding='unicode',method='html')
         (directory/'index.html').write_text(markup,encoding='utf-8')

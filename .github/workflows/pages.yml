@@ -27,7 +27,7 @@ jobs:
           PYTHONPATH: scripts
       - run: python scripts/build.py --base-path /neonauts/
       - name: Refresh Steam player count
-        run: python scripts/fetch_players.py
+        run: python scripts/fetch_players.py --history-url https://bongohorse.github.io/neonauts/players.json
       - run: python scripts/check.py
       - run: node tests/page-data.mjs
       - run: node tests/players-client.mjs

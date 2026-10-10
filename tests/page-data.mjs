@@ -7,11 +7,13 @@ const root=resolve(import.meta.dirname,'../dist');
 for(const slug of ['admiral-swiggins','ayla','chucho-krokk']) {
   const context=vm.createContext({});
   vm.runInContext(readFileSync(resolve(root,'roster-data.js'),'utf8'),context);
-  if(slug==='admiral-swiggins')vm.runInContext(readFileSync(resolve(root,'swiggins-editorial.js'),'utf8'),context);
   vm.runInContext(readFileSync(resolve(root,'nauts',slug,'page-data.js'),'utf8'),context);
   const data=vm.runInContext('nautPage',context);
   const roster=vm.runInContext('archiveData.roster',context);
   assert.equal(data.slug,slug);
+  assert.deepEqual(JSON.parse(JSON.stringify(data)),JSON.parse(readFileSync(resolve(root,'nauts',slug,'page-data.json'),'utf8')));
+  assert.equal(typeof data.theme.id,'number');
+  assert.ok(data.theme.title.includes(data.name));
   assert.equal(data.abilities.length,4);
   assert.equal(data.items.length,24);
   assert.equal(roster.filter(n=>n.available).length,3);
