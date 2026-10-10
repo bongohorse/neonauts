@@ -2,6 +2,7 @@
 """Build a static Neocities site from per-Naut JSON and shared templates."""
 import argparse
 import copy
+import hashlib
 import json
 import re
 import shutil
@@ -179,6 +180,13 @@ def build(output=None, base_path='/'):
         code=js_assignment('nautPage',runtime).replace('const nautPage=','let nautPage=',1)
         (directory/'page-data.json').write_text(json.dumps(runtime,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
         (directory/'page-data.js').write_text(code,encoding='utf-8')
+        # Keep shared code/styles and page data coherent after a Pages update.
+        for node in document.xpath('//script[@src] | //link[@rel="stylesheet"]'):
+            attr='src' if node.tag=='script' else 'href'
+            path=node.get(attr)
+            if path and '://' not in path and (output/path).is_file():
+                version=hashlib.sha256((output/path).read_bytes()).hexdigest()[:12]
+                node.set(attr,path+'?v='+version)
         markup='<!doctype html>\n'+html.tostring(document,encoding='unicode',method='html')
         (directory/'index.html').write_text(markup,encoding='utf-8')
         if d['slug']=='admiral-swiggins':

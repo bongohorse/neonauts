@@ -113,3 +113,5 @@ control switched to pause. Stop hid the mini bar and removed the iframe source.
 The compact Steam widget and Community graph displayed the first real sample.
 Single-theme embeds use a compact 120px frame and a track-specific title/link;
 Full Soundtrack restores the full album player.
+Content hashes on generated CSS/JavaScript links prevent a cached old script
+from being combined with newly deployed markup.
