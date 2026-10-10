@@ -58,18 +58,19 @@ def page_data(data, overrides):
         'items': [{'name': i['name'], 'url': i['source_url'], 'image': assets.get(i['icon_asset']), 'row': groups.index(i['group'])} for i in data['items']]
     }
 
-def make_dossier(template, data, runtime):
+def make_dossier(template, data, runtime, editorial=None):
+    editorial = editorial or {}
     dossier = copy.deepcopy(template)
     name = data['name']
     stats = {s['label']: s['value'] for s in data['stats']}
     meta = data['metadata']
     head = dossier.xpath('.//header')[0]
     replace_contents(head.xpath('.//h1')[0], [element('span', name.upper())])
-    head.xpath('.//*[@class="eyebrow"]/span')[0].text = 'NAUT DOSSIER'
-    head.xpath('.//*[@class="tag"]')[0].text = stats.get('Role', 'NAUT').upper()
-    head.xpath('.//*[@class="subtitle"]')[0].text = 'AWESOMENAUTS FIELD GUIDE'
-    replace_contents(head.xpath('.//*[@class="trait-row"]')[0], [element('span', stats.get('Attack Type', '')), element('span', stats.get('Mobility', '')), element('span', 'DIFFICULTY: '+meta.get('Difficulty', 'Unknown'), **{'class':'hard'})])
-    head.xpath('.//*[@class="intro"]')[0].text = 'Explore '+name+'’s abilities, upgrades, story and archived skins.'
+    subtitle=head.xpath('.//*[@class="subtitle"]')[0]
+    if editorial.get('subtitle'):subtitle.text=editorial['subtitle']
+    else:subtitle.getparent().remove(subtitle)
+    replace_contents(head.xpath('.//*[@class="trait-row"]')[0], [element('span', stats.get('Role', 'NAUT').upper(), **{'class':'tag'}), element('span', stats.get('Attack Type', '')), element('span', stats.get('Mobility', '')), element('span', 'DIFFICULTY: '+meta.get('Difficulty', 'Unknown'), **{'class':'hard'})])
+    head.xpath('.//*[@class="intro"]')[0].text = editorial.get('intro', 'Explore '+name+'’s abilities, upgrades, story and archived skins.')
     dossier.xpath('.//article')[0].set('aria-label', name+' field guide')
     dossier.xpath('.//*[@role="tablist"]')[0].set('aria-label', name+' dossier')
     grid = dossier.xpath('.//*[@class="stats-grid"]')[0]
@@ -84,22 +85,30 @@ def make_dossier(template, data, runtime):
         button.append(element('span',skill['name']));buttons.append(button)
     replace_contents(strip,buttons)
     note=dossier.xpath('.//*[@class="field-note"]//p')[0]
-    note.text='Values reflect the saved Wiki snapshot. Parentheses and game-version context are unverified.'
+    note.text=editorial.get('briefing','Values reflect the saved Wiki snapshot. Parentheses and game-version context are unverified.')
     tactics=dossier.xpath('.//*[@class="tactics"]')[0]
     replace_contents(tactics,[element('summary','TACTICS: PLAY AS / WITH / AGAINST')])
     for title in ['Playing As:', 'Playing With:', 'Playing Against:']:
         content=data['sections'].get(title,[])
         if content: tactics.append(element('h3',title));append_blocks(tactics,content)
-    dossier.xpath('.//*[@id="abilities"]//*[@class="panel-intro"]')[0].text='Abilities and movement information for '+name+'.'
+    if editorial.get('tactics'):
+        replace_contents(tactics,[element('summary','TACTICS: PLAY AS / WITH / AGAINST')])
+        for tactic in editorial['tactics']:tactics.extend([element('h3',tactic['title']),element('p',tactic['text'])])
+    dossier.xpath('.//*[@id="abilities"]//*[@class="panel-intro"]')[0].text=editorial.get('abilities_intro','Abilities and movement information for '+name+'.')
     story=dossier.xpath('.//*[@id="story"]')[0]
     replace_contents(story,[element('h2','BACKSTORY')]);append_blocks(story,data['sections'].get('Backstory',[]))
+    if editorial.get('story'):
+        replace_contents(story,[element(block['tag'],block['text']) for block in editorial['story']])
+        facts=element('dl',**{'class':'story-facts'})
+        for fact in editorial.get('story_facts',[]):
+            row=element('div');row.extend([element('dt',fact['label']),element('dd',fact['value'])]);facts.append(row)
+        if len(facts):story.append(facts)
     link=element('a','Explore the complete Wiki dossier ↗',href=data['source']['url'],target='_blank',rel='noopener noreferrer',**{'class':'text-link'})
     story.append(link)
     notice=dossier.xpath('.//*[@class="data-note"]')[0]
     missing=sum(w['code']=='missing_lazy_image' for w in data['diagnostics']['warnings'])
     replace_contents(notice,[element('span','SOURCE: SAVED WIKI · 10 OCT 2026. Values retain their original parentheses; game version and scaling context are unverified.'+(f' {missing} images were not embedded in the snapshot.' if missing else '')),copy.deepcopy(link)])
     stage=dossier.xpath('.//*[@class="character-stage"]')[0];stage.set('aria-label',name+' character and skins')
-    replace_contents(stage.xpath('.//*[@class="stage-index"]')[0],[element('span',name.upper())])
     default=runtime['skins']['default']
     art=stage.xpath('.//*[@id="character-art"]')[0];art.set('src',default['image']);art.set('alt',name+' default artwork')
     skin_buttons=[]
@@ -136,42 +145,35 @@ def build(output=None, base_path='/'):
     for n in roster:
         d=imported.get(n['name']);n['available']=bool(d)
         if d:n.update(slug=d['slug'],url='nauts/'+d['slug']+'/')
-    editorial=load(ROOT/'data/swiggins-editorial.json')
-    editorial_runtime=load(ROOT/'data/swiggins-runtime.json')
+    editorials={p.stem:load(p) for p in (ROOT/'data/editorial').glob('*.json')}
     ost=load(ROOT/'data/ost.json')
     themes=[dict(name=n['name'],**ost['tracks'][n['name']]) for n in roster if n['name'] in ost['tracks']]
     (output/'radio-data.js').write_text(js_assignment('radioThemes',themes),encoding='utf-8')
-    (output/'roster-data.js').write_text(js_assignment('archiveData',{'roster':roster,'items':editorial['items']}),encoding='utf-8')
+    (output/'roster-data.js').write_text(js_assignment('archiveData',{'roster':roster}),encoding='utf-8')
     shell=html.fromstring((ROOT/'src/templates/shell.html').read_text(encoding='utf-8'))
     site_url=load(ROOT/'site.config.json').get('siteUrl','').rstrip('/')
     if site_url:
         if not re.fullmatch(r'https://[A-Za-z0-9.-]+(?::[0-9]+)?',site_url):raise ValueError('siteUrl must be an HTTPS origin without a path')
         for textarea in shell.xpath('//textarea[contains(@class,"embed-code")]'):
             textarea.text=(textarea.text or '').replace('https://YOUR-SITE.neocities.org',site_url)
-    dossier_template=html.fromstring((ROOT/'src/templates/swiggins-dossier.html').read_text(encoding='utf-8'))
+    dossier_template=html.fromstring((ROOT/'src/templates/naut-dossier.html').read_text(encoding='utf-8'))
     for d in datasets:
         runtime=page_data(d,overrides)
         runtime['theme']=ost['tracks'].get(aliases.get(d['name'],d['name']))
         document=copy.deepcopy(shell)
-        if d['slug']=='admiral-swiggins':
-            dossier=copy.deepcopy(dossier_template)
-            runtime.update(itemGroups=['ANCHOR HOOK','DROP ANCHOR','ANCHOR SWING / INK SPRAY','UTILITY'])
-            runtime['items']=editorial['items']
-            runtime.update(editorial_runtime)
-        else:dossier=make_dossier(dossier_template,d,runtime)
+        editorial=editorials.get(d['slug'],{})
+        runtime.update(editorial.get('runtime',{}))
+        dossier=make_dossier(dossier_template,d,runtime,editorial.get('view'))
         slot=document.get_element_by_id('dossier-slot');slot.getparent().replace(slot,dossier)
         if runtime['theme']:
             theme=element('button',None,type='button',data_naut_theme='true',**{'class':'mini-action naut-theme','aria-label':'Listen to '+d['name']+' theme'})
             theme.append(element('span','▶',aria_hidden='true',**{'class':'theme-play-icon'}))
-            theme.append(element('span','NAUT THEME'))
+            theme.append(element('span','PLAY THEME'))
             heading=dossier.xpath('.//*[@class="dossier-heading"]')[0]
             name=heading.xpath('./h1')[0]
             name.addnext(theme)
         document.xpath('//title')[0].text=d['name']+' — Nauts Archive'
         document.xpath('//meta[@name="description"]')[0].set('content','Unofficial Awesomenauts field guide: '+d['name']+' abilities, upgrades, archived skins and story.')
-        counter=document.xpath('//*[@id="nauts"]/*[@class="section-line"]/span')[1]
-        replace_contents(counter, [])
-        counter.text=str(len(datasets)).zfill(2)+' DOSSIERS AVAILABLE / MORE TO COME'
         note=document.xpath('//*[@class="roster-note"]')[0]
         replace_contents(note, [])
         note.text=d['name'].upper()+' SELECTED'

@@ -20,15 +20,27 @@ class BuildTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             out=Path(temp)/'site';build(out)
             before={p.relative_to(out):hashlib.sha256(p.read_bytes()).hexdigest() for p in out.rglob('*') if p.is_file()}
-            for slug in ['ayla','chucho-krokk','admiral-swiggins']:
+            for source in sorted((ROOT/'data/nauts').glob('*.json')):
+                slug=source.stem
                 p=out/'nauts'/slug/'index.html';self.assertTrue(p.is_file())
                 doc=html.fromstring(p.read_text())
                 self.assertEqual(len(doc.xpath('//*[@class="dossier"]')),1)
                 self.assertEqual(doc.xpath('//base/@href'),['../../'])
                 data=json.loads((ROOT/'data/nauts'/f'{slug}.json').read_text())
                 self.assertEqual(doc.xpath('//*[@class="roster-note"]')[0].text_content(),data['name'].upper()+' SELECTED')
-                count=len(list((ROOT/'data/nauts').glob('*.json')))
-                self.assertEqual(doc.xpath('//*[@id="nauts"]/*[@class="section-line"]/span')[1].text_content(),f'{count:02d} DOSSIERS AVAILABLE / MORE TO COME')
+                self.assertFalse(doc.xpath('//*[@id="nauts"]/*[@class="section-line"]'))
+                self.assertFalse(doc.xpath('//*[@class="stage-index"]'))
+                self.assertEqual(doc.xpath('//*[@class="trait-row"]/*')[0].text_content(),next(s['value'] for s in data['stats'] if s['label']=='Role').upper())
+                self.assertEqual(len(doc.xpath('//*[@class="dossier-heading"]/h1/span')),1)
+                self.assertIn('PLAY THEME',doc.text_content())
+                self.assertFalse(doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," steam-mini ")]'))
+                self.assertNotIn('NAUT DOSSIER',doc.text_content())
+                self.assertNotIn('AWESOMENAUTS FIELD GUIDE',doc.text_content())
+                if slug=='admiral-swiggins':
+                    self.assertIn('THE ANCHOR-WIELDING SPACE ADMIRAL',doc.text_content())
+                    self.assertIn('FROM TITAN TO THE STARS',doc.text_content())
+                    self.assertIn('Swiggins excels with backup.',doc.text_content())
+                else:self.assertFalse(doc.xpath('//*[@class="subtitle"]'))
             build(out)
             after={p.relative_to(out):hashlib.sha256(p.read_bytes()).hexdigest() for p in out.rglob('*') if p.is_file()}
             self.assertEqual(before,after)
@@ -42,7 +54,7 @@ class BuildTests(unittest.TestCase):
     def test_imported_text_is_escaped(self):
         data=json.loads((ROOT/'data/nauts/ayla.json').read_text())
         data['name']='<script>alert(1)</script>'
-        template=html.fromstring((ROOT/'src/templates/swiggins-dossier.html').read_text())
+        template=html.fromstring((ROOT/'src/templates/naut-dossier.html').read_text())
         node=make_dossier(template,data,page_data(data,{}))
         self.assertEqual(node.xpath('.//script'),[])
         self.assertIn(data['name'].upper(),node.xpath('.//h1')[0].text_content())

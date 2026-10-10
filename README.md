@@ -37,7 +37,8 @@ JavaScript syntax checks and Worker tests, not to build or serve the site.
 | `data/nauts/*.json` | Extracted data, canonical sources, hashes and diagnostics |
 | `data/roster.json` | Supplied portrait order and honeycomb coordinates |
 | `data/presentation.json` | Explicit image choices when a source lacks splash art |
-| `src/templates/` | Shared HTML shell and approved Swiggins dossier |
+| `src/templates/` | Shared HTML shell and Naut dossier template |
+| `data/editorial/<slug>.json` | Optional curated wording/runtime, rendered through the shared template |
 | `src/static/` | Shared CSS, JS, fonts, cursor and image files |
 | `src/static/assets/nauts/<slug>/` | External images for each imported Naut |
 | `scripts/` | Offline extraction, import, build, validation and upload |
@@ -143,3 +144,7 @@ music are not relicensed by this repository. This is an unofficial fan site.
 See [status and next steps](docs/status.md) for the remaining work. Historical
 notes in `docs/previous-site-notes.md` describe earlier standalone versions;
 this README and current code take precedence.
+
+All Nauts use the same dossier renderer and heading/tag layout. Swiggins curated
+wording and runtime live in data/editorial/admiral-swiggins.json; there is no
+character-specific template or build branch. Steam charts remain in Community.

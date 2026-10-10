@@ -153,3 +153,13 @@ from being combined with newly deployed markup.
 - Explicit source-name aliases preserve roster selection and all OST themes.
 - Full-roster runtime tests cover URLs, JSON parity, 4 abilities, 24 items and assets;
   missing artwork remains documented. See docs/naut-import.md.
+
+## Shared dossier cleanup — 11 October 2026
+
+- Removed roster heading/count and homepage Steam widget; Community statistics remain.
+- Removed dossier eyebrows and the redundant character-stage name.
+- Role is now the first trait tag; all names share the same single-colour treatment.
+- Theme action reads PLAY THEME. Generic field-guide subtitles removed; optional
+  edited taglines such as Swiggins remain.
+- Replaced the Swiggins-specific template/build path with one data-free Naut template.
+  Optional per-Naut editorial JSON preserves curated copy, abilities, items and skins.
