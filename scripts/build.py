@@ -154,8 +154,12 @@ def build(output=None, base_path='/'):
         slot=document.get_element_by_id('dossier-slot');slot.getparent().replace(slot,dossier)
         document.xpath('//title')[0].text=d['name']+' — Nauts Archive'
         document.xpath('//meta[@name="description"]')[0].set('content','Unofficial Awesomenauts field guide: '+d['name']+' abilities, upgrades, archived skins and story.')
-        document.xpath('//*[@id="nauts"]/*[@class="section-line"]/span')[1].text=str(len(datasets)).zfill(2)+' DOSSIERS AVAILABLE / MORE TO COME'
-        document.xpath('//*[@class="roster-note"]')[0].text=d['name'].upper()+' SELECTED'
+        counter=document.xpath('//*[@id="nauts"]/*[@class="section-line"]/span')[1]
+        replace_contents(counter, [])
+        counter.text=str(len(datasets)).zfill(2)+' DOSSIERS AVAILABLE / MORE TO COME'
+        note=document.xpath('//*[@class="roster-note"]')[0]
+        replace_contents(note, [])
+        note.text=d['name'].upper()+' SELECTED'
         # A relative base keeps every shared asset/navigation working on nested URLs.
         head=document.xpath('//head')[0];head.insert(0,element('base',href='../../'))
         old_scripts=document.xpath('//script[@src]');first=old_scripts[0]

@@ -22,8 +22,10 @@ jobs:
       - run: python -m unittest discover -s tests -v
         env:
           PYTHONPATH: scripts
+      - run: node tests/players-client.mjs
       - run: node tests/workers.mjs
       - run: python scripts/build.py
+      - run: python scripts/fetch_players.py
       - run: node tests/page-data.mjs
       - run: python scripts/deploy_neocities.py
         env:

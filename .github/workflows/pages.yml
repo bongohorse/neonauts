@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
 permissions:
   contents: read
 concurrency:
@@ -24,8 +26,11 @@ jobs:
         env:
           PYTHONPATH: scripts
       - run: python scripts/build.py --base-path /neonauts/
+      - name: Refresh Steam player count
+        run: python scripts/fetch_players.py
       - run: python scripts/check.py
       - run: node tests/page-data.mjs
+      - run: node tests/players-client.mjs
       - run: node tests/workers.mjs
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:

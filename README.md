@@ -61,7 +61,7 @@ roster contains 34 icons; the remaining dossiers honestly await imports.
 
 Existing features retained: six map dossiers, holiday screenshots, rookie
 guide, searchable glossary, badges/blinkies/stamps, guestbook terminal, 404
-page, local audio radio, hidden arcade, 32px normal/hover cursor, external game
+page, Bandcamp soundtrack radio with optional local audio, hidden arcade, 32px normal/hover cursor, external game
 links, reduced-motion handling and View Transition enhancement for section
 navigation. Naut changes use ordinary links between generated pages.
 
@@ -92,6 +92,7 @@ $env:PYTHONPATH = "scripts"
 .\.venv\Scripts\python.exe scripts/check.py
 node tests/page-data.mjs
 node tests/workers.mjs
+node tests/players-client.mjs
 ```
 
 GitHub Actions runs these on pushes to `main` and pull requests. Checks cover
@@ -109,10 +110,15 @@ workflow is ready. Add the `NEOCITIES_API_KEY` repository secret and configure
 the public site URL before using it. Only generated files from `dist/` are
 uploaded. The uploader does not delete existing remote files.
 
-Player count and public guestbook require separately deployed Workers; until
-their URLs are configured, the site displays connection-pending states and
-keeps guestbook drafts local. Radio currently plays visitor-selected local
-audio; no hosted soundtrack is connected.
+GitHub Pages refreshes `players.json` from Steam during deployment and on a
+15-minute Actions schedule. Scheduled runs may be delayed; the visible timestamp
+is the actual fetch time. Counts older than one hour display as unavailable.
+Run `python scripts/fetch_players.py` after a local build to refresh its snapshot.
+For continually refreshed counts on Neocities, configure the optional player
+Worker URL (or arrange periodic uploads); a one-time upload is only a snapshot.
+The public guestbook still requires its own Worker/KV and keeps drafts local
+until configured. Radio loads SonicPicnic’s official Bandcamp Ultimate Edition
+player when opened. Closing it stops playback; local audio is still available.
 
 ## Sources and rights
 

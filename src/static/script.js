@@ -14,7 +14,8 @@ function openSection(animate=true){
   $$('[data-section]').forEach(a=>{a.classList.toggle('selected',a.dataset.section===name);if(a.dataset.section===name)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
   const page=document.getElementById(name);
   const heading=page.querySelector('h1');
-  document.title=(heading ? heading.textContent.replace(/\s+/g,' ').trim() : 'Nauts Archive')+' — Awesomenauts';
+  document.title=(name==='nauts' ? nautPage.name : heading ? heading.textContent.replace(/\s+/g,' ').trim() : 'Nauts Archive')+' — Awesomenauts';
+  document.dispatchEvent(new Event('archive:sectionchange'));
   if(animate){
    const target=heading || page;
    target.setAttribute('tabindex','-1');
@@ -90,8 +91,18 @@ $('#skin-prev').onclick=()=>selectSkin(skinOrder[(currentSkin+skinOrder.length-1
 $('#skin-next').onclick=()=>selectSkin(skinOrder[(currentSkin+1)%skinOrder.length],1);
 // Browser-local audio player. No audio is uploaded, and no OST source is invented.
 const audio=$('#audio');audio.volume=.4;let tracks=[],trackIndex=0;
-function setRadio(open){$('#radio-panel').hidden=!open;$('#radio-toggle').setAttribute('aria-expanded',String(open));if(open)$('#radio-close').focus();}
-$('#radio-toggle').onclick=()=>setRadio($('#radio-panel').hidden);$('#radio-close').onclick=()=>{setRadio(false);$('#radio-toggle').focus()};
+const radio=$('#radio-panel'),bandcamp=$('#bandcamp-player');
+function setRadio(open){
+ if(open){if(!bandcamp.hasAttribute('src'))bandcamp.src=bandcamp.dataset.src;radio.showModal();$('#radio-toggle').setAttribute('aria-expanded','true');$('#radio-close').focus();}
+ else radio.close();
+}
+$('#radio-toggle').onclick=()=>setRadio(!radio.open);
+$('#radio-close').onclick=()=>setRadio(false);
+radio.addEventListener('close',()=>{audio.pause();bandcamp.removeAttribute('src');$('#radio-toggle').setAttribute('aria-expanded','false');$('#radio-toggle').focus();});
+$('#local-radio').addEventListener('toggle',()=>{
+ if($('#local-radio').open)bandcamp.removeAttribute('src');
+ else{audio.pause();if(radio.open)bandcamp.src=bandcamp.dataset.src;}
+});
 function loadTrack(i,play=false){if(!tracks.length)return;trackIndex=(i+tracks.length)%tracks.length;audio.src=tracks[trackIndex].url;$('#track-title').textContent=tracks[trackIndex].name;$('#playlist').value=String(trackIndex);$('#radio-status').textContent='Local audio · stays on this device.';$('#play-track').textContent='▶';$('#play-track').setAttribute('aria-label','Play music');if(play)audio.play().catch(()=>notify('Playback could not start. Try another audio file.'));}
 $('#audio-files').onchange=e=>{audio.pause();audio.removeAttribute('src');audio.load();tracks.forEach(t=>URL.revokeObjectURL(t.url));tracks=[...e.target.files].map(f=>({name:f.name.replace(/\.[^.]+$/,''),url:URL.createObjectURL(f)}));$('#playlist').replaceChildren();tracks.forEach((t,i)=>{const op=document.createElement('option');op.value=i;op.textContent=t.name;$('#playlist').append(op)});$('#playlist').hidden=!tracks.length;$$('.radio-controls button').forEach(b=>b.disabled=!tracks.length);if(tracks.length)loadTrack(0);};
 $('#play-track').onclick=()=>{if(audio.paused)audio.play().catch(()=>notify('Audio could not be played.'));else audio.pause()};$('#prev-track').onclick=()=>loadTrack(trackIndex-1,!audio.paused);$('#next-track').onclick=()=>loadTrack(trackIndex+1,!audio.paused);$('#repeat-track').onclick=()=>{audio.loop=!audio.loop;$('#repeat-track').setAttribute('aria-pressed',String(audio.loop))};$('#playlist').onchange=e=>loadTrack(Number(e.target.value),!audio.paused);$('#volume').oninput=e=>audio.volume=Number(e.target.value);audio.onplay=()=>{$('#play-track').textContent='Ⅱ';$('#play-track').setAttribute('aria-label','Pause music')};audio.onpause=()=>{$('#play-track').textContent='▶';$('#play-track').setAttribute('aria-label','Play music')};audio.onended=()=>loadTrack(trackIndex+1,true);audio.onerror=()=>{if(tracks.length){$('#radio-status').textContent='Audio unavailable or format unsupported. Try another file.';notify('This audio file could not be played.')}};

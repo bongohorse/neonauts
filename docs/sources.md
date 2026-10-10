@@ -32,3 +32,14 @@ described in the site's graphics section.
 Neonauts is not affiliated with Ronimo Games, Atari, Valve or Fandom. Snapshot
 values/availability describe their source; they do not establish the current
 game version. Missing data is shown as missing rather than fabricated.
+
+## Radio and player activity
+
+Radio uses the official embedded player for SonicPicnic’s
+[Awesomenauts — Ultimate Edition](https://sonicpicnic.bandcamp.com/album/awesomenauts-ultimate-edition),
+album ID 3940808224 as supplied by Bandcamp’s album metadata. Audio is streamed
+by Bandcamp, not downloaded or redistributed in this repository.
+
+Player snapshots query Valve’s public GetNumberOfCurrentPlayers endpoint for
+appid 204300. SteamDB and SteamCharts remain external reference links; no chart
+pages are scraped. The fetch time is shown and unavailable data is never zero.

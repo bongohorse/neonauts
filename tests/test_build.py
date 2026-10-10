@@ -25,6 +25,9 @@ class BuildTests(unittest.TestCase):
                 doc=html.fromstring(p.read_text())
                 self.assertEqual(len(doc.xpath('//*[@class="dossier"]')),1)
                 self.assertEqual(doc.xpath('//base/@href'),['../../'])
+                data=json.loads((ROOT/'data/nauts'/f'{slug}.json').read_text())
+                self.assertEqual(doc.xpath('//*[@class="roster-note"]')[0].text_content(),data['name'].upper()+' SELECTED')
+                self.assertEqual(doc.xpath('//*[@id="nauts"]/*[@class="section-line"]/span')[1].text_content(),'03 DOSSIERS AVAILABLE / MORE TO COME')
             build(out)
             after={p.relative_to(out):hashlib.sha256(p.read_bytes()).hexdigest() for p in out.rglob('*') if p.is_file()}
             self.assertEqual(before,after)

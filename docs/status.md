@@ -1,4 +1,4 @@
-# Status — repository foundation, 10 October 2026
+# Status — archive improvements, 10 October 2026
 
 ## Completed
 
@@ -19,7 +19,7 @@
 
 ## Verification
 
-13 extractor/build tests pass locally. Site checks pass for local HTML links,
+17 extractor/build/player-fetch tests pass locally. Site checks pass for local HTML links,
 CSS paths, IDs, ARIA references, JavaScript syntax, decoded raster images and
 Naut asset references. Guestbook origin/length/honeypot checks, cooldown,
 pending moderation and published feed pass in an in-memory Worker test.
@@ -38,8 +38,31 @@ on its actual run, not inferred from local checks.
    both skin cards currently use available in-game art.
 5. Provide item-page snapshots for upgrade costs and effects.
 6. Configure siteUrl and NEOCITIES_API_KEY, then publish and verify live URLs.
-7. Deploy/configure player-count Worker and guestbook Worker/KV moderation.
-8. Connect a permitted soundtrack source if hosted radio is desired.
+7. Deploy/configure guestbook Worker/KV moderation. For live Neocities counts,
+   optionally configure the player Worker or periodic snapshot uploads.
+8. Real-device mobile and audible soundtrack acceptance.
 
 The repo does not assume that every Wiki snapshot uses an identical template.
 The supplied portrait roster has 34 entries; imported content is currently 3.
+
+## Archive improvements
+
+- Removed retained template children that duplicated roster/count text and
+  appended Swiggins to other Naut selections. Fixed the Swiggins browser title.
+- Small-screen skin cards wrap with readable labels; improved narrow layouts,
+  minimum touch targets, focusable roster scrolling and footer links.
+- Maps: name/feature search, standard/legacy filters, adjacent-map links,
+  keyboard card navigation, bounded zoom and Fit reset. Map-title updates now
+  follow section transitions instead of racing with them.
+- Radio: official SonicPicnic Bandcamp Ultimate Edition embed, loaded on open;
+  native dialog focus containment, Escape/close cleanup and optional local audio.
+  The detached launcher remains part of the header and scrolls out of view.
+- Steam snapshot fetcher and Pages schedule (15 minutes), with timestamp and
+  unavailable states for failures, invalid values and counts older than one hour.
+  No extra hosting service or API key is needed for the GitHub Pages preview.
+- Player-fetch unit tests and client tests cover zero, invalid/stale/future
+  counts and service outages. Existing link/asset/Worker checks remain required.
+- Simple animation and reduced-motion paths are preserved.
+
+Local automated checks pass. A real phone/touch and audible output check remain
+separate from automated checks and desktop browser review.

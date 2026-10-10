@@ -12,6 +12,30 @@
    if(location.hash===hash)render(map.id);else location.hash=hash;
   });list.append(button);
  });
+ function filterMaps(){
+  const query=document.querySelector('#map-search').value.trim().toLowerCase();
+  const type=document.querySelector('#map-filter').value;
+  let count=0;
+  mapArchive.maps.forEach(map=>{
+   const matches=(!query||[map.name,map.summary,...map.tags,...map.features.map(f=>f.name)].join(' ').toLowerCase().includes(query))&&
+    (type==='all'||(type==='legacy')===map.legacy);
+   list.querySelector(`[data-map="${map.id}"]`).hidden=!matches;
+   if(matches)count++;
+  });
+  document.querySelector('#map-results').textContent=count?`${count} / ${mapArchive.maps.length} battlefields · select a card below`:'No battlefields found. Try another name or feature.';
+ }
+ document.querySelector('#map-search').addEventListener('input',filterMaps);
+ document.querySelector('#map-filter').addEventListener('change',filterMaps);
+ filterMaps();
+ list.addEventListener('keydown',event=>{
+  const buttons=[...list.querySelectorAll('[data-map]')].filter(b=>!b.hidden);
+  const index=buttons.indexOf(event.target);if(index<0)return;
+  let next=null;
+  if(event.key==='ArrowRight')next=(index+1)%buttons.length;
+  if(event.key==='ArrowLeft')next=(index+buttons.length-1)%buttons.length;
+  if(event.key==='Home')next=0;if(event.key==='End')next=buttons.length-1;
+  if(next!==null){event.preventDefault();buttons[next].focus();}
+ });
  function selectTab(name,focus=false){
   activeTab=name;
   detail.querySelectorAll('[data-map-tab]').forEach(button=>{
@@ -23,7 +47,7 @@
  function openViewer(image,title,trigger){
   returnFocus=trigger;zoom=1;viewerImage.src=image;viewerImage.alt=title;viewerImage.style.width='100%';
   document.querySelector('#map-viewer-title').textContent=title;
-  document.querySelector('#map-zoom-level').textContent='100%';viewer.showModal();document.querySelector('#map-viewer-close').focus();
+  updateZoom();viewer.showModal();document.querySelector('#map-viewer-close').focus();
  }
  function render(id){
   const map=mapArchive.maps.find(item=>item.id===id)||mapArchive.maps[0];selectedMap=map;
@@ -36,6 +60,14 @@
   <div id="map-panel-tips" class="map-tab-panel" data-map-panel="tips" role="tabpanel" aria-labelledby="map-tab-tips" hidden><ol class="map-tips">${map.tips.map(tip=>`<li>${esc(tip)}</li>`).join('')}</ol><a class="text-link" href="${location.pathname}#guide">Need the basics? Open the rookie briefing →</a></div>
   <p class="source-note">Source: <a href="${esc(map.source)}" target="_blank" rel="noopener noreferrer">${esc(map.name)} Wiki</a> · supplied snapshot, 10 October 2026. Descriptions and tips adapted under CC BY-SA 3.0. Map availability and mechanics reflect that snapshot; exact game-version values are not independently verified.</p>`;
   selectTab(activeTab);
+  const navigation=document.createElement('nav');navigation.className='map-dossier-nav';navigation.setAttribute('aria-label','Adjacent battlefields');
+  const position=mapArchive.maps.indexOf(map);
+  for(const [label,delta] of [['← PREVIOUS',-1],['NEXT →',1]]){
+   const adjacent=mapArchive.maps[(position+delta+mapArchive.maps.length)%mapArchive.maps.length];
+   const link=document.createElement('a');link.className='mini-action';link.href=location.pathname+'#maps/'+adjacent.id;link.textContent=label;
+   link.setAttribute('aria-label',label+' battlefield: '+adjacent.name);navigation.append(link);
+  }
+  detail.append(navigation);
   const tabs=[...detail.querySelectorAll('[data-map-tab]')];
   tabs.forEach((button,index)=>{
    button.addEventListener('click',()=>selectTab(button.dataset.mapTab));
@@ -53,9 +85,15 @@
  }
  document.querySelector('#map-viewer-close').onclick=()=>viewer.close();
  viewer.addEventListener('close',()=>{if(returnFocus?.isConnected)returnFocus.focus();});
+ function updateZoom(){
+  viewerImage.style.width=(zoom*100)+'%';document.querySelector('#map-zoom-level').textContent=(zoom*100)+'%';
+  document.querySelector('#map-zoom-out').disabled=zoom===1;
+  document.querySelector('#map-zoom-in').disabled=zoom===3;
+ }
  for(const [id,delta] of [['map-zoom-in',.5],['map-zoom-out',-.5]])document.getElementById(id).onclick=()=>{
-  zoom=Math.max(1,Math.min(3,zoom+delta));viewerImage.style.width=(zoom*100)+'%';document.querySelector('#map-zoom-level').textContent=(zoom*100)+'%';
+  zoom=Math.max(1,Math.min(3,zoom+delta));updateZoom();
  };
+ document.querySelector('#map-zoom-reset').onclick=()=>{zoom=1;updateZoom();document.querySelector('.map-viewer-scroll').scrollTo(0,0);};
  const holidays=document.querySelector('#holiday-themes');
  mapArchive.themes.forEach(theme=>{
   const card=document.createElement('article');card.className='holiday-card';
@@ -68,5 +106,5 @@
    button.onclick=()=>openViewer(src,theme.name+' — archived decorations',button);images.append(button);
   });card.append(title,text,images);holidays.append(card);
  });
- render(mapArchive.maps[0].id);window.addEventListener('hashchange',route);route();
+ render(mapArchive.maps[0].id);document.addEventListener('archive:sectionchange',route);route();
 })();
