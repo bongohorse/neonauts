@@ -24,14 +24,18 @@ CSS paths, IDs, ARIA references, JavaScript syntax, decoded raster images and
 Naut asset references. Guestbook origin/length/honeypot checks, cooldown,
 pending moderation and published feed pass in an in-memory Worker test.
 
-Native browser rendering, responsive interaction and actual Neocities hosting
-have not been verified in this workspace. GitHub CI status must be assessed
-on its actual run, not inferred from local checks.
+GitHub Pages is active. Desktop browser checks verify the Roster, skin arrows,
+map search/filter, layout viewer, zoom reset, keyboard tabs, browser Back,
+Steam snapshot display and Bandcamp playback progress / Escape cleanup.
+No site-origin console errors were observed during those checks.
+A real mobile/touch device, changed OS reduced-motion preference and actual
+Neocities hosting remain unverified. CSS honours reduced-motion and the
+JavaScript checks it before starting section/skin animations.
 
 ## Next work
 
-1. Browser review of all three Nauts: desktop/mobile, roster, tabs, skin
-   arrows, hash navigation, Back/Forward, radio, glossary and map zoom.
+1. Real-device review of the small-screen layouts, touch controls and audible
+   music output; verify the reduced-motion path with the device preference.
 2. Import remaining supplied Nauts, inspect each summary and missing assets.
 3. Improve Ayla/Chucho editorial summaries and long skin descriptions.
 4. Supply Chucho's six missing saved images if higher-quality art is needed;
@@ -66,3 +70,17 @@ The supplied portrait roster has 34 entries; imported content is currently 3.
 
 Local automated checks pass. A real phone/touch and audible output check remain
 separate from automated checks and desktop browser review.
+
+## Published verification
+
+Implementation commit `d4fbda2`: Site checks run 38070851400 and Pages run
+38070851416 succeeded. Live Community displayed a real Steam count with its
+fetch timestamp. The Bandcamp theme playback timer advanced and Escape removed
+the iframe source and restored focus to the launcher. Roster text and browser
+title were corrected live; maps search, legacy filter, zoom/Fit, Escape,
+keyboard tabs and history navigation were exercised. Desktop viewport: 1363px;
+no horizontal page overflow on the checked Maps view.
+
+Small-screen CSS changes were reviewed in source, not accepted as a real-phone
+test. This browser has no supported viewport-resize API; an attempted inline
+preview was rejected by its URL policy, so it was not used.
