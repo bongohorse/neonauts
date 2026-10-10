@@ -130,7 +130,8 @@ def build(output=None, base_path='/'):
     overrides=load(ROOT/'data/presentation.json')
     for d in datasets:
         if d['schema_version']!=1 or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',d['slug']):raise ValueError('Invalid Naut schema/slug')
-    imported = {d['name']:d for d in datasets}
+    aliases=load(ROOT/'data/naut-aliases.json')
+    imported = {aliases.get(d['name'],d['name']):d for d in datasets}
     roster=load(ROOT/'data/roster.json')
     for n in roster:
         d=imported.get(n['name']);n['available']=bool(d)
@@ -150,7 +151,7 @@ def build(output=None, base_path='/'):
     dossier_template=html.fromstring((ROOT/'src/templates/swiggins-dossier.html').read_text(encoding='utf-8'))
     for d in datasets:
         runtime=page_data(d,overrides)
-        runtime['theme']=ost['tracks'].get(d['name'])
+        runtime['theme']=ost['tracks'].get(aliases.get(d['name'],d['name']))
         document=copy.deepcopy(shell)
         if d['slug']=='admiral-swiggins':
             dossier=copy.deepcopy(dossier_template)

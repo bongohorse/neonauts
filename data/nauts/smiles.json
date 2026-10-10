@@ -1,0 +1,877 @@
+{
+  "schema_version": 1,
+  "name": "Smiles",
+  "slug": "smiles",
+  "source": {
+    "filename": "Smiles.-.Official.Awesomenauts.Wiki.10.10.2026.17.57.25.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Smiles",
+    "sha256": "a5e22357f19ea0adc22d767dd985b31f09167c0d4f96d859b0b4bf0c0787d22a",
+    "size_bytes": 3160168
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1600 (2816)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.6"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Short-ranged"
+    },
+    {
+      "label": "Role",
+      "value": "Fighter"
+    },
+    {
+      "label": "Mobility",
+      "value": "Balanced"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Poacher",
+    "Type of abilities": "Tether , Lifesteal , Knockback , Stun",
+    "Release Date": "12 July 2017"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Trapper's Hook",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Trapper%27s_Hook",
+      "description": "Throw out a hook that will connect with enemy Awesomenauts and lets you drag them around the map for a short duration.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "100 (157)"
+        },
+        {
+          "label": "Duration",
+          "value": "1.1s"
+        },
+        {
+          "label": "Reel in time",
+          "value": "2s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "8s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Bush Fire",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bush_Fire",
+      "description": "Fire your flamethrower and set everything ablaze.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "23 (36.11)"
+        },
+        {
+          "label": "Awesomenaut Damage",
+          "value": "28 (43.96)"
+        },
+        {
+          "label": "Attacks per second",
+          "value": "7.7"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Tail Whip",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tail_Whip",
+      "description": "Smack your foes with your reinforced tail, knocking them back.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "280 (439.6)"
+        },
+        {
+          "label": "Knockback",
+          "value": "Yes"
+        },
+        {
+          "label": "Stun",
+          "value": "0.2s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7.5s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "High Reptilian Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/High_Reptilian_Jump",
+      "description": "High reptilian jump.",
+      "values": [
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Dinosaur Hook",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dinosaur_Hook",
+      "group": "Trapper's Hook",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Electric Magnetic Winch",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Electric_Magnetic_Winch",
+      "group": "Trapper's Hook",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Candy Rope",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Candy_Rope",
+      "group": "Trapper's Hook",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bush Telly",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bush_Telly",
+      "group": "Trapper's Hook",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Snapper Trap",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Snapper_Trap",
+      "group": "Trapper's Hook",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Knot Meister",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Knot_Meister",
+      "group": "Trapper's Hook",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wooly Geurt",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wooly_Geurt",
+      "group": "Tail Whip",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Gnome King",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Gnome_King",
+      "group": "Tail Whip",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Unicornian Butt",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Unicornian_Butt",
+      "group": "Tail Whip",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sandworm Tail",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sandworm_Tail",
+      "group": "Tail Whip",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Warbot \"Heart\"",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Warbot_%22Heart%22",
+      "group": "Tail Whip",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "My First Machete",
+      "source_url": "https://awesomenauts.fandom.com/wiki/My_First_Machete",
+      "group": "Tail Whip",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barbie Sauce",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barbie_Sauce",
+      "group": "Bush Fire",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pocket Dog",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pocket_Dog",
+      "group": "Bush Fire",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Inscribed Lighter",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Inscribed_Lighter",
+      "group": "Bush Fire",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Roadkill Shashlik",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Roadkill_Shashlik",
+      "group": "Bush Fire",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rodent Smoker",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rodent_Smoker",
+      "group": "Bush Fire",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dirty Apron",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dirty_Apron",
+      "group": "Bush Fire",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "High Reptilian Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "High Reptilian Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Swamp Gummies",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Swamp_Gummies",
+      "group": "High Reptilian Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "High Reptilian Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "High Reptilian Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "High Reptilian Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Pyromancer Smiles",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Some crocodiles just want to watch the world burn. Pyromancer Smiles won't settle for that. He has peered into the flames and had visions of him setting all of creation ablaze! He's left the (now scorched) swamps of Ribbit II on a quest to fulfill this dark destiny, and stowed away on the Awesomenauts vessel to visit distant worlds. What's left standing after a battle is incinerated by the Pyromancer, until only ash remains."
+        },
+        {
+          "type": "paragraph",
+          "text": "He's dark, he's angry, and he's armed with a flamethrower. Don't cross Pyromancer Smiles as he'll burn you to a crisp! The Flames command it!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Smiles in Awesomenauts. You need to have Smiles available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Smiles a more dragon-like look and wizard garb. He wears team-colored robes, including a hood, has skull-shaped shoulderpads and horns on his head. His eyes have no pupils, his tail has a bone ornaments instead of the metal reinforcement, his flamethrower is shaped like a skull mouth and his gear (trap and winch) are more medieval-looking."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bush Fire has flaming skulls effects on it, Trapper's Hook has a golden chain instead of the original electric-tether effect and although the animation for [{Tail Whip]] is unchanged, the tail itself looks different as previously mentioned."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with unique voice-acting."
+        }
+      ],
+      "assets": [
+        "asset-036"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "After escaping with the other renegades out the clutches of the “unstoppable” Piere Feu Darret the corrupt Scarg emperor, Smiles hid in the swamps on Ribbit II."
+      },
+      {
+        "type": "paragraph",
+        "text": "With a background of tracking and capturing yummy targets around the galaxy for the emperors endless appetite, he put his skills to good use: hunting some game in the deep swamps and starting a small business selling handcrafted luxurious handbags."
+      },
+      {
+        "type": "paragraph",
+        "text": "The unorthodox method of poaching swamp rodents with his flame thrower resulted in heavily burned pelts and hides, but it turned out a great business success as the dark charred bags were an instant hit on the amphibian black market."
+      },
+      {
+        "type": "paragraph",
+        "text": "One day an old friend knocked on his door and a plan of vengeance was drawn to find some new allies and clear their names."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "Some crocodiles just want to watch the world burn. Pyromancer Smiles won't settle for that. He has peered into the flames and had visions of him setting all of creation ablaze! He's left the (now scorched) swamps of Ribbit II on a quest to fulfill this dark destiny, and stowed away on the Awesomenauts vessel to visit distant worlds. What's left standing after a battle is incinerated by the Pyromancer, until only ash remains."
+      },
+      {
+        "type": "paragraph",
+        "text": "He's dark, he's angry, and he's armed with a flamethrower. Don't cross Pyromancer Smiles as he'll burn you to a crisp! The Flames command it!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Smiles in Awesomenauts. You need to have Smiles available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Smiles a more dragon-like look and wizard garb. He wears team-colored robes, including a hood, has skull-shaped shoulderpads and horns on his head. His eyes have no pupils, his tail has a bone ornaments instead of the metal reinforcement, his flamethrower is shaped like a skull mouth and his gear (trap and winch) are more medieval-looking."
+      },
+      {
+        "type": "paragraph",
+        "text": "Bush Fire has flaming skulls effects on it, Trapper's Hook has a golden chain instead of the original electric-tether effect and although the animation for [{Tail Whip]] is unchanged, the tail itself looks different as previously mentioned."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with unique voice-acting."
+      }
+    ],
+    "Awesomenaut Showcase": [
+      {
+        "type": "paragraph",
+        "text": "Showcase starts at 0:47 in the video."
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "It was originally intended for Smiles to be released before Dizzy, but Ronimo had a change of plans.",
+          "Smiles is a member of Rocket's Renegades, along with Dizzy, Commander Rocket, and Qi'Tara."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Use Trapper's Hook to initiate a fight by pulling an enemy for your team or to prevent a low health 'naut from escaping.",
+          "When your teammates are using 'nauts that lay traps such as Derpl or Yuri, coordinate with them and use your Trapper's Hook to drag them into hazards.",
+          "If you can land Trapper's Hook on enemies that are going down platforms or just jumping from great height, they'll be stuck mid air, similar to what happens with Drop Anchor.",
+          "Consider purchasing Candy Rope and Bush Telly for even more teamfight presence with your Trapper's Hook.",
+          "Tail Whip is a very versatile ability: use it to push enemies away from low health teammates, to disrupt the initiation of 'nauts like Skølldir or Swiggins, to push away enemies with dangerous burst such as Clunk, to finish off low health 'nauts, to push enemy 'nauts into your team for the kill or even as a droid clearing tool.",
+          "Be careful when using Tail Whip to finish a weakened Awesomenaut off: If you don't kill them, you will push them further away, making their escape easier.",
+          "Tail Whip can deal a surprisingly high amount of damage when properly upgraded. Try using Gnome King and Sandworm Tail for extra burst power.",
+          "Smiles isn't the fastest 'naut around. If you have toruble getting behind the enemy team to Tail Whip them towards your own teammates, make use of terrain and hide areas to come from unexpected angles and directions, catching them off guard.",
+          "Smiles has several options aimed at survivability: Aside from the usual utility upgrades, Snapper Trap, Rodent Smoker and Swamp Gummies all help him achieve that with varying degrees of efficiency.",
+          "Bush Fire has short range and slows your movement speed down while it's being used. Save it for enemies that stick around to fight in order to wear them down and/or to finish them off in case Tail Whip can't do the job.",
+          "Upgrading Bush Fire's damage can turn Smiles into a powerful duelist.",
+          "If your team is employing a lot of crowd control effects, consider purchasing Dirty Apron for your Bush Fire."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "While Smiles is capable of killing enemy Awesomenauts on his own, he works better with followup: Help him finish 'nauts that are caught in Trapper's Hook or pushed towards your team by Tail Whip. When Smiles hooks an enemy, he puts himself at risk. Back him up for free kills.",
+          "Smiles is a relatively large Awesomenaut and may take a lot of damage trying to initiate. Consider using shields and heals to aid him.",
+          "It is often a better idea to wait for Smiles to initiate before using your burst, as Trapper's Hook will make it very easy to land slow burst abilities."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Trapper's Hook ignores droids. It's useless to hide behind them for cover.",
+          "Be careful not to overextend against Smiles: He can easily pull you towards an enemy turret.",
+          "Be mindful of Smiles' position at all times. Tail Whip will launch you towards your enemies if you're not careful.",
+          "If your initiation requires you to be close to the enemy team, consider saving it for when Smiles' Tail Whip is on cooldown.",
+          "Smiles is a big 'naut with below average movement speed. Harass him from afar to force him out of the late or even weaken him enough for a kill.",
+          "Silence will prevent Smiles from using his abilities, gutting much of his potential.",
+          "Be careful if Smiles purchases Inscribed Lighter. He may leave flames on the floor which deal deceptively high damage."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/smiles-001-ccaf155e.webp",
+      "source_name": "Smiles 001.png",
+      "alt": "Smiles 001",
+      "width": 512,
+      "height": 395,
+      "format": "WEBP",
+      "sha256": "ccaf155e50f00bc62563898e15bfdf04601bb61cfc5692ec950dabb58c363663",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-smiles-chain-620af368.webp",
+      "source_name": "UI Skillbutton Smiles Chain.png",
+      "alt": "UI Skillbutton Smiles Chain",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "620af368386bdbe72dbd746a04904f3763bfeda15361f7d4ddbd1b4f08ad2097",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-smiles-attack-ab4121fe.webp",
+      "source_name": "UI Skillbutton Smiles Attack.png",
+      "alt": "UI Skillbutton Smiles Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "ab4121fed988af40a2355085e3d527fb7cc15f97d90a93a7b0304d17680431e8",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-smiles-tail-d376b4c3.webp",
+      "source_name": "UI Skillbutton Smiles Tail.png",
+      "alt": "UI Skillbutton Smiles Tail",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "d376b4c3d1a824378a40bfd691c20bd177d3a09ef3484b752a8e752e6476fa83",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-smiles-jump-b5078a33.webp",
+      "source_name": "UI Skillbutton Smiles Jump.png",
+      "alt": "UI Skillbutton Smiles Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "b5078a33b5b6275671da0a3998a19d86ff734050f86fd0c0b3c0c4522243c8ff",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-smiles-skill-a-upgrade-a-a73dfee5.webp",
+      "source_name": "Shop icons Smiles skill a upgrade a.png",
+      "alt": "Shop icons Smiles skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a73dfee53b0921c092b727d8703b66688aebd3eb9d1ae4537417b67e9d87c2af",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-smiles-skill-a-upgrade-b-9b3dcf61.webp",
+      "source_name": "Shop icons Smiles skill a upgrade b.png",
+      "alt": "Shop icons Smiles skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9b3dcf6113acfbcf3efad4b7689a7e2cf3fbb573c7b586045b1be07e1a929962",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-smiles-skill-a-upgrade-c-cd1337f4.webp",
+      "source_name": "Shop icons Smiles skill a upgrade c.png",
+      "alt": "Shop icons Smiles skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cd1337f4beef7a867a85413e72091bff7a6490465dd7025db6bcb63e118e80ab",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-smiles-skill-a-upgrade-d-a4ced429.webp",
+      "source_name": "Shop icons Smiles skill a upgrade d.png",
+      "alt": "Shop icons Smiles skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a4ced429b7dae644cc8e79c18958206aac488e6ee1f9af064a8823dc020b4898",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-smiles-skill-a-upgrade-e-9718d227.webp",
+      "source_name": "Shop icons Smiles skill a upgrade e.png",
+      "alt": "Shop icons Smiles skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9718d227c208848e4624d9fbf4bd755ee10d04325f5f874794bdaf8f542e687e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-smiles-skill-a-upgrade-f-4d4e87e1.webp",
+      "source_name": "Shop icons Smiles skill a upgrade f.png",
+      "alt": "Shop icons Smiles skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4d4e87e14ee5812192eaaea619b17ef9d5a863ff8b7a0aae5a8e7863c20f3ffc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-smiles-skill-b-upgrade-a-c48e5786.webp",
+      "source_name": "Shop icons Smiles skill b upgrade a.png",
+      "alt": "Shop icons Smiles skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c48e5786425d7a3612e51cdd4bbedfb7c8ca65fec9ec5b5536c8a7c374193417",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-smiles-skill-b-upgrade-b-bebbf975.webp",
+      "source_name": "Shop icons Smiles skill b upgrade b.png",
+      "alt": "Shop icons Smiles skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bebbf9758566eacc49493bcf1a70440d512e063ba9efda4d9c77ad7d5ff50cc0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-smiles-skill-b-upgrade-c-d78780ed.webp",
+      "source_name": "Shop icons Smiles skill b upgrade c.png",
+      "alt": "Shop icons Smiles skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d78780ed57aad22eb705ec11e8bd37fb70d61860249ec478baa89d3286715c25",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-smiles-skill-b-upgrade-d-f095566b.webp",
+      "source_name": "Shop icons Smiles skill b upgrade d.png",
+      "alt": "Shop icons Smiles skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f095566b235ca396bfc99286aed1657f4b08ede4331498907130ca5084b8af64",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-smiles-skill-b-upgrade-e-4c5463a3.webp",
+      "source_name": "Shop icons Smiles skill b upgrade e.png",
+      "alt": "Shop icons Smiles skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4c5463a349245c7dd6a1bc5454eabaf3da8701bafa0a969ea8a3bf228c3ef4c7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-smiles-skill-b-upgrade-f-ace513a5.webp",
+      "source_name": "Shop icons Smiles skill b upgrade f.png",
+      "alt": "Shop icons Smiles skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ace513a5f05a2372351346ac9bca4f0a42e8938a158bcb536fb8bb0583914c93",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-smiles-skill-c-upgrade-a-0b0ddb29.webp",
+      "source_name": "Shop icons Smiles skill c upgrade a.png",
+      "alt": "Shop icons Smiles skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0b0ddb29d2c47999d6415162c71e114dd87bd98c74285f4c3beb1577df7649b7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-smiles-skill-c-upgrade-b-8b8222a6.webp",
+      "source_name": "Shop icons Smiles skill c upgrade b.png",
+      "alt": "Shop icons Smiles skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8b8222a654626b53f881fa283bdaee6d2eed447beaa6c424ddff621959aa41c9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-smiles-skill-c-upgrade-c-b4ccf360.webp",
+      "source_name": "Shop icons Smiles skill c upgrade c.png",
+      "alt": "Shop icons Smiles skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b4ccf360ef1645219e76abd326771ef31b7a03dd21d08fc79e23ebe0e5bfdcc2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-smiles-skill-c-upgrade-d-c821d751.webp",
+      "source_name": "Shop icons Smiles skill c upgrade d.png",
+      "alt": "Shop icons Smiles skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c821d751551aa252c2db34bfa6c56b8b7744108c936cae7173d679d8eacbd3af",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-smiles-skill-c-upgrade-e-2e8d1f50.webp",
+      "source_name": "Shop icons Smiles skill c upgrade e.png",
+      "alt": "Shop icons Smiles skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2e8d1f50f73823f2411b9d86b897e4c87f9db39a6e6c0e323e85d984c4a5aa3d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-smiles-skill-c-upgrade-f-943a6c86.webp",
+      "source_name": "Shop icons Smiles skill c upgrade f.png",
+      "alt": "Shop icons Smiles skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "943a6c86c5fea965b554c1455b3636ba3de2e6986dd99d14e4ce58b33e417306",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/shop-icons-overall-smilesspeed-a621a75a.webp",
+      "source_name": "Shop Icons Overall SmilesSpeed.png",
+      "alt": "Shop Icons Overall SmilesSpeed",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a621a75abd15abdeb7389621b34afd545eda8b53fc9f86fc4a0ae4fced598727",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/smilesingamered-b8c8a581.webp",
+      "source_name": "Smilesingamered.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 163,
+      "format": "WEBP",
+      "sha256": "b8c8a581e30abf4ce3673d4bef98ba1167348e5f145b377ebb485ab1f2bccc03",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/smilesingameblue-3966f0eb.webp",
+      "source_name": "Smilesingameblue.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 171,
+      "format": "WEBP",
+      "sha256": "3966f0eb303b53901a7c4204627095e4b11006686bd9bf8cbebf4bc87268509e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/pyromancersmilesingamered-77bc88dc.webp",
+      "source_name": "Pyromancersmilesingamered.png",
+      "alt": "Pyromancer Smiles.",
+      "width": 180,
+      "height": 170,
+      "format": "WEBP",
+      "sha256": "77bc88dc34d1a938220b900de6a622fbc06f172b158886096759ac486f911b74",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/pyromancersmilesingameblue-cd14474a.webp",
+      "source_name": "Pyromancersmilesingameblue.png",
+      "alt": "Pyromancer Smiles.",
+      "width": 180,
+      "height": 167,
+      "format": "WEBP",
+      "sha256": "cd14474af73c9d0698fc57be58a335ce071131b6268f8d62d630ee2f8292d440",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/ui-minimap-player-smiles-0-f372ee5b.webp",
+      "source_name": "Ui minimap player Smiles 0.png",
+      "alt": "Ui minimap player Smiles 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "f372ee5b26bedbf47e277335a45dbf6b98601c82fa42514ac59e8887b9c54408",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/classicon-smiles-0f8b256f.webp",
+      "source_name": "Classicon Smiles.png",
+      "alt": "Classicon Smiles",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "0f8b256fb7dce3f653e69ccfb9759e28cbadf7b6f4ab9c4bc756e150194c6c5e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/smiles-002-cc0de601.webp",
+      "source_name": "Smiles 002.png",
+      "alt": "Smiles 002",
+      "width": 200,
+      "height": 222,
+      "format": "WEBP",
+      "sha256": "cc0de6017e582597361f9df37d33cdc6e61e1d24df2282c35f516e2c3b22efe9",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Pyromancer Smiles Quotes"
+    ],
+    "status": "extracted"
+  }
+}

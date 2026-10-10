@@ -1,0 +1,1057 @@
+{
+  "schema_version": 1,
+  "name": "Gnaw",
+  "slug": "gnaw",
+  "source": {
+    "filename": "Gnaw.-.Official.Awesomenauts.Wiki.10.10.2026.17.51.26.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Gnaw",
+    "sha256": "169c3684374d3eea563ad7da920fe6082ef70f924d34d924e97df58e98cfaa59",
+    "size_bytes": 5247512
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1350 (2376)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.76"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Harasser"
+    },
+    {
+      "label": "Mobility",
+      "value": "Balanced"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Maw",
+    "Type of abilities": "Damage Over Time , Slow , Lifesteal , Amplify Damage , Weaken",
+    "Release Date": "August 22nd, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Acid Spit",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Acid_Spit",
+      "description": "Regurgitating leftovers from the trashcan at the local Nalconian Take-Away, Gnaw is able to barf up puddles of acidic goo that will burn unwary pedestrians for quite some time.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "50 (78.5)"
+        },
+        {
+          "label": "Damage Over Time",
+          "value": "300 (471)"
+        },
+        {
+          "label": "Damage Duration",
+          "value": "9s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "8"
+        },
+        {
+          "label": "Time",
+          "value": "4s"
+        },
+        {
+          "label": "Range",
+          "value": "6"
+        },
+        {
+          "label": "Heal",
+          "value": "20%"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Bite",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bite",
+      "description": "A Skroggle’s jaws are not to be trifled with. Able to bite through Toughasnailium in a single chomp, you’d better stay out of Gnaw’s yard if you value your limbs.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "70 (109.9)"
+        },
+        {
+          "label": "Damage Over Time",
+          "value": "100 (157)"
+        },
+        {
+          "label": "Damage Duration",
+          "value": "4s"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "133.3"
+        },
+        {
+          "label": "Range",
+          "value": "2.8"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Grow Weedling",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Grow_Weedling",
+      "description": "Gnaw has a special gland that is able to produce Weedlings - weird, sentient, plant-like creatures. Once nurtured, they are deposited on the ground from where they procede to shoot Gnaw’s enemies.",
+      "values": [
+        {
+          "label": "Parts",
+          "value": "4"
+        },
+        {
+          "label": "Damage",
+          "value": "200 (314)"
+        },
+        {
+          "label": "Weedling Damage",
+          "value": "75 (117.75)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "74.1"
+        },
+        {
+          "label": "Health",
+          "value": "450 (792)"
+        },
+        {
+          "label": "Weedling Starting Health",
+          "value": "25%"
+        },
+        {
+          "label": "Health Weedlings",
+          "value": "2000 per min."
+        },
+        {
+          "label": "Life time",
+          "value": "30s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Skroggle Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Skroggle_Jump",
+      "description": "Getting fed up with interplanetary mailmen that kept climbing into space-trees to avoid his jaws, Gnaw learned to jump for his meals!",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "10.4"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Aggressive Acid",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Aggressive_Acid",
+      "group": "Acid Spit",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Tentacle Soup",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tentacle_Soup",
+      "group": "Acid Spit",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Overcharged Metabolism",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Overcharged_Metabolism",
+      "group": "Acid Spit",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Spike Slime",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spike_Slime",
+      "group": "Acid Spit",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Feather Ball",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Feather_Ball",
+      "group": "Acid Spit",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Split Spit",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Split_Spit",
+      "group": "Acid Spit",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Corrosive Spores",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Corrosive_Spores",
+      "group": "Grow Weedling",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wild Growth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wild_Growth",
+      "group": "Grow Weedling",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fertilizer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fertilizer",
+      "group": "Grow Weedling",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Overgrowth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Overgrowth",
+      "group": "Grow Weedling",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Flex Neck",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Flex_Neck",
+      "group": "Grow Weedling",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bag of Seeds",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bag_of_Seeds",
+      "group": "Grow Weedling",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rotten Teeth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rotten_Teeth",
+      "group": "Bite",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chattering Teeth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chattering_Teeth",
+      "group": "Bite",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Filed Teeth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Filed_Teeth",
+      "group": "Bite",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dental Braces",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dental_Braces",
+      "group": "Bite",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rabbit Teeth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rabbit_Teeth",
+      "group": "Bite",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Diamond Teeth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Diamond_Teeth",
+      "group": "Bite",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Skroggle Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Skroggle Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Skroggle Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Solar Krab Burgers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Solar_Krab_Burgers",
+      "group": "Skroggle Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Skroggle Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Skroggle Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Bumble Gnaw",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Bzzzzzzz.... Bzzzzz... Jump like an insectoid alien, sting like a bee. Guaranteed success at any costume party: the new Bumble Gnaw skin! Includes flowery seedlings - so cute!\" - Official Steam Store description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Gnaw a bee costume, complete with antennae and wings. The claws on his back are missing, though. Weedlings have flower petals and are surrounded by bees."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "name": "Gnabot",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"0100100101110100001000000110100101110011001000000111010001101000011001010010 0000011001100111010101110100011101010111001001100101001011000010000001110100 0110100001100101001000000110010001101001011100110111010001100001011011100111 0100001000000110011001110101011101000111010101110010011001010010000100100000 0101010001101000011001010010000001111001011001010110000101110010001000000011 0100001100000011000000110000001000010010000001010101011011100110110001100101 0111001101110011001000000110100101110100001001110111001100100000011000010010 0000011011010110111101110010011001010010000001100011011011110110110001101111 0111000101110101011010010110000101101100001000000111001101101001011101000111 0101011000010111010001101001011011110110111000100000011101110110100101110100 0110100000100000011000010010000001100110011001010111011100100000011100100110 1111011000100110111101100110011100100110100101100101011011100110010001110011 0010110000100000010001110110111001100001011101110010000001101110011011110010 0000011011000110111101101110011001110110010101110010001000000111001101100001 0111100101110011001000000111000001101111011011110111000000101110001000000100 1001011011100111001101110100011001010110000101100100001011000010000001101000 0110010100100000011100110110000101111001011100110010000001100100011001010110 0110011001010110001101100001011101000110010100101110\" - Official Steam Store description"
+        },
+        {
+          "type": "paragraph",
+          "text": "(This text is a binary message; when translated via an ASCII decoder, it reads: \"It is the future, the distant future! The year 4000! Unless it's a more coloquial situation with a few robofriends, Gnaw no longer says poop. Instead, he says defecate.\")"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin is a silver-colored robotic version of Gnaw. He also has team-colored details. He has an RC-antenna on his head and on the tip of his tail. His collar has a \"power\" symbol. He only has a single eye on this skin."
+        },
+        {
+          "type": "paragraph",
+          "text": "His Weedlings are also turned robotic, with one eye and an antenna. Acid Spit is changed to a heap of metal, with new sounds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, the skin also comes with unique voice lines. It also costs $5.00 instead of the usual $2.50 for skins."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "name": "Gnariachi",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"A famous man once said that music has charms to soothe a savage beast. The savage beast in question was not a Skroggle though, as when the man tried to use music to calm one he found himself, his music, and his notebook eaten."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, legend speaks of a Skroggle that once ate an entire mariachi band. Though fulfilled, he never felt the same afterwards. He left his world-eating ways, wandered into the desert, and was never heard from again. One day a stranger walked into the town that had not heard a single song since the fateful day their mariachi band was eaten by a Skroggle. The stranger sat down, placed the weedlings he held in his robes beside him, and together they proceeded to play."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mariachi never dies. Gnariachi was born."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Gnaw in Awesomenauts. The Gnariachi skin comes with a unique character theme, killing spree theme, a unique voiceover, and special in-game audio effects for weedlings."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have not already unlocked the character, purchasing this DLC will do so.\" - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Gnaw a mariachi costume, moustache, and sombrero. He holds a maraca with his tail which shakes and makes noise while he stands still."
+        },
+        {
+          "type": "paragraph",
+          "text": "Acid Spit is recoloured to look like salsa, and it has nachos and a taco shell sitting in it. His Weedlings have moustaches and wear sombreros and neckties. Each Weedling is holding either a bass, a guitar, a violin, or a trumpet (chosen at random, but only one of each will spawn), and they will play their respective instrument's part of Gnariachi's theme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being an ultimate skin, Gnariachi comes with unique voice lines as well as unique music for his theme song and killing spree theme."
+        }
+      ],
+      "assets": []
+    }
+  ],
+  "sections": {
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "Skroggle infestations have been reported on over a dozen planets. The highly adaptable Skroggle physiology allows them to thrive in almost any atmosphere. Skroggles are omnivorous and their bizarre metabolism enables them to vomit plant-like creatures that excrete volatile acidic spores."
+      },
+      {
+        "type": "paragraph",
+        "text": "Gnaw was taken from his home-planet as a Skroggle specimen by Kremzonian scientists. But Gnaw was not a beast that could be caged: his acid-breath melted his holding pen and Gnaw started to rampage through the science facility where he was held. No-one knows exactly what happened, but the facility was found 12 days later, abandoned, and overgrown with some weird, toxic flora."
+      },
+      {
+        "type": "paragraph",
+        "text": "Gnaw was eventually noticed by a passing band of Amphibian cosmic bikerpirates. Gnaw was in need of some friends, and he was taken in by them, nurtured and trained to fight in black-market exotic-alien arena fights. Occasionally his masters sell Gnaw's \"services\" to any war general that is desperate enough to set loose the rabid, chitinous menace upon the battlefield."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"Bzzzzzzz.... Bzzzzz... Jump like an insectoid alien, sting like a bee. Guaranteed success at any costume party: the new Bumble Gnaw skin! Includes flowery seedlings - so cute!\" - Official Steam Store description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Gnaw a bee costume, complete with antennae and wings. The claws on his back are missing, though. Weedlings have flower petals and are surrounded by bees."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"0100100101110100001000000110100101110011001000000111010001101000011001010010 0000011001100111010101110100011101010111001001100101001011000010000001110100 0110100001100101001000000110010001101001011100110111010001100001011011100111 0100001000000110011001110101011101000111010101110010011001010010000100100000 0101010001101000011001010010000001111001011001010110000101110010001000000011 0100001100000011000000110000001000010010000001010101011011100110110001100101 0111001101110011001000000110100101110100001001110111001100100000011000010010 0000011011010110111101110010011001010010000001100011011011110110110001101111 0111000101110101011010010110000101101100001000000111001101101001011101000111 0101011000010111010001101001011011110110111000100000011101110110100101110100 0110100000100000011000010010000001100110011001010111011100100000011100100110 1111011000100110111101100110011100100110100101100101011011100110010001110011 0010110000100000010001110110111001100001011101110010000001101110011011110010 0000011011000110111101101110011001110110010101110010001000000111001101100001 0111100101110011001000000111000001101111011011110111000000101110001000000100 1001011011100111001101110100011001010110000101100100001011000010000001101000 0110010100100000011100110110000101111001011100110010000001100100011001010110 0110011001010110001101100001011101000110010100101110\" - Official Steam Store description"
+      },
+      {
+        "type": "paragraph",
+        "text": "(This text is a binary message; when translated via an ASCII decoder, it reads: \"It is the future, the distant future! The year 4000! Unless it's a more coloquial situation with a few robofriends, Gnaw no longer says poop. Instead, he says defecate.\")"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin is a silver-colored robotic version of Gnaw. He also has team-colored details. He has an RC-antenna on his head and on the tip of his tail. His collar has a \"power\" symbol. He only has a single eye on this skin."
+      },
+      {
+        "type": "paragraph",
+        "text": "His Weedlings are also turned robotic, with one eye and an antenna. Acid Spit is changed to a heap of metal, with new sounds."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, the skin also comes with unique voice lines. It also costs $5.00 instead of the usual $2.50 for skins."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"A famous man once said that music has charms to soothe a savage beast. The savage beast in question was not a Skroggle though, as when the man tried to use music to calm one he found himself, his music, and his notebook eaten."
+      },
+      {
+        "type": "paragraph",
+        "text": "However, legend speaks of a Skroggle that once ate an entire mariachi band. Though fulfilled, he never felt the same afterwards. He left his world-eating ways, wandered into the desert, and was never heard from again. One day a stranger walked into the town that had not heard a single song since the fateful day their mariachi band was eaten by a Skroggle. The stranger sat down, placed the weedlings he held in his robes beside him, and together they proceeded to play."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mariachi never dies. Gnariachi was born."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Gnaw in Awesomenauts. The Gnariachi skin comes with a unique character theme, killing spree theme, a unique voiceover, and special in-game audio effects for weedlings."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you have not already unlocked the character, purchasing this DLC will do so.\" - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Gnaw a mariachi costume, moustache, and sombrero. He holds a maraca with his tail which shakes and makes noise while he stands still."
+      },
+      {
+        "type": "paragraph",
+        "text": "Acid Spit is recoloured to look like salsa, and it has nachos and a taco shell sitting in it. His Weedlings have moustaches and wear sombreros and neckties. Each Weedling is holding either a bass, a guitar, a violin, or a trumpet (chosen at random, but only one of each will spawn), and they will play their respective instrument's part of Gnariachi's theme."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being an ultimate skin, Gnariachi comes with unique voice lines as well as unique music for his theme song and killing spree theme."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "The \"G\" in \"Gnaw\" is not silent: He pronounces it whenever he refers to himself.",
+          "Gnaw was the first 'naut to be exclusive to a specific version of the game (the PC version in this case). That changed when Awesomenauts was released for the PS4 under the name \"Awesomenauts: Assemble!\"",
+          "Gnaw was the first 'naut to be fully animated by Kewn of Ronimo Games, who also redid some animations for all previous Awesomenauts for the PC version as well as every Awesomenaut up to Genji.",
+          "Gnaw's design closely resembles and is likely a parody of a Zergling from Starcraft, and his mechanics seem to reference the Zerg such as placing living towers and planting goop. He could also be inspired by Venomancer, a character from DotA with a similar skillset (who also happens to be originally based a Zerg, specifically a Hydralisk).",
+          "Gnariachi is the first skin to come with it's own unique theme song and killing spree music.",
+          "The Gnabot skin was chosen by the community via a FaceBook voting. It received the most votes, beating the other options (Gnowm and Gnagon). They can be seen below:"
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Tentacle Soup can help Gnaw in chasing his enemies.",
+          "Use Aggressive Acid on platforms above hide areas to force enemies out of them.",
+          "There are many spots on several maps that allow for Aggressive Acid to drip a long way down, covering a large area, such as the middle of Ribbit IV's top lane or the corners of the top hide area on Aiguillon.",
+          "Combining Aggressive Acid with Split Spit can make Acid Spit very hard to avoid.",
+          "Both Acid Spit and Bite can keep track of invisible enemies.",
+          "If you plant more weedlings than the current cap, the oldest one will be destroyed.",
+          "If your enemies are doing a good job at destroying your weedlings, consider investing some Solar into Acid Spit and/or Bite instead for better fighting presence. Alternatively, you can purchase more weedling upgrades to make them more durable and dangerous to approach.",
+          "When using weedlings in different places, always keep an eye on them via the minimap, so you'll know if they are being attacked or have expired/been destroyed.",
+          "A popular tactic among Gnaw players consists of hiding weedlings in hide areas, to surprise enemy 'nauts.",
+          "Placing weedlings nearby neutral creep spawning areas allows Gnaw to have a steady supply of health, but also denies the creeps to every other 'naut on the match (even his own teammates). **Be careful when wandering too far from your team to replant the expired weedlings in the enemy territory, as they may ambush you more easily there.",
+          "You can plant a weedling on an enemy then use Acid Spit to fertilize the weedling and damage the enemy with spit."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "It might be worth dealing damage to enemies that are already poisoned by Acid Spit. The Damage Over Time effect might just finish them off.",
+          "Weedlings are very vulnerable when they first spawn, but can grow to become quite a threat. Be sure to protect and heal them whenever possible.",
+          "If you can, let Gnaw get creeps and droids to replenish his weedling parts.",
+          "If Gnaw is using Overcharged Metabolism, you may want to wait for him to spit on his enemies first before attacking them."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Healing and regeneration effects are your best \"weapons\" against Gnaw's poison attacks.",
+          "Weedlings cannot see into hide areas unless someone provides vision to them. You can safely shoot at them from a distance if such is the case.",
+          "Blinding effects will prevent weedlings from attacking, making them harmless for the duration.",
+          "Keep an eye on the pink bar above the weedlings' heads. If they are nearly empty, it means they will despawn soon, so don't risk yourself trying to destroy them.",
+          "Burst area of effect abilities are viable for taking out weedlings that are stacked together. Reflecting mechanics can do the trick as well.",
+          "Weedlings do not start at full health, being more vulnerable at the moment they spawn.",
+          "If you are having trouble taking out a large group of weedlings, it might be a better idea to chase after and kill Gnaw himself. All weedlings will die shortly after.",
+          "Healthpacks found around the map and from creeps cancel damage over time effects immediately, however lifestealing effects do not.",
+          "You can tell if a puddle of Acid Spit has Split Spit or not. The ones that do are larger than the ones that don't.",
+          "If affected by the Amplify Damage effect from Overcharged Metabolism, it is best to stay away from the enemy team as to avoid higher amounts of damage.",
+          "Be wary of your side of the jungle. Gnaw might sneak in and leave weedlings there, sustaining himself and denying you health creeps."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/characterrender-gnaw-5918f820.webp",
+      "source_name": "CharacterRender Gnaw.png",
+      "alt": "CharacterRender Gnaw",
+      "width": 512,
+      "height": 415,
+      "format": "WEBP",
+      "sha256": "5918f8208db5b9d45121e3d5867613a8028f8683f7bbcbbf31e390b80ff6c241",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-maw-spit-b60641c0.webp",
+      "source_name": "UI Skillbutton Maw Spit.png",
+      "alt": "UI Skillbutton Maw Spit",
+      "width": 154,
+      "height": 154,
+      "format": "WEBP",
+      "sha256": "b60641c0614e1815d74a15c740204f3c80b5e35aa0c1213e57f5b528ec8c353e",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-maw-attack-f5b55c69.webp",
+      "source_name": "UI Skillbutton Maw Attack.png",
+      "alt": "UI Skillbutton Maw Attack",
+      "width": 512,
+      "height": 512,
+      "format": "WEBP",
+      "sha256": "f5b55c6942180053f2a9023594f9a43f7233e2fd8b0699b9d3cf12c44caabe83",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-maw-turret-9dd1fc5c.webp",
+      "source_name": "UI Skillbutton Maw Turret.png",
+      "alt": "UI Skillbutton Maw Turret",
+      "width": 256,
+      "height": 252,
+      "format": "WEBP",
+      "sha256": "9dd1fc5c0bc4d31196fa5413932f7a06dba4918c70df4ff8c80323abd3df6f74",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-maw-jump-3f88ed66.webp",
+      "source_name": "UI Skillbutton Maw Jump.png",
+      "alt": "UI Skillbutton Maw Jump",
+      "width": 153,
+      "height": 153,
+      "format": "WEBP",
+      "sha256": "3f88ed66adab87416365660b0c549a7fcbb17b2cf57958f7e58bcf5278a3783f",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/spit-upgrade-d-7b05b866.webp",
+      "source_name": "Spit Upgrade D.png",
+      "alt": "Spit Upgrade D",
+      "width": 1015,
+      "height": 1020,
+      "format": "WEBP",
+      "sha256": "7b05b866a6d64cbfa2d812928571e4eb042590af995942d6673a4982acba6ce4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/spit-upgrade-a-0a71eddb.webp",
+      "source_name": "Spit Upgrade A.png",
+      "alt": "Spit Upgrade A",
+      "width": 1015,
+      "height": 1020,
+      "format": "WEBP",
+      "sha256": "0a71eddbb5c92fe372e7eea5ab6c27de78ac06d6b5a608e0a469dab9088a6323",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/spit-upgrade-b-533a1a49.webp",
+      "source_name": "Spit Upgrade B.png",
+      "alt": "Spit Upgrade B",
+      "width": 1015,
+      "height": 1020,
+      "format": "WEBP",
+      "sha256": "533a1a49d1c4e97bd25d5f7467a08c4ed981938c348d0543ddb8324388a5e30e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/spit-upgrade-f-e0d15d0c.webp",
+      "source_name": "Spit Upgrade F.png",
+      "alt": "Spit Upgrade F",
+      "width": 1019,
+      "height": 1020,
+      "format": "WEBP",
+      "sha256": "e0d15d0cf6a1cb1bfa125ceb5768a9c255ca7446a5326d3d0bd6f90d7fb6e79f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/spit-upgrade-c-23ecedb4.webp",
+      "source_name": "Spit Upgrade C.png",
+      "alt": "Spit Upgrade C",
+      "width": 1015,
+      "height": 1020,
+      "format": "WEBP",
+      "sha256": "23ecedb4a3ef83b3148108931ed42c9517137cf57305999715deb37a72a5c942",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/spit-upgrade-e-9c0ed035.webp",
+      "source_name": "Spit Upgrade E.png",
+      "alt": "Spit Upgrade E",
+      "width": 1016,
+      "height": 1022,
+      "format": "WEBP",
+      "sha256": "9c0ed035033bb2b819739e7cbabf5a9bc7ee4edb34d007e7cfae79aa22f8a26e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/turret-upgrade-a-af394f40.webp",
+      "source_name": "Turret Upgrade A.png",
+      "alt": "Turret Upgrade A",
+      "width": 1022,
+      "height": 1020,
+      "format": "WEBP",
+      "sha256": "af394f403789fb756430cd2b39d2394b54bfe554c70098deb0195fc0d53970fb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/turret-upgrade-e-87e82e65.webp",
+      "source_name": "Turret Upgrade E.png",
+      "alt": "Turret Upgrade E",
+      "width": 1022,
+      "height": 1020,
+      "format": "WEBP",
+      "sha256": "87e82e65726a031686684d8880e0d64aacfc03af420788d97e39ad762856d861",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/turret-upgrade-f-07eed0f2.webp",
+      "source_name": "Turret Upgrade F.png",
+      "alt": "Turret Upgrade F",
+      "width": 1022,
+      "height": 1021,
+      "format": "WEBP",
+      "sha256": "07eed0f2d7536bbbe1c27a8fac925656bf0f71e8832fc5d9cb6cbe3684c3afe8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/turret-upgrade-c-19ddd75e.webp",
+      "source_name": "Turret Upgrade C.png",
+      "alt": "Turret Upgrade C",
+      "width": 1022,
+      "height": 1021,
+      "format": "WEBP",
+      "sha256": "19ddd75e88355379fadd8f62c97dadc55ca7a2d15fc391c3ddc913fa514870f5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/turret-upgrade-b-c4891e99.webp",
+      "source_name": "Turret Upgrade B.png",
+      "alt": "Turret Upgrade B",
+      "width": 1022,
+      "height": 1019,
+      "format": "WEBP",
+      "sha256": "c4891e99eec72d4c0b4facba610b3d4089a4dd7e5dc518d4153fe78c68cd1606",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/turret-upgrade-d-43c871fb.webp",
+      "source_name": "Turret Upgrade D.png",
+      "alt": "Turret Upgrade D",
+      "width": 1022,
+      "height": 1021,
+      "format": "WEBP",
+      "sha256": "43c871fb2184183beb421af7fdb8607992d01ec1210e99b64e97430750a7a84f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/base-attack-upgrade-e-5f10bd26.webp",
+      "source_name": "Base Attack Upgrade E.png",
+      "alt": "Base Attack Upgrade E",
+      "width": 1021,
+      "height": 1022,
+      "format": "WEBP",
+      "sha256": "5f10bd26f4b4d34d5c80a49c04def5c45b73c2412becb2b85bb864b113e789cc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/base-attack-upgrade-b-aafc09a4.webp",
+      "source_name": "Base Attack Upgrade B.png",
+      "alt": "Base Attack Upgrade B",
+      "width": 1021,
+      "height": 1022,
+      "format": "WEBP",
+      "sha256": "aafc09a46022db91ed3d24f88168dcac55dd4e7b972d71ec31b53ec828bf1062",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/base-attack-upgrade-c-13301a22.webp",
+      "source_name": "Base Attack Upgrade C.png",
+      "alt": "Base Attack Upgrade C",
+      "width": 1023,
+      "height": 1022,
+      "format": "WEBP",
+      "sha256": "13301a22e8950a18149438fb4f7e5ae39844fca9d09ef0b85276fa23c5416bbf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/base-attack-upgrade-f-6c92bc5a.webp",
+      "source_name": "Base Attack Upgrade F.png",
+      "alt": "Base Attack Upgrade F",
+      "width": 1021,
+      "height": 1022,
+      "format": "WEBP",
+      "sha256": "6c92bc5ac7b412316aa9ccdb7266448fa6e2d4b50ad4c2eec223ffd0d3d242c3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/base-attack-upgrade-d-9a4bdee8.webp",
+      "source_name": "Base Attack Upgrade D.png",
+      "alt": "Base Attack Upgrade D",
+      "width": 1021,
+      "height": 1022,
+      "format": "WEBP",
+      "sha256": "9a4bdee8ecd3ed7a01b6e67831becd4c7c8005432ae2ac0a2a11683df2a938aa",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/base-attack-upgrade-a-efd69e6f.webp",
+      "source_name": "Base Attack Upgrade A.png",
+      "alt": "Base Attack Upgrade A",
+      "width": 1023,
+      "height": 1022,
+      "format": "WEBP",
+      "sha256": "efd69e6feaf774d86acf9e5476f682fbc242350bb09c4cabea4499adb4f4145e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-birdsolarhealth-788cee67.webp",
+      "source_name": "Shop Icons Overall BirdSolarHealth.png",
+      "alt": "Shop Icons Overall BirdSolarHealth",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "788cee67ac2a1e863954759614cd85a131503c58049e51a44a1698a00c9d09c5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/gnawingame-6f47beb4.webp",
+      "source_name": "Gnawingame.png",
+      "alt": "Default skin.",
+      "width": 97,
+      "height": 93,
+      "format": "WEBP",
+      "sha256": "6f47beb434ef66a57a9124599e730f474c12c99ea68c73775655334868a05e13",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-gnaw-skin-80ea1c29.webp",
+      "source_name": "Base Gnaw Skin.png",
+      "alt": "Default skin",
+      "width": 109,
+      "height": 126,
+      "format": "WEBP",
+      "sha256": "80ea1c2981d84c09d9ae845083096080781746ca27b42ca85b55599906507277",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/newbumblegnawingame-84a38404.webp",
+      "source_name": "Newbumblegnawingame.png",
+      "alt": "Bumble Gnaw.",
+      "width": 94,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "84a3840413f6796c558df1248d87a34b9ea194957175927744d5cb918d63b22f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/bumblegnaw-skin-76c7f063.webp",
+      "source_name": "Bumblegnaw Skin.png",
+      "alt": "Bumble Gnaw",
+      "width": 105,
+      "height": 126,
+      "format": "WEBP",
+      "sha256": "76c7f063a4c4594e90cbec9fb69c2f7b4fdf7e51e23e48b0f7d7054448dc578e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/gnabotingame-343e4bcc.webp",
+      "source_name": "Gnabotingame.png",
+      "alt": "Gnabot (donated by exploder1531).",
+      "width": 118,
+      "height": 138,
+      "format": "WEBP",
+      "sha256": "343e4bccf1ccbc3392739e15970633ddcc38fe1e8917c745cc19768d2e15b150",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/gnabot-skin-dcc2fce3.webp",
+      "source_name": "Gnabot Skin.png",
+      "alt": "Gnabot",
+      "width": 101,
+      "height": 133,
+      "format": "WEBP",
+      "sha256": "dcc2fce3addf795febb13536ef18cbd76a7814008550619f0b0c6d45d7355749",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/gnariachiingamered-a8f70353.webp",
+      "source_name": "Gnariachiingamered.jpg",
+      "alt": "Gnariachi.",
+      "width": 153,
+      "height": 157,
+      "format": "WEBP",
+      "sha256": "a8f70353fc839fd4673fade1826e726df61b9d4ec78fa04ce82a4ad794d325af",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/gnariachiingameblue-d75eb680.webp",
+      "source_name": "Gnariachiingameblue.jpg",
+      "alt": "Gnariachi.",
+      "width": 149,
+      "height": 153,
+      "format": "WEBP",
+      "sha256": "d75eb6803fad084c8cac434f7ae56879aade78f2d82f72f182e93ec1f648cd1d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/gnawvoting-2698c8a5.webp",
+      "source_name": "Gnawvoting.png",
+      "alt": "Gnabot along with the other vote options.",
+      "width": 400,
+      "height": 193,
+      "format": "WEBP",
+      "sha256": "2698c8a59efd19230bd8873133ad993af5f212590367297f41df5720cdab01a3",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_lazy_image",
+        "image": "Ui minimap player maw 0.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/9/99/Ui_minimap_player_maw_0.png/revision/latest?cb=20141218143721"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Classicon Maw.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/8/84/Classicon_Maw.png/revision/latest?cb=20130310174804"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "CharacterRender Gnaw Skin Bee redBG.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/8/86/CharacterRender_Gnaw_Skin_Bee_redBG.png/revision/latest/scale-to-width-down/180?cb=20121126134009"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "CharacterRender Gnaw Skin Gnabot redBG.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/1/18/CharacterRender_Gnaw_Skin_Gnabot_redBG.png/revision/latest/scale-to-width-down/180?cb=20130823123152"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Characterrender maw skin gnariachi.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/2/2a/Characterrender_maw_skin_gnariachi.png/revision/latest/scale-to-width-down/180?cb=20150611131713"
+      },
+      {
+        "code": "missing_skin_image",
+        "skin": "Bumble Gnaw"
+      },
+      {
+        "code": "missing_skin_image",
+        "skin": "Gnabot"
+      },
+      {
+        "code": "missing_skin_image",
+        "skin": "Gnariachi"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Gnabot Quotes",
+      "Gnariachi Quotes"
+    ],
+    "status": "partial"
+  }
+}

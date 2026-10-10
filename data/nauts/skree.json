@@ -1,0 +1,1063 @@
+{
+  "schema_version": 1,
+  "name": "Skree",
+  "slug": "skree",
+  "source": {
+    "filename": "Skree.-.Official.Awesomenauts.Wiki.10.10.2026.17.56.51.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Skree",
+    "sha256": "ae98b02c3b9a9aaf8747edff734941db0eb2499a8a51350ab5cb14432d628cce",
+    "size_bytes": 2597709
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1350 (2376)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.7"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Ranged"
+    },
+    {
+      "label": "Role",
+      "value": "Harasser"
+    },
+    {
+      "label": "Mobility",
+      "value": "Swift"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Shaman",
+    "Type of abilities": "Area of Effect , Damage over Time , Knockback , Lifesteal , Slow , Empower",
+    "Release Date": "June 12th 2014"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Saw Blade",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Saw_Blade",
+      "description": "Shoot a spinning blade that stays in one position for a limited time. You can place it and pull it towards you by pressing the button again.",
+      "values": [
+        {
+          "label": "Flying Damage",
+          "value": "210 (329.7)"
+        },
+        {
+          "label": "Damage Per Second",
+          "value": "220 (345.4)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "600"
+        },
+        {
+          "label": "Cooldown",
+          "value": "10s"
+        },
+        {
+          "label": "Range",
+          "value": "12.6"
+        },
+        {
+          "label": "Time",
+          "value": "4.9s"
+        },
+        {
+          "label": "Size",
+          "value": "5.2"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Lightning Rod",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Lightning_Rod",
+      "description": "Shoot lightning from your mechanical rod. Deals half damage to secondary targets.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "66 (103.62)"
+        },
+        {
+          "label": "Fork Damage",
+          "value": "30 (47.1)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "100"
+        },
+        {
+          "label": "Range",
+          "value": "7"
+        },
+        {
+          "label": "Targets",
+          "value": "3"
+        },
+        {
+          "label": "Spread",
+          "value": "35°"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Totem Of Power",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Totem_Of_Power",
+      "description": "Place a totem that has collision for enemies and can be stand on by friendly units.",
+      "values": [
+        {
+          "label": "Cooldown",
+          "value": "14s"
+        },
+        {
+          "label": "Health",
+          "value": "600 (1056)"
+        },
+        {
+          "label": "Height",
+          "value": "6"
+        },
+        {
+          "label": "Width",
+          "value": "1.6"
+        },
+        {
+          "label": "Duration",
+          "value": "7s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Whirling Blades",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Whirling_Blades",
+      "description": "Skree floats on a swirling set of blades, by holding the button he can stay on the same altitude in the air.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "10"
+        },
+        {
+          "label": "Descending Speed",
+          "value": "0"
+        },
+        {
+          "label": "Jumps",
+          "value": "1 (Hover)"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Steeldrum",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Steeldrum",
+      "group": "Saw Blade",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Scruffy Towel",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Scruffy_Towel",
+      "group": "Saw Blade",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Suitcase Monster",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Suitcase_Monster",
+      "group": "Saw Blade",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Air Freshener",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Air_Freshener",
+      "group": "Saw Blade",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Spare Blade",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spare_Blade",
+      "group": "Saw Blade",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Alien Hula Girl",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Alien_Hula_Girl",
+      "group": "Saw Blade",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mask Of Fear",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mask_Of_Fear",
+      "group": "Totem Of Power",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Book Of Medicine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Book_Of_Medicine",
+      "group": "Totem Of Power",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ornamented Pipe",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ornamented_Pipe",
+      "group": "Totem Of Power",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Closed Coffin",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Closed_Coffin",
+      "group": "Totem Of Power",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Voodoo Doll",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Voodoo_Doll",
+      "group": "Totem Of Power",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Trial Elixir Of Knowledge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Trial_Elixir_Of_Knowledge",
+      "group": "Totem Of Power",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Magic Sunballs",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Magic_Sunballs",
+      "group": "Lightning Rod",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Lashes Of The Goddess",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Lashes_Of_The_Goddess",
+      "group": "Lightning Rod",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pills For The Mind",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pills_For_The_Mind",
+      "group": "Lightning Rod",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ceremonial Mask",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ceremonial_Mask",
+      "group": "Lightning Rod",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Device Of The Heavens",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Device_Of_The_Heavens",
+      "group": "Lightning Rod",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Soul Connectors",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Soul_Connectors",
+      "group": "Lightning Rod",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Whirling Blades",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Whirling Blades",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Whirling Blades",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Whirling Blades",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Whirling Blades",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Starstorm Statue",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Starstorm_Statue",
+      "group": "Whirling Blades",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Skreeletor",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In the deepest of evil lairs, the infamous villain Skreeletor can be found trying to turn his dreams of universal conquest into reality. Having found hints of a powerful artifact known only as 'the Golden Weedling', he will do everything in his power to locate and claim this galaxy-conquering tool as his own. The only obstacle in his path is a small tribe of He-Mon'grahs from planet Skrultor Prime trying to obtain the very same artifact."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Skree in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "Based on Skeletor from the He-Man and the Masters of The Universe franchise, this skin gives Skree an undead look, giving him a skeletal head with glowing yellow eyes. He wears a hood, a cape and barbaric-looking armor with spiky shoulderpads. His hoverblade gets a skull with horns ornament and his staff has a skroggle (Gnaw's species) skull ornament as well."
+        },
+        {
+          "type": "paragraph",
+          "text": "Saw Blade has a skull and a pentagram glyph and Totem of Power looks like a skull as well."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with custom voice acting."
+        }
+      ],
+      "assets": [
+        "asset-038"
+      ]
+    },
+    {
+      "name": "Sun Wukong Skree",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Starstorm expansion."
+        },
+        {
+          "type": "paragraph",
+          "text": "A merchant travelling to the western edges of the Galaxy for an unknown purpose once met a strange being on an asteroid. He allowed the being to accompany him, and listened to the many stories that he shared with him."
+        },
+        {
+          "type": "paragraph",
+          "text": "The being came into this world by the name of Sun Wukong, and claimed to wield unimaginable powers. The merchant scoffed at his new companion, and told him \"You look like a Monkey, but if you truly are a primate you would be a King among them.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Sun Wukung glared at the merchant and zapped him with lightning, burning to him to a crisp. \"They called me the Monkey King once, but none remain to do so now. I have become Skree, and I am free!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Sun Wukong continued his journey to the western edges of the Galaxy alone."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Skree in Awesomenauts: Starstorm. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inspired by the ancient Chinese novel Journey to the West[28], this skin gives Skree the looks of Sun Wukong, making him more similar to a monkey, including the tail and giving him armor decorated with golden details and Chinese dragons. Skree's staff is replaced by Sun Wukong's staff and he rides a cloud instead of his usual sawblade."
+        },
+        {
+          "type": "paragraph",
+          "text": "Although lightning rod is unchanged, sawblade has an Yin & Yang symbol drawn in it and totem of power is replaced by a totem that also looks like a staff with a golden chinese dragon wrapped around it."
+        }
+      ],
+      "assets": [
+        "asset-039"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Skree belongs to a race of hitchhiking witchdoctors. Mysticism and superstition are a big part of Skree’s heritage. After being dumped on the Starstorm by a space trucker. Skree found himself all alone on an abandoned space station filled with mighty looking robots. Mistaking the robots’ station for a burial ground of ancient space spirits, he decided to live the rest of his life in service to the silenced automatons. He spent his time on collecting different parts of the battle station to create shrines for his newly found robot gods and connected robot parts and machine scraps to form huge robotic statues and altars. Unbeknownst to Skree, his rigging rites accidentally shortly activated the mainframe of the Starstorm, powering the construction robots and the Starstorm’s weapons systems itself."
+      },
+      {
+        "type": "paragraph",
+        "text": "All of a sudden Skree found the Starstorm vibrating as it’s systems slowly started to come online, it’s robotic denizens starting to carry out their age-old grim directive. Skree decided he liked his spirit-gods better when they were statues and went into hiding."
+      },
+      {
+        "type": "paragraph",
+        "text": "Skree was found by the Awesomenauts on the Starstorm hiding in one of his shrines in the Starstorm’s ventilation systems, praying to make the evil robots go back to sleep. Thinking the Awesomenauts were magical spirit-guides, Skree adopted a new vision quest and joined the Awesomenauts to seek out better spirit-gods to worship."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "In the deepest of evil lairs, the infamous villain Skreeletor can be found trying to turn his dreams of universal conquest into reality. Having found hints of a powerful artifact known only as 'the Golden Weedling', he will do everything in his power to locate and claim this galaxy-conquering tool as his own. The only obstacle in his path is a small tribe of He-Mon'grahs from planet Skrultor Prime trying to obtain the very same artifact."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Skree in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "Based on Skeletor from the He-Man and the Masters of The Universe franchise, this skin gives Skree an undead look, giving him a skeletal head with glowing yellow eyes. He wears a hood, a cape and barbaric-looking armor with spiky shoulderpads. His hoverblade gets a skull with horns ornament and his staff has a skroggle (Gnaw's species) skull ornament as well."
+      },
+      {
+        "type": "paragraph",
+        "text": "Saw Blade has a skull and a pentagram glyph and Totem of Power looks like a skull as well."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with custom voice acting."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin requires the Awesomenauts base game AND the Awesomenauts: Starstorm expansion."
+      },
+      {
+        "type": "paragraph",
+        "text": "A merchant travelling to the western edges of the Galaxy for an unknown purpose once met a strange being on an asteroid. He allowed the being to accompany him, and listened to the many stories that he shared with him."
+      },
+      {
+        "type": "paragraph",
+        "text": "The being came into this world by the name of Sun Wukong, and claimed to wield unimaginable powers. The merchant scoffed at his new companion, and told him \"You look like a Monkey, but if you truly are a primate you would be a King among them.\""
+      },
+      {
+        "type": "paragraph",
+        "text": "Sun Wukung glared at the merchant and zapped him with lightning, burning to him to a crisp. \"They called me the Monkey King once, but none remain to do so now. I have become Skree, and I am free!\""
+      },
+      {
+        "type": "paragraph",
+        "text": "Sun Wukong continued his journey to the western edges of the Galaxy alone."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Skree in Awesomenauts: Starstorm. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "Inspired by the ancient Chinese novel Journey to the West[28], this skin gives Skree the looks of Sun Wukong, making him more similar to a monkey, including the tail and giving him armor decorated with golden details and Chinese dragons. Skree's staff is replaced by Sun Wukong's staff and he rides a cloud instead of his usual sawblade."
+      },
+      {
+        "type": "paragraph",
+        "text": "Although lightning rod is unchanged, sawblade has an Yin & Yang symbol drawn in it and totem of power is replaced by a totem that also looks like a staff with a golden chinese dragon wrapped around it."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Despite being available in the game's files for several months, Skree's autoattack voice lines were only added in-game at a later patch.",
+          "Originally, Skree was going to be able to go invisible and leave his hoverblade, walking on foot. This concept was abandoned in favor of the current design.",
+          "Skree is the only 'Naut who has special quotes for something other than an Awesomenaut (Gnaw's Weedlings).",
+          "Before being chosen to be Skree's voice actor, Quinn \"Weazel\" Chert auditioned to voice Swiggins, but wasn't chosen for the role.",
+          "Skree features a special teleporting animation, where he begins to look directly upwards and holds his staff upright, similar to when the player aims up with their cursor.",
+          "According to his own Taunt line, Skree is 700 years old."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Early stages of the three original Starstorm 'nauts. Skree can be seen on the right. (Click to enlarge)",
+          "Skreeletor's Teaser #1. (Click to enlarge)",
+          "Skreeletor's Teaser #2. (Click to enlarge)",
+          "Skreeletor revealed. (Click to enlarge)"
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "After firing Saw Blade, you can stop it in place by clicking the button again. This can be used to deal massive amounts of damage by piercing first and chopping second.",
+          "Saw Blade can be only fired in horizontal line and goes through opponents and special walls (Like Totem Of Power of an opponent Skree). Try to maximise flying damage by jumping slightly and firing it in order to deny both ground and air.",
+          "Saw Blade will go through any walls when you pick it back. Arrows show you approximatively where its has been placed. Keep it in mind to help teammates with traps or to scare off an opponent that's chasing you.",
+          "Throwing a Saw Blade at an enemy turret will cause it to immediatly return to you. Use this to instantly deal double damage to droids and unsuspecting 'nauts that are right in front of it.",
+          "Next to the arrow that appears after placing a Saw Blade there are small rectangles that tell you how much time is left before the saw returns towards you.",
+          "Saw Blade is extremely effective at clearing grouped up 'nauts and/or droids. Making it effective at protecting your turrets.",
+          "Totem Of Power can be used as a very powerful shield, use it to protect your teammates from moves such as Raelynn's Snipe, Lonestar's Bull or Leon's Tongue.",
+          "Totem Of Power can be placed to help your teammates reach places faster then they would otherwise (e.g. Sorona's jungle area).",
+          "You can trap opponents with Totem Of Power by denying their escape route in narrow areas, ideally where a turret was standing after destroyed.",
+          "If you are up against Sentry X-58, watch your Saw Blades, Sentry can walk into it giving him free damage.",
+          "You can teleport while hovering but you need to hold down the jump button while you do so.",
+          "With Spare Blade and Suitcase Monster, you can transform your Saw Blade into a powerful deterrent tool. Quickly tap the button twice to cover teammates from any infighting with your saws.",
+          "Pairing Ornamented Pipe with Voodoo Doll will make Totem Of Power impossible to jump over for some 'nauts, forcing them to destroy it, or wait until it expires.",
+          "You can easily hit and keep track of invisible opponents with your Lightning Rod due to its innate autoaiming mechanic. Device Of The Heavens makes this even more effective."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "You can stand on and drop down from Skree's Totem Of Power. Keep that in mind while moving around the map with a Skree nearby.",
+          "Use knockback and displacement effects to get your enemies to a spinning Saw Blade. Alternatively, use immobilizing effects like ensnares and stuns to keep them in place for the Saw Blade.",
+          "The Totem Of Power can be healed just like other minions such as weedlings."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Use crowd control effects to cripple Skree's high mobility.",
+          "Be careful with Saw Blade even if Skree misses you: He can still call it back to him whenever he wants.",
+          "Try to stay above or below Skree to avoid the initial launch of Saw Blade: It can only be thrown horizontally.",
+          "Avoid putting yourself between Skree and his Saw Blade whenever possible.",
+          "At certain locations of the map, it is possible for Skree to block entrances with his Totem Of Power, and sometimes he can trap you with it, be careful.",
+          "Consider saving your abilities if Skree and/or his teammates are hiding behind a Totem Of Power: It can block many attacks, including those that normally pierce through units such as Splash Dash and Snipe. Of course, abilities that normally go through terrain such as Ball Lightning can be still used without any problems.",
+          "If you see a Skree near his Totem Of Power with a sword above his head, be careful: he has bonus damage (for all his attacks) as long he stays near it.",
+          "Stay behind your droids to avoid being directly hit by Lightning Rod. That way you will be hit for half the damage instead if it bounces to you."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/skree-f59edf61.webp",
+      "source_name": "Skree.png",
+      "alt": "Skree",
+      "width": 512,
+      "height": 410,
+      "format": "WEBP",
+      "sha256": "f59edf61fcd0adde98d7f9e7d08df5956e90d370a72c899371515ffe16bf2fc5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-shaman-spirit-daa45c81.webp",
+      "source_name": "UI Skillbutton Shaman Spirit.png",
+      "alt": "UI Skillbutton Shaman Spirit",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "daa45c819772fea9cbdbc51c21c70732c245adcd994d82e53b2b7e19698e452e",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-shaman-lightning-a94a0c52.webp",
+      "source_name": "UI Skillbutton Shaman Lightning.png",
+      "alt": "UI Skillbutton Shaman Lightning",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a94a0c5205188586e9ee26aba60ad1a195f83faa5ca13e67c4fa899aa8e31ba9",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-shaman-wall-85e0d9a4.webp",
+      "source_name": "UI Skillbutton Shaman Wall.png",
+      "alt": "UI Skillbutton Shaman Wall",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "85e0d9a4a2396696011540e39f17d9a5b4bf50c7f010de7d1a0cedff8bf8ba82",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-shaman-jump-ac316f54.webp",
+      "source_name": "UI Skillbutton Shaman Jump.png",
+      "alt": "UI Skillbutton Shaman Jump",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ac316f5463c6cbd33d10d8cc63a6ed1adf72359f24eb541addb61a371d93c524",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-shaman-skill-b-upgrade-1-a14dbb41.webp",
+      "source_name": "Shop icons shaman skill b upgrade 1.png",
+      "alt": "Shop icons shaman skill b upgrade 1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a14dbb411a9b30eb386ccbc9df8c4258cf75981386884d353b5151e590899e81",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-shaman-skill-b-upgrade-2-b7fac4c1.webp",
+      "source_name": "Shop icons shaman skill b upgrade 2.png",
+      "alt": "Shop icons shaman skill b upgrade 2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b7fac4c16fb1342638a76e2b371bc457db806977721e8db7bc4e2dc7c23c1b14",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-shaman-skill-b-upgrade-4-3ea9bd7d.webp",
+      "source_name": "Shop icons shaman skill b upgrade 4.png",
+      "alt": "Shop icons shaman skill b upgrade 4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3ea9bd7d7b9d43f18d7457df60ade5bdd3445eb0777de6f08d4bd059de4c23df",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-shaman-skill-b-upgrade-3-478420d0.webp",
+      "source_name": "Shop icons shaman skill b upgrade 3.png",
+      "alt": "Shop icons shaman skill b upgrade 3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "478420d087aa65460c071b41ba1006064a4df48e2d8d3fb8c03306f434447276",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-shaman-skill-b-upgrade-5-3a8afaa0.webp",
+      "source_name": "Shop icons shaman skill b upgrade 5.png",
+      "alt": "Shop icons shaman skill b upgrade 5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3a8afaa077fc751731c3ca67f74b0a84a14ea3e7e59a4f46856965856d4f73fd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-shaman-skill-b-upgrade-6-18dce3e6.webp",
+      "source_name": "Shop icons shaman skill b upgrade 6.png",
+      "alt": "Shop icons shaman skill b upgrade 6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "18dce3e63b9bf4688c87c7ee08b57083a70d7d00400c6845c2011d7075658209",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-shaman-skill-a-upgrade-1-0c8d7092.webp",
+      "source_name": "Shop icons shaman skill a upgrade 1.png",
+      "alt": "Shop icons shaman skill a upgrade 1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0c8d709285a8672fe48aa6ea17879afa5c5edf7bd506736c05dd174d15c4fa55",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-shaman-skill-a-upgrade-2-3b4106f2.webp",
+      "source_name": "Shop icons shaman skill a upgrade 2.png",
+      "alt": "Shop icons shaman skill a upgrade 2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3b4106f219b1b85b2946579295842a760c0b5e8d38e8855ae35b59565197e8cf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-shaman-skill-a-upgrade-3-ba266193.webp",
+      "source_name": "Shop icons shaman skill a upgrade 3.png",
+      "alt": "Shop icons shaman skill a upgrade 3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ba26619338d2b5d43b951702ac4e5e0c54a1ae6e3544f48a64b349815216860f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-shaman-skill-a-upgrade-4-1be35b7e.webp",
+      "source_name": "Shop icons shaman skill a upgrade 4.png",
+      "alt": "Shop icons shaman skill a upgrade 4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1be35b7e4ad8a812f7d4415810072ef1bdb7be1f936dd4c318cae2c363b77c7b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-shaman-skill-a-upgrade-5-df0d90ee.webp",
+      "source_name": "Shop icons shaman skill a upgrade 5.png",
+      "alt": "Shop icons shaman skill a upgrade 5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "df0d90eeecf12e73003e4436918ef2a73644fb3586f5d063150f7a4991703e1a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-shaman-skill-a-upgrade-6-e00190b7.webp",
+      "source_name": "Shop icons shaman skill a upgrade 6.png",
+      "alt": "Shop icons shaman skill a upgrade 6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e00190b7687dab0261e32c086c048db6d44e631d2f944e2400c3b2f7fdd27a50",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-shaman-skill-c-upgrade-1-81f333a3.webp",
+      "source_name": "Shop icons shaman skill c upgrade 1.png",
+      "alt": "Shop icons shaman skill c upgrade 1",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "81f333a30e2cf9925a8a5c81592a8ab4a1d6ac68d76cdf2ff62e054f6755415e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-shaman-skill-c-upgrade-2-0b4c75f6.webp",
+      "source_name": "Shop icons shaman skill c upgrade 2.png",
+      "alt": "Shop icons shaman skill c upgrade 2",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0b4c75f67d4801723b43680d9a7033cea37c1ebed31a881af6224401c7dfe50b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-shaman-skill-c-upgrade-3-440de2be.webp",
+      "source_name": "Shop icons shaman skill c upgrade 3.png",
+      "alt": "Shop icons shaman skill c upgrade 3",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "440de2be8ab9ccde5f39faf5efbea52d61c3e9f1c7c5b7c0e7e53ac7ead5235d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-shaman-skill-c-upgrade-4-326af578.webp",
+      "source_name": "Shop icons shaman skill c upgrade 4.png",
+      "alt": "Shop icons shaman skill c upgrade 4",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "326af5780ed27fcb9c7bbc151415ff480227a5a2762615a3da36c818119271f5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-shaman-skill-c-upgrade-5-a63e3c07.webp",
+      "source_name": "Shop icons shaman skill c upgrade 5.png",
+      "alt": "Shop icons shaman skill c upgrade 5",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a63e3c07939473231b8260e5411616bf7e8685ed887d2df57f258c21de08cd48",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-shaman-skill-c-upgrade-6-d01fdb6f.webp",
+      "source_name": "Shop icons shaman skill c upgrade 6.png",
+      "alt": "Shop icons shaman skill c upgrade 6",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d01fdb6f3ef270a91375027b4428295702c7f818f8e4c0afcf8a7ab1391627a8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-foxy-utility-dmg-increase-23ac9656.webp",
+      "source_name": "Shop Icons foxy utility dmg increase.png",
+      "alt": "Shop Icons foxy utility dmg increase",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "23ac965644ff932051dd4b4dfcd0f264e635beec914ba0780d1c1d62464273c7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/skreedefaultredingame-da1a93ed.webp",
+      "source_name": "Skreedefaultredingame.png",
+      "alt": "Default skin.",
+      "width": 112,
+      "height": 104,
+      "format": "WEBP",
+      "sha256": "da1a93edb02e4cbbdeb6974a9e380923136043a431acd3ee8e9a8699e990fa5d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/skreedefaultblueingame-58af74fa.webp",
+      "source_name": "Skreedefaultblueingame.png",
+      "alt": "Default skin.",
+      "width": 114,
+      "height": 107,
+      "format": "WEBP",
+      "sha256": "58af74fa73d9c25a4eaf34c0bad433bcbabb5f6eac34cd424999250fc123e781",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/skreeletorredingame-96630088.webp",
+      "source_name": "Skreeletorredingame.png",
+      "alt": "Skreeletor.",
+      "width": 105,
+      "height": 107,
+      "format": "WEBP",
+      "sha256": "96630088329440a5dc74649ec0d8e6ce6f19fa9b4a16ced254bb2a6fd008248e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/skreeletorblueingame-7615873c.webp",
+      "source_name": "Skreeletorblueingame.png",
+      "alt": "Skreeletor.",
+      "width": 107,
+      "height": 105,
+      "format": "WEBP",
+      "sha256": "7615873c9cbe585e698bc70d27b1adb1f8517443d7301c46122cd5928bad7512",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/sunwukongingamered-00021351.webp",
+      "source_name": "Sunwukongingamered.png",
+      "alt": "Sun Wukong skin.",
+      "width": 180,
+      "height": 144,
+      "format": "WEBP",
+      "sha256": "00021351a06f3ce8571e0b031bb1394826f539af3f5c33afc045e2ece38eb01b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/sunwukongingameblue-1713674d.webp",
+      "source_name": "Sunwukongingameblue.png",
+      "alt": "Sun Wukong skin.",
+      "width": 180,
+      "height": 141,
+      "format": "WEBP",
+      "sha256": "1713674d3e0ff369c6db3bf54a97166aa0ba0e45371667f9cbc74b423253bad3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/ui-minimap-player-shaman-0-ca7fc6d5.webp",
+      "source_name": "Ui minimap player shaman 0.png",
+      "alt": "Ui minimap player shaman 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "ca7fc6d5fef787d2879837b5d6999e1c5ca08ff87d3f836e69326594e2a8d6a4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/classicon-shaman-dfd2abf6.webp",
+      "source_name": "Classicon Shaman.png",
+      "alt": "Classicon Shaman",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "dfd2abf6bdd9e6fefbb8d41184976f664c03c9074006cf972b798b45ea63d361",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/skreeletorsplashart-ddb6fc19.webp",
+      "source_name": "SkreeletorSplashArt.png",
+      "alt": "SkreeletorSplashArt",
+      "width": 200,
+      "height": 235,
+      "format": "WEBP",
+      "sha256": "ddb6fc1968294c17127cd853fda15d722ff75d764051cf759c9892d665c5ab40",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/sunwukongsplashart-91acbc5b.webp",
+      "source_name": "Sunwukongsplashart.png",
+      "alt": "Sunwukongsplashart",
+      "width": 200,
+      "height": 143,
+      "format": "WEBP",
+      "sha256": "91acbc5b73239d1c7576a373cebe14e433872f52da7111d3eedd69ed1a671919",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/starstormearly-230b8d7c.webp",
+      "source_name": "Starstormearly.png",
+      "alt": "Early stages of the three original Starstorm 'nauts. Skree can be seen on the right. (Click to enlarge)",
+      "width": 120,
+      "height": 58,
+      "format": "WEBP",
+      "sha256": "230b8d7c6f727eab6be0b04d2932da6fc351f2febd14af040592a79d766f5ac1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/skreeletorteaser1-38b6049b.webp",
+      "source_name": "Skreeletorteaser1.jpg",
+      "alt": "Skreeletor's Teaser #1. (Click to enlarge)",
+      "width": 120,
+      "height": 55,
+      "format": "WEBP",
+      "sha256": "38b6049b242847c7a12dcda965b6a2ce71711667b00a414cf410cd78588a3f3b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/skreeletorteaser2-eb8d2414.webp",
+      "source_name": "Skreeletorteaser2.jpg",
+      "alt": "Skreeletor's Teaser #2. (Click to enlarge)",
+      "width": 120,
+      "height": 55,
+      "format": "WEBP",
+      "sha256": "eb8d2414db48fb4ef9c9c7a1296f3f1d75a07c49c38b178eb064380025624390",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/skreeletorrevealed-2ab9d258.webp",
+      "source_name": "Skreeletorrevealed.jpg",
+      "alt": "Skreeletor revealed. (Click to enlarge)",
+      "width": 120,
+      "height": 56,
+      "format": "WEBP",
+      "sha256": "2ab9d2589160d9dee6e1d400af00ce60cdee7a9ee6df318e797bf3e744df8a58",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Skreeletor Quotes"
+    ],
+    "status": "extracted"
+  }
+}

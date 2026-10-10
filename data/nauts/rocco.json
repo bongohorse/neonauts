@@ -1,0 +1,1043 @@
+{
+  "schema_version": 1,
+  "name": "Rocco",
+  "slug": "rocco",
+  "source": {
+    "filename": "Rocco.-.Official.Awesomenauts.Wiki.10.10.2026.17.55.12.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Rocco",
+    "sha256": "e3e1d58743c93a2828254fa44b58aaf62fda8f08d81f8ac2ea1bd8c2109c7d9e",
+    "size_bytes": 2640280
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1350 (2376)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.8"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Ranged"
+    },
+    {
+      "label": "Role",
+      "value": "Fighter"
+    },
+    {
+      "label": "Mobility",
+      "value": "Balanced"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Wozzle",
+    "Type of abilities": "Empower , Slow , Long-ranged , Stun",
+    "Release Date": "July 8th 2015"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Precision Shot",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Precision_Shot",
+      "description": "Draw your bow and fire an arrow that will fly through terrain and hits enemy Awesomenauts.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "330 (518.1)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7.5s"
+        },
+        {
+          "label": "Range",
+          "value": "20"
+        },
+        {
+          "label": "Range Max Charge",
+          "value": "Unlimited"
+        },
+        {
+          "label": "Charge Speed",
+          "value": "1s"
+        },
+        {
+          "label": "Speed",
+          "value": "30"
+        },
+        {
+          "label": "Size",
+          "value": "4"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Rapid Arrows",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rapid_Arrows",
+      "description": "Fire rapid arrows that will change into slowing arrows while vengeance is active.",
+      "values": [
+        {
+          "label": "Arrows",
+          "value": "2"
+        },
+        {
+          "label": "Damage",
+          "value": "45 (70.65)"
+        },
+        {
+          "label": "Attack speed",
+          "value": "145"
+        },
+        {
+          "label": "Range",
+          "value": "9"
+        },
+        {
+          "label": "Spread",
+          "value": "10°"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Vengeance",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Vengeance",
+      "description": "Removes the movement penalty while shooting and adds a slow effect to your arrows for a set amount of time. Hitting enemies with your rapid arrows increases the duration of vengeance.",
+      "values": [
+        {
+          "label": "Cooldown",
+          "value": "16s"
+        },
+        {
+          "label": "Duration",
+          "value": "5s"
+        },
+        {
+          "label": "Extra duration per hit",
+          "value": "0.1s"
+        },
+        {
+          "label": "Slow",
+          "value": "15%"
+        },
+        {
+          "label": "Slow duration rapid arrows",
+          "value": "1s"
+        },
+        {
+          "label": "Slow duration precise shot",
+          "value": "3.5s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Bird Hop",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bird_Hop",
+      "description": "Bird hop. Hold the button to jump higher.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "10.64"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Classics",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Classics",
+      "group": "Precision Shot",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Magnetic Police Light",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Magnetic_Police_Light",
+      "group": "Precision Shot",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Birdseed Donuts",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Birdseed_Donuts",
+      "group": "Precision Shot",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Nicotine Patches",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Nicotine_Patches",
+      "group": "Precision Shot",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sticky Cops Moustache",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sticky_Cops_Moustache",
+      "group": "Precision Shot",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Badge and Gun",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Badge_and_Gun",
+      "group": "Precision Shot",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Little Johnny",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Little_Johnny",
+      "group": "Vengeance",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Endless Quiver",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Endless_Quiver",
+      "group": "Vengeance",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Vulpe Bow String",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Vulpe_Bow_String",
+      "group": "Vengeance",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Quickdraw Bow",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Quickdraw_Bow",
+      "group": "Vengeance",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mirakuru",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mirakuru",
+      "group": "Vengeance",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Assassin Flags",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Assassin_Flags",
+      "group": "Vengeance",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cockfight Spurs",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cockfight_Spurs",
+      "group": "Rapid Arrows",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chicken Grill",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chicken_Grill",
+      "group": "Rapid Arrows",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rocketpack",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rocketpack",
+      "group": "Rapid Arrows",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cutlet Frills Ghilly Suit",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cutlet_Frills_Ghilly_Suit",
+      "group": "Rapid Arrows",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "SWCA Coin",
+      "source_url": "https://awesomenauts.fandom.com/wiki/SWCA_Coin",
+      "group": "Rapid Arrows",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Defused Hawk Bomb",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Defused_Hawk_Bomb",
+      "group": "Rapid Arrows",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Bird Hop",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Bird Hop",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Bird Hop",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Bird Hop",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Bird Hop",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Bird Hop",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Shinobi Rocco",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When Rocco was forced to leave the Intergalactic Police Department, he disappeared without a trace."
+        },
+        {
+          "type": "paragraph",
+          "text": "With Rocco out of the picture, his former enemies were emboldened and tightened their grip on the citizens living the densely populated residential areas of Ribbit IV. They soon learned to fear the shadows that once provided them with safety when rumor spread of a new, hooded figure dispensing justice to the injust."
+        },
+        {
+          "type": "paragraph",
+          "text": "Where they were once hunted by Rocco the Lawman by day, they were now hunted by Shinobi Rocco by night. They say Evil never sleeps, but they never told you that's because the Righteous made Evil afraid of the dark."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Rocco in Awesomenauts, and will automatically unlock the character if you have not already done so. - Official Steam Store Description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Rocco a ninja outfit, including a hood, a mask and golden belt buckles. His hands have golden and silver bracers and his legs are wrapped in bandages. He also wears a scarf around his neck. His bow, although similar to the original, looks much less advanced."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rapid arrows and precision shots' arrows are replaced with kunai and the trail of squares left behind when vengeance is active is replaced by shuriken. The special shot from quickdrw bow is also replaced by shuriken."
+        }
+      ],
+      "assets": [
+        "asset-038"
+      ]
+    },
+    {
+      "name": "Electronic Supersonic Cybertronic Rocco",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "There are countless dimensions that are quite similar to ours, yet with subtle differences. In one of these dimensions, wars are not fought with weapons, but with music. Those that we know as mercenaries are the most amazing musicians in the other dimension, and they've enraptured countless worlds with their beats."
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the DJs enlisted in the ranks of the great music syndicate known as the Awesomenauts is called Rocco. He was once a rising star in The Intergalactic Symphonic Orchestra, but was ousted by a concertmaster who would not tollerate Rocco's ruthless freestyle jammin'. Refusing the back down and drop his aspirations of becoming a great musician, Rocco instead opted to drop the beat and joined the Awesomenauts, who welcomed him with open arms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cybertronic Supersonic Electronic Rocco is now one of the most prominent DJs in the galaxy, and uses his music to bring peace to worlds ruled by dissonance."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Rocco in Awesomenauts. The Electronic Supersonic Cybersonic skin comes with a unique character theme, killing spree theme, a unique voiceover, and special in-game audio effects for his abilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have not already unlocked the character, purchasing this DLC will do so. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Rocco Daft Punk[14]-inspired looks. He wears a team-colored suit, a shirt and a tie, while his face is concealed by the iconic \"rainbow helmet\" mask similar to the one used by Guy-Manuel de Homem-Cristo[15], complete with alternating color lights."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rapid Arrows have a \"sonic\" explosion effect upon reaching max range or hitting a target, Precision shot's arrow looks like a globe when uncharged and has a unique visual when fully charged, while also playing a tune while flying across the screen. While active, Vengeance plays a sped up version of E.S.C. Rocco's theme. Vengeance-enhanced projectiles also get looks that are unique to this skin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being ultimate, this skin comes with unique voice acting, character theme and killing spree theme."
+        }
+      ],
+      "assets": [
+        "asset-039"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "When a job's too dirty for The Intergalactic Police Department to take on, they call Rocco. This old Bird's the most relentless, gruff and tough-as-talons hitman vigilante this side of the Milkyway. Rocco is feared by the most dangerous solar cartel gang bosses, Shisu mobsters and other crazed alien psychopaths for his \"ravenous methods\". Not shunning any kind of weapon, Rocco prefers his ACOG Blackout G-Mag Laserbow, which has got him out of a tight spot more than once."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rocco's aggressive behaviour did result in a lot of powerful enemies however, including a corrupt Galaxial congressman who made him a wanted man, and forced him to quit the force but instead of a retirement at the Kentucky Friends and Poultry Retreat he joined the Awesomenauts to plot his next move on his path to rid the universe of all space-scum."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "When Rocco was forced to leave the Intergalactic Police Department, he disappeared without a trace."
+      },
+      {
+        "type": "paragraph",
+        "text": "With Rocco out of the picture, his former enemies were emboldened and tightened their grip on the citizens living the densely populated residential areas of Ribbit IV. They soon learned to fear the shadows that once provided them with safety when rumor spread of a new, hooded figure dispensing justice to the injust."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where they were once hunted by Rocco the Lawman by day, they were now hunted by Shinobi Rocco by night. They say Evil never sleeps, but they never told you that's because the Righteous made Evil afraid of the dark."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Rocco in Awesomenauts, and will automatically unlock the character if you have not already done so. - Official Steam Store Description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Rocco a ninja outfit, including a hood, a mask and golden belt buckles. His hands have golden and silver bracers and his legs are wrapped in bandages. He also wears a scarf around his neck. His bow, although similar to the original, looks much less advanced."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rapid arrows and precision shots' arrows are replaced with kunai and the trail of squares left behind when vengeance is active is replaced by shuriken. The special shot from quickdrw bow is also replaced by shuriken."
+      },
+      {
+        "type": "paragraph",
+        "text": "There are countless dimensions that are quite similar to ours, yet with subtle differences. In one of these dimensions, wars are not fought with weapons, but with music. Those that we know as mercenaries are the most amazing musicians in the other dimension, and they've enraptured countless worlds with their beats."
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the DJs enlisted in the ranks of the great music syndicate known as the Awesomenauts is called Rocco. He was once a rising star in The Intergalactic Symphonic Orchestra, but was ousted by a concertmaster who would not tollerate Rocco's ruthless freestyle jammin'. Refusing the back down and drop his aspirations of becoming a great musician, Rocco instead opted to drop the beat and joined the Awesomenauts, who welcomed him with open arms."
+      },
+      {
+        "type": "paragraph",
+        "text": "Cybertronic Supersonic Electronic Rocco is now one of the most prominent DJs in the galaxy, and uses his music to bring peace to worlds ruled by dissonance."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Rocco in Awesomenauts. The Electronic Supersonic Cybersonic skin comes with a unique character theme, killing spree theme, a unique voiceover, and special in-game audio effects for his abilities."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you have not already unlocked the character, purchasing this DLC will do so. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Rocco Daft Punk[14]-inspired looks. He wears a team-colored suit, a shirt and a tie, while his face is concealed by the iconic \"rainbow helmet\" mask similar to the one used by Guy-Manuel de Homem-Cristo[15], complete with alternating color lights."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rapid Arrows have a \"sonic\" explosion effect upon reaching max range or hitting a target, Precision shot's arrow looks like a globe when uncharged and has a unique visual when fully charged, while also playing a tune while flying across the screen. While active, Vengeance plays a sped up version of E.S.C. Rocco's theme. Vengeance-enhanced projectiles also get looks that are unique to this skin."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being ultimate, this skin comes with unique voice acting, character theme and killing spree theme."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Rocco's development name is Wozzle. This is the name of an early Awesomenaut concept that was rejected. Wozzle's original concept art can be seen below.",
+          "Rocco is the first Awesomenaut since Ayla to be released without an \"Awesomenauts Showcase\" video."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Wozzle Art 1",
+          "Wozzle Art 2"
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Rocco is frail and only has a single jump, try to use your superior range and slowing effect from Vengeance in order to keep your enemies at a safe distance.",
+          "Pay attention to Precision Shot's targeting reticle: The first arrow in the line that looks different from the others signal the point where your stun from Little Johnny will become active, while the circle with an X in it indicates your current target (see picture below)."
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Precision Shot has infinite range: pay attention to the minimap at all times and try to predict where your enemy will go in order to land shots from great distances.",
+          "Precision Shot can be used as a harassing tool (Nicotine Patches and Defused Hawk Bomb make this even more effective) or as a finisher, aiming at low health enemy Awesomenauts.",
+          "Each time you hit an enemy unit with Rapid Arrows, the duration of your Vengeance is extended slightly. With upgrades such as Chicken Grill and Endless Quiver, you can keep it up for a very long time.",
+          "Vengeance has a very long cooldown, so try to use it when you really need it."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Try to keep enemy Awesomenauts on your screen so that Rocco can see them in his minimap if he's far away.",
+          "Watch Rocco closely: when he gains purple effets, that means Vengeance is active and his shots will slow down enemies. Play accordingly.",
+          "When playing a tankier 'naut, try to provide Rocco with some protection to make him even harder to approach for your enemy."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Rocco is extremely vulnerable to Reflect/Deflect mechanics, being only able to damage enemies using these by hitting a nearby target with a Badge and Gun enhanced Precision Shot.",
+          "Precision Shot deals decent damage and has a powerful, lasting slowing effect when used in conjunction with Vengeance. Avoid being hit at all costs. Alternatively, if an ally is very low on health, consider staying in shielding them from Precision Shots if you have the health to do so (but remember Badge and Gun makes this tactic much less effective).",
+          "Rocco can be equally effective when focusing on a Rapid Arrows build as well as a Precision Shot build. Check his upgrades and learn what he's up to.",
+          "Attack Rocco after he uses Vengeance, as it has a very long cooldown.",
+          "Without Vengeance, Rocco's movement speed while firing Rapid Arrows is signifficantly reduced. Escape him if you need to, but be wary as he may still hit you with a Precision Shot, no matter how far away you are.",
+          "Rocco is very vulnerable to crowd controls himself, not being the fastest naut around and having only a single jump. Employ these effects to bring him down more easily.",
+          "Rocco can be difficult to approach head on due to his long range. Consider surprising him by using hude areas and/or by attacking from unexpected angle (such as from above or below)."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/characterrender-wozzle-720-71fd01ad.webp",
+      "source_name": "Characterrender wozzle 720.png",
+      "alt": "Characterrender wozzle 720",
+      "width": 512,
+      "height": 533,
+      "format": "WEBP",
+      "sha256": "71fd01adb371bb0ca83b80905a3ca7635ff6e8a4d029870abd910549cf01d53a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-wozzle-firebomb0-47b96714.webp",
+      "source_name": "UI Skillbutton Wozzle FireBomb0.png",
+      "alt": "UI Skillbutton Wozzle FireBomb0",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "47b96714c8ad46d045fbce590e170ffe03d76acc12bb18e65e3e841ff8fbe505",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-wozzle-firearrow0-3b90a3f3.webp",
+      "source_name": "UI Skillbutton Wozzle FireArrow0.png",
+      "alt": "UI Skillbutton Wozzle FireArrow0",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "3b90a3f351c4755bdbf58bffc8a273294e424325661e232ae2e9dd45a89b02f8",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-wozzle-frostmode-51698115.webp",
+      "source_name": "UI Skillbutton Wozzle FrostMode.png",
+      "alt": "UI Skillbutton Wozzle FrostMode",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "516981156911a751073b67f7d5b7c412928d772ee91f1fde93e0e0890228d6b4",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-wozzle-jump-40f30c66.webp",
+      "source_name": "UI Skillbutton Wozzle Jump.png",
+      "alt": "UI Skillbutton Wozzle Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "40f30c66fddaab6f13ecf914ff9a138c2fe35bdd46661ce76456f508641f58c8",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-wozzle-skill-c-upgrade-d-63bc14ec.webp",
+      "source_name": "Shop Icons Wozzle skill c upgrade d.png",
+      "alt": "Shop Icons Wozzle skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "63bc14ececd42dea9b5eaa212379f4976d3e4279f1f3a3cc21477cc05b40b8f5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-wozzle-skill-c-upgrade-f-6343fb21.webp",
+      "source_name": "Shop Icons Wozzle skill c upgrade f.png",
+      "alt": "Shop Icons Wozzle skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6343fb21adb8fdeec3732f076305d28304359109be50427b64e991116c7ff050",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-wozzle-skill-c-upgrade-a-f66438fd.webp",
+      "source_name": "Shop Icons Wozzle skill c upgrade a.png",
+      "alt": "Shop Icons Wozzle skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f66438fdbd7c953fde9346db017b78548c1315f14cbfa46f51152c851db225a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-wozzle-skill-c-upgrade-e-756ff7aa.webp",
+      "source_name": "Shop Icons Wozzle skill c upgrade e.png",
+      "alt": "Shop Icons Wozzle skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "756ff7aa469f9b7feae235f65749fc1a9df8a165c5b0d2c0865b0cb5d0fed5f7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-wozzle-skill-c-upgrade-b-952e4359.webp",
+      "source_name": "Shop Icons Wozzle skill c upgrade b.png",
+      "alt": "Shop Icons Wozzle skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "952e43592a15a57021c893de3dfbfc42622933d4fca2196ecb789919115ba219",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-wozzle-skill-c-upgrade-c-a5dd0abb.webp",
+      "source_name": "Shop Icons Wozzle skill c upgrade c.png",
+      "alt": "Shop Icons Wozzle skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a5dd0abbae7f09e3adf9fa471dd70e5f0e137ebc69c96e0a3e9804dc2db7c25f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-wozzle-skill-a-upgrade-e-48c79938.webp",
+      "source_name": "Shop Icons Wozzle skill a upgrade e.png",
+      "alt": "Shop Icons Wozzle skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "48c7993849b1ead60f184dc90714eec526d7746ecebb2d8bd10da96aeb9afc3e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-wozzle-skill-a-upgrade-c-6d86c47a.webp",
+      "source_name": "Shop Icons Wozzle skill a upgrade c.png",
+      "alt": "Shop Icons Wozzle skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6d86c47aab9a6955e019e3157c70db3506c834e00f49419af60d35b497136008",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-wozzle-skill-a-upgrade-a-75af5b7c.webp",
+      "source_name": "Shop Icons Wozzle skill a upgrade a.png",
+      "alt": "Shop Icons Wozzle skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "75af5b7cc9bc242e6861c489d0112dc2b733f480befd3d7c30a79840421d51ea",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-wozzle-skill-a-upgrade-d-f52d64ec.webp",
+      "source_name": "Shop Icons Wozzle skill a upgrade d.png",
+      "alt": "Shop Icons Wozzle skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f52d64ecf3173c122c547470e75f1034bb922b2f18e0f04cdf693e1a8e8f181c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-wozzle-skill-a-upgrade-f-df703858.webp",
+      "source_name": "Shop Icons Wozzle skill a upgrade f.png",
+      "alt": "Shop Icons Wozzle skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "df703858f78f749efd1f708c2e3e452071e9f56374e6d1571b70bff3e0d19d54",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-wozzle-skill-a-upgrade-b-fdf60b41.webp",
+      "source_name": "Shop Icons Wozzle skill a upgrade b.png",
+      "alt": "Shop Icons Wozzle skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fdf60b41e165566d7638aad14f44a1d023607c57bfc3da7ab42608ff617af168",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-wozzle-skill-b-upgrade-a-23c581d0.webp",
+      "source_name": "Shop Icons Wozzle skill b upgrade a.png",
+      "alt": "Shop Icons Wozzle skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "23c581d0ad0e306739abe457eda64fadc04dca9d485ed751a4ca2005cef8269f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-wozzle-skill-b-upgrade-e-47c2a300.webp",
+      "source_name": "Shop Icons Wozzle skill b upgrade e.png",
+      "alt": "Shop Icons Wozzle skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "47c2a300af98e85b5ec953d5a0f270fd5ce81a4c572830a6d410e3a3328b2f70",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-wozzle-skill-b-upgrade-d-2ec43a18.webp",
+      "source_name": "Shop Icons Wozzle skill b upgrade d.png",
+      "alt": "Shop Icons Wozzle skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2ec43a18860a66512d7c5bcb2d071875382afbe607e7f019ed5a34d62a9fc93f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-wozzle-skill-b-upgrade-b-5e718945.webp",
+      "source_name": "Shop Icons Wozzle skill b upgrade b.png",
+      "alt": "Shop Icons Wozzle skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5e71894529cfa46dc0582c68679955eff7dbd9b3e7079ec4b0acc942c8881adc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-wozzle-skill-b-upgrade-f-f78f4676.webp",
+      "source_name": "Shop Icons Wozzle skill b upgrade f.png",
+      "alt": "Shop Icons Wozzle skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f78f4676e0afcb1464d5f7badb91c19e120ac8d2e20567a8fc0c9d7a297aabbf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-wozzle-skill-b-upgrade-c-424762b3.webp",
+      "source_name": "Shop Icons Wozzle skill b upgrade c.png",
+      "alt": "Shop Icons Wozzle skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "424762b38faa0a2b3b4d62a976bd5392d42e983c9bb398edec07fe49f8378e05",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/roccoingamered-4d0269a9.webp",
+      "source_name": "Roccoingamered.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 192,
+      "format": "WEBP",
+      "sha256": "4d0269a90a5c50dcf60d2cdb0828611c10b48d37f53dd648b386b419b681ff4c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/roccoingameblue-33627aef.webp",
+      "source_name": "Roccoingameblue.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 196,
+      "format": "WEBP",
+      "sha256": "33627aefc751e14a51c73c887cad259f4a53e45e06e322e331907f7edc739146",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/shinobiroccoingamered-11d31112.webp",
+      "source_name": "Shinobiroccoingamered.png",
+      "alt": "Shinobi Rocco.",
+      "width": 180,
+      "height": 193,
+      "format": "WEBP",
+      "sha256": "11d31112ee58a798af740f428e95241494659a13f6d700e8c1c35ebc051b4bb1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/shinobiroccoingameblue-3694d8cb.webp",
+      "source_name": "Shinobiroccoingameblue.png",
+      "alt": "Shinobi Rocco.",
+      "width": 180,
+      "height": 193,
+      "format": "WEBP",
+      "sha256": "3694d8cbadad6066513eabb203c566838956e27ce9e6d2f7ab3a0f593c6bc974",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/escroccoingamered-5e090e1c.webp",
+      "source_name": "EscRoccoInGameRed.png",
+      "alt": "E.S.C. Rocco.",
+      "width": 180,
+      "height": 184,
+      "format": "WEBP",
+      "sha256": "5e090e1c1912ad7cd908537115e5d22de5415fccaba813a68c7cb086a41f62f9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/escroccoingameblue-958f120a.webp",
+      "source_name": "EscRoccoInGameBlue.png",
+      "alt": "E.S.C. Rocco.",
+      "width": 180,
+      "height": 191,
+      "format": "WEBP",
+      "sha256": "958f120a368f107af63fde89b579182a95fb7337e2c441fc311c597fdee82e59",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/ui-minimap-player-wozzle-0-ol-f89fa446.webp",
+      "source_name": "Ui minimap player Wozzle 0 ol.png",
+      "alt": "Ui minimap player Wozzle 0 ol",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "f89fa44694bca81d4a6c7102655a2b26eaa95b52b2536e0520d6cfab284aa1ee",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/classicon-wozzle-12eac160.webp",
+      "source_name": "Classicon Wozzle.png",
+      "alt": "Classicon Wozzle",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "12eac160b761352a5f7c1667812cd6896fd6435d772bdce5111b29efc973841b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/characterrender-wozzle-skin-ninja-bfd3b00d.webp",
+      "source_name": "CharacterRender Wozzle Skin Ninja.png",
+      "alt": "CharacterRender Wozzle Skin Ninja",
+      "width": 200,
+      "height": 163,
+      "format": "WEBP",
+      "sha256": "bfd3b00dffc4da06c1b3e5e629a15c2bdc802fdc4a0ad0aa3a6cab5c74b5a81b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/escrocco-alpha-76772d58.webp",
+      "source_name": "ESCRocco Alpha.png",
+      "alt": "ESCRocco Alpha",
+      "width": 200,
+      "height": 236,
+      "format": "WEBP",
+      "sha256": "76772d58bca5f5247a8a80fd0c67ccaaae6debb9e92d9433ad6517ed330241b5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/awesomenauts-character-concepts-wozzle1-43526ae5.webp",
+      "source_name": "Awesomenauts Character Concepts - Wozzle1.jpg",
+      "alt": "Wozzle Art 1",
+      "width": 120,
+      "height": 76,
+      "format": "WEBP",
+      "sha256": "43526ae526077b1a7f0a9acda69830fa7044a8ea5da52bf4563245c28eabc046",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/awesomenauts-character-concepts-wozzle2-ce0cfedf.webp",
+      "source_name": "Awesomenauts Character Concepts - Wozzle2.jpg",
+      "alt": "Wozzle Art 2",
+      "width": 120,
+      "height": 67,
+      "format": "WEBP",
+      "sha256": "ce0cfedf9ab0d78c05c2d76873cd1735a78f958f7e754977aa2f6d0dfff2536f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/precisionshotreticle-06e7ba5c.webp",
+      "source_name": "Precisionshotreticle.png",
+      "alt": "Precisionshotreticle",
+      "width": 1056,
+      "height": 248,
+      "format": "WEBP",
+      "sha256": "06e7ba5cb6425afb9cde25dcb22f1956d8bce4e41188ac6426a1614026d0ea65",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Electronic Supersonic Cybertronic Rocco Quotes"
+    ],
+    "status": "extracted"
+  }
+}

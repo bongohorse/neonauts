@@ -111,7 +111,7 @@ class AssetExtractor:
         return asset_id
 
 def extract(source, output):
-    raw=source.read_bytes();document=html.fromstring(raw)
+    raw=source.read_bytes();document=html.fromstring(raw.decode('utf-8'))
     containers=document.xpath('//*[@id="mw-content-text"]')
     headings=document.xpath('//*[@id="firstHeading"]')
     if not containers or not headings:raise ValueError('Missing Wiki article container or title')
@@ -152,7 +152,9 @@ def extract(source, output):
         group=text(skill_links[0]) or skill_links[0].get('title') if skill_links else None
         for img in table.xpath('.//img'):
             image_name=img.get('data-image-name','')
-            if not image_name.casefold().startswith(('shop icons','upgrade ')):continue
+            # Upgrade tables also use character-specific filenames (e.g.
+            # Coco Nebulon Skill1-1.png); identify entries by table structure.
+            if img in table.xpath('.//*[contains(@class,"Skill-Icon")]//img')[:1]:continue
             links=img.xpath('ancestor::a[@href][1]')
             if not links:continue
             link=links[0];url=link.get('href')
@@ -178,11 +180,12 @@ def extract(source, output):
                         if asset_id and asset_id not in skin_assets:skin_assets.append(asset_id)
                 skins.append({'name':text(sibling),'content':blocks(sibling),'assets':skin_assets})
     warnings=list(assets.warnings)
+    warnings.extend({'code':'missing_skin_image','skin':skin['name']} for skin in skins if not skin['assets'])
     if items:warnings.append({'code':'item_details_not_in_snapshot','count':len(items),'message':'Item links/icons found; costs and effects require item-page snapshots.'})
     warnings.append({'code':'game_version_unverified','message':'Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values.'})
     if not abilities:warnings.append({'code':'no_abilities_detected'})
     canonical=document.xpath('//link[@rel="canonical"]/@href')
-    result={'schema_version':SCHEMA_VERSION,'name':name,'slug':slug(name),'source':{'filename':source.name,'url':canonical[0] if canonical else None,'sha256':hashlib.sha256(raw).hexdigest(),'size_bytes':len(raw)},'stats':stats,'metadata':metadata,'portrait_asset':assets.extract(portrait[0]) if portrait else None,'abilities':abilities,'items':items,'skins':skins,'sections':sections,'assets':assets.assets,'diagnostics':{'warnings':warnings,'excluded_sections':excluded,'status':'partial' if assets.warnings or not abilities else 'extracted'}}
+    result={'schema_version':SCHEMA_VERSION,'name':name,'slug':slug(name),'source':{'filename':source.name,'url':canonical[0] if canonical else None,'sha256':hashlib.sha256(raw).hexdigest(),'size_bytes':len(raw)},'stats':stats,'metadata':metadata,'portrait_asset':assets.extract(portrait[0]) if portrait else None,'abilities':abilities,'items':items,'skins':skins,'sections':sections,'assets':assets.assets,'diagnostics':{'warnings':warnings,'excluded_sections':excluded,'status':'partial' if any(w['code'].startswith('missing_') for w in warnings) or not abilities else 'extracted'}}
     (output/'naut.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     summary={'name':name,'abilities':len(abilities),'items':len(items),'skins':len(skins),'unique_assets':len(assets.assets),'source_bytes':len(raw),'json_bytes':(output/'naut.json').stat().st_size,'warnings':warnings}
     (output/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')

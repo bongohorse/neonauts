@@ -1,0 +1,1015 @@
+{
+  "schema_version": 1,
+  "name": "Leon Chameleon",
+  "slug": "leon-chameleon",
+  "source": {
+    "filename": "Leon.Chameleon.-.Official.Awesomenauts.Wiki.10.10.2026.17.53.00.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Leon_Chameleon",
+    "sha256": "638d5929e4b4465b0b1a639b23825b44f85b326998ff218bbcf9e2030425e257",
+    "size_bytes": 2518954
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1300 (2288)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.3"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Assassin"
+    },
+    {
+      "label": "Mobility",
+      "value": "Swift"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Chameleon",
+    "Type of abilities": "Stealth , Slow , Back Stab , Displacement , Lifesteal , Blind",
+    "Release Date": "May 1st, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Tongue Snatch",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tongue_Snatch",
+      "description": "Leon takes French kissing a bit too serious, slapping his tongue in your face, grabbing you by the throat and pulling you towards him in one flying swing. Chicks go wild for it!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "150 (235.5)x2"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7s"
+        },
+        {
+          "label": "Range",
+          "value": "6.6"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Slash",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Slash",
+      "description": "Our tailed rogue loves to stab people in the back, and there is one thing you need for that, a razorsharp lasersword. Also a great tool for making ratatouille.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "95 (149.15)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "136.4"
+        },
+        {
+          "label": "Range",
+          "value": "3.2"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Cloaking Skin",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cloaking_Skin",
+      "description": "As a great tactician, Leon knows the element of surprise can be very useful in combat. Using his natural stealth ability in combination with robotic dummies, he can fool anyone on the battlefield.",
+      "values": [
+        {
+          "label": "Cooldown",
+          "value": "10s"
+        },
+        {
+          "label": "Duration",
+          "value": "8s"
+        },
+        {
+          "label": "Dummy Health",
+          "value": "400 (704)"
+        },
+        {
+          "label": "Dummy Lifespan",
+          "value": "18s"
+        },
+        {
+          "label": "Damage",
+          "value": "50%"
+        },
+        {
+          "label": "Dummy Attack",
+          "value": "Yes"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Reptile Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Reptile_Jump",
+      "description": "Being a reptile has its advantages. Strong leg muscles give Leon the ability to leap high into the air. His tail keeps him stable while mid-air, giving him an agile advantage over his enemies.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "9.2"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Spiked Tongue Piercing",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spiked_Tongue_Piercing",
+      "group": "Tongue Snatch",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Tongue Stretcher",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tongue_Stretcher",
+      "group": "Tongue Snatch",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cheese & Garlic Mints",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cheese_%26_Garlic_Mints",
+      "group": "Tongue Snatch",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Steel False Teeth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Steel_False_Teeth",
+      "group": "Tongue Snatch",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Morning Star Piercing",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Morning_Star_Piercing",
+      "group": "Tongue Snatch",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Spectacles Magnet Piercing",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spectacles_Magnet_Piercing",
+      "group": "Tongue Snatch",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Surprise Party Mask",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Surprise_Party_Mask",
+      "group": "Cloaking Skin",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Pinot Noir",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Pinot_Noir",
+      "group": "Cloaking Skin",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "French Baguette",
+      "source_url": "https://awesomenauts.fandom.com/wiki/French_Baguette",
+      "group": "Cloaking Skin",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Basic AI Chip",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Basic_AI_Chip",
+      "group": "Cloaking Skin",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Extra Battery Pack",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Extra_Battery_Pack",
+      "group": "Cloaking Skin",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Blow Up Doll",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Blow_Up_Doll",
+      "group": "Cloaking Skin",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chainsaw Addon",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chainsaw_Addon",
+      "group": "Slash",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sharp Edged Razors",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sharp_Edged_Razors",
+      "group": "Slash",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Backstab Blade",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Backstab_Blade",
+      "group": "Slash",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Clover of Honour",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Clover_of_Honour",
+      "group": "Slash",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hungry Sword",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hungry_Sword",
+      "group": "Slash",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Electrifier",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Electrifier",
+      "group": "Slash",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Reptile Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Reptile Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Reptile Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Reptile Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Reptile Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Reptile Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Mousquetaire Leon",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Hanhaaan! Have at you, imbecile! It's moi, Leon, le mousquetaire extraordinaire! Now with an extra sharp rapier, more vin, more fromage and more amour, Mousquetaire Leon!\" - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Leon a french Mousquetaire costume with a plumed hat and a rose on his mouth and replaces his blade with a rapier (also altering the slashing sound so it's more accurate)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A new trail particle effect is added to Leon's movement."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "name": "Pirate Leon",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Aaaarrrrr, ya scurvy old sea dogs! This here be the most feared pirate of the universe! Wanted on over 500 planets for camembert plunderin', grog stealin' and sweet talkin': you'd be wise t' to hide your beauties, for leon pirate be comin'! Leon Pirate comes with a fully customized voice set!\" - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Leon a pirate costume complete with a pirate hat with a skull emblem on it and a peg-leg. His blade is replaced with a saber."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with unique dialogue lines as well. It also costs $5.00 instead of the usual $2.50 for skins."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "name": "Ghost Leon",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Limited edition skin - no official description available."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin was awarded to players who donated to the Bronze/Silver Tier or higher, in the Awesomenauts: Starstorm Expansion Kickstarter campaign."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Leon futuristic armor, a different-looking blade, a hood, cape, and a pair of goggles. The Slash animation is altered to leave a trail of digital hexagons when he swings it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with unique dialogue lines as well."
+        }
+      ],
+      "assets": [
+        "asset-032"
+      ]
+    },
+    {
+      "name": "Leon Legionnaire",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "My name is Leon Legionnnaire, commander of the Armies of Aiguillon, connoisseur of fine cheese and loyal servant to the TRUE emperor: Blabus Zorkonius. Owner of a stolen space yacht, winner of the 3586 jeu de boules cup. I will claim my glory, in this battle or the next."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Leon in Awesomenauts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leon Legionnaire was designed by community member Lautaro Aglione for the Design-a-skin competition and was chosen by the community as one the runner-ups to Grim Genji from more than 250 submissions! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Leon the typical Roman legionnaire attire: He has a gold/bronze (depending on team) galea on his head (with a team-colored decoration), and wears a white toga with a team-colored paludamentum around it. He also has gold/bronze colored greaves and shoulderplates to protect his legs and arm, and a team-colored cloak on his back. His arm-blade is replaced with a gladius (with unique slashing sound effects) and he wields a golden/bronze scutum with a rose insignia engraved in it in his hand."
+        }
+      ],
+      "assets": [
+        "asset-033"
+      ]
+    }
+  ],
+  "sections": {
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "Leon's life is a life of crime, women, and borrowing without returning. He lost his arm in a unfortunate jeu de boules incident and spends most of his time smoothly escaping debt collectors. He found himself breaking into the bedroom of the prime minister's wife, while looking for the wine cellar."
+      },
+      {
+        "type": "paragraph",
+        "text": "He knew no amount of charm could save him this time and planned his escape, which was eventually delayed because he refused to escape in anything but a space yacht."
+      },
+      {
+        "type": "paragraph",
+        "text": "Leon joined the Awesomenauts for some quick cash, spending it on beautiful women and exquisite meals. In combat, he puts his natural reptile abilities to some good use and slices up his enemies with great precision. Combat is a form of art for this green gentleman."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"Hanhaaan! Have at you, imbecile! It's moi, Leon, le mousquetaire extraordinaire! Now with an extra sharp rapier, more vin, more fromage and more amour, Mousquetaire Leon!\" - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Leon a french Mousquetaire costume with a plumed hat and a rose on his mouth and replaces his blade with a rapier (also altering the slashing sound so it's more accurate)."
+      },
+      {
+        "type": "paragraph",
+        "text": "A new trail particle effect is added to Leon's movement."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"Aaaarrrrr, ya scurvy old sea dogs! This here be the most feared pirate of the universe! Wanted on over 500 planets for camembert plunderin', grog stealin' and sweet talkin': you'd be wise t' to hide your beauties, for leon pirate be comin'! Leon Pirate comes with a fully customized voice set!\" - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Leon a pirate costume complete with a pirate hat with a skull emblem on it and a peg-leg. His blade is replaced with a saber."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with unique dialogue lines as well. It also costs $5.00 instead of the usual $2.50 for skins."
+      },
+      {
+        "type": "paragraph",
+        "text": "Limited edition skin - no official description available."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin was awarded to players who donated to the Bronze/Silver Tier or higher, in the Awesomenauts: Starstorm Expansion Kickstarter campaign."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Leon futuristic armor, a different-looking blade, a hood, cape, and a pair of goggles. The Slash animation is altered to leave a trail of digital hexagons when he swings it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with unique dialogue lines as well."
+      },
+      {
+        "type": "paragraph",
+        "text": "My name is Leon Legionnnaire, commander of the Armies of Aiguillon, connoisseur of fine cheese and loyal servant to the TRUE emperor: Blabus Zorkonius. Owner of a stolen space yacht, winner of the 3586 jeu de boules cup. I will claim my glory, in this battle or the next."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Leon in Awesomenauts."
+      },
+      {
+        "type": "paragraph",
+        "text": "Leon Legionnaire was designed by community member Lautaro Aglione for the Design-a-skin competition and was chosen by the community as one the runner-ups to Grim Genji from more than 250 submissions! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Leon the typical Roman legionnaire attire: He has a gold/bronze (depending on team) galea on his head (with a team-colored decoration), and wears a white toga with a team-colored paludamentum around it. He also has gold/bronze colored greaves and shoulderplates to protect his legs and arm, and a team-colored cloak on his back. His arm-blade is replaced with a gladius (with unique slashing sound effects) and he wields a golden/bronze scutum with a rose insignia engraved in it in his hand."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Leon is one of the \"original six\" Awesomenauts that came with the game when it first launched, along with Clunk, Froggy G, Lonestar, Voltar and Yuri.",
+          "Leon was the first Awesomenaut to ever get a premium skin, Leon Pirate.",
+          "Leon's home planet, Aiguillon, is available as a playable map in the game.",
+          "Leon is one of the few 'nauts to have a Kickstarter exclusive skin (the other being Coco).",
+          "With five unique skins including the default one, Leon is tied with Coco and Lonestar for the most skins in the game. On top of that, Leon and Coco have very similar skin layouts. They both have two premium skins, two regular skins, one kickstarter-exclusive skin, and one skin that won a contest.",
+          "Leon Legionnaire was part of the Awesomenauts Skin Contest 2014, where it won second place. It was designed by Lautaro Aglione. The original concept art can be seen below:"
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Tongue Snatch goes through droids, so it is safe to use it against 'nauts who are hiding behind them.",
+          "Tongue Snatch can be made into a more powerful initiation tool via Cheese & Garlic Mints and Tongue Stretcher, as quick burst with Spiked Tongue Piercing and Morning Star Piercing or as a mix between the two. Experiment with upgrades to find your playstyle.",
+          "If you don't have Basic AI Chip, leaving a clone inside a hide area will grant vision to you and your teamates.",
+          "Backstab Blade cannot affect turrets or the Solar drill, but the animation for a successful strike will still play. Don't be fooled by this.",
+          "When choosing a DPS upgrade, consider Backstab Blade for droids and Awesomenauts. However, if your goal is to have high overall damage and be more effective against turrets, Chainsaw Addon is a better option.",
+          "If you're actively in an engagement and have Surprise Party Mask upgraded, quickly cloak for a higher damage slash, but keep in mind that this will make your escape harder if things go wrong.",
+          "Always make sure to go around crossfire while cloaked, you might be invisible but you are not invincible. Plus, damage numbers and visual effects will still appear on you, giving away your position.",
+          "Use your Cloaking Skin to sneak up on enemies, especially those who are at low health, overextending or too far away from their teammates.",
+          "If using backstab blade, try to always jump around to hit your enemies in the back, or the extra damage will not apply.",
+          "Combining a fully upgraded Surprise Party Mask, Backstab Blade, and Chainsaw Addon will result in an uncloaking backstab that does high damage. If they're hurt, this can easily take them out.",
+          "Pull enemies into dangerous situations with your Tongue. Good examples are near your teammates, into Yuri's mines, and near your turrets.",
+          "If you are trying to destroy a turret with no support from allied 'nauts/creeps, cloak directly in front of the turret to use the clone as a temporary shield.",
+          "The orb on Aiguillon works with Leon's Surprise Party Mask just like normal cloak. A popular combo is getting the orb, uncloaking with a slash, activating cloaking skin and then slashing the enemy again for high amounts of damage. The orb does not grant the effect from Pinot Noir, however.",
+          "With his clones, Leon is able to push two lanes at once. Simply leave a clone in one lane close to enemy droids and push the other lane yourself. Using Basic AI Chip and Extra Battery Pack makes this tactic even more efficient.",
+          "If you feel like enemies are having an easy time escaping you, consider saving your Tongue Snatch for after they try to flee. French Baguette and Electrifier can also make their escape harder."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "If Leon is invisible, try not to follow him too closely, or you may give away his position away to the enemy.",
+          "Leon's clones will show up as a larger dot on the minimap instead of a Leon head, allowing you to tell where the real one is (they still appear as Leon heads for enemies, however).",
+          "Place traps in locations that are easy for Leon to tongue people from.",
+          "Be sure to save your powerful abilities so that you are ready to follow up Leon's Tongue Snatch initiation to get kills more easily."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "The best way to deal with Leon is to walk as a team and never stay too long in the battlefield if you're vulnerable (low health, no cooldowns ready, etc.) To reduce his effectiveness as a ganker.",
+          "Even when Leon's invisible it's still possible to hear his footsteps. Some players turn off the game music and increase sound effects volume for this sole purpose.",
+          "Depending on the circumstances, it is sometimes better to stay and fight a Leon that has Backstab Blade, as running away will expose your back to him, allowing him to get free backstabs for extra damage on you.",
+          "Jumping erratically around Leon may be useful when trying to evade Tongue Snatch.",
+          "Any visual indicators coming from Leon's enemies (damage numbers, crowd control effects, Raelynn's Snipe targeting reticle and damage over time effects) will show up on Leon even if he's invisible. Use that to find him.",
+          "The cooldown on Leon's Cloaking Skin doesn't start until invisibility is broken. If you see him uncloaking, keep in mind that you have a few seconds to attack or even kill him before he can cloak again.",
+          "Don't let the minimap fool you! Leon's clones appear as Awesomenauts there.",
+          "Clones with Basic AI Chip will chase the nearest target. Use this to lure them away from your turret."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/leon-alpha-6deacc2e.webp",
+      "source_name": "Leon Alpha.png",
+      "alt": "Leon Alpha",
+      "width": 512,
+      "height": 568,
+      "format": "WEBP",
+      "sha256": "6deacc2efc9604341dd4e8d55fd7c386e3ffea6b3847f8073c602dd23e9244bf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-chameleon-tongue-a9ac074b.webp",
+      "source_name": "UI Skillbutton Chameleon Tongue.png",
+      "alt": "UI Skillbutton Chameleon Tongue",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "a9ac074bb35df6d2c5307d34f983350db3be98ec18cd9e79a5c35de44ba7d861",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-chameleon-attack-9cdc6861.webp",
+      "source_name": "UI Skillbutton Chameleon Attack.png",
+      "alt": "UI Skillbutton Chameleon Attack",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "9cdc686178ea16da1315e4754ebb7cc1352518ed3cdbb87d796d1cac2e7e89aa",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-chameleon-stealth-bd0fed65.webp",
+      "source_name": "UI Skillbutton Chameleon Stealth.png",
+      "alt": "UI Skillbutton Chameleon Stealth",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "bd0fed6596de63b21a9e052c2ce013d950f1d40b55cc8b4f8633c099d19e466c",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-chameleon-jump-4770244c.webp",
+      "source_name": "UI Skillbutton Chameleon Jump.png",
+      "alt": "UI Skillbutton Chameleon Jump",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "4770244cadb34901e4d6f308176b9ffa398d9f7580a5f86f8a360115f4932d6e",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/upgrade-leon-spiked-tongue-piercing-d14e3829.webp",
+      "source_name": "Upgrade Leon Spiked tongue piercing.png",
+      "alt": "Upgrade Leon Spiked tongue piercing",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d14e3829cb34644a5d2e6649aa4153ffa01c2bec36a06f77ff61d92c8bfcebdc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/upgrade-leon-tongue-stretcher-a0b7c519.webp",
+      "source_name": "Upgrade Leon Tongue stretcher.png",
+      "alt": "Upgrade Leon Tongue stretcher",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a0b7c51959dcb2e59d2a9c81010eb414d7a8db079bb15aeb52f37ad5f9f43928",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/upgrade-leon-cheese-garlic-mints-f7a4de33.webp",
+      "source_name": "Upgrade Leon Cheese & garlic mints.png",
+      "alt": "Upgrade Leon Cheese & garlic mints",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f7a4de33bbcd183b0ecac472e25bdaedeac396a2a596c4875bfa621de9b0c0e5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/upgrade-leon-steel-false-teeth-2fbd87b1.webp",
+      "source_name": "Upgrade Leon Steel false teeth.png",
+      "alt": "Upgrade Leon Steel false teeth",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2fbd87b11d89ade4059c0acbf415c267324db74606b0c2c84c10a727e3631fb3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/upgrade-leon-morning-star-piercing-993a4faa.webp",
+      "source_name": "Upgrade Leon Morning star piercing.png",
+      "alt": "Upgrade Leon Morning star piercing",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "993a4faa24f8bdeb49d07c98549b996dfc161999cf6a77b3f9b9f0003b5001fb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/upgrade-leon-magnet-piercing-0b077dbc.webp",
+      "source_name": "Upgrade Leon Magnet piercing.png",
+      "alt": "Upgrade Leon Magnet piercing",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0b077dbc4afdd1e6449bb048ae1be7f29e3a8012573f137d77ee30b139284c2d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/upgrade-leon-surprise-party-mask-12329e30.webp",
+      "source_name": "Upgrade Leon Surprise party mask.png",
+      "alt": "Upgrade Leon Surprise party mask",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "12329e30e35908aefdbf4997260f206de3082123b594079013e8b692a018a58c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/upgrade-leon-pinot-noir-38b21b98.webp",
+      "source_name": "Upgrade Leon Pinot Noir.png",
+      "alt": "Upgrade Leon Pinot Noir",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "38b21b9837e04bf49e8dd6453ab19814259f971d5ab7354bba2f5be84a625747",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-chameleon-cloak-stealthspeed-18557a5c.webp",
+      "source_name": "Shop Icons Chameleon Cloak StealthSpeed.png",
+      "alt": "Shop Icons Chameleon Cloak StealthSpeed",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "18557a5c007e8a1bbc59a10bc00f786bd6c470e208db20a626efe7ccc9a820ca",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/upgrade-leon-basic-ai-chip-bcee69e8.webp",
+      "source_name": "Upgrade Leon Basic AI chip.png",
+      "alt": "Upgrade Leon Basic AI chip",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bcee69e82d1d7c388c2f2cdd359a50257f7d3ecb81b918168a054f1e773be962",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/upgrade-leon-extra-battery-pack-208702b3.webp",
+      "source_name": "Upgrade Leon Extra battery pack.png",
+      "alt": "Upgrade Leon Extra battery pack",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "208702b3347a250c0f01953f55c81a8cafe3548a3e9d908f31cc0853a5efd6b4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/upgrade-leon-blow-up-doll-7caed5ca.webp",
+      "source_name": "Upgrade Leon Blow up doll.png",
+      "alt": "Upgrade Leon Blow up doll",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7caed5cae7aaae2c94dca0c381df9fed3a3ca732517edae63007c8ff27ba2a2b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/upgrade-leon-chainsaw-addon-12544874.webp",
+      "source_name": "Upgrade Leon Chainsaw addon.png",
+      "alt": "Upgrade Leon Chainsaw addon",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1254487403e4f6411297fe48656429737af5e96dd02857eb087f2279a601673b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/upgrade-leon-enhanced-muscle-fibers-ebabbf81.webp",
+      "source_name": "Upgrade Leon Enhanced muscle fibers.png",
+      "alt": "Upgrade Leon Enhanced muscle fibers",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ebabbf81f98e2cab7e8110eb54d270eb88585ca400fbde6ed3882587e3cb7fe8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/upgrade-leon-backstab-blade-4f985d20.webp",
+      "source_name": "Upgrade Leon Backstab blade.png",
+      "alt": "Upgrade Leon Backstab blade",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4f985d20172da7f608ecd46cf647a053dc27f75fe8376a6dbc0bcbb1866a4432",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/upgrade-leon-clover-of-honour-f19b0230.webp",
+      "source_name": "Upgrade Leon Clover of honour.png",
+      "alt": "Upgrade Leon Clover of honour",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f19b02308d56da3dc195eca209158714c6d8d77f52bde9ab7a8d3da418cfc3ea",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/upgrade-leon-hungry-sword-3ea071fd.webp",
+      "source_name": "Upgrade Leon Hungry sword.png",
+      "alt": "Upgrade Leon Hungry sword",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3ea071fde2c983d8120bf40fe6794a0211dddc85a7ad218fab17b94f7e8aec20",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/upgrade-leon-electrifier-43f60dfc.webp",
+      "source_name": "Upgrade Leon Electrifier.png",
+      "alt": "Upgrade Leon Electrifier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "43f60dfca0f0b74f6af6578b8a5b65e5c7ed72c625012b4110f9815f0f834fe6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/leoningame-5000b286.webp",
+      "source_name": "Leoningame.png",
+      "alt": "Default skin.",
+      "width": 139,
+      "height": 103,
+      "format": "WEBP",
+      "sha256": "5000b286896d577641fd2516f2e5bee7f819fa82671c4f0a72b8016d827ea8a8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-leon-skin-1971537e.webp",
+      "source_name": "Base Leon Skin.png",
+      "alt": "Default skin",
+      "width": 145,
+      "height": 107,
+      "format": "WEBP",
+      "sha256": "1971537ef461cb2e3cd7c4377af0b074453778c505c1fd64806815a97f16f2ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/characterrender-leon-cyborg-f77abf3a.webp",
+      "source_name": "CharacterRender leon cyborg.png",
+      "alt": "CharacterRender leon cyborg",
+      "width": 180,
+      "height": 244,
+      "format": "WEBP",
+      "sha256": "f77abf3a62ec8e68a85a8ad58f65362b8aa0d79867e7b1631d90860a063b3cd4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/characterrender-chameleon-skin-centurleon-redbg-4c80decd.webp",
+      "source_name": "CharacterRender Chameleon Skin CenturLeon redBG.png",
+      "alt": "CharacterRender Chameleon Skin CenturLeon redBG",
+      "width": 270,
+      "height": 217,
+      "format": "WEBP",
+      "sha256": "4c80decdf6eba9040557cce445f07b823efba70d2b27f7ac8080c06b4cf32c67",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/skincontest2-a8341617.webp",
+      "source_name": "Skincontest2.png",
+      "alt": "Click to enlarge.",
+      "width": 150,
+      "height": 152,
+      "format": "WEBP",
+      "sha256": "a8341617042c4b05c228215393527ff737c421179e10f9ec21ebb2cf2985c676",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_lazy_image",
+        "image": "Leonskin.jpg",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/4/46/Leonskin.jpg/revision/latest?cb=20121127205454"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Musketeer Leon Skin.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/0/0c/Musketeer_Leon_Skin.png/revision/latest?cb=20140119234712"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Newpirateleoningame.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/b/bd/Newpirateleoningame.png/revision/latest?cb=20140126212125"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Pirate Leon Skin.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/3/39/Pirate_Leon_Skin.png/revision/latest?cb=20140119234836"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Ghostleoningame.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/c/c7/Ghostleoningame.png/revision/latest/scale-to-width-down/150?cb=20131010161612"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Ghost Leon Skin.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/b/b5/Ghost_Leon_Skin.png/revision/latest?cb=20140119234432"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Leonlegionnaireredingame.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/d/d4/Leonlegionnaireredingame.png/revision/latest?cb=20140902091241"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Leonlegionnaireblueingame.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/f/f5/Leonlegionnaireblueingame.png/revision/latest?cb=20140902091246"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Ui minimap player chameleon 0.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/0/09/Ui_minimap_player_chameleon_0.png/revision/latest?cb=20141218143640"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Classicon Chameleon.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/4/4a/Classicon_Chameleon.png/revision/latest?cb=20130310174802"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "CharacterRender Chameleon Skin Musketeer redBG.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/a/a2/CharacterRender_Chameleon_Skin_Musketeer_redBG.png/revision/latest/scale-to-width-down/180?cb=20121126133954"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "CharacterRender Chameleon Skin Pirate.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/2/29/CharacterRender_Chameleon_Skin_Pirate.png/revision/latest/scale-to-width-down/180?cb=20130524123712"
+      },
+      {
+        "code": "missing_skin_image",
+        "skin": "Mousquetaire Leon"
+      },
+      {
+        "code": "missing_skin_image",
+        "skin": "Pirate Leon"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Leon Pirate Quotes",
+      "Ghost Leon Quotes"
+    ],
+    "status": "partial"
+  }
+}

@@ -1,0 +1,1150 @@
+{
+  "schema_version": 1,
+  "name": "Clunk",
+  "slug": "clunk",
+  "source": {
+    "filename": "Clunk.-.Official.Awesomenauts.Wiki.10.10.2026.17.45.58.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Clunk",
+    "sha256": "a4765eeec8ab554f5fc14ac0f377f7cea096ba7219db71993d41b535e346f238",
+    "size_bytes": 2398003
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1900 (3344)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.02"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Medium"
+    },
+    {
+      "label": "Role",
+      "value": "Tank"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Tank",
+    "Type of abilities": "Lifesteal , Area of effect , Ensnare , Slow",
+    "Release Date": "May 1st, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Vacuum Bite",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Vacuum_Bite",
+      "description": "Being a giant robot requires a lot of energy. Luckily, Clunk has a powerful set of metal jaws that allow him to take a bite out of almost everything. His iron stomach takes whatever comes in, and quickly converts it to raw health.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "300 (471)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "5s"
+        },
+        {
+          "label": "Lifesteal",
+          "value": "100%"
+        },
+        {
+          "label": "Range",
+          "value": "4.2"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Missiles",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Missiles",
+      "description": "Slow-loading but very powerful: Clunks' missiles are very useful to get rid of obstructions when he just wants to blow up in someone's face.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "120 (188.4) | 140 (219.8) | 180 (282.6)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "60"
+        },
+        {
+          "label": "Range",
+          "value": "9.4"
+        },
+        {
+          "label": "Speed",
+          "value": "8"
+        },
+        {
+          "label": "Homing",
+          "value": "0"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Explode",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Explode",
+      "description": "Clunk was designed to be a suicide attacker, later fitted with armor powerful enough to survive his own explosion. Clunk now happily takes a bit of damage to blow away his enemies!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "500 (785)"
+        },
+        {
+          "label": "Self Damage",
+          "value": "300 (471)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "13.5s"
+        },
+        {
+          "label": "Explosive Size",
+          "value": "9"
+        },
+        {
+          "label": "Charge Time",
+          "value": "1.5s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Jet Boost",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Jet_Boost",
+      "description": "Similar to white male humans, giant combat robots can't jump. To compensate, Clunk was outfitted with a powerful jet engine that lets him fly for short distances.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "13.6"
+        },
+        {
+          "label": "Jump Duration",
+          "value": "1.1s"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Quick'n Cleaner",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Quick%27n_Cleaner",
+      "group": "Vacuum Bite",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Medical Pump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Medical_Pump",
+      "group": "Vacuum Bite",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Screamer Engine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Screamer_Engine",
+      "group": "Vacuum Bite",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Multi Hose",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Multi_Hose",
+      "group": "Vacuum Bite",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Suckanator Power 9000 Cleaner",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Suckanator_Power_9000_Cleaner",
+      "group": "Vacuum Bite",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Converter",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Converter",
+      "group": "Vacuum Bite",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Thermonuclear Cleaner",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Thermonuclear_Cleaner",
+      "group": "Explode",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Titanium Hard Hat",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Titanium_Hard_Hat",
+      "group": "Explode",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Grease Lightning Snail",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Grease_Lightning_Snail",
+      "group": "Explode",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Blueprints container",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Blueprints_container",
+      "group": "Explode",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Reactor Cooler",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Reactor_Cooler",
+      "group": "Explode",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Universal Charger",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Universal_Charger",
+      "group": "Explode",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fragmenting Shells",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fragmenting_Shells",
+      "group": "Missiles",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Free Flight Fins",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Free_Flight_Fins",
+      "group": "Missiles",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Double Missile",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Double_Missile",
+      "group": "Missiles",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Juggernaut \"Fat Pete\"",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Juggernaut_%22Fat_Pete%22",
+      "group": "Missiles",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Improved Homing Sensor",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Improved_Homing_Sensor",
+      "group": "Missiles",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Salvo Value Pack",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Salvo_Value_Pack",
+      "group": "Missiles",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Jet Boost",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Jet Boost",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Jet Boost",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Jet Boost",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Jet Boost",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Jet Boost",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Expendable Clunk",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"A team of unruly mercenaries is given the assignment to take out a corrupt military leader and a rogue operative on a Latin American island. Their leader: Expendable Clunk! Double the action, triple the explosions and a-ten-hut for the Master of Metal!\" - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "With this skin, Clunk has a beret, cigar, and an ace of spades symbol on his shoulder. His eyes are changed to have more of an \"angry\" look and his jaw is darkened to make it look like a beard. His arm cannon is replaced with a grenade launcher with a chain of bullets attached to it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explode has the image of a skull (which also has a beret) and the Missiles are replaced with big bullets."
+        }
+      ],
+      "assets": [
+        "asset-040"
+      ]
+    },
+    {
+      "name": "Creeper Clunk",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"It was a dark and stormy night. You run around the Awesomenauts base, but too late you realize that remote spot in the back where you forgot to place a torch. You look around frantically but can’t spot a thing... until... SSSSSSSsss BANG! Creeper Clunk is all up in your grill!'This new skin for everyone’s favorite Awesomenaut, Clunk, can’t be bought or downloaded anywhere! The only way you can get it is to hunt one down in-game and kill it dead!\" - Official description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Clunk the appearance of a Creeper from Minecraft piloting an armour suit. His missile cannon now has a square shape. He also has a Minecraft TNT crate on his back and a pixelated pickaxe on his hand."
+        },
+        {
+          "type": "paragraph",
+          "text": "His jump has square smoke effect, Vacuum Bite becomes pixelated, Explode has the Creeper explosion SFX with an image of a Creeper's face on it, and his missiles are replaced with blocks similar to the ones from Minecraft. He has a new teleport animation where the block of TNT on his back flies into the air and spins around."
+        }
+      ],
+      "assets": [
+        "asset-041"
+      ]
+    },
+    {
+      "name": "Cluck Clunk",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Roam the Awesomenauts battlefield as Cluck Clunk! Omelettes never contained this much aluminium!\" - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note: This skin cannot be bought separately. It is part of the Awesomenauts - Costume Party 2 DLC Bundle."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is skin is a chicken costume for Clunk. Only his face is visible under it. It has a zipper and a yellow chicken badge on the chest. The arm cannon is replaced by a chicken head. His eyes are now round instead of angry, similar to his eyes prior to his sprite update in 3.4."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explode has the image of a chicken head and he clucks right before the explosion. His missiles are replaced with eggs which explode into yolk."
+        }
+      ],
+      "assets": [
+        "asset-042"
+      ]
+    }
+  ],
+  "sections": {
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "Clunk is a robot suffering from anger management issues. He's saving up money to pay for therapy but keeps losing it due to damage compensations. Originally created as part of a robot army to combat an immensely powerful super villain terrorizing the outer star systems, Clunk found himself without a job when the villain accidentally died of a nasty bacterial infection before the robot army was completed."
+      },
+      {
+        "type": "paragraph",
+        "text": "This was actually a blessing in disguise for Clunk, since he was never designed to return in one piece from his mission. He was refitted to do standard house-keeping work, but soon found himself out of work once more as he kept blowing aggression inhibitors and subsequently went into immensely destrucive tantrums."
+      },
+      {
+        "type": "paragraph",
+        "text": "Eventually, Clunk signed up as a mercenary to do what he is best at: wrecking things. He found that finally giving in to his aggressive nature has given him great inner peace. Nowadays he takes great pleasure in jetting around the battlefield, blowing up in peoples' faces to the sound of heavy metal."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"A team of unruly mercenaries is given the assignment to take out a corrupt military leader and a rogue operative on a Latin American island. Their leader: Expendable Clunk! Double the action, triple the explosions and a-ten-hut for the Master of Metal!\" - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "With this skin, Clunk has a beret, cigar, and an ace of spades symbol on his shoulder. His eyes are changed to have more of an \"angry\" look and his jaw is darkened to make it look like a beard. His arm cannon is replaced with a grenade launcher with a chain of bullets attached to it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Explode has the image of a skull (which also has a beret) and the Missiles are replaced with big bullets."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"It was a dark and stormy night. You run around the Awesomenauts base, but too late you realize that remote spot in the back where you forgot to place a torch. You look around frantically but can’t spot a thing... until... SSSSSSSsss BANG! Creeper Clunk is all up in your grill!'This new skin for everyone’s favorite Awesomenaut, Clunk, can’t be bought or downloaded anywhere! The only way you can get it is to hunt one down in-game and kill it dead!\" - Official description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Clunk the appearance of a Creeper from Minecraft piloting an armour suit. His missile cannon now has a square shape. He also has a Minecraft TNT crate on his back and a pixelated pickaxe on his hand."
+      },
+      {
+        "type": "paragraph",
+        "text": "His jump has square smoke effect, Vacuum Bite becomes pixelated, Explode has the Creeper explosion SFX with an image of a Creeper's face on it, and his missiles are replaced with blocks similar to the ones from Minecraft. He has a new teleport animation where the block of TNT on his back flies into the air and spins around."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"Roam the Awesomenauts battlefield as Cluck Clunk! Omelettes never contained this much aluminium!\" - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: This skin cannot be bought separately. It is part of the Awesomenauts - Costume Party 2 DLC Bundle."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is skin is a chicken costume for Clunk. Only his face is visible under it. It has a zipper and a yellow chicken badge on the chest. The arm cannon is replaced by a chicken head. His eyes are now round instead of angry, similar to his eyes prior to his sprite update in 3.4."
+      },
+      {
+        "type": "paragraph",
+        "text": "Explode has the image of a chicken head and he clucks right before the explosion. His missiles are replaced with eggs which explode into yolk."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Clunk is one of the \"original six\" Awesomenauts that came with the game when it first launched, along with Froggy G, Leon, Lonestar, Voltar and Yuri.",
+          "Clunk has been used in several Awesomenauts promotional material and merchandise, having one skin for a partnership with Minecraft creator Notch (Creeper Clunk) and one (previously exclusive) skin for Humble Bundle (Cluck Clunk). A vinyl figurine of Clunk was also made by GameToys to be sold and was used as a reward to higher tier backers of the Awesomenauts: Starstorm Expansion Kickstarter campaign. One such figurine was also given to community member Conorbebe for winning the Design-A-Naut Contest 2 with Ix.",
+          "Clunk has the highest health of any Awesomenaut.",
+          "Clunk's face is the logo of Awesomenauts. He can also be seen at the end of a match when your team is defeated.",
+          "Clunk's Missiles is one of the skills that received the most number of changes art-wise, being initially holographic missiles, then changed to a more \"streamlined\" look and then to the current \"physical\" missile form (along with a new skill icon). It also received new sound effects as of Patch 2.11 as well as additional sounds for each skin. Patch 3.4 brought even more changes along with the rest of his sprite update, mostly to the missiles fired by his skins.",
+          "Clunk is the second character to receive a graphic and music rework. This went live in Patch 3.4, Prime Time. Clunk's music received an incredibly large extension: going from 14 seconds to 1 minute and 35 seconds.",
+          "Whenever Clunk refers to himself, he does so on the third person, rather than saying \"I\" or \"me\"."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Minimap Icon (Pre-Patch 3.4)",
+          "Default Skin. (Pre-Patch 3.4)",
+          "Default Skin. (Pre-Patch 3.4)",
+          "Expendable Clunk. (Pre-Patch 3.4)",
+          "Expendable Clunk. (Pre-Patch 3.4)",
+          "Creeper Clunk. (Pre-Patch 3.4)",
+          "Creeper Clunk. (Pre-Patch 3.4)",
+          "Cluck Clunk. (Pre-Patch 3.4)",
+          "Cluck Clunk. (Pre-Patch 3.4)"
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Tapping the jump button instead of holding it down allows Clunk to remain in air longer as well as reach places that would otherwise be too high.",
+          "Take advantage of long range of your Missiles to poke at your opponents, but keep the slow projectile speed in mind: Aim where they will be, not where they are.",
+          "When playing as Clunk, you will most likely want boots to improve his slow movement speed.",
+          "Clunk may be slow, but falls very fast. Use his jump to remain airborn often and suddenly drop down and attack your enemies if they get too close. Alternatively, when fighting enemies who tend to stay a safe distance away from you, consider surprising them by attacking from high ground or hide areas.",
+          "Both Vacuum Bite and Explode have clear animations. Time those skill well to ensure you land them.",
+          "Using Vacuum Bite on a neutral creep will not only give you the normal lifesteal, but the healthpack it drops as well for a more powerful heal.",
+          "When using Medical Pump, it might be a good idea to play more passively and focus on biting targets until you max your health.",
+          "When using Multi Hose, try to save Vacuum Bite for two targets as often as possible, as you will get twice as much lifesteal. Just remember it doesn't affect the same target twice.",
+          "Pairing Multi Hose with Screamer Engine can grant Clunk powerful crowd control during a teamfight.",
+          "It is possible to kill yourself with Explode! Think twice before activating it. Alternatively, if you are absolutely sure you will not escape your enemies and are very low on health, do trigger Explode and try to take them down with you. The explosion will still go off if you are killed while charging it.",
+          "Biting two targets at once with Multi Hose will not cause two healing over time effects from Power Converter to take place, however, biting two targets with two separate bites will.",
+          "A popular tactic among Clunk players involves charging up Explode and dropping from a high place on top of unsuspecting enemies, giving them less time to escape the blast radius. When using this tactic, remember to watch the minimap constantly to know where your opponents are before dropping on top of them.",
+          "Both Screamer Engine and Grease Lightning Snail are effective ways of keeping enemies within range of Clunk's Explode.",
+          "Remember: Thermonuclear Cleaner increases damage dealt to enemies and to yourself! Consider pairing it with Titanium Hard Hat.",
+          "Explode can be used to save an ally from danger. Simply activate it and block their pursuers' path. Most of them will give up chase or take severe damage, maybe even allowing you to finish them off. It can also be used to discourage enemies that would otherwise attack you if you feel you can't take them down.",
+          "With Fragmenting Shells, Clunk is able to damage the Solar Drill from above. He is also able to hit the top turrets in Ribbit IV from underneath as long as they are currently attacking something else.",
+          "It is possible to keep track of your missiles' launch string by looking at the missile icon (see below). That way, you can store a more powerful missile just before a teamfight."
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Applying what you've learned from the above tip with Salvo Value Pack, you can store a powerful missile (missile #3 or the giant one from The Juggernaut \"Fat Pete\", for instance), bite or explode an enemy and then shoot them for twice as much damage."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Allow Clunk to bite enemy droids and creeps if possible so that he may recover lost health.",
+          "Crowd Control, particularly displacement and knockback can greatly assist Clunk in landing his Explode on enemies when used properly.",
+          "If you have any form of healing, use it to help Clunk mitigate the self-damage from his explode.",
+          "Clunk is the slowest 'naut in the game. Don't rush ahead of him and expect him to help you: It'll take longer for him to reach you."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Clunk is a powerful Awesomenaut, but his Solar costs are very high. Avoid dying at all costs and try to prevent him from farming droids as best as you can.",
+          "The absolutely best moment to attack an enemy Clunk is when both Explode and Vacuum Bite are on cooldown, especially if he misses the bite trying to get extra health.",
+          "Killing Clunk while his Explode is being charged will cause it to go off instantly. Be very careful when engaging him when he's at low health.",
+          "Aside from missiles, Clunk's abilities have relatively short range. Try to keep him a safe distance from you.",
+          "Use the score screen to see if Clunk has dangerous upgrades such as Screamer Engine, Grease Lightning Snail or Thermonuclear Cleaner. This information might help you when approaching him if you have to.",
+          "Never put yourself below a flying Clunk!. He may be slow-moving, but he falls down very quickly if he wants to.",
+          "Being a very slow and big awesomenaut, Clunk is naturally vulnerable to poking. Try to attack him from a safe distance, specially when he approaches Droids for a healing bite. That way he can end up taking more damage than he can heal and may be forced to retreat.",
+          "If Clunk is using Power Converter, try to attack him as often as possible (as long as it is safe to do so) to deny him the healing over time bonus.",
+          "Being a lifesteal, bite does not remove damage over time effects.",
+          "Cocoon pauses Clunk's Explode. If a Clunk is cocooned mid-explode, take the opportunity to run away from the blast radius before he breaks free.",
+          "Jump around Clunk and if he uses his Explode, use any crowd control (slows and knockbacks are particularly effective) or escape ability.",
+          "If Clunks flies up out of your view, beware! He may be trying to divebomb you!"
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/clunk-alpha-66145be8.webp",
+      "source_name": "Clunk Alpha.png",
+      "alt": "Clunk Alpha",
+      "width": 512,
+      "height": 450,
+      "format": "WEBP",
+      "sha256": "66145be818b200e82dd2f7b4a2eb64d3d39b21ad46b25b52e7611bf02d8d2f28",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-tank-lifesteal-a6513c03.webp",
+      "source_name": "UI Skillbutton Tank Lifesteal.png",
+      "alt": "UI Skillbutton Tank Lifesteal",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "a6513c034e30ced9338f16d3f5ae7e3eb0b4f35d52cc7981f2c627c4e5bf4584",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-tank-attack1-b0ebff5f.webp",
+      "source_name": "UI Skillbutton Tank Attack1.png",
+      "alt": "UI Skillbutton Tank Attack1",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "b0ebff5f8c647fc6ead8021d1a0714e0de119729e291f085e85038b94a243ed4",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-tank-detonate-26e364ff.webp",
+      "source_name": "UI Skillbutton Tank Detonate.png",
+      "alt": "UI Skillbutton Tank Detonate",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "26e364ffbcd5224b23844395f3f7e959b3fcd0a05a6714b24206b9750ecce372",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-tank-jump-b3fd540c.webp",
+      "source_name": "UI Skillbutton Tank Jump.png",
+      "alt": "UI Skillbutton Tank Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "b3fd540c94f88af8f854678160843560c5fe1bd2d74e38622cc51bd8002ff7ac",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/upgrade-clunk-quick-ncleaner-e6b5772e.webp",
+      "source_name": "Upgrade Clunk Quick'ncleaner.png",
+      "alt": "Upgrade Clunk Quick'ncleaner",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e6b5772edaa9c07b4694f38dfb9c225f772d8ab0d32b6456f2c6434213207f0e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/upgrade-clunk-medical-pump-215a54d7.webp",
+      "source_name": "Upgrade Clunk Medical pump.png",
+      "alt": "Upgrade Clunk Medical pump",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "215a54d7aad5b305473100732a7bca2b2e5a892a5ef33ec0331c64f4b65c6e89",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/upgrade-clunk-screamer-engine-9bc83fd3.webp",
+      "source_name": "Upgrade Clunk Screamer engine.png",
+      "alt": "Upgrade Clunk Screamer engine",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9bc83fd327f7a1a9beff4d5fa60a5961abb6772776d99a90e4b5a5db671f1a2e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/upgrade-clunk-multi-hose-a8bb1ec6.webp",
+      "source_name": "Upgrade Clunk Multi hose.png",
+      "alt": "Upgrade Clunk Multi hose",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a8bb1ec6328b0e4588d969c46ab1530f1520aa685133eee30f243f95a2bd7684",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/upgrade-clunk-the-suckanator-power-9000-cleaner-0138d6f0.webp",
+      "source_name": "Upgrade Clunk The suckanator power 9000 cleaner.png",
+      "alt": "Upgrade Clunk The suckanator power 9000 cleaner",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0138d6f092694e120ab4dec663ffc9ced0b62791d1e7a7f651659beb66792db3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/upgrade-clunk-cash-container-4184f660.webp",
+      "source_name": "Upgrade Clunk Cash container.png",
+      "alt": "Upgrade Clunk Cash container",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4184f660cb41a6994c4085c6bf193ddb415a34a2c30deb0bd5bb380c027946ee",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/upgrade-clunk-thermonuclear-cleaner-948912f8.webp",
+      "source_name": "Upgrade Clunk Thermonuclear cleaner.png",
+      "alt": "Upgrade Clunk Thermonuclear cleaner",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "948912f83a807405363e037e4160a8ce10e5c732e63aee357297786a3d705d5e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/upgrade-clunk-titanium-hard-hat-152f9d19.webp",
+      "source_name": "Upgrade Clunk Titanium hard hat.png",
+      "alt": "Upgrade Clunk Titanium hard hat",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "152f9d19f00e3c0fc9e75163477a551fcaa89efcf5c7c25e9aff8e5260bed81f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/upgrade-clunk-grease-lightning-snail-bd27668f.webp",
+      "source_name": "Upgrade Clunk Grease lightning snail.png",
+      "alt": "Upgrade Clunk Grease lightning snail",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bd27668f9ee60f04b064806f9355403349a9862376eb63d834e3d49b16b84c2a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/upgrade-clunk-blueprints-container-6aff36a8.webp",
+      "source_name": "Upgrade Clunk Blueprints container.png",
+      "alt": "Upgrade Clunk Blueprints container",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6aff36a88291b32bb44e10759295d8e024e201fb3f2d871ef94bff22162ad4a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/upgrade-clunk-reactor-cooler-22a4a9cd.webp",
+      "source_name": "Upgrade Clunk Reactor cooler.png",
+      "alt": "Upgrade Clunk Reactor cooler",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "22a4a9cd89792bf80a5ce004ae5415732b0aebac765f6bb0967a9294320b6800",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/upgrade-clunk-universal-charger-b25cc861.webp",
+      "source_name": "Upgrade Clunk Universal charger.png",
+      "alt": "Upgrade Clunk Universal charger",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b25cc861a3c68ee4183cf89aaa4e729c111d24528125a8b53f8516693d12ccc9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/upgrade-clunk-fragmenting-shells-e9fe839b.webp",
+      "source_name": "Upgrade Clunk Fragmenting shells.png",
+      "alt": "Upgrade Clunk Fragmenting shells",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e9fe839bf5621dc1d98170055efc1103bb8ccffe24c0b7cafb1d8c16e0a4c000",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/upgrade-clunk-free-flight-fins-a495f41f.webp",
+      "source_name": "Upgrade Clunk Free flight fins.png",
+      "alt": "Upgrade Clunk Free flight fins",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a495f41f81ef3ed35d7b9c778e69d352b5b97ff54847b8913f476838b026d007",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/upgrade-clunk-missile-barrage-6890dff7.webp",
+      "source_name": "Upgrade Clunk Missile barrage.png",
+      "alt": "Upgrade Clunk Missile barrage",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6890dff737fb174ad800f5457cb011c5a7e172d3e693627a80d58ea727da1d5a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-tank-missile-big-8e6bb898.webp",
+      "source_name": "Shop Icons Tank Missile Big.png",
+      "alt": "Shop Icons Tank Missile Big",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8e6bb898eb4fd515410f1e9f1c365dae2459149df3bccc4d3e719d9cb35f2479",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/upgrade-clunk-improve-homing-sensor-77ee54ec.webp",
+      "source_name": "Upgrade Clunk Improve homing sensor.png",
+      "alt": "Upgrade Clunk Improve homing sensor",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "77ee54ec2f05ef2ad89814085400f08345ebf2a9b08b76d09c80ca659f089583",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/upgrade-clunk-salvo-value-pack-7121354b.webp",
+      "source_name": "Upgrade Clunk Salvo value pack.png",
+      "alt": "Upgrade Clunk Salvo value pack",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7121354b223d1e2cf9eb1ec18d8df844419861a67e829d1b2f1ec9e4f8ecbaec",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/newclunkingamered-82330f9d.webp",
+      "source_name": "Newclunkingamered.png",
+      "alt": "Default Skin.",
+      "width": 180,
+      "height": 132,
+      "format": "WEBP",
+      "sha256": "82330f9d765b69706b4c740a7135797546e2fa401d7220522eea0faab4b45f27",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/newclunkingameblue-6d76843b.webp",
+      "source_name": "Newclunkingameblue.png",
+      "alt": "Default Skin.",
+      "width": 180,
+      "height": 121,
+      "format": "WEBP",
+      "sha256": "6d76843b58c496ae22c58f30687897b6c02707928255fe83cb1b9194cfa2e065",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/newexpendableclunkingamered-7e57e25f.webp",
+      "source_name": "Newexpendableclunkingamered.png",
+      "alt": "Expendable Clunk.",
+      "width": 180,
+      "height": 121,
+      "format": "WEBP",
+      "sha256": "7e57e25f103e064cdba4b11bf859cc28f001a7cd0097ed80e71cbbd40bd51fe8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/newexpendableclunkingameblue-c498dd82.webp",
+      "source_name": "Newexpendableclunkingameblue.png",
+      "alt": "Expendable Clunk.",
+      "width": 180,
+      "height": 115,
+      "format": "WEBP",
+      "sha256": "c498dd82ac02e79717c25dfb3b2af633302c8ecaa1cf1aa4d0b73e84d0a4d48b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/newcreeperclunkingamered-3c07af25.webp",
+      "source_name": "Newcreeperclunkingamered.png",
+      "alt": "Creeper Clunk.",
+      "width": 180,
+      "height": 116,
+      "format": "WEBP",
+      "sha256": "3c07af257061d97d98850e977db34d92c6b3fc5feb9aec1b985866a1b436a1a2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/newcreeperclunkingameblue-3cb64521.webp",
+      "source_name": "Newcreeperclunkingameblue.png",
+      "alt": "Creeper Clunk.",
+      "width": 180,
+      "height": 119,
+      "format": "WEBP",
+      "sha256": "3cb645214bde3aede9817576616e50036152eee105cdeeb9af2035117fb01a62",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/newcluckclunkingamered-0c55960b.webp",
+      "source_name": "Newcluckclunkingamered.png",
+      "alt": "Cluck Clunk.",
+      "width": 180,
+      "height": 122,
+      "format": "WEBP",
+      "sha256": "0c55960b782906f0368ec315c734d4f7050422926624bba0b168d1186a76642b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/newcluckclunkingameblue-37be5743.webp",
+      "source_name": "Newcluckclunkingameblue.png",
+      "alt": "Cluck Clunk.",
+      "width": 180,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "37be57432d26a763dc033e83962b41085dd6f707e9eb806232b2ada01a57aa54",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/clunk-minimap-red-657c48d6.webp",
+      "source_name": "Clunk minimap red.png",
+      "alt": "Clunk minimap red",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "657c48d61128a46a18adf96cc6dbbe40e94719d9351b49657593432ee8e20c1b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/classicon-tank-99422b4e.webp",
+      "source_name": "Classicon Tank.png",
+      "alt": "Classicon Tank",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "99422b4ebb5abdb18363cd9036c641215d45a2937f63b2afe46ca63a2e403e34",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/characterrender-clunk-skin-commando-redbg-fd5b5f6d.webp",
+      "source_name": "CharacterRender Clunk Skin Commando redBG.png",
+      "alt": "CharacterRender Clunk Skin Commando redBG",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "fd5b5f6d3225ee70b1430b7dbd7090a93f4713cd3af83286d437803e8c81e062",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/characterrender-clunk-skin-creeper-36c42a7a.webp",
+      "source_name": "CharacterRender Clunk Skin creeper.png",
+      "alt": "CharacterRender Clunk Skin creeper",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "36c42a7a33ecd68666e5490960391e364554ff91df3235b32fda491622a6daf6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/characterrender-clunk-skin-cluck-3726ba2b.webp",
+      "source_name": "CharacterRender Clunk Skin Cluck.png",
+      "alt": "CharacterRender Clunk Skin Cluck",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "3726ba2b0dd46facaee959c0b92e9a1e4d79b897dbc9bd8d4138ea4d7f9813e7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-043",
+      "path": "assets/ui-minimap-player-tank-0-eac7717e.webp",
+      "source_name": "Ui minimap player tank 0.png",
+      "alt": "Minimap Icon (Pre-Patch 3.4)",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "eac7717e5b6e39a41a7c368efaf1820457caae2e0b8c82df15ae2294a576758b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-044",
+      "path": "assets/clunk-42253bcc.webp",
+      "source_name": "Clunk.png",
+      "alt": "Default Skin. (Pre-Patch 3.4)",
+      "width": 120,
+      "height": 90,
+      "format": "WEBP",
+      "sha256": "42253bcc6ce0f23e2fcd13849038aac0c83990c4d62ca4f3f46e361908b81739",
+      "storage": "src"
+    },
+    {
+      "id": "asset-045",
+      "path": "assets/base-clunk-skin-c475a3f5.webp",
+      "source_name": "Base Clunk Skin.png",
+      "alt": "Default Skin. (Pre-Patch 3.4)",
+      "width": 120,
+      "height": 92,
+      "format": "WEBP",
+      "sha256": "c475a3f5d0a6d896a5be342d79c499646e3b2520e2badc9ebeeb908537fc59cc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-046",
+      "path": "assets/clunkskin-ee62f821.webp",
+      "source_name": "Clunkskin.jpg",
+      "alt": "Expendable Clunk. (Pre-Patch 3.4)",
+      "width": 120,
+      "height": 100,
+      "format": "WEBP",
+      "sha256": "ee62f82114d6a331e195057c043f39da2ecf0cc3a421abb50339a1cebaf5af95",
+      "storage": "src"
+    },
+    {
+      "id": "asset-047",
+      "path": "assets/expendables-clunk-skin-171c5612.webp",
+      "source_name": "Expendables Clunk Skin.png",
+      "alt": "Expendable Clunk. (Pre-Patch 3.4)",
+      "width": 120,
+      "height": 82,
+      "format": "WEBP",
+      "sha256": "171c5612bf19faf789d2a36405e0a9c010511763726ebbec4e4ca5e88fa8933b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-048",
+      "path": "assets/newcreeperclunkingame-cd2b8a04.webp",
+      "source_name": "Newcreeperclunkingame.png",
+      "alt": "Creeper Clunk. (Pre-Patch 3.4)",
+      "width": 120,
+      "height": 92,
+      "format": "WEBP",
+      "sha256": "cd2b8a0484a1799a59eedf9e03b3101be5c27872856c885130928d65fa084f02",
+      "storage": "src"
+    },
+    {
+      "id": "asset-049",
+      "path": "assets/creeper-clunk-skin-95d4e143.webp",
+      "source_name": "Creeper Clunk Skin.png",
+      "alt": "Creeper Clunk. (Pre-Patch 3.4)",
+      "width": 120,
+      "height": 92,
+      "format": "WEBP",
+      "sha256": "95d4e143b817fff84c51fb9867f4da606d1ffa5e6d3fa61ea1e49b214e6004e6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-050",
+      "path": "assets/newcluckingame-a72bc491.webp",
+      "source_name": "Newcluckingame.png",
+      "alt": "Cluck Clunk. (Pre-Patch 3.4)",
+      "width": 120,
+      "height": 83,
+      "format": "WEBP",
+      "sha256": "a72bc4919a5ec36ba7474db53bfd199e82011fb3da1244f1b52e8c58fd8fd6e1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-051",
+      "path": "assets/cluck-skin-fa556d43.webp",
+      "source_name": "Cluck Skin.png",
+      "alt": "Cluck Clunk. (Pre-Patch 3.4)",
+      "width": 120,
+      "height": 93,
+      "format": "WEBP",
+      "sha256": "fa556d43dbd4693c38a902b38ad9053f4c01baaf198dbf1f463585a72847f026",
+      "storage": "src"
+    },
+    {
+      "id": "asset-052",
+      "path": "assets/clunkmissileicons-22c9648c.webp",
+      "source_name": "Clunkmissileicons.png",
+      "alt": "Clunk's missile icons.",
+      "width": 400,
+      "height": 100,
+      "format": "WEBP",
+      "sha256": "22c9648c9520e7e22627e29858d7eb624af8584fa023a4afbc2c433d4841ccfe",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes"
+    ],
+    "status": "extracted"
+  }
+}

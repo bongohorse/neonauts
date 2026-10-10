@@ -1,0 +1,985 @@
+{
+  "schema_version": 1,
+  "name": "Froggy G",
+  "slug": "froggy-g",
+  "source": {
+    "filename": "Froggy.G.-.Official.Awesomenauts.Wiki.10.10.2026.17.48.13.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Froggy_G",
+    "sha256": "7afd21d8860dff47a258668892e4f2a2e4e7acef9b1a94ad5d93c5d05a2c18eb",
+    "size_bytes": 2160587
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1200 (2112)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.68"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Short Range"
+    },
+    {
+      "label": "Role",
+      "value": "Assassin"
+    },
+    {
+      "label": "Mobility",
+      "value": "Swift"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Dasher",
+    "Type of abilities": "Area of Effect , Stun , Shield , Reflect , Slow",
+    "Release Date": "May 1st, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Splash Dash",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Splash_Dash",
+      "description": "Harnessing his aquatic payload, Froggy launches himself with incredible velocity towards his foes. Dashing straight through multiple targets he leaves them stunned!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "280 (439.6)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7.5s"
+        },
+        {
+          "label": "Distance",
+          "value": "12.15"
+        },
+        {
+          "label": "Stun Duration",
+          "value": "0.7s"
+        },
+        {
+          "label": "Self Stun Duration",
+          "value": "0.2s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Bolt .45 Fish-gun",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bolt_.45_Fish-gun",
+      "description": "The Ribitian Spitfish (Spittious Maximus) is known for its ability to shoot jets of water near the speed of sound. Coaxed correctly, it makes for one lethal ally!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "60 (94.2)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "133.3"
+        },
+        {
+          "label": "Range",
+          "value": "4.8"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Tornado",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tornado",
+      "description": "Froggy G can transform himself into a whirling waterspout of pain! While spinning madly, he damages everyone foolish enough to come near him!",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "427 (670.39)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "300"
+        },
+        {
+          "label": "Cooldown",
+          "value": "11.6s"
+        },
+        {
+          "label": "Duration",
+          "value": "1.6s"
+        },
+        {
+          "label": "Size",
+          "value": "4"
+        },
+        {
+          "label": "Movement",
+          "value": "5.7"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Frog Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Frog_Jump",
+      "description": "Charging his waterpack, Froggy can leap higher than any frog has leaped before. The longer the charge, the higher the jump!",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "10"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Hydro Splash",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hydro_Splash",
+      "group": "Splash Dash",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ice Cubes",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ice_Cubes",
+      "group": "Splash Dash",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Golden Watch",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Golden_Watch",
+      "group": "Splash Dash",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hammer Pants",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hammer_Pants",
+      "group": "Splash Dash",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Clock Necklace",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Clock_Necklace",
+      "group": "Splash Dash",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hydro Smash",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hydro_Smash",
+      "group": "Splash Dash",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Boom Box",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Boom_Box",
+      "group": "Tornado",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Turbo Tape",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Turbo_Tape",
+      "group": "Tornado",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Can't Touch This",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Can%27t_Touch_This",
+      "group": "Tornado",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bio Fuel Cells",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bio_Fuel_Cells",
+      "group": "Tornado",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Twister Tweeters",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Twister_Tweeters",
+      "group": "Tornado",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Right Back At Ya!",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Right_Back_At_Ya!",
+      "group": "Tornado",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Swirling Octopus Cartridges",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Swirling_Octopus_Cartridges",
+      "group": "Bolt .45 Fish-gun",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piranha Cartridges",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piranha_Cartridges",
+      "group": "Bolt .45 Fish-gun",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mutant Worms",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mutant_Worms",
+      "group": "Bolt .45 Fish-gun",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Viridian Eel Cartridges",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Viridian_Eel_Cartridges",
+      "group": "Bolt .45 Fish-gun",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mutant Worms: Limited Ninja Edition",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mutant_Worms:_Limited_Ninja_Edition",
+      "group": "Bolt .45 Fish-gun",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Thorn Fish",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Thorn_Fish",
+      "group": "Bolt .45 Fish-gun",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Frog Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Frog Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cobra Skin Loafers",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cobra_Skin_Loafers",
+      "group": "Frog Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Frog Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Frog Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Frog Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Grandmaster Splash",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Ready? Set! GO!!! 16 times Space Olympic gold medalist Froggy G is here to farm some gold with perfect technique and a brutal training schedule. Add to that a pair of supertight swimming trunks and we've got a clear winner. The Grandmaster Splash skin!\" - Official Steam Store Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Froggy G dark green skin and fish fins. He also wears a gold medal with the Awesomenauts emblem on it, along with new swimming gear. The Bolt .45 Fish-gun also gains a new color scheme, with stripes instead of polka dots."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Twister Tweeters explosion effect is changed to a \"ring\" effect."
+        }
+      ],
+      "assets": [
+        "asset-040"
+      ]
+    },
+    {
+      "name": "Pimpy G",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Them superfly leather suede jeans. That's Pimpin'! That black belt of bling. That's Pimpin'! Them \"eyes on the money\" glasses. That's Pimpin'! That gold 'n diamond \"smack you fools\" cane. That's Pimpin'! Pimpy G is pimpin' and you know it.\" - Official Steam Store Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Froggy G a striped hat, a new clock necklace, a coat with polka-dotted fur, star-shaped tinted glasses and a pair of white jeans. The Bolt .45 Fish-gun is completely golden, with a cane below it, and gems for eyes."
+        },
+        {
+          "type": "paragraph",
+          "text": "New gem particle effects are added to the Tornado."
+        }
+      ],
+      "assets": [
+        "asset-041"
+      ]
+    },
+    {
+      "name": "Digital G",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"He's rockin' them cybersonic beats. Next level digital sound. Bringing that techno flow, that future yo! Bringing swagger to the elite mercenary force known as The Killer Koalas! It's Digital G, foo!\" - Official Steam Store Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin was awarded to all backers of the Awesomenauts: Starstorm Expansion Kickstarter Campaign, and is also available on the Steam Store."
+        },
+        {
+          "type": "paragraph",
+          "text": "In this skin, Froggy G has futuristic armor, complete with a visor. His water canister also looks futuristic and he has water cartridges strapped on his armor. Froggy doesn't have hair on this skin. The fish gun has a visor too. This skin also adds robotic sounds to Froggy's Tornado and Frog Jump."
+        }
+      ],
+      "assets": [
+        "asset-042"
+      ]
+    }
+  ],
+  "sections": {
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "Straight out of the marsh pond ghettos of planet Ribbit IV comes the amphibious B.I.G., also known as Nate Frogg, but mostly known as Froggy G. Growing up in the baddest part of town, struggle and incarceration surrounded Froggy from an early age. Taking part in his first swim-by shootout as a tadpole, Froggy seemed destined for a life of crime and prison."
+      },
+      {
+        "type": "paragraph",
+        "text": "After a bloody gangwar with the neighbouring Toad-unit posse ended in a 5 year jail sentence, Froggy G vowed to end his gangsta ways. Instead, Froggy G started earning his keep as a beatboxing streetdancer and rapper, hoping to be picked up by a major record label. Unfortunately, his tracks titled \"Pond Pimpin\", \"Froggin' dirty\" and \"Motherfrogger bounce!\" didn't earn him much."
+      },
+      {
+        "type": "paragraph",
+        "text": "In order to make some money, and then make some mo', Froggy G became a hired gun. Combining his shoot-out experiences with lethal watery dance-moves and beatboxing techniques, Froggy G now spins and dashes across intergalactic battlefields, droppin foo's left and right with his fishgun, hoping to make some money to take his momma out of the hood."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "\"Ready? Set! GO!!! 16 times Space Olympic gold medalist Froggy G is here to farm some gold with perfect technique and a brutal training schedule. Add to that a pair of supertight swimming trunks and we've got a clear winner. The Grandmaster Splash skin!\" - Official Steam Store Description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Froggy G dark green skin and fish fins. He also wears a gold medal with the Awesomenauts emblem on it, along with new swimming gear. The Bolt .45 Fish-gun also gains a new color scheme, with stripes instead of polka dots."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Twister Tweeters explosion effect is changed to a \"ring\" effect."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"Them superfly leather suede jeans. That's Pimpin'! That black belt of bling. That's Pimpin'! Them \"eyes on the money\" glasses. That's Pimpin'! That gold 'n diamond \"smack you fools\" cane. That's Pimpin'! Pimpy G is pimpin' and you know it.\" - Official Steam Store Description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Froggy G a striped hat, a new clock necklace, a coat with polka-dotted fur, star-shaped tinted glasses and a pair of white jeans. The Bolt .45 Fish-gun is completely golden, with a cane below it, and gems for eyes."
+      },
+      {
+        "type": "paragraph",
+        "text": "New gem particle effects are added to the Tornado."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"He's rockin' them cybersonic beats. Next level digital sound. Bringing that techno flow, that future yo! Bringing swagger to the elite mercenary force known as The Killer Koalas! It's Digital G, foo!\" - Official Steam Store Description"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin was awarded to all backers of the Awesomenauts: Starstorm Expansion Kickstarter Campaign, and is also available on the Steam Store."
+      },
+      {
+        "type": "paragraph",
+        "text": "In this skin, Froggy G has futuristic armor, complete with a visor. His water canister also looks futuristic and he has water cartridges strapped on his armor. Froggy doesn't have hair on this skin. The fish gun has a visor too. This skin also adds robotic sounds to Froggy's Tornado and Frog Jump."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "According to his backstory, Froggy G's real name is Nate Frogg. This is a reference to the rapper Nate Dogg[14].",
+          "Froggy G is one of the \"original six\" Awesomenauts that came with the game when it first launched, along with Clunk, Leon, Lonestar, Voltar and Yuri.",
+          "Froggy G is one of the three Awesomenauts that can fight in his own homeworld (Ribbit IV), the others being Leon and Dizzy.",
+          "Froggy G's concept and style are likely based on a segment from the 80s cartoon \"The Comic Strip\"[15] called \"Street Frogs\".",
+          "Digital G is a member of the Killer Koalas, along with Bionic Raelynn, Cyber Coco, Ghost Leon, Roboscoop and Ted McPain.",
+          "Froggy G is one of the \"beginner nauts\" and, as such, is can be played for free by players who are below profile level 8."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Use your high mobility to initiate and escape all kinds of situation and to cover more than one lane as much as you can. Your low health won't be enough if the enemy team gets to you.",
+          "Consider purchasing Swirling Octopus Cartridges if you are having trouble keeping yourself in the lane and farming safely.",
+          "Using your Splash Dash in a way that you end right next to your target will give you a larger window of opportunity to damage your enemy with Tornado or the Bolt .45 Fish-gun.",
+          "Hammer Pants upgrade description explains that you must \"aim at the ground to execute\". In reality, the effect will occur if you hit any kind of terrain, including walls, the ceiling and enemy structures (even Skree's totem will do the trick!).",
+          "Both Can't Touch This and Right Back At Ya! allow Froggy G to damage turrets with little to no punishment.",
+          "Turbo Tape can turn Tornado into a powerful chasing and escaping tool.",
+          "If you purchase Mutant Worms: Limited Ninja Edition, try to attack between skills to make the most use of it."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "If Froggy G is your initiator, you might wanna save your more powerful abilities for when he uses Splash Dash, but be ready to help him in case he misses!",
+          "Froggy G is naturally vulnerable to Crowd Control. Try and protect him from it if you can."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Froggy G has very low health, making burst and crowd control particularly dangerous for him.",
+          "While Froggy G is immune to all forms of direct damage during Splash Dash, debuffs will still be applied to him.",
+          "As a brawler, Froggy G excels in one versus one combat. Be sure to stick to your team and avoid being lined/grouped up as to make sure at least one team member avoids Splash Dash's stun and is ready to punish him for it.",
+          "If Froggy G is using Right Back At Ya!, stop using attacks that can be reflected until it wears off. See a list of what can be reflected and what cannot here.",
+          "Tornado can be interrupted by some crowd control effects, like stuns. Rubber Ducky Choker and Cortex Tank's ministun are particularly good for this.",
+          "If an enemy Froggy G is constantly using his Splash Dash to attack, save a Crowd Control effect to punish him afterwards or maybe even kill him."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/froggyg-alpha-2f7b8c2c.webp",
+      "source_name": "FroggyG Alpha.png",
+      "alt": "FroggyG Alpha",
+      "width": 512,
+      "height": 691,
+      "format": "WEBP",
+      "sha256": "2f7b8c2cf753576c73c41140b7cbcaef5d7f4beb286e20f55809ae853b8ec6d7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-dasher-dash-46818a83.webp",
+      "source_name": "UI Skillbutton Dasher Dash.png",
+      "alt": "UI Skillbutton Dasher Dash",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "46818a83cec5fd7a0068bebda016ef39af8628db24da847eb4a102b319170f28",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-dasher-attack-24e339b3.webp",
+      "source_name": "UI Skillbutton Dasher Attack.png",
+      "alt": "UI Skillbutton Dasher Attack",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "24e339b3fe297c3d13aaebe427a79ff561e36a264ad68306fa480e28ee7bcb98",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-dasher-whirlwind-305b8ace.webp",
+      "source_name": "UI Skillbutton Dasher Whirlwind.png",
+      "alt": "UI Skillbutton Dasher Whirlwind",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "305b8aceab2eb8915c45638ba0775607e52487bdd97cf792f5362629e94bfd66",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-dasher-jump-e9348150.webp",
+      "source_name": "UI Skillbutton Dasher Jump.png",
+      "alt": "UI Skillbutton Dasher Jump",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "e9348150f501b869b53cbb404c05beca48ae3eb927d437515faecd6385263f0e",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/skill-froggy-hydro-splash-1cabb022.webp",
+      "source_name": "Skill Froggy Hydro splash.png",
+      "alt": "Skill Froggy Hydro splash",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1cabb022634ea05c608e6c6456bf206b01e0b664ac87eee702c0df51da2e75fe",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/skill-froggy-ice-cubes-fa55ca56.webp",
+      "source_name": "Skill Froggy Ice cubes.png",
+      "alt": "Skill Froggy Ice cubes",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fa55ca56d953c7bf83741bb3e668c6fe00f24c3069e7837b25ba2e589bf71e1e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/skill-froggy-golden-watch-8259ac89.webp",
+      "source_name": "Skill Froggy Golden watch.png",
+      "alt": "Skill Froggy Golden watch",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8259ac89da9819fe1419503f4505bd5d6f4b51361dda7550c8a743db4c548bed",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/skill-froggy-hammer-pants-33ad9679.webp",
+      "source_name": "Skill Froggy Hammer pants.png",
+      "alt": "Skill Froggy Hammer pants",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "33ad9679b5355671a135c7a8bd4b823c6b6a455c599014a6efb673f08cfafe67",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/skill-froggy-clock-necklace-31ba1ae7.webp",
+      "source_name": "Skill Froggy Clock necklace.png",
+      "alt": "Skill Froggy Clock necklace",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "31ba1ae79e2d31f735f8b767afb7755afa6fe2a91cc877de58f7a6b03f14b07b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/skill-froggy-hydro-smash-238210b5.webp",
+      "source_name": "Skill Froggy Hydro smash.png",
+      "alt": "Skill Froggy Hydro smash",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "238210b555a8a0113f5209c68568c34489db8172d604a02d645a73313ac8260f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/skill-froggy-beat-box-b6a7fb5f.webp",
+      "source_name": "Skill Froggy Beat box.png",
+      "alt": "Skill Froggy Beat box",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b6a7fb5fcfc7464b2d6a20a496440ee315ac22a3e5671814f28055204aecfe58",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/skill-froggy-turbo-tape-0d71bd7f.webp",
+      "source_name": "Skill Froggy Turbo tape.png",
+      "alt": "Skill Froggy Turbo tape",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0d71bd7f6d281522ec844137fe845002dbc69f0c1ad26bb70695d918bfed5c89",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/skill-froggy-can-t-touch-this-6744914d.webp",
+      "source_name": "Skill Froggy Can't touch this.png",
+      "alt": "Skill Froggy Can't touch this",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6744914dc4b17d08ab43da3d653dcf548cad962c530268ab5441cb02b9a9cfd9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/skill-froggy-bio-fuel-cells-7952dabf.webp",
+      "source_name": "Skill Froggy Bio fuel cells.png",
+      "alt": "Skill Froggy Bio fuel cells",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7952dabf3e51163e6c8af8a4e4c09b3a875dfc300a90513913c7a4ef3d726976",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/skill-froggy-twister-tweeters-3a5981c0.webp",
+      "source_name": "Skill Froggy Twister tweeters.png",
+      "alt": "Skill Froggy Twister tweeters",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3a5981c01cc9c9dca69f8503ff701486f3e820d0e2be689c6e6a41e5a66be715",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/skill-froggy-right-back-at-ya-fd43f322.webp",
+      "source_name": "Skill Froggy Right back at ya!.png",
+      "alt": "Skill Froggy Right back at ya!",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fd43f3227047d9ede05ea2a806186d6559c1aa5eb55e99affccc29ff0a4d75a4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/skill-froggy-swirling-octopus-cartridges-e6eb2df9.webp",
+      "source_name": "Skill Froggy Swirling octopus cartridges.png",
+      "alt": "Skill Froggy Swirling octopus cartridges",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e6eb2df9888004fecb4fb97d47973d22df1838b3d4e6ad43c01d42e6fedd3c37",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/skill-froggy-piranha-cartridges-2ea73a0a.webp",
+      "source_name": "Skill Froggy Piranha cartridges.png",
+      "alt": "Skill Froggy Piranha cartridges",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2ea73a0a8b2676b049bf05e7e57e4fcdb23c723a79bdbc350956ec4f7b5ed1de",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/skill-froggy-mutant-worms-29031e90.webp",
+      "source_name": "Skill Froggy Mutant worms.png",
+      "alt": "Skill Froggy Mutant worms",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "29031e9001fdefea685c33260397242f7fd3c8d89df7cac09d8ce31d4cc88c6e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/skill-froggy-viridian-eel-cartridges-55ec0f55.webp",
+      "source_name": "Skill Froggy Viridian eel cartridges.png",
+      "alt": "Skill Froggy Viridian eel cartridges",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "55ec0f55cdfd39084e83234a3589ba346ba0d37a52896ef49cc96236fba2d1f4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/skill-froggy-mutant-worms-limited-ninja-edition-85e9cf7c.webp",
+      "source_name": "Skill Froggy Mutant worms Limited ninja edition.png",
+      "alt": "Skill Froggy Mutant worms Limited ninja edition",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "85e9cf7cf8dc1ef6feef09ca81bbdd8eaa2f24d2f8c517adcbed71b1629bae90",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/skill-froggy-thorn-fish-f069b9db.webp",
+      "source_name": "Skill Froggy Thorn fish.png",
+      "alt": "Skill Froggy Thorn fish",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f069b9db050e209df836f480bb7f8f6fcc3d1c0c370bee83a89cf42efc60a7df",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/shop-icons-overall-dasherspeed-96ce483c.webp",
+      "source_name": "Shop Icons Overall DasherSpeed.png",
+      "alt": "Shop Icons Overall DasherSpeed",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "96ce483c6c381393a80d4d9afe679153734cdbb1486510a4ca6509d245eb72e8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/froggy-g-ingame-4fd155ac.webp",
+      "source_name": "Froggy G ingame.png",
+      "alt": "Default Skin.",
+      "width": 113,
+      "height": 108,
+      "format": "WEBP",
+      "sha256": "4fd155ac864f11a8f4485ae94f06a0c095807df6fca9c3b07ea2aa5de08a5f96",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-frog-skin-54df3184.webp",
+      "source_name": "Base Frog Skin.png",
+      "alt": "Default Skin",
+      "width": 112,
+      "height": 121,
+      "format": "WEBP",
+      "sha256": "54df318454b717d926e1b5c51ee057f4b471de4c9fa6abf539e9dee1f9af9f34",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/froggyskin-4802facf.webp",
+      "source_name": "Froggyskin.jpg",
+      "alt": "Grandmaster Splash.",
+      "width": 113,
+      "height": 126,
+      "format": "WEBP",
+      "sha256": "4802facf086cada7c0d9d5b78c0628a83741dce10e7075212df2a79a6ad5ced8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/grandmaster-splash-skin-22f8dcc9.webp",
+      "source_name": "Grandmaster Splash Skin.png",
+      "alt": "Grandmaster Splash",
+      "width": 116,
+      "height": 123,
+      "format": "WEBP",
+      "sha256": "22f8dcc9a46d34b1fbc58bcd3b28a2b01d1730db1fc4b627285cc828670fdf05",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/newpimpygingame-616c6899.webp",
+      "source_name": "Newpimpygingame.png",
+      "alt": "Pimpy G.",
+      "width": 110,
+      "height": 102,
+      "format": "WEBP",
+      "sha256": "616c689935a29cb4faa570d36ba283d086eaec601d454f82978f4f5912efe674",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/pimpy-g-skin-407373f3.webp",
+      "source_name": "Pimpy G Skin.png",
+      "alt": "Pimpy G",
+      "width": 121,
+      "height": 118,
+      "format": "WEBP",
+      "sha256": "407373f3b12985fea6f6dbfc094f13e37660a30c036312dcce2435359b492228",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/digitalgingame-9b3f86b6.webp",
+      "source_name": "Digitalgingame.png",
+      "alt": "Digital G.",
+      "width": 110,
+      "height": 120,
+      "format": "WEBP",
+      "sha256": "9b3f86b63ac6d1dba00b8a75dee997713708d93f73287837b860b9d802f4ce2d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/digital-g-skin-0eb92d8a.webp",
+      "source_name": "Digital G Skin.png",
+      "alt": "Digital G",
+      "width": 116,
+      "height": 114,
+      "format": "WEBP",
+      "sha256": "0eb92d8a15103686639d1d6c80d43dde51914f98b34390141b3ff0a400ea09c4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/ui-minimap-player-dasher-0-65474fb2.webp",
+      "source_name": "Ui minimap player dasher 0.png",
+      "alt": "Ui minimap player dasher 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "65474fb26e372d492b6cc06dd429926030daa7221a417ba7aeac3a6169254561",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/classicon-dasher-d102d2ce.webp",
+      "source_name": "Classicon Dasher.png",
+      "alt": "Classicon Dasher",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "d102d2cea43cfea1b224edfd765780932fae08367eaba073360d102293efaedf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/characterrender-froggy-skin-phelps-2bb6487e.webp",
+      "source_name": "CharacterRender Froggy Skin Phelps.png",
+      "alt": "CharacterRender Froggy Skin Phelps",
+      "width": 180,
+      "height": 199,
+      "format": "WEBP",
+      "sha256": "2bb6487e671adde014c986a1aae879b2f4dd9c4cd36336ccc4dc6111be0fffef",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/characterrender-froggy-skin-pimp-redbg-51723399.webp",
+      "source_name": "CharacterRender Froggy Skin Pimp redBG.png",
+      "alt": "CharacterRender Froggy Skin Pimp redBG",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "517233998819d4aa864b9188a44ecb47ca523c026866b84c09306df1278fb769",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/characterrender-digital-g-2347fa83.webp",
+      "source_name": "CharacterRender digital g.png",
+      "alt": "CharacterRender digital g",
+      "width": 180,
+      "height": 244,
+      "format": "WEBP",
+      "sha256": "2347fa8387461fd707cd1b855b8a20b2995b0405d3e76dc77d88051b2d356492",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes"
+    ],
+    "status": "extracted"
+  }
+}

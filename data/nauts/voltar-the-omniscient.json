@@ -1,0 +1,1018 @@
+{
+  "schema_version": 1,
+  "name": "Voltar the Omniscient",
+  "slug": "voltar-the-omniscient",
+  "source": {
+    "filename": "Voltar.the.Omniscient.-.Official.Awesomenauts.Wiki.10.10.2026.18.01.59.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Voltar_the_Omniscient",
+    "sha256": "4d02a0c06c6e97973f00dad39d07e41e71cc869bcb5d9f34a677be59ff9ea91a",
+    "size_bytes": 2157856
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1250 (2200)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.12"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Short Range"
+    },
+    {
+      "label": "Role",
+      "value": "Support"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Hard",
+    "Development Name": "Summoner",
+    "Type of abilities": "Healing , Knockback , Area of Effect",
+    "Release Date": "May 1st, 2012"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Suicide Drones",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Suicide_Drones",
+      "description": "Fire drones that get summoned by Voltar.",
+      "values": [
+        {
+          "label": "Summon Cooldown",
+          "value": "4s"
+        },
+        {
+          "label": "Amount",
+          "value": "3"
+        },
+        {
+          "label": "Damage",
+          "value": "20 (31.4)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "90"
+        },
+        {
+          "label": "Explosion Damage",
+          "value": "150 (235.5)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "0.6s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Techno Synaptic Wave",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Techno_Synaptic_Wave",
+      "description": "Voltar can shoot healing blasts at his allies. The longer the distance, the more the blast heals. Additionally these blasts deal damage to enemies.",
+      "values": [
+        {
+          "label": "Heal",
+          "value": "20 (31.4)"
+        },
+        {
+          "label": "Max heal",
+          "value": "30 (47.1)"
+        },
+        {
+          "label": "Damage",
+          "value": "40 (62.8)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "171.4"
+        },
+        {
+          "label": "Range",
+          "value": "8.4"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Healbot",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Healbot",
+      "description": "Thinking is quite hard and exhausting. Voltar can construct a hightech healbot at his current location to assist him heal his allies, and to make life a little bit more easy.",
+      "values": [
+        {
+          "label": "Heal",
+          "value": "330 (580.8)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "13s"
+        },
+        {
+          "label": "Charge Time",
+          "value": "1.7s"
+        },
+        {
+          "label": "Health",
+          "value": "250 (440)"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Hover",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hover",
+      "description": "Voltar added some thrusters to his braintank, to allow him to hover above the ground and slow-fall while in midair.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "7.4"
+        },
+        {
+          "label": "Descending Speed",
+          "value": "1"
+        },
+        {
+          "label": "Jumps",
+          "value": "1 (Hover)"
+        },
+        {
+          "label": "Max Hover Duration",
+          "value": "5s"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Drone Army",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Drone_Army",
+      "group": "Suicide Drones",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Dark Matter Shots",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Dark_Matter_Shots",
+      "group": "Suicide Drones",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Weapon Clip-on",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Weapon_Clip-on",
+      "group": "Suicide Drones",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hyper Drive",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hyper_Drive",
+      "group": "Suicide Drones",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Weaponised Hull",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Weaponised_Hull",
+      "group": "Suicide Drones",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Warpgate Overdrive",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Warpgate_Overdrive",
+      "group": "Suicide Drones",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Energy Drink",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Energy_Drink",
+      "group": "Healbot",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Overheal Potion",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Overheal_Potion",
+      "group": "Healbot",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Turret Add-on",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Turret_Add-on",
+      "group": "Healbot",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hydraulic Sugar Dispenser",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hydraulic_Sugar_Dispenser",
+      "group": "Healbot",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cortex Tank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cortex_Tank",
+      "group": "Healbot",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bombshell",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bombshell",
+      "group": "Healbot",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Happy Thoughts",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Happy_Thoughts",
+      "group": "Techno Synaptic Wave",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Psychokinetic Repulsion",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Psychokinetic_Repulsion",
+      "group": "Techno Synaptic Wave",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Psychothrust",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Psychothrust",
+      "group": "Techno Synaptic Wave",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chilli Flavoured Eye Drops",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chilli_Flavoured_Eye_Drops",
+      "group": "Techno Synaptic Wave",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Twisted Nightmares",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Twisted_Nightmares",
+      "group": "Techno Synaptic Wave",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Euphoric Thoughts",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Euphoric_Thoughts",
+      "group": "Techno Synaptic Wave",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Hover",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Hover",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Hover",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Hover",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Hover",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Hover",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Disco Voltar",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Burn baby burn! Love is in the air as Disco Voltar is here with a funky groove. He won't stop 'till he gets enough, and this daddy cool will make sure everyone is stayin' alive. Lose that brainjar and party like it's 2399 with Disco Voltar! Boogie on! Includes funky healbot music! - Official Steam Store Description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Voltar a disco suit with a music note necklace and replaces his braintank with a disco ball."
+        },
+        {
+          "type": "paragraph",
+          "text": "His drones are also replaced with (smaller) disco balls and shoot rainbow-colored lasers while both techno synaptic wave and healbot's aura get green musical note effects. Although the healbot itself is unchanged, it plays a disco tune while it is active."
+        }
+      ],
+      "assets": [
+        "asset-040"
+      ]
+    },
+    {
+      "name": "Necro Voltar",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Make Voltar channel the powers of the ancient Aztecs with this awesome Necro Voltar skin! If you own the Steam version of Swords & Soldiers, Ronimo's Award-winning debut side-scrolling strategy game, you will recieve the Necro Voltar skin in Awesomenauts for FREE!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin adds golden details such as a skull emblem and shoulderpads to Voltar's robe and replaces his braintank with a golden three-eyed aztec mask. His drones' eyes are replaced with golden skulls and there are green glyph effects on both techno synaptic wave and healbot. Healbot also has a different look, being shaped like a Swords and Soldiers' Aztec statue."
+        }
+      ],
+      "assets": [
+        "asset-041"
+      ]
+    },
+    {
+      "name": "Voltar Bonaparte",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"La mort de Napoléon a toujours été entourée de mystère. Certains disent qu'il fut empoisonné, d'autres pensent que son corps n'a pas tenu le coup et quelques-uns soupçonnent même qu'il se soit échappé de sa prison de Sainte-Hélène. Quelle que soit l'explication réelle, un fait reste avéré : il a disparu de l'Histoire en 1821 et plus personne n'entendit parler de lui."
+        },
+        {
+          "type": "paragraph",
+          "text": "En 3521, nous avons enfin découvert la vérité sur ces faits. Une vérité que personne n'aurait pu imaginer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il avait la technologie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il s'est reconstruit.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Voltar in Awesomenauts, and will automatically unlock the character if you have not already done so. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Voltar the millitary outfit and iconic bicorne hat (with a white plume) used by Napoleon Bonaparte. He also has a saber in a sheath and a medal in his chest. His drones wear french infantry hats and have moustaches, techno synaptic wave is a fleur-de-lis and leaves a trail of additional fleurs-de-lis and croissants, the satellite dish animation used in healbot's summon is replaced by a fork and croissant, while healbot itself has wooden wheels and Napoleon's bicorne hat and its \"timer\" aura is replaced by a trio of fleurs-de-lis. When summoned, healbot plays a few seconds of \"La Marseillaise\", France's national anthem."
+        }
+      ],
+      "assets": [
+        "asset-042"
+      ]
+    }
+  ],
+  "sections": {
+    "Back Story": [
+      {
+        "type": "paragraph",
+        "text": "Voltar's past is shrouded in mystery. Rumor has it he once was a researcher at a star-encapsulating power station. The station made intergalactic headlines when it exploded around 500 years ago, sending off all kinds of strange, unseen radiation into space. In this explosion, the Al core of the Zero's was destroyed, bringing an abrupt end to the First Al War. Although peace was maintained for some centuries, the war eventually returned. Some think that war was just too profitable, and suspect that weapon manufacturers had a hand in the construction of a new Al core for the Zero's."
+      },
+      {
+        "type": "paragraph",
+        "text": "The explosion at the power station destroyed almost every part of Voltar's body, leaving only his brilliant brain intact. This brain was carefully placed inside a Braintank by salvagers. Through the years, and with help of his loyal robot drones, he made some nifty modifications to his braintank that enabled him to participate in the newly erupted Robot Wars."
+      },
+      {
+        "type": "paragraph",
+        "text": "No-one knows Voltar's true motives for participating in the war as a mercenary, but what can be assured is that he’s a mastermind with unmatched psychotechnic powers and an arsenal of armed robots that do his every bidding."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "Burn baby burn! Love is in the air as Disco Voltar is here with a funky groove. He won't stop 'till he gets enough, and this daddy cool will make sure everyone is stayin' alive. Lose that brainjar and party like it's 2399 with Disco Voltar! Boogie on! Includes funky healbot music! - Official Steam Store Description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Voltar a disco suit with a music note necklace and replaces his braintank with a disco ball."
+      },
+      {
+        "type": "paragraph",
+        "text": "His drones are also replaced with (smaller) disco balls and shoot rainbow-colored lasers while both techno synaptic wave and healbot's aura get green musical note effects. Although the healbot itself is unchanged, it plays a disco tune while it is active."
+      },
+      {
+        "type": "paragraph",
+        "text": "Make Voltar channel the powers of the ancient Aztecs with this awesome Necro Voltar skin! If you own the Steam version of Swords & Soldiers, Ronimo's Award-winning debut side-scrolling strategy game, you will recieve the Necro Voltar skin in Awesomenauts for FREE!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin adds golden details such as a skull emblem and shoulderpads to Voltar's robe and replaces his braintank with a golden three-eyed aztec mask. His drones' eyes are replaced with golden skulls and there are green glyph effects on both techno synaptic wave and healbot. Healbot also has a different look, being shaped like a Swords and Soldiers' Aztec statue."
+      },
+      {
+        "type": "paragraph",
+        "text": "\"La mort de Napoléon a toujours été entourée de mystère. Certains disent qu'il fut empoisonné, d'autres pensent que son corps n'a pas tenu le coup et quelques-uns soupçonnent même qu'il se soit échappé de sa prison de Sainte-Hélène. Quelle que soit l'explication réelle, un fait reste avéré : il a disparu de l'Histoire en 1821 et plus personne n'entendit parler de lui."
+      },
+      {
+        "type": "paragraph",
+        "text": "En 3521, nous avons enfin découvert la vérité sur ces faits. Une vérité que personne n'aurait pu imaginer."
+      },
+      {
+        "type": "paragraph",
+        "text": "Il avait la technologie."
+      },
+      {
+        "type": "paragraph",
+        "text": "Il s'est reconstruit.\""
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Voltar in Awesomenauts, and will automatically unlock the character if you have not already done so. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Voltar the millitary outfit and iconic bicorne hat (with a white plume) used by Napoleon Bonaparte. He also has a saber in a sheath and a medal in his chest. His drones wear french infantry hats and have moustaches, techno synaptic wave is a fleur-de-lis and leaves a trail of additional fleurs-de-lis and croissants, the satellite dish animation used in healbot's summon is replaced by a fork and croissant, while healbot itself has wooden wheels and Napoleon's bicorne hat and its \"timer\" aura is replaced by a trio of fleurs-de-lis. When summoned, healbot plays a few seconds of \"La Marseillaise\", France's national anthem."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Voltar is one of the \"original six\" Awesomenauts that came with the game when it first launched, along with Clunk, Froggy G, Leon, Lonestar, and Yuri.",
+          "According to his backstory, Voltar is over 500 years old.",
+          "Given the \"saturday morning 80s cartoon\" theme Awesomenauts has, it is likely that Voltar is based on Krang[9] from the Teenage Mutant Ninja Turtles[10] franchise, who is also a disembodied brain.",
+          "Voltar was directly responsible for Ted McPain's resurrection.",
+          "Voltar was the first (and only, to date) Awesomenaut to be extensively reworked, gameplay-wise.",
+          "In the shortened backstory previously used in-game, the \"star-encapsulating station\" mentioned in Voltar's backstory is named AI Station 101.",
+          "As part of his rework in Patch 2.10, Voltar's Healing Wave was renamed Techno Synaptic Wave. This makes Voltar the only character to have a skill completely renamed."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Voltar has a weak early game and a very powerful late game. Play defensively and focus on farming at the start.",
+          "You may activate Voltar's Hover as many times as you'd like as long as you are still up in the air. Alternate between hovering and falling to confuse enemies trying to hit you.",
+          "Consider purchasing Space Air Max to compensate for Voltar's poor mobility. Alternatively, Dark Matter Shots can aid you in keeping enemies away from you.",
+          "Try to stay around your teammates, as Voltar is very team dependant.",
+          "Techno Synaptic Wave's healing effect becomes more powerful when hitting allies that are further away from you.",
+          "When trying to attack enemies with Techno Synaptic Wave, try hovering in the air so your allies don't accidentally block your shots.",
+          "A glowing green aura effect can be seen around Voltar when Chilli Flavoured Eye Drops is ready to fire.",
+          "Firing a Suicide Drone at your enemy may cause some burst, but will also reduce your overall DPS. Consider both options before doing so.",
+          "Protect your Healbot: It's on a large cooldown and it can be destroyed quite easily before it can heal you and your teammates. Energy Drink and Cortex Tank are examples of upgrades that can help you with this. Alternatively, if the enemy team is destroying your Healbot without much effort, consider upgrades like Hydraulic Sugar Dispenser to get it back sooner.",
+          "Be careful with Cortex Tank, as they may push your enemies out of harm's way, denying your team a kill.",
+          "You might want to avoid pairing Turret Add-on with Cortex Tank, as the knockback will keep your enemies out of the healbot's damaging zone."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "The healing effect of Voltar's Techno Synaptic Wave gets stronger as it travels. Move away from Voltar to get more powerful healing blasts.",
+          "You must be close to healbot when it is done charging up or you will not be healed by it.",
+          "Protecting Voltar at all costs, especially if he invests into more healing power can greatly pay off and make your team hard to stop."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Separating Voltar from the rest of his team can greatly aid in bringing him down.",
+          "Voltar's one of the tallest Awesomenauts of the cast, making bodyblocking him to limit his movements an easier task. This is specially true on Aiguillon's tight corridors.",
+          "Most of Voltar's upgrades are rather expensive. Putting pressure on him early on to kill him or force a retreat may delay his powerful late game.",
+          "Save your powerful abilities to destroy Voltar's healbot as soon as it's deployed, denying the heal to the enemy team. Abilities that can't be blocked by his teammates such as Airstrike, Energy Pulse or Ball Lightning are particularly good for this.",
+          "Voltar won't be able to defend himself as effectively if he just shot his Suicide Drones. Consider attacking him, but be mindful of his teammates and Healbot."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/voltar-alpha-0ff52897.webp",
+      "source_name": "Voltar Alpha.png",
+      "alt": "Voltar Alpha",
+      "width": 512,
+      "height": 642,
+      "format": "WEBP",
+      "sha256": "0ff52897d40dff590bb6a5754512b46a9256e541c38118a5372fe58b6d32a8c2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-summoner-drone3-b4c1e92b.webp",
+      "source_name": "UI Skillbutton Summoner Drone3.png",
+      "alt": "UI Skillbutton Summoner Drone3",
+      "width": 156,
+      "height": 156,
+      "format": "WEBP",
+      "sha256": "b4c1e92b0e48945aabd5c84fb3a94f292b6d434059baed23936a3c164a61ec6d",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-summoner-attack-new-513983c8.webp",
+      "source_name": "UI Skillbutton Summoner Attack New.png",
+      "alt": "UI Skillbutton Summoner Attack New",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "513983c88c4c59ee8dbd7825a64cdf7e678b85ff635efe8640a1fa3261d47858",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-summoner-healtotem-9daca23a.webp",
+      "source_name": "UI Skillbutton Summoner Healtotem.png",
+      "alt": "UI Skillbutton Summoner Healtotem",
+      "width": 256,
+      "height": 254,
+      "format": "WEBP",
+      "sha256": "9daca23aad4a10a1d3928d352e19bfe6bb2d7ab2fb6148b86d52896a1521244e",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-summoner-jump-25a40895.webp",
+      "source_name": "UI Skillbutton Summoner Jump.png",
+      "alt": "UI Skillbutton Summoner Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "25a40895911a1021e7886a9313af94fb72bc03040b4254627e0d317e2d59e9cb",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/upgrade-voltar-drone-army-89dedf48.webp",
+      "source_name": "Upgrade Voltar Drone army.png",
+      "alt": "Upgrade Voltar Drone army",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "89dedf485ed17ed824e9cbc1c93c4ff1cb0fff86056996cd5340d34400891334",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/upgrade-voltar-force-fields-6500f3fd.webp",
+      "source_name": "Upgrade Voltar Force fields.png",
+      "alt": "Upgrade Voltar Force fields",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6500f3fd9b58a2ebb09752ba1f1a72953120e36c7548939cf9bebbd280557a41",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/upgrade-voltar-weapon-clip-on-195c35e7.webp",
+      "source_name": "Upgrade Voltar Weapon clip-on.png",
+      "alt": "Upgrade Voltar Weapon clip-on",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "195c35e712924fdbbd627dbaa1a4a496452e0327ad61e3bc91fe041cdfef818a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/upgrade-voltar-hyper-drive-29a61a10.webp",
+      "source_name": "Upgrade Voltar Hyper drive.png",
+      "alt": "Upgrade Voltar Hyper drive",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "29a61a10c1fab42d807a77331b77b9bc1be1ede960e99efcef6fd79bdd0c07c8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/upgrade-voltar-weaponised-hull-8b4f28c9.webp",
+      "source_name": "Upgrade Voltar Weaponised hull.png",
+      "alt": "Upgrade Voltar Weaponised hull",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "8b4f28c997d2b00e9d12e2586593b3a9f26242ee95679c59a6a2f8439292a58e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/upgrade-voltar-warpgate-overdrive-a7e5033e.webp",
+      "source_name": "Upgrade Voltar Warpgate overdrive.png",
+      "alt": "Upgrade Voltar Warpgate overdrive",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a7e5033eb6e83d023f818818365bc2c8d479b7969aff98657a47fbf122d455c1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/upgrade-voltar-energy-drink-9050d73d.webp",
+      "source_name": "Upgrade Voltar Energy drink.png",
+      "alt": "Upgrade Voltar Energy drink",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9050d73dd02a69628edd2479637017c92458432d6eb8158dfca88cab8d0bd1d9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/upgrade-voltar-overheal-potion-e1849a32.webp",
+      "source_name": "Upgrade Voltar Overheal potion.png",
+      "alt": "Upgrade Voltar Overheal potion",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e1849a32d0d3664e900c6224fd9ca16429579d03ac394f8345bd08fd952f23e5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/upgrade-voltar-turret-add-on-2a8d785d.webp",
+      "source_name": "Upgrade Voltar Turret add-on.png",
+      "alt": "Upgrade Voltar Turret add-on",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2a8d785dd7c4dea8f54c590df90a8b600f3e0a92205733d44c208fe739c71e19",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/upgrade-voltar-hydraulic-sugar-dispenser-36a2c833.webp",
+      "source_name": "Upgrade Voltar Hydraulic sugar dispenser.png",
+      "alt": "Upgrade Voltar Hydraulic sugar dispenser",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "36a2c833690014fa336e0acfe7f5e8b47810c7136d4231df10353f82435e3984",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/upgrade-voltar-cortex-tank-24a0ad43.webp",
+      "source_name": "Upgrade Voltar Cortex tank.png",
+      "alt": "Upgrade Voltar Cortex tank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "24a0ad4323867dfc52ea35bac47934ca8b3c57f41e81fe2a0759e1e09543458a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-summoner-bombshell-30f82d9d.webp",
+      "source_name": "Shop Icons Summoner Bombshell.png",
+      "alt": "Shop Icons Summoner Bombshell",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "30f82d9d84059b45d439a74f7240f6cad903cbb48eeb56e6866411b55a50ae1a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/upgrade-voltar-happy-thoughts-ccb70fbc.webp",
+      "source_name": "Upgrade Voltar Happy Thoughts.png",
+      "alt": "Upgrade Voltar Happy Thoughts",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ccb70fbc33bd54dc7e16173e812473acddc4e0151014c6fc90c3be761acaa8a3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/upgrade-voltar-psychokinetic-repulsion-ff6eab96.webp",
+      "source_name": "Upgrade Voltar Psychokinetic repulsion.png",
+      "alt": "Upgrade Voltar Psychokinetic repulsion",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ff6eab9627e19e219b05856b41f43c21560164f9ab6e5ecb58ab15d744f72312",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/upgrade-voltar-psychothrust-48941b27.webp",
+      "source_name": "Upgrade Voltar Psychothrust.png",
+      "alt": "Upgrade Voltar Psychothrust",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "48941b2724c15e9ab86f73ff51607e5130c68ff1442dd36009b9b8218a177dcd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-summoner-chilli-flavoured-eye-drops-58e1cbbe.webp",
+      "source_name": "Shop Icons Summoner Chilli Flavoured Eye Drops.png",
+      "alt": "Shop Icons Summoner Chilli Flavoured Eye Drops",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "58e1cbbe33fb1fc7d97e5833fd13c75e42e695b2f548c6bc40ac141cfd3245a0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/upgrade-voltar-twisted-nightmares-561b7b2d.webp",
+      "source_name": "Upgrade Voltar Twisted nightmares.png",
+      "alt": "Upgrade Voltar Twisted nightmares",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "561b7b2dce8d65b3c125d2e481a1242ae8fef9a9808d7516cd179c5b74f3447c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/upgrade-voltar-euphoric-thoughts-caf05fdb.webp",
+      "source_name": "Upgrade Voltar Euphoric Thoughts.png",
+      "alt": "Upgrade Voltar Euphoric Thoughts",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "caf05fdb1ff25644c969e446a91b4e43595b2e998835064a9168284f8eadb545",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/defaultvoltarig-d8318ab5.webp",
+      "source_name": "Defaultvoltarig.png",
+      "alt": "Default skin.",
+      "width": 73,
+      "height": 148,
+      "format": "WEBP",
+      "sha256": "d8318ab5db85fa8280e60b0b947b23434e50daf14a89f8c9007e87e276d93885",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/base-voltar-skin-5dd00d00.webp",
+      "source_name": "Base Voltar Skin.png",
+      "alt": "Default skin",
+      "width": 76,
+      "height": 153,
+      "format": "WEBP",
+      "sha256": "5dd00d00017c8cd56eb6505111cc97b3fe3db4c5e6de1de828a25a68b8473bee",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/discovoltarig-826e9115.webp",
+      "source_name": "Discovoltarig.png",
+      "alt": "Disco Voltar.",
+      "width": 95,
+      "height": 151,
+      "format": "WEBP",
+      "sha256": "826e9115a54af455e412643e0bee4e32ebcd641d4573de658ac36a7dbf8e5579",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/disco-voltar-skin-819cfce9.webp",
+      "source_name": "Disco Voltar Skin.png",
+      "alt": "Disco Voltar",
+      "width": 88,
+      "height": 147,
+      "format": "WEBP",
+      "sha256": "819cfce9b04d7597b583d5526287560fa2339a57de793a9953930b8947475a3d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/necrovoltarig-4eefb27a.webp",
+      "source_name": "Necrovoltarig.png",
+      "alt": "Necro Voltar.",
+      "width": 80,
+      "height": 145,
+      "format": "WEBP",
+      "sha256": "4eefb27aaede9ccd658fc0cc8bd9edf8f2837e342475a22f451d201403b1dacd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/necromancer-skin-095d9c7c.webp",
+      "source_name": "Necromancer Skin.png",
+      "alt": "Necro Voltar",
+      "width": 80,
+      "height": 154,
+      "format": "WEBP",
+      "sha256": "095d9c7c9c8a987d9f6a88ac29040e570f8af27dec35b8c1553c095bf6909dcc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/voltarbonaparteingamered-3d3c5ecc.webp",
+      "source_name": "Voltarbonaparteingamered.jpg",
+      "alt": "Voltar Bonaparte.",
+      "width": 107,
+      "height": 197,
+      "format": "WEBP",
+      "sha256": "3d3c5eccd500ff1821b9f46742ee67f140ce28acf022326fe255257cd15d0afc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/voltarbonaparteingameblue-51a65074.webp",
+      "source_name": "Voltarbonaparteingameblue.jpg",
+      "alt": "Voltar Bonaparte.",
+      "width": 96,
+      "height": 200,
+      "format": "WEBP",
+      "sha256": "51a65074bb62e6b9052d60c516dc10e624eb2d77fa753676232672a1fe030e61",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/ui-minimap-player-summoner-0-b5741c4c.webp",
+      "source_name": "Ui minimap player summoner 0.png",
+      "alt": "Ui minimap player summoner 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "b5741c4c89742d7f30b96c50581a24db00369fb88cfd3c5de351e1bd78265b43",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/classicon-summoner-f0e8e7c9.webp",
+      "source_name": "Classicon Summoner.png",
+      "alt": "Classicon Summoner",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "f0e8e7c92d1c0c7d67472078d491a650799c9cfb15b41385474dad66bddf96c2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/characterrender-summoner-skin-disco-redbg-559219fb.webp",
+      "source_name": "CharacterRender Summoner Skin Disco redBG.png",
+      "alt": "CharacterRender Summoner Skin Disco redBG",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "559219fb5da32596dbaf2c48ab8ffcc04c579e0b5eb9e895dd0ea73f603ecb70",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/characterrender-summoner-skin-necro-redbg-bfe2ea91.webp",
+      "source_name": "CharacterRender Summoner Skin Necro redBG.png",
+      "alt": "CharacterRender Summoner Skin Necro redBG",
+      "width": 180,
+      "height": 255,
+      "format": "WEBP",
+      "sha256": "bfe2ea913465a9de8a7c35e4c27cc2a6b329caabc4c09eb78f0ca6bfde371abb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/characterrender-voltar-bonaparte-0447ce72.webp",
+      "source_name": "Characterrender voltar bonaparte.png",
+      "alt": "Characterrender voltar bonaparte",
+      "width": 180,
+      "height": 180,
+      "format": "WEBP",
+      "sha256": "0447ce72c7343ad23d9a1546c05fba2c6a0fe63caf97a612e58690802583357a",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes"
+    ],
+    "status": "extracted"
+  }
+}

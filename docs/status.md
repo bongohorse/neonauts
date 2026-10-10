@@ -19,7 +19,7 @@
 
 ## Verification
 
-19 extractor/build/player-fetch tests pass locally. Site checks pass for local HTML links,
+20 extractor/build/player-fetch tests pass locally. Site checks pass for local HTML links,
 CSS paths, IDs, ARIA references, JavaScript syntax, decoded raster images and
 Naut asset references. Guestbook origin/length/honeypot checks, cooldown,
 pending moderation and published feed pass in an in-memory Worker test.
@@ -36,7 +36,7 @@ JavaScript checks it before starting section/skin animations.
 
 1. Real-device review of the small-screen layouts, touch controls and audible
    music output; verify the reduced-motion path with the device preference.
-2. Import remaining supplied Nauts, inspect each summary and missing assets.
+2. Supply missing embedded skin/in-game images listed in docs/naut-import.md.
 3. Improve Ayla/Chucho editorial summaries and long skin descriptions.
 4. Supply Chucho's six missing saved images if higher-quality art is needed;
    both skin cards currently use available in-game art.
@@ -47,7 +47,7 @@ JavaScript checks it before starting section/skin animations.
 8. Real-device mobile and audible soundtrack acceptance.
 
 The repo does not assume that every Wiki snapshot uses an identical template.
-The supplied portrait roster has 34 entries; imported content is currently 3.
+The supplied portrait roster has 34 entries; all 34 dossiers are imported.
 
 ## Archive improvements
 
@@ -144,3 +144,12 @@ from being combined with newly deployed markup.
 - User-supplied portrait/landscape screenshots informed the change. A supported
   mobile viewport emulation is unavailable in this browser; actual phone review
   remains separate from automated checks and desktop acceptance.
+
+## Complete roster import — 11 October 2026
+
+- Imported 31 new dossiers from the published nauts release; retained Ayla, Chucho
+  and approved Swiggins. All 34 roster entries now link to their own dossier.
+- Fixed character-specific upgrade icon extraction and UTF-8 parsing for Skølldir.
+- Explicit source-name aliases preserve roster selection and all OST themes.
+- Full-roster runtime tests cover URLs, JSON parity, 4 abilities, 24 items and assets;
+  missing artwork remains documented. See docs/naut-import.md.

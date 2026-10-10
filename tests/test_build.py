@@ -27,7 +27,8 @@ class BuildTests(unittest.TestCase):
                 self.assertEqual(doc.xpath('//base/@href'),['../../'])
                 data=json.loads((ROOT/'data/nauts'/f'{slug}.json').read_text())
                 self.assertEqual(doc.xpath('//*[@class="roster-note"]')[0].text_content(),data['name'].upper()+' SELECTED')
-                self.assertEqual(doc.xpath('//*[@id="nauts"]/*[@class="section-line"]/span')[1].text_content(),'03 DOSSIERS AVAILABLE / MORE TO COME')
+                count=len(list((ROOT/'data/nauts').glob('*.json')))
+                self.assertEqual(doc.xpath('//*[@id="nauts"]/*[@class="section-line"]/span')[1].text_content(),f'{count:02d} DOSSIERS AVAILABLE / MORE TO COME')
             build(out)
             after={p.relative_to(out):hashlib.sha256(p.read_bytes()).hexdigest() for p in out.rglob('*') if p.is_file()}
             self.assertEqual(before,after)

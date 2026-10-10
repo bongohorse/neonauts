@@ -1,0 +1,806 @@
+{
+  "schema_version": 1,
+  "name": "Snork Gunk",
+  "slug": "snork-gunk",
+  "source": {
+    "filename": "Snork.Gunk.-.Official.Awesomenauts.Wiki.10.10.2026.17.57.46.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Snork_Gunk",
+    "sha256": "0ae1821ef88d242cb4d6766e88065ed59c0e3285c344e81f1b243d2bc1be0c34",
+    "size_bytes": 2386495
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1300 (2288)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.1"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Harasser"
+    },
+    {
+      "label": "Mobility",
+      "value": "Tactical"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Gladiator",
+    "Type of abilities": "Knockback , Healing , Shield , Slow , Stun , Lifesteal",
+    "Release Date": "17th July 2018"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Sticky Snail",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sticky_Snail",
+      "description": "Shoot out a sticky snail which pulls you towards walls or enemy Nauts with such force that enemies in the area take damage and are slowed.",
+      "values": [
+        {
+          "label": "Slow",
+          "value": "20%"
+        },
+        {
+          "label": "Slow duration",
+          "value": "2.5s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "6s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Conch Dunk",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Conch_Dunk",
+      "description": "Hit your enemies for damage.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "95 (149.15)"
+        },
+        {
+          "label": "Attack Speed",
+          "value": "138"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Shell Bombs",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Shell_Bombs",
+      "description": "Summon holographic shells that will spin around you and deal damage per second. When a shell hits an enemy naut, it will explode for damage.",
+      "values": [
+        {
+          "label": "Damage per second",
+          "value": "500 (785)"
+        },
+        {
+          "label": "Explosion Damage",
+          "value": "160 (251.2)"
+        },
+        {
+          "label": "Duration",
+          "value": "4s"
+        },
+        {
+          "label": "Shells",
+          "value": "3"
+        },
+        {
+          "label": "Cooldown",
+          "value": "12s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Antigravity Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Antigravity_Jump",
+      "description": "Float above the ground with this belt and hold the button to ascend.",
+      "values": [
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Conchball Broom",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Conchball_Broom",
+      "group": "Sticky Snail",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Nasty Sweat Band",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Nasty_Sweat_Band",
+      "group": "Sticky Snail",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Participation Trophy",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Participation_Trophy",
+      "group": "Sticky Snail",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Broken Speed Limiter",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Broken_Speed_Limiter",
+      "group": "Sticky Snail",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Red Card Collection",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Red_Card_Collection",
+      "group": "Sticky Snail",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Season Tickets '35",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Season_Tickets_%2735",
+      "group": "Sticky Snail",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cockle Multiball",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cockle_Multiball",
+      "group": "Shell Bombs",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Salt Line Bag",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Salt_Line_Bag",
+      "group": "Shell Bombs",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Official Conchball",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Official_Conchball",
+      "group": "Shell Bombs",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Spiky Shellball",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spiky_Shellball",
+      "group": "Shell Bombs",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Disco Clamball",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Disco_Clamball",
+      "group": "Shell Bombs",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Snail Slime Container",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Snail_Slime_Container",
+      "group": "Shell Bombs",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Electric Stun Baton",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Electric_Stun_Baton",
+      "group": "Conch Dunk",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Scargi MP Seal",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Scargi_MP_Seal",
+      "group": "Conch Dunk",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Tear Gas",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Tear_Gas",
+      "group": "Conch Dunk",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Brainslug Helm",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Brainslug_Helm",
+      "group": "Conch Dunk",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Action Gloves",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Action_Gloves",
+      "group": "Conch Dunk",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Walkie Talkie",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Walkie_Talkie",
+      "group": "Conch Dunk",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Antigravity Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Antigravity Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Antigravity Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Antigravity Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Antigravity Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Antigravity Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Bozo Gunk",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For the better part of a year, Bozo Gunk entertained guests outside the Pearl Sluggers stadium ahead of every home game. He quickly became a beloved and well-known character among fans, but one day he simply disappeared. When asked for information on what happened to their favorite mascot, the Pearl Sluggers management simply replied \"Wait, who? We never had a clown work here.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The fate of Bozo Gunk remained unclear and fans were left wondering what had become of him, but a mysterious crime spree and series of (still unsolved) kidnappings ended did come to an end around the time of his disappearance. Last week, old-time fans were surprised to see an old friend reappear near the Pearl Slugger stadium to spread cheer and happiness once more."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Snork Gunk in Awesomenauts. You need to have Snork Gunk available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store Description"
+        }
+      ],
+      "assets": [
+        "asset-034"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Although Snork Gunk is considered one of the better conchballers in Scargi Space he never reached first league with his team, the Pearl Sluggers. He always criticized the sport had become too slow. Blaming the slugs at management for trying to slow the pace of the game, games that were already drawn out over the span of 14 Earth months. \"With an average of only one or two goals a game, you have more fun watching paint dry\" he complained. After many times of being disqualified for scoring too quickly, the team benched him for good."
+      },
+      {
+        "type": "paragraph",
+        "text": "Fed up with his failed carrer in sports he decided to join the Scargi military police hoping for some more action by tracking and hunting down enemies of the empire. After a good run of swift catches, he was assigned on a mission to hunt down the fugitive Rocket's Renegades. Realizing the Renegades had joined the ranks of the Awesomenauts, a team of 'big league' mercenaries, he applied for the transfer of a lifetime..."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "For the better part of a year, Bozo Gunk entertained guests outside the Pearl Sluggers stadium ahead of every home game. He quickly became a beloved and well-known character among fans, but one day he simply disappeared. When asked for information on what happened to their favorite mascot, the Pearl Sluggers management simply replied \"Wait, who? We never had a clown work here.\""
+      },
+      {
+        "type": "paragraph",
+        "text": "The fate of Bozo Gunk remained unclear and fans were left wondering what had become of him, but a mysterious crime spree and series of (still unsolved) kidnappings ended did come to an end around the time of his disappearance. Last week, old-time fans were surprised to see an old friend reappear near the Pearl Slugger stadium to spread cheer and happiness once more."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Snork Gunk in Awesomenauts. You need to have Snork Gunk available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store Description"
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Despite being mentioned in backstory and in-game lore before, Snork is the first stance of a Scargi actually appearing in the game."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Sticky Snail affects all enemies around the impact area, so aiming slightly downwards can be helpful: if you miss your intended target, you will hit the terrain below it and still apply the effect.",
+          "Although Shell Bombs can be used to destroy droids, it's usually better to try and land them on enemy Awesomenauts. Consider landing all the shells in the same target: the sheer amount of damage will likely kill them or cause enough damage to force them to retreat. Do use Shell Bombs to clear droids if your turrets are being overwhelmed, however. Your Conch Dunk only hits one enemy at a time.",
+          "Conch Dunk is able to hits enemies directly above Snork, so keep that in mind when attacking them.",
+          "Don't mindlessly use Sticky Snail every time it's off cooldown. That can easily get you killed. Wait for your enemies to use their abilities so that they are on cooldown and strike when the time is right.",
+          "Consider picking Nasty Sweat Band and/or Tear Gas for an immediate, reliable increase in overall damage.",
+          "If using Participation Trophy try to hit as many targets as possible at once, including droids. The lifesteal effect increases per targets hit.",
+          "Any combination of Broken Speed Limiter, Red Card Collection and Season Tickets '35 can substantially increase your crowd controlling cababilities.",
+          "If you're having trouble landing Shell Bombs on your enemies, consider Space Air Max, Salt Line Bag and/or Official Conchball.",
+          "Snail Slime Container and Brainslug Helm are good upgrades if you feel like you need more survivability.",
+          "Pick Walkie Talkie if your allies have lots of crowd control and coordinate with them."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Follow up on the crowd control provided by Sticky Snail with damaging abilities of your own. Alternatively, provide Snork with crowd control effects so that he can land Shell Bombs more easily.",
+          "Snork can always benefit from abilities and upgrades that benefit his movement speed, as he needs to stick to his enemies."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Most of Snork's damage comes from his Shell Bombs approach him when it's on cooldown or silence him.",
+          "Consider saving your abilities for when Snork approaches you with Sticky Snail Alternatively, be very careful if you're low on health, as Snork can quickly and suddenly close the gap between you and him.",
+          "Snork's Conch Dunk can only hit one target at a time, so if you can reliably push, try to apply pressure to him.",
+          "Despite being labelled as a harasser, Snork doesn't have much range outside of Sticky Snail. Other harrassing abilities such as Snipe, Ball Lightning and Rocket Launch can outrange him.",
+          "If you must engage Snork at close range, consider getting so close to him that his Shell Bombs overshoot you, but be wary, as he might have purchased Cockle Multiball."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/splashart-gladiator-ee9b2116.webp",
+      "source_name": "Splashart Gladiator.png",
+      "alt": "Splashart Gladiator",
+      "width": 512,
+      "height": 480,
+      "format": "WEBP",
+      "sha256": "ee9b21165641db6d0446a9ad2edbd6639a91c5ab5d4ccdb59bca7c1570f3832d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-gladiator-hook-833c5494.webp",
+      "source_name": "UI Skillbutton Gladiator hook.png",
+      "alt": "UI Skillbutton Gladiator hook",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "833c549475c6a488faefcc511af5038d1afd90eed3106159aff0c0a13dec2a17",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-gladiator-attack-cbf917b5.webp",
+      "source_name": "UI Skillbutton Gladiator Attack.png",
+      "alt": "UI Skillbutton Gladiator Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "cbf917b51fa7d374cd801d1c5d26fdeed19a51fc9f34a2c5fdf9f58c34b5c54d",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-gladiator-balls-3ebd65ab.webp",
+      "source_name": "UI Skillbutton Gladiator Balls.png",
+      "alt": "UI Skillbutton Gladiator Balls",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "3ebd65ab28f47b6d518ae345de96f3ac14da5229cc1498718548a5fb54e8b967",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-gladiator-jump-162e053f.webp",
+      "source_name": "UI Skillbutton Gladiator Jump.png",
+      "alt": "UI Skillbutton Gladiator Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "162e053f9aefdebd47ecb614094c749a94dd9f09d2a2ecc4adbd73214fb389ba",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-gladiator-skill-a-upgrade-b-6873faae.webp",
+      "source_name": "Shop icons gladiator skill a upgrade b.png",
+      "alt": "Shop icons gladiator skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6873faaea39f98b0ccb29f8965c36983edc3514a6ef447c2a6db9b999370fc28",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-gladiator-skill-a-upgrade-d-0cbe92bc.webp",
+      "source_name": "Shop icons gladiator skill a upgrade d.png",
+      "alt": "Shop icons gladiator skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0cbe92bc2b99d4ad8763c29134a1fdc1457d6e244f5193efe24e540388e2b29e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-gladiator-skill-a-upgrade-c-0ccc88d7.webp",
+      "source_name": "Shop icons gladiator skill a upgrade c.png",
+      "alt": "Shop icons gladiator skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0ccc88d7d0bf644b7a94b5e51b2adc6456ea627127b51f279fbded05ade64b34",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-gladiator-skill-a-upgrade-a-d6047384.webp",
+      "source_name": "Shop icons gladiator skill a upgrade a.png",
+      "alt": "Shop icons gladiator skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d6047384e1fe66129f7173b6cf3a6c6c62b5429aa8235b256e29e8208092b696",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-gladiator-skill-a-upgrade-e-0c2a89f6.webp",
+      "source_name": "Shop icons gladiator skill a upgrade e.png",
+      "alt": "Shop icons gladiator skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0c2a89f60bdd46682fb46a59bd1e0cf0a947272fc072bfeb2e67be4361a99062",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-gladiator-skill-a-upgrade-f-d48db348.webp",
+      "source_name": "Shop icons gladiator skill a upgrade f.png",
+      "alt": "Shop icons gladiator skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d48db348edbc3b9e961b78ebf280f3446235264902c61dee9924b98f67f47b6d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-gladiator-skill-b-upgrade-e-d225c1ce.webp",
+      "source_name": "Shop icons gladiator skill b upgrade e.png",
+      "alt": "Shop icons gladiator skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d225c1ce5b95c82c0baf2d0984c9fc6adb7fd12dc958772059c8320071fe1cdb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-gladiator-skill-b-upgrade-f-3f1c603a.webp",
+      "source_name": "Shop icons gladiator skill b upgrade f.png",
+      "alt": "Shop icons gladiator skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3f1c603a123ef2817f1f0639feba23753a1e48258db028387129101274b2aac6",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-gladiator-skill-b-upgrade-a-83c4d3cb.webp",
+      "source_name": "Shop icons gladiator skill b upgrade a.png",
+      "alt": "Shop icons gladiator skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "83c4d3cbece0820b0d42738b8f1e5d4730d6325f486421643ec881b5ab40e233",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-gladiator-skill-b-upgrade-c-7ba4521e.webp",
+      "source_name": "Shop icons gladiator skill b upgrade c.png",
+      "alt": "Shop icons gladiator skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7ba4521e2c49eca0c32b745cc1077c1ddc12ef784bb724580a26a1926017aede",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-gladiator-skill-b-upgrade-b-1218beba.webp",
+      "source_name": "Shop icons gladiator skill b upgrade b.png",
+      "alt": "Shop icons gladiator skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1218bebaac0a14c98bc6092285d604108c4231cbbed69b9bee0d3af6c82ccdc0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-gladiator-skill-b-upgrade-d-6f8bbd18.webp",
+      "source_name": "Shop icons gladiator skill b upgrade d.png",
+      "alt": "Shop icons gladiator skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6f8bbd18362ff5e622fcd8fe3b6260eab10e83fc73d7b530c228abd220483823",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-gladiator-skill-c-upgrade-a-dadca6d4.webp",
+      "source_name": "Shop icons gladiator skill c upgrade a.png",
+      "alt": "Shop icons gladiator skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "dadca6d4612f82a525f0271ed27e0c3cee3268eb08c5ef6a7e4e609287756aa5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-gladiator-skill-c-upgrade-b-06f1fd82.webp",
+      "source_name": "Shop icons gladiator skill c upgrade b.png",
+      "alt": "Shop icons gladiator skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "06f1fd8241a122be498813c54944a79c97018388aac0c950cd4101917fbd9e6b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-gladiator-skill-c-upgrade-c-cf75ad2e.webp",
+      "source_name": "Shop icons gladiator skill c upgrade c.png",
+      "alt": "Shop icons gladiator skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cf75ad2ed1cae73885b6c74f62c4c926ed9a1c93f3dd0702ba5b22d7b8b233cb",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-gladiator-skill-c-upgrade-d-f8912ed7.webp",
+      "source_name": "Shop icons gladiator skill c upgrade d.png",
+      "alt": "Shop icons gladiator skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f8912ed794c41e703c4dba8231c2f9d5617891ed18eab4e866e4f2841988db0b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-gladiator-skill-c-upgrade-e-d1a0e344.webp",
+      "source_name": "Shop icons gladiator skill c upgrade e.png",
+      "alt": "Shop icons gladiator skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d1a0e34425adcbda0a02452d451a80ccde257b02c103f54fd029d894efce47b0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-gladiator-skill-c-upgrade-f-e4bc3465.webp",
+      "source_name": "Shop icons gladiator skill c upgrade f.png",
+      "alt": "Shop icons gladiator skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "e4bc34650c1fe6597b1aef0abe9e5adb56680d1279f9ee7d9f5fcfcf1e98c214",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/snorkgunkingamered-41bd1334.webp",
+      "source_name": "Snorkgunkingamered.png",
+      "alt": "Default skin.",
+      "width": 178,
+      "height": 206,
+      "format": "WEBP",
+      "sha256": "41bd133434d4a5977159b84ab76b5dc9ccc6ed599ae986c08c1bb4e8ec01e778",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/snorkgunkingameblue-651fcf27.webp",
+      "source_name": "Snorkgunkingameblue.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 195,
+      "format": "WEBP",
+      "sha256": "651fcf2702b3a67f9a73132ce9eb56d42a88aedfe6abe06df3467d94c0f74ad1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/ui-minimap-player-gladiator-0-970b749e.webp",
+      "source_name": "Ui minimap player gladiator 0.png",
+      "alt": "Ui minimap player gladiator 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "970b749e3d4696b757cebb101a027b0e312209392352e26ea1e2a984fc051a42",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/classicon-snork-gunk-27f2e89b.webp",
+      "source_name": "Classicon Snork Gunk.png",
+      "alt": "Classicon Snork Gunk",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "27f2e89b3ffd0e475bcb28585e3d9b8ba22062a89aed5fac4c44a2668db19700",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/snork-gunk-002-ec0b3197.webp",
+      "source_name": "Snork Gunk 002.png",
+      "alt": "Snork Gunk 002",
+      "width": 200,
+      "height": 233,
+      "format": "WEBP",
+      "sha256": "ec0b319737f27d2406ed2cf6071a0e1e0a336acbb00ace8277bfbd203ded81f9",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Bozo Gunk Quotes"
+    ],
+    "status": "extracted"
+  }
+}

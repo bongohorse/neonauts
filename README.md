@@ -48,16 +48,12 @@ JavaScript syntax checks and Worker tests, not to build or serve the site.
 
 ## Current content
 
-| Naut | Abilities | Items | Additional skins | Extracted images | Import status |
-|---|---:|---:|---:|---:|---|
-| Admiral Swiggins | 4 | 24 | 2 | 41 | Extracted |
-| Ayla | 4 | 24 | 3 | 43 | Extracted |
-| Chucho Krokk | 4 | 24 | 2 | 39 | Partial: 6 missing embedded images |
-
-URLs: `/nauts/admiral-swiggins/`, `/nauts/ayla/`, `/nauts/chucho-krokk/`.
-The home page opens the approved Swiggins dossier. The roster links to all
-imported Nauts; random selection chooses another imported dossier. The supplied
-roster contains 34 icons; the remaining dossiers honestly await imports.
+All **34 roster Nauts** now have independent datasets and dossier URLs.
+31 new saved Wiki snapshots were imported from the `nauts` release; Ayla,
+Chucho and the approved Swiggins content were retained. Each dossier includes
+4 abilities and 24 upgrade links/icons. See [import report](docs/naut-import.md)
+for skins, image counts and preserved missing-image diagnostics.
+The home page opens the approved Swiggins dossier.
 
 Existing features retained: six map dossiers, holiday screenshots, rookie
 guide, searchable glossary, badges/blinkies/stamps, guestbook terminal, 404

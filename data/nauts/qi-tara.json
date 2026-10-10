@@ -1,0 +1,897 @@
+{
+  "schema_version": 1,
+  "name": "Qi'Tara",
+  "slug": "qi-tara",
+  "source": {
+    "filename": "Qi.Tara.-.Official.Awesomenauts.Wiki.10.10.2026.17.54.22.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Qi%27Tara",
+    "sha256": "5d4e4fc656a25026b67cebe8558fd90c301a68745151b303cf58497b5d31a301",
+    "size_bytes": 2342583
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1300 (2288)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "8.4"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Assassin"
+    },
+    {
+      "label": "Mobility",
+      "value": "Swift"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Gantlet",
+    "Type of abilities": "Damage over Time , Slow , Amplify Damage , Lifesteal",
+    "Release Date": "6th December 2017"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Chakram Shift",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chakram_Shift",
+      "description": "Throw out a chakram that deals damage and sticks to enemy nauts. You can warp to an attached chakram with a second press, dealing area damage and leaving another chakram behind, which you can then teleport back to with a third press, dealing damage upon returning.",
+      "values": [
+        {
+          "label": "Chakram damage",
+          "value": "180 (282.6)"
+        },
+        {
+          "label": "Shift damage",
+          "value": "180 (282.6)"
+        },
+        {
+          "label": "Duration",
+          "value": "3.5s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "9s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Poisonous Blade",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Poisonous_Blade",
+      "description": "Slash and inflict a stacking poison onto your enemies.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "50 (78.5)"
+        },
+        {
+          "label": "Damage over time",
+          "value": "65 (102.05)"
+        },
+        {
+          "label": "Duration",
+          "value": "4s"
+        },
+        {
+          "label": "Attack speed",
+          "value": "150"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Seven Star Strike",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Seven_Star_Strike",
+      "description": "Temporarily increase your movement and attack speed and make your poisonous blade attacks affect targets in an area. Also increases the damage and duration of the damage over time effect.",
+      "values": [
+        {
+          "label": "Attack speed",
+          "value": "+30%"
+        },
+        {
+          "label": "Damage over time",
+          "value": "+100%"
+        },
+        {
+          "label": "Damage over time duration",
+          "value": "+100%"
+        },
+        {
+          "label": "Duration",
+          "value": "3s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "12s"
+        },
+        {
+          "label": "Lifesteal",
+          "value": "10%"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Chilasi Robe-powered Double Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chilasi_Robe-powered_Double_Jump",
+      "description": "Chilasi Robe-powered Double Jump",
+      "values": [
+        {
+          "label": "Jumps",
+          "value": "2"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Eyelash Guillotine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Eyelash_Guillotine",
+      "group": "Chakram Shift",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Matching Mirror",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Matching_Mirror",
+      "group": "Chakram Shift",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Gunpowder Box",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Gunpowder_Box",
+      "group": "Chakram Shift",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Peel Off Face Mask",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Peel_Off_Face_Mask",
+      "group": "Chakram Shift",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rakki Comb",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rakki_Comb",
+      "group": "Chakram Shift",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Laser Lipstick",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Laser_Lipstick",
+      "group": "Chakram Shift",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Splumb Croquette",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Splumb_Croquette",
+      "group": "Seven Star Strike",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Mobile Fryer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Mobile_Fryer",
+      "group": "Seven Star Strike",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Hairdresser Fries",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Hairdresser_Fries",
+      "group": "Seven Star Strike",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Salty Seal",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Salty_Seal",
+      "group": "Seven Star Strike",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Plumbmin Oil",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Plumbmin_Oil",
+      "group": "Seven Star Strike",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Killer Tomato Ketchup",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Killer_Tomato_Ketchup",
+      "group": "Seven Star Strike",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Skroggle Eyeshadow",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Skroggle_Eyeshadow",
+      "group": "Poisonous Blade",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Portuguese Warblade",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Portuguese_Warblade",
+      "group": "Poisonous Blade",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Coba Serpent",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Coba_Serpent",
+      "group": "Poisonous Blade",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Silent Killer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Silent_Killer",
+      "group": "Poisonous Blade",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Lily Of The Isle",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Lily_Of_The_Isle",
+      "group": "Poisonous Blade",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chilasi Chakram",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chilasi_Chakram",
+      "group": "Poisonous Blade",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Chilasi Robe-powered Double Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Chilasi Robe-powered Double Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Chilasi Robe-powered Double Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Wraith Stone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wraith_Stone",
+      "group": "Chilasi Robe-powered Double Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Chilasi Robe-powered Double Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Chilasi Robe-powered Double Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Dark Masquerade Qi'Tara",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Serving as a member of the Order of the Scargi Emperor, Qi'Tara sometimes has to go undercover and blend into the crowd to protect Emperor Piere Feu Darret. Being a Chilasi (and armed to the teeth), that's rarely an easy feat. As a result, these tasks are usually left to other members of her Order when opportunities alow."
+        },
+        {
+          "type": "paragraph",
+          "text": "Once a year though, during the national Splumb Carnival, Qi'Tara mingles with the splumb-covered, masked partygoers - marvelling many with what they think is an elaborate Chilasi-costume. The only ones that find out she's not just PRETENDING to be a heavily armed Chilasi warrior are the would-be assassins she encounters."
+        },
+        {
+          "type": "paragraph",
+          "text": "For Qi'Tara the Splumb Carnival is the best day of the year as it allows her to indulge in her two favorite things: splumbs and murder."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Qi'Tara in Awesomenauts. You need to have Qi'Tara available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Qi'Tara the looks of a renaissance period venetian carnival ongoer. She wears a wig and a carnival mask shaped like a raven, which completely hides her face. Her robes are darker colored and feature a slightly different pattern. She wears gloves, a corset and thigh high boots with heels."
+        },
+        {
+          "type": "paragraph",
+          "text": "She wields fans instead of Chakrams (which unfold in a circular pattern when thrown for Chakram Shift). Seven Star Strike has a bird-themed effect, leaving behind a trail of feathers while in effect."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with unique voice acting."
+        }
+      ],
+      "assets": [
+        "asset-036"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "From the wild meadows on Gromdom comes the beautiful and deadly Chilasi princess Qi'Tara. A four limbed warrior wielding laser coated chakrams. Shrouded in mystery, no one actually knows why she would ever be part of the royal court of the Scargi, considering the insectoid Chilasi and snail-like Scargi have been in a long dispute over the giant splumb gardens scattered across the planet. These two realms came to a head when the Chilasi vehemently maintained that the Splumb potatoes are a form of fruit yet the Scargi are extremely sure that it's, in fact, a vegetable. This could, naturally, only be settled with war. Some say she seduced the Scargi emperor to provoke her father, the king, others say she just did it to for his juicy splumbs."
+      },
+      {
+        "type": "paragraph",
+        "text": "For years she worked her way up in the Scargi military to become a royal guard in the order of the Scargi emperor and gained the title of femme fatale haricot beurre. Don't be fooled by her captivating looks because this deadly warrior has the best k/d in Scargi space."
+      },
+      {
+        "type": "paragraph",
+        "text": "She does have one guilty pleasure: every spare moment not seducing her enemies she can be found behind a frying pan, nibbling on some fried splumb taters. Her perfect curves stay in shape because of her hightened metabolism, but rumor has it that she is so obsessed with her looks that she even rubs her carapace with the yellow fruit to give it a golden shine. Never tell her that she has a problem, though, because she will cut you into tiny tiny pieces with her venom bladed chakrams."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being from a different kingdom she has always been a bit of an outsider, but the renegades took her in as if she was family, After the incident at the palace she hid in the hot wastelands where the Scargi wouldn't be able to track her. This game of hide and seek is over and Qi'Tara's poisoned blades long for revenge."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "Serving as a member of the Order of the Scargi Emperor, Qi'Tara sometimes has to go undercover and blend into the crowd to protect Emperor Piere Feu Darret. Being a Chilasi (and armed to the teeth), that's rarely an easy feat. As a result, these tasks are usually left to other members of her Order when opportunities alow."
+      },
+      {
+        "type": "paragraph",
+        "text": "Once a year though, during the national Splumb Carnival, Qi'Tara mingles with the splumb-covered, masked partygoers - marvelling many with what they think is an elaborate Chilasi-costume. The only ones that find out she's not just PRETENDING to be a heavily armed Chilasi warrior are the would-be assassins she encounters."
+      },
+      {
+        "type": "paragraph",
+        "text": "For Qi'Tara the Splumb Carnival is the best day of the year as it allows her to indulge in her two favorite things: splumbs and murder."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Qi'Tara in Awesomenauts. You need to have Qi'Tara available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set. - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Qi'Tara the looks of a renaissance period venetian carnival ongoer. She wears a wig and a carnival mask shaped like a raven, which completely hides her face. Her robes are darker colored and feature a slightly different pattern. She wears gloves, a corset and thigh high boots with heels."
+      },
+      {
+        "type": "paragraph",
+        "text": "She wields fans instead of Chakrams (which unfold in a circular pattern when thrown for Chakram Shift). Seven Star Strike has a bird-themed effect, leaving behind a trail of feathers while in effect."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with unique voice acting."
+      }
+    ],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Qi'Tara, along with Commander Rocket, Dizzy, and Smiles, is part of a group called Rocket's Renegades. Qi'Tara was the fourth and last of the Rocket's Renegades nauts to be released.",
+          "Qi'Tara is the only member of Rocket's Renegades without a showcase.",
+          "Qi'Tara is the first character to feature stacking damage over time.",
+          "Qi'Tara was the first character to be released without any form of crowd control effects.",
+          "Qi'Tara has a different backstory for the console version of the game. It can be seen below:"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Beautiful and deadly, the Chilasi princess Qi'Tara has always been a mystery to most. Especially since she joined the Scargi army, as the Scargi and Chilasi are supposed to be the mortal enemies. Qi'Tara just doesn't care for their age-old conflict over splumbs being fruits or vegetables. She just cares about the splumbs themselves. The very best splumbs. Some might say she cares for them a little too much."
+      },
+      {
+        "type": "paragraph",
+        "text": "Since the Scargi royal court would give her access to unlimited high-quality splumbs she quickly worked her way up through the ranks and became the emperor's femme fatale haricot beurre. She still remained a bit of an outsider, but Commander Rocket rightly saw her potential and his Renegades took her in like family."
+      },
+      {
+        "type": "paragraph",
+        "text": "When the Renegades later became outcasts due to the Salty Seal incident, Qi'Tara decided to stick with her new-found family. Now the time has come for the renegades to regroup and exact revenge upon those who denied her access to her beloved splumbs!"
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Don't worry about opponents hiding behind droids: Chakram Shift will pierce through them and hit the Awesomenaut behind them.",
+          "You can't shift back to a Chakram while taking damage, so pick your fights carefully.",
+          "Chakram Shift deals damage when striking enemies and in both shifts. You can stay close to an enemy and quickly shift to deal all the damage at once to a single target.",
+          "Consider Gunpowder Box and/or Peel Off Face Mask when trying to shift a teamfight in your favor.",
+          "Qi'Tara needs to stay close to her targets in order to be effective. Upgrades such as Laser Lipstick, Mobile Fryer and Chilasi Chakram can help you achieve that.",
+          "Seven Star Strike enables you to attack targets in an area. It can be used to more effectively clear lanes or against multiple stacked opponents.",
+          "Consider purchasing Salty Seal and/or Baby Plumbmin Oil for much needed survavibility.",
+          "Poisonous Blade has a small hitbox: try to be precise when attacking enemies.",
+          "Lily Of The Isle can make your attacks safer, eliminating the need to stay close to an enemy for a while."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Qi'Tara lacks any form of crowd control. Allies with crowd control, particularly ones that prevent movement can greatly help her.",
+          "Qi'Tara does not have a lot of health, if you can, protect her from the enemy team or use defensive abilities such as shields."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Most of Qi'Tara's damage comes in form of Damage Over Time. Upgrades that grant you healing, lifesteal or even additional health will severely hamper her ability to kill you.",
+          "Qi'Tara is very vulnerable to damage over time herself, since it prevents her from using the teleport component of Chakram Shift to return to her chakram.",
+          "Qi'Tara has very low health, meaning burst damage can quickly kill her or force her to retreat. Crowd control makes this tactic even more effective."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/splashart-qitara-aefd2818.webp",
+      "source_name": "Splashart Qitara.png",
+      "alt": "Splashart Qitara",
+      "width": 512,
+      "height": 425,
+      "format": "WEBP",
+      "sha256": "aefd281848dfd4e71c75cfc81bcf860f9a800851c878699ba72a6f118f78f062",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-qitara-warp-e037dc8a.webp",
+      "source_name": "UI Skillbutton qitara Warp.png",
+      "alt": "UI Skillbutton qitara Warp",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "e037dc8a5e60e40f61f7662ffc1d5007fdc37513dca8cceeefe72eb4c1d6f1a8",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-qitara-attack-fd65bb9d.webp",
+      "source_name": "UI Skillbutton qitara Attack.png",
+      "alt": "UI Skillbutton qitara Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "fd65bb9dc85f5a741d8bc63472863dca08c2d5eef6b86d0514c1faf80305c427",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-qitara-flurry-d0b57987.webp",
+      "source_name": "UI Skillbutton qitara Flurry.png",
+      "alt": "UI Skillbutton qitara Flurry",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "d0b57987f6f0606cccf9b4b9f5eba89bb34e85bf2e6fcc04597b234c188d4859",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-qitara-jump-c7a0b392.webp",
+      "source_name": "UI Skillbutton qitara Jump.png",
+      "alt": "UI Skillbutton qitara Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "c7a0b392a399c3c0a691cb35aaaa8f1ce9f15d24eaf00e8030155c9766087115",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-qitara-skill-a-upgrade-f-faa020fa.webp",
+      "source_name": "Shop Icons qitara skill a upgrade f.png",
+      "alt": "Shop Icons qitara skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "faa020faa8980f345f1e97fec61440425bf2b1f05a4412abdd43a9edbf986a61",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-qitara-skill-a-upgrade-e-d426fab4.webp",
+      "source_name": "Shop Icons qitara skill a upgrade e.png",
+      "alt": "Shop Icons qitara skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d426fab4d25e4db1197539159dd0089c8e832f99f17708df18141aa2f8db4af9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-qitara-skill-a-upgrade-d-ab064777.webp",
+      "source_name": "Shop Icons qitara skill a upgrade d.png",
+      "alt": "Shop Icons qitara skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ab0647777e6ea120854f17efcdb1ddc53c613cf2ed785f95243a9e1d02a03e66",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-qitara-skill-a-upgrade-a-fff90c0b.webp",
+      "source_name": "Shop Icons qitara skill a upgrade a.png",
+      "alt": "Shop Icons qitara skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fff90c0b022907090074024d834166838cef2885f6cc6b730a2aee303aac4315",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-qitara-skill-a-upgrade-b-3527adfa.webp",
+      "source_name": "Shop Icons qitara skill a upgrade b.png",
+      "alt": "Shop Icons qitara skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3527adfac9d3adcd818c0544eb4e4cfcfcc193ccaa6963795b31808fd46f44e0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-qitara-skill-a-upgrade-c-378f9f36.webp",
+      "source_name": "Shop Icons qitara skill a upgrade c.png",
+      "alt": "Shop Icons qitara skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "378f9f36c998f45e216bcc4b6d4bb9db2fa791a781c0db1ecab729010dfcd709",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-qitara-skill-b-upgrade-f-50a884e2.webp",
+      "source_name": "Shop Icons qitara skill b upgrade f.png",
+      "alt": "Shop Icons qitara skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "50a884e25a3e785ce7bf9a7b5ec08a172aea9f635a47b37ca0640dd57dbac506",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-qitara-skill-b-upgrade-d-40355024.webp",
+      "source_name": "Shop Icons qitara skill b upgrade d.png",
+      "alt": "Shop Icons qitara skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "40355024d6d4facdd1f7d71ab067fb6dec40b013760c0b9bb804782aa59fcf90",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-qitara-skill-b-upgrade-e-26526560.webp",
+      "source_name": "Shop Icons qitara skill b upgrade e.png",
+      "alt": "Shop Icons qitara skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "26526560920abfeca71a4dd6b3cc7fd2db0df40a6682163a295411bf5d16fe4d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-qitara-skill-b-upgrade-a-83c0fe8d.webp",
+      "source_name": "Shop Icons qitara skill b upgrade a.png",
+      "alt": "Shop Icons qitara skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "83c0fe8de8742b98c1ce24addad504a20a36312d6b47d8c0b1271252f20f2bf3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-qitara-skill-b-upgrade-c-59eceb48.webp",
+      "source_name": "Shop Icons qitara skill b upgrade c.png",
+      "alt": "Shop Icons qitara skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "59eceb4888933a9c0e73b6151f77a1d6fd1eaff8cba23b0a3accac94f82d1500",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-qitara-skill-b-upgrade-b-7ce32290.webp",
+      "source_name": "Shop Icons qitara skill b upgrade b.png",
+      "alt": "Shop Icons qitara skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7ce322905e2a69f2951a9cbbb20f2b61e6dcd5b764673ab6cf67ecbb961346bc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-qitara-skill-c-upgrade-c-faa4e2ea.webp",
+      "source_name": "Shop Icons qitara skill c upgrade c.png",
+      "alt": "Shop Icons qitara skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "faa4e2ea52c938bc761e4309998c511db7aee301839a35ada41117e686caada5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-qitara-skill-c-upgrade-d-f5f32819.webp",
+      "source_name": "Shop Icons qitara skill c upgrade d.png",
+      "alt": "Shop Icons qitara skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f5f32819aa31a830a95079377e6a290cf5a42749d4e101ef38f1183367d16252",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-qitara-skill-c-upgrade-e-55695ba1.webp",
+      "source_name": "Shop Icons qitara skill c upgrade e.png",
+      "alt": "Shop Icons qitara skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "55695ba19f2e2f2eb3588a7ed3686b5475ede78857d222e965c37cfc71802abf",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-qitara-skill-c-upgrade-a-95f0591f.webp",
+      "source_name": "Shop Icons qitara skill c upgrade a.png",
+      "alt": "Shop Icons qitara skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "95f0591f60d12d8b86c5639a6df657084e1133d88591353c26fe00836441b661",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-qitara-skill-c-upgrade-b-5b1c14da.webp",
+      "source_name": "Shop Icons qitara skill c upgrade b.png",
+      "alt": "Shop Icons qitara skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5b1c14daa27a79224bb084854323990b431837713fe14c37b4db1c0183801eaa",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-qitara-skill-c-upgrade-f-9dcac948.webp",
+      "source_name": "Shop Icons qitara skill c upgrade f.png",
+      "alt": "Shop Icons qitara skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "9dcac9480d190366289b6b5c9150cd0bea350ccb97852f388dd0181dc3d9425f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-shield-71132309.webp",
+      "source_name": "Shop Icons Overall Shield.png",
+      "alt": "Shop Icons Overall Shield",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7113230984c976ca1f11aa8e7629ec0bdca0ae97a0666f45d34bc6f236d8d499",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/qitaraingamered-206b8e95.webp",
+      "source_name": "Qitaraingamered.png",
+      "alt": "Default skin.",
+      "width": 98,
+      "height": 182,
+      "format": "WEBP",
+      "sha256": "206b8e95a0f1e162e3ef895269044aa67ff37919be4e2e49f5f5182cce4d2329",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/qitaraingameblue-586ddf33.webp",
+      "source_name": "Qitaraingameblue.png",
+      "alt": "Default skin.",
+      "width": 86,
+      "height": 183,
+      "format": "WEBP",
+      "sha256": "586ddf33326f22949a02dfa5a9917692675b5b62db1b6c55e81792c0ce74de3f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/darkmasqueradeqitaraingamered-278596e4.webp",
+      "source_name": "Darkmasqueradeqitaraingamered.png",
+      "alt": "Dark Masquerade Qi'Tara.",
+      "width": 105,
+      "height": 185,
+      "format": "WEBP",
+      "sha256": "278596e4612e14899ead31e583c7e813b1be14f09e5bcc392cae715d39273db2",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/darkmasqueradeqitaraingameblue-84afbf19.webp",
+      "source_name": "Darkmasqueradeqitaraingameblue.png",
+      "alt": "Dark Masquerade Qi'Tara.",
+      "width": 92,
+      "height": 183,
+      "format": "WEBP",
+      "sha256": "84afbf198f2bcc49d635fc3683bfc3e476c39aa75fbbfd9b64393c4f9fbae5bd",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/ui-minimap-qitara-red-ea1ae7d0.webp",
+      "source_name": "Ui minimap qitara red.png",
+      "alt": "Ui minimap qitara red",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "ea1ae7d0ee4ad9e7dec8e0e5b0056abd26dd9feb6269c08bbf855a497e94939a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/classicon-qitara-fc196105.webp",
+      "source_name": "Classicon Qitara.png",
+      "alt": "Classicon Qitara",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "fc196105e08ebb85f54ebde8f95f2a0e5cfe37ef24bf17f7cf9d06f3dcee210a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/splashart-darkmasqueradeqitara-757cb9be.webp",
+      "source_name": "Splashart DarkMasqueradeQitara.png",
+      "alt": "Splashart DarkMasqueradeQitara",
+      "width": 200,
+      "height": 240,
+      "format": "WEBP",
+      "sha256": "757cb9bec53729de69dd92d3ed7be1393d9fdd897596be5a6d5e8a780cee3b5b",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Dark Masquerade Qi'Tara Quotes"
+    ],
+    "status": "extracted"
+  }
+}

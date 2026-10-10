@@ -1,0 +1,902 @@
+{
+  "schema_version": 1,
+  "name": "Deadlift",
+  "slug": "deadlift",
+  "source": {
+    "filename": "Deadlift.-.Official.Awesomenauts.Wiki.10.10.2026.17.47.13.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Deadlift",
+    "sha256": "cc654d4c1738f443bc34693c82f18417b90bd9364220bbeb2b959c7a80bead28",
+    "size_bytes": 2859872
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1600 (2816)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.46"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Support"
+    },
+    {
+      "label": "Mobility",
+      "value": "Balanced"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Intermediate",
+    "Development Name": "Crumple",
+    "Type of abilities": "Area of Effect , Knockback , Shield , Healing , Weaken , Empower , Slow , Stun",
+    "Release Date": "March 8th 2017"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Power Lunge",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Lunge",
+      "description": "In true Bovinian fashion, lunge into enemies and cause an explosive burst that deals damage.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "300 (471)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7s"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Iron Slam",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Iron_Slam",
+      "description": "Swing Deadlift's muscular arms to slam your enemies and deal damage. Even a cowboy cannot wrangle these babies.",
+      "values": [
+        {
+          "label": "Normal arm damage",
+          "value": "100 (157)"
+        },
+        {
+          "label": "Uppercut damage",
+          "value": "120 (188.4)"
+        },
+        {
+          "label": "Attack speed",
+          "value": "102"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Protective Pose",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Protective_Pose",
+      "description": "Strike a pose to summon holo-tech's newest protective shield and soak up damage for you and your allies. Starts decaying over time. Use again to cancel.",
+      "values": [
+        {
+          "label": "Health",
+          "value": "600 (942)"
+        },
+        {
+          "label": "Health decay",
+          "value": "100/s (157/s)"
+        },
+        {
+          "label": "Decay start",
+          "value": "2s"
+        },
+        {
+          "label": "Cooldown",
+          "value": "13s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Bovinian Lift Off",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bovinian_Lift_Off",
+      "description": "Deadlift uses his powerful legs, trained extensively on the legpress, to launch himself in the air.",
+      "values": [
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Red Asteroid Horn Polish",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Red_Asteroid_Horn_Polish",
+      "group": "Power Lunge",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Muscular-Posing Oil",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Muscular-Posing_Oil",
+      "group": "Power Lunge",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Holotech Kickboxing Gloves",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Holotech_Kickboxing_Gloves",
+      "group": "Power Lunge",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Weighted Nose Ring",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Weighted_Nose_Ring",
+      "group": "Power Lunge",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Rodeo-Red Lenses",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Rodeo-Red_Lenses",
+      "group": "Power Lunge",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "McPain Odor-Blocking Bodywash",
+      "source_url": "https://awesomenauts.fandom.com/wiki/McPain_Odor-Blocking_Bodywash",
+      "group": "Power Lunge",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bovinian Coat",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bovinian_Coat",
+      "group": "Protective Pose",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Fresh Chocolate Milk",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fresh_Chocolate_Milk",
+      "group": "Protective Pose",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Bovinion And Chicken Comic",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Bovinion_And_Chicken_Comic",
+      "group": "Protective Pose",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Triple Cowbells Of Honor",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Triple_Cowbells_Of_Honor",
+      "group": "Protective Pose",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Poefluma Fly Swatter",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Poefluma_Fly_Swatter",
+      "group": "Protective Pose",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Cowboy Boogeyman Storybook",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Cowboy_Boogeyman_Storybook",
+      "group": "Protective Pose",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Graviton Dumbbells",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Graviton_Dumbbells",
+      "group": "Iron Slam",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Motivational Boombox Bot",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Motivational_Boombox_Bot",
+      "group": "Iron Slam",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Sweat-Wow-Band",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sweat-Wow-Band",
+      "group": "Iron Slam",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Worn-Out Kettlebell",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Worn-Out_Kettlebell",
+      "group": "Iron Slam",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Lightning-Start Protein Shake",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Lightning-Start_Protein_Shake",
+      "group": "Iron Slam",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Arnel Swertsenek Training Video",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Arnel_Swertsenek_Training_Video",
+      "group": "Iron Slam",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Bovinian Lift Off",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Bovinian Lift Off",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Bovinian Lift Off",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Bovinian Lift Off",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Bovinian Lift Off",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Bovinian Lift Off",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Bullbarian Deadlift",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Between the times when the great Milk Sea drank Great Wisentia and the rise of the Calves of Moo-Noo, there was a beastly age on Flexon."
+        },
+        {
+          "type": "paragraph",
+          "text": "But hark! Here rises the Bullbarian from his long slumber! Having dined on raw meat and spiced milk, he sets off into the wild yonder. Kings beg for his services, witches tremble in his wake and gladiators shake with fear as he approaches. Now, he finds himself with a stranger crew still as a band of Awesomenauts have plucked him from the mists of his bygone era."
+        },
+        {
+          "type": "paragraph",
+          "text": "The times may be unfamiliar to him, but one thing is unchanged: in battle, the mightiest hoof still wins."
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Deadlift in Awesomenauts. You need to have Deadlift available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Deadlift the looks of an archetypical barbarian. He is shirtless, displaying glyph-like team-colored tattoos on his body and has a scar over one eye. While on blue team only, his fur has a darker shade of brown. His golden arm is replaced with a normal one and has a stone bracelet with spikes on it."
+        },
+        {
+          "type": "paragraph",
+          "text": "He is wearing team-colered pants and a large belt with a skull with tusks on it. The golden tip on his horn is gone. Instead it looks like the tip of the horn has been shattered. He also carries a large weapon (a sword on red team, a battle axe on blue team) on his back. This is purely cosmetic, however."
+        },
+        {
+          "type": "paragraph",
+          "text": "His Power Lunge is missing its hexagons for a less \"high tech\" look, Protective Pose has glyphs similar to his tattoos and a bull skull on it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with unique voice acting."
+        }
+      ],
+      "assets": [
+        "asset-030"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "Samuel \"Deadlift\" Gains was a young calf during \"The Great Bovinion Wrangling\" and escaped aboard a dairy transport bound for the Flexon, where all inhabitants are incredibly muscular! A Kremzon took him in and put him on a rough training regiment, to prepare for his revenge on Sheriff Lonestar."
+      },
+      {
+        "type": "paragraph",
+        "text": "Samuel grew stronger as the years passed, and one day, when Lonestar visited the planet, tried to ambush him at the spaceport. The cowboy saw through his plan and made Samuel lose his balance while he was preparing to throw a spaceship. Samuel woke up in a hospital with one of his arms and horns replaced by mechanical versions, and a note saying that they were a gift for \"Pursuing a common goal.\" Lonestar and the inhabitants of Flexon thought he was dead, so his \"revival\" earned him the nickname: \"Deadlift\"."
+      },
+      {
+        "type": "paragraph",
+        "text": "Back on his quest to avenge the Bovinions, Deadlift joined the Awesomenauts after telling Blabl Zork that he could pull out solar drills with his bare hands. He's secretly planning his final strike to put the cowboy out of business for good."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "Between the times when the great Milk Sea drank Great Wisentia and the rise of the Calves of Moo-Noo, there was a beastly age on Flexon."
+      },
+      {
+        "type": "paragraph",
+        "text": "But hark! Here rises the Bullbarian from his long slumber! Having dined on raw meat and spiced milk, he sets off into the wild yonder. Kings beg for his services, witches tremble in his wake and gladiators shake with fear as he approaches. Now, he finds himself with a stranger crew still as a band of Awesomenauts have plucked him from the mists of his bygone era."
+      },
+      {
+        "type": "paragraph",
+        "text": "The times may be unfamiliar to him, but one thing is unchanged: in battle, the mightiest hoof still wins."
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Deadlift in Awesomenauts. You need to have Deadlift available as a playable character in order to access the skin in-game. Owning this skin will also unlock the special portrait for use in-game. This skin contains a fully customized voice set! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Deadlift the looks of an archetypical barbarian. He is shirtless, displaying glyph-like team-colored tattoos on his body and has a scar over one eye. While on blue team only, his fur has a darker shade of brown. His golden arm is replaced with a normal one and has a stone bracelet with spikes on it."
+      },
+      {
+        "type": "paragraph",
+        "text": "He is wearing team-colered pants and a large belt with a skull with tusks on it. The golden tip on his horn is gone. Instead it looks like the tip of the horn has been shattered. He also carries a large weapon (a sword on red team, a battle axe on blue team) on his back. This is purely cosmetic, however."
+      },
+      {
+        "type": "paragraph",
+        "text": "His Power Lunge is missing its hexagons for a less \"high tech\" look, Protective Pose has glyphs similar to his tattoos and a bull skull on it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with unique voice acting."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Althought Deadlift is the first member of the Bovinian species to actually appear in the game, Bovinians are teased ever since the initial version, in Lonestar's backstory.",
+          "Deadlift's theme song and killing spree theme are sung by Gianni Noten.",
+          "Deadlift is the first Awesomenaut to be released without any skins ever since skins were first introduced in the game in Patch 1.5."
+        ]
+      }
+    ],
+    "References": [],
+    "Gallery": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Deadlift preview 1.",
+          "Deadlift preview 2.",
+          "Deadlift preview 3.",
+          "Deadlift preview 4.",
+          "Deadlift official live reveal."
+        ]
+      }
+    ],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Iron Slam alternates between a medium damage non-piercing swing and a high damage piercing swing. You can \"throw away\" the weaker swing by intentionally wasting it. This is especially useful if you've bought Sweat-Wow-Band.",
+          "Power Lunge is Deadlift's main source of damage, but it's also his only means of escape. Consider which is going to be more important before engaging.",
+          "Power Lunge's unique curved aiming can allow for some creative dodging and movement. Try dipping below a platform before suddenly leaping atop it, performing short upward lunges, or other unpredictable moves to throw enemies off. Pay close attention, though. The aiming line isn't perfect and Deadlift will still fall a short ways before lunging. Planning a complex line can be useful, but short, simple dashes are just as important, especially in a pinch.",
+          "Protective Pose is extremely powerful, but it won't last long in a large teamfight. Choosing the right time to activate it is important.",
+          "You don't need to keep your allies within Protective Pose for the full duration (in fact, that would be very difficult in combat), but make sure you can always position yourself to catch powerful attacks from your enemies.",
+          "Protective Pose can be canceled with a second press. Doing this can save some cooldown time when the shield isn't needed.",
+          "Deadlift can't teleport during Protective Pose, but he won't stop your allies from doing it. You can keep a low health ally safe while they teleport out.",
+          "Consider purchasing Sweat-Wow-Band or Poefluma Fly Swatter first. As a support/tank/fighter hybrid, Deadlift benefits greatly from the ability to heal himself early on."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Deadlift is more independent than other supports, so you don't need to protect him as closely as other 'Nauts.",
+          "Dive-heavy characters should stay near Deadlift when engaging. His Protective Pose can make any attack far safer.",
+          "Deadlift's Power Lunge can easily put him in a dangerous position should it miss. Be ready to help him if he gets stuck in the middle of the enemy team without his only means of escape.",
+          "Protective Pose can only shield you if you stay within its borders. Be aware of this when Deadlift activates it."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Deadlift doesn't have much health for a character of his speed and size once his Protective Pose is on cooldown. Bait it out, and attack him once he's open.",
+          "When Deadlift activates his Protective Pose, whittle it down with DPS abilities and auto-attacks, and save your heavy burst for when it's destroyed. However, be aware that Deadlift's upgrade Bovinion and Chicken Comic will slow you if you're within his shield. Make sure you know what upgrades he has before engaging him with his shield up.",
+          "Deadlift's shield protects him and his team from damage, but not Crowd Control. Use snares, slows, and stuns to lock his team down until the shield expires. Alternatively, use those things on exposed enemies, to prevent them from reaching Deadlift.",
+          "Power Lunge moves in a predictable path. Dodge it, and Deadlift will not only have wasted his best damage and escape ability, but he will also likely be out of position. Be careful however, when engaging him at melee range, as he can still use Power Lunge for a sudden burst of damage you may not have anticipated."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/deadlift-001-093aae50.webp",
+      "source_name": "Deadlift 001.png",
+      "alt": "Deadlift 001",
+      "width": 512,
+      "height": 435,
+      "format": "WEBP",
+      "sha256": "093aae5053e9b7c12f43ee4ad43ed516229a40d8be43f6cb0fd8ba132b78b89f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-crumple-leap-baea4437.webp",
+      "source_name": "UI Skillbutton Crumple Leap.png",
+      "alt": "UI Skillbutton Crumple Leap",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "baea44374d36768a6a9c7cb55759f2b7614c15775ddd95b32080eede2fededdf",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-crumple-attack-bf5355c6.webp",
+      "source_name": "UI Skillbutton Crumple Attack.png",
+      "alt": "UI Skillbutton Crumple Attack",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "bf5355c6c4d418adaad9435bcd206a682f966c0e632cf73b946e8363785c17c6",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-crumple-shield-2a95659b.webp",
+      "source_name": "UI Skillbutton Crumple Shield.png",
+      "alt": "UI Skillbutton Crumple Shield",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "2a95659ba382ca6124bdd71bd457754cd3552e8b5eb663fab038900dbb61ba73",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-crumple-jump-39193c29.webp",
+      "source_name": "UI Skillbutton Crumple Jump.png",
+      "alt": "UI Skillbutton Crumple Jump",
+      "width": 256,
+      "height": 256,
+      "format": "WEBP",
+      "sha256": "39193c2936cd802859f6b5c201595082c1554ccba1dd14d944b9648e7f49fd92",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-crumple-skill-a-upgrade-a-d233efda.webp",
+      "source_name": "Shop icons crumple skill a upgrade a.png",
+      "alt": "Shop icons crumple skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "d233efda6863d12bc0aabd076f350c1173d0a22aa09eaa2e24adde62edffc01b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-crumple-skill-a-upgrade-b-314eeae6.webp",
+      "source_name": "Shop icons crumple skill a upgrade b.png",
+      "alt": "Shop icons crumple skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "314eeae67b1c499805a637703c7bef22674d0d153393f69b6ae4706002edd57b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-crumple-skill-a-upgrade-d-34c4ae5a.webp",
+      "source_name": "Shop icons crumple skill a upgrade d.png",
+      "alt": "Shop icons crumple skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "34c4ae5ad28f383342618e0e2d32a820fc05e6bec26a3af94b89329586e67749",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-crumple-skill-a-upgrade-c-a6d06e6d.webp",
+      "source_name": "Shop icons crumple skill a upgrade c.png",
+      "alt": "Shop icons crumple skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a6d06e6d6e275e3a440fa08164e3597bf842ef683fc3fe8a1510b4d58101ab62",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-crumple-skill-a-upgrade-e-a97a288e.webp",
+      "source_name": "Shop icons crumple skill a upgrade e.png",
+      "alt": "Shop icons crumple skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "a97a288e12008fae8ebefca0548f289f63f7ed5291ff26e82b26f98a5b94c922",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-crumple-skill-a-upgrade-f-bd584668.webp",
+      "source_name": "Shop icons crumple skill a upgrade f.png",
+      "alt": "Shop icons crumple skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bd5846689409c2dc943d68b96a51c49b14461516f9d0a51dfe87b5c0a2e623e9",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-crumple-skill-b-upgrade-a-3a775d8d.webp",
+      "source_name": "Shop icons crumple skill b upgrade a.png",
+      "alt": "Shop icons crumple skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3a775d8d58662bd3a98cf77a953d86a5988880487b51f7c71b3dda0bb4bac78d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-crumple-skill-b-upgrade-b-f3dacaaf.webp",
+      "source_name": "Shop icons crumple skill b upgrade b.png",
+      "alt": "Shop icons crumple skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f3dacaaf823d5fdf4c24d78dbdf77173da8fb1ecaa6e767bd1a435f9eb667fa3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-crumple-skill-b-upgrade-c-f7b36e9b.webp",
+      "source_name": "Shop icons crumple skill b upgrade c.png",
+      "alt": "Shop icons crumple skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f7b36e9b4369e2ff9b3dc1c1dd65a739152449d14c304a94bc4f7d1f1ed9f629",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-crumple-skill-b-upgrade-d-b6e9b633.webp",
+      "source_name": "Shop icons crumple skill b upgrade d.png",
+      "alt": "Shop icons crumple skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b6e9b63320a3150636c96d93a320982bd2e6ee30837a75c912090c592e4373dc",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-crumple-skill-b-upgrade-e-27e16147.webp",
+      "source_name": "Shop icons crumple skill b upgrade e.png",
+      "alt": "Shop icons crumple skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "27e16147e44a367747149a72aa99a301ab0086857dc73e0a5084fd99c5954ef5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-crumple-skill-b-upgrade-f-7294e870.webp",
+      "source_name": "Shop icons crumple skill b upgrade f.png",
+      "alt": "Shop icons crumple skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7294e870c719bb87a24330d6b36048ef6b59d3e449456ba66a72e2edcf2e511f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-crumple-skill-c-upgrade-a-cdee2582.webp",
+      "source_name": "Shop icons crumple skill c upgrade a.png",
+      "alt": "Shop icons crumple skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "cdee25821aaaa40d7ae37f3bfc8141d43450a3b8ebe0d69798ecda2b5d3eb141",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-crumple-skill-c-upgrade-b-4a1c0cd3.webp",
+      "source_name": "Shop icons crumple skill c upgrade b.png",
+      "alt": "Shop icons crumple skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4a1c0cd39c890255b48fa5f4ff586d614d07f12a14a928ce576e1638cb7fbf5a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-crumple-skill-c-upgrade-c-72684e6f.webp",
+      "source_name": "Shop icons crumple skill c upgrade c.png",
+      "alt": "Shop icons crumple skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "72684e6fdcebc90cf9a0bdd8cb2d88cb0904f6a213e864056af859941f525358",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-crumple-skill-c-upgrade-d-3315c98b.webp",
+      "source_name": "Shop icons crumple skill c upgrade d.png",
+      "alt": "Shop icons crumple skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "3315c98b33a6c77f4b1460fe756fe3f0808f2926900440023677a7efd99a6da8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-crumple-skill-c-upgrade-e-16fe145f.webp",
+      "source_name": "Shop icons crumple skill c upgrade e.png",
+      "alt": "Shop icons crumple skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "16fe145f42afeaaaca29f9f6ec4b56ceaca88e46d42139c8a977193494718b0e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-crumple-skill-c-upgrade-f-fc78cd5b.webp",
+      "source_name": "Shop icons crumple skill c upgrade f.png",
+      "alt": "Shop icons crumple skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fc78cd5bcf3aa4c2d2d5f98169e0592617be0ee869ceb3208e1db55fe6d1de4a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/deadlift-002-bullbarian-039bb34f.webp",
+      "source_name": "Deadlift 002 Bullbarian.png",
+      "alt": "Deadlift 002 Bullbarian",
+      "width": 200,
+      "height": 184,
+      "format": "WEBP",
+      "sha256": "039bb34fea915bab1bc69381092070c2f5e721de00280b3ab5e5fa3db576ba77",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/naut29preview2-66f06c59.webp",
+      "source_name": "Naut29preview2.jpg",
+      "alt": "Deadlift preview 1.",
+      "width": 120,
+      "height": 68,
+      "format": "WEBP",
+      "sha256": "66f06c59304de33069ad5699e224c84dc3a72bcfa600ad9f58b310fce3f5fb1c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/naut29preview1-6897e0d3.webp",
+      "source_name": "Naut29preview1.jpg",
+      "alt": "Deadlift preview 2.",
+      "width": 120,
+      "height": 68,
+      "format": "WEBP",
+      "sha256": "6897e0d3bf82f330302e36cd501c26cc6174e5fd70f22b54f4d728ea2e88a804",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/naut29preview3-a5506814.webp",
+      "source_name": "Naut29preview3.jpg",
+      "alt": "Deadlift preview 3.",
+      "width": 120,
+      "height": 68,
+      "format": "WEBP",
+      "sha256": "a55068148824d0e6c37f8ca434bf58ace7258128b9176ce970712b86e5411683",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/naut29preview4-5a2f2f1e.webp",
+      "source_name": "Naut29preview4.png",
+      "alt": "Deadlift preview 4.",
+      "width": 120,
+      "height": 72,
+      "format": "WEBP",
+      "sha256": "5a2f2f1ea86860319395ec894da202d79c425e71645b1d8aaf2f2f99655f2489",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/naut29reveal-f157436b.webp",
+      "source_name": "Naut29reveal.png",
+      "alt": "Deadlift official live reveal.",
+      "width": 120,
+      "height": 114,
+      "format": "WEBP",
+      "sha256": "f157436b604e96b88b796658db5d46ef3458d42ab8a5dc68311590f199f4308a",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "missing_lazy_image",
+        "image": "Deadliftingamered.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/f/fc/Deadliftingamered.png/revision/latest/scale-to-width-down/180?cb=20170309121652"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Deadliftingameblue.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/5/5e/Deadliftingameblue.png/revision/latest/scale-to-width-down/180?cb=20170309121657"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Bullbariandeadliftingamered.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/3/35/Bullbariandeadliftingamered.png/revision/latest/scale-to-width-down/180?cb=20170615162059"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Bullbariandeadliftingameblue.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/2/26/Bullbariandeadliftingameblue.png/revision/latest/scale-to-width-down/180?cb=20170615162105"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "Ui minimap player crumple 0.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/f/fb/Ui_minimap_player_crumple_0.png/revision/latest?cb=20170209134027"
+      },
+      {
+        "code": "missing_lazy_image",
+        "image": "IconCharacterCrumpleresized.png",
+        "url": "https://static.wikia.nocookie.net/awesomenauts_gamepedia/images/c/ce/IconCharacterCrumpleresized.png/revision/latest?cb=20170209134342"
+      },
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Bullbarian Deadlift Quotes"
+    ],
+    "status": "partial"
+  }
+}

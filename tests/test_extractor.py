@@ -8,6 +8,21 @@ from lxml import html
 from extract_naut import AssetExtractor,extract,slug,pairs,excluded_section
 
 class ExtractorTests(unittest.TestCase):
+    def test_utf8_title_and_character_named_upgrade_icons(self):
+        buffer=BytesIO();Image.new('RGB',(4,4)).save(buffer,'PNG')
+        uri='data:image/png;base64,'+base64.b64encode(buffer.getvalue()).decode()
+        snapshot=f'''<h1 id="firstHeading">Skølldir</h1><div id="mw-content-text">
+          <table class="framed-table"><tr><th>Stats</th></tr><tr><td>Health</td><td>100</td></tr></table>
+          <table class="filled"><tr><td><span class="Skill-Icon"><a href="/wiki/Punch" title="Punch"><img src="{uri}" data-image-name="Skolldir Skill1.png"></a></span></td>
+          <td><span class="Skill-Icon"><a href="/wiki/Gloves" title="Gloves"><img src="{uri}" data-image-name="Skolldir Skill1-1.png"></a></span></td></tr></table></div>'''
+        with tempfile.TemporaryDirectory() as directory:
+            p=Path(directory)/'page.html';p.write_text(snapshot,encoding='utf-8')
+            data=extract(p,Path(directory)/'out')
+            self.assertEqual(data['name'],'Skølldir')
+            self.assertEqual(data['slug'],'skolldir')
+            self.assertEqual([i['name'] for i in data['items']],['Gloves'])
+            self.assertEqual(data['items'][0]['group'],'Punch')
+
     def test_skin_quote_sections_are_excluded(self):
         self.assertTrue(excluded_section('Quotes'))
         self.assertTrue(excluded_section('Skull Chopper Chucho Quotes'))

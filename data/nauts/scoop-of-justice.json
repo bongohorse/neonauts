@@ -1,0 +1,1045 @@
+{
+  "schema_version": 1,
+  "name": "Scoop of Justice",
+  "slug": "scoop-of-justice",
+  "source": {
+    "filename": "Scoop.of.Justice.-.Official.Awesomenauts.Wiki.10.10.2026.17.56.13.html",
+    "url": "https://awesomenauts.fandom.com/wiki/Scoop_of_Justice",
+    "sha256": "8033fa6bc6cbf22e85cf1363d0b2661b4b56978774886a779991ca2747e2182c",
+    "size_bytes": 2955452
+  },
+  "stats": [
+    {
+      "label": "Health",
+      "value": "1600 (2816)"
+    },
+    {
+      "label": "Movement Speed",
+      "value": "7.8"
+    },
+    {
+      "label": "Attack Type",
+      "value": "Melee"
+    },
+    {
+      "label": "Role",
+      "value": "Tank"
+    },
+    {
+      "label": "Mobility",
+      "value": "Balanced"
+    }
+  ],
+  "metadata": {
+    "Difficulty": "Easy",
+    "Development Name": "Paladin",
+    "Type of abilities": "Area of Effect , Healing , Ensnare , Lifesteal",
+    "Release Date": "October 23rd 2014"
+  },
+  "portrait_asset": "asset-001",
+  "abilities": [
+    {
+      "name": "Frozen Hammer",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Frozen_Hammer",
+      "description": "Throw out a hammer of ice that snares multiple enemies. The longer it flies, the more damage you deal and the longer the snare lasts.",
+      "values": [
+        {
+          "label": "Minimum Damage",
+          "value": "150 (235.5)"
+        },
+        {
+          "label": "Maximum Damage",
+          "value": "230 (361.1)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "7.5s"
+        },
+        {
+          "label": "Minimum snare duration",
+          "value": "0.2s"
+        },
+        {
+          "label": "Maximum snare duration",
+          "value": "0.8s"
+        },
+        {
+          "label": "Range",
+          "value": "17"
+        }
+      ],
+      "icon_asset": "asset-002"
+    },
+    {
+      "name": "Sword Strike",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Sword_Strike",
+      "description": "Scoop alternates between a direct slash and a sweeping cleave attack that heals you.",
+      "values": [
+        {
+          "label": "Slash Damage",
+          "value": "105 (164.85)"
+        },
+        {
+          "label": "Attack speed",
+          "value": "144"
+        },
+        {
+          "label": "Range",
+          "value": "3.4"
+        },
+        {
+          "label": "Cleave Damage",
+          "value": "60 (94.2)"
+        },
+        {
+          "label": "Attack speed",
+          "value": "132"
+        },
+        {
+          "label": "Range",
+          "value": "3.9"
+        },
+        {
+          "label": "Lifesteal",
+          "value": "30%"
+        }
+      ],
+      "icon_asset": "asset-003"
+    },
+    {
+      "name": "Binding Of Justice",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Binding_Of_Justice",
+      "description": "Wrap yourself in healing bindings which heal you and damage your enemies.",
+      "values": [
+        {
+          "label": "Damage",
+          "value": "180 (282.6)"
+        },
+        {
+          "label": "Heal",
+          "value": "300 (471)"
+        },
+        {
+          "label": "Cooldown",
+          "value": "13.5s"
+        },
+        {
+          "label": "Explosion radius",
+          "value": "9"
+        },
+        {
+          "label": "Charge time",
+          "value": "1s"
+        }
+      ],
+      "icon_asset": "asset-004"
+    },
+    {
+      "name": "Wobbling Jump",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Wobbling_Jump",
+      "description": "Being a gelatinous being helps in performing high wobbling jumps.",
+      "values": [
+        {
+          "label": "Jump Height",
+          "value": "7.8"
+        },
+        {
+          "label": "Jumps",
+          "value": "1"
+        }
+      ],
+      "icon_asset": "asset-005"
+    }
+  ],
+  "items": [
+    {
+      "name": "Fruity Sprinkles",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Fruity_Sprinkles",
+      "group": "Frozen Hammer",
+      "icon_asset": "asset-006",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Brutally Whipped Cream",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Brutally_Whipped_Cream",
+      "group": "Frozen Hammer",
+      "icon_asset": "asset-007",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Twister Lance",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Twister_Lance",
+      "group": "Frozen Hammer",
+      "icon_asset": "asset-008",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Ice Cream Van Music",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Ice_Cream_Van_Music",
+      "group": "Frozen Hammer",
+      "icon_asset": "asset-009",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Snow Shovel",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Snow_Shovel",
+      "group": "Frozen Hammer",
+      "icon_asset": "asset-010",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Yellow Snow Cone",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Yellow_Snow_Cone",
+      "group": "Frozen Hammer",
+      "icon_asset": "asset-011",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Milk Of Righteousness",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Milk_Of_Righteousness",
+      "group": "Binding Of Justice",
+      "icon_asset": "asset-012",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Banner Of The Triple Scoop",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Banner_Of_The_Triple_Scoop",
+      "group": "Binding Of Justice",
+      "icon_asset": "asset-013",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Idol Of The Ice Queen",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Idol_Of_The_Ice_Queen",
+      "group": "Binding Of Justice",
+      "icon_asset": "asset-014",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Penguin Throne",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Penguin_Throne",
+      "group": "Binding Of Justice",
+      "icon_asset": "asset-015",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Penguin Squire",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Penguin_Squire",
+      "group": "Binding Of Justice",
+      "icon_asset": "asset-016",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "The Holy Cup",
+      "source_url": "https://awesomenauts.fandom.com/wiki/The_Holy_Cup",
+      "group": "Binding Of Justice",
+      "icon_asset": "asset-017",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Chain Mail Tunic",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Chain_Mail_Tunic",
+      "group": "Sword Strike",
+      "icon_asset": "asset-018",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Royal Sword In The Cream",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Royal_Sword_In_The_Cream",
+      "group": "Sword Strike",
+      "icon_asset": "asset-019",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Spoonman",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Spoonman",
+      "group": "Sword Strike",
+      "icon_asset": "asset-020",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Double Licker Sword",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Double_Licker_Sword",
+      "group": "Sword Strike",
+      "icon_asset": "asset-021",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Halberd Of Justice",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Halberd_Of_Justice",
+      "group": "Sword Strike",
+      "icon_asset": "asset-022",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Titanium Coneshield",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Titanium_Coneshield",
+      "group": "Sword Strike",
+      "icon_asset": "asset-023",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Power Pills Turbo",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Power_Pills_Turbo",
+      "group": "Wobbling Jump",
+      "icon_asset": "asset-024",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Med-i'-can",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Med-i%27-can",
+      "group": "Wobbling Jump",
+      "icon_asset": "asset-025",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Space Air Max",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Space_Air_Max",
+      "group": "Wobbling Jump",
+      "icon_asset": "asset-026",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Barrier Magazine",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Barrier_Magazine",
+      "group": "Wobbling Jump",
+      "icon_asset": "asset-027",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Piggy Bank",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Piggy_Bank",
+      "group": "Wobbling Jump",
+      "icon_asset": "asset-028",
+      "cost": null,
+      "effects": null
+    },
+    {
+      "name": "Baby Kuri Mammoth",
+      "source_url": "https://awesomenauts.fandom.com/wiki/Baby_Kuri_Mammoth",
+      "group": "Wobbling Jump",
+      "icon_asset": "asset-029",
+      "cost": null,
+      "effects": null
+    }
+  ],
+  "skins": [
+    {
+      "name": "Wraithlord Scoop",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Once an avatar of Justice itself, Wraithlord Scoop is the twisted resurrection of a once benevolent warrior. On his new dark path this once noble spirit has now been consumed by an unending vengeance. Ancient prophecies have been discovered that speak of the Wraithlord's legendary dark weapon, Doomblade. It is said that unless a being of pure spirit exorcises this Doomblade, the dark powers within it resurrect the Wraithlord each time he is slain... - Official Steam Store descrption."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Scoop the looks of an archetypical death knight with dark skull-shaped armor, claw-shaped gauntlets sharped shoulderplates and a hood. His normal grin is replaced with clenched teeth and he looks ghostly instead of made of gelatin. His sword has a different design as well. Wraithlord Scoop also leaves behind a trail of smoke whenever he moves."
+        },
+        {
+          "type": "paragraph",
+          "text": "Frozen Hammer looks more detailed and has a skull engraved on it. Binding of Justice also has a different animation, with strips of fabric coming out of Scoop in a pattern."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with custom voice acting and voice lines."
+        }
+      ],
+      "assets": [
+        "asset-040"
+      ]
+    },
+    {
+      "name": "Roboscoop",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Note: RoboScoop is only available as a special event and cannot not be bought. Developers have confirmed he will never be purchasable"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the dystopic and crime-ridden Omicron dimension, a terminally delicious cop returns to the Awesomenauts as a powerful Gelati cyborg haunted by submerged dreams of long lost chocolate… The Killer Koala’s expand their formidable team once more with the arrival of RoboScoop. Are you ready? - Official 2.9 Patchlog"
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin is a robotic version of Scoop. He seems to be a reference to the RoboCop[21] series. He is composed of a yellow body, team themed secondary colors and tertiary colors. He gains a glowing visor and a set of futuristic armor. The armor has a strap over the shoulder and a kilt at the bottom. Instead of a right arm, he simply has a metal rod that is jointed into a hammer. His left arm becomes metallic and ends with a glove. His sword gains a handguard and the main blade is now made of a laser between two rods, which leaves an afterimage. He leaves behind a hexagonal pattern in his movement and skills."
+        },
+        {
+          "type": "paragraph",
+          "text": "Frozen Hammer now has a single stripe and has X's on the sides and O's on the bases. Binding looks almost identical with the exception of hexagons printed on it. Sword swings make lightsaber-like sound effects when swung, hammer makes a phase-like sound, and bindings make a electric charging sound when starting up and an electric discharge when ending."
+        }
+      ],
+      "assets": [
+        "asset-041"
+      ]
+    },
+    {
+      "name": "Bravely Scoop IV: Eternal Fantasy",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A hero's journey is filled with many great challenges. Like saving the townfolk from a mysterious invading army from another dimension, that's headed up by a hooded figure who's actually being manipulated by an otherworldly dragon who'll morph into a demon when close to being defeated. It's all in a day's work for Bravely Scoop in Bravely Scoop IV: Eternal Fantasy!"
+        },
+        {
+          "type": "paragraph",
+          "text": "This DLC contains a custom skin for Scoop in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description."
+        },
+        {
+          "type": "paragraph",
+          "text": "This skin gives Scoop leather armour with fur lining, belts, buckles, a satchel, and a potion. His shoulder pads become metallic grey with bolts on them and he wears a glove on his off-hand. He has spiky hair which is blonde on red team and purple on blue. His sword is changed to resembled the Buster Sword[22]."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sword Slash has new sound effects, and the sword glows green while it's being swung. Two \"Skooples\" appear beside Scoop during Binding of Justice. The swords from Banner of the Triple Scoop are also changed into Buster Swords. Frozen Hammer has additional details added to it. In addition to raising his sword while teleporting, Scoop now opens a menu with the options \"Attack\", \"Justice\", and \"Teleport\", and chooses teleport."
+        },
+        {
+          "type": "paragraph",
+          "text": "Being premium, this skin comes with custom voice acting and voice lines."
+        }
+      ],
+      "assets": [
+        "asset-042"
+      ]
+    }
+  ],
+  "sections": {
+    "Backstory": [
+      {
+        "type": "paragraph",
+        "text": "The Scoop of Justice or Scoop for short, is a brave Gelati knight. The Gelati are brilliant craftsmen famous for their delicious Castle Ice Cream. The gelatinous knights gather snow and ice from different planets and mix them with sweet candies and fruits. Although cocoa trees haven't been seen for ages and they are thought to be extinct, the Gelati see it as their holy duty to find a real piece of chocolate and create the ultimate flavour of ice cream: stracciatella."
+      },
+      {
+        "type": "paragraph",
+        "text": "On AI Station 205 the Awesomenauts are gathered to protect the universe from the dangerous 'Sisterhood of Coba'. The Sisterhood is planning an invasion from the Omicron dimension, using a space bridge in the eye of the space storm. Scoop was assigned by the lords of his house, the house of the triple scoop, to aid the Awesomenauts in protecting the universe from the new Omicron threat. Secretly Scoop also hopes to find a chocolate bar on one of Zork's vendor machines."
+      }
+    ],
+    "Nauts In-Game Look": [],
+    "Skin Information": [
+      {
+        "type": "paragraph",
+        "text": "Once an avatar of Justice itself, Wraithlord Scoop is the twisted resurrection of a once benevolent warrior. On his new dark path this once noble spirit has now been consumed by an unending vengeance. Ancient prophecies have been discovered that speak of the Wraithlord's legendary dark weapon, Doomblade. It is said that unless a being of pure spirit exorcises this Doomblade, the dark powers within it resurrect the Wraithlord each time he is slain... - Official Steam Store descrption."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Scoop the looks of an archetypical death knight with dark skull-shaped armor, claw-shaped gauntlets sharped shoulderplates and a hood. His normal grin is replaced with clenched teeth and he looks ghostly instead of made of gelatin. His sword has a different design as well. Wraithlord Scoop also leaves behind a trail of smoke whenever he moves."
+      },
+      {
+        "type": "paragraph",
+        "text": "Frozen Hammer looks more detailed and has a skull engraved on it. Binding of Justice also has a different animation, with strips of fabric coming out of Scoop in a pattern."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with custom voice acting and voice lines."
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: RoboScoop is only available as a special event and cannot not be bought. Developers have confirmed he will never be purchasable"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the dystopic and crime-ridden Omicron dimension, a terminally delicious cop returns to the Awesomenauts as a powerful Gelati cyborg haunted by submerged dreams of long lost chocolate… The Killer Koala’s expand their formidable team once more with the arrival of RoboScoop. Are you ready? - Official 2.9 Patchlog"
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin is a robotic version of Scoop. He seems to be a reference to the RoboCop[21] series. He is composed of a yellow body, team themed secondary colors and tertiary colors. He gains a glowing visor and a set of futuristic armor. The armor has a strap over the shoulder and a kilt at the bottom. Instead of a right arm, he simply has a metal rod that is jointed into a hammer. His left arm becomes metallic and ends with a glove. His sword gains a handguard and the main blade is now made of a laser between two rods, which leaves an afterimage. He leaves behind a hexagonal pattern in his movement and skills."
+      },
+      {
+        "type": "paragraph",
+        "text": "Frozen Hammer now has a single stripe and has X's on the sides and O's on the bases. Binding looks almost identical with the exception of hexagons printed on it. Sword swings make lightsaber-like sound effects when swung, hammer makes a phase-like sound, and bindings make a electric charging sound when starting up and an electric discharge when ending."
+      },
+      {
+        "type": "paragraph",
+        "text": "A hero's journey is filled with many great challenges. Like saving the townfolk from a mysterious invading army from another dimension, that's headed up by a hooded figure who's actually being manipulated by an otherworldly dragon who'll morph into a demon when close to being defeated. It's all in a day's work for Bravely Scoop in Bravely Scoop IV: Eternal Fantasy!"
+      },
+      {
+        "type": "paragraph",
+        "text": "This DLC contains a custom skin for Scoop in Awesomenauts, and comes with a fully customized voice set! - Official Steam Store description."
+      },
+      {
+        "type": "paragraph",
+        "text": "This skin gives Scoop leather armour with fur lining, belts, buckles, a satchel, and a potion. His shoulder pads become metallic grey with bolts on them and he wears a glove on his off-hand. He has spiky hair which is blonde on red team and purple on blue. His sword is changed to resembled the Buster Sword[22]."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sword Slash has new sound effects, and the sword glows green while it's being swung. Two \"Skooples\" appear beside Scoop during Binding of Justice. The swords from Banner of the Triple Scoop are also changed into Buster Swords. Frozen Hammer has additional details added to it. In addition to raising his sword while teleporting, Scoop now opens a menu with the options \"Attack\", \"Justice\", and \"Teleport\", and chooses teleport."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being premium, this skin comes with custom voice acting and voice lines."
+      }
+    ],
+    "Awesomenaut Showcase": [],
+    "Trivia": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Scoop is a character that was intentionally designed to be beginner friendly, in order to ease new players into the game.",
+          "Scoop's theme was made using an actual trumpet. It is not digitized.",
+          "Scoop's sword can be seen impaled in a worm in the background of AI Station 205. This was originally a teaser, added prior to his announcement.",
+          "The backstory and voice lines of Wraithlord Scoop seem to reference the story of Prince Arthas[23] from the Warcraft[24] franchise.",
+          "RoboScoop's name and backstory seem to reference the RoboCop movie series.",
+          "RoboScoop is the fifth member of the Killer Koalas.",
+          "RoboScoop is the only skin that cannot be directly purchased or obtained via downloads.",
+          "Wraithlord Scoop is the first premium skin to have an announcer based on it.",
+          "Bravely Scoop IV: Eternal Fantasy's name is a reference to Bravely Default[25] and Final Fantasy[26].",
+          "Scoop is one of the \"beginner nauts\" and, as such, is can be played for free by players who are below profile level 8."
+        ]
+      }
+    ],
+    "References": [],
+    "Playing As:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "With a large enough health pool, a powerful ranged ability and multiple ways of healing himself, Scoop is a suitable 'naut for beginners.",
+          "Confused by the Sword Strike animation? The vertical attacks are \"cleaves\" and will damage and lifesteal from all targets hit for lower damage, while the horizontal attacks are \"slashes\" and will hit just one target with no lifesteal for higher damage.",
+          "Remember: Frozen Hammer increases in damage and snare duration the further it travels. Learn its maximum range to use it at its full power as often as possible.",
+          "Frozen Hammer will bounce off of terrain, but not off of glass platforms. Keep that in mind so your hammer doesn't go where you don't want it to.",
+          "Frozen Hammer can hit multiple targets at once, but it will not hit the same target twice.",
+          "Using Yellow Snow Cone may make it easier for you to reach your enemies for a damaging Binding Of Justice and/or Sword Strikes. It is great for escaping enemies as well.",
+          "Binding Of Justice will heal you AND damage nearby enemies once it finishes charging up. Use it to turn the tables on your opponents.",
+          "Consider taking The Holy Cup to heal your teammates, if they're having trouble surviving or staying in the lane.",
+          "Since cleaving strikes can hit multiple targets, try and use Sword Strike in crowds of enemies such as droids.",
+          "It is possible to become a more powerful brawler by purchasing upgrades such as The Penguin Throne and Titanium Coneshield."
+        ]
+      }
+    ],
+    "Playing With:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Support-oriented 'nauts may find it more viable to use slightly more aggressive loadouts, as Scoop has several ways of sustaining himself.",
+          "If your ability is hard to land, try to save it for when Scoop snares your enemies with Frozen Hammer.",
+          "Scoop is generally not great when it comes to pushing, so consider picking a 'naut that can compensate for this weakness.",
+          "Stay close to Scoop if he has upgrades like Spoonman and The Holy Cup. It'll benefit the both of you."
+        ]
+      }
+    ],
+    "Playing Against:": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Avoid dueling Scoop near your own droids: he has innate lifesteal.",
+          "Beware of Frozen Hammer: it has a deceptively large hitbox.",
+          "With a relatively large amount of health, innate lifesteal that can be further improved and four different healing effects, one of which is innate, Scoop may be very difficult to kill. Try approaching him with your team and bursting him down.",
+          "Scoop may have lots of upgrades aimed of survivability, but his overall damage output isn't among the highest at the beginning of the game. Try to disrupt his farm or even kill him, before he can become a more serious threat.",
+          "Banner Of The Triple Scoop is more dangerous than it may look. Avoid being close to Scoop before he's used his Binding Of Justice at all costs.",
+          "Avoid being lined/grouped up against Scoop, or your whole team may end up snared.",
+          "Scoop has a lot of sustain, but low health (for a tank) and no shields. Use burst damage to kill him more reliably.",
+          "If you have access to displacement or knockback abilities, separating Scoop from his teammates will deny him the Spoonman bonus if he's using this upgrade.",
+          "Use silencing effects to prevent Scoop from healing with Binding Of Justice.",
+          "Binding Of Justice is Scoop's best burst option, but it's also his most powerful sustain. Try to draw it out of him before using your burst so he doesn't benefit from the healing as much.",
+          "The Holy Cup enables Scoop to heal his teammates for a fraction of the effect using Binding Of Justice. Be careful when engaging his team, or he may turn the tables on your own team."
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "path": "assets/characterrender-paladin-c7887e99.webp",
+      "source_name": "CharacterRender Paladin.png",
+      "alt": "CharacterRender Paladin",
+      "width": 512,
+      "height": 392,
+      "format": "WEBP",
+      "sha256": "c7887e9976fd26f8c09231f486683ed03e48380f4b39ce014006b04fb2eb0225",
+      "storage": "src"
+    },
+    {
+      "id": "asset-002",
+      "path": "assets/ui-skillbutton-paladin-hammer-4dac805d.webp",
+      "source_name": "UI Skillbutton Paladin Hammer.png",
+      "alt": "UI Skillbutton Paladin Hammer",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4dac805d082e24b3af0f8e79e7f606dc2ef1940d276b12c66d53eaff6e60066b",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-003",
+      "path": "assets/ui-skillbutton-paladin-attack-5a2390d9.webp",
+      "source_name": "UI Skillbutton Paladin Attack.png",
+      "alt": "UI Skillbutton Paladin Attack",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5a2390d991ee90aa2fd6885116405440edd15c25473c0e4efecaf47bc22e214a",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-004",
+      "path": "assets/ui-skillbutton-paladin-heal-7eee6040.webp",
+      "source_name": "UI Skillbutton Paladin Heal.png",
+      "alt": "UI Skillbutton Paladin Heal",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "7eee60408ef8edec020c614e8e5381e83e4806e2a7cb3ec57de056568e02a1a8",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-005",
+      "path": "assets/ui-skillbutton-paladin-jump-c5085db4.webp",
+      "source_name": "UI Skillbutton Paladin Jump.png",
+      "alt": "UI Skillbutton Paladin Jump",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c5085db46c6254f42ca8d03d7092a6e5c71666b97e492b8b000486bc4b0ad620",
+      "storage": "css-variable"
+    },
+    {
+      "id": "asset-006",
+      "path": "assets/shop-icons-paladin-skill-a-upgrade-a-c89cee70.webp",
+      "source_name": "Shop Icons Paladin skill a upgrade a.png",
+      "alt": "Shop Icons Paladin skill a upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c89cee702ee2b4fa5032cf2e7295bb24ee9b84264443c9de9e600ac73bd1e7f5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-007",
+      "path": "assets/shop-icons-paladin-skill-a-upgrade-b-dee5e771.webp",
+      "source_name": "Shop Icons Paladin skill a upgrade b.png",
+      "alt": "Shop Icons Paladin skill a upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "dee5e771b0bf4eafbbce781468f2d2dfb486904aded4661162692e0b8b846c11",
+      "storage": "src"
+    },
+    {
+      "id": "asset-008",
+      "path": "assets/shop-icons-paladin-skill-a-upgrade-c-347c1ce5.webp",
+      "source_name": "Shop Icons Paladin skill a upgrade c.png",
+      "alt": "Shop Icons Paladin skill a upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "347c1ce5b4f1e60fe37494db72db69960a47b533986e1c4b2b3501423df2ed00",
+      "storage": "src"
+    },
+    {
+      "id": "asset-009",
+      "path": "assets/shop-icons-paladin-skill-a-upgrade-d-405930ee.webp",
+      "source_name": "Shop Icons Paladin skill a upgrade d.png",
+      "alt": "Shop Icons Paladin skill a upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "405930ee92f9d3db8adb3a0cc9608881a3ae17466775f30d2894fba7f8fff46d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-010",
+      "path": "assets/shop-icons-paladin-skill-a-upgrade-e-b7857a4c.webp",
+      "source_name": "Shop Icons Paladin skill a upgrade e.png",
+      "alt": "Shop Icons Paladin skill a upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "b7857a4ce324d38167a1fad3cf21b7ca5f67b065b68c9d7b9069533d9b88685a",
+      "storage": "src"
+    },
+    {
+      "id": "asset-011",
+      "path": "assets/shop-icons-paladin-skill-a-upgrade-f-4e030db3.webp",
+      "source_name": "Shop Icons Paladin skill a upgrade f.png",
+      "alt": "Shop Icons Paladin skill a upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "4e030db3c773185c375745727cbcf16c65181880a1c5f9a0d808efc6c90454a0",
+      "storage": "src"
+    },
+    {
+      "id": "asset-012",
+      "path": "assets/shop-icons-paladin-skill-b-upgrade-a-fcf8f5a4.webp",
+      "source_name": "Shop Icons Paladin skill b upgrade a.png",
+      "alt": "Shop Icons Paladin skill b upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "fcf8f5a4b03c274a936725acd5eea5849de369d4fad1a25314fdb7521460847b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-013",
+      "path": "assets/shop-icons-paladin-skill-b-upgrade-b-c0b48c65.webp",
+      "source_name": "Shop Icons Paladin skill b upgrade b.png",
+      "alt": "Shop Icons Paladin skill b upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "c0b48c658c0ef8973c6eadaa6d2951510238bd402c1960daf4e4d4764bd2f9c8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-014",
+      "path": "assets/shop-icons-paladin-skill-b-upgrade-c-efb67d18.webp",
+      "source_name": "Shop Icons Paladin skill b upgrade c.png",
+      "alt": "Shop Icons Paladin skill b upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "efb67d1806a33af2c41b5f79663004d5ce6239c7b4697bfacccecd4ccbe9410b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-015",
+      "path": "assets/shop-icons-paladin-skill-b-upgrade-d-f704646d.webp",
+      "source_name": "Shop Icons Paladin skill b upgrade d.png",
+      "alt": "Shop Icons Paladin skill b upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "f704646d8c5723378477b102af29e092dbd6107a7bfae28bf5450e8aeb8cfeaa",
+      "storage": "src"
+    },
+    {
+      "id": "asset-016",
+      "path": "assets/shop-icons-paladin-skill-b-upgrade-e-523bcbfb.webp",
+      "source_name": "Shop Icons Paladin skill b upgrade e.png",
+      "alt": "Shop Icons Paladin skill b upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "523bcbfb496cca07c0abdb510b13d60b3d80486e1c4bc88ce116e336db79679d",
+      "storage": "src"
+    },
+    {
+      "id": "asset-017",
+      "path": "assets/shop-icons-paladin-skill-b-upgrade-f-2287fd91.webp",
+      "source_name": "Shop Icons Paladin skill b upgrade f.png",
+      "alt": "Shop Icons Paladin skill b upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "2287fd91505444f642dd79fae51351c9a7d51196c27870919ef9ed150611be3c",
+      "storage": "src"
+    },
+    {
+      "id": "asset-018",
+      "path": "assets/shop-icons-paladin-skill-c-upgrade-a-39ecc7f5.webp",
+      "source_name": "Shop Icons Paladin skill c upgrade a.png",
+      "alt": "Shop Icons Paladin skill c upgrade a",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "39ecc7f5882d2b753b84ca986a4e30a476547bbc1552239a4b5e660144c1e535",
+      "storage": "src"
+    },
+    {
+      "id": "asset-019",
+      "path": "assets/shop-icons-paladin-skill-c-upgrade-b-6ef329a4.webp",
+      "source_name": "Shop Icons Paladin skill c upgrade b.png",
+      "alt": "Shop Icons Paladin skill c upgrade b",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "6ef329a40e0070dfecf92958dff56caa6a2f2e0099eac18ffc50ca9f96402928",
+      "storage": "src"
+    },
+    {
+      "id": "asset-020",
+      "path": "assets/shop-icons-paladin-skill-c-upgrade-c-84cd180e.webp",
+      "source_name": "Shop Icons Paladin skill c upgrade c.png",
+      "alt": "Shop Icons Paladin skill c upgrade c",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "84cd180e946346c8955d9402491fa0dff82e9daadd9b81d126777c4ff65791d7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-021",
+      "path": "assets/shop-icons-paladin-skill-c-upgrade-f-82227da9.webp",
+      "source_name": "Shop Icons Paladin skill c upgrade f.png",
+      "alt": "Shop Icons Paladin skill c upgrade f",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82227da9e5babf8fbdc36c534352a783e5a345e569aab049c66eb8466e33788b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-022",
+      "path": "assets/shop-icons-paladin-skill-c-upgrade-e-bfb58aed.webp",
+      "source_name": "Shop Icons Paladin skill c upgrade e.png",
+      "alt": "Shop Icons Paladin skill c upgrade e",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "bfb58aedbcb84c37d07f7c752fbb6ee3c57e8555ff2f965ace478571352509a7",
+      "storage": "src"
+    },
+    {
+      "id": "asset-023",
+      "path": "assets/shop-icons-paladin-skill-c-upgrade-d-29b128f5.webp",
+      "source_name": "Shop Icons Paladin skill c upgrade d.png",
+      "alt": "Shop Icons Paladin skill c upgrade d",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "29b128f55b6bfb102f060fb09f6662f35ea0819c5a0c924f083b6af330d6ed01",
+      "storage": "src"
+    },
+    {
+      "id": "asset-024",
+      "path": "assets/upgrade-power-pills-turbo-babbe0dc.webp",
+      "source_name": "Upgrade Power pills turbo.png",
+      "alt": "Upgrade Power pills turbo",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "babbe0dc1a6835f5714251fc59e3b0c5a599e6959c51c1cee6147063702553ba",
+      "storage": "src"
+    },
+    {
+      "id": "asset-025",
+      "path": "assets/upgrade-med-i-can-ee839a4a.webp",
+      "source_name": "Upgrade Med-i'-can.png",
+      "alt": "Upgrade Med-i'-can",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "ee839a4a68b1a02d29a9ccc414e297d64e7d6644a6e61d7846d0e56442ac304e",
+      "storage": "src"
+    },
+    {
+      "id": "asset-026",
+      "path": "assets/upgrade-space-air-max-1ae5d136.webp",
+      "source_name": "Upgrade Space air max.png",
+      "alt": "Upgrade Space air max",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "1ae5d1365dcc9de6348c8ac22647d0dca6bd814e399388aececaa25e9d57183f",
+      "storage": "src"
+    },
+    {
+      "id": "asset-027",
+      "path": "assets/shop-icons-overall-barrier-0e3ea3df.webp",
+      "source_name": "Shop Icons Overall Barrier.png",
+      "alt": "Shop Icons Overall Barrier",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "0e3ea3df38a8555bf11c56c2b06e3540402614f47ff3893e45380b23559a86a1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-028",
+      "path": "assets/upgrade-piggy-bank-82924a31.webp",
+      "source_name": "Upgrade Piggy bank.png",
+      "alt": "Upgrade Piggy bank",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "82924a313f8ac3c40e8e9faae65b2f9ad066e5c223b2d601a07b9721c460d0d8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-029",
+      "path": "assets/shop-icons-overall-ccreduction-5d9e64cd.webp",
+      "source_name": "Shop Icons Overall ccReduction.png",
+      "alt": "Shop Icons Overall ccReduction",
+      "width": 128,
+      "height": 128,
+      "format": "WEBP",
+      "sha256": "5d9e64cd286fb49698c465c382d9957fc5139e19fd67d65855fb7b8e89155183",
+      "storage": "src"
+    },
+    {
+      "id": "asset-030",
+      "path": "assets/defaultscoopredingame-7ff51008.webp",
+      "source_name": "Defaultscoopredingame.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 207,
+      "format": "WEBP",
+      "sha256": "7ff51008edb6a53dd395a99279ee2ea2a44d38349d9c7b564cc1a94ebb82feca",
+      "storage": "src"
+    },
+    {
+      "id": "asset-031",
+      "path": "assets/defaultscoopblueingame-e0111bb8.webp",
+      "source_name": "Defaultscoopblueingame.png",
+      "alt": "Default skin.",
+      "width": 180,
+      "height": 192,
+      "format": "WEBP",
+      "sha256": "e0111bb89d9aa784dcbedd04ef00cb6d588208a2d19cb742e1383469f9267239",
+      "storage": "src"
+    },
+    {
+      "id": "asset-032",
+      "path": "assets/wraithlordscoopredingame-6ef7e0d0.webp",
+      "source_name": "Wraithlordscoopredingame.png",
+      "alt": "Wraithlord Scoop.",
+      "width": 180,
+      "height": 181,
+      "format": "WEBP",
+      "sha256": "6ef7e0d09ad2ab1c4e4aab71b1eb909ebd0a200a64b5d4ed4de34e7581c523e4",
+      "storage": "src"
+    },
+    {
+      "id": "asset-033",
+      "path": "assets/wraithlordscoopblueingame-1dbbdea2.webp",
+      "source_name": "Wraithlordscoopblueingame.png",
+      "alt": "Wraithlord Scoop.",
+      "width": 180,
+      "height": 185,
+      "format": "WEBP",
+      "sha256": "1dbbdea2f62db6b50aac37f135dc5c51eb38fbcba55499d92cfabe66232656e8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-034",
+      "path": "assets/roboscoopingamered-eeefc24d.webp",
+      "source_name": "Roboscoopingamered.png",
+      "alt": "Roboscoop",
+      "width": 180,
+      "height": 168,
+      "format": "WEBP",
+      "sha256": "eeefc24d0f163e0406afda48c18f982b205f00ee9cd340ba5785814a17b6bec3",
+      "storage": "src"
+    },
+    {
+      "id": "asset-035",
+      "path": "assets/roboscoopingameblue-ab114ff5.webp",
+      "source_name": "Roboscoopingameblue.png",
+      "alt": "Roboscoop",
+      "width": 180,
+      "height": 189,
+      "format": "WEBP",
+      "sha256": "ab114ff576a1219f19675ab1d29254593f47d3101cacf4914042b129789c78b8",
+      "storage": "src"
+    },
+    {
+      "id": "asset-036",
+      "path": "assets/bravelyscoopingamered-1b9878f9.webp",
+      "source_name": "Bravelyscoopingamered.png",
+      "alt": "Bravely Scoop IV - Eternal Fantasy.",
+      "width": 180,
+      "height": 172,
+      "format": "WEBP",
+      "sha256": "1b9878f90d47137ff2f25efc339d1890f3974c514aa2a2d2865b03c0ad72f681",
+      "storage": "src"
+    },
+    {
+      "id": "asset-037",
+      "path": "assets/bravelyscoopingameblue-03382df7.webp",
+      "source_name": "Bravelyscoopingameblue.png",
+      "alt": "Bravely Scoop IV - Eternal Fantasy.",
+      "width": 180,
+      "height": 192,
+      "format": "WEBP",
+      "sha256": "03382df7933fc946f632be9d94d2f9225e6617e0ca2ff136f02e0b037f33843b",
+      "storage": "src"
+    },
+    {
+      "id": "asset-038",
+      "path": "assets/ui-minimap-player-paladin-0-9980810d.webp",
+      "source_name": "Ui minimap player paladin 0.png",
+      "alt": "Ui minimap player paladin 0",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "9980810d9e143e25d01e018ad451369d128a97996910a6e52df471fd7f1e73b5",
+      "storage": "src"
+    },
+    {
+      "id": "asset-039",
+      "path": "assets/classicon-paladin-022bdeda.webp",
+      "source_name": "Classicon Paladin.png",
+      "alt": "Classicon Paladin",
+      "width": 64,
+      "height": 64,
+      "format": "WEBP",
+      "sha256": "022bdedad4368acd8573a344d7f747e041269c7b14b572bb72c5360ef4cf3630",
+      "storage": "src"
+    },
+    {
+      "id": "asset-040",
+      "path": "assets/wraithlordscoopsplashart-28e9b846.webp",
+      "source_name": "Wraithlordscoopsplashart.png",
+      "alt": "Wraithlordscoopsplashart",
+      "width": 250,
+      "height": 227,
+      "format": "WEBP",
+      "sha256": "28e9b846c2eb04e2392d72a3bfd297caf800978abeb14523f9fa4fa320ea3fe1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-041",
+      "path": "assets/roboscoopsplash-f34edc38.webp",
+      "source_name": "Roboscoopsplash.png",
+      "alt": "Roboscoopsplash",
+      "width": 250,
+      "height": 294,
+      "format": "WEBP",
+      "sha256": "f34edc38f5c954df80214619bc7bf72c2445bd96810ca60504558c6008f026e1",
+      "storage": "src"
+    },
+    {
+      "id": "asset-042",
+      "path": "assets/scoop-004-jrpg-66163641.webp",
+      "source_name": "Scoop 004 JRPG.png",
+      "alt": "Scoop 004 JRPG",
+      "width": 250,
+      "height": 318,
+      "format": "WEBP",
+      "sha256": "66163641e0c53db8b6c5ed49f7c91b67b580617cea327739dba8335aa3da02d7",
+      "storage": "src"
+    }
+  ],
+  "diagnostics": {
+    "warnings": [
+      {
+        "code": "item_details_not_in_snapshot",
+        "count": 24,
+        "message": "Item links/icons found; costs and effects require item-page snapshots."
+      },
+      {
+        "code": "game_version_unverified",
+        "message": "Values are copied verbatim; the snapshot does not establish a verified game version or meaning of parenthesised values."
+      }
+    ],
+    "excluded_sections": [
+      "Quotes",
+      "Wraithlord Scoop Quotes",
+      "Bravely Scoop IV: Eternal Fantasy Quotes"
+    ],
+    "status": "extracted"
+  }
+}
