@@ -131,3 +131,16 @@ from being combined with newly deployed markup.
   reduced-motion devices get a static title. Restore/Stop remain available.
 - Radio lifecycle and source switching are covered by a dedicated VM test.
 - Live browser acceptance follows publication; phone playback is not implied.
+
+## Navigation spacing and roster telemetry — 11 October 2026
+
+- Main navigation uses a single nowrap row with horizontal touch scrolling
+  when it cannot fit. Gaps clamp to 6–22px; button padding/type scale within
+  limits and retain 44px minimum touch height. All links remain accessible.
+- Compact Steam indicator now belongs to the roster heading, using the same
+  angled cyan border, inset shading, italic type and gold values as game UI.
+- Narrow headers stack metadata cleanly; the indicator no longer occupies a
+  separate row between the heading and the portraits. Counts remain unchanged.
+- User-supplied portrait/landscape screenshots informed the change. A supported
+  mobile viewport emulation is unavailable in this browser; actual phone review
+  remains separate from automated checks and desktop acceptance.

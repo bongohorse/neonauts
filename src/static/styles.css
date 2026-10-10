@@ -284,3 +284,21 @@ body::before{inset:auto;left:0;top:0;width:100%;height:100vh;height:100lvh}
 .radio-ticker:hover #radio-mini-title,.radio-ticker:focus #radio-mini-title{animation-play-state:paused}
 @keyframes radio-scroll{from{transform:translateX(0)}to{transform:translateX(-100%)}}
 @media(prefers-reduced-motion:reduce){#radio-mini-title{animation:none;padding-left:8px;max-width:100%;overflow:hidden;text-overflow:ellipsis}}
+
+/* One open navigation row; bounded spacing scales from portrait to desktop. */
+.main-nav{width:max-content;max-width:calc(100% - 24px);flex-wrap:nowrap;justify-content:flex-start;gap:clamp(6px,1.6vw,22px);padding:8px 10px;overflow-x:auto;overflow-y:hidden;scroll-padding-inline:10px;scrollbar-width:thin;scrollbar-color:#42cad780 transparent}
+.main-nav>a{flex:0 0 auto;min-height:44px;font-size:clamp(10px,1.2vw,15px);padding:clamp(10px,1.2vw,12px) clamp(13px,1.9vw,23px);letter-spacing:clamp(.3px,.08vw,1px)}
+/* Roster telemetry shares its heading instead of floating above the portraits. */
+#nauts>.section-line{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:clamp(8px,1.4vw,20px);align-items:center;padding:16px 0 12px}
+#nauts>.section-line>span:nth-child(2){font-size:8px;letter-spacing:1px}
+#nauts>.section-line>.steam-mini{position:relative;isolation:isolate;display:flex;align-items:center;gap:clamp(6px,.8vw,10px);width:auto;max-width:100%;min-height:44px;margin:0;padding:7px 14px;border:0;background:transparent;color:#92eff5;flex-wrap:nowrap;font:italic 900 9px var(--heading);letter-spacing:.5px;text-shadow:0 1px 2px #0008}
+.steam-mini::before,.steam-mini::after{content:'';position:absolute;inset:0;z-index:-2;clip-path:polygon(9px 0,100% 0,calc(100% - 9px) 100%,0 100%);background:#42cad7}
+.steam-mini::after{inset:1px;z-index:-1;background:linear-gradient(180deg,#123f50ed,#071d2ded);box-shadow:inset 0 2px #81f6ff38,inset 0 -3px #031018bb}
+.steam-mini:hover::before,.steam-mini:focus-visible::before{background:var(--gold)}
+.steam-mini-current,.steam-mini-peak{display:flex;align-items:center;gap:5px;white-space:nowrap}
+.steam-mini strong,.steam-mini b{font:italic 900 14px var(--heading);color:var(--gold);font-variant-numeric:tabular-nums}
+.steam-mini-peak{border-left:1px solid #42cad755;padding-left:8px}
+.steam-mini-current>span,.steam-mini-peak>span{font-size:7px;letter-spacing:.3px}
+.steam-mini-arrow{font-size:12px;color:var(--gold)}
+@media(max-width:900px){#nauts>.section-line{grid-template-columns:minmax(0,1fr) auto}#roster-title{grid-column:1 / -1}#nauts>.section-line>span:nth-child(2){font-size:7px;letter-spacing:.5px}}
+@media(max-width:420px){#nauts>.section-line{gap:8px 6px}#nauts>.section-line>.steam-mini{padding-inline:10px;gap:5px;font-size:8px}.steam-mini-current>span{display:none}.steam-mini strong,.steam-mini b{font-size:12px}.steam-mini-peak{padding-left:5px;gap:4px}.steam-mini-arrow{display:none}}
