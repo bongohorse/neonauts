@@ -105,3 +105,11 @@ preview was rejected by its URL policy, so it was not used.
   gap rendering, statistics, per-Naut JSON parity and theme associations.
 
 Real-device browser-bar movement still requires user-device acceptance.
+
+Published desktop verification (1363px): Bandcamp playback continued across
+minimize and Swiggins-to-Ayla navigation; restoring showed 35 seconds elapsed
+and an active audio element. Ayla's individual theme rendered and its play
+control switched to pause. Stop hid the mini bar and removed the iframe source.
+The compact Steam widget and Community graph displayed the first real sample.
+Single-theme embeds use a compact 120px frame and a track-specific title/link;
+Full Soundtrack restores the full album player.

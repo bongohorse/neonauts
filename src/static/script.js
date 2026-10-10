@@ -141,7 +141,7 @@ function stopRadio(){audio.pause();bandcamp.removeAttribute('src');$('#radio-min
 $('#radio-toggle').onclick=()=>setRadio(!radio.open);
 $('#radio-close').onclick=()=>setRadio(false);
 $('#radio-minimize').onclick=()=>{radioMode='minimized';radio.close();$('#radio-mini').hidden=false;$('#radio-toggle').setAttribute('aria-expanded','false');$('#radio-restore').focus();};
-$('#radio-album').onclick=()=>{radioSource=bandcamp.dataset.src;$('#radio-now-playing').textContent='ULTIMATE EDITION';$('#radio-mini-title').textContent='SPACE RADIO';$('#local-radio').open=false;audio.pause();bandcamp.src=radioSource;};
+$('#radio-album').onclick=()=>{radioSource=bandcamp.dataset.src;bandcamp.classList.remove('single-theme');bandcamp.title='Awesomenauts Ultimate Edition — Bandcamp music player';$('#radio-bandcamp-link').href='https://sonicpicnic.bandcamp.com/album/awesomenauts-ultimate-edition';$('#radio-bandcamp-link').textContent='Open soundtrack on Bandcamp ↗';$('#radio-now-playing').textContent='ULTIMATE EDITION';$('#radio-mini-title').textContent='SPACE RADIO';$('#local-radio').open=false;audio.pause();bandcamp.src=radioSource;};
 $('#radio-restore').onclick=()=>setRadio(true);$('#radio-stop').onclick=()=>setRadio(false);
 radio.addEventListener('cancel',()=>{radioMode='closed';});
 radio.addEventListener('close',()=>{if(radioMode!=='minimized'){radioMode='closed';stopRadio();}});
@@ -153,6 +153,7 @@ document.addEventListener('click',event=>{
  if(!event.target.closest('[data-naut-theme]')||!nautPage.theme)return;
  const theme=nautPage.theme;
  radioSource=`https://bandcamp.com/EmbeddedPlayer/track=${theme.id}/size=large/bgcol=071c28/linkcol=18d8df/tracklist=false/artwork=small/transparent=true/`;
+ bandcamp.classList.add('single-theme');bandcamp.title=`${theme.title} — Bandcamp music player`;$('#radio-bandcamp-link').href=theme.url;$('#radio-bandcamp-link').textContent='Open Naut theme on Bandcamp ↗';
  $('#radio-now-playing').textContent=theme.title;$('#radio-mini-title').textContent=theme.title;
  $('#local-radio').open=false;audio.pause();bandcamp.src=radioSource;if(!radio.open)setRadio(true);
 });
