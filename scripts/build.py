@@ -8,10 +8,14 @@ import re
 import shutil
 from pathlib import Path
 from lxml import html, etree
+from PIL import Image
 from naut_assets import publish_naut_assets
 from url_policy import require_wiki_url, validate_naut_urls
 
 ROOT = Path(__file__).resolve().parents[1]
+ROSTER_ATLAS = 'assets/nauts/nauts_profile_spritesheet.webp'
+ROSTER_ATLAS_TILE = 128
+ROSTER_ATLAS_COLUMNS = 6
 
 def load(path):
     return json.loads(path.read_text(encoding='utf-8'))
@@ -161,7 +165,20 @@ def build(output=None, base_path='/'):
     # Identical image bytes share one deterministic output path.
     unaliased = [page_data(d,overrides,editorials.get(d['slug'],{}).get('view'))
                  for d in datasets]
-    asset_aliases=publish_naut_assets(ROOT/'src/static',output,unaliased,roster)
+    # Source roster order matches the user-supplied 6x6 atlas, left to right,
+    # six tiles per row, with two unused cells at the end.
+    if len(roster) != 34:
+        raise ValueError('Expected exactly 34 Naut roster portraits in sprite atlas')
+    with Image.open(ROOT/'src/static'/ROSTER_ATLAS) as atlas:
+        atlas.load()
+        if atlas.format != 'WEBP' or atlas.size != (768, 768):
+            raise ValueError('Naut portrait sprite atlas must be a 768x768 WebP')
+    asset_aliases=publish_naut_assets(ROOT/'src/static',output,unaliased,roster,
+                                     roster_atlas=ROSTER_ATLAS)
+    sprite_path=asset_aliases[ROSTER_ATLAS]
+    for index, naut in enumerate(roster):
+        naut['image']=sprite_path
+        naut['spriteIndex']=index
     ost=load(ROOT/'data/ost.json')
     themes=[dict(name=n['name'],**ost['tracks'][n['name']]) for n in roster if n['name'] in ost['tracks']]
     (output/'radio-data.js').write_text(js_assignment('radioThemes',themes),encoding='utf-8')
