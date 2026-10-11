@@ -1,39 +1,225 @@
 #!/usr/bin/env python3
-"""Upload a validated dist directory to Neocities. Never deletes remote files."""
+"""Validate and incrementally publish the generated site using the Neocities API.
+
+Never deletes remote files. No network writes in --dry-run mode.
+"""
 import argparse
+import hashlib
 import json
 import os
+import time
 import uuid
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.request import Request,urlopen
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlsplit
+from urllib.request import Request, urlopen
+
+ROOT = Path(__file__).resolve().parents[1]
+API = "https://neocities.org/api"
+# Neocities documents a 100 MB limit for each multipart request. Rack's
+# default limit is 128 file parts; leave headroom for either server setting.
+MAX_REQUEST_BYTES = 90 * 1024 * 1024
+MAX_FILES_PER_REQUEST = 100
+BETWEEN_BATCHES_SECONDS = 2
+MIN_UPDATE_INTERVAL_SECONDS = 10 * 60
+ALLOWED_EXTENSIONS = frozenset({
+    ".html", ".htm", ".css", ".js", ".mjs", ".json", ".webp",
+    ".png", ".jpg", ".jpeg", ".gif", ".svg", ".ico", ".avif",
+    ".woff", ".woff2", ".ttf", ".eot", ".txt", ".xml",
+    ".webmanifest", ".map",
+})
+
+
+def expected_site(config_path):
+    settings = json.loads(config_path.read_text(encoding="utf-8"))
+    url = urlsplit(settings.get("siteUrl", ""))
+    if (url.scheme != "https" or not url.hostname or
+            not url.hostname.endswith(".neocities.org") or
+            url.path not in ("", "/") or url.query or url.fragment or url.username):
+        raise ValueError("site.config.json must identify an HTTPS *.neocities.org site origin")
+    name = url.hostname.removesuffix(".neocities.org")
+    if not name or "." in name:
+        raise ValueError("Invalid Neocities site name in siteUrl")
+    return name
+
+
+def api_json(endpoint, key, data=None, content_type=None):
+    headers = {"Authorization": "Bearer " + key, "User-Agent": "neonauts-deploy/1"}
+    if content_type:
+        headers["Content-Type"] = content_type
+    request = Request(API + endpoint, data=data, headers=headers,
+                      method="POST" if data is not None else "GET")
+    try:
+        with urlopen(request, timeout=180) as response:
+            answer = json.load(response)
+    except HTTPError as error:
+        # Do not print the token or untrusted response bodies.
+        raise RuntimeError(f"Neocities API {endpoint} failed with HTTP {error.code}") from None
+    except URLError as error:
+        raise RuntimeError(f"Neocities API {endpoint} connection failed") from error
+    if not isinstance(answer, dict) or answer.get("result") != "success":
+        error_type = answer.get("error_type", "invalid_response") if isinstance(answer, dict) else "invalid_response"
+        raise RuntimeError(f"Neocities API {endpoint} refused the request: {error_type}")
+    return answer
+
+
+def collect_files(directory):
+    if not directory.is_dir():
+        raise ValueError("Missing build output directory")
+    files = []
+    for path in sorted(directory.rglob("*")):
+        if path.is_symlink():
+            raise ValueError(f"Refusing symlink in build: {path}")
+        if not path.is_file():
+            continue
+        relative = path.relative_to(directory)
+        if any(part.startswith(".") for part in relative.parts):
+            continue
+        if path.suffix.lower() not in ALLOWED_EXTENSIONS:
+            raise ValueError(f"Unsupported Neocities file extension: {relative.as_posix()}")
+        if path.stat().st_size > MAX_REQUEST_BYTES - 4096:
+            raise ValueError(f"File exceeds safe Neocities upload limit: {relative.as_posix()}")
+        files.append((relative.as_posix(), path))
+    if not files or not any(name == "index.html" for name, _ in files):
+        raise ValueError("Expected a built site with a root index.html")
+    return files
+
+
+def sha1_file(path):
+    digest = hashlib.sha1()
+    with path.open("rb") as source:
+        for chunk in iter(lambda: source.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def remote_files(answer):
+    files = answer.get("files")
+    if not isinstance(files, list):
+        raise RuntimeError("Neocities file listing is incomplete")
+    result = {}
+    for item in files:
+        if not isinstance(item, dict) or not isinstance(item.get("path"), str):
+            raise RuntimeError("Invalid Neocities file listing")
+        if item.get("is_directory"):
+            continue
+        if (not isinstance(item.get("sha1_hash"), str) or
+                len(item["sha1_hash"]) != 40 or
+                not isinstance(item.get("size"), int)):
+            raise RuntimeError("Neocities file listing lacks required hash or size")
+        result[item["path"].lstrip("/")] = item
+    return result
+
 
 def multipart(files, boundary):
-    body=bytearray()
-    for name,path in files:
-        if any(c in name for c in ['"','\r','\n']):raise ValueError('Unsafe upload filename')
-        body.extend(f'--{boundary}\r\nContent-Disposition: form-data; name="{name}"; filename="{path.name}"\r\nContent-Type: application/octet-stream\r\n\r\n'.encode())
-        body.extend(path.read_bytes());body.extend(b'\r\n')
-    body.extend(f'--{boundary}--\r\n'.encode())
+    body = bytearray()
+    for name, path in files:
+        if any(ch in name for ch in ('"', "\r", "\n")):
+            raise ValueError("Unsafe upload filename")
+        body.extend(
+            f'--{boundary}\r\nContent-Disposition: form-data; name="{name}"; filename="{path.name}"\r\n'
+            'Content-Type: application/octet-stream\r\n\r\n'.encode()
+        )
+        body.extend(path.read_bytes())
+        body.extend(b"\r\n")
+    body.extend(f"--{boundary}--\r\n".encode())
     return bytes(body)
 
-def deploy(directory):
+
+def batches(changed):
+    """Preflight all upload batches before any network mutation."""
+    groups = []
+    group = []
+    estimated = 4096
+    for name, path in changed:
+        estimated_part = path.stat().st_size + len(name.encode("utf-8")) * 2 + 512
+        if group and (len(group) >= MAX_FILES_PER_REQUEST or
+                      estimated + estimated_part > MAX_REQUEST_BYTES):
+            groups.append(group)
+            group = []
+            estimated = 4096
+        if estimated + estimated_part > MAX_REQUEST_BYTES:
+            raise ValueError(f"Upload file too large: {name}")
+        group.append((name, path))
+        estimated += estimated_part
+    if group:
+        groups.append(group)
+    return groups
+
+
+def seconds_until_safe_update(last_updated, now=None):
+    if not last_updated:
+        return 0
+    try:
+        updated = parsedate_to_datetime(last_updated)
+        if updated.tzinfo is None:
+            raise ValueError("Missing timezone")
+    except (TypeError, ValueError, IndexError) as error:
+        raise RuntimeError("Invalid last_updated timestamp from Neocities") from error
+    now = now or datetime.now(timezone.utc)
+    return max(0, MIN_UPDATE_INTERVAL_SECONDS - (now - updated).total_seconds())
+
+
+def deploy(directory, dry_run=False, config_path=ROOT / "site.config.json"):
     from check import check
     check(directory)
-    key=os.environ.get('NEOCITIES_API_KEY')
-    if not key:raise ValueError('NEOCITIES_API_KEY is required; use a GitHub Actions secret or your local environment')
-    files=[(p.relative_to(directory).as_posix(),p) for p in sorted(directory.rglob('*')) if p.is_file() and not any(s.startswith('.') for s in p.relative_to(directory).parts)]
-    if not files:raise ValueError('No build files found')
-    # The current build is small; one request avoids bursts of API calls.
-    boundary='neonauts-'+uuid.uuid4().hex
-    request=Request('https://neocities.org/api/upload',data=multipart(files,boundary),headers={'Authorization':'Bearer '+key,'Content-Type':'multipart/form-data; boundary='+boundary},method='POST')
-    try:
-        with urlopen(request,timeout=120) as response:result=json.load(response)
-    except HTTPError as error:
-        raise RuntimeError(f'Neocities upload failed (HTTP {error.code})') from None
-    if result.get('result')!='success':raise RuntimeError('Neocities rejected the upload: '+str(result.get('error_type','unknown')))
-    print(f'Uploaded {len(files)} files. Existing remote files were not deleted.')
+    files = collect_files(directory)
+    site = expected_site(config_path)
+    key = os.environ.get("NEOCITIES_API_KEY")
+    if not key:
+        raise ValueError("NEOCITIES_API_KEY is required; configure the GitHub Actions secret")
 
-if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--directory',type=Path,default=Path(__file__).resolve().parents[1]/'dist')
-    deploy(parser.parse_args().directory)
+    info = api_json("/info", key).get("info")
+    if not isinstance(info, dict) or info.get("sitename") != site:
+        raise RuntimeError(f"API key does not belong to configured site {site!r}; refused to deploy")
+    remote = remote_files(api_json("/list", key))
+    changed = [(name, path) for name, path in files
+               if remote.get(name, {}).get("sha1_hash", "").lower() != sha1_file(path)]
+    remote_only = len(set(remote) - {name for name, _ in files})
+    groups = batches(changed)
+    bytes_to_upload = sum(path.stat().st_size for _, path in changed)
+    print(f"Verified Neocities site: {site}. Local files: {len(files)}; changed/new: "
+          f"{len(changed)} ({bytes_to_upload} bytes); unchanged: {len(files) - len(changed)}; "
+          f"remote-only (preserved): {remote_only}. Requests needed: {len(groups)}.")
+
+    # The free plan has 1 GB storage. Check the sum without deleting foreign files.
+    if info.get("supporter") is False:
+        current_bytes = sum(item["size"] for item in remote.values())
+        projected_bytes = current_bytes + sum(path.stat().st_size -
+                            remote.get(name, {}).get("size", 0) for name, path in changed)
+        if projected_bytes > 1024 ** 3:
+            raise RuntimeError("Projected Neocities storage exceeds free-plan 1 GB limit")
+    if dry_run:
+        print("DRY RUN: No files uploaded or deleted.")
+        return len(changed)
+    if not changed:
+        print("No changes; skipped publishing.")
+        return 0
+
+    wait = seconds_until_safe_update(info.get("last_updated"))
+    if wait:
+        print(f"Respecting ten-minute Neocities update interval: waiting {wait:.0f} seconds.")
+        time.sleep(wait)
+
+    for index, group in enumerate(groups, 1):
+        if index > 1:
+            time.sleep(BETWEEN_BATCHES_SECONDS)
+        boundary = "neonauts-" + uuid.uuid4().hex
+        data = multipart(group, boundary)
+        if len(data) > MAX_REQUEST_BYTES:
+            raise RuntimeError("Multipart body exceeds the safe upload limit")
+        api_json("/upload", key, data=data,
+                 content_type=f"multipart/form-data; boundary={boundary}")
+        print(f"Uploaded package {index}/{len(groups)} ({len(group)} files).")
+    print(f"Deployment finished: {len(changed)} changed files. No remote files deleted.")
+    return len(changed)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--directory", type=Path, default=ROOT / "dist")
+    parser.add_argument("--dry-run", action="store_true", help="Read remote state; never upload")
+    args = parser.parse_args()
+    deploy(args.directory, dry_run=args.dry_run)
