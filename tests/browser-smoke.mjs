@@ -113,7 +113,14 @@ async function smoke(prefix,viewport,label){
       assert.ok(Math.abs(Number(item.width)-size)<.001);
       assert.ok(Math.abs(Number(item.height)-size)<.001);
     }
-    assert.equal(spriteIndexBySlug[Object.keys(spriteIndexBySlug)[29]],29);
+    assert.deepEqual(
+      Array.from({length:10},(_,offset)=>{
+        const i=24+offset;
+        return i<34?(i>=29?i+1:i):null;
+      }).filter(i=>i!==null),
+      [24,25,26,27,28,30,31,32,33,34],
+      'last two atlas rows must skip black slot 29 and leave slot 35 unused'
+    );
     assert.equal(spriteTiles.length,34,'black atlas slots must not create extra buttons');
     assert.equal(rosterAtlasRequests.length,1,'one atlas URL should cause one network request');
     // Preserve a native rendering sample for visual approval in the PR.
