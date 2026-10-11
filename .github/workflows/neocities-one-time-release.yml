@@ -16,7 +16,8 @@ concurrency:
 jobs:
   publish:
     # A single explicit authorization commit. Other pushes cannot invoke this job.
-    if: github.event.head_commit.message == 'ops: authorized one-time Neocities upload 2026-10-11'
+    if: >-
+      github.event.head_commit.message == 'ops: authorized one-time Neocities upload 2026-10-11'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
