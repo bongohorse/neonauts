@@ -116,3 +116,17 @@ pending key. Pending entries expire after 30 days. The Worker returns up to
 
 Rebuild and publish after changing endpoint addresses. Until configured, the
 frontend retains its pending states and browser-local guestbook draft.
+
+## Guestbook abuse and request-size limits
+
+The guestbook Worker rejects requests over **4096 bytes**, including requests
+without or with incorrect `Content-Length`, by reading its body incrementally.
+Invalid UTF-8/JSON is rejected before adding any pending entry. The existing
+`SITE_ORIGIN`/CORS restriction controls browser access, **not authentication**:
+a non-browser HTTP client can forge an Origin header.
+
+KV cooldown uses Cloudflare KV and is eventually consistent, so simultaneous
+or distributed requests can bypass the advisory rate key. Keep the moderated
+`pending:` queue, and before exposing the public Worker consider Cloudflare
+edge rate-limiting rules / a verified Turnstile setup with a separate test gate.
+No Worker is deployed by this repository change.
