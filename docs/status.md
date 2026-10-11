@@ -200,6 +200,12 @@ from being combined with newly deployed markup.
 ## Public image-build optimisation — 11 October 2026
 
 - All original embedded Naut artwork remains in `src/static/assets/nauts/`.
+- Verified CI build: 1,420 source Naut WebPs (20,504,026 bytes) become 903
+  published images (16,737,820 bytes); 332 unreferenced originals and 185
+  duplicate referenced copies are excluded. The public build saves 517 files
+  and 3,766,206 bytes (~18.4% of Naut image bytes). The initial Neocities
+  upload estimate decreases from 1,589 to 1,072 files, assuming no other
+  build changes. Existing remote files will not be auto-pruned.
   The public build publishes only images referenced by canonical runtime
   abilities/items/skins plus roster portraits; unused saved-source artwork
   is not uploaded. Shared identical images receive content-addressed URLs,
