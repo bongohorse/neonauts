@@ -10,7 +10,7 @@ from unittest.mock import call, patch
 
 from deploy_neocities import (
     MAX_FILES_PER_REQUEST, batches, collect_files, deploy, expected_site,
-    multipart, remote_files, seconds_until_safe_update,
+    is_entrypoint, multipart, publication_order, remote_files, seconds_until_safe_update,
 )
 
 
@@ -124,9 +124,13 @@ class NeocitiesDeployTests(unittest.TestCase):
         same = (self.dist / "index.html").read_bytes()
         api.side_effect = [self.info(), self.listing(
             self.remote("index.html", same), self.remote("old.html", b"keep")),
-            {"result": "success"}]
+            {"result": "success"},
+            self.listing(self.remote("index.html", same),
+                         self.remote("extra.json", b'{"new":true}'),
+                         self.remote("old.html", b"keep"))]
         self.assertEqual(deploy(self.dist, config_path=self.config), 1)
-        self.assertEqual([c.args[0] for c in api.call_args_list], ["/info", "/list", "/upload"])
+        self.assertEqual([c.args[0] for c in api.call_args_list],
+                         ["/info", "/list", "/upload", "/list"])
         data = api.call_args_list[-1].kwargs["data"]
         self.assertIn(b'name="extra.json"', data)
         self.assertNotIn(b'name="index.html"', data)
@@ -153,10 +157,99 @@ class NeocitiesDeployTests(unittest.TestCase):
     @patch("deploy_neocities.seconds_until_safe_update", return_value=5)
     @patch("deploy_neocities.time.sleep")
     def test_rate_guard_waits_before_first_upload(self, sleep, interval, api):
-        api.side_effect = [self.info(), self.listing(), {"result": "success"}]
+        api.side_effect = [self.info(), self.listing(), {"result": "success"},
+                           self.listing(self.remote("index.html", (self.dist/"index.html").read_bytes()))]
         self.assertEqual(deploy(self.dist, config_path=self.config), 1)
         sleep.assert_called_once_with(5)
         self.assertEqual(api.call_args_list[-1].args[0], "/upload")
+
+
+    def test_publication_plan_is_phase_isolated_and_homepage_last(self):
+        for file in ("assets/new.webp", "roster-data.js", "nauts/ayla/index.html",
+                     "index.html", "404.html"):
+            path = self.dist / file
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(b"test")
+        entries = [(p.relative_to(self.dist).as_posix(), p)
+                   for p in self.dist.rglob("*") if p.is_file() and not p.name.startswith(".")]
+        ordered = sorted(entries, key=publication_order)
+        self.assertFalse(any(is_entrypoint(name) for name, _ in ordered[:2]))
+        self.assertEqual(ordered[-1][0], "index.html")
+        groups = batches(ordered)
+        self.assertTrue(all(len({is_entrypoint(name) for name, _ in group}) == 1
+                            for group in groups))
+        self.assertTrue(all(not is_entrypoint(name) for group in groups[:-1][0]))
+        self.assertTrue(all(is_entrypoint(name) for name, _ in groups[-1]))
+
+    def test_interrupted_dependency_upload_never_publishes_html_and_retry_works(self):
+        # 101 support files force two API requests. A failure in request #2
+        # must not reach the index.html publication stage.
+        for i in range(101):
+            (self.dist / f"support-{i:03d}.js").write_text(f"let a{i}=1;")
+        remote = {}
+        state = {"uploads": 0, "fail_second": True}
+
+        def fake_api(endpoint, key, data=None, content_type=None):
+            if endpoint == "/info":
+                return self.info()
+            if endpoint == "/list":
+                return self.listing(*[
+                    self.remote(name, contents) for name, contents in sorted(remote.items())
+                ])
+            self.assertEqual(endpoint, "/upload")
+            state["uploads"] += 1
+            if state["fail_second"] and state["uploads"] == 2:
+                raise RuntimeError("Simulated Neocities API failure")
+            import re
+            names = [name.decode() for name in re.findall(rb'Content-Disposition: form-data; name="([^"]+)"', data)]
+            for name in names:
+                remote[name] = (self.dist / name).read_bytes()
+            return {"result": "success"}
+
+        with patch("deploy_neocities.api_json", side_effect=fake_api), patch("deploy_neocities.time.sleep"):
+            with self.assertRaisesRegex(RuntimeError, "Simulated"):
+                deploy(self.dist, config_path=self.config)
+            self.assertEqual(len(remote), 100, "first dependency batch should have been published")
+            self.assertNotIn("index.html", remote, "the public entrypoint must not change early")
+            state["fail_second"] = False
+            self.assertEqual(deploy(self.dist, config_path=self.config), 2)
+            self.assertEqual(len(remote), 102)
+            self.assertEqual(remote["index.html"], (self.dist / "index.html").read_bytes())
+
+    def test_api_listing_disagreement_blocks_html_publication(self):
+        (self.dist / "features.js").write_bytes(b"critical new dependency")
+        uploads = []
+
+        def fake_api(endpoint, key, data=None, content_type=None):
+            if endpoint == "/info":
+                return self.info()
+            if endpoint == "/list":
+                return self.listing()  # Simulates upload accepted but missing on server.
+            uploads.append(data)
+            return {"result": "success"}
+
+        with patch("deploy_neocities.api_json", side_effect=fake_api), patch("deploy_neocities.time.sleep"):
+            with self.assertRaisesRegex(RuntimeError, "supporting verification failed"):
+                deploy(self.dist, config_path=self.config)
+        self.assertEqual(len(uploads), 1)
+        self.assertIn(b'name="features.js"', uploads[0])
+        self.assertNotIn(b'name="index.html"', uploads[0])
+
+    def test_post_upload_manifest_mismatch_fails_job(self):
+        uploads = []
+
+        def fake_api(endpoint, key, data=None, content_type=None):
+            if endpoint == "/info":
+                return self.info()
+            if endpoint == "/list":
+                return self.listing()
+            uploads.append(data)
+            return {"result": "success"}
+
+        with patch("deploy_neocities.api_json", side_effect=fake_api), patch("deploy_neocities.time.sleep"):
+            with self.assertRaisesRegex(RuntimeError, "published verification failed"):
+                deploy(self.dist, config_path=self.config)
+        self.assertEqual(len(uploads), 1)
 
 
 if __name__ == "__main__":
