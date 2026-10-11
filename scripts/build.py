@@ -9,6 +9,7 @@ import shutil
 from pathlib import Path
 from lxml import html, etree
 from naut_assets import publish_naut_assets
+from url_policy import require_wiki_url, validate_naut_urls
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -39,6 +40,7 @@ def js_assignment(name, data):
     return 'const '+name+'='+encoded.replace('<', '\\u003c').replace('\u2028', '\\u2028').replace('\u2029', '\\u2029')+';\n'
 
 def page_data(data, overrides, editorial_view=None, asset_aliases=None):
+    validate_naut_urls(data)
     slug = data['slug']
     skin_descriptions = (editorial_view or {}).get('skin_descriptions', {})
     aliases = asset_aliases or {}
@@ -108,7 +110,7 @@ def make_dossier(template, data, runtime, editorial=None):
         for fact in editorial.get('story_facts',[]):
             row=element('div');row.extend([element('dt',fact['label']),element('dd',fact['value'])]);facts.append(row)
         if len(facts):story.append(facts)
-    link=element('a','Explore the complete Wiki dossier ↗',href=data['source']['url'],target='_blank',rel='noopener noreferrer',**{'class':'text-link'})
+    link=element('a','Explore the complete Wiki dossier ↗',href=require_wiki_url(data['source']['url']),target='_blank',rel='noopener noreferrer',**{'class':'text-link'})
     story.append(link)
     notice=dossier.xpath('.//*[@class="data-note"]')[0]
     missing=sum(w['code']=='missing_lazy_image' for w in data['diagnostics']['warnings'])
