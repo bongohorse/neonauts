@@ -171,8 +171,9 @@ from being combined with newly deployed markup.
 - Removed the Swiggins-only ability/item/skin runtime replacement. All 34 Nauts
   now derive ability icons and values, their 24 upgrades, skill groups and skin
   galleries from `data/nauts/<slug>.json` and the shared `page_data()` builder.
-- Kept Swiggins' approved tagline, briefing, tactics and backstory as optional
-  narrative-only editorial copy. The story tab retains the common BACKSTORY
+- Kept Swiggins' approved tagline, briefing, tactics, backstory and readable
+  skin descriptions as optional narrative-only editorial copy. Skin artwork and
+  selection use canonical source data. The story tab retains the common BACKSTORY
   heading; the Titan tagline remains a subheading.
 - Removed 31 unused `editorial-*.webp` duplicates; source artwork remains in the
   Swiggins asset directory. No source snapshot hashes or diagnostics changed.

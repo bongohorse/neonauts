@@ -32,7 +32,9 @@ class BuildTests(unittest.TestCase):
                 self.assertEqual(doc.xpath('//base/@href'),['../../'])
                 data=json.loads((ROOT/'data/nauts'/f'{slug}.json').read_text())
                 runtime=json.loads((out/'nauts'/slug/'page-data.json').read_text(encoding='utf-8'))
-                canonical=page_data(data,overrides)
+                editorial_path=ROOT/'data/editorial'/f'{slug}.json'
+                editorial_view=json.loads(editorial_path.read_text(encoding='utf-8')).get('view') if editorial_path.exists() else None
+                canonical=page_data(data,overrides,editorial_view)
                 for section in ('abilities','items','itemGroups','skins'):
                     self.assertEqual(runtime[section],canonical[section],f'{slug}: {section} must be canonical')
                 self.assertEqual(doc.xpath('//*[@class="roster-note"]')[0].text_content(),data['name'].upper()+' SELECTED')
@@ -60,6 +62,10 @@ class BuildTests(unittest.TestCase):
         swiggins=json.loads((ROOT/'data/editorial/admiral-swiggins.json').read_text(encoding='utf-8'))
         self.assertEqual(swiggins['view']['story'][0]['text'],'BACKSTORY')
         self.assertEqual(swiggins['view']['story'][1]['text'],'FROM TITAN TO THE STARS')
+        self.assertEqual(set(swiggins['view']['skin_descriptions']),{'default','Admiral Swiggins, PHD','Abyssal Swiggins'})
+        source=json.loads((ROOT/'data/nauts/admiral-swiggins.json').read_text(encoding='utf-8'))
+        runtime=page_data(source,{},swiggins['view'])
+        self.assertIn('deep-sea creature',runtime['skins']['skin-2']['description'])
 
     def test_legacy_dossier_css_supports_cached_html(self):
         css=(ROOT/'src/static/styles.css').read_text(encoding='utf-8')

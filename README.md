@@ -148,6 +148,7 @@ this README and current code take precedence.
 All Nauts, including Swiggins, use the same dossier renderer and canonical
 `data/nauts/<slug>.json` source for four abilities, 24 items and the skin gallery.
 The optional `data/editorial/admiral-swiggins.json` holds approved narrative
-wording only; it does not override item/ability/skin metadata or artwork.
+wording and curated skin descriptions only; it does not override item/ability
+metadata, skin selection/order, or artwork.
 There is no character-specific template or build branch. Steam charts remain
 in Community.

@@ -57,6 +57,11 @@
         "label": "DEVELOPMENT NAME",
         "value": "Captain"
       }
-    ]
+    ],
+    "skin_descriptions": {
+      "default": "The Royal Fleet uniform, captain’s cap and glass tank. Swiggins carries Homboldt, the anchor from his old ship.",
+      "SWIGGINS, PHD": "Inspired by Dr. Fetus from Super Meat Boy: a tiny pilot inside a glass tank, mechanical tentacles, a dark suit and tie, a top hat and monocle. Homboldt wears bandages.",
+      "ABYSSAL SWIGGINS": "A deep-sea creature with red eyes and a forehead glyph, without the usual cap or glass tank. Faces decorate the claw, armor and anchor; a tentacle replaces the hook chain. Includes an altered voice set."
+    }
   }
 }
