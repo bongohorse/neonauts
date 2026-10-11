@@ -46,3 +46,8 @@ Item costs/effects require separate item pages. Numeric values retain source par
 | Vinnie & Spike | 4 | 24 | 2 | 39 | 1 |
 | Voltar the Omniscient | 4 | 24 | 3 | 42 | 0 |
 | Yuri | 4 | 24 | 2 | 39 | 0 |
+
+Security guard: importing a saved article now rejects canonical, ability or
+upgrade links that are not absolute HTTPS URLs on
+`awesomenauts.fandom.com/wiki/...`. Never weaken this check to support an
+untrusted redirect or relative URL without a separate reviewed source policy.

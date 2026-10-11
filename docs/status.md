@@ -245,3 +245,13 @@ from being combined with newly deployed markup.
   update Neocities. On Neocities, observations refresh only when its own
   deployment workflow is intentionally triggered or explicitly scheduled.
 - No new live Neocities upload is performed by this fix.
+
+## Imported external URL validation — issue #13
+
+- Recorded Wiki links are validated at the `import_naut.py` boundary and
+  again when `page_data()` is generated. Only absolute HTTPS
+  `awesomenauts.fandom.com/wiki/...` links without credentials, unsafe
+  schemes or control characters pass; imported source history is not modified.
+- Existing 34 Naut datasets use acceptable Wiki links. Tests cover malicious
+  schemes, lookalike hosts, URL credentials, relative/protocol-relative links,
+  malformed ports, and refusal before writing a forged import.

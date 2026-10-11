@@ -30,3 +30,7 @@
   with API manifest verification and idempotent retries. Never describe this
   as a full transactional rollback; don't enable production auto deploy based
   only on unit tests. Keep the first live deployment manually gated.
+
+- Saved Wiki links are untrusted. `url_policy.py` validates source, ability
+  and item URLs at import and before build. Do not broaden allowed URL schemes
+  or hosts without a reviewed threat model and regression tests.
