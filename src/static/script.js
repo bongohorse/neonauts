@@ -107,7 +107,7 @@ async function navigateNaut(target,push=true){
  $('#main').setAttribute('aria-busy','true');
  try{
   const [pageResponse,dataResponse]=await Promise.all([
-   fetch(url,{signal:request.signal}),fetch(new URL('nauts/'+slug+'/page-data.json',archiveBase),{signal:request.signal})]);
+   fetch(url,{signal:request.signal,cache:'no-cache'}),fetch(new URL('nauts/'+slug+'/page-data.json',archiveBase),{signal:request.signal,cache:'no-cache'})]);
   if(!pageResponse.ok||!dataResponse.ok)throw Error('Unavailable dossier');
   const [markup,data]=await Promise.all([pageResponse.text(),dataResponse.json()]);
   const page=new DOMParser().parseFromString(markup,'text/html'),dossier=page.querySelector('.dossier');

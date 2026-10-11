@@ -48,6 +48,13 @@ class BuildTests(unittest.TestCase):
             after={p.relative_to(out):hashlib.sha256(p.read_bytes()).hexdigest() for p in out.rglob('*') if p.is_file()}
             self.assertEqual(before,after)
 
+    def test_legacy_dossier_css_supports_cached_html(self):
+        css=(ROOT/'src/static/styles.css').read_text(encoding='utf-8')
+        self.assertIn('.dossier:has(> .dossier-heading)',css)
+        self.assertIn('grid-template-areas:"heading stage" "content stage"',css)
+        self.assertIn('grid-template-rows:max-content minmax(0,1fr);row-gap:0',css)
+        self.assertIn('.dossier > .dossier-content{grid-area:content}',css)
+
     def test_unmarked_output_is_protected(self):
         with tempfile.TemporaryDirectory() as temp:
             out=Path(temp)/'valuable';out.mkdir();(out/'keep.txt').write_text('keep')

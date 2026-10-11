@@ -51,7 +51,7 @@ The supplied portrait roster has 34 entries; all 34 dossiers are imported.
 
 ## Archive improvements
 
-- Fixed Naut dossier spacing: lengthy skin descriptions no longer push down the left-side tabs and stats on desktop; small screens retain heading, skin gallery, then details order.
+- Corrected the Naut dossier spacing regression when browsers mix cached pre-wrapper HTML with newer CSS: legacy headings use a fixed-content grid row, while current markup keeps the left side in one wrapper. In-page Naut navigation revalidates HTML and runtime JSON. Mobile retains heading, skin gallery, then details order.
 
 - Removed retained template children that duplicated roster/count text and
   appended Swiggins to other Naut selections. Fixed the Swiggins browser title.
