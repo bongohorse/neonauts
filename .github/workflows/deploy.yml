@@ -34,7 +34,11 @@ jobs:
         env:
           PYTHONPATH: scripts
       - run: python scripts/build.py
-      - run: python scripts/fetch_players.py
+      - name: Refresh Steam count and preserve public history
+        run: >-
+          python scripts/fetch_players.py
+          --history-url https://awesomenauts.neocities.org/players.json
+          --history-url https://bongohorse.github.io/neonauts/players.json
       - run: python scripts/check.py
       - run: node tests/page-data.mjs
       - run: node tests/radio.mjs
