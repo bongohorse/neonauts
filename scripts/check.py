@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Check the generated site and local datasets without network requests."""
+import argparse
 import json
 import re
 import subprocess
@@ -58,4 +59,8 @@ def check(directory=None):
     if errors:raise ValueError('\n'.join(errors))
     print('Site checks passed: local links, CSS assets, IDs, ARIA, JavaScript, raster images and Naut asset references.')
 
-if __name__=='__main__':check()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--directory',type=Path,default=ROOT/'dist')
+    args=parser.parse_args()
+    check(args.directory)
