@@ -52,9 +52,20 @@ the variable is absent/false: the push-triggered deployment job is skipped.
 - Uses official bearer-key endpoints `GET /info`, `GET /list`
   and `POST /upload`. Account identity is validated before any write.
 - Compares local SHA-1 to remote listing; identical files are not sent.
-- Uploads in **serial batches of at most 100 files and 90 MiB body size**,
+- Uploads in **phase-separated serial batches of at most 100 files and 90 MiB**,
   conservatively below Neocities' 100 MB/request limit and common Ruby
-  multipart-file limits. Avoids parallel API requests and pauses between batches.
+  multipart-file limits. New image assets and supporting JS/CSS/JSON go first;
+  HTML entrypoints go last. Before the HTML stage, the uploader re-lists the
+  remote supporting-file manifest and checks SHA-1 and size. After all batches,
+  it verifies the full published manifest. A mismatch or failed package fails
+  the job. Rerunning is idempotent via changed-only remote hash comparisons.
+- **This is not atomic publishing.** Neocities has no site-wide commit/switch
+  operation in the API used here. Existing pages can temporarily load modified
+  shared JS/CSS/JSON before their HTML is updated, and a failure during the
+  final HTML stage can still leave a mixed release. Cache propagation can
+  outlive API manifest verification. True version isolation requires a later
+  release-versioned asset/data architecture; do not represent the staged
+  uploader as a transaction or a complete rollback.
 - Respects a minimum 10-minute window between site updates using the
   Neocities `last_updated` timestamp. Upload errors stop the workflow;
   a retry compares hashes and skips already successful chunks.

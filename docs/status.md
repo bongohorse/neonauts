@@ -220,3 +220,15 @@ from being combined with newly deployed markup.
 - `page-data.js` (initial no-fetch rendering) and `page-data.json` (in-page
   navigation) remain intentionally separate. Removing either requires a
   separate navigation architecture change and native browser verification.
+
+## Deployment P1 remediation — issue #11
+
+- Implemented phase-isolated Neocities uploads: non-HTML dependencies before
+  HTML entrypoints, with remote API SHA-1/size verification before HTML and
+  after publication; retry compares the new remote state and sends only
+  remaining files. Tests inject a mid-batch failure and missing server files.
+- Neocities API has no atomic multi-file cutover. This reduces the chance of
+  publicly missing new resources but does not eliminate shared-script/data
+  version races or mixed HTML after a partial final batch. These limitations
+  remain an explicit follow-up gate before declaring deployments transaction-safe.
+- Nothing was published to production by the repository edit or PR.

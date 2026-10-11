@@ -128,18 +128,34 @@ def multipart(files, boundary):
     return bytes(body)
 
 
+def is_entrypoint(name):
+    """HTML is published last; live URLs must not point at missing new assets."""
+    return name.lower().endswith((".html", ".htm"))
+
+
+def publication_order(file):
+    name, _ = file
+    # Put the root homepage last within the final HTML group.
+    return (int(is_entrypoint(name)), int(name == "index.html"), name)
+
+
 def batches(changed):
-    """Preflight all upload batches before any network mutation."""
+    """Preflight phase-isolated upload batches before any network mutation."""
     groups = []
     group = []
     estimated = 4096
+    group_is_html = None
     for name, path in changed:
         estimated_part = path.stat().st_size + len(name.encode("utf-8")) * 2 + 512
+        html_phase = is_entrypoint(name)
         if group and (len(group) >= MAX_FILES_PER_REQUEST or
-                      estimated + estimated_part > MAX_REQUEST_BYTES):
+                      estimated + estimated_part > MAX_REQUEST_BYTES or
+                      group_is_html != html_phase):
             groups.append(group)
             group = []
             estimated = 4096
+        if not group:
+            group_is_html = html_phase
         if estimated + estimated_part > MAX_REQUEST_BYTES:
             raise ValueError(f"Upload file too large: {name}")
         group.append((name, path))
@@ -147,6 +163,28 @@ def batches(changed):
     if group:
         groups.append(group)
     return groups
+
+
+def verify_remote_manifest(pairs, key, label):
+    """Fail closed when Neocities has not retained the just-uploaded files.
+
+    Reading the API listing (rather than a CDN response) avoids a stale
+    public-edge cache check. It does not make multi-request upload atomic.
+    """
+    if not pairs:
+        return
+    remote = remote_files(api_json("/list", key))
+    mismatches = []
+    for name, path in pairs:
+        item = remote.get(name)
+        if (not item or item["sha1_hash"].lower() != sha1_file(path) or
+                item["size"] != path.stat().st_size):
+            mismatches.append(name)
+    if mismatches:
+        raise RuntimeError(f"Neocities {label} verification failed for "
+                           f"{len(mismatches)} files (first: {mismatches[0]}). "
+                           "Publication is incomplete; retry after checking the API.")
+    print(f"Verified {len(pairs)} {label} files using Neocities /list.")
 
 
 def seconds_until_safe_update(last_updated, now=None):
@@ -175,8 +213,10 @@ def deploy(directory, dry_run=False, config_path=ROOT / "site.config.json"):
     if not isinstance(info, dict) or info.get("sitename") != site:
         raise RuntimeError(f"API key does not belong to configured site {site!r}; refused to deploy")
     remote = remote_files(api_json("/list", key))
-    changed = [(name, path) for name, path in files
-               if remote.get(name, {}).get("sha1_hash", "").lower() != sha1_file(path)]
+    changed = sorted(((name, path) for name, path in files
+                      if remote.get(name, {}).get("sha1_hash", "").lower() != sha1_file(path)
+                      or remote.get(name, {}).get("size") != path.stat().st_size),
+                     key=publication_order)
     remote_only = len(set(remote) - {name for name, _ in files})
     groups = batches(changed)
     bytes_to_upload = sum(path.stat().st_size for _, path in changed)
@@ -203,17 +243,40 @@ def deploy(directory, dry_run=False, config_path=ROOT / "site.config.json"):
         print(f"Respecting ten-minute Neocities update interval: waiting {wait:.0f} seconds.")
         time.sleep(wait)
 
+    # Neocities does not provide an atomic multi-file transaction. Publish
+    # supporting assets/data before entrypoint HTML; abort if the API listing
+    # does not confirm all required supporting files before the HTML cutover.
+    dependencies = [(name, path) for name, path in files if not is_entrypoint(name)]
+    changed_dependencies = [(name, path) for name, path in changed if not is_entrypoint(name)]
+    changed_html = [(name, path) for name, path in changed if is_entrypoint(name)]
+    uploaded = 0
+    verified_dependencies = False
     for index, group in enumerate(groups, 1):
+        html_phase = is_entrypoint(group[0][0])
+        if html_phase and changed_html and changed_dependencies and not verified_dependencies:
+            verify_remote_manifest(dependencies, key, "supporting")
+            verified_dependencies = True
         if index > 1:
             time.sleep(BETWEEN_BATCHES_SECONDS)
         boundary = "neonauts-" + uuid.uuid4().hex
         data = multipart(group, boundary)
         if len(data) > MAX_REQUEST_BYTES:
             raise RuntimeError("Multipart body exceeds the safe upload limit")
-        api_json("/upload", key, data=data,
-                 content_type=f"multipart/form-data; boundary={boundary}")
+        stage = "HTML entrypoints" if html_phase else "supporting files"
+        print(f"Publishing package {index}/{len(groups)} ({stage}, {len(group)} files).")
+        try:
+            api_json("/upload", key, data=data,
+                     content_type=f"multipart/form-data; boundary={boundary}")
+        except Exception:
+            print(f"STOPPED: {uploaded}/{len(changed)} changed files confirmed "
+                  "before failure. Remote state may be partial; next run "
+                  "re-lists hashes and only retries missing/changed files.")
+            raise
+        uploaded += len(group)
         print(f"Uploaded package {index}/{len(groups)} ({len(group)} files).")
-    print(f"Deployment finished: {len(changed)} changed files. No remote files deleted.")
+    verify_remote_manifest(files, key, "published")
+    print(f"Deployment finished and verified: {len(changed)} changed files. "
+          "No remote files deleted.")
     return len(changed)
 
 
