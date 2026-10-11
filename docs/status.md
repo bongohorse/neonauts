@@ -371,3 +371,9 @@ from being combined with newly deployed markup.
 - 57 Python tests, four Node suites, two metric tests, all three build checkers,
   root/Pages/immutable browser smoke and 34/34 raster portrait checks pass locally.
 - Real phone/touch/audio and production CDN performance remain separate checks.
+
+## Layout audit — #31
+
+- Traced main-frame document layout; no proven forced-JS layout at the large passes.
+- Five-run detached-roster experiment showed no consistent desktop/mobile win; reverted.
+- Evidence and reproducible profiler: docs/performance/layout-31.md. No visual changes.
