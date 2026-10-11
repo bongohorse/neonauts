@@ -366,5 +366,8 @@ from being combined with newly deployed markup.
   CSV/Markdown median/range and native screenshots are CI artifacts.
 - Fixed CPU/network/cache conditions and explicit local/CDN/API limitations
   documented in docs/performance.md. No timing thresholds, merge or deployment.
-- Completion requires actual native results and existing browser smoke; code
-  checks alone do not establish a baseline.
+- Ten isolated native cold runs completed; compact raw measurements and
+  median/ranges are in docs/performance/baseline-30.{json,md}.
+- 57 Python tests, four Node suites, two metric tests, all three build checkers,
+  root/Pages/immutable browser smoke and 34/34 raster portrait checks pass locally.
+- Real phone/touch/audio and production CDN performance remain separate checks.
