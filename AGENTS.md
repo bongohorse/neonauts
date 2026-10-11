@@ -25,3 +25,8 @@
   recompress them solely to reduce public-build size. The build-only Naut
   image publisher keeps referenced images and coalesces identical bytes;
   maintain its fail-closed checks and all output-url tests.
+
+- Neocities publishing is staged but not atomic: dependencies precede HTML,
+  with API manifest verification and idempotent retries. Never describe this
+  as a full transactional rollback; don't enable production auto deploy based
+  only on unit tests. Keep the first live deployment manually gated.
