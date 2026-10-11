@@ -20,7 +20,15 @@ for(const slug of slugs) {
   assert.equal(data.items.length,24);
   assert.equal(roster.filter(n=>n.available).length,slugs.length);
   assert.ok(roster.some(n=>n.slug===slug&&n.available));
-  for(const naut of roster)assert.ok(existsSync(resolve(root,naut.image)),`Missing roster icon: ${naut.name}`);
+  // roster is created inside node:vm; normalize the cross-realm array before
+  // strict comparison (its numeric values already match the expected order).
+  assert.deepEqual(Array.from(roster,n=>n.spriteIndex),Array.from({length:34},(_,i)=>i),
+    'the atlas index must preserve the 34-character hex roster order');
+  assert.equal(new Set(roster.map(n=>n.image)).size,1,'all portraits use one atlas');
+  assert.ok(roster[0].image.endsWith('/nauts_profile_spritesheet.webp'));
+  for(const naut of roster)assert.ok(existsSync(resolve(root,naut.image)),`Missing roster atlas: ${naut.name}`);
+  assert.equal(readdirSync(resolve(root,'assets/nauts')).filter(x=>x.startsWith('IconCharacter')).length,0,
+    'individual roster icons must not be shipped alongside the atlas');
   for(const naut of roster.filter(n=>n.available))assert.ok(existsSync(resolve(root,naut.url,'index.html')));
   for(const item of [...data.abilities,...data.items,...Object.values(data.skins)]) {
     if(!item.image){

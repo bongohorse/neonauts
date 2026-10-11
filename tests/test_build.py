@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from lxml import html
-from build import build, make_dossier, page_data, ROOT
+from build import build, make_dossier, page_data, ROOT, ROSTER_ATLAS
 from naut_assets import publish_naut_assets, runtime_images
 from check import check
 
@@ -28,11 +28,21 @@ class BuildTests(unittest.TestCase):
             roster=json.loads((ROOT/'data/roster.json').read_text(encoding='utf-8'))
             # Reconstruct canonical aliases and verify every original image byte
             # is available under the published path; no source data is rewritten.
-            aliases=publish_naut_assets(ROOT/'src/static',out,runtimes,roster)
+            aliases=publish_naut_assets(ROOT/'src/static',out,runtimes,roster,roster_atlas=ROSTER_ATLAS)
             self.assertTrue(any(source != target for source,target in aliases.items()))
             published=set(aliases.values())
             actual={p.relative_to(out).as_posix() for p in (out/'assets/nauts').rglob('*.webp')}
             self.assertEqual(actual,published,'no unused Naut artwork may reach the public output')
+            self.assertIn(ROSTER_ATLAS,actual)
+            for source in roster:
+                self.assertNotIn(source['image'],actual,
+                                 'source roster thumbnails should not be published individually')
+            roster_script=(out/'roster-data.js').read_text(encoding='utf-8')
+            self.assertTrue(roster_script.startswith('const archiveData='))
+            entries=json.loads(roster_script[len('const archiveData='):].rstrip('\n;'))['roster']
+            self.assertEqual([entry['spriteIndex'] for entry in entries],list(range(34)))
+            self.assertEqual({entry['image'] for entry in entries},{ROSTER_ATLAS})
+            self.assertEqual([entry['name'] for entry in entries],[entry['name'] for entry in roster])
             for source,published_path in aliases.items():
                 self.assertEqual((ROOT/'src/static'/source).read_bytes(),(out/published_path).read_bytes())
             for source in sorted((ROOT/'data/nauts').glob('*.json')):

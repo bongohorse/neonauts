@@ -21,17 +21,33 @@ def runtime_images(runtime):
             yield skin["image"]
 
 
-def publish_naut_assets(static_root, output, runtimes, roster):
+def publish_naut_assets(static_root, output, runtimes, roster, *, roster_atlas=None):
     """Return original->published image URL mapping and counts.
 
     Only references known to the renderer and character roster are published.
+    When roster_atlas is set, a single validated WebP atlas replaces the 34
+    standalone roster thumbnails in public output. Sources stay untouched.
     A missing source image is an error; never silently remove broken URLs.
     Non-Naut static assets are copied by the site's ordinary copytree step.
     """
     static_root = Path(static_root)
     output = Path(output)
     raw_refs = {ref for runtime in runtimes for ref in runtime_images(runtime)}
-    raw_refs.update(entry["image"] for entry in roster if entry.get("image"))
+    if roster_atlas:
+        # The source portrait archive stays intact, but the site publishes
+        # only the atlas for roster thumbnails. Validate all 34 canonical
+        # source references so a missing original cannot go unnoticed.
+        if len(roster) != 34 or len({entry["image"] for entry in roster}) != 34:
+            raise ValueError("Roster atlas requires 34 distinct source portraits")
+        for entry in roster:
+            source_ref = Path(entry["image"])
+            if (source_ref.is_absolute() or ".." in source_ref.parts or
+                    source_ref.parts[:2] != ("assets", "nauts") or
+                    not (static_root / source_ref).is_file()):
+                raise ValueError(f"Invalid roster portrait source: {source_ref}")
+        raw_refs.add(roster_atlas)
+    else:
+        raw_refs.update(entry["image"] for entry in roster if entry.get("image"))
     references = sorted(ref for ref in raw_refs if ref.startswith("assets/nauts/"))
     groups = defaultdict(list)
     for ref in references:

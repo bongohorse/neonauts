@@ -306,3 +306,26 @@ from being combined with newly deployed markup.
 - No fully atomic HTML commit exists through Neocities API. First live
   deployment, real edge-cache behavior and a controlled rollback drill remain
   operational acceptance gates; no live publication or auto-enable performed.
+
+## User-provided 128px Naut roster sprite — 11 October 2026
+
+- Source commit `bd927eb3` added a **768×768 WebP** atlas of **34 128×128**
+  roster portraits in six columns, matching the canonical `data/roster.json`
+  order left-to-right, top-to-bottom (last row has two spare tiles).
+- The site now displays one atlas via nested SVG viewBoxes clipped inside
+  the existing honeycomb. All 34 Naut buttons, focus/hover/selected styling,
+  keyboard names and routing remain the same. The outer SVG is sized
+  separately to avoid overriding the inner 128px tile clipping.
+- `scripts/build.py` validates the atlas dimensions and emits the exact
+  zero-based sprite index for each roster character. The public build
+  includes the atlas instead of the 34 separate source portrait WebPs,
+  while preserving every original image and canonical roster source.
+  Normal Naut dossier and skin/ability/item images remain unchanged.
+- Browser smoke tests assert 34 matching viewport coordinates, one
+  network request for the roster atlas and no old IconCharacter requests
+  across root, GitHub Pages prefix and the Neocities immutable build.
+  CI also uploads desktop/mobile roster screenshots for visual review.
+- This asset was supplied by the project owner, not generated from the
+  previous 256px sources. No re-encoding is performed by the website build;
+  any quality or crop concerns are inspected via native screenshots.
+- No Neocities production upload or automatic deploy enabled.

@@ -57,6 +57,13 @@ jobs:
           python scripts/check.py --directory dist-browser-immutable
       - name: Browser smoke (desktop and mobile viewport)
         run: node tests/browser-smoke.mjs
+      - name: Attach roster sprite visual review
+        if: success()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: roster-sprite-native-previews
+          path: tests/artifacts/roster-sprite-*.png
+          if-no-files-found: error
       - name: Attach failure screenshots
         if: failure()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
