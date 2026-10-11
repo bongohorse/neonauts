@@ -414,3 +414,11 @@ from being combined with newly deployed markup.
 - Desktop median LCP 2592 → 2076 ms; FCP/mobile LCP trade-offs explicitly documented.
 - Default/Clunk/Gnaw attribution, stage fit, one hero request and reduced motion verified.
 - Initial viewport PNGs pixel-identical; evidence: docs/performance/hero-36.md.
+
+## Font/render audit — #37
+
+- Existing Rubik font preloaded once; typography and all CSS effects preserved.
+- Five-run layout medians reduced on both viewports, measured mobile shift eliminated.
+- Small desktop LCP and script CPU trade-offs reported with total task/variance evidence.
+- Native initial PNGs pixel-identical; root trace/effect audit retains reduced motion.
+- Evidence: docs/performance/fonts-37.md. All expanded local checks pass; final head CI pending.

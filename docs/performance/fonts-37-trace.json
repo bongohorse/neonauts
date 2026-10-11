@@ -1,0 +1,670 @@
+{
+  "desktop": {
+    "url": "http://127.0.0.1:37431/",
+    "label": "desktop",
+    "layouts": [
+      {
+        "durationMs": 62.34,
+        "startMs": 1491.251,
+        "args": {
+          "beginData": {
+            "dirtyObjects": 215,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "partialLayout": false,
+            "sampleTraceId": 8947963235711770,
+            "totalObjects": 215
+          },
+          "endData": {
+            "layoutRoots": [
+              {
+                "depth": 1,
+                "nodeId": 5,
+                "nodeName": "#document",
+                "quads": [
+                  [
+                    0,
+                    0,
+                    1365,
+                    0,
+                    1365,
+                    768,
+                    0,
+                    768
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "node": {
+          "nodeId": 0,
+          "backendNodeId": 5,
+          "nodeType": 9,
+          "nodeName": "#document",
+          "localName": "",
+          "nodeValue": "",
+          "childNodeCount": 2,
+          "documentURL": "http://127.0.0.1:37431/",
+          "baseURL": "http://127.0.0.1:37431/",
+          "xmlVersion": "",
+          "compatibilityMode": "NoQuirksMode",
+          "isScrollable": true
+        }
+      },
+      {
+        "durationMs": 6.53,
+        "startMs": 1649.471,
+        "args": {
+          "beginData": {
+            "dirtyObjects": 371,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "partialLayout": false,
+            "sampleTraceId": 8947963235712303,
+            "totalObjects": 569
+          },
+          "endData": {
+            "layoutRoots": [
+              {
+                "depth": 1,
+                "nodeId": 5,
+                "nodeName": "#document",
+                "quads": [
+                  [
+                    0,
+                    0,
+                    1365,
+                    0,
+                    1365,
+                    768,
+                    0,
+                    768
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "node": {
+          "nodeId": 0,
+          "backendNodeId": 5,
+          "nodeType": 9,
+          "nodeName": "#document",
+          "localName": "",
+          "nodeValue": "",
+          "childNodeCount": 2,
+          "documentURL": "http://127.0.0.1:37431/",
+          "baseURL": "http://127.0.0.1:37431/",
+          "xmlVersion": "",
+          "compatibilityMode": "NoQuirksMode",
+          "isScrollable": true
+        }
+      },
+      {
+        "durationMs": 1.039,
+        "startMs": 2305.441,
+        "args": {
+          "beginData": {
+            "dirtyObjects": 13,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "partialLayout": false,
+            "sampleTraceId": 8947963235708928,
+            "totalObjects": 569
+          },
+          "endData": {
+            "layoutRoots": [
+              {
+                "depth": 1,
+                "nodeId": 5,
+                "nodeName": "#document",
+                "quads": [
+                  [
+                    0,
+                    0,
+                    1365,
+                    0,
+                    1365,
+                    768,
+                    0,
+                    768
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "node": {
+          "nodeId": 0,
+          "backendNodeId": 5,
+          "nodeType": 9,
+          "nodeName": "#document",
+          "localName": "",
+          "nodeValue": "",
+          "childNodeCount": 2,
+          "documentURL": "http://127.0.0.1:37431/",
+          "baseURL": "http://127.0.0.1:37431/",
+          "xmlVersion": "",
+          "compatibilityMode": "NoQuirksMode",
+          "isScrollable": true
+        }
+      },
+      {
+        "durationMs": 0.835,
+        "startMs": 1782.56,
+        "args": {
+          "beginData": {
+            "dirtyObjects": 12,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "partialLayout": false,
+            "sampleTraceId": 8947963235712556,
+            "totalObjects": 569
+          },
+          "endData": {
+            "layoutRoots": [
+              {
+                "depth": 1,
+                "nodeId": 5,
+                "nodeName": "#document",
+                "quads": [
+                  [
+                    0,
+                    0,
+                    1365,
+                    0,
+                    1365,
+                    768,
+                    0,
+                    768
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "node": {
+          "nodeId": 0,
+          "backendNodeId": 5,
+          "nodeType": 9,
+          "nodeName": "#document",
+          "localName": "",
+          "nodeValue": "",
+          "childNodeCount": 2,
+          "documentURL": "http://127.0.0.1:37431/",
+          "baseURL": "http://127.0.0.1:37431/",
+          "xmlVersion": "",
+          "compatibilityMode": "NoQuirksMode",
+          "isScrollable": true
+        }
+      }
+    ],
+    "evaluated": [
+      {
+        "durationMs": 1.134,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712166,
+            "url": "http://127.0.0.1:37431/config.js?v=35539558767d"
+          }
+        }
+      },
+      {
+        "durationMs": 0.817,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712224,
+            "url": "http://127.0.0.1:37431/roster-data.js?v=ec38c0042fc3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.045,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712228,
+            "url": "http://127.0.0.1:37431/radio-data.js?v=5732fbae5c9e"
+          }
+        }
+      },
+      {
+        "durationMs": 0.071,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712231,
+            "url": "http://127.0.0.1:37431/nauts/admiral-swiggins/page-data.js?v=b26152daaad4"
+          }
+        }
+      },
+      {
+        "durationMs": 45.226,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712026,
+            "url": "http://127.0.0.1:37431/script.js?v=354aa68a8875"
+          }
+        }
+      },
+      {
+        "durationMs": 3.039,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712470,
+            "url": "http://127.0.0.1:37431/radio.js?v=3fa9706f92d3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.056,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712457,
+            "url": "http://127.0.0.1:37431/steam-stats.js?v=df087876c864"
+          }
+        }
+      },
+      {
+        "durationMs": 3.367,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712460,
+            "url": "http://127.0.0.1:37431/players.js?v=0f25fa88fa18"
+          }
+        }
+      },
+      {
+        "durationMs": 4.058,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712452,
+            "url": "http://127.0.0.1:37431/features.js?v=e94e949a3fb4"
+          }
+        }
+      },
+      {
+        "durationMs": 0.57,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712307,
+            "url": "http://127.0.0.1:37431/maps-data.js?v=f0d2be467112"
+          }
+        }
+      },
+      {
+        "durationMs": 1.092,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "B5B177E6BF3CED02493D93D814E1A6D2",
+            "lineNumber": 1,
+            "sampleTraceId": 8947963235712708,
+            "url": "http://127.0.0.1:37431/maps.js?v=a030d8aa42e4"
+          }
+        }
+      }
+    ],
+    "layoutTotal": 71.99700000000001,
+    "layoutCount": 7
+  },
+  "mobile": {
+    "url": "http://127.0.0.1:37431/",
+    "label": "mobile",
+    "layouts": [
+      {
+        "durationMs": 64.806,
+        "startMs": 1500.368,
+        "args": {
+          "beginData": {
+            "dirtyObjects": 219,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "partialLayout": false,
+            "sampleTraceId": 7181376594213130,
+            "totalObjects": 219
+          },
+          "endData": {
+            "layoutRoots": [
+              {
+                "depth": 1,
+                "nodeId": 5,
+                "nodeName": "#document",
+                "quads": [
+                  [
+                    0,
+                    0,
+                    390,
+                    0,
+                    390,
+                    844,
+                    0,
+                    844
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "node": {
+          "nodeId": 0,
+          "backendNodeId": 5,
+          "nodeType": 9,
+          "nodeName": "#document",
+          "localName": "",
+          "nodeValue": "",
+          "childNodeCount": 2,
+          "documentURL": "http://127.0.0.1:37431/",
+          "baseURL": "http://127.0.0.1:37431/",
+          "xmlVersion": "",
+          "compatibilityMode": "NoQuirksMode",
+          "isScrollable": true
+        }
+      },
+      {
+        "durationMs": 7.508,
+        "startMs": 1643.773,
+        "args": {
+          "beginData": {
+            "dirtyObjects": 370,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "partialLayout": false,
+            "sampleTraceId": 7181376594214816,
+            "totalObjects": 573
+          },
+          "endData": {
+            "layoutRoots": [
+              {
+                "depth": 1,
+                "nodeId": 5,
+                "nodeName": "#document",
+                "quads": [
+                  [
+                    0,
+                    0,
+                    390,
+                    0,
+                    390,
+                    844,
+                    0,
+                    844
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "node": {
+          "nodeId": 0,
+          "backendNodeId": 5,
+          "nodeType": 9,
+          "nodeName": "#document",
+          "localName": "",
+          "nodeValue": "",
+          "childNodeCount": 2,
+          "documentURL": "http://127.0.0.1:37431/",
+          "baseURL": "http://127.0.0.1:37431/",
+          "xmlVersion": "",
+          "compatibilityMode": "NoQuirksMode",
+          "isScrollable": true
+        }
+      },
+      {
+        "durationMs": 1.735,
+        "startMs": 2117.644,
+        "args": {
+          "beginData": {
+            "dirtyObjects": 11,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "partialLayout": false,
+            "sampleTraceId": 7181376594214275,
+            "totalObjects": 573
+          },
+          "endData": {
+            "layoutRoots": [
+              {
+                "depth": 1,
+                "nodeId": 5,
+                "nodeName": "#document",
+                "quads": [
+                  [
+                    0,
+                    0,
+                    390,
+                    0,
+                    390,
+                    844,
+                    0,
+                    844
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "node": {
+          "nodeId": 0,
+          "backendNodeId": 5,
+          "nodeType": 9,
+          "nodeName": "#document",
+          "localName": "",
+          "nodeValue": "",
+          "childNodeCount": 2,
+          "documentURL": "http://127.0.0.1:37431/",
+          "baseURL": "http://127.0.0.1:37431/",
+          "xmlVersion": "",
+          "compatibilityMode": "NoQuirksMode",
+          "isScrollable": true
+        }
+      },
+      {
+        "durationMs": 1.077,
+        "startMs": 2246.034,
+        "args": {
+          "beginData": {
+            "dirtyObjects": 13,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "partialLayout": false,
+            "sampleTraceId": 7181376594214371,
+            "totalObjects": 573
+          },
+          "endData": {
+            "layoutRoots": [
+              {
+                "depth": 1,
+                "nodeId": 5,
+                "nodeName": "#document",
+                "quads": [
+                  [
+                    0,
+                    0,
+                    390,
+                    0,
+                    390,
+                    844,
+                    0,
+                    844
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "node": {
+          "nodeId": 0,
+          "backendNodeId": 5,
+          "nodeType": 9,
+          "nodeName": "#document",
+          "localName": "",
+          "nodeValue": "",
+          "childNodeCount": 2,
+          "documentURL": "http://127.0.0.1:37431/",
+          "baseURL": "http://127.0.0.1:37431/",
+          "xmlVersion": "",
+          "compatibilityMode": "NoQuirksMode",
+          "isScrollable": true
+        }
+      }
+    ],
+    "evaluated": [
+      {
+        "durationMs": 0.494,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214584,
+            "url": "http://127.0.0.1:37431/config.js?v=35539558767d"
+          }
+        }
+      },
+      {
+        "durationMs": 0.097,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214578,
+            "url": "http://127.0.0.1:37431/roster-data.js?v=ec38c0042fc3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.052,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214606,
+            "url": "http://127.0.0.1:37431/radio-data.js?v=5732fbae5c9e"
+          }
+        }
+      },
+      {
+        "durationMs": 0.693,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214602,
+            "url": "http://127.0.0.1:37431/nauts/admiral-swiggins/page-data.js?v=b26152daaad4"
+          }
+        }
+      },
+      {
+        "durationMs": 34.301,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214634,
+            "url": "http://127.0.0.1:37431/script.js?v=354aa68a8875"
+          }
+        }
+      },
+      {
+        "durationMs": 8.102,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214468,
+            "url": "http://127.0.0.1:37431/radio.js?v=3fa9706f92d3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.408,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214465,
+            "url": "http://127.0.0.1:37431/steam-stats.js?v=df087876c864"
+          }
+        }
+      },
+      {
+        "durationMs": 2.217,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214466,
+            "url": "http://127.0.0.1:37431/players.js?v=0f25fa88fa18"
+          }
+        }
+      },
+      {
+        "durationMs": 2.806,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214491,
+            "url": "http://127.0.0.1:37431/features.js?v=e94e949a3fb4"
+          }
+        }
+      },
+      {
+        "durationMs": 0.062,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214826,
+            "url": "http://127.0.0.1:37431/maps-data.js?v=f0d2be467112"
+          }
+        }
+      },
+      {
+        "durationMs": 0.626,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "898E3EA34976C776B38A5A7D00FC70E4",
+            "lineNumber": 1,
+            "sampleTraceId": 7181376594214702,
+            "url": "http://127.0.0.1:37431/maps.js?v=a030d8aa42e4"
+          }
+        }
+      }
+    ],
+    "layoutTotal": 76.80099999999999,
+    "layoutCount": 7
+  }
+}

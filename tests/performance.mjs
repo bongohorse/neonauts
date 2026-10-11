@@ -56,18 +56,21 @@ try{
       const errors=[],blockedExternal=[],responses=new Map(),finished=[];
       let taskDuration=0;
       page.on('pageerror',e=>errors.push('pageerror: '+e.message));
+      page.on('console',message=>{if(message.type()==='error' && message.location().url.startsWith(new URL(origin).origin))errors.push('console: '+message.text());});
       // External services are explicit exclusions, never silent pass/fail dependencies.
       await context.route('**/*',route=>{
         if(new URL(route.request().url()).origin===new URL(origin).origin)return route.continue();
         blockedExternal.push(route.request().url());return route.abort('blockedbyclient');
       });
+      const requested=new Map();
+      client.on('Network.requestWillBeSent',e=>requested.set(e.requestId,e.request.url));
       await client.send('Network.enable');
       client.on('Network.responseReceived',e=>{
         responses.set(e.requestId,{url:e.response.url,type:e.type,status:e.response.status});
         if(e.response.status>=400)errors.push('HTTP '+e.response.status+' '+e.response.url);
       });
       client.on('Network.loadingFinished',e=>finished.push({id:e.requestId,bytes:e.encodedDataLength}));
-      client.on('Network.loadingFailed',e=>{if(!e.blockedReason && !e.errorText.includes('BLOCKED'))errors.push('network: '+e.errorText);});
+      client.on('Network.loadingFailed',e=>{const url=requested.get(e.requestId);if(url && new URL(url).origin===new URL(origin).origin)errors.push('network: '+e.errorText+' '+url);});
       await client.send('Network.setCacheDisabled',{cacheDisabled:true});
       await client.send('Emulation.setCPUThrottlingRate',{rate:4});
       await client.send('Network.emulateNetworkConditions',network);
