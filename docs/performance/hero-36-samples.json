@@ -1,0 +1,985 @@
+{
+  "sourceDiffPresent": true,
+  "sourceDiffSha256": "b0dd45d743144383b739a7150edede96828cb190a27b05ef72bc3fa2af8ea6cf",
+  "schemaVersion": 1,
+  "date": "2026-10-11T16:01:18.659Z",
+  "revision": "27b8578fad2e73514c5a615bf789b63225ff1317",
+  "mode": "local-static-lab",
+  "origin": "http://127.0.0.1:41985",
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "playwright": "1.56.0",
+    "cpuSlowdown": 4,
+    "network": {
+      "offline": false,
+      "latency": 150,
+      "downloadThroughput": 200000,
+      "uploadThroughput": 93750,
+      "connectionType": "cellular4g"
+    },
+    "cache": "fresh context + CDP bypass; service workers blocked",
+    "settleMs": 2000,
+    "chromium": "141.0.7390.37"
+  },
+  "scenarios": [
+    {
+      "name": "root-desktop",
+      "path": "/",
+      "viewport": {
+        "width": 1365,
+        "height": 768
+      },
+      "dpr": 1.25,
+      "samples": [
+        {
+          "cls": 0,
+          "lcp": {
+            "time": 2076,
+            "size": 88856,
+            "url": "http://127.0.0.1:41985/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+            "element": "img#character-art"
+          },
+          "longTasks": [
+            {
+              "start": 1496.6000000000931,
+              "duration": 200
+            }
+          ],
+          "supported": [
+            "element",
+            "event",
+            "first-input",
+            "largest-contentful-paint",
+            "layout-shift",
+            "long-animation-frame",
+            "longtask",
+            "mark",
+            "measure",
+            "navigation",
+            "paint",
+            "resource",
+            "visibility-state"
+          ],
+          "fcp": 1736,
+          "navigation": {
+            "domContentLoaded": 1707.2000000001863,
+            "load": 3085.100000000093,
+            "responseStart": 8.399999999906868
+          },
+          "run": 1,
+          "errors": [],
+          "blockedExternal": [],
+          "requests": 27,
+          "transferBytes": 566541,
+          "byType": {
+            "Script": {
+              "requests": 11,
+              "transferBytes": 80086
+            },
+            "Document": {
+              "requests": 1,
+              "transferBytes": 39775
+            },
+            "Image": {
+              "requests": 12,
+              "transferBytes": 375366
+            },
+            "Stylesheet": {
+              "requests": 1,
+              "transferBytes": 53499
+            },
+            "Fetch": {
+              "requests": 1,
+              "transferBytes": 221
+            },
+            "Font": {
+              "requests": 1,
+              "transferBytes": 17594
+            }
+          },
+          "cpuMs": {
+            "layout": 179.484,
+            "recalcStyle": 23.018,
+            "script": 31.273000000000003,
+            "task": 537.376
+          },
+          "layoutCount": 7
+        },
+        {
+          "cls": 0,
+          "lcp": {
+            "time": 2080,
+            "size": 88872,
+            "url": "http://127.0.0.1:41985/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+            "element": "img#character-art"
+          },
+          "longTasks": [
+            {
+              "start": 1489.1999999997206,
+              "duration": 143
+            }
+          ],
+          "supported": [
+            "element",
+            "event",
+            "first-input",
+            "largest-contentful-paint",
+            "layout-shift",
+            "long-animation-frame",
+            "longtask",
+            "mark",
+            "measure",
+            "navigation",
+            "paint",
+            "resource",
+            "visibility-state"
+          ],
+          "fcp": 1668,
+          "navigation": {
+            "domContentLoaded": 1637,
+            "load": 3084.0999999996275,
+            "responseStart": 5.5
+          },
+          "run": 2,
+          "errors": [],
+          "blockedExternal": [],
+          "requests": 27,
+          "transferBytes": 566541,
+          "byType": {
+            "Script": {
+              "requests": 11,
+              "transferBytes": 80086
+            },
+            "Document": {
+              "requests": 1,
+              "transferBytes": 39775
+            },
+            "Image": {
+              "requests": 12,
+              "transferBytes": 375366
+            },
+            "Stylesheet": {
+              "requests": 1,
+              "transferBytes": 53499
+            },
+            "Fetch": {
+              "requests": 1,
+              "transferBytes": 221
+            },
+            "Font": {
+              "requests": 1,
+              "transferBytes": 17594
+            }
+          },
+          "cpuMs": {
+            "layout": 128.718,
+            "recalcStyle": 20.761000000000003,
+            "script": 30.441,
+            "task": 499.116
+          },
+          "layoutCount": 7
+        },
+        {
+          "cls": 0,
+          "lcp": {
+            "time": 2072,
+            "size": 88872,
+            "url": "http://127.0.0.1:41985/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+            "element": "img#character-art"
+          },
+          "longTasks": [
+            {
+              "start": 1497,
+              "duration": 169
+            }
+          ],
+          "supported": [
+            "element",
+            "event",
+            "first-input",
+            "largest-contentful-paint",
+            "layout-shift",
+            "long-animation-frame",
+            "longtask",
+            "mark",
+            "measure",
+            "navigation",
+            "paint",
+            "resource",
+            "visibility-state"
+          ],
+          "fcp": 1696,
+          "navigation": {
+            "domContentLoaded": 1671.3999999999069,
+            "load": 3086.399999999907,
+            "responseStart": 3.7000000001862645
+          },
+          "run": 3,
+          "errors": [],
+          "blockedExternal": [],
+          "requests": 27,
+          "transferBytes": 566541,
+          "byType": {
+            "Script": {
+              "requests": 11,
+              "transferBytes": 80086
+            },
+            "Document": {
+              "requests": 1,
+              "transferBytes": 39775
+            },
+            "Image": {
+              "requests": 12,
+              "transferBytes": 375366
+            },
+            "Stylesheet": {
+              "requests": 1,
+              "transferBytes": 53499
+            },
+            "Fetch": {
+              "requests": 1,
+              "transferBytes": 221
+            },
+            "Font": {
+              "requests": 1,
+              "transferBytes": 17594
+            }
+          },
+          "cpuMs": {
+            "layout": 150.19199999999998,
+            "recalcStyle": 24.45,
+            "script": 28.19,
+            "task": 507.841
+          },
+          "layoutCount": 7
+        },
+        {
+          "cls": 0,
+          "lcp": {
+            "time": 2064,
+            "size": 88872,
+            "url": "http://127.0.0.1:41985/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+            "element": "img#character-art"
+          },
+          "longTasks": [
+            {
+              "start": 1484.1999999997206,
+              "duration": 166
+            }
+          ],
+          "supported": [
+            "element",
+            "event",
+            "first-input",
+            "largest-contentful-paint",
+            "layout-shift",
+            "long-animation-frame",
+            "longtask",
+            "mark",
+            "measure",
+            "navigation",
+            "paint",
+            "resource",
+            "visibility-state"
+          ],
+          "fcp": 1692,
+          "navigation": {
+            "domContentLoaded": 1656.8999999999069,
+            "load": 3086.899999999907,
+            "responseStart": 2.8999999999068677
+          },
+          "run": 4,
+          "errors": [],
+          "blockedExternal": [],
+          "requests": 27,
+          "transferBytes": 566541,
+          "byType": {
+            "Script": {
+              "requests": 11,
+              "transferBytes": 80086
+            },
+            "Document": {
+              "requests": 1,
+              "transferBytes": 39775
+            },
+            "Image": {
+              "requests": 12,
+              "transferBytes": 375366
+            },
+            "Stylesheet": {
+              "requests": 1,
+              "transferBytes": 53499
+            },
+            "Fetch": {
+              "requests": 1,
+              "transferBytes": 221
+            },
+            "Font": {
+              "requests": 1,
+              "transferBytes": 17594
+            }
+          },
+          "cpuMs": {
+            "layout": 151.411,
+            "recalcStyle": 24.492,
+            "script": 31.759999999999998,
+            "task": 515.443
+          },
+          "layoutCount": 7
+        },
+        {
+          "cls": 0,
+          "lcp": {
+            "time": 2128,
+            "size": 85879,
+            "url": "http://127.0.0.1:41985/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+            "element": "img#character-art"
+          },
+          "longTasks": [
+            {
+              "start": 1448.8999999999069,
+              "duration": 146
+            }
+          ],
+          "supported": [
+            "element",
+            "event",
+            "first-input",
+            "largest-contentful-paint",
+            "layout-shift",
+            "long-animation-frame",
+            "longtask",
+            "mark",
+            "measure",
+            "navigation",
+            "paint",
+            "resource",
+            "visibility-state"
+          ],
+          "fcp": 1620,
+          "navigation": {
+            "domContentLoaded": 1641.1999999997206,
+            "load": 3116.5999999996275,
+            "responseStart": 3.1999999997206032
+          },
+          "run": 5,
+          "errors": [],
+          "blockedExternal": [],
+          "requests": 27,
+          "transferBytes": 566541,
+          "byType": {
+            "Script": {
+              "requests": 11,
+              "transferBytes": 80086
+            },
+            "Document": {
+              "requests": 1,
+              "transferBytes": 39775
+            },
+            "Image": {
+              "requests": 12,
+              "transferBytes": 375366
+            },
+            "Stylesheet": {
+              "requests": 1,
+              "transferBytes": 53499
+            },
+            "Font": {
+              "requests": 1,
+              "transferBytes": 17594
+            },
+            "Fetch": {
+              "requests": 1,
+              "transferBytes": 221
+            }
+          },
+          "cpuMs": {
+            "layout": 148.914,
+            "recalcStyle": 29.447000000000003,
+            "script": 29.427,
+            "task": 522.384
+          },
+          "layoutCount": 7
+        }
+      ],
+      "summary": {
+        "fcp": {
+          "median": 1692,
+          "min": 1620,
+          "max": 1736,
+          "samples": [
+            1736,
+            1668,
+            1696,
+            1692,
+            1620
+          ]
+        },
+        "lcp": {
+          "median": 2076,
+          "min": 2064,
+          "max": 2128,
+          "samples": [
+            2076,
+            2080,
+            2072,
+            2064,
+            2128
+          ]
+        },
+        "cls": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "samples": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transferBytes": {
+          "median": 566541,
+          "min": 566541,
+          "max": 566541,
+          "samples": [
+            566541,
+            566541,
+            566541,
+            566541,
+            566541
+          ]
+        },
+        "requests": {
+          "median": 27,
+          "min": 27,
+          "max": 27,
+          "samples": [
+            27,
+            27,
+            27,
+            27,
+            27
+          ]
+        },
+        "layout": {
+          "median": 150.19199999999998,
+          "min": 128.718,
+          "max": 179.484,
+          "samples": [
+            179.484,
+            128.718,
+            150.19199999999998,
+            151.411,
+            148.914
+          ]
+        },
+        "script": {
+          "median": 30.441,
+          "min": 28.19,
+          "max": 31.759999999999998,
+          "samples": [
+            31.273000000000003,
+            30.441,
+            28.19,
+            31.759999999999998,
+            29.427
+          ]
+        },
+        "longTasks": {
+          "median": 1,
+          "min": 1,
+          "max": 1,
+          "samples": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "pages-mobile",
+      "path": "/neonauts/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1.25,
+      "samples": [
+        {
+          "cls": 0.00037895665971373927,
+          "lcp": {
+            "time": 1668,
+            "size": 39500,
+            "url": "http://127.0.0.1:41985/neonauts/assets/logo.webp",
+            "element": "img"
+          },
+          "longTasks": [
+            {
+              "start": 1485.1999999997206,
+              "duration": 163
+            }
+          ],
+          "supported": [
+            "element",
+            "event",
+            "first-input",
+            "largest-contentful-paint",
+            "layout-shift",
+            "long-animation-frame",
+            "longtask",
+            "mark",
+            "measure",
+            "navigation",
+            "paint",
+            "resource",
+            "visibility-state"
+          ],
+          "fcp": 1668,
+          "navigation": {
+            "domContentLoaded": 1654.0999999996275,
+            "load": 3082,
+            "responseStart": 3
+          },
+          "run": 1,
+          "errors": [],
+          "blockedExternal": [],
+          "requests": 27,
+          "transferBytes": 566541,
+          "byType": {
+            "Script": {
+              "requests": 11,
+              "transferBytes": 80086
+            },
+            "Document": {
+              "requests": 1,
+              "transferBytes": 39775
+            },
+            "Image": {
+              "requests": 12,
+              "transferBytes": 375366
+            },
+            "Stylesheet": {
+              "requests": 1,
+              "transferBytes": 53499
+            },
+            "Fetch": {
+              "requests": 1,
+              "transferBytes": 221
+            },
+            "Font": {
+              "requests": 1,
+              "transferBytes": 17594
+            }
+          },
+          "cpuMs": {
+            "layout": 145.038,
+            "recalcStyle": 23.589,
+            "script": 30.16,
+            "task": 516.062
+          },
+          "layoutCount": 6
+        },
+        {
+          "cls": 0.00037895665971373927,
+          "lcp": {
+            "time": 1728,
+            "size": 39500,
+            "url": "http://127.0.0.1:41985/neonauts/assets/logo.webp",
+            "element": "img"
+          },
+          "longTasks": [
+            {
+              "start": 1534.8999999999069,
+              "duration": 177
+            }
+          ],
+          "supported": [
+            "element",
+            "event",
+            "first-input",
+            "largest-contentful-paint",
+            "layout-shift",
+            "long-animation-frame",
+            "longtask",
+            "mark",
+            "measure",
+            "navigation",
+            "paint",
+            "resource",
+            "visibility-state"
+          ],
+          "fcp": 1728,
+          "navigation": {
+            "domContentLoaded": 1721.6000000000931,
+            "load": 3086.2999999998137,
+            "responseStart": 5.199999999720603
+          },
+          "run": 2,
+          "errors": [],
+          "blockedExternal": [],
+          "requests": 27,
+          "transferBytes": 566541,
+          "byType": {
+            "Script": {
+              "requests": 11,
+              "transferBytes": 80086
+            },
+            "Document": {
+              "requests": 1,
+              "transferBytes": 39775
+            },
+            "Image": {
+              "requests": 12,
+              "transferBytes": 375366
+            },
+            "Stylesheet": {
+              "requests": 1,
+              "transferBytes": 53499
+            },
+            "Fetch": {
+              "requests": 1,
+              "transferBytes": 221
+            },
+            "Font": {
+              "requests": 1,
+              "transferBytes": 17594
+            }
+          },
+          "cpuMs": {
+            "layout": 151.283,
+            "recalcStyle": 27.432000000000002,
+            "script": 33.143,
+            "task": 510.68899999999996
+          },
+          "layoutCount": 7
+        },
+        {
+          "cls": 0.00037895665971373927,
+          "lcp": {
+            "time": 1684,
+            "size": 39500,
+            "url": "http://127.0.0.1:41985/neonauts/assets/logo.webp",
+            "element": "img"
+          },
+          "longTasks": [
+            {
+              "start": 1510.6000000000931,
+              "duration": 156
+            }
+          ],
+          "supported": [
+            "element",
+            "event",
+            "first-input",
+            "largest-contentful-paint",
+            "layout-shift",
+            "long-animation-frame",
+            "longtask",
+            "mark",
+            "measure",
+            "navigation",
+            "paint",
+            "resource",
+            "visibility-state"
+          ],
+          "fcp": 1684,
+          "navigation": {
+            "domContentLoaded": 1672,
+            "load": 3086.399999999907,
+            "responseStart": 4.899999999906868
+          },
+          "run": 3,
+          "errors": [],
+          "blockedExternal": [],
+          "requests": 27,
+          "transferBytes": 566541,
+          "byType": {
+            "Script": {
+              "requests": 11,
+              "transferBytes": 80086
+            },
+            "Document": {
+              "requests": 1,
+              "transferBytes": 39775
+            },
+            "Image": {
+              "requests": 12,
+              "transferBytes": 375366
+            },
+            "Stylesheet": {
+              "requests": 1,
+              "transferBytes": 53499
+            },
+            "Fetch": {
+              "requests": 1,
+              "transferBytes": 221
+            },
+            "Font": {
+              "requests": 1,
+              "transferBytes": 17594
+            }
+          },
+          "cpuMs": {
+            "layout": 129.109,
+            "recalcStyle": 26.636,
+            "script": 35.184,
+            "task": 504.25399999999996
+          },
+          "layoutCount": 7
+        },
+        {
+          "cls": 0.00037895665971373927,
+          "lcp": {
+            "time": 1684,
+            "size": 39500,
+            "url": "http://127.0.0.1:41985/neonauts/assets/logo.webp",
+            "element": "img"
+          },
+          "longTasks": [
+            {
+              "start": 1494.5,
+              "duration": 171
+            }
+          ],
+          "supported": [
+            "element",
+            "event",
+            "first-input",
+            "largest-contentful-paint",
+            "layout-shift",
+            "long-animation-frame",
+            "longtask",
+            "mark",
+            "measure",
+            "navigation",
+            "paint",
+            "resource",
+            "visibility-state"
+          ],
+          "fcp": 1684,
+          "navigation": {
+            "domContentLoaded": 1672.6999999997206,
+            "load": 3087.0999999996275,
+            "responseStart": 2.6999999997206032
+          },
+          "run": 4,
+          "errors": [],
+          "blockedExternal": [],
+          "requests": 27,
+          "transferBytes": 566541,
+          "byType": {
+            "Script": {
+              "requests": 11,
+              "transferBytes": 80086
+            },
+            "Document": {
+              "requests": 1,
+              "transferBytes": 39775
+            },
+            "Image": {
+              "requests": 12,
+              "transferBytes": 375366
+            },
+            "Stylesheet": {
+              "requests": 1,
+              "transferBytes": 53499
+            },
+            "Fetch": {
+              "requests": 1,
+              "transferBytes": 221
+            },
+            "Font": {
+              "requests": 1,
+              "transferBytes": 17594
+            }
+          },
+          "cpuMs": {
+            "layout": 151.209,
+            "recalcStyle": 29.147,
+            "script": 36.448,
+            "task": 522.134
+          },
+          "layoutCount": 7
+        },
+        {
+          "cls": 0.00037895665971373927,
+          "lcp": {
+            "time": 1620,
+            "size": 39500,
+            "url": "http://127.0.0.1:41985/neonauts/assets/logo.webp",
+            "element": "img"
+          },
+          "longTasks": [
+            {
+              "start": 1454.5,
+              "duration": 149
+            }
+          ],
+          "supported": [
+            "element",
+            "event",
+            "first-input",
+            "largest-contentful-paint",
+            "layout-shift",
+            "long-animation-frame",
+            "longtask",
+            "mark",
+            "measure",
+            "navigation",
+            "paint",
+            "resource",
+            "visibility-state"
+          ],
+          "fcp": 1620,
+          "navigation": {
+            "domContentLoaded": 1642.6000000000931,
+            "load": 3091.5,
+            "responseStart": 3.6000000000931323
+          },
+          "run": 5,
+          "errors": [],
+          "blockedExternal": [],
+          "requests": 27,
+          "transferBytes": 566541,
+          "byType": {
+            "Script": {
+              "requests": 11,
+              "transferBytes": 80086
+            },
+            "Document": {
+              "requests": 1,
+              "transferBytes": 39775
+            },
+            "Image": {
+              "requests": 12,
+              "transferBytes": 375366
+            },
+            "Stylesheet": {
+              "requests": 1,
+              "transferBytes": 53499
+            },
+            "Font": {
+              "requests": 1,
+              "transferBytes": 17594
+            },
+            "Fetch": {
+              "requests": 1,
+              "transferBytes": 221
+            }
+          },
+          "cpuMs": {
+            "layout": 149.06,
+            "recalcStyle": 26.38,
+            "script": 31.127,
+            "task": 489.33500000000004
+          },
+          "layoutCount": 8
+        }
+      ],
+      "summary": {
+        "fcp": {
+          "median": 1684,
+          "min": 1620,
+          "max": 1728,
+          "samples": [
+            1668,
+            1728,
+            1684,
+            1684,
+            1620
+          ]
+        },
+        "lcp": {
+          "median": 1684,
+          "min": 1620,
+          "max": 1728,
+          "samples": [
+            1668,
+            1728,
+            1684,
+            1684,
+            1620
+          ]
+        },
+        "cls": {
+          "median": 0.00037895665971373927,
+          "min": 0.00037895665971373927,
+          "max": 0.00037895665971373927,
+          "samples": [
+            0.00037895665971373927,
+            0.00037895665971373927,
+            0.00037895665971373927,
+            0.00037895665971373927,
+            0.00037895665971373927
+          ]
+        },
+        "transferBytes": {
+          "median": 566541,
+          "min": 566541,
+          "max": 566541,
+          "samples": [
+            566541,
+            566541,
+            566541,
+            566541,
+            566541
+          ]
+        },
+        "requests": {
+          "median": 27,
+          "min": 27,
+          "max": 27,
+          "samples": [
+            27,
+            27,
+            27,
+            27,
+            27
+          ]
+        },
+        "layout": {
+          "median": 149.06,
+          "min": 129.109,
+          "max": 151.283,
+          "samples": [
+            145.038,
+            151.283,
+            129.109,
+            151.209,
+            149.06
+          ]
+        },
+        "script": {
+          "median": 33.143,
+          "min": 30.16,
+          "max": 36.448,
+          "samples": [
+            30.16,
+            33.143,
+            35.184,
+            36.448,
+            31.127
+          ]
+        },
+        "longTasks": {
+          "median": 1,
+          "min": 1,
+          "max": 1,
+          "samples": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    }
+  ]
+}

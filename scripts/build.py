@@ -121,7 +121,7 @@ def make_dossier(template, data, runtime, editorial=None):
     replace_contents(notice,[element('span','SOURCE: SAVED WIKI · 10 OCT 2026. Values retain their original parentheses; game version and scaling context are unverified.'+(f' {missing} images were not embedded in the snapshot.' if missing else '')),copy.deepcopy(link)])
     stage=dossier.xpath('.//*[@class="character-stage"]')[0];stage.set('aria-label',name+' character and skins')
     default=runtime['skins']['default']
-    art=stage.xpath('.//*[@id="character-art"]')[0];art.set('src',default['image']);art.set('alt',name+' default artwork')
+    art=stage.xpath('.//*[@id="character-art"]')[0];art.set('src',default['image']);art.set('alt',name+' default artwork');art.set('fetchpriority','high')
     skin_buttons=[]
     for key,skin in runtime['skins'].items():
         button=element('button',data_skin=key,aria_pressed=str(key=='default').lower())

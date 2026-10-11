@@ -1,0 +1,202 @@
+[
+  {
+    "variant": "before",
+    "scenario": "root-desktop",
+    "run": 1,
+    "element": "img#character-art",
+    "ttfb": 8.899999999906868,
+    "resourceDiscoveryMs": 193.10000000009313,
+    "resourceDurationMs": 2398.5999999998603,
+    "renderDelayMs": 23.4000000001397
+  },
+  {
+    "variant": "before",
+    "scenario": "root-desktop",
+    "run": 2,
+    "element": "img#character-art",
+    "ttfb": 6.5,
+    "resourceDiscoveryMs": 194.69999999995343,
+    "resourceDurationMs": 2353.2000000001863,
+    "renderDelayMs": 25.5999999998603
+  },
+  {
+    "variant": "before",
+    "scenario": "root-desktop",
+    "run": 3,
+    "element": "img#character-art",
+    "ttfb": 3.1000000000931323,
+    "resourceDiscoveryMs": 196.69999999995343,
+    "resourceDurationMs": 2361.1999999999534,
+    "renderDelayMs": 31
+  },
+  {
+    "variant": "before",
+    "scenario": "root-desktop",
+    "run": 4,
+    "element": "img#character-art",
+    "ttfb": 3.4000000001396984,
+    "resourceDiscoveryMs": 195.19999999995343,
+    "resourceDurationMs": 2339.399999999907,
+    "renderDelayMs": 22
+  },
+  {
+    "variant": "before",
+    "scenario": "root-desktop",
+    "run": 5,
+    "element": "img#character-art",
+    "ttfb": 3.300000000046566,
+    "resourceDiscoveryMs": 194.80000000004657,
+    "resourceDurationMs": 2391.1999999999534,
+    "renderDelayMs": 22.699999999953434
+  },
+  {
+    "variant": "before",
+    "scenario": "pages-mobile",
+    "run": 1,
+    "element": "img",
+    "ttfb": 4,
+    "resourceDiscoveryMs": 177.80000000004657,
+    "resourceDurationMs": 925.3000000000466,
+    "renderDelayMs": 504.89999999990687
+  },
+  {
+    "variant": "before",
+    "scenario": "pages-mobile",
+    "run": 2,
+    "element": "img",
+    "ttfb": 2.7999999998137355,
+    "resourceDiscoveryMs": 182.20000000018626,
+    "resourceDurationMs": 927.1999999999534,
+    "renderDelayMs": 511.80000000004657
+  },
+  {
+    "variant": "before",
+    "scenario": "pages-mobile",
+    "run": 3,
+    "element": "img",
+    "ttfb": 2.7999999998137355,
+    "resourceDiscoveryMs": 172.30000000004657,
+    "resourceDurationMs": 937.9000000001397,
+    "renderDelayMs": 539
+  },
+  {
+    "variant": "before",
+    "scenario": "pages-mobile",
+    "run": 4,
+    "element": "img",
+    "ttfb": 3.2000000001862645,
+    "resourceDiscoveryMs": 178.29999999981374,
+    "resourceDurationMs": 931.0,
+    "renderDelayMs": 499.5
+  },
+  {
+    "variant": "before",
+    "scenario": "pages-mobile",
+    "run": 5,
+    "element": "img",
+    "ttfb": 2.8999999999068677,
+    "resourceDiscoveryMs": 169.9000000001397,
+    "resourceDurationMs": 917.5999999998603,
+    "renderDelayMs": 521.6000000000931
+  },
+  {
+    "variant": "after",
+    "scenario": "root-desktop",
+    "run": 1,
+    "element": "img#character-art",
+    "ttfb": 8.399999999906868,
+    "resourceDiscoveryMs": 192.3000000002794,
+    "resourceDurationMs": 1841.5999999996275,
+    "renderDelayMs": 33.700000000186265
+  },
+  {
+    "variant": "after",
+    "scenario": "root-desktop",
+    "run": 2,
+    "element": "img#character-art",
+    "ttfb": 5.5,
+    "resourceDiscoveryMs": 193.79999999981374,
+    "resourceDurationMs": 1835.3999999999069,
+    "renderDelayMs": 45.3000000002794
+  },
+  {
+    "variant": "after",
+    "scenario": "root-desktop",
+    "run": 3,
+    "element": "img#character-art",
+    "ttfb": 3.7000000001862645,
+    "resourceDiscoveryMs": 193.29999999981374,
+    "resourceDurationMs": 1844.5,
+    "renderDelayMs": 30.5
+  },
+  {
+    "variant": "after",
+    "scenario": "root-desktop",
+    "run": 4,
+    "element": "img#character-art",
+    "ttfb": 2.8999999999068677,
+    "resourceDiscoveryMs": 196.60000000009313,
+    "resourceDurationMs": 1835.6999999997206,
+    "renderDelayMs": 28.800000000279397
+  },
+  {
+    "variant": "after",
+    "scenario": "root-desktop",
+    "run": 5,
+    "element": "img#character-art",
+    "ttfb": 3.1999999997206032,
+    "resourceDiscoveryMs": 196.3000000002794,
+    "resourceDurationMs": 1903.1999999997206,
+    "renderDelayMs": 25.300000000279397
+  },
+  {
+    "variant": "after",
+    "scenario": "pages-mobile",
+    "run": 1,
+    "element": "img",
+    "ttfb": 3,
+    "resourceDiscoveryMs": 163.29999999981374,
+    "resourceDurationMs": 1030.8999999999069,
+    "renderDelayMs": 470.8000000002794
+  },
+  {
+    "variant": "after",
+    "scenario": "pages-mobile",
+    "run": 2,
+    "element": "img",
+    "ttfb": 5.199999999720603,
+    "resourceDiscoveryMs": 170.3000000002794,
+    "resourceDurationMs": 1027.1000000000931,
+    "renderDelayMs": 525.3999999999069
+  },
+  {
+    "variant": "after",
+    "scenario": "pages-mobile",
+    "run": 3,
+    "element": "img",
+    "ttfb": 4.899999999906868,
+    "resourceDiscoveryMs": 170.29999999981374,
+    "resourceDurationMs": 1027.0,
+    "renderDelayMs": 481.8000000002794
+  },
+  {
+    "variant": "after",
+    "scenario": "pages-mobile",
+    "run": 4,
+    "element": "img",
+    "ttfb": 2.6999999997206032,
+    "resourceDiscoveryMs": 172.70000000018626,
+    "resourceDurationMs": 1020.0,
+    "renderDelayMs": 488.60000000009313
+  },
+  {
+    "variant": "after",
+    "scenario": "pages-mobile",
+    "run": 5,
+    "element": "img",
+    "ttfb": 3.6000000000931323,
+    "resourceDiscoveryMs": 174.39999999990687,
+    "resourceDurationMs": 1023.7999999998137,
+    "renderDelayMs": 418.20000000018626
+  }
+]
