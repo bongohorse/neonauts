@@ -167,6 +167,7 @@ async function smoke(prefix,viewport,label){
       }
     }
 
+    assert.equal(await page.locator('.map-card').count(),0,'hidden Maps must not construct cards at startup');
     assert.deepEqual(decorativeRequests,[],'hidden Goodies/map hero must not request at startup');
     // Secret Arcade must do zero Canvas work before first user intent.
     assert.deepEqual(await page.evaluate(()=>window.__arcadeProbe),{contexts:0,paints:0,pending:[]});
@@ -233,6 +234,7 @@ async function smoke(prefix,viewport,label){
     assert.equal(decorativeRequests.filter(url=>url.includes('/assets/goodies/')).length,9,'all deferred previews load on activation');
     await page.locator('[data-section="maps"]').click();
     await page.waitForFunction(()=>{const img=document.querySelector('.map-hero img');return img?.complete&&img.naturalWidth>0;});
+    assert.equal(await page.locator('.map-card').count(),6,'first open initializes all six maps exactly once');
     await page.locator('#map-search').fill('Sorona');
     assert.equal(await page.locator('.map-card:not([hidden])').count(),1,'map search should filter');
     await page.locator('.map-card:not([hidden])').first().click();
@@ -257,6 +259,26 @@ async function smoke(prefix,viewport,label){
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),
       true,'page should not overflow horizontal mobile viewport');
     assert.deepEqual(failures,[],'no uncaught errors or failed same-origin files');
+    if(label==='root-desktop'){
+      const slugs=await page.evaluate(()=>archiveData.roster.map(n=>n.slug));
+      for(const slug of slugs){
+        await page.locator('[data-section="nauts"]').click();
+        await page.locator('.naut-hex[data-naut-slug="'+slug+'"]').click();
+        await page.waitForFunction(slug=>nautPage.slug===slug,slug);
+      }
+      await page.evaluate(()=>{
+        navigateNaut(new URL(archiveData.roster.find(n=>n.slug==='ayla').url,archiveBase));
+        navigateNaut(new URL(archiveData.roster.find(n=>n.slug==='clunk').url,archiveBase));
+      });
+      await page.waitForFunction(()=>nautPage.slug==='clunk' && document.querySelector('#main').getAttribute('aria-busy')!== 'true');
+      assert.deepEqual(failures,[],'all 34 dossiers and aborted rapid navigation stay healthy');
+    }
+    await page.goto(origin+prefix+'#maps',{waitUntil:'load'});
+    assert.equal(await page.locator('.map-card').count(),6,'direct Maps hash initializes synchronously');
+    await page.locator('[data-section="community"]').click();
+    await page.locator('[data-section="maps"]').click();
+    assert.equal(await page.locator('.map-card').count(),6,'reopening never duplicates map cards');
+    assert.deepEqual(failures,[],'direct Maps and repeated opening stay healthy');
     if(label==='neocities-immutable'){
       // Simulate an interrupted multi-HTML release: the in-page fetch sees
       // newer shared assets than the page's currently loaded JS/CSS.

@@ -1,0 +1,692 @@
+{
+  "desktop": {
+    "sampleCount": 5081,
+    "topFunctions": [
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 49,
+        "selfSamples": 82
+      },
+      {
+        "file": "maps.js",
+        "function": "",
+        "lineZeroBased": 5,
+        "selfSamples": 14
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 0,
+        "selfSamples": 8
+      },
+      {
+        "file": "maps.js",
+        "function": "render",
+        "lineZeroBased": 51,
+        "selfSamples": 5
+      },
+      {
+        "file": "script.js",
+        "function": "$",
+        "lineZeroBased": 1,
+        "selfSamples": 2
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 15,
+        "selfSamples": 1
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 16,
+        "selfSamples": 1
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 91,
+        "selfSamples": 1
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 94,
+        "selfSamples": 1
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 94,
+        "selfSamples": 1
+      },
+      {
+        "file": "maps.js",
+        "function": "filterMaps",
+        "lineZeroBased": 14,
+        "selfSamples": 1
+      },
+      {
+        "file": "maps.js",
+        "function": "",
+        "lineZeroBased": 102,
+        "selfSamples": 1
+      }
+    ],
+    "traceEvaluation": [
+      {
+        "durationMs": 0.762,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377560,
+            "url": "http://127.0.0.1:41745/config.js?v=35539558767d"
+          }
+        }
+      },
+      {
+        "durationMs": 0.104,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377542,
+            "url": "http://127.0.0.1:41745/roster-data.js?v=ec38c0042fc3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.91,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377541,
+            "url": "http://127.0.0.1:41745/radio-data.js?v=5732fbae5c9e"
+          }
+        }
+      },
+      {
+        "durationMs": 0.084,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377536,
+            "url": "http://127.0.0.1:41745/nauts/admiral-swiggins/page-data.js?v=b26152daaad4"
+          }
+        }
+      },
+      {
+        "durationMs": 37.147,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377551,
+            "url": "http://127.0.0.1:41745/script.js?v=354aa68a8875"
+          }
+        }
+      },
+      {
+        "durationMs": 2.069,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377446,
+            "url": "http://127.0.0.1:41745/radio.js?v=3fa9706f92d3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.04,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377445,
+            "url": "http://127.0.0.1:41745/steam-stats.js?v=df087876c864"
+          }
+        }
+      },
+      {
+        "durationMs": 2.469,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377440,
+            "url": "http://127.0.0.1:41745/players.js?v=0f25fa88fa18"
+          }
+        }
+      },
+      {
+        "durationMs": 2.582,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377449,
+            "url": "http://127.0.0.1:41745/features.js?v=e94e949a3fb4"
+          }
+        }
+      },
+      {
+        "durationMs": 0.096,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377778,
+            "url": "http://127.0.0.1:41745/maps-data.js?v=f0d2be467112"
+          }
+        }
+      },
+      {
+        "durationMs": 10.624,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "C08042D9471799115A4794CF162ABF86",
+            "lineNumber": 1,
+            "sampleTraceId": 7116258596377777,
+            "url": "http://127.0.0.1:41745/maps.js?v=8f41d3487aa0"
+          }
+        }
+      }
+    ],
+    "afterTraceEvaluation": [
+      {
+        "durationMs": 0.122,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500555,
+            "url": "http://127.0.0.1:44407/config.js?v=35539558767d"
+          }
+        }
+      },
+      {
+        "durationMs": 0.112,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500557,
+            "url": "http://127.0.0.1:44407/roster-data.js?v=ec38c0042fc3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.06,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500558,
+            "url": "http://127.0.0.1:44407/radio-data.js?v=5732fbae5c9e"
+          }
+        }
+      },
+      {
+        "durationMs": 0.078,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500531,
+            "url": "http://127.0.0.1:44407/nauts/admiral-swiggins/page-data.js?v=b26152daaad4"
+          }
+        }
+      },
+      {
+        "durationMs": 24.372,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500532,
+            "url": "http://127.0.0.1:44407/script.js?v=354aa68a8875"
+          }
+        }
+      },
+      {
+        "durationMs": 2.919,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500366,
+            "url": "http://127.0.0.1:44407/radio.js?v=3fa9706f92d3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.526,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500343,
+            "url": "http://127.0.0.1:44407/steam-stats.js?v=df087876c864"
+          }
+        }
+      },
+      {
+        "durationMs": 2.59,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500344,
+            "url": "http://127.0.0.1:44407/players.js?v=0f25fa88fa18"
+          }
+        }
+      },
+      {
+        "durationMs": 3.688,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500320,
+            "url": "http://127.0.0.1:44407/features.js?v=e94e949a3fb4"
+          }
+        }
+      },
+      {
+        "durationMs": 0.073,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500294,
+            "url": "http://127.0.0.1:44407/maps-data.js?v=f0d2be467112"
+          }
+        }
+      },
+      {
+        "durationMs": 0.09,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "219217D1A299F2361F9D399AA7C2AE17",
+            "lineNumber": 1,
+            "sampleTraceId": 1515073831500299,
+            "url": "http://127.0.0.1:44407/maps.js?v=a030d8aa42e4"
+          }
+        }
+      }
+    ]
+  },
+  "mobile": {
+    "sampleCount": 5103,
+    "topFunctions": [
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 49,
+        "selfSamples": 83
+      },
+      {
+        "file": "maps.js",
+        "function": "",
+        "lineZeroBased": 5,
+        "selfSamples": 14
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 0,
+        "selfSamples": 9
+      },
+      {
+        "file": "maps.js",
+        "function": "render",
+        "lineZeroBased": 51,
+        "selfSamples": 5
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 15,
+        "selfSamples": 2
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 91,
+        "selfSamples": 2
+      },
+      {
+        "file": "maps.js",
+        "function": "",
+        "lineZeroBased": 0,
+        "selfSamples": 2
+      },
+      {
+        "file": "script.js",
+        "function": "update",
+        "lineZeroBased": 13,
+        "selfSamples": 1
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 91,
+        "selfSamples": 1
+      },
+      {
+        "file": "script.js",
+        "function": "",
+        "lineZeroBased": 94,
+        "selfSamples": 1
+      },
+      {
+        "file": "script.js",
+        "function": "bindDossier",
+        "lineZeroBased": 89,
+        "selfSamples": 1
+      },
+      {
+        "file": "script.js",
+        "function": "$",
+        "lineZeroBased": 1,
+        "selfSamples": 1
+      }
+    ],
+    "traceEvaluation": [
+      {
+        "durationMs": 0.527,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492340,
+            "url": "http://127.0.0.1:41745/config.js?v=35539558767d"
+          }
+        }
+      },
+      {
+        "durationMs": 0.79,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492342,
+            "url": "http://127.0.0.1:41745/roster-data.js?v=ec38c0042fc3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.602,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492339,
+            "url": "http://127.0.0.1:41745/radio-data.js?v=5732fbae5c9e"
+          }
+        }
+      },
+      {
+        "durationMs": 0.486,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492236,
+            "url": "http://127.0.0.1:41745/nauts/admiral-swiggins/page-data.js?v=b26152daaad4"
+          }
+        }
+      },
+      {
+        "durationMs": 37.484,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492233,
+            "url": "http://127.0.0.1:41745/script.js?v=354aa68a8875"
+          }
+        }
+      },
+      {
+        "durationMs": 2.325,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492204,
+            "url": "http://127.0.0.1:41745/radio.js?v=3fa9706f92d3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.074,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492201,
+            "url": "http://127.0.0.1:41745/steam-stats.js?v=df087876c864"
+          }
+        }
+      },
+      {
+        "durationMs": 3.61,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492202,
+            "url": "http://127.0.0.1:41745/players.js?v=0f25fa88fa18"
+          }
+        }
+      },
+      {
+        "durationMs": 3.072,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492221,
+            "url": "http://127.0.0.1:41745/features.js?v=e94e949a3fb4"
+          }
+        }
+      },
+      {
+        "durationMs": 0.725,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492120,
+            "url": "http://127.0.0.1:41745/maps-data.js?v=f0d2be467112"
+          }
+        }
+      },
+      {
+        "durationMs": 11.582,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "E93CD2E9443D2E6694390D0C1ED19EA2",
+            "lineNumber": 1,
+            "sampleTraceId": 6396397024492117,
+            "url": "http://127.0.0.1:41745/maps.js?v=8f41d3487aa0"
+          }
+        }
+      }
+    ],
+    "afterTraceEvaluation": [
+      {
+        "durationMs": 2.568,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376178,
+            "url": "http://127.0.0.1:44407/config.js?v=35539558767d"
+          }
+        }
+      },
+      {
+        "durationMs": 0.111,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376143,
+            "url": "http://127.0.0.1:44407/roster-data.js?v=ec38c0042fc3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.039,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376136,
+            "url": "http://127.0.0.1:44407/radio-data.js?v=5732fbae5c9e"
+          }
+        }
+      },
+      {
+        "durationMs": 0.951,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376133,
+            "url": "http://127.0.0.1:44407/nauts/admiral-swiggins/page-data.js?v=b26152daaad4"
+          }
+        }
+      },
+      {
+        "durationMs": 33.772,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376157,
+            "url": "http://127.0.0.1:44407/script.js?v=354aa68a8875"
+          }
+        }
+      },
+      {
+        "durationMs": 2.516,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376548,
+            "url": "http://127.0.0.1:44407/radio.js?v=3fa9706f92d3"
+          }
+        }
+      },
+      {
+        "durationMs": 0.041,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376545,
+            "url": "http://127.0.0.1:44407/steam-stats.js?v=df087876c864"
+          }
+        }
+      },
+      {
+        "durationMs": 3.27,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376546,
+            "url": "http://127.0.0.1:44407/players.js?v=0f25fa88fa18"
+          }
+        }
+      },
+      {
+        "durationMs": 2.758,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376565,
+            "url": "http://127.0.0.1:44407/features.js?v=e94e949a3fb4"
+          }
+        }
+      },
+      {
+        "durationMs": 0.061,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376492,
+            "url": "http://127.0.0.1:44407/maps-data.js?v=f0d2be467112"
+          }
+        }
+      },
+      {
+        "durationMs": 1.431,
+        "args": {
+          "data": {
+            "columnNumber": 1,
+            "frame": "D9FF5E3A2AB63F5B827FCAE9518533D3",
+            "lineNumber": 1,
+            "sampleTraceId": 5789779643376489,
+            "url": "http://127.0.0.1:44407/maps.js?v=a030d8aa42e4"
+          }
+        }
+      }
+    ]
+  }
+}

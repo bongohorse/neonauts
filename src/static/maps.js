@@ -1,4 +1,9 @@
 (() => {
+ let initialized=false;
+ function initializeMaps(){
+  if(initialized)return;
+  initialized=true;
+
  const list=document.querySelector('#map-picker'),detail=document.querySelector('#map-detail');
  const esc=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
  let selectedMap=null,activeTab='overview',zoom=1,returnFocus=null;
@@ -107,4 +112,10 @@
   });card.append(title,text,images);holidays.append(card);
  });
  render(mapArchive.maps[0].id);document.addEventListener('archive:sectionchange',route);route();
+ }
+ function bootstrap(){
+  if(!document.querySelector('#maps').hidden)initializeMaps();
+ }
+ document.addEventListener('archive:sectionchange',bootstrap);
+ bootstrap();
 })();
