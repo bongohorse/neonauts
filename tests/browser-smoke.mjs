@@ -71,22 +71,33 @@ async function smoke(prefix,viewport,label){
     await page.goto(origin+prefix,{waitUntil:'load'});
     await page.locator('.naut-hex.available').first().waitFor();
     assert.equal(await page.locator('.naut-hex.available').count(),34);
-    const spriteTiles=await page.locator('.naut-hex .roster-sprite').evaluateAll(nodes=>
-      nodes.map(node=>({
-        viewBox:node.getAttribute('viewBox'),
-        overflow:getComputedStyle(node).overflow,
-        image:node.querySelector('image')?.getAttribute('href'),
-      })));
+    const spriteTiles=await page.locator('.naut-hex').evaluateAll(nodes=>
+      nodes.map(button=>{
+        const node=button.querySelector('.roster-sprite');
+        return {
+          slug:button.dataset.nautSlug,
+          viewBox:node?.getAttribute('viewBox'),
+          overflow:node&&getComputedStyle(node).overflow,
+          image:node?.querySelector('image')?.getAttribute('href'),
+        };
+      }));
+    // The DOM groups hex buttons by left/right wing, while source roster and
+    // atlas positions follow row-major order. Compare using each Naut slug,
+    // not the button's DOM position.
+    const spriteIndexBySlug=await page.evaluate(()=>
+      Object.fromEntries(archiveData.roster.map(n=>[n.slug,n.spriteIndex])));
     assert.equal(spriteTiles.length,34,'every hex needs a sprite viewport');
     const spriteImage=spriteTiles[0].image;
     assert.ok(/nauts_profile_spritesheet(?:\.[a-f0-9]{24})?\.webp$/.test(spriteImage),
       'the actual roster sheet must be referenced');
-    for(let i=0;i<spriteTiles.length;i++){
-      assert.equal(spriteTiles[i].viewBox,
+    for(const tile of spriteTiles){
+      const i=spriteIndexBySlug[tile.slug];
+      assert.ok(Number.isInteger(i)&&i>=0&&i<34,`unknown roster Naut: ${tile.slug}`);
+      assert.equal(tile.viewBox,
                    `${(i%6)*128} ${Math.floor(i/6)*128} 128 128`,
-                   `wrong sprite tile in roster position ${i}`);
-      assert.equal(spriteTiles[i].overflow,'hidden','sprite must clip to one cell');
-      assert.equal(spriteTiles[i].image,spriteImage,'all hexes must share one atlas');
+                   `wrong sprite tile for ${tile.slug} (atlas position ${i})`);
+      assert.equal(tile.overflow,'hidden','sprite must clip to one cell');
+      assert.equal(tile.image,spriteImage,'all hexes must share one atlas');
     }
     assert.equal(rosterAtlasRequests.length,1,'one atlas URL should cause one network request');
     // Preserve a native rendering sample for visual approval in the PR.
