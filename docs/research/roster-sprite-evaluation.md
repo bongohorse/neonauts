@@ -95,3 +95,30 @@ visibly degrade artwork. No visual approval or HTTP/2/3 network benchmark has
 been performed yet. Do **not** change the public roster based only on the
 HTTP request count dropping 34→1. Proceed to a separately reviewed SVG/
 network A/B only if the user wants to test that tradeoff.
+
+
+## Controlled comparison: atlas vs 34 individual images at identical WebP settings
+
+The first source-versus-atlas table conflates *re-encoding quality* with
+*packing*. The benchmark now also encodes each of the 34 decoded original
+pictures separately with **exactly the same WebP parameters** as the atlas.
+
+| WebP setting | 34 separate re-encoded bytes | Atlas bytes | Atlas saving at matched encoder settings |
+|---|---:|---:|---:|
+| Lossless | 2,391,832 | 2,510,716 | **−4.97%** (atlas larger) |
+| Q75 | 278,060 | 270,704 | **+2.65%** |
+| Q85 | 416,280 | 405,948 | **+2.48%** |
+| Q90 | 481,490 | 471,916 | **+1.99%** |
+| Q95 | 551,566 | 540,944 | **+1.93%** |
+
+[Matched-encoder CI run](https://github.com/bongohorse/neonauts/actions/runs/38108124276)
+· [comparison and full JSON report](https://github.com/bongohorse/neonauts/actions/runs/38108124276/artifacts/11690890364)
+
+**Updated conclusion:** Sprite packing alone saves only ~2–3% at matched lossy
+quality, not ~38%. Most of the Q75 savings against the *original* files arise
+from re-encoding at lower quality, which could also be done independently
+without a sprite sheet. The atlas's possible end-user performance benefit is
+therefore primarily 34→1 HTTP resource requests; it has not been established
+under the site's real HTTP/2/3/CDN conditions. Current recommendation: no
+production change; if desired, use a separately approved SVG/hex rendering
+prototype and cold/warm browser network trials first.
