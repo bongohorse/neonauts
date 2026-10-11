@@ -20,7 +20,9 @@ for(const slug of slugs) {
   assert.equal(data.items.length,24);
   assert.equal(roster.filter(n=>n.available).length,slugs.length);
   assert.ok(roster.some(n=>n.slug===slug&&n.available));
-  assert.deepEqual(roster.map(n=>n.spriteIndex),Array.from({length:34},(_,i)=>i),
+  // roster is created inside node:vm; normalize the cross-realm array before
+  // strict comparison (its numeric values already match the expected order).
+  assert.deepEqual(Array.from(roster,n=>n.spriteIndex),Array.from({length:34},(_,i)=>i),
     'the atlas index must preserve the 34-character hex roster order');
   assert.equal(new Set(roster.map(n=>n.image)).size,1,'all portraits use one atlas');
   assert.ok(roster[0].image.endsWith('/nauts_profile_spritesheet.webp'));
