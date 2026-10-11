@@ -33,6 +33,15 @@ def previous_history(url, opener=urlopen):
             return clean_history(json.loads(response.read(256000)).get('history',[]))
     except (OSError,ValueError,TypeError,AttributeError):return []
 
+def combine_previous_histories(urls, opener=urlopen):
+    """Preserve validated samples if any one published history is unavailable."""
+    points=[]
+    for url in urls or []:
+        if not url.startswith('https://'):
+            raise ValueError('history-url must use HTTPS')
+        points.extend(previous_history(url, opener=opener))
+    return clean_history(points)
+
 def publish(destination, opener=urlopen, history=None):
     points=clean_history(history)
     try:
@@ -51,8 +60,9 @@ def publish(destination, opener=urlopen, history=None):
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument('--out',type=Path,default=Path(__file__).resolve().parents[1]/'dist/players.json')
-    parser.add_argument('--history-url',help='Previous published players.json; optional')
+    parser.add_argument('--history-url',action='append',default=[],
+                        help='Previous published players.json; repeat to merge multiple sources')
     args=parser.parse_args()
-    if args.history_url and not args.history_url.startswith('https://'):
+    if any(not url.startswith('https://') for url in args.history_url):
         parser.error('history-url must use HTTPS')
-    publish(args.out,history=previous_history(args.history_url) if args.history_url else [])
+    publish(args.out,history=combine_previous_histories(args.history_url))
