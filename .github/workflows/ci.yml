@@ -57,6 +57,8 @@ jobs:
           python scripts/check.py --directory dist-browser-immutable
       - name: Browser smoke (desktop and mobile viewport)
         run: node tests/browser-smoke.mjs
+      - name: Verify hexagon portraits are actually visible
+        run: python tests/check_roster_render.py
       - name: Attach roster sprite visual review
         if: success()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2

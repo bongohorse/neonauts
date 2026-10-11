@@ -14,7 +14,6 @@
 .roster-wing.left{left:0;transform:skewX(6deg)}.roster-wing.right{left:53.571429%;transform:skewX(-6deg)}
 .naut-hex{position:absolute;width:15%;height:36.734694%;padding:0;background:none;overflow:visible;z-index:1;filter:drop-shadow(0 2px 2px #000a);transition:filter .16s}
 .naut-hex > svg,.random-hex > svg{display:block;width:100%;height:100%;overflow:visible}
-.naut-hex .roster-sprite{overflow:hidden}
 .hex-body{fill:#05232d;stroke:#020e17;stroke-width:3}.hex-outer{fill:none;stroke-width:2.5;stroke-linejoin:miter}.hex-inner{fill:none;stroke:#041821;stroke-width:2}.naut-hex image{filter:none;opacity:1}
 .naut-hex[aria-pressed="true"] .hex-outer{stroke:#ffd54d}.naut-hex[aria-pressed="true"]{z-index:2;filter:drop-shadow(0 0 5px #ffb62045)}
 .naut-hex:hover,.naut-hex:focus-visible{z-index:3;filter:drop-shadow(0 0 5px #14dfed66)}.naut-hex:hover .hex-outer,.naut-hex:focus-visible .hex-outer{stroke:#ffdb58}.naut-hex:focus-visible,.random-hex:focus-visible{outline:none}.naut-hex:focus-visible .hex-inner{stroke:#fff;stroke-width:1.5}

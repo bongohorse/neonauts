@@ -58,12 +58,19 @@ archiveData.roster.forEach((naut,index)=>{
  if(naut.available)b.setAttribute('aria-pressed',String(naut.slug===nautPage.slug));
  const points='39,2.276080 76,23.638040 76,66.361960 39,87.723920 2,66.361960 2,23.638040';
  const inner='39,7.403 71.56,26.202 71.56,63.798 39,82.597 6.44,63.798 6.44,26.202';
- // The 768x768 WebP atlas has six 128x128 portraits per row. A nested
- // SVG viewBox clips a single tile before the existing outer hexagon clip.
- // This retains the original xMidYMid slice crop, border and focus styling.
- const spriteX=(naut.spriteIndex%6)*128;
- const spriteY=Math.floor(naut.spriteIndex/6)*128;
- b.innerHTML=`<svg viewBox="0 0 78 90" aria-hidden="true" focusable="false"><defs><clipPath id="portrait-clip-${index}"><polygon points="${inner}"/></clipPath><linearGradient id="frame-${index}" x1="0" y1="0" x2=".6" y2="1"><stop stop-color="#68fcff"/><stop offset=".45" stop-color="#08c5d1"/><stop offset="1" stop-color="#047185"/></linearGradient></defs><polygon class="hex-body" points="${points}"/><svg class="roster-sprite" x="5" y="7" width="68" height="73" viewBox="${spriteX} ${spriteY} 128 128" preserveAspectRatio="xMidYMid slice" clip-path="url(#portrait-clip-${index})"><image href="${naut.image}" x="0" y="0" width="768" height="768" preserveAspectRatio="none"/></svg><polygon class="hex-outer" points="${points}" stroke="url(#frame-${index})"/><polygon class="hex-inner" points="${inner}"/></svg>`;
+ // Each 128x128 tile must be positioned in the *outer* SVG's coordinates.
+ // Avoid nested SVG viewBoxes: their overflow/clip coordinates can cause
+ // images to escape the hexagon or leave its interior blank in Chromium.
+ const tileSize=128;
+ const atlasSize=768;
+ const portraitX=5,portraitY=7,portraitW=68,portraitH=73;
+ const scale=Math.max(portraitW/tileSize,portraitH/tileSize); // xMidYMid slice
+ const spriteX=(naut.spriteIndex%6)*tileSize;
+ const spriteY=Math.floor(naut.spriteIndex/6)*tileSize;
+ const imageX=portraitX-spriteX*scale-(tileSize*scale-portraitW)/2;
+ const imageY=portraitY-spriteY*scale-(tileSize*scale-portraitH)/2;
+ const imageSize=atlasSize*scale;
+ b.innerHTML=`<svg viewBox="0 0 78 90" aria-hidden="true" focusable="false"><defs><clipPath id="portrait-clip-${index}" clipPathUnits="userSpaceOnUse"><polygon points="${inner}"/></clipPath><linearGradient id="frame-${index}" x1="0" y1="0" x2=".6" y2="1"><stop stop-color="#68fcff"/><stop offset=".45" stop-color="#08c5d1"/><stop offset="1" stop-color="#047185"/></linearGradient></defs><polygon class="hex-body" points="${points}"/><image class="roster-sprite" href="${naut.image}" x="${imageX}" y="${imageY}" width="${imageSize}" height="${imageSize}" preserveAspectRatio="none" clip-path="url(#portrait-clip-${index})"/><polygon class="hex-outer" points="${points}" stroke="url(#frame-${index})"/><polygon class="hex-inner" points="${inner}"/></svg>`;
  b.onmouseenter=()=>setRosterNote(naut.name.toUpperCase()+(naut.available?' / OPEN DOSSIER':' / DOSSIER AWAITING IMPORT'));
  b.onmouseleave=()=>setRosterNote(defaultRosterNote);
  b.onfocus=b.onmouseenter;b.onblur=b.onmouseleave;
