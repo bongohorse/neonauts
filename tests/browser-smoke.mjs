@@ -91,7 +91,7 @@ async function smoke(prefix,viewport,label){
       Object.fromEntries(archiveData.roster.map(n=>[n.slug,n.spriteIndex])));
     assert.equal(spriteTiles.length,34,'every hex needs a positioned sprite image');
     const spriteImage=spriteTiles[0].image;
-    assert.ok(/nauts_profile_spritesheet(?:\\.[a-f0-9]{24})?\\.webp$/.test(spriteImage),
+    assert.ok(/nauts_profile_spritesheet(?:\.[a-f0-9]{24})?\.webp$/.test(spriteImage),
       'the actual roster sheet must be referenced');
     const tile=128,scale=Math.max(68/tile,73/tile),size=768*scale;
     for(const item of spriteTiles){
@@ -99,7 +99,7 @@ async function smoke(prefix,viewport,label){
       assert.ok(Number.isInteger(i)&&i>=0&&i<34,`unknown Naut: ${item.slug}`);
       assert.equal(item.innerSvgCount,0,'nested SVG would break sprite clipping');
       assert.equal(item.clipUnits,'userSpaceOnUse');
-      assert.ok(/^url\\(#portrait-clip-\\d+\\)$/.test(item.clip),'missing hex clip');
+      assert.ok(/^url\(#portrait-clip-\d+\)$/.test(item.clip),'missing hex clip');
       assert.equal(item.image,spriteImage,'every portrait uses one shared atlas');
       const expectX=5-(i%6)*tile*scale-(tile*scale-68)/2;
       const expectY=7-Math.floor(i/6)*tile*scale-(tile*scale-73)/2;
