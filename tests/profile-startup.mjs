@@ -10,8 +10,10 @@ for(const [label,viewport] of [['desktop',{width:1365,height:768}],['mobile',{wi
 const context=await browser.newContext({viewport,deviceScaleFactor:1.25});const page=await context.newPage();const c=await context.newCDPSession(page);
 await c.send('Network.enable');await c.send('Network.setCacheDisabled',{cacheDisabled:true});await c.send('Network.emulateNetworkConditions',{offline:false,latency:150,downloadThroughput:200000,uploadThroughput:93750});await c.send('Emulation.setCPUThrottlingRate',{rate:4});
 const events=[];c.on('Tracing.dataCollected',e=>events.push(...e.value));
+await c.send('Profiler.enable');await c.send('Profiler.start');
 await c.send('Tracing.start',{categories:'devtools.timeline,disabled-by-default-devtools.timeline,disabled-by-default-devtools.timeline.stack,blink.user_timing,v8.execute',options:'record-as-much-as-possible'});
 await page.goto(url);await page.waitForTimeout(2000);
+const cpu=(await c.send('Profiler.stop')).profile;await writeFile(out+'/'+label+'-cpu.json',JSON.stringify(cpu));
 const done=new Promise(ok=>c.once('Tracing.tracingComplete',ok));await c.send('Tracing.end');await done;
 const nav=events.find(e=>e.name==='navigationStart'&&e.args?.data?.documentLoaderURL===url);
 const layouts=events.filter(e=>e.name==='Layout'&&e.ph==='X').sort((a,b)=>b.dur-a.dur);

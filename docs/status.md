@@ -392,3 +392,11 @@ from being combined with newly deployed markup.
 - Critical art and sprite atlas stay eager; skin/ability lazy experiment rejected.
 - Desktop lab LCP has a documented +5.5% trade-off; this is no claimed LCP speedup.
 - Evidence: docs/performance/images-33.md. Draft review required; no deployment.
+
+## Startup Maps initialization — #34
+
+- Maps DOM is constructed synchronously once on first activation/direct #maps hash.
+- Five-run JS CPU medians: 29.429 ms desktop / 33.490 ms mobile; 27 responses unchanged.
+- Initial viewport screenshots are pixel-identical; native tests cover all 34 Nauts,
+  rapid aborted navigation, direct Maps and repeated opens. Existing checks pass.
+- Evidence: docs/performance/startup-34.md. No code splitting or deployment.
