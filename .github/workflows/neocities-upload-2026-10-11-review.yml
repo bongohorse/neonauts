@@ -1,0 +1,58 @@
+name: Authorized Neocities upload 2026-10-11 review fixes
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/neocities-upload-2026-10-11-review.yml'
+permissions:
+  contents: read
+concurrency:
+  group: neocities-production
+  cancel-in-progress: false
+jobs:
+  deploy:
+    # One upload explicitly authorized by the owner; removed after verification.
+    if: github.ref == 'refs/heads/main' && github.event.head_commit.message == 'ops: authorized one-time Neocities deployment of 80964c7'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+        env:
+          PYTHONPATH: scripts
+      - run: python scripts/build.py
+      - name: Refresh Steam count and preserve public history
+        run: >-
+          python scripts/fetch_players.py
+          --history-url https://awesomenauts.neocities.org/players.json
+          --history-url https://bongohorse.github.io/neonauts/players.json
+      - run: python scripts/check.py
+      - run: node tests/page-data.mjs
+      - run: node tests/radio.mjs
+      - run: node tests/players-client.mjs
+      - run: node tests/workers.mjs
+      - name: Prepare immutable Neocities release
+        run: python scripts/prepare_neocities_release.py
+      - name: Verify prepared release
+        run: python scripts/check.py
+      - name: Check and optionally publish to Neocities
+        env:
+          NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+          AUDIT_ORPHANS: ${{ github.event_name == 'workflow_dispatch' && inputs.audit_orphans && '1' || '0' }}
+        shell: bash
+        run: |
+          if [ "$AUDIT_ORPHANS" = "1" ]; then
+            python scripts/deploy_neocities.py --audit-orphans
+          elif [ "$DRY_RUN" = "1" ]; then
+            python scripts/deploy_neocities.py --dry-run --require-immutable
+          else
+            python scripts/deploy_neocities.py --require-immutable
+          fi
