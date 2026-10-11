@@ -1,0 +1,30 @@
+name: Naut roster sprite benchmark
+on:
+  pull_request:
+    paths:
+      - scripts/benchmark_roster_sprite.py
+      - .github/workflows/roster-sprite-benchmark.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Compare 34 original WebPs to 6×6 sprite sheets
+        run: python scripts/benchmark_roster_sprite.py
+      - name: Save visual comparison and exact size/fidelity report
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: roster-sprite-benchmark
+          path: tests/artifacts/roster-sprite-benchmark/
+          if-no-files-found: error
