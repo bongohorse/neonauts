@@ -85,7 +85,7 @@ try{
           const n=performance.getEntriesByType('navigation')[0];
           return {...window.__perf,fcp:performance.getEntriesByName('first-contentful-paint')[0]?.startTime ?? null,
             navigation:{domContentLoaded:n.domContentLoadedEventEnd,load:n.loadEventEnd,responseStart:n.responseStart},
-            resources:performance.getEntriesByType('resource').map(e=>({name:e.name,initiatorType:e.initiatorType,transferSize:e.transferSize}))};
+            resources:performance.getEntriesByType('resource').map(e=>({name:e.name,initiatorType:e.initiatorType,transferSize:e.transferSize,startTime:e.startTime,responseStart:e.responseStart,responseEnd:e.responseEnd,duration:e.duration}))};
         });
         const metrics=Object.fromEntries((await client.send('Performance.getMetrics')).metrics.map(e=>[e.name,e.value]));
         taskDuration=metrics.TaskDuration;
