@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import time
 import uuid
 from datetime import datetime, timezone
@@ -200,8 +201,24 @@ def seconds_until_safe_update(last_updated, now=None):
     return max(0, MIN_UPDATE_INTERVAL_SECONDS - (now - updated).total_seconds())
 
 
-def deploy(directory, dry_run=False, config_path=ROOT / "site.config.json"):
+def require_immutable_release(directory):
+    state = json.loads((directory / ".neonauts-build").read_text(encoding="utf-8"))
+    if state.get("base_path") != "/" or state.get("immutable_release") is not True:
+        raise ValueError("Refusing Neocities upload without a prepared immutable root release")
+    files = collect_files(directory)
+    for name, _ in files:
+        if is_entrypoint(name) or name == "players.json":
+            continue
+        if not re.search(r"\.[0-9a-f]{24}\.[a-z0-9]+$", name):
+            raise ValueError(f"Refusing mutable supporting filename: {name}")
+
+
+def deploy(directory, dry_run=False, config_path=ROOT / "site.config.json",
+           require_immutable=False):
     from check import check
+    directory = Path(directory)
+    if require_immutable:
+        require_immutable_release(directory)
     check(directory)
     files = collect_files(directory)
     site = expected_site(config_path)
@@ -213,6 +230,15 @@ def deploy(directory, dry_run=False, config_path=ROOT / "site.config.json"):
     if not isinstance(info, dict) or info.get("sitename") != site:
         raise RuntimeError(f"API key does not belong to configured site {site!r}; refused to deploy")
     remote = remote_files(api_json("/list", key))
+    if require_immutable:
+        # A URL addressed by its content hash must never be overwritten.
+        for name, path in files:
+            if is_entrypoint(name) or name == "players.json":
+                continue
+            item = remote.get(name)
+            if item and (item["sha1_hash"].lower() != sha1_file(path) or
+                         item["size"] != path.stat().st_size):
+                raise RuntimeError(f"Immutable resource has different remote bytes: {name}")
     changed = sorted(((name, path) for name, path in files
                       if remote.get(name, {}).get("sha1_hash", "").lower() != sha1_file(path)
                       or remote.get(name, {}).get("size") != path.stat().st_size),
@@ -315,8 +341,10 @@ if __name__ == "__main__":
     parser.add_argument("--dry-run", action="store_true", help="Read remote state; never upload")
     parser.add_argument("--audit-orphans", action="store_true",
                         help="List remote files absent from this build; never delete or upload")
+    parser.add_argument("--require-immutable", action="store_true",
+                        help="Reject unversioned build output and remote immutable-path collisions")
     args = parser.parse_args()
     if args.audit_orphans:
         audit_orphans(args.directory)
     else:
-        deploy(args.directory, dry_run=args.dry_run)
+        deploy(args.directory, dry_run=args.dry_run, require_immutable=args.require_immutable)
