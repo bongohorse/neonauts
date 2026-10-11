@@ -69,6 +69,19 @@ class BuildTests(unittest.TestCase):
             after={p.relative_to(out):hashlib.sha256(p.read_bytes()).hexdigest() for p in out.rglob('*') if p.is_file()}
             self.assertEqual(before,after)
 
+    def test_about_attribution_and_archive_status_are_current(self):
+        document=html.fromstring((ROOT/'src/templates/shell.html').read_text(encoding='utf-8'))
+        about=document.get_element_by_id('about')
+        text=about.text_content()
+        self.assertIn('All 34 Naut dossiers are available',text)
+        self.assertNotIn('Other Naut dossiers and hosted OST tracks await',text)
+        licenses=about.xpath('.//a[@href="https://creativecommons.org/licenses/by-sa/3.0/"]')
+        self.assertEqual(len(licenses),1)
+        self.assertIn('Adapted Wiki text is attributed under',text)
+        self.assertIn('does not automatically apply to game artwork',text)
+        self.assertEqual(text.count('This license does not automatically apply'),1)
+        self.assertIn('public guestbook requires a separately configured service',text)
+
     def test_editorial_contains_narrative_copy_only(self):
         for source in sorted((ROOT/'data/editorial').glob('*.json')):
             editorial=json.loads(source.read_text(encoding='utf-8'))

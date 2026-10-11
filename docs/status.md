@@ -272,3 +272,12 @@ from being combined with newly deployed markup.
   files absent from the current build. It makes no remote write calls.
 - Cached older HTML and manually maintained files are intentionally excluded
   from automatic deletion decisions; this work does **not** introduce pruning.
+
+## Accurate About-page copy — issue #16
+
+- Corrected visible archive status to say all 34 Naut dossiers and their
+  verified Bandcamp theme links are available, with distinct GitHub Pages
+  Steam sampling and Neocities snapshot behavior.
+- Replaced the duplicate CC BY-SA paragraph with one precise attribution and
+  clarified that game artwork, fonts and music are not automatically covered.
+- Added a focused regression test for current status and one license link.
