@@ -161,7 +161,7 @@ class NeocitiesDeployTests(unittest.TestCase):
                            self.listing(self.remote("index.html", (self.dist/"index.html").read_bytes()))]
         self.assertEqual(deploy(self.dist, config_path=self.config), 1)
         sleep.assert_called_once_with(5)
-        self.assertEqual(api.call_args_list[-1].args[0], "/upload")
+        self.assertEqual(api.call_args_list[-2].args[0], "/upload")
 
 
     def test_publication_plan_is_phase_isolated_and_homepage_last(self):
