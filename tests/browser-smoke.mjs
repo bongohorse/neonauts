@@ -279,6 +279,17 @@ async function smoke(prefix,viewport,label){
     await page.locator('[data-section="maps"]').click();
     assert.equal(await page.locator('.map-card').count(),6,'reopening never duplicates map cards');
     assert.deepEqual(failures,[],'direct Maps and repeated opening stay healthy');
+    for(const section of ['guestbook','community','goodies']){
+      await page.goto(origin+prefix+'?direct='+section+'#'+section,{waitUntil:'load'});
+      assert.equal(await page.locator('#'+section).evaluate(e=>e.hidden),false,'direct section hash must be ready');
+      if(section==='guestbook'){
+        assert.ok(await page.locator('#favourite-naut option').count()>=35,'guestbook dependencies ready');
+        assert.ok(await page.locator('#guestbook-submit').isEnabled(),'guestbook local draft control ready');
+      }
+      if(section==='goodies')await page.waitForFunction(()=>[...document.querySelectorAll('#goodies img')].every(img=>img.complete&&img.naturalWidth>0));
+      assert.equal(await page.locator('.map-card').count(),0,'optional Maps remain uninitialized on other direct sections');
+    }
+    assert.deepEqual(failures,[],'direct optional sections work without an async loader');
     if(label==='neocities-immutable'){
       // Simulate an interrupted multi-HTML release: the in-page fetch sees
       // newer shared assets than the page's currently loaded JS/CSS.

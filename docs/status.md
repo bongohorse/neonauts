@@ -400,3 +400,10 @@ from being combined with newly deployed markup.
 - Initial viewport screenshots are pixel-identical; native tests cover all 34 Nauts,
   rapid aborted navigation, direct Maps and repeated opens. Existing checks pass.
 - Evidence: docs/performance/startup-34.md. No code splitting or deployment.
+
+## Optional script loading gate — #35
+
+- Measured async Maps loading against guarded initialization; prototype reverted.
+- Two requests / ~21 KB saved, modest desktop LCP gain, but ~608 ms first-use control delay.
+- NO-GO: keep ordered defer + synchronous first-use initialization.
+- Evidence and native direct-section coverage: docs/performance/splitting-35.md.
