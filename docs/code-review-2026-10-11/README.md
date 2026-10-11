@@ -2,9 +2,44 @@
 
 Reviewed source revision: `77ddbe91ea4dc9200e3ab918e488b242b89c0835` (main after PRs #38–#45).
 
-Six confirmed findings: one P1 and five P2. Existing automated checks pass;
-they do not cover the failure cases below. This report changes no website,
-importer, Worker, deployment, or CI behavior. Review observations are not fixes.
+The original review found one P1 and five P2 defects despite passing automated
+checks. Findings and captured probe results below describe the reviewed revision;
+they are retained as before-fix evidence.
+
+## Resolution in PR #46
+
+All six functional findings are repaired, with regression coverage:
+
+- R1: canonical XPath values become plain strings at extraction. A real saved
+  HTML import succeeds; malicious canonical URLs still fail before dataset replacement.
+- R2: every history intent cancels outstanding dossier work, including a return
+  to the already rendered path. Selecting the current roster tile also cancels
+  pending work. If history currently points elsewhere, that tile navigates to
+  its own URL. Native tests independently hold HTML and JSON, exercise rapid
+  Back/Forward and reselection, and check cancellation, busy state, URL and content.
+- R3: copied HTML retains the documented self-hosting placeholder and original
+  download filename. Actual download links still use immutable filenames when
+  appropriate. All nine download bytes and embed paths are checked; native
+  tests exercise the clipboard flow in all three builds.
+- R4: bounded, validated histories are deduplicated and sorted before choosing
+  the latest 120 samples. Two full origins, reversed order and duplicate origins
+  retain the same newest points. Timestamps are normalized to UTC for ordering.
+- R5: upload preflight compares every supporting file's SHA-256 prefix with its
+  filename before any API call. Modified staging bytes fail closed.
+- R6: Arcade and map dialogs reference their visible titles. Native tests query
+  their accessible dialog names while preserving existing opening/closing behavior.
+
+The P3 status/atlas-comment corrections are included. Raster checks now explicitly
+require the five last-row portraits; a synthetic missing-row regression test
+proves they cannot hide inside the overall allowance for dark artwork. Broad CSS
+cascade cleanup remains a maintenance observation, with no demonstrated defect
+or performance benefit that would justify changing rendering in this repair.
+
+Local verification: 62 Python tests, four Node suites, two metric tests, all three
+build variants and checkers, native Chromium smoke for root/Pages/immutable, and
+34/34 painted portraits pass. GitHub CI and publication outcomes are recorded on
+[PR #46](https://github.com/bongohorse/neonauts/pull/46). The original observation
+scripts/results below remain historical; the maintained tests assert fixed behavior.
 
 ## Findings, in recommended repair order
 

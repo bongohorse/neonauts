@@ -295,6 +295,18 @@ class NeocitiesDeployTests(unittest.TestCase):
         self.assertEqual(api.call_count, 0)
 
     @patch("deploy_neocities.api_json")
+    def test_tampered_local_immutable_file_is_rejected_before_api(self, api):
+        (self.dist / ".neonauts-build").write_text(
+            json.dumps({"base_path":"/","immutable_release":True}))
+        (self.dist / "assets").mkdir()
+        content=b"prepared bytes"
+        name="assets/script."+hashlib.sha256(content).hexdigest()[:24]+".js"
+        (self.dist / name).write_bytes(b"changed after staging")
+        with self.assertRaisesRegex(ValueError,"does not match local content"):
+            deploy(self.dist,config_path=self.config,require_immutable=True)
+        api.assert_not_called()
+
+    @patch("deploy_neocities.api_json")
     def test_existing_immutable_remote_bytes_must_not_be_overwritten(self, api):
         (self.dist / ".neonauts-build").write_text(
             json.dumps({"base_path":"/","immutable_release":True}))

@@ -441,3 +441,20 @@ from being combined with newly deployed markup.
   also need targeted repairs. Existing green tests miss these edge cases.
 - Review documentation only: these defects are not repaired by this checkpoint;
   no website/Worker/deployment behavior or settings are changed.
+
+
+## Review repairs — 11 October 2026
+
+PR #46 repairs all six findings in the full review: real HTML import handling,
+latest-intent dossier navigation, self-hosted Goodies embed HTML, chronological
+multi-origin player history, local immutable content verification and accessible
+dialog names. The report retains before-fix evidence and describes each resolution.
+The atlas comment is corrected and raster checks now explicitly cover the five
+last-row portraits, with a synthetic regression test. CSS cascade cleanup remains
+a measured follow-up observation rather than a rendering change.
+
+Local verification passes: 62 Python tests, four Node suites, two metric tests,
+root/Pages/immutable builds and checks, native Chromium smoke in all three variants,
+and 34/34 painted portraits. CI/merge/publication status is available on
+[PR #46](https://github.com/bongohorse/neonauts/pull/46). Existing publication settings
+are preserved; the repair does not enable Neocities automatic deployment.

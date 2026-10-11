@@ -67,6 +67,17 @@ class PlayersTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'HTTPS'):
             combine_previous_histories(['http://example.org/players.json'],opener=opener)
 
+    def test_full_histories_keep_latest_samples_in_either_source_order(self):
+        now=datetime.now(timezone.utc)
+        points=[{'players':i,'checkedAt':(now-timedelta(minutes=i)).isoformat()} for i in range(240)]
+        urls=['https://example.org/new','https://example.org/old']
+        def opener(url,timeout):
+            history=list(reversed(points[:120] if url.endswith('/new') else points[120:]))
+            return io.BytesIO(json.dumps({'history':history}).encode())
+        expected=list(reversed(points[:120]))
+        for order in [urls,list(reversed(urls)),urls+[urls[0]]]:
+            self.assertEqual(combine_previous_histories(order,opener),expected)
+
     def test_neocities_workflow_imports_both_histories(self):
         workflow=(Path(__file__).resolve().parents[1]/'.github/workflows/deploy.yml').read_text()
         self.assertIn('--history-url https://awesomenauts.neocities.org/players.json',workflow)

@@ -34,6 +34,15 @@ class ImmutableReleaseTests(unittest.TestCase):
                 self.assertFalse((output / name).exists(), name)
 
             root = html.fromstring((output / "index.html").read_text())
+            cards=root.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," goodie-card ")]')
+            self.assertEqual(len(cards),9)
+            for card in cards:
+                snippet=html.fromstring(card.xpath('.//textarea')[0].text)
+                download=card.xpath('.//a[@download]')[0]
+                self.assertEqual(snippet.get('src'),
+                    'https://YOUR-SITE.neocities.org/assets/goodies/'+download.get('download'))
+                self.assertEqual((output/download.get('href')).read_bytes(),
+                    (Path(__file__).parents[1]/'src/static/assets/goodies'/download.get('download')).read_bytes())
             scripts = root.xpath('//script[@src]/@src')
             self.assertTrue(any(s.startswith("script.") and s.endswith(".js") for s in scripts))
             self.assertTrue(any(s.startswith("roster-data.") for s in scripts))
