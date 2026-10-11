@@ -175,3 +175,8 @@ The source assets for Commander Rocket and Gnaw are larger than most Nauts;
 re-encoding them without checking readability/transparency would risk
 quality loss, so this change keeps their original WebP bytes. The generator
 reports the number of referenced images and avoided duplicate copies.
+
+Neocities releases also merge valid player-history samples from the previous
+Neocities publication and the independently scheduled GitHub Pages snapshot,
+so rebuilding the website need not reset the recorded 24-hour history. This
+does not automatically schedule more frequent Neocities releases.

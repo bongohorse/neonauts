@@ -232,3 +232,16 @@ from being combined with newly deployed markup.
   version races or mixed HTML after a partial final batch. These limitations
   remain an explicit follow-up gate before declaring deployments transaction-safe.
 - Nothing was published to production by the repository edit or PR.
+
+## Neocities player-history preservation — issue #12
+
+- The Neocities deployment now merges validated history snapshots from the
+  existing Neocities `players.json` and the GitHub Pages preview history.
+  If either endpoint is unavailable, the other can preserve bounded
+  (24-hour, ≤120-point), timestamp-validated observations.
+- The Steam API snapshot still fails closed to `players:null` on outage, and
+  history points are never invented or converted to a false current count.
+- GitHub Pages' separate 15-minute scheduled workflow still does **not**
+  update Neocities. On Neocities, observations refresh only when its own
+  deployment workflow is intentionally triggered or explicitly scheduled.
+- No new live Neocities upload is performed by this fix.
