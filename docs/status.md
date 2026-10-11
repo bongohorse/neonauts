@@ -165,3 +165,16 @@ from being combined with newly deployed markup.
   edited taglines such as Swiggins remain.
 - Replaced the Swiggins-specific template/build path with one data-free Naut template.
   Optional per-Naut editorial JSON preserves curated copy, abilities, items and skins.
+
+## Swiggins data normalization — 11 October 2026
+
+- Removed the Swiggins-only ability/item/skin runtime replacement. All 34 Nauts
+  now derive ability icons and values, their 24 upgrades, skill groups and skin
+  galleries from `data/nauts/<slug>.json` and the shared `page_data()` builder.
+- Kept Swiggins' approved tagline, briefing, tactics and backstory as optional
+  narrative-only editorial copy. The story tab retains the common BACKSTORY
+  heading; the Titan tagline remains a subheading.
+- Removed 31 unused `editorial-*.webp` duplicates; source artwork remains in the
+  Swiggins asset directory. No source snapshot hashes or diagnostics changed.
+- The build test now compares generated runtime sections for every Naut against
+  canonical `page_data()`, preventing future character-specific runtime drift.

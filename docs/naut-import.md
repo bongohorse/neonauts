@@ -2,7 +2,7 @@
 
 Source: https://github.com/bongohorse/neonauts/releases/tag/nauts
 
-31 new dossiers imported; Ayla and Chucho retained, approved Swiggins unchanged.
+31 new dossiers imported; Ayla and Chucho retained. Swiggins now uses the same canonical data-to-page pipeline; approved narrative copy remains in its editorial JSON.
 All 34 roster entries have their own dataset and URL. Snapshot SHA-256 and canonical
 Wiki attribution remain in each JSON. Raw HTML remains ignored.
 

@@ -11,8 +11,9 @@
   diagnostics afterward. Do not repeatedly paste/read complete snapshots.
 - Keep source attribution and hashes. Do not invent item costs, current game
   status, player counts or missing pictures. Preserve partial diagnostics.
-- Keep Naut content separate from shared behaviours. The Swiggins dossier
-  has approved editorial content; avoid overwriting it with raw Wiki text.
+- Keep Naut content separate from shared behaviours. All ability, item, and
+  skin data comes from data/nauts/<slug>.json. Optional editorial JSON can
+  customize narrative copy only; preserve approved Swiggins prose.
 - After meaningful edits run the README checks, report actual verification
   and its limits, and update docs/status.md when scope/status changes.
 - No Neocities API keys or other credentials in tracked files. Public Worker

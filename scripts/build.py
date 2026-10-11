@@ -162,7 +162,6 @@ def build(output=None, base_path='/'):
         runtime['theme']=ost['tracks'].get(aliases.get(d['name'],d['name']))
         document=copy.deepcopy(shell)
         editorial=editorials.get(d['slug'],{})
-        runtime.update(editorial.get('runtime',{}))
         dossier=make_dossier(dossier_template,d,runtime,editorial.get('view'))
         slot=document.get_element_by_id('dossier-slot');slot.getparent().replace(slot,dossier)
         if runtime['theme']:
