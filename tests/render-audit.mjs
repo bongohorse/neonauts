@@ -21,7 +21,7 @@ try{
   for(const [slug,path,motion] of [['root','/','no-preference'],['clunk','/nauts/clunk/','no-preference'],['gnaw','/nauts/gnaw/','no-preference'],['root-reduced','/','reduce']]){
    const name=slug+'-'+label,context=await browser.newContext({viewport,deviceScaleFactor:1.25,reducedMotion:motion,serviceWorkers:'block'});
    const page=await context.newPage(),c=await context.newCDPSession(page),errors=[],requests=[];
-   page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>requests.push(r.url()));page.on('response',r=>{if(r.status()>=400)errors.push(r.status()+' '+r.url());});
+   page.on('pageerror',e=>errors.push(e.message));page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});page.on('request',r=>requests.push(r.url()));page.on('response',r=>{if(r.status()>=400)errors.push(r.status()+' '+r.url());});
    await c.send('Network.enable');await c.send('Network.setCacheDisabled',{cacheDisabled:true});
    await c.send('Network.emulateNetworkConditions',{offline:false,latency:150,downloadThroughput:200000,uploadThroughput:93750});
    await c.send('Emulation.setCPUThrottlingRate',{rate:4});
@@ -41,7 +41,10 @@ try{
       lcpResource:timing(lcpResource),navigationResponseStart:performance.getEntriesByType('navigation')[0].responseStart,
       font:performance.getEntriesByType('resource').filter(e=>e.name.includes('.woff2')).map(timing),fontsStatus:document.fonts.status};
    });
-   assert.ok(data.hero.complete&&data.hero.naturalWidth>0);assert.equal(requests.filter(u=>u===data.hero.url).length,1,'hero URL must not duplicate');
+   assert.ok(data.hero.complete&&data.hero.naturalWidth>0);
+   const fontRequests=requests.filter(url=>url.includes('.woff2'));
+   assert.equal(fontRequests.length,1,'preload and CSS must share exactly one font request');
+   assert.equal(data.fontsStatus,'loaded');assert.equal(requests.filter(u=>u===data.hero.url).length,1,'hero URL must not duplicate');
    assert.ok(data.hero.box.left>=data.hero.stage.left-2 && data.hero.box.right<=data.hero.stage.right+2,'hero stays in stage');
    if(motion==='reduce')assert.equal(data.hero.animation,'none');
    await page.screenshot({path:resolve(out,name+'.png')});

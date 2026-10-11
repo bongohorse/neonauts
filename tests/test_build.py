@@ -13,6 +13,10 @@ class BuildTests(unittest.TestCase):
         shell=html.fromstring((ROOT/'src/templates/shell.html').read_text())
         goodies=shell.xpath('//*[@id="goodies"]//img')
         self.assertEqual(len(goodies),9)
+        preload=shell.xpath('//link[@rel="preload"][@as="font"]')
+        self.assertEqual(len(preload),1)
+        self.assertEqual(preload[0].get('href'),'assets/rubik.woff2')
+        self.assertIn('crossorigin',preload[0].attrib)
         self.assertTrue(all(i.get('loading')=='lazy' and i.get('width') and i.get('height') for i in goodies))
         with tempfile.TemporaryDirectory() as temp:
             out=build(Path(temp)/'site')

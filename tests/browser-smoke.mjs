@@ -85,6 +85,7 @@ async function smoke(prefix,viewport,label){
       failures.push('Unexpected individual roster icon request: '+request.url());
   });
   page.on('pageerror',error=>failures.push('Uncaught page error: '+error.message));
+  page.on('console',message=>{if(message.type()==='error')failures.push('Console error: '+message.text());});
   page.on('response',response=>{
     if(response.url().startsWith(origin+'/')&&response.status()>=400)
       failures.push('Broken local request: '+response.status()+' '+response.url());
