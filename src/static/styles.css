@@ -30,9 +30,11 @@
 
 
 /* Shared Naut dossier: keep the approved roster geometry untouched. */
-.dossier{grid-template-areas:"heading stage" "content stage";row-gap:0;align-items:start}
-.dossier-heading{grid-area:heading;min-width:0}
-.dossier-content{grid-area:content}
+/* A long skin description must not stretch the heading/content gap. */
+.dossier{grid-template-areas:"main stage";align-items:start}
+.dossier-main{grid-area:main;min-width:0}
+.dossier-heading{min-width:0}
+.dossier-content{min-width:0}
 .character-stage{grid-area:stage}
 .stat-context{display:block;color:#8cabb4;font-size:10px;line-height:1.5}
 .panel-intro{color:#bed2d7;font-size:13px;line-height:1.8}
@@ -53,6 +55,9 @@
 .data-note a{display:inline-block;margin-top:8px;font-size:10px;letter-spacing:0}
 @media(max-width:720px){
  .dossier{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"heading" "stage" "content";row-gap:22px}
+ .dossier-main{display:contents}
+ .dossier-heading{grid-area:heading}
+ .dossier-content{grid-area:content}
  .dossier-heading h1{font-size:44px;margin-top:17px}
  .dossier-heading .intro{margin-bottom:0}
  .character-stage{order:initial;padding:0}
