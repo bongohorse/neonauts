@@ -25,6 +25,9 @@ class BuildTests(unittest.TestCase):
                 p=out/'nauts'/slug/'index.html';self.assertTrue(p.is_file())
                 doc=html.fromstring(p.read_text())
                 self.assertEqual(len(doc.xpath('//*[@class="dossier"]')),1)
+                dossier=doc.xpath('//*[@class="dossier"]')[0]
+                self.assertEqual([child.get('class') for child in dossier],['dossier-main','character-stage'])
+                self.assertEqual([child.get('class') for child in dossier[0]],['dossier-heading','dossier-content'])
                 self.assertEqual(doc.xpath('//base/@href'),['../../'])
                 data=json.loads((ROOT/'data/nauts'/f'{slug}.json').read_text())
                 self.assertEqual(doc.xpath('//*[@class="roster-note"]')[0].text_content(),data['name'].upper()+' SELECTED')
