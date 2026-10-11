@@ -105,10 +105,13 @@ separate checks, not implied by these automated results.
 
 ## Publish
 
-See [Neocities setup](docs/neocities.md). The manual GitHub Actions deployment
-workflow is ready. Add the `NEOCITIES_API_KEY` repository secret and configure
-the public site URL before using it. Only generated files from `dist/` are
-uploaded. The uploader does not delete existing remote files.
+See [Neocities setup](docs/neocities.md). GitHub Actions supports a safe,
+read-only **dry-run first** and a separately confirmed first live upload.
+After live acceptance, enable the `NEOCITIES_AUTO_DEPLOY=true` repository
+variable to publish each push to `main` automatically. Until this opt-in is
+set, pushes do not deploy to Neocities. Uploads are incremental, respect a
+10-minute site-update interval and never delete remote files. Store the API
+key only in the `NEOCITIES_API_KEY` GitHub Actions secret.
 
 GitHub Pages refreshes `players.json` from Steam during deployment and on a
 15-minute Actions schedule. Scheduled runs may be delayed; the visible timestamp

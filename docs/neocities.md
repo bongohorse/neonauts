@@ -1,34 +1,87 @@
 # Neocities publication and services
 
-Neocities hosts the generated static files. Python, GitHub workflows and
-Cloudflare Workers are not executed by uploading their source files there.
+Neocities serves only the generated static frontend from `dist/`. The
+source repository remains the single source of truth. Python, GitHub Actions
+and Cloudflare Workers do not run inside Neocities.
 
-## First publication
+**Production:** https://awesomenauts.neocities.org/
+**Preview:** https://bongohorse.github.io/neonauts/
 
-1. Set `siteUrl` in `site.config.json` to your real HTTPS website origin.
-2. Build and run the README checks.
-3. In GitHub repository Settings → Secrets and variables → Actions, add
-   `NEOCITIES_API_KEY` from your Neocities site settings. Never put it in Git.
-4. Open Actions → Deploy to Neocities → Run workflow on `main`.
-5. Verify root, all `/nauts/<slug>/` URLs, image paths and `not_found.html` on
-   the live host. The workflow publishes the exact selected main revision.
+## Safe first publication (required once)
 
-Alternative: upload the contents of `dist/` manually, preserving directories.
-Do not upload the `dist` directory itself as a nested folder. Omit the hidden
-build marker. Source JSON, raw Wiki exports, tests and Worker code are not part
-of the generated frontend upload.
+1. In `site.config.json`, set `siteUrl` to
+   `https://awesomenauts.neocities.org` (HTTPS origin, without a path).
+2. In GitHub **Settings → Secrets and variables → Actions → Secrets**, add
+   `NEOCITIES_API_KEY` from your Neocities settings. Never publish the
+   token or put it in Git. This secret cannot be read back through the repo API.
+3. After the deployment PR's checks are green and it is merged, open
+   **Actions → Deploy to Neocities → Run workflow** on `main`. Keep
+   **dry_run checked** (default). This authenticates, verifies the token belongs
+   to the configured Neocities site, lists current remote files and compares
+   SHA-1 without uploading or deleting anything.
+4. Review the log: target must be `awesomenauts`, changed/new count
+   should match the expected first publication, and any remote-only files
+   will be **preserved**. Confirm adequate free disk space.
+5. Run the same workflow a second time, explicitly **uncheck dry_run**.
+   This publishes only changed/new files. It may wait up to ten minutes
+   to respect Neocities' recommended update frequency.
+6. Open the live homepage, representative Naut URLs, image paths,
+   stylesheet, theme/skin controls and `not_found.html` to accept
+   the real publication. Do not activate auto-deploy until this passes.
 
-The script calls the official upload API once and does not delete remote
-files. Obsolete files from earlier versions therefore require explicit cleanup
-after reviewing what should be removed. No publication was performed during
-the repository foundation task.
+## Enable automatic publishing after acceptance
+
+In GitHub **Settings → Secrets and variables → Actions → Variables**, create
+the repository variable:
+
+- **Name:** `NEOCITIES_AUTO_DEPLOY`
+- **Value:** `true`
+
+The deployment workflow then runs on every push to `main` (typically a
+merged PR), or on manual dispatch. GitHub's concurrency group serializes
+deployments. On a push, the workflow publishes after the test/build gates.
+To stop automatic publishing without touching credentials, set that variable
+to `false` or delete it. Manual runs still work.
+
+**Do not enable automatic publishing before the first manual dry-run and
+successful live acceptance.** Merging the workflow itself is safe while
+the variable is absent/false: the push-triggered deployment job is skipped.
+
+## API rules and safety
+
+- Uses official bearer-key endpoints `GET /info`, `GET /list`
+  and `POST /upload`. Account identity is validated before any write.
+- Compares local SHA-1 to remote listing; identical files are not sent.
+- Uploads in **serial batches of at most 100 files and 90 MiB body size**,
+  conservatively below Neocities' 100 MB/request limit and common Ruby
+  multipart-file limits. Avoids parallel API requests and pauses between batches.
+- Respects a minimum 10-minute window between site updates using the
+  Neocities `last_updated` timestamp. Upload errors stop the workflow;
+  a retry compares hashes and skips already successful chunks.
+- Enforces allowed static extensions, checks per-file size and free-tier
+  projected storage before uploading. There is no automatic deletion/prune.
+  Files placed on Neocities by hand remain unless explicitly removed.
+- `--dry-run` performs remote read-only checks and makes zero upload
+  calls. Neocities file quota and the secret's validity can only be verified
+  in a real authenticated dry run, not through CI pull-request tests.
+- Only generated `dist/` contents are uploaded, never the folder itself,
+  hidden build marker, source snapshots, tests or API keys.
+
+Official documentation:
+- https://neocities.org/api
+- https://neocities.org/site_files/allowed_types
+- https://neocities.org/supporter
 
 ## Local upload
 
-Set `NEOCITIES_API_KEY` privately in your shell, then run:
+Only if you want to deploy from your own computer rather than GitHub Actions,
+set `NEOCITIES_API_KEY` privately and run:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/build.py
+.\.venv\Scripts\python.exe scripts/check.py
+.\.venv\Scripts\python.exe scripts/deploy_neocities.py --dry-run
+# After examining the result, intentionally publish:
 .\.venv\Scripts\python.exe scripts/deploy_neocities.py
 ```
 
@@ -41,17 +94,14 @@ Set `NEOCITIES_API_KEY` privately in your shell, then run:
   the current number. The frontend refreshes while visible and never invents
   a count. Steam caching may delay apparent updates.
 - `guestbookUrl`: HTTPS URL of the separately deployed
-  `workers/guestbook-worker.js`. Bind a Cloudflare KV namespace as `GUESTBOOK`
-  and set `SITE_ORIGIN` to your exact Neocities origin, without a trailing `/`.
+  `workers/guestbook-worker.js`. Bind a Cloudflare KV namespace as
+  `GUESTBOOK` and set `SITE_ORIGIN` to your exact Neocities origin,
+  without a trailing slash.
 
 New guestbook entries use `pending:` keys and are not public. To approve an
 entry, copy its JSON to the same key suffix with `published:` and remove its
 pending key. Pending entries expire after 30 days. The Worker returns up to
 50 published entries; KV eventual consistency means cooldown is best effort.
 
-Rebuild/publish after changing endpoint addresses. Until configured, the
-frontend retains its honest pending states and browser-local guestbook draft.
-
-Official references:
-- https://neocities.org/api
-- https://neocities.org/site_files/allowed_types
+Rebuild and publish after changing endpoint addresses. Until configured, the
+frontend retains its pending states and browser-local guestbook draft.
