@@ -377,3 +377,10 @@ from being combined with newly deployed markup.
 - Traced main-frame document layout; no proven forced-JS layout at the large passes.
 - Five-run detached-roster experiment showed no consistent desktop/mobile win; reverted.
 - Evidence and reproducible profiler: docs/performance/layout-31.md. No visual changes.
+
+## Lazy Arcade — #32
+
+- First Canvas context/paint occurs only on secret cube activation; closed draws skipped.
+- Native probes cover opening, keyboard/pointer, pause/reopen, score/restart and loop cleanup.
+- Five-run JS CPU medians improved on both viewports; layout remains variable.
+- Measurements and limitations: docs/performance/arcade-32.md. Draft only.
