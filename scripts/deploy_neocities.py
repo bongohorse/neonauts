@@ -194,7 +194,12 @@ def seconds_until_safe_update(last_updated, now=None):
     try:
         updated = parsedate_to_datetime(last_updated)
         if updated.tzinfo is None:
-            raise ValueError("Missing timezone")
+            # RFC 2822's -0000 denotes UTC clock time with an unknown
+            # original local timezone. Python deliberately parses it as
+            # naive; Neocities commonly emits this valid UTC representation.
+            if not isinstance(last_updated, str) or not last_updated.strip().endswith(" -0000"):
+                raise ValueError("Missing timezone")
+            updated = updated.replace(tzinfo=timezone.utc)
     except (TypeError, ValueError, IndexError) as error:
         raise RuntimeError("Invalid last_updated timestamp from Neocities") from error
     now = now or datetime.now(timezone.utc)
