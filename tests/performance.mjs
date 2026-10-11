@@ -1,5 +1,6 @@
 // Local measurement only by default. No production requests in CI.
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 import {createServer} from 'node:http';
 import {readFile,mkdir,writeFile} from 'node:fs/promises';
 import {resolve,sep,extname} from 'node:path';
@@ -40,7 +41,8 @@ if(!production){
   await new Promise((ok,fail)=>server.once('error',fail).listen(0,'127.0.0.1',ok));
 }
 const origin=production || 'http://127.0.0.1:'+server.address().port;
-const result={schemaVersion:1,date:new Date().toISOString(),revision:execFileSync('git',['rev-parse','HEAD'],{cwd:repository,encoding:'utf8'}).trim(),
+const sourceDiff=execFileSync('git',['diff','HEAD','--','src','data','scripts'],{cwd:repository,encoding:'utf8'});
+const result={sourceDiffPresent:Boolean(sourceDiff),sourceDiffSha256:createHash('sha256').update(sourceDiff).digest('hex'),schemaVersion:1,date:new Date().toISOString(),revision:execFileSync('git',['rev-parse','HEAD'],{cwd:repository,encoding:'utf8'}).trim(),
   mode:production?'manual-production-diagnostic':'local-static-lab',origin,
   environment:{node:process.version,platform:process.platform,playwright:JSON.parse(await readFile(new URL('../node_modules/playwright/package.json',import.meta.url),'utf8')).version,
     cpuSlowdown:4,network,cache:'fresh context + CDP bypass; service workers blocked',settleMs:2000},scenarios:[]};
