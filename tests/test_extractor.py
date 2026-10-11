@@ -53,6 +53,28 @@ class ExtractorTests(unittest.TestCase):
                     with self.assertRaises(ValueError):import_naut(source)
                     self.assertEqual(target.read_bytes(),accepted)
 
+    def test_import_without_required_portrait_preserves_data_and_assets(self):
+        snapshot='''<html><head><link rel="canonical" href="https://awesomenauts.fandom.com/wiki/Ayla"></head>
+          <body><h1 id="firstHeading">Ayla</h1><div id="mw-content-text">
+          <table class="framed-table"><tr><th>Stats</th></tr>PORTRAIT
+          <tr><td>Health</td><td>100</td></tr></table>
+          <table class="framed-table"><tr><th><b><a href="https://awesomenauts.fandom.com/wiki/Evil_Eye">Evil Eye</a></b></th></tr>
+          <tr><td>Damage</td><td>100</td></tr></table></div></body></html>'''
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);(root/'data/nauts').mkdir(parents=True)
+            target=root/'data/nauts/ayla.json';target.write_bytes(b'previous accepted dataset')
+            asset_dir=root/'src/static/assets/nauts/ayla';asset_dir.mkdir(parents=True)
+            (asset_dir/'accepted.webp').write_bytes(b'previous accepted artwork')
+            source=root/'snapshot.html'
+            for portrait in ['', '<tr><td><span class="Awesomenaut-Portrait"><img src="https://example.org/missing.png"></span></td></tr>']:
+                with self.subTest(portrait=portrait),patch('import_naut.ROOT',root):
+                    source.write_text(snapshot.replace('PORTRAIT',portrait))
+                    with self.assertRaisesRegex(ValueError,'No embedded Naut portrait'):
+                        import_naut(source)
+                    self.assertEqual(target.read_bytes(),b'previous accepted dataset')
+                    self.assertEqual({p.name:p.read_bytes() for p in asset_dir.iterdir()},
+                                     {'accepted.webp':b'previous accepted artwork'})
+
     def test_skin_quote_sections_are_excluded(self):
         self.assertTrue(excluded_section('Quotes'))
         self.assertTrue(excluded_section('Skull Chopper Chucho Quotes'))

@@ -41,6 +41,20 @@ build variants and checkers, native Chromium smoke for root/Pages/immutable, and
 [PR #46](https://github.com/bongohorse/neonauts/pull/46). The original observation
 scripts/results below remain historical; the maintained tests assert fixed behavior.
 
+## Post-fix import discovery
+
+After R1 allowed real HTML through URL validation, a second importer defect could
+be reproduced with valid canonical/ability URLs and a Stats table, but no embedded
+portrait. The importer accepted and replaced the old dataset; `page_data` then
+failed with `KeyError(None)` because the default portrait is required by the build.
+
+A follow-up repair rejects missing/unextracted portraits before changing data or
+assets. The actual HTML regression test covers both an absent portrait node and a
+remote-only image, and checks that the previous dataset/artwork remain untouched.
+Missing optional ability/skin artwork remains supported. Local Python coverage
+now totals 63 passing tests. This is an additional confirmed defect, separate from
+the six original findings and their frozen before-fix captures.
+
 ## Findings, in recommended repair order
 
 ### R1 — P1: Real HTML imports reject a valid canonical Wiki URL
