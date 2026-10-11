@@ -37,18 +37,19 @@ def js_assignment(name, data):
     encoded = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
     return 'const '+name+'='+encoded.replace('<', '\\u003c').replace('\u2028', '\\u2028').replace('\u2029', '\\u2029')+';\n'
 
-def page_data(data, overrides):
+def page_data(data, overrides, editorial_view=None):
     slug = data['slug']
+    skin_descriptions = (editorial_view or {}).get('skin_descriptions', {})
     assets = {a['id']: 'assets/nauts/'+slug+'/'+Path(a['path']).name for a in data['assets']}
     groups = list(dict.fromkeys(item['group'] for item in data['items']))
-    skins = {'default': {'name': 'DEFAULT', 'image': assets[data['portrait_asset']], 'description': 'Default character artwork from the saved Wiki.'}}
+    skins = {'default': {'name': 'DEFAULT', 'image': assets[data['portrait_asset']], 'description': skin_descriptions.get('default', 'Default character artwork from the saved Wiki.')}}
     for index, skin in enumerate(data['skins'], 1):
         artwork = overrides.get(slug, {}).get('skin_assets', {}).get(skin['name'])
         artwork = artwork or next(iter(skin['assets']), None)
         # Text remains visible even when a saved snapshot lacks its skin image.
         skins['skin-'+str(index)] = {
             'name': skin['name'], 'image': assets.get(artwork),
-            'description': ' '.join(b['text'] for b in skin['content'] if b['type']=='paragraph')
+            'description': skin_descriptions.get(skin['name'], ' '.join(b['text'] for b in skin['content'] if b['type']=='paragraph'))
         }
     return {
         'name': data['name'], 'slug': slug, 'skins': skins, 'itemGroups': groups,
@@ -158,11 +159,10 @@ def build(output=None, base_path='/'):
             textarea.text=(textarea.text or '').replace('https://YOUR-SITE.neocities.org',site_url)
     dossier_template=html.fromstring((ROOT/'src/templates/naut-dossier.html').read_text(encoding='utf-8'))
     for d in datasets:
-        runtime=page_data(d,overrides)
+        editorial=editorials.get(d['slug'],{})
+        runtime=page_data(d,overrides,editorial.get('view'))
         runtime['theme']=ost['tracks'].get(aliases.get(d['name'],d['name']))
         document=copy.deepcopy(shell)
-        editorial=editorials.get(d['slug'],{})
-        runtime.update(editorial.get('runtime',{}))
         dossier=make_dossier(dossier_template,d,runtime,editorial.get('view'))
         slot=document.get_element_by_id('dossier-slot');slot.getparent().replace(slot,dossier)
         if runtime['theme']:

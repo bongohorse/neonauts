@@ -20,6 +20,7 @@ class BuildTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             out=Path(temp)/'site';build(out)
             before={p.relative_to(out):hashlib.sha256(p.read_bytes()).hexdigest() for p in out.rglob('*') if p.is_file()}
+            overrides=json.loads((ROOT/'data/presentation.json').read_text(encoding='utf-8'))
             for source in sorted((ROOT/'data/nauts').glob('*.json')):
                 slug=source.stem
                 p=out/'nauts'/slug/'index.html';self.assertTrue(p.is_file())
@@ -30,6 +31,12 @@ class BuildTests(unittest.TestCase):
                 self.assertEqual([child.get('class') for child in dossier[0]],['dossier-heading','dossier-content'])
                 self.assertEqual(doc.xpath('//base/@href'),['../../'])
                 data=json.loads((ROOT/'data/nauts'/f'{slug}.json').read_text())
+                runtime=json.loads((out/'nauts'/slug/'page-data.json').read_text(encoding='utf-8'))
+                editorial_path=ROOT/'data/editorial'/f'{slug}.json'
+                editorial_view=json.loads(editorial_path.read_text(encoding='utf-8')).get('view') if editorial_path.exists() else None
+                canonical=page_data(data,overrides,editorial_view)
+                for section in ('abilities','items','itemGroups','skins'):
+                    self.assertEqual(runtime[section],canonical[section],f'{slug}: {section} must be canonical')
                 self.assertEqual(doc.xpath('//*[@class="roster-note"]')[0].text_content(),data['name'].upper()+' SELECTED')
                 self.assertFalse(doc.xpath('//*[@id="nauts"]/*[@class="section-line"]'))
                 self.assertFalse(doc.xpath('//*[@class="stage-index"]'))
@@ -47,6 +54,18 @@ class BuildTests(unittest.TestCase):
             build(out)
             after={p.relative_to(out):hashlib.sha256(p.read_bytes()).hexdigest() for p in out.rglob('*') if p.is_file()}
             self.assertEqual(before,after)
+
+    def test_editorial_contains_narrative_copy_only(self):
+        for source in sorted((ROOT/'data/editorial').glob('*.json')):
+            editorial=json.loads(source.read_text(encoding='utf-8'))
+            self.assertEqual(set(editorial),{'view'},f'{source.name}: editorial must not override runtime data')
+        swiggins=json.loads((ROOT/'data/editorial/admiral-swiggins.json').read_text(encoding='utf-8'))
+        self.assertEqual(swiggins['view']['story'][0]['text'],'BACKSTORY')
+        self.assertEqual(swiggins['view']['story'][1]['text'],'FROM TITAN TO THE STARS')
+        self.assertEqual(set(swiggins['view']['skin_descriptions']),{'default','Admiral Swiggins, PHD','Abyssal Swiggins'})
+        source=json.loads((ROOT/'data/nauts/admiral-swiggins.json').read_text(encoding='utf-8'))
+        runtime=page_data(source,{},swiggins['view'])
+        self.assertIn('deep-sea creature',runtime['skins']['skin-2']['description'])
 
     def test_legacy_dossier_css_supports_cached_html(self):
         css=(ROOT/'src/static/styles.css').read_text(encoding='utf-8')

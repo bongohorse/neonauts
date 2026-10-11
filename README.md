@@ -38,7 +38,7 @@ JavaScript syntax checks and Worker tests, not to build or serve the site.
 | `data/roster.json` | Supplied portrait order and honeycomb coordinates |
 | `data/presentation.json` | Explicit image choices when a source lacks splash art |
 | `src/templates/` | Shared HTML shell and Naut dossier template |
-| `data/editorial/<slug>.json` | Optional curated wording/runtime, rendered through the shared template |
+| `data/editorial/<slug>.json` | Optional curated narrative copy, rendered through the shared template; never replaces canonical abilities, items or skins |
 | `src/static/` | Shared CSS, JS, fonts, cursor and image files |
 | `src/static/assets/nauts/<slug>/` | External images for each imported Naut |
 | `scripts/` | Offline extraction, import, build, validation and upload |
@@ -145,6 +145,10 @@ See [status and next steps](docs/status.md) for the remaining work. Historical
 notes in `docs/previous-site-notes.md` describe earlier standalone versions;
 this README and current code take precedence.
 
-All Nauts use the same dossier renderer and heading/tag layout. Swiggins curated
-wording and runtime live in data/editorial/admiral-swiggins.json; there is no
-character-specific template or build branch. Steam charts remain in Community.
+All Nauts, including Swiggins, use the same dossier renderer and canonical
+`data/nauts/<slug>.json` source for four abilities, 24 items and the skin gallery.
+The optional `data/editorial/admiral-swiggins.json` holds approved narrative
+wording and curated skin descriptions only; it does not override item/ability
+metadata, skin selection/order, or artwork.
+There is no character-specific template or build branch. Steam charts remain
+in Community.
