@@ -384,3 +384,11 @@ from being combined with newly deployed markup.
 - Native probes cover opening, keyboard/pointer, pause/reopen, score/restart and loop cleanup.
 - Five-run JS CPU medians improved on both viewports; layout remains variable.
 - Measurements and limitations: docs/performance/arcade-32.md. Draft only.
+
+## Hidden image requests — #33
+
+- Nine Goodies previews and hidden map splash use native lazy loading.
+- Five runs consistently remove 10 cold responses / 22113 encoded bytes.
+- Critical art and sprite atlas stay eager; skin/ability lazy experiment rejected.
+- Desktop lab LCP has a documented +5.5% trade-off; this is no claimed LCP speedup.
+- Evidence: docs/performance/images-33.md. Draft review required; no deployment.

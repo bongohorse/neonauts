@@ -9,6 +9,19 @@ from naut_assets import publish_naut_assets, runtime_images
 from check import check
 
 class BuildTests(unittest.TestCase):
+    def test_hidden_goodies_lazy_and_hero_discoverable(self):
+        shell=html.fromstring((ROOT/'src/templates/shell.html').read_text())
+        goodies=shell.xpath('//*[@id="goodies"]//img')
+        self.assertEqual(len(goodies),9)
+        self.assertTrue(all(i.get('loading')=='lazy' and i.get('width') and i.get('height') for i in goodies))
+        with tempfile.TemporaryDirectory() as temp:
+            out=build(Path(temp)/'site')
+            for path in sorted((out/'nauts').glob('*/index.html')):
+                doc=html.fromstring(path.read_text())
+                hero=doc.xpath('//*[@id="character-art"]')[0]
+                self.assertTrue(hero.get('src'))
+                self.assertNotEqual(hero.get('loading'),'lazy','hero must remain parser-discoverable/eager')
+
     def test_github_pages_prefix_and_404_assets(self):
         with tempfile.TemporaryDirectory() as temp:
             out=build(Path(temp)/'site',base_path='/neonauts/')
