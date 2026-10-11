@@ -55,6 +55,13 @@ async function smoke(prefix,viewport,label){
   page.setDefaultTimeout(10000);
   page.setDefaultNavigationTimeout(15000);
   const failures=[];
+  const rosterAtlasRequests=[];
+  page.on('request',request=>{
+    if(/nauts_profile_spritesheet(?:\.[a-f0-9]{24})?\.webp(?:\?|$)/.test(request.url()))
+      rosterAtlasRequests.push(request.url());
+    if(/\/IconCharacter[^/]*\.webp(?:\?|$)/.test(request.url()))
+      failures.push('Unexpected individual roster icon request: '+request.url());
+  });
   page.on('pageerror',error=>failures.push('Uncaught page error: '+error.message));
   page.on('response',response=>{
     if(response.url().startsWith(origin+'/')&&response.status()>=400)
@@ -64,6 +71,31 @@ async function smoke(prefix,viewport,label){
     await page.goto(origin+prefix,{waitUntil:'load'});
     await page.locator('.naut-hex.available').first().waitFor();
     assert.equal(await page.locator('.naut-hex.available').count(),34);
+    const spriteTiles=await page.locator('.naut-hex .roster-sprite').evaluateAll(nodes=>
+      nodes.map(node=>({
+        viewBox:node.getAttribute('viewBox'),
+        overflow:getComputedStyle(node).overflow,
+        image:node.querySelector('image')?.getAttribute('href'),
+      })));
+    assert.equal(spriteTiles.length,34,'every hex needs a sprite viewport');
+    const spriteImage=spriteTiles[0].image;
+    assert.ok(/nauts_profile_spritesheet(?:\.[a-f0-9]{24})?\.webp$/.test(spriteImage),
+      'the actual roster sheet must be referenced');
+    for(let i=0;i<spriteTiles.length;i++){
+      assert.equal(spriteTiles[i].viewBox,
+                   `${(i%6)*128} ${Math.floor(i/6)*128} 128 128`,
+                   `wrong sprite tile in roster position ${i}`);
+      assert.equal(spriteTiles[i].overflow,'hidden','sprite must clip to one cell');
+      assert.equal(spriteTiles[i].image,spriteImage,'all hexes must share one atlas');
+    }
+    assert.equal(rosterAtlasRequests.length,1,'one atlas URL should cause one network request');
+    // Preserve a native rendering sample for visual approval in the PR.
+    if(label==='root-desktop'||label==='pages-mobile'){
+      await mkdir(artifacts,{recursive:true});
+      await page.locator('#roster').screenshot({
+        path:resolve(artifacts,'roster-sprite-'+label+'.png')
+      });
+    }
 
     // Same-document Naut navigation retains a standalone deep-link URL.
     await page.locator('.naut-hex[data-naut-slug="ayla"]').click();
