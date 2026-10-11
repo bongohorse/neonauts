@@ -281,3 +281,13 @@ from being combined with newly deployed markup.
 - Replaced the duplicate CC BY-SA paragraph with one precise attribution and
   clarified that game artwork, fonts and music are not automatically covered.
 - Added a focused regression test for current status and one license link.
+
+## Native browser E2E smoke — issue #17
+
+- CI adds a separate Playwright Chromium job after unit/static-site checks:
+  two deterministic builds, root and `/neonauts/` prefix.
+- Exercises live browser history, Naut routes/skins, maps, internal assets,
+  mobile viewport width and reduced-motion navigation. Captures screenshots
+  only on test failure for PR review.
+- The job does not perform Neocities deployments or claim genuine phone
+  touch interaction / audible playback acceptance.

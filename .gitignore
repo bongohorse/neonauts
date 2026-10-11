@@ -9,3 +9,6 @@ sources/raw/
 imports/
 node_modules/
 *.zip
+dist-browser-root/
+dist-browser-pages/
+tests/artifacts/
