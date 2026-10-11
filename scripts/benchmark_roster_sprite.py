@@ -13,6 +13,7 @@ import json
 import math
 import shutil
 from pathlib import Path
+from io import BytesIO
 
 from PIL import Image, ImageChops, ImageStat
 
@@ -160,11 +161,29 @@ def benchmark(output):
         with Image.open(outfile) as reloaded:
             reloaded.load()
             fidelity = metric(reloaded, pictures)
+        # A fair control: recompress the *same* decoded source pixels with
+        # exactly the same WebP encoder settings, but as 34 separate files.
+        # This isolates what the atlas changes beyond simply lowering q.
+        same_quality_separate_bytes = 0
+        individual_mosaic = Image.new("RGBA", atlas.size, (0, 0, 0, 0))
+        for item in pictures:
+            buffer = BytesIO()
+            item["decoded"].save(buffer, format="WEBP", **settings)
+            encoded = buffer.getvalue()
+            same_quality_separate_bytes += len(encoded)
+            with Image.open(BytesIO(encoded)) as image:
+                image.load()
+                individual_mosaic.paste(
+                    image.convert("RGBA"), (item["col"]*TILE, item["row"]*TILE))
         payload = {
             "name": name, "bytes": outfile.stat().st_size,
             "change_bytes": outfile.stat().st_size - source_bytes,
             "saving_percent": round(100 * (1 - outfile.stat().st_size / source_bytes), 2),
+            "separate_same_encoder_bytes": same_quality_separate_bytes,
+            "atlas_vs_separate_same_encoder_saving_percent": round(
+                100 * (1 - outfile.stat().st_size / same_quality_separate_bytes), 2),
             "decoded_quality": fidelity,
+            "separate_same_encoder_decoded_quality": metric(individual_mosaic, pictures),
         }
         report["variants"].append(payload)
     (output / "sprite-manifest.json").write_text(
@@ -180,7 +199,11 @@ def benchmark(output):
               f"{variant['saving_percent']:+7.2f}% saved   "
               f"RGB PSNR: {fidelity['psnr_rgb_db']} dB   "
               f"worst Naut: {fidelity['worst_naut_psnr_db']} dB   "
-              f"alpha error sum: {fidelity['sum_alpha_absolute_error']}")
+              f"alpha error sum: {fidelity['sum_alpha_absolute_error']}\n"
+              f"               34 separate images at same q: "
+              f"{variant['separate_same_encoder_bytes']} bytes; "
+              f"atlas-vs-equal-q saving: "
+              f"{variant['atlas_vs_separate_same_encoder_saving_percent']:+.2f}%")
     print(f"Offline visual comparison and original images in: {output}")
     return report
 
