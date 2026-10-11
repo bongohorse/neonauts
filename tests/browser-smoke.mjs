@@ -107,6 +107,34 @@ async function smoke(prefix,viewport,label){
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),
       true,'page should not overflow horizontal mobile viewport');
     assert.deepEqual(failures,[],'no uncaught errors or failed same-origin files');
+    if(label==='neocities-immutable'){
+      // Simulate an interrupted multi-HTML release: the in-page fetch sees
+      // newer shared assets than the page's currently loaded JS/CSS.
+      // It must perform a full navigation instead of mixing generations.
+      await page.goto(origin+prefix,{waitUntil:'load'});
+      await page.evaluate(()=>{window.__oldNautDocument=true;});
+      let suppliedNewerHtml=false;
+      await page.route('**/immutable/nauts/ayla/',async route=>{
+        if(route.request().resourceType()!=='fetch'){
+          await route.continue();return;
+        }
+        const response=await route.fetch();
+        const oldMarkup=await response.text();
+        const newerMarkup=oldMarkup.replace(/roster-data\.[0-9a-f]{24}\.js/g,
+                                           'roster-data.000000000000000000000000.js');
+        assert.notEqual(newerMarkup,oldMarkup,'expected a shared JS version in fetched dossier');
+        suppliedNewerHtml=true;
+        await route.fulfill({response,body:newerMarkup});
+      });
+      await page.locator('.naut-hex[data-naut-slug="ayla"]').click();
+      await page.waitForURL(url=>url.pathname.endsWith('/nauts/ayla/'));
+      await page.waitForFunction(()=>document.querySelector('.dossier-heading h1')?.textContent?.includes('AYLA'));
+      assert.equal(suppliedNewerHtml,true,'mixed-version response must be exercised');
+      assert.equal(await page.evaluate(()=>window.__oldNautDocument===undefined),true,
+                   'mixed releases must force a full document load');
+      await page.unroute('**/immutable/nauts/ayla/');
+      assert.deepEqual(failures,[],'mixed release navigation must keep local requests healthy');
+    }
     console.log('PASS browser smoke:',label,origin+prefix);
   } catch(error) {
     await mkdir(artifacts,{recursive:true});
