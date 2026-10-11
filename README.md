@@ -180,3 +180,27 @@ Neocities releases also merge valid player-history samples from the previous
 Neocities publication and the independently scheduled GitHub Pages snapshot,
 so rebuilding the website need not reset the recorded 24-hour history. This
 does not automatically schedule more frequent Neocities releases.
+
+## Real-browser smoke checks
+
+In addition to the Python build/data tests and Node VM tests, CI now has a
+separate **native Chromium Playwright** job. It builds both `/` and the
+GitHub Pages `/neonauts/` subpath and exercises direct Naut URLs, selected
+roster navigation, Back/Forward, skin selection, map search/viewer, reduced
+motion, mobile-width overflow and local network errors. Failure screenshots
+are uploaded as GitHub Actions artifacts; successful jobs do not upload images.
+
+For local Windows/PowerShell testing, install Python requirements and Node 24,
+then run:
+
+```powershell
+npm install --no-save --no-package-lock playwright@1.56.0
+npx playwright install chromium
+python scripts/build.py --out dist-browser-root
+python scripts/build.py --out dist-browser-pages --base-path /neonauts/
+node tests/browser-smoke.mjs
+```
+
+This uses the same published project sources via a local HTTP server and does
+**not** call live Neocities, Cloudflare, Steam or Bandcamp APIs. A desktop/mobile
+browser viewport is **not** equivalent to physical-device touch/audio testing.
