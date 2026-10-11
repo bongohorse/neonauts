@@ -220,3 +220,10 @@ slot 29 is skipped when mapping roster indices 29–33 to physical slots 30–34
 slot 35 is also unused. Keep the source `IconCharacter*.webp` files
 as archives; public builds publish one roster atlas while retaining
 individual item, ability, character artwork and skin images.
+
+## Performance lab
+
+Run `node tests/performance.mjs` after installing the pinned Playwright browser.
+It builds and measures five cold loads per root/Pages scenario with fixed CPU,
+network, cache and viewport conditions. See [methodology](docs/performance.md)
+for setup, raw results, limitations and optional manual production diagnostics.
