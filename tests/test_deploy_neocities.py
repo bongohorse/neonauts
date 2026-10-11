@@ -131,7 +131,7 @@ class NeocitiesDeployTests(unittest.TestCase):
         self.assertEqual(deploy(self.dist, config_path=self.config), 1)
         self.assertEqual([c.args[0] for c in api.call_args_list],
                          ["/info", "/list", "/upload", "/list"])
-        data = api.call_args_list[-1].kwargs["data"]
+        data = api.call_args_list[-2].kwargs["data"]
         self.assertIn(b'name="extra.json"', data)
         self.assertNotIn(b'name="index.html"', data)
         self.assertNotIn(b'name="old.html"', data)
@@ -178,7 +178,7 @@ class NeocitiesDeployTests(unittest.TestCase):
         groups = batches(ordered)
         self.assertTrue(all(len({is_entrypoint(name) for name, _ in group}) == 1
                             for group in groups))
-        self.assertTrue(all(not is_entrypoint(name) for group in groups[:-1][0]))
+        self.assertTrue(all(not is_entrypoint(name) for group in groups[:-1] for name, _ in group))
         self.assertTrue(all(is_entrypoint(name) for name, _ in groups[-1]))
 
     def test_interrupted_dependency_upload_never_publishes_html_and_retry_works(self):
