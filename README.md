@@ -213,7 +213,10 @@ static build without this Neocities-specific transformation.
 
 The Naut selector uses the owner-supplied 768×768 WebP atlas
 `src/static/assets/nauts/nauts_profile_spritesheet.webp`. Its 34
-128×128 tiles follow `data/roster.json` in row-major order
-(index 0→33, six columns). Keep the source `IconCharacter*.webp` files
+128×128 portraits follow `data/roster.json` in left-to-right order:
+the first four atlas rows each have six portraits, while the fifth and sixth
+rows each contain five portraits followed by a black cell. The black atlas
+slot 29 is skipped when mapping roster indices 29–33 to physical slots 30–34;
+slot 35 is also unused. Keep the source `IconCharacter*.webp` files
 as archives; public builds publish one roster atlas while retaining
 individual item, ability, character artwork and skin images.
