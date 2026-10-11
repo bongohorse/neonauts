@@ -101,13 +101,20 @@ async function smoke(prefix,viewport,label){
       assert.equal(item.clipUnits,'userSpaceOnUse');
       assert.ok(/^url\(#portrait-clip-\d+\)$/.test(item.clip),'missing hex clip');
       assert.equal(item.image,spriteImage,'every portrait uses one shared atlas');
-      const expectX=5-(i%6)*tile*scale-(tile*scale-68)/2;
-      const expectY=7-Math.floor(i/6)*tile*scale-(tile*scale-73)/2;
+      // Atlas slots 29 and 35 are black; the 5 Nauts in the last
+      // right-hand row must occupy physical slots 30..34.
+      const atlasIndex=i>=29?i+1:i;
+      assert.notEqual(atlasIndex,29,'must not render row-5 black spacer');
+      assert.notEqual(atlasIndex,35,'must not render row-6 black spacer');
+      const expectX=5-(atlasIndex%6)*tile*scale-(tile*scale-68)/2;
+      const expectY=7-Math.floor(atlasIndex/6)*tile*scale-(tile*scale-73)/2;
       assert.ok(Math.abs(Number(item.x)-expectX)<.001,`incorrect sprite x: ${item.slug}`);
       assert.ok(Math.abs(Number(item.y)-expectY)<.001,`incorrect sprite y: ${item.slug}`);
       assert.ok(Math.abs(Number(item.width)-size)<.001);
       assert.ok(Math.abs(Number(item.height)-size)<.001);
     }
+    assert.equal(spriteIndexBySlug[Object.keys(spriteIndexBySlug)[29]],29);
+    assert.equal(spriteTiles.length,34,'black atlas slots must not create extra buttons');
     assert.equal(rosterAtlasRequests.length,1,'one atlas URL should cause one network request');
     // Preserve a native rendering sample for visual approval in the PR.
     if(label==='root-desktop'||label==='pages-mobile'){
