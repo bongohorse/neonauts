@@ -422,3 +422,22 @@ from being combined with newly deployed markup.
 - Small desktop LCP and script CPU trade-offs reported with total task/variance evidence.
 - Native initial PNGs pixel-identical; root trace/effect audit retains reduced motion.
 - Evidence: docs/performance/fonts-37.md. All expanded local checks pass; final head CI pending.
+
+## Current code-review checkpoint — 11 October 2026
+
+- Performance PRs #38–#45 are merged on main at `77ddbe91`; issues #30–#37
+  are closed. Post-merge Site checks and Pages publication passed. The
+  Neocities workflow was skipped by its existing opt-in gate. Earlier
+  Draft/pending statements above record previous checkpoints.
+- Completed a full maintained-code review at that revision, with 58 Python
+  tests, four Node suites, two metric tests, all three build checkers/native
+  smoke variants and 34/34 painted portraits passing. Additional geometry
+  checks covered all 34 dossiers at four widths (136 cases).
+- Six confirmed findings and three smaller observations are recorded in
+  [the review report](code-review-2026-10-11/README.md), with offline/native
+  reproduction scripts and captured results. Highest priority: real HTML
+  imports reject lxml's canonical URL string subtype. Navigation cancellation,
+  badge embed URLs, history merging, local immutable hashes and dialog names
+  also need targeted repairs. Existing green tests miss these edge cases.
+- Review documentation only: these defects are not repaired by this checkpoint;
+  no website/Worker/deployment behavior or settings are changed.

@@ -1,0 +1,21 @@
+{
+  "pythonVersion": "3.12.14",
+  "mergedHistory": {
+    "size": 120,
+    "newerPointsRetained": 80,
+    "expectedNewerPoints": 120,
+    "oldestAgeMinutes": 159
+  },
+  "incorrectLocalHashAccepted": {
+    "accepted": true,
+    "filename": "script.0682c5f2076f099c34cfdd15.js",
+    "actualHash": "61bfcd106f079afb53e23c7c"
+  },
+  "validImportRejected": {
+    "canonicalURL": "https://awesomenauts.fandom.com/wiki/Ayla",
+    "canonicalType": "_ElementUnicodeResult",
+    "error": "ValueError",
+    "message": "ayla: canonical source: missing or oversized external Wiki URL",
+    "previousDatasetPreserved": true
+  }
+}
