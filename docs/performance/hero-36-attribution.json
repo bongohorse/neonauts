@@ -1,0 +1,558 @@
+{
+  "chromium": "141.0.7390.37",
+  "network": {
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "uploadBytesPerSecond": 93750
+  },
+  "observations": [
+    {
+      "name": "root-desktop",
+      "path": "/",
+      "motion": "no-preference",
+      "viewport": {
+        "width": 1365,
+        "height": 768
+      },
+      "dpr": 1.25,
+      "cpu": 4,
+      "lcp": {
+        "time": 2052,
+        "url": "http://127.0.0.1:36505/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+        "element": "img#character-art"
+      },
+      "cls": 0,
+      "hero": {
+        "url": "http://127.0.0.1:36505/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+        "priority": "high",
+        "complete": true,
+        "naturalWidth": 512,
+        "box": {
+          "left": 785.125,
+          "right": 1245.125,
+          "top": 611.4375,
+          "bottom": 1036.4375,
+          "width": 460,
+          "height": 425
+        },
+        "stage": {
+          "left": 729.765625,
+          "right": 1300.5,
+          "top": 591.4375,
+          "bottom": 1056.4375,
+          "width": 570.734375,
+          "height": 465
+        },
+        "animation": "arrival",
+        "timing": {
+          "start": 197.29999999981374,
+          "responseStart": 350.09999999962747,
+          "end": 2019.5,
+          "transfer": 73598
+        }
+      },
+      "lcpResource": {
+        "start": 197.29999999981374,
+        "responseStart": 350.09999999962747,
+        "end": 2019.5,
+        "transfer": 73598
+      },
+      "navigationResponseStart": 6.399999999906868,
+      "font": [
+        {
+          "start": 1517.2999999998137,
+          "responseStart": 1548.5,
+          "end": 2057,
+          "transfer": 17724
+        }
+      ],
+      "fontsStatus": "loaded",
+      "interactive": {
+        "Paint": {
+          "count": 104,
+          "totalMs": 53.209000000000046,
+          "maxMs": 3.886
+        },
+        "Layout": {
+          "count": 29,
+          "totalMs": 55.33099999999999,
+          "maxMs": 37.168
+        },
+        "UpdateLayoutTree": {
+          "count": 54,
+          "totalMs": 56.117999999999995,
+          "maxMs": 10.503
+        },
+        "CompositeLayers": {
+          "count": 0,
+          "totalMs": 0,
+          "maxMs": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "clunk-desktop",
+      "path": "/nauts/clunk/",
+      "motion": "no-preference",
+      "viewport": {
+        "width": 1365,
+        "height": 768
+      },
+      "dpr": 1.25,
+      "cpu": 4,
+      "lcp": {
+        "time": 2004,
+        "url": "http://127.0.0.1:36505/assets/nauts/clunk/clunk-alpha-66145be8.webp",
+        "element": "img#character-art"
+      },
+      "cls": 1.6801607847280922e-05,
+      "hero": {
+        "url": "http://127.0.0.1:36505/assets/nauts/clunk/clunk-alpha-66145be8.webp",
+        "priority": "high",
+        "complete": true,
+        "naturalWidth": 512,
+        "box": {
+          "left": 785.125,
+          "right": 1245.125,
+          "top": 611.4375,
+          "bottom": 1036.4375,
+          "width": 460,
+          "height": 425
+        },
+        "stage": {
+          "left": 729.765625,
+          "right": 1300.5,
+          "top": 591.4375,
+          "bottom": 1056.4375,
+          "width": 570.734375,
+          "height": 465
+        },
+        "animation": "arrival",
+        "timing": {
+          "start": 215.29999999981374,
+          "responseStart": 334.60000000009313,
+          "end": 1345.7999999998137,
+          "transfer": 41598
+        }
+      },
+      "lcpResource": {
+        "start": 215.29999999981374,
+        "responseStart": 334.60000000009313,
+        "end": 1345.7999999998137,
+        "transfer": 41598
+      },
+      "navigationResponseStart": 1.8999999999068677,
+      "font": [
+        {
+          "start": 1478.1999999997206,
+          "responseStart": 1549.5,
+          "end": 1930.3999999999069,
+          "transfer": 17724
+        }
+      ],
+      "fontsStatus": "loaded",
+      "errors": []
+    },
+    {
+      "name": "gnaw-desktop",
+      "path": "/nauts/gnaw/",
+      "motion": "no-preference",
+      "viewport": {
+        "width": 1365,
+        "height": 768
+      },
+      "dpr": 1.25,
+      "cpu": 4,
+      "lcp": {
+        "time": 2028,
+        "url": "http://127.0.0.1:36505/assets/nauts/gnaw/characterrender-gnaw-5918f820.webp",
+        "element": "img#character-art"
+      },
+      "cls": 1.6806193939607403e-05,
+      "hero": {
+        "url": "http://127.0.0.1:36505/assets/nauts/gnaw/characterrender-gnaw-5918f820.webp",
+        "priority": "high",
+        "complete": true,
+        "naturalWidth": 512,
+        "box": {
+          "left": 785.125,
+          "right": 1245.125,
+          "top": 611.4375,
+          "bottom": 1036.4375,
+          "width": 460,
+          "height": 425
+        },
+        "stage": {
+          "left": 729.765625,
+          "right": 1300.5,
+          "top": 591.4375,
+          "bottom": 1056.4375,
+          "width": 570.734375,
+          "height": 465
+        },
+        "animation": "arrival",
+        "timing": {
+          "start": 214.60000000009313,
+          "responseStart": 342.70000000018626,
+          "end": 1458.1000000000931,
+          "transfer": 45604
+        }
+      },
+      "lcpResource": {
+        "start": 214.60000000009313,
+        "responseStart": 342.70000000018626,
+        "end": 1458.1000000000931,
+        "transfer": 45604
+      },
+      "navigationResponseStart": 1.8000000002793968,
+      "font": [
+        {
+          "start": 1499.9000000003725,
+          "responseStart": 1563.9000000003725,
+          "end": 2102.9000000003725,
+          "transfer": 17724
+        }
+      ],
+      "fontsStatus": "loaded",
+      "errors": []
+    },
+    {
+      "name": "root-reduced-desktop",
+      "path": "/",
+      "motion": "reduce",
+      "viewport": {
+        "width": 1365,
+        "height": 768
+      },
+      "dpr": 1.25,
+      "cpu": 4,
+      "lcp": {
+        "time": 2016,
+        "url": "http://127.0.0.1:36505/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+        "element": "img#character-art"
+      },
+      "cls": 0,
+      "hero": {
+        "url": "http://127.0.0.1:36505/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+        "priority": "high",
+        "complete": true,
+        "naturalWidth": 512,
+        "box": {
+          "left": 785.125,
+          "right": 1245.125,
+          "top": 611.4375,
+          "bottom": 1036.4375,
+          "width": 460,
+          "height": 425
+        },
+        "stage": {
+          "left": 729.765625,
+          "right": 1300.5,
+          "top": 591.4375,
+          "bottom": 1056.4375,
+          "width": 570.734375,
+          "height": 465
+        },
+        "animation": "none",
+        "timing": {
+          "start": 191.29999999981374,
+          "responseStart": 334.70000000018626,
+          "end": 1990.6000000000931,
+          "transfer": 73598
+        }
+      },
+      "lcpResource": {
+        "start": 191.29999999981374,
+        "responseStart": 334.70000000018626,
+        "end": 1990.6000000000931,
+        "transfer": 73598
+      },
+      "navigationResponseStart": 2.1000000000931323,
+      "font": [
+        {
+          "start": 1448.1000000000931,
+          "responseStart": 1565.7000000001863,
+          "end": 2043.2000000001863,
+          "transfer": 17724
+        }
+      ],
+      "fontsStatus": "loaded",
+      "errors": []
+    },
+    {
+      "name": "root-mobile",
+      "path": "/",
+      "motion": "no-preference",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1.25,
+      "cpu": 4,
+      "lcp": {
+        "time": 1588,
+        "url": "http://127.0.0.1:36505/assets/logo.webp",
+        "element": "img"
+      },
+      "cls": 0.00037895665971373927,
+      "hero": {
+        "url": "http://127.0.0.1:36505/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+        "priority": "high",
+        "complete": true,
+        "naturalWidth": 512,
+        "box": {
+          "left": 58,
+          "right": 332,
+          "top": 888.53125,
+          "bottom": 1168.53125,
+          "width": 274,
+          "height": 280
+        },
+        "stage": {
+          "left": 18,
+          "right": 372,
+          "top": 881.03125,
+          "bottom": 1176.03125,
+          "width": 354,
+          "height": 295
+        },
+        "animation": "arrival",
+        "timing": {
+          "start": 191.89999999990687,
+          "responseStart": 335.6999999997206,
+          "end": 2043.7999999998137,
+          "transfer": 73598
+        }
+      },
+      "lcpResource": {
+        "start": 168.5,
+        "responseStart": 169.39999999990687,
+        "end": 1187.6999999997206,
+        "transfer": 38182
+      },
+      "navigationResponseStart": 2.1999999997206032,
+      "font": [
+        {
+          "start": 1442.8999999999069,
+          "responseStart": 1565.1999999997206,
+          "end": 2088.1999999997206,
+          "transfer": 17724
+        }
+      ],
+      "fontsStatus": "loaded",
+      "interactive": {
+        "Paint": {
+          "count": 118,
+          "totalMs": 55.354000000000006,
+          "maxMs": 6.073
+        },
+        "Layout": {
+          "count": 29,
+          "totalMs": 83.975,
+          "maxMs": 42.321
+        },
+        "UpdateLayoutTree": {
+          "count": 55,
+          "totalMs": 55.379,
+          "maxMs": 11.371
+        },
+        "CompositeLayers": {
+          "count": 0,
+          "totalMs": 0,
+          "maxMs": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "clunk-mobile",
+      "path": "/nauts/clunk/",
+      "motion": "no-preference",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1.25,
+      "cpu": 4,
+      "lcp": {
+        "time": 1640,
+        "url": "http://127.0.0.1:36505/assets/logo.webp",
+        "element": "img"
+      },
+      "cls": 0.0002502235872267711,
+      "hero": {
+        "url": "http://127.0.0.1:36505/assets/nauts/clunk/clunk-alpha-66145be8.webp",
+        "priority": "high",
+        "complete": true,
+        "naturalWidth": 512,
+        "box": {
+          "left": 58,
+          "right": 332,
+          "top": 804.234375,
+          "bottom": 1084.234375,
+          "width": 274,
+          "height": 280
+        },
+        "stage": {
+          "left": 18,
+          "right": 372,
+          "top": 796.734375,
+          "bottom": 1091.734375,
+          "width": 354,
+          "height": 295
+        },
+        "animation": "arrival",
+        "timing": {
+          "start": 214.5,
+          "responseStart": 336.40000000037253,
+          "end": 1362.4000000003725,
+          "transfer": 41598
+        }
+      },
+      "lcpResource": {
+        "start": 165.90000000037253,
+        "responseStart": 166.8000000002794,
+        "end": 1219,
+        "transfer": 38182
+      },
+      "navigationResponseStart": 2.400000000372529,
+      "font": [
+        {
+          "start": 1479.8000000002794,
+          "responseStart": 1542.4000000003725,
+          "end": 1931.3000000002794,
+          "transfer": 17724
+        }
+      ],
+      "fontsStatus": "loaded",
+      "errors": []
+    },
+    {
+      "name": "gnaw-mobile",
+      "path": "/nauts/gnaw/",
+      "motion": "no-preference",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1.25,
+      "cpu": 4,
+      "lcp": {
+        "time": 1632,
+        "url": "http://127.0.0.1:36505/assets/logo.webp",
+        "element": "img"
+      },
+      "cls": 0.0002461450506070601,
+      "hero": {
+        "url": "http://127.0.0.1:36505/assets/nauts/gnaw/characterrender-gnaw-5918f820.webp",
+        "priority": "high",
+        "complete": true,
+        "naturalWidth": 512,
+        "box": {
+          "left": 58,
+          "right": 332,
+          "top": 804.234375,
+          "bottom": 1084.234375,
+          "width": 274,
+          "height": 280
+        },
+        "stage": {
+          "left": 18,
+          "right": 372,
+          "top": 796.734375,
+          "bottom": 1091.734375,
+          "width": 354,
+          "height": 295
+        },
+        "animation": "arrival",
+        "timing": {
+          "start": 212.90000000037253,
+          "responseStart": 341.5,
+          "end": 1456.4000000003725,
+          "transfer": 45604
+        }
+      },
+      "lcpResource": {
+        "start": 174.20000000018626,
+        "responseStart": 175.20000000018626,
+        "end": 1209.3000000002794,
+        "transfer": 38182
+      },
+      "navigationResponseStart": 2,
+      "font": [
+        {
+          "start": 1459.4000000003725,
+          "responseStart": 1563,
+          "end": 2072,
+          "transfer": 17724
+        }
+      ],
+      "fontsStatus": "loaded",
+      "errors": []
+    },
+    {
+      "name": "root-reduced-mobile",
+      "path": "/",
+      "motion": "reduce",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1.25,
+      "cpu": 4,
+      "lcp": {
+        "time": 1568,
+        "url": "http://127.0.0.1:36505/assets/logo.webp",
+        "element": "img"
+      },
+      "cls": 0.00037895665971373927,
+      "hero": {
+        "url": "http://127.0.0.1:36505/assets/nauts/admiral-swiggins/characterrender-swiggins-redbg-6c8d6e63.webp",
+        "priority": "high",
+        "complete": true,
+        "naturalWidth": 512,
+        "box": {
+          "left": 58,
+          "right": 332,
+          "top": 888.53125,
+          "bottom": 1168.53125,
+          "width": 274,
+          "height": 280
+        },
+        "stage": {
+          "left": 18,
+          "right": 372,
+          "top": 881.03125,
+          "bottom": 1176.03125,
+          "width": 354,
+          "height": 295
+        },
+        "animation": "none",
+        "timing": {
+          "start": 191.5,
+          "responseStart": 336.1999999997206,
+          "end": 2006.2999999998137,
+          "transfer": 73598
+        }
+      },
+      "lcpResource": {
+        "start": 168.79999999981374,
+        "responseStart": 171.59999999962747,
+        "end": 1189.1999999997206,
+        "transfer": 38182
+      },
+      "navigationResponseStart": 2.5,
+      "font": [
+        {
+          "start": 1440.7999999998137,
+          "responseStart": 1558.2999999998137,
+          "end": 2066.2999999998137,
+          "transfer": 17724
+        }
+      ],
+      "fontsStatus": "loaded",
+      "errors": []
+    }
+  ]
+}

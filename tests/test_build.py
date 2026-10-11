@@ -21,6 +21,7 @@ class BuildTests(unittest.TestCase):
                 hero=doc.xpath('//*[@id="character-art"]')[0]
                 self.assertTrue(hero.get('src'))
                 self.assertNotEqual(hero.get('loading'),'lazy','hero must remain parser-discoverable/eager')
+                self.assertEqual(hero.get('fetchpriority'),'high','only current dossier hero gets priority')
 
     def test_github_pages_prefix_and_404_assets(self):
         with tempfile.TemporaryDirectory() as temp:

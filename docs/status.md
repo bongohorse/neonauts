@@ -407,3 +407,10 @@ from being combined with newly deployed markup.
 - Two requests / ~21 KB saved, modest desktop LCP gain, but ~608 ms first-use control delay.
 - NO-GO: keep ordered defer + synchronous first-use initialization.
 - Evidence and native direct-section coverage: docs/performance/splitting-35.md.
+
+## Hero priority — #36
+
+- Current dossier hero receives fetchpriority high; all assets/animations preserved.
+- Desktop median LCP 2592 → 2076 ms; FCP/mobile LCP trade-offs explicitly documented.
+- Default/Clunk/Gnaw attribution, stage fit, one hero request and reduced motion verified.
+- Initial viewport PNGs pixel-identical; evidence: docs/performance/hero-36.md.
