@@ -51,6 +51,26 @@ let browser;
 
 async function smoke(prefix,viewport,label){
   const context=await browser.newContext({viewport});
+  await context.addInitScript(()=>{
+    window.__arcadeProbe={contexts:0,paints:0,pending:[]};
+    const getContext=HTMLCanvasElement.prototype.getContext;
+    HTMLCanvasElement.prototype.getContext=function(...args){
+      const ctx=getContext.apply(this,args);
+      if(this.id==='game' && args[0]==='2d'){
+        window.__arcadeProbe.contexts++;
+        const fill=ctx.fillRect;
+        ctx.fillRect=function(...values){window.__arcadeProbe.paints++;return fill.apply(this,values);};
+      }
+      return ctx;
+    };
+    const request=window.requestAnimationFrame,cancel=window.cancelAnimationFrame;
+    window.requestAnimationFrame=callback=>{
+      if(callback.name!=='tick')return request(callback);
+      let id=request(time=>{window.__arcadeProbe.pending=window.__arcadeProbe.pending.filter(n=>n!==id);callback(time);});
+      window.__arcadeProbe.pending.push(id);return id;
+    };
+    window.cancelAnimationFrame=id=>{window.__arcadeProbe.pending=window.__arcadeProbe.pending.filter(n=>n!==id);return cancel(id);};
+  });
   const page=await context.newPage();
   page.setDefaultTimeout(10000);
   page.setDefaultNavigationTimeout(15000);
@@ -144,6 +164,48 @@ async function smoke(prefix,viewport,label){
                         JSON.stringify(centers));
       }
     }
+
+    // Secret Arcade must do zero Canvas work before first user intent.
+    assert.deepEqual(await page.evaluate(()=>window.__arcadeProbe),{contexts:0,paints:0,pending:[]});
+    await page.locator('#secret-cube').click();
+    assert.equal(await page.locator('#arcade').evaluate(e=>e.open),true);
+    assert.equal(await page.evaluate(()=>window.__arcadeProbe.contexts),1);
+    assert.ok(await page.evaluate(()=>window.__arcadeProbe.paints)>0,'first open paints ready scene');
+    await page.locator('#start-game').click();
+    await page.keyboard.down('ArrowUp');
+    await page.waitForTimeout(100);
+    await page.keyboard.up('ArrowUp');
+    assert.ok(await page.evaluate(()=>ship)<115,'keyboard moves ship');
+    assert.ok(await page.evaluate(()=>window.__arcadeProbe.pending.length)<=1,'one game loop');
+    await page.locator('#start-game').click();
+    assert.equal(await page.locator('#start-game').textContent(),'RESUME');
+    assert.equal(await page.evaluate(()=>window.__arcadeProbe.pending.length),0);
+    await page.locator('#start-game').click();
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('#arcade').evaluate(e=>e.open),false);
+    assert.equal(await page.locator('#secret-cube').evaluate(e=>e===document.activeElement),true);
+    const closedPaints=await page.evaluate(()=>window.__arcadeProbe.paints);
+    await page.waitForTimeout(100);
+    assert.equal(await page.evaluate(()=>window.__arcadeProbe.paints),closedPaints,'no paints while closed');
+    assert.equal(await page.evaluate(()=>window.__arcadeProbe.pending.length),0);
+    await page.locator('#secret-cube').click();
+    assert.equal(await page.locator('#start-game').textContent(),'RESUME');
+    assert.equal(await page.evaluate(()=>window.__arcadeProbe.contexts),1,'reuse initialized context');
+    await page.locator('#start-game').click();
+    // Native mouse pointer exercises capture bookkeeping; physical touch is separate.
+    await page.locator('#fly-down').hover();
+    await page.mouse.down();
+    assert.equal(await page.evaluate(()=>held.has('down')),true);
+    await page.mouse.up();
+    assert.equal(await page.evaluate(()=>held.has('down')),false);
+    await page.evaluate(()=>{score=21;finishGame();});
+    assert.equal(await page.locator('#high-score').textContent(),'21');
+    assert.equal(await page.evaluate(()=>localStorage.getItem('nauts-archive-high-score')),'21');
+    await page.locator('#start-game').click();
+    assert.equal(await page.locator('#score').textContent(),'0','restart resets score');
+    await page.locator('#arcade-close').click();
+    await page.waitForFunction(()=>window.__arcadeProbe.pending.length===0);
+    assert.equal(await page.evaluate(()=>window.__arcadeProbe.pending.length),0);
 
     // Same-document Naut navigation retains a standalone deep-link URL.
     await page.locator('.naut-hex[data-naut-slug="ayla"]').click();
