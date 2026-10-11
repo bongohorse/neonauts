@@ -1,0 +1,74 @@
+{
+  "chromium": "141.0.7390.37",
+  "historyRace": {
+    "path": "/nauts/clunk/",
+    "slug": "ayla",
+    "title": "Ayla — Awesomenauts",
+    "heading": "AYLA"
+  },
+  "sameNautRace": {
+    "path": "/nauts/ayla/",
+    "slug": "ayla"
+  },
+  "embedCodes": [
+    {
+      "src": "https://awesomenauts.neocities.org/assets/goodies/nauts-forever.svg",
+      "status": 404
+    },
+    {
+      "src": "https://awesomenauts.neocities.org/assets/goodies/solar-powered.svg",
+      "status": 404
+    },
+    {
+      "src": "https://awesomenauts.neocities.org/assets/goodies/swiggins-crew.svg",
+      "status": 404
+    },
+    {
+      "src": "https://awesomenauts.neocities.org/assets/goodies/frequency-open.svg",
+      "status": 404
+    },
+    {
+      "src": "https://awesomenauts.neocities.org/assets/goodies/save-the-solar.svg",
+      "status": 404
+    },
+    {
+      "src": "https://awesomenauts.neocities.org/assets/goodies/nauts-online.svg",
+      "status": 404
+    },
+    {
+      "src": "https://awesomenauts.neocities.org/assets/goodies/anchor-approved.svg",
+      "status": 404
+    },
+    {
+      "src": "https://awesomenauts.neocities.org/assets/goodies/droid-escort.svg",
+      "status": 404
+    },
+    {
+      "src": "https://awesomenauts.neocities.org/assets/goodies/made-for-web.svg",
+      "status": 404
+    }
+  ],
+  "arcadeAX": [
+    {
+      "role": "dialog",
+      "name": ""
+    }
+  ],
+  "mapViewerAX": [
+    {
+      "role": "dialog",
+      "name": ""
+    }
+  ],
+  "layout": [
+    {
+      "width": 768,
+      "slug": "leon-chameleon",
+      "pageOverflow": false,
+      "skinLabelOverflow": [
+        "Mousquetaire Leon"
+      ]
+    }
+  ],
+  "layoutCases": 136
+}

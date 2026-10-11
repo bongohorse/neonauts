@@ -22,6 +22,8 @@ def clean_history(history, now=None):
     for point in history[-200:]:
         try:
             count=point['players'];date=datetime.fromisoformat(point['checkedAt'].replace('Z','+00:00'))
+            if date.tzinfo is None:continue
+            date=date.astimezone(timezone.utc)
             if type(count) is int and 0<=count<=2**53-1 and now-timedelta(hours=24)<=date<=now:
                 points[date.isoformat()]={'players':count,'checkedAt':date.isoformat()}
         except (KeyError,ValueError,TypeError,AttributeError):pass
@@ -40,7 +42,10 @@ def combine_previous_histories(urls, opener=urlopen):
         if not url.startswith('https://'):
             raise ValueError('history-url must use HTTPS')
         points.extend(previous_history(url, opener=opener))
-    return clean_history(points)
+    # Each origin is already bounded and validated. Sort before the final
+    # bounded cleanup so source order cannot discard newer samples.
+    unique={point['checkedAt']:point for point in points}
+    return clean_history([unique[key] for key in sorted(unique)[-120:]])
 
 def publish(destination, opener=urlopen, history=None):
     points=clean_history(history)

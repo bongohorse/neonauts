@@ -1,6 +1,9 @@
 import base64
 import tempfile
 import unittest
+from unittest.mock import patch
+import json
+from import_naut import import_naut
 from pathlib import Path
 from io import BytesIO
 from PIL import Image
@@ -22,6 +25,33 @@ class ExtractorTests(unittest.TestCase):
             self.assertEqual(data['slug'],'skolldir')
             self.assertEqual([i['name'] for i in data['items']],['Gloves'])
             self.assertEqual(data['items'][0]['group'],'Punch')
+
+    def test_real_html_import_validates_canonical_before_replacing_dataset(self):
+        buffer=BytesIO();Image.new('RGB',(4,4)).save(buffer,'PNG')
+        uri='data:image/png;base64,'+base64.b64encode(buffer.getvalue()).decode()
+        snapshot=f'''<html><head><link rel="canonical" href="CANONICAL"></head><body>
+          <h1 id="firstHeading">Ayla</h1><div id="mw-content-text">
+          <table class="framed-table"><tr><th>Stats</th></tr>
+          <tr><td><span class="Awesomenaut-Portrait"><img src="{uri}"></span></td></tr>
+          <tr><td>Health</td><td>100</td></tr></table>
+          <table class="framed-table"><tr><th><b><a href="https://awesomenauts.fandom.com/wiki/Evil_Eye">Evil Eye</a></b></th></tr>
+          <tr><td>Damage</td><td>100</td></tr></table></div></body></html>'''
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);(root/'data/nauts').mkdir(parents=True)
+            source=root/'snapshot.html';target=root/'data/nauts/ayla.json'
+            url='https://awesomenauts.fandom.com/wiki/Ayla'
+            source.write_text(snapshot.replace('CANONICAL',url))
+            with patch('import_naut.ROOT',root),patch('builtins.print'):
+                data=import_naut(source)
+                self.assertIs(type(data['source']['url']),str)
+                self.assertEqual(json.loads(target.read_text())['source']['url'],url)
+                self.assertTrue(data['portrait_asset'])
+                self.assertTrue(list((root/'src/static/assets/nauts/ayla').iterdir()))
+                accepted=target.read_bytes()
+                for bad in ['javascript:alert(1)','https://attacker.example/wiki/Ayla']:
+                    source.write_text(snapshot.replace('CANONICAL',bad))
+                    with self.assertRaises(ValueError):import_naut(source)
+                    self.assertEqual(target.read_bytes(),accepted)
 
     def test_skin_quote_sections_are_excluded(self):
         self.assertTrue(excluded_section('Quotes'))

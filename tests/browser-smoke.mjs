@@ -158,6 +158,7 @@ async function smoke(prefix,viewport,label){
           return [...document.querySelectorAll('.naut-hex')].map(button=>{
             const box=button.getBoundingClientRect();
             return {slug:button.dataset.nautSlug,
+                    spriteIndex:archiveData.roster.find(n=>n.slug===button.dataset.nautSlug).spriteIndex,
                     x:box.x+box.width/2-roster.x,
                     y:box.y+box.height/2-roster.y,
                     width:box.width,height:box.height};
@@ -174,6 +175,7 @@ async function smoke(prefix,viewport,label){
     assert.deepEqual(await page.evaluate(()=>window.__arcadeProbe),{contexts:0,paints:0,pending:[]});
     await page.locator('#secret-cube').click();
     assert.equal(await page.locator('#arcade').evaluate(e=>e.open),true);
+    assert.equal(await page.getByRole('dialog',{name:'SECRET ARCADE / MARK I “SHOEBOX”',exact:true}).count(),1);
     assert.equal(await page.evaluate(()=>window.__arcadeProbe.contexts),1);
     assert.ok(await page.evaluate(()=>window.__arcadeProbe.paints)>0,'first open paints ready scene');
     await page.locator('#start-game').click();
@@ -226,6 +228,53 @@ async function smoke(prefix,viewport,label){
     await page.goForward();
     await page.waitForFunction(()=>document.querySelector('.dossier-heading h1')?.textContent?.includes('AYLA'));
 
+    // Hold each response type independently: returning to the rendered
+    // history entry, or selecting its roster tile, must cancel the old intent.
+    for(const responseType of ['html','json']){
+      await page.locator('.naut-hex[data-naut-slug="clunk"]').click();
+      await page.waitForFunction(()=>nautPage.slug==='clunk');
+      async function holdAyla(){
+        await page.evaluate(type=>{
+          const original=window.fetch;
+          let release;const gate=new Promise(resolve=>release=resolve);
+          window.__heldNaut={started:false,done:false,release,restore:()=>window.fetch=original};
+          window.fetch=async(input,options)=>{
+            const pathname=new URL(input,document.baseURI).pathname;
+            const matches=pathname.includes('/nauts/ayla/') &&
+              (type==='html'?pathname.endsWith('/'):pathname.endsWith('.json'));
+            if(!matches)return original(input,options);
+            window.__heldNaut.started=true;window.__heldNaut.signal=options.signal;
+            try{await gate;return await original(input,options);}
+            finally{window.__heldNaut.done=true;}
+          };
+        },responseType);
+      }
+      async function assertCancelled(){
+        await page.waitForFunction(()=>document.querySelector('#main').getAttribute('aria-busy')!=='true');
+        assert.equal(await page.evaluate(()=>window.__heldNaut.signal.aborted),true,
+          responseType+' old intent must be aborted');
+        await page.evaluate(()=>window.__heldNaut.release());
+        await page.waitForFunction(()=>window.__heldNaut.done);
+        await page.evaluate(()=>window.__heldNaut.restore());
+        assert.equal(await page.evaluate(()=>nautPage.slug),'clunk');
+        assert.ok(new URL(page.url()).pathname.endsWith('/nauts/clunk/'));
+        assert.match(await page.locator('.dossier-heading h1').textContent(),/CLUNK/);
+      }
+      await holdAyla();
+      await page.goBack();
+      await page.waitForFunction(()=>window.__heldNaut.started);
+      await page.goForward();
+      await assertCancelled();
+      await holdAyla();
+      await page.locator('.naut-hex[data-naut-slug="ayla"]').click();
+      await page.waitForFunction(()=>window.__heldNaut.started);
+      await page.locator('.naut-hex[data-naut-slug="clunk"]').click();
+      await assertCancelled();
+      // Restore the Ayla -> Clunk history pair for the next response type.
+      await page.locator('.naut-hex[data-naut-slug="ayla"]').click();
+      await page.waitForFunction(()=>nautPage.slug==='ayla');
+    }
+
     // Direct URLs must work without previous navigation state.
     await page.goto(origin+prefix+'nauts/clunk/',{waitUntil:'load'});
     await page.waitForFunction(()=>document.querySelector('.dossier-heading h1')?.textContent?.includes('CLUNK'));
@@ -233,6 +282,21 @@ async function smoke(prefix,viewport,label){
     await page.evaluate(()=>{location.hash='goodies';});
     await page.waitForFunction(()=>[...document.querySelectorAll('#goodies img')].every(img=>img.complete&&img.naturalWidth>0));
     assert.equal(decorativeRequests.filter(url=>url.includes('/assets/goodies/')).length,9,'all deferred previews load on activation');
+    const downloads=await page.locator('.goodie-card').evaluateAll(cards=>cards.map(card=>({
+      code:card.querySelector('textarea').value,
+      filename:card.querySelector('a[download]').download,
+      href:card.querySelector('a[download]').href
+    })));
+    for(const download of downloads){
+      assert.ok(download.code.includes('https://YOUR-SITE.neocities.org/assets/goodies/'+download.filename));
+      assert.equal((await context.request.get(download.href)).status(),200);
+    }
+    await page.evaluate(()=>Object.defineProperty(navigator,'clipboard',{
+      configurable:true,value:{writeText:async text=>{window.__copiedBadge=text;}}
+    }));
+    await page.locator('[data-copy-badge="badge-code-0"]').click();
+    assert.equal(await page.evaluate(()=>window.__copiedBadge),downloads[0].code);
+
     await page.locator('[data-section="maps"]').click();
     await page.waitForFunction(()=>{const img=document.querySelector('.map-hero img');return img?.complete&&img.naturalWidth>0;});
     assert.equal(await page.locator('.map-card').count(),6,'first open initializes all six maps exactly once');
@@ -242,6 +306,8 @@ async function smoke(prefix,viewport,label){
     await page.locator('[data-map-tab="layout"]').click();
     await page.locator('#open-map-layout').click();
     assert.equal(await page.locator('#map-viewer').evaluate(e=>e.open),true,'map viewer must open');
+    const mapName=await page.locator('#map-viewer-title').textContent();
+    assert.equal(await page.getByRole('dialog',{name:mapName,exact:true}).count(),1);
     await page.locator('#map-viewer-close').click();
 
     await page.emulateMedia({reducedMotion:'reduce'});

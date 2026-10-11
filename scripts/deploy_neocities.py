@@ -211,11 +211,16 @@ def require_immutable_release(directory):
     if state.get("base_path") != "/" or state.get("immutable_release") is not True:
         raise ValueError("Refusing Neocities upload without a prepared immutable root release")
     files = collect_files(directory)
-    for name, _ in files:
+    for name, path in files:
         if is_entrypoint(name) or name == "players.json":
             continue
-        if not re.search(r"\.[0-9a-f]{24}\.[a-z0-9]+$", name):
+        match = re.search(r"\.([0-9a-f]{24})\.[a-z0-9]+$", name)
+        if not match:
             raise ValueError(f"Refusing mutable supporting filename: {name}")
+        with path.open("rb") as stream:
+            digest = hashlib.file_digest(stream, "sha256").hexdigest()[:24]
+        if digest != match.group(1):
+            raise ValueError(f"Immutable filename does not match local content: {name}")
 
 
 def deploy(directory, dry_run=False, config_path=ROOT / "site.config.json",

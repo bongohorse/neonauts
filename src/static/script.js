@@ -77,7 +77,7 @@ archiveData.roster.forEach((naut,index)=>{
  b.onmouseenter=()=>setRosterNote(naut.name.toUpperCase()+(naut.available?' / OPEN DOSSIER':' / DOSSIER AWAITING IMPORT'));
  b.onmouseleave=()=>setRosterNote(defaultRosterNote);
  b.onfocus=b.onmouseenter;b.onblur=b.onmouseleave;
- b.onclick=()=>{if(naut.available){if(naut.slug===nautPage.slug){selectTab('overview');}else{navigateNaut(new URL(naut.url,archiveBase));}}else notify(naut.name+' — this dossier has not been imported yet.');};
+ b.onclick=()=>{if(naut.available){if(naut.slug===nautPage.slug&&location.pathname===currentNautPath){cancelNautLoad();selectTab('overview');}else{navigateNaut(new URL(naut.url,archiveBase));}}else notify(naut.name+' — this dossier has not been imported yet.');};
  rosterWings[naut.wing].append(b);
 });
 const randomButton=document.createElement('button');randomButton.className='random-hex';randomButton.title='Random available Naut';randomButton.setAttribute('aria-label','Select a random available Naut');
@@ -113,12 +113,17 @@ $('#skin-next').onclick=()=>selectSkin(skinOrder[(currentSkin+1)%skinOrder.lengt
 
 }
 bindDossier();
+function cancelNautLoad(){
+ if(nautLoad)nautLoad.abort();
+ nautLoad=null;
+ $('#main').removeAttribute('aria-busy');
+}
 async function navigateNaut(target,push=true){
  const url=new URL(target,archiveBase);
  const entry=archiveData.roster.find(n=>n.available&&new URL(n.url,archiveBase).pathname===url.pathname);
  const slug=entry?.slug||(url.pathname===archiveBase.pathname?'admiral-swiggins':null);
  if(url.origin!==archiveBase.origin||!slug)return;
- if(nautLoad)nautLoad.abort();const request=new AbortController();nautLoad=request;
+ cancelNautLoad();const request=new AbortController();nautLoad=request;
  $('#main').setAttribute('aria-busy','true');
  try{
   const selected=entry||archiveData.roster.find(n=>n.available&&n.slug===slug);
@@ -155,7 +160,10 @@ async function navigateNaut(target,push=true){
  }catch(error){if(!request.signal.aborted)location.href=url.href;}
  finally{if(nautLoad===request){nautLoad=null;$('#main').removeAttribute('aria-busy');}}
 }
-window.addEventListener('popstate',()=>{if(location.pathname!==currentNautPath)navigateNaut(new URL(location.href),false);});
+window.addEventListener('popstate',()=>{
+ cancelNautLoad();
+ if(location.pathname!==currentNautPath)navigateNaut(new URL(location.href),false);
+});
 // Hidden Shoebox-inspired arcade. Frame-rate independent movement and bounded acceleration.
 const dialog=$('#arcade'),canvas=$('#game');let ctx=null,best=0;try{best=Number(localStorage.getItem('nauts-archive-high-score'))||0}catch{}$('#high-score').textContent=best;
 let mode='ready',ship=115,hazards=[],score=0,lives=3,elapsed=0,spawn=0,last=0,frame=0,invincible=0;const held=new Set();

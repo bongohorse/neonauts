@@ -38,7 +38,15 @@ def check_roster_pixels(image_path=OUTPUT / "roster-sprite-root-desktop.png",
     empty = [slug for slug, visible, _, _ in outcomes if not visible]
     print(f"Roster raster smoke: {painted}/34 centers contain painted portrait pixels; "
           f"apparently empty centers: {empty}")
-    # Allow a handful of exceptionally dark portraits, but never a blank roster.
+    # These five source tiles are visibly painted in the native baseline.
+    # A whole last atlas row must not hide inside the global dark-art allowance.
+    last_row = {item['slug'] for item in centers if item.get('spriteIndex') in range(29,34)}
+    if len(last_row) != 5:
+        raise AssertionError("Expected metadata for all five last-row atlas portraits")
+    missing_last_row = last_row.intersection(empty)
+    if missing_last_row:
+        raise AssertionError(f"Last-row atlas portraits missing: {sorted(missing_last_row)}")
+    # Allow a handful of exceptionally dark portraits elsewhere, but never a blank roster.
     if painted < 28:
         raise AssertionError(
             "Hex portrait images are missing or incorrectly positioned: "

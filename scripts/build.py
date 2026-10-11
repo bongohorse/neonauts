@@ -166,7 +166,7 @@ def build(output=None, base_path='/'):
     unaliased = [page_data(d,overrides,editorials.get(d['slug'],{}).get('view'))
                  for d in datasets]
     # Source roster order matches the user-supplied 6x6 atlas, left to right,
-    # six tiles per row, with two unused cells at the end.
+    # six tiles per row; black atlas cells 29 and 35 are unused.
     if len(roster) != 34:
         raise ValueError('Expected exactly 34 Naut roster portraits in sprite atlas')
     with Image.open(ROOT/'src/static'/ROSTER_ATLAS) as atlas:
@@ -187,8 +187,6 @@ def build(output=None, base_path='/'):
     site_url=load(ROOT/'site.config.json').get('siteUrl','').rstrip('/')
     if site_url:
         if not re.fullmatch(r'https://[A-Za-z0-9.-]+(?::[0-9]+)?',site_url):raise ValueError('siteUrl must be an HTTPS origin without a path')
-        for textarea in shell.xpath('//textarea[contains(@class,"embed-code")]'):
-            textarea.text=(textarea.text or '').replace('https://YOUR-SITE.neocities.org',site_url)
     dossier_template=html.fromstring((ROOT/'src/templates/naut-dossier.html').read_text(encoding='utf-8'))
     for d in datasets:
         editorial=editorials.get(d['slug'],{})
