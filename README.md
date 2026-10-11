@@ -210,3 +210,10 @@ standard build/tests: hashed support asset and Naut-data URLs, old versions
 retained, HTML entrypoints uploaded last. See `docs/neocities.md` for the
 dry-run, staging, recovery and acceptance gates. GitHub Pages uses the ordinary
 static build without this Neocities-specific transformation.
+
+The Naut selector uses the owner-supplied 768×768 WebP atlas
+`src/static/assets/nauts/nauts_profile_spritesheet.webp`. Its 34
+128×128 tiles follow `data/roster.json` in row-major order
+(index 0→33, six columns). Keep the source `IconCharacter*.webp` files
+as archives; public builds publish one roster atlas while retaining
+individual item, ability, character artwork and skin images.
