@@ -36,6 +36,13 @@
 .dossier-heading{min-width:0}
 .dossier-content{min-width:0}
 .character-stage{grid-area:stage}
+/* A cached pre-wrapper Naut HTML page may be paired with the new stylesheet.
+   Keep the heading track content-sized rather than letting the skin text stretch it. */
+@media(min-width:721px){
+ .dossier:has(> .dossier-heading){grid-template-areas:"heading stage" "content stage";grid-template-rows:max-content minmax(0,1fr);row-gap:0}
+ .dossier > .dossier-heading{grid-area:heading}
+ .dossier > .dossier-content{grid-area:content}
+}
 .stat-context{display:block;color:#8cabb4;font-size:10px;line-height:1.5}
 .panel-intro{color:#bed2d7;font-size:13px;line-height:1.8}
 .ability-card{padding:19px;scroll-margin-top:20px}
