@@ -173,6 +173,14 @@ class NeocitiesDeployTests(unittest.TestCase):
             seconds_until_safe_update("Sun, 11 Oct 2026 11:55:00 +0000", current), 300)
         self.assertEqual(
             seconds_until_safe_update("Sun, 11 Oct 2026 11:40:00 +0000", current), 0)
+        # Neocities also emits RFC2822 -0000. The email parser deliberately
+        # returns a naive datetime for this valid UTC-clock representation.
+        self.assertEqual(
+            seconds_until_safe_update("Sun, 11 Oct 2026 11:55:00 -0000", current), 300)
+        self.assertEqual(
+            seconds_until_safe_update("Sun, 11 Oct 2026 11:40:00 -0000", current), 0)
+        with self.assertRaisesRegex(RuntimeError, "Invalid last_updated"):
+            seconds_until_safe_update("Sun, 11 Oct 2026 11:55:00", current)
         self.assertEqual(seconds_until_safe_update(None, current), 0)
 
     @patch("deploy_neocities.api_json")
