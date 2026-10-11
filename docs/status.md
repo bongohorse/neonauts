@@ -346,3 +346,15 @@ from being combined with newly deployed markup.
   native Chromium screenshots to detect empty hexagon interiors, which
   purely structural SVG checks previously missed.
 - The source atlas and per-Naut art are untouched; no Neocities upload.
+
+## Final two roster rows: black atlas spacers — 11 October 2026
+
+- User-supplied 6×6 atlas has four full rows, then **5 left portraits
+  + black slot 29**, then **5 right portraits + black slot 35**.
+  Roster indices 0–28 map directly to atlas cells 0–28;
+  roster indices 29–33 map to cells **30–34**, skipping the black cell 29.
+- The SVG image positioning and browser assertions apply this source-to-atlas
+  index translation, while roster source order and 34 buttons remain unchanged.
+  Browser tests cover bottom row coordinates, shared sprite request and
+  root/GitHub Pages/immutable Neocities render variants.
+- No image re-encoding, no source image deletion, no Neocities publication.

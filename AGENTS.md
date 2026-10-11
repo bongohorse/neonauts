@@ -52,7 +52,9 @@
 
 - Roster character portraits use the owner-provided 768×768 WebP
   `nauts_profile_spritesheet.webp`: exactly 34 128×128 tiles,
-  6 columns and row-major `data/roster.json` order. Preserve outer
+  6 columns in `data/roster.json` order. Physical atlas slots 29
+  and 35 are black: roster index 29–33 maps to slots 30–34. Do not
+  treat the last two rows as continuously packed. Preserve outer
   SVG hexagonal masks, inner sprite viewport clipping, keyboard
   selection and source IconCharacter images. Build must publish only
   one roster atlas; test live browser requests and native screenshots.

@@ -65,8 +65,11 @@ archiveData.roster.forEach((naut,index)=>{
  const atlasSize=768;
  const portraitX=5,portraitY=7,portraitW=68,portraitH=73;
  const scale=Math.max(portraitW/tileSize,portraitH/tileSize); // xMidYMid slice
- const spriteX=(naut.spriteIndex%6)*tileSize;
- const spriteY=Math.floor(naut.spriteIndex/6)*tileSize;
+ // Both bottom atlas rows hold five Nauts followed by one black cell.
+ // Source roster indices 29..33 belong to atlas slots 30..34, skipping 29.
+ const atlasIndex=naut.spriteIndex>=29?naut.spriteIndex+1:naut.spriteIndex;
+ const spriteX=(atlasIndex%6)*tileSize;
+ const spriteY=Math.floor(atlasIndex/6)*tileSize;
  const imageX=portraitX-spriteX*scale-(tileSize*scale-portraitW)/2;
  const imageY=portraitY-spriteY*scale-(tileSize*scale-portraitH)/2;
  const imageSize=atlasSize*scale;
