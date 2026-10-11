@@ -164,7 +164,7 @@ from being combined with newly deployed markup.
 - Theme action reads PLAY THEME. Generic field-guide subtitles removed; optional
   edited taglines such as Swiggins remain.
 - Replaced the Swiggins-specific template/build path with one data-free Naut template.
-  Optional per-Naut editorial JSON preserves curated copy, abilities, items and skins.
+  Optional per-Naut editorial JSON preserves curated narrative copy only.
 
 ## Swiggins data normalization — 11 October 2026
 
