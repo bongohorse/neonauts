@@ -76,7 +76,9 @@ async function smoke(prefix,viewport,label){
   page.setDefaultNavigationTimeout(15000);
   const failures=[];
   const rosterAtlasRequests=[];
+  const decorativeRequests=[];
   page.on('request',request=>{
+    if(request.url().includes('/assets/goodies/') || request.url().includes('ribbit-iv-splash'))decorativeRequests.push(request.url());
     if(/nauts_profile_spritesheet(?:\.[a-f0-9]{24})?\.webp(?:\?|$)/.test(request.url()))
       rosterAtlasRequests.push(request.url());
     if(/\/IconCharacter[^/]*\.webp(?:\?|$)/.test(request.url()))
@@ -165,6 +167,7 @@ async function smoke(prefix,viewport,label){
       }
     }
 
+    assert.deepEqual(decorativeRequests,[],'hidden Goodies/map hero must not request at startup');
     // Secret Arcade must do zero Canvas work before first user intent.
     assert.deepEqual(await page.evaluate(()=>window.__arcadeProbe),{contexts:0,paints:0,pending:[]});
     await page.locator('#secret-cube').click();
@@ -215,6 +218,7 @@ async function smoke(prefix,viewport,label){
     await page.locator('#skin-next').click();
     assert.notEqual(await page.locator('#skin-name').textContent(),skinBefore,'skin next must update');
 
+    await page.waitForFunction(()=>{const img=document.querySelector('#character-art');return img.complete && img.naturalWidth>0;});
     await page.goBack();
     await page.waitForFunction(()=>document.querySelector('.dossier-heading h1')?.textContent?.includes('ADMIRAL SWIGGINS'));
     await page.goForward();
@@ -224,7 +228,11 @@ async function smoke(prefix,viewport,label){
     await page.goto(origin+prefix+'nauts/clunk/',{waitUntil:'load'});
     await page.waitForFunction(()=>document.querySelector('.dossier-heading h1')?.textContent?.includes('CLUNK'));
 
+    await page.evaluate(()=>{location.hash='goodies';});
+    await page.waitForFunction(()=>[...document.querySelectorAll('#goodies img')].every(img=>img.complete&&img.naturalWidth>0));
+    assert.equal(decorativeRequests.filter(url=>url.includes('/assets/goodies/')).length,9,'all deferred previews load on activation');
     await page.locator('[data-section="maps"]').click();
+    await page.waitForFunction(()=>{const img=document.querySelector('.map-hero img');return img?.complete&&img.naturalWidth>0;});
     await page.locator('#map-search').fill('Sorona');
     assert.equal(await page.locator('.map-card:not([hidden])').count(),1,'map search should filter');
     await page.locator('.map-card:not([hidden])').first().click();
