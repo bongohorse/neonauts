@@ -467,3 +467,25 @@ embedded portrait could replace accepted data and then fail the dossier build.
 The importer now rejects this before data or asset writes. Regression coverage
 checks absent and remote-only portraits while preserving the previous dataset
 and artwork. Optional missing artwork remains supported. All 63 Python tests pass.
+
+
+## Authorized Neocities publication — 11 October 2026
+
+Published the reviewed website source at `80964c7` (PRs #46–#47 and all performance
+repairs), using a temporary, narrowly gated upload workflow because workflow
+dispatch is unavailable through the connected GitHub tool. The first launcher
+had a YAML validation error before upload; the corrected run succeeded.
+
+[Successful deployment run](https://github.com/bongohorse/neonauts/actions/runs/38163016143):
+63 Python tests, build checks, four Node suites, immutable preparation and final
+checks passed. Neocities site identity was verified as `awesomenauts`; 38 changed
+files (1,542,480 bytes) were uploaded in two phases: 3 supporting files, verified
+before 35 HTML entrypoints. The API manifest verified all 1,039 published files.
+The 3 remote-only files were preserved; no remote files were deleted.
+
+Live browser acceptance checked the 34-entry roster, loaded character artwork,
+Swiggins-to-Ayla navigation with the correct URL/content, the named Arcade dialog,
+map-dialog labeling and the self-hosted Goodies embed placeholder. The temporary
+upload workflow is removed at this checkpoint. The regular deployment workflow
+and Neocities auto-deploy gate remain unchanged. This is staged publication,
+not an atomic multi-HTML transaction. Guestbook Workers were not deployed.
