@@ -1,6 +1,14 @@
 name: Deploy to Neocities
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview changed files only (no uploads)'
+        type: boolean
+        required: true
+        default: true
 permissions:
   contents: read
 concurrency:
@@ -8,8 +16,11 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
-    if: github.ref == 'refs/heads/main'
+    # An initial, manually verified upload is mandatory before enabling auto deploy.
+    # Set repository variable NEOCITIES_AUTO_DEPLOY=true only after live acceptance.
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || vars.NEOCITIES_AUTO_DEPLOY == 'true')
     runs-on: ubuntu-latest
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -22,12 +33,21 @@ jobs:
       - run: python -m unittest discover -s tests -v
         env:
           PYTHONPATH: scripts
-      - run: node tests/players-client.mjs
-      - run: node tests/workers.mjs
       - run: python scripts/build.py
       - run: python scripts/fetch_players.py
+      - run: python scripts/check.py
       - run: node tests/page-data.mjs
       - run: node tests/radio.mjs
-      - run: python scripts/deploy_neocities.py
+      - run: node tests/players-client.mjs
+      - run: node tests/workers.mjs
+      - name: Check and optionally publish to Neocities
         env:
           NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+        shell: bash
+        run: |
+          if [ "$DRY_RUN" = "1" ]; then
+            python scripts/deploy_neocities.py --dry-run
+          else
+            python scripts/deploy_neocities.py
+          fi

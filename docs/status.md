@@ -179,3 +179,20 @@ from being combined with newly deployed markup.
   Swiggins asset directory. No source snapshot hashes or diagnostics changed.
 - The build test now compares generated runtime sections for every Naut against
   canonical `page_data()`, preventing future character-specific runtime drift.
+
+## Neocities deployment readiness — 11 October 2026
+
+- Verified the static asset extensions (WebP/PNG/SVG/WOFF2/JS/CSS/JSON) are
+  Neocities-allowed. Checked 1,481 maintained static files totaling ~21.4 MB;
+  generated HTML/data add modest overhead. The free hosting tier allows 1 GB.
+- Identified the single multipart upload containing ~1,500+ files as unsafe
+  for automated operation. Replaced with checked-site, hash-diff incremental
+  uploads and serial batches of <=100 files/90 MiB each, 10-minute update guard,
+  read-only manual dry-run, and no automatic remote pruning.
+- Push-triggered Neocities deployment is deliberately gated by repository
+  variable `NEOCITIES_AUTO_DEPLOY=true`. Keep it unset until the first manual
+  dry-run, intentional live upload and browser acceptance have passed.
+- The GitHub connector cannot inspect the secret's value, and no authenticated
+  live Neocities API access, dry-run or production upload was performed here.
+  Live account storage, file-count quota and target-key validation remain the
+  first controlled runtime gates. GitHub Pages continues independently.
