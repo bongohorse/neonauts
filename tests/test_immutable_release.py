@@ -59,7 +59,7 @@ class ImmutableReleaseTests(unittest.TestCase):
             self.assertNotIn('"assets/maps/ribbit-iv-splash.webp"', maps_code)
             self.assertIn('"assets/maps/ribbit-iv-splash.webp"', (Path(__file__).parents[1] / "src/static/maps-data.js").read_text())
             nav_code = (output / files["script.js"]).read_text()
-            self.assertIn("entry?.dataUrl", nav_code)
+            self.assertIn("selected?.dataUrl", nav_code)
             self.assertIn("sharedResources", nav_code)
             self.assertIn("location.assign(url.href)", nav_code)
 
