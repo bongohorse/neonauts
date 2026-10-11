@@ -14,6 +14,7 @@ import {chromium} from 'playwright';
 const repository=resolve(fileURLToPath(new URL('..',import.meta.url)));
 const rootBuild=resolve(repository,'dist-browser-root');
 const pagesBuild=resolve(repository,'dist-browser-pages');
+const immutableBuild=resolve(repository,'dist-browser-immutable');
 const artifacts=resolve(repository,'tests','artifacts');
 const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8',
   '.js':'text/javascript; charset=utf-8','.json':'application/json',
@@ -26,8 +27,11 @@ const server=createServer(async(request,response)=>{
   catch {response.writeHead(400);response.end();return;}
   const isPages=pathname==='/neonauts'||pathname.startsWith('/neonauts/');
   if(pathname==='/neonauts'){response.writeHead(308,{Location:'/neonauts/'});response.end();return;}
-  const site=isPages?pagesBuild:rootBuild;
-  let relative=isPages?pathname.slice('/neonauts/'.length):pathname.slice(1);
+  const isImmutable=pathname==='/immutable'||pathname.startsWith('/immutable/');
+  if(pathname==='/immutable'){response.writeHead(308,{Location:'/immutable/'});response.end();return;}
+  const site=isPages?pagesBuild:isImmutable?immutableBuild:rootBuild;
+  let relative=isPages?pathname.slice('/neonauts/'.length):
+               isImmutable?pathname.slice('/immutable/'.length):pathname.slice(1);
   if(!relative||relative.endsWith('/'))relative+='index.html';
   const target=resolve(site,relative);
   if(!target.startsWith(site+sep)){response.writeHead(403);response.end();return;}
@@ -117,7 +121,8 @@ try {
   browser=await chromium.launch({headless:true});
   await smoke('/',{width:1365,height:768},'root-desktop');
   await smoke('/neonauts/',{width:390,height:844},'pages-mobile');
-  console.log('PASS: native Chromium Naut routes, skins, history, maps, responsive and reduced-motion checks.');
+  await smoke('/immutable/',{width:390,height:844},'neocities-immutable');
+  console.log('PASS: native Chromium root, GitHub Pages and Neocities immutable Naut routes, skins, history, maps, responsive and reduced-motion checks.');
 } finally {
   if(browser)await browser.close();
   await new Promise(ok=>server.close(ok));
