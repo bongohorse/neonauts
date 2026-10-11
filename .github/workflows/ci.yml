@@ -52,6 +52,9 @@ jobs:
         run: |
           python scripts/build.py --out dist-browser-root
           python scripts/build.py --out dist-browser-pages --base-path /neonauts/
+          python scripts/build.py --out dist-browser-immutable
+          python scripts/prepare_neocities_release.py --directory dist-browser-immutable
+          python scripts/check.py --directory dist-browser-immutable
       - name: Browser smoke (desktop and mobile viewport)
         run: node tests/browser-smoke.mjs
       - name: Attach failure screenshots

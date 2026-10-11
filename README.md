@@ -204,3 +204,9 @@ node tests/browser-smoke.mjs
 This uses the same published project sources via a local HTTP server and does
 **not** call live Neocities, Cloudflare, Steam or Bandcamp APIs. A desktop/mobile
 browser viewport is **not** equivalent to physical-device touch/audio testing.
+
+Neocities publication uses an immutable release staging step after the
+standard build/tests: hashed support asset and Naut-data URLs, old versions
+retained, HTML entrypoints uploaded last. See `docs/neocities.md` for the
+dry-run, staging, recovery and acceptance gates. GitHub Pages uses the ordinary
+static build without this Neocities-specific transformation.

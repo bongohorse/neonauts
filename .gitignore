@@ -12,3 +12,4 @@ node_modules/
 dist-browser-root/
 dist-browser-pages/
 tests/artifacts/
+dist-browser-immutable/

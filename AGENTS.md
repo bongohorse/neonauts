@@ -43,3 +43,9 @@
 - Real-browser E2E: `tests/browser-smoke.mjs`, Chromium/Playwright 1.56.0.
   Build root and GitHub Pages subpath before running. Do not treat viewport
   emulation as physical touch/audio verification; keep screenshots on failures.
+
+- Before any Neocities deployment, build and validate normally, then run
+  `prepare_neocities_release.py` and upload only with
+  `--require-immutable`. Never update old hash-addressed files in place or
+  delete them without a reviewed cached-HTML retention policy. Main HTML
+  routes stay mutable; Neocities does not offer atomic multi-HTML cutover.

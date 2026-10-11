@@ -14,6 +14,7 @@ import {chromium} from 'playwright';
 const repository=resolve(fileURLToPath(new URL('..',import.meta.url)));
 const rootBuild=resolve(repository,'dist-browser-root');
 const pagesBuild=resolve(repository,'dist-browser-pages');
+const immutableBuild=resolve(repository,'dist-browser-immutable');
 const artifacts=resolve(repository,'tests','artifacts');
 const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8',
   '.js':'text/javascript; charset=utf-8','.json':'application/json',
@@ -26,8 +27,11 @@ const server=createServer(async(request,response)=>{
   catch {response.writeHead(400);response.end();return;}
   const isPages=pathname==='/neonauts'||pathname.startsWith('/neonauts/');
   if(pathname==='/neonauts'){response.writeHead(308,{Location:'/neonauts/'});response.end();return;}
-  const site=isPages?pagesBuild:rootBuild;
-  let relative=isPages?pathname.slice('/neonauts/'.length):pathname.slice(1);
+  const isImmutable=pathname==='/immutable'||pathname.startsWith('/immutable/');
+  if(pathname==='/immutable'){response.writeHead(308,{Location:'/immutable/'});response.end();return;}
+  const site=isPages?pagesBuild:isImmutable?immutableBuild:rootBuild;
+  let relative=isPages?pathname.slice('/neonauts/'.length):
+               isImmutable?pathname.slice('/immutable/'.length):pathname.slice(1);
   if(!relative||relative.endsWith('/'))relative+='index.html';
   const target=resolve(site,relative);
   if(!target.startsWith(site+sep)){response.writeHead(403);response.end();return;}
@@ -103,6 +107,34 @@ async function smoke(prefix,viewport,label){
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),
       true,'page should not overflow horizontal mobile viewport');
     assert.deepEqual(failures,[],'no uncaught errors or failed same-origin files');
+    if(label==='neocities-immutable'){
+      // Simulate an interrupted multi-HTML release: the in-page fetch sees
+      // newer shared assets than the page's currently loaded JS/CSS.
+      // It must perform a full navigation instead of mixing generations.
+      await page.goto(origin+prefix,{waitUntil:'load'});
+      await page.evaluate(()=>{window.__oldNautDocument=true;});
+      let suppliedNewerHtml=false;
+      await page.route('**/immutable/nauts/ayla/',async route=>{
+        if(route.request().resourceType()!=='fetch'){
+          await route.continue();return;
+        }
+        const response=await route.fetch();
+        const oldMarkup=await response.text();
+        const newerMarkup=oldMarkup.replace(/roster-data\.[0-9a-f]{24}\.js/g,
+                                           'roster-data.000000000000000000000000.js');
+        assert.notEqual(newerMarkup,oldMarkup,'expected a shared JS version in fetched dossier');
+        suppliedNewerHtml=true;
+        await route.fulfill({response,body:newerMarkup});
+      });
+      await page.locator('.naut-hex[data-naut-slug="ayla"]').click();
+      await page.waitForURL(url=>url.pathname.endsWith('/nauts/ayla/'));
+      await page.waitForFunction(()=>document.querySelector('.dossier-heading h1')?.textContent?.includes('AYLA'));
+      assert.equal(suppliedNewerHtml,true,'mixed-version response must be exercised');
+      assert.equal(await page.evaluate(()=>window.__oldNautDocument===undefined),true,
+                   'mixed releases must force a full document load');
+      await page.unroute('**/immutable/nauts/ayla/');
+      assert.deepEqual(failures,[],'mixed release navigation must keep local requests healthy');
+    }
     console.log('PASS browser smoke:',label,origin+prefix);
   } catch(error) {
     await mkdir(artifacts,{recursive:true});
@@ -117,7 +149,8 @@ try {
   browser=await chromium.launch({headless:true});
   await smoke('/',{width:1365,height:768},'root-desktop');
   await smoke('/neonauts/',{width:390,height:844},'pages-mobile');
-  console.log('PASS: native Chromium Naut routes, skins, history, maps, responsive and reduced-motion checks.');
+  await smoke('/immutable/',{width:390,height:844},'neocities-immutable');
+  console.log('PASS: native Chromium root, GitHub Pages and Neocities immutable Naut routes, skins, history, maps, responsive and reduced-motion checks.');
 } finally {
   if(browser)await browser.close();
   await new Promise(ok=>server.close(ok));

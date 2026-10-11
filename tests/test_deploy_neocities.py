@@ -274,5 +274,69 @@ class NeocitiesDeployTests(unittest.TestCase):
         self.assertEqual(len(uploads), 1)
 
 
+    @patch("deploy_neocities.api_json")
+    def test_rejects_mutable_support_paths_when_immutable_required(self, api):
+        with self.assertRaisesRegex(ValueError, "prepared immutable root"):
+            deploy(self.dist, config_path=self.config, require_immutable=True)
+        self.assertEqual(api.call_count, 0)
+        (self.dist / ".neonauts-build").write_text(
+            json.dumps({"base_path":"/","immutable_release":True}))
+        (self.dist / "script.js").write_bytes(b"mutable")
+        with self.assertRaisesRegex(ValueError, "mutable supporting filename"):
+            deploy(self.dist, config_path=self.config, require_immutable=True)
+        self.assertEqual(api.call_count, 0)
+
+    @patch("deploy_neocities.api_json")
+    def test_existing_immutable_remote_bytes_must_not_be_overwritten(self, api):
+        (self.dist / ".neonauts-build").write_text(
+            json.dumps({"base_path":"/","immutable_release":True}))
+        content = b"immutable v1"
+        name = "script." + hashlib.sha256(content).hexdigest()[:24] + ".js"
+        (self.dist / name).write_bytes(content)
+        api.side_effect = [self.info(), self.listing(self.remote(name, b"tampered"))]
+        with self.assertRaisesRegex(RuntimeError, "Immutable resource has different remote bytes"):
+            deploy(self.dist, config_path=self.config, require_immutable=True)
+        self.assertEqual([c.args[0] for c in api.call_args_list], ["/info", "/list"])
+
+    def test_html_cutover_failure_keeps_old_immutable_resources_for_retry(self):
+        (self.dist / ".neonauts-build").write_text(
+            json.dumps({"base_path":"/","immutable_release":True}))
+        previous = b"old asset bytes"
+        newer = b"new asset bytes"
+        old_name = "script." + hashlib.sha256(previous).hexdigest()[:24] + ".js"
+        new_name = "script." + hashlib.sha256(newer).hexdigest()[:24] + ".js"
+        (self.dist / new_name).write_bytes(newer)
+        (self.dist / "index.html").write_text(f'<script src="{new_name}"></script>')
+        remote = {old_name: previous, "index.html": b'<script src="' + old_name.encode() + b'"></script>'}
+        state = {"stop_html": True}
+
+        def api(endpoint, key, data=None, content_type=None):
+            if endpoint == "/info":
+                return self.info()
+            if endpoint == "/list":
+                return self.listing(*(self.remote(name, body) for name, body in remote.items()))
+            self.assertEqual(endpoint, "/upload")
+            import re
+            names = [x.decode() for x in re.findall(
+                rb'Content-Disposition: form-data; name="([^"]+)"', data)]
+            if state["stop_html"] and "index.html" in names:
+                raise RuntimeError("Simulated HTML cutover failure")
+            for name in names:
+                remote[name] = (self.dist / name).read_bytes()
+            return {"result":"success"}
+
+        with patch("deploy_neocities.api_json", side_effect=api), \
+             patch("deploy_neocities.time.sleep"):
+            with self.assertRaisesRegex(RuntimeError, "Simulated HTML cutover failure"):
+                deploy(self.dist, config_path=self.config, require_immutable=True)
+            self.assertEqual(remote[old_name], previous)
+            self.assertEqual(remote[new_name], newer)
+            self.assertIn(old_name.encode(), remote["index.html"])
+            state["stop_html"] = False
+            self.assertEqual(deploy(self.dist, config_path=self.config, require_immutable=True), 1)
+            self.assertIn(new_name.encode(), remote["index.html"])
+            self.assertEqual(remote[old_name], previous)
+
+
 if __name__ == "__main__":
     unittest.main()

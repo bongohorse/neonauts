@@ -106,13 +106,25 @@ async function navigateNaut(target,push=true){
  if(nautLoad)nautLoad.abort();const request=new AbortController();nautLoad=request;
  $('#main').setAttribute('aria-busy','true');
  try{
-  const [pageResponse,dataResponse]=await Promise.all([
-   fetch(url,{signal:request.signal,cache:'no-cache'}),fetch(new URL('nauts/'+slug+'/page-data.json',archiveBase),{signal:request.signal,cache:'no-cache'})]);
+  const selected=entry||archiveData.roster.find(n=>n.available&&n.slug===slug);
+ const dataUrl=selected?.dataUrl||'nauts/'+slug+'/page-data.json';
+ const [pageResponse,dataResponse]=await Promise.all([
+   fetch(url,{signal:request.signal,cache:'no-cache'}),fetch(new URL(dataUrl,archiveBase),{signal:request.signal,cache:'no-cache'})]);
   if(!pageResponse.ok||!dataResponse.ok)throw Error('Unavailable dossier');
   const [markup,data]=await Promise.all([pageResponse.text(),dataResponse.json()]);
   const page=new DOMParser().parseFromString(markup,'text/html'),dossier=page.querySelector('.dossier');
   if(request.signal.aborted)return;
   if(!dossier||data.slug!==slug||!Array.isArray(data.abilities)||!data.skins)throw Error('Invalid dossier');
+  // Avoid mixing a new HTML structure with a cached/older JS+CSS release.
+  // Each full navigation loads the matching support files, then in-page
+  // navigation is permitted again within that exact release.
+  const sharedResources=doc=>[
+    ...[...doc.querySelectorAll('script[src]')].filter(node=>!node.getAttribute('src').includes('/page-data.')),
+    ...doc.querySelectorAll('link[rel="stylesheet"][href]')
+  ].map(node=>node.getAttribute(node.tagName==='SCRIPT'?'src':'href')).sort();
+  if(JSON.stringify(sharedResources(document))!==JSON.stringify(sharedResources(page))){
+    location.assign(url.href);return;
+  }
   if(skinAnimation)skinAnimation.cancel();
   $('.dossier').replaceWith(document.importNode(dossier,true));nautPage=data;currentNautPath=url.pathname;
   defaultRosterNote=data.name.toUpperCase()+' SELECTED';setRosterNote(defaultRosterNote);

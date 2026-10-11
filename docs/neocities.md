@@ -59,13 +59,24 @@ the variable is absent/false: the push-triggered deployment job is skipped.
   remote supporting-file manifest and checks SHA-1 and size. After all batches,
   it verifies the full published manifest. A mismatch or failed package fails
   the job. Rerunning is idempotent via changed-only remote hash comparisons.
-- **This is not atomic publishing.** Neocities has no site-wide commit/switch
-  operation in the API used here. Existing pages can temporarily load modified
-  shared JS/CSS/JSON before their HTML is updated, and a failure during the
-  final HTML stage can still leave a mixed release. Cache propagation can
-  outlive API manifest verification. True version isolation requires a later
-  release-versioned asset/data architecture; do not represent the staged
-  uploader as a transaction or a complete rollback.
+- **Dependency isolation (Issue #11):** After the standard build and data
+  checks, `prepare_neocities_release.py` rewrites all shipped images,
+  scripts, stylesheets, fonts, Naut page-data JSON/JS and roster URLs to
+  per-file SHA-256-addressed paths. These filenames are immutable: an
+  existing path with different remote bytes aborts even before dry-run
+  publishing. Only `index.html`, 34 direct Naut pages, error HTML and the
+  intentionally live `players.json` keep stable paths. Old hashed files
+  stay present, so cached old HTML can fetch its previous dependencies.
+  In-page Naut navigation uses the roster's hashed JSON URL; if an HTML
+  response belongs to a different JS/CSS release, the browser does a full
+  page navigation rather than mixing incompatible DOM and scripts.
+- **This is still not an atomic site-wide HTML switch.** Neocities has no
+  multi-file transaction. A failed late HTML batch can leave some public
+  pages on an earlier release and others on a later one, but both reference
+  retained immutable support resources. CDN edge propagation can also
+  differ from Neocities' API inventory. Prior *legacy* HTML published
+  before adopting immutable releases cannot be retroactively protected
+  from all structural changes. Do not call this a full automatic rollback.
 - Respects a minimum 10-minute window between site updates using the
   Neocities `last_updated` timestamp. Upload errors stop the workflow;
   a retry compares hashes and skips already successful chunks.
@@ -73,7 +84,9 @@ the variable is absent/false: the push-triggered deployment job is skipped.
   projected storage before uploading. There is no automatic deletion/prune.
   Files placed on Neocities by hand remain unless explicitly removed.
 - `--dry-run` performs remote read-only checks and makes zero upload
-  calls. Neocities file quota and the secret's validity can only be verified
+  calls; the workflow also passes `--require-immutable`, refusing an ordinary
+  build and aborting if a previously uploaded content-addressed path has
+  mismatched bytes. Neocities file quota and the secret's validity can only be verified
   in a real authenticated dry run, not through CI pull-request tests.
 - Only generated `dist/` contents are uploaded, never the folder itself,
   hidden build marker, source snapshots, tests or API keys.
@@ -91,9 +104,11 @@ set `NEOCITIES_API_KEY` privately and run:
 ```powershell
 .\.venv\Scripts\python.exe scripts/build.py
 .\.venv\Scripts\python.exe scripts/check.py
-.\.venv\Scripts\python.exe scripts/deploy_neocities.py --dry-run
+.\.venv\Scripts\python.exe scripts/prepare_neocities_release.py
+.\.venv\Scripts\python.exe scripts/check.py
+.\.venv\Scripts\python.exe scripts/deploy_neocities.py --dry-run --require-immutable
 # After examining the result, intentionally publish:
-.\.venv\Scripts\python.exe scripts/deploy_neocities.py
+.\.venv\Scripts\python.exe scripts/deploy_neocities.py --require-immutable
 ```
 
 ## Public endpoints
@@ -152,3 +167,33 @@ Remote-only does **not** mean safe to delete. The report may contain manually
 managed content or files still referenced by browsers' cached HTML. Any
 retention/deletion procedure requires a separate reviewed plan and explicit
 authorization; no such deletion workflow is provided.
+
+## Immutable release staging and emergency recovery
+
+The GitHub Actions release order is now: build and offline tests → fresh Steam
+history → ordinary static checks and JS tests → immutable transformation →
+check immutable output → authenticated read-only diff → (if explicitly
+authorized) support-file upload + remote hash verification → HTML cutover.
+
+**If uploads stop during support resources:** old public HTML and all its
+immutable files remain. Review the log, verify site identity, then repeat the
+same release/dry-run; its hash-based diff skips already-present files.
+**If uploads stop during HTML:** some URLs may serve old HTML and others new.
+Both releases retain their immutable dependencies. Retry **the same commit**
+rather than mixing a third deployment. Run the root/deep-link browser checks.
+
+**Emergency rollback:** a *previously accepted release* can be restored by
+rebuilding its exact source revision and generating the same immutable output,
+then explicitly re-publishing its prior HTML entries as a separately reviewed,
+manual release. GitHub's current workflow checks out `main` only: it does
+**not** offer a one-click rollback selector or reconstruct unknown older HTML.
+Before relying on rollback, archive the accepted source SHA and built HTML,
+check the retained hashed dependencies via API, and perform a controlled
+rollback drill. No old hashed files or hand-created files may be automatically
+pruned while cached HTML might refer to them.
+
+Every changed image/JS/JSON/CSS file receives a new unique SHA-derived URL,
+rather than cloning the entire ~20 MB asset collection for every release.
+Neocities free storage still grows over time with changed resources; periodically
+review the *read-only* orphan audit before planning a human-approved retention
+policy. Do not enable auto-deploy without a controlled first publication.

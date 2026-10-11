@@ -49,6 +49,10 @@ jobs:
       - run: node tests/radio.mjs
       - run: node tests/players-client.mjs
       - run: node tests/workers.mjs
+      - name: Prepare immutable Neocities release
+        run: python scripts/prepare_neocities_release.py
+      - name: Verify prepared release
+        run: python scripts/check.py
       - name: Check and optionally publish to Neocities
         env:
           NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
@@ -59,7 +63,7 @@ jobs:
           if [ "$AUDIT_ORPHANS" = "1" ]; then
             python scripts/deploy_neocities.py --audit-orphans
           elif [ "$DRY_RUN" = "1" ]; then
-            python scripts/deploy_neocities.py --dry-run
+            python scripts/deploy_neocities.py --dry-run --require-immutable
           else
-            python scripts/deploy_neocities.py
+            python scripts/deploy_neocities.py --require-immutable
           fi

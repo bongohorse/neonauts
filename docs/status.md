@@ -291,3 +291,18 @@ from being combined with newly deployed markup.
   only on test failure for PR review.
 - The job does not perform Neocities deployments or claim genuine phone
   touch interaction / audible playback acceptance.
+
+## Issue #11: immutable supporting resources (pending CI/live gate)
+
+- Prepare a Neocities-only content-addressed site from the ordinary generated
+  build. Each executable/data/image/font resource gets a SHA-256-based URL;
+  only route HTML and the intentionally dynamic `players.json` stay mutable.
+- Full-release browser navigation reloads at a shared-script/style version
+  mismatch. The prior immutable resources remain on the server for older
+  cached pages; existing paths with different remote bytes abort the uploader.
+- Offline tests simulate a failure in the final HTML phase, preservation of
+  older immutable assets and a clean retry. Browser CI covers the immutable
+  output as a separate local origin alongside GitHub Pages.
+- No fully atomic HTML commit exists through Neocities API. First live
+  deployment, real edge-cache behavior and a controlled rollback drill remain
+  operational acceptance gates; no live publication or auto-enable performed.
