@@ -8,6 +8,7 @@ import re
 import shutil
 from pathlib import Path
 from lxml import html, etree
+from naut_assets import publish_naut_assets
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -37,10 +38,13 @@ def js_assignment(name, data):
     encoded = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
     return 'const '+name+'='+encoded.replace('<', '\\u003c').replace('\u2028', '\\u2028').replace('\u2029', '\\u2029')+';\n'
 
-def page_data(data, overrides, editorial_view=None):
+def page_data(data, overrides, editorial_view=None, asset_aliases=None):
     slug = data['slug']
     skin_descriptions = (editorial_view or {}).get('skin_descriptions', {})
-    assets = {a['id']: 'assets/nauts/'+slug+'/'+Path(a['path']).name for a in data['assets']}
+    aliases = asset_aliases or {}
+    assets = {a['id']: aliases.get('assets/nauts/'+slug+'/'+Path(a['path']).name,
+                                    'assets/nauts/'+slug+'/'+Path(a['path']).name)
+              for a in data['assets']}
     groups = list(dict.fromkeys(item['group'] for item in data['items']))
     skins = {'default': {'name': 'DEFAULT', 'image': assets[data['portrait_asset']], 'description': skin_descriptions.get('default', 'Default character artwork from the saved Wiki.')}}
     for index, skin in enumerate(data['skins'], 1):
@@ -133,7 +137,11 @@ def build(output=None, base_path='/'):
     if output.exists():
         if not (output/'.neonauts-build').exists(): raise ValueError('Output directory is not a marked build directory')
         shutil.rmtree(output)
-    shutil.copytree(ROOT/'src/static',output)
+    # Keep the source archive intact; stage only Naut art referenced by the UI.
+    # Everything else (maps, goodies, background, styles, fonts, scripts) is copied.
+    def skip_naut_archive(directory, names):
+        return ['nauts'] if Path(directory) == ROOT/'src/static/assets' and 'nauts' in names else []
+    shutil.copytree(ROOT/'src/static',output,ignore=skip_naut_archive)
     (output/'.neonauts-build').write_text(json.dumps({'base_path':base_path})+'\n')
     (output/'config.js').write_text(js_assignment('siteConfig',load(ROOT/'site.config.json')),encoding='utf-8')
     datasets = [load(p) for p in sorted((ROOT/'data/nauts').glob('*.json'))]
@@ -147,6 +155,11 @@ def build(output=None, base_path='/'):
         d=imported.get(n['name']);n['available']=bool(d)
         if d:n.update(slug=d['slug'],url='nauts/'+d['slug']+'/')
     editorials={p.stem:load(p) for p in (ROOT/'data/editorial').glob('*.json')}
+    # Stage exactly the source images needed by all Naut dossiers and roster.
+    # Identical image bytes share one deterministic output path.
+    unaliased = [page_data(d,overrides,editorials.get(d['slug'],{}).get('view'))
+                 for d in datasets]
+    asset_aliases=publish_naut_assets(ROOT/'src/static',output,unaliased,roster)
     ost=load(ROOT/'data/ost.json')
     themes=[dict(name=n['name'],**ost['tracks'][n['name']]) for n in roster if n['name'] in ost['tracks']]
     (output/'radio-data.js').write_text(js_assignment('radioThemes',themes),encoding='utf-8')
@@ -160,7 +173,7 @@ def build(output=None, base_path='/'):
     dossier_template=html.fromstring((ROOT/'src/templates/naut-dossier.html').read_text(encoding='utf-8'))
     for d in datasets:
         editorial=editorials.get(d['slug'],{})
-        runtime=page_data(d,overrides,editorial.get('view'))
+        runtime=page_data(d,overrides,editorial.get('view'),asset_aliases)
         runtime['theme']=ost['tracks'].get(aliases.get(d['name'],d['name']))
         document=copy.deepcopy(shell)
         dossier=make_dossier(dossier_template,d,runtime,editorial.get('view'))

@@ -5,6 +5,7 @@ import unittest
 from pathlib import Path
 from lxml import html
 from build import build, make_dossier, page_data, ROOT
+from naut_assets import publish_naut_assets, runtime_images
 from check import check
 
 class BuildTests(unittest.TestCase):
@@ -21,6 +22,19 @@ class BuildTests(unittest.TestCase):
             out=Path(temp)/'site';build(out)
             before={p.relative_to(out):hashlib.sha256(p.read_bytes()).hexdigest() for p in out.rglob('*') if p.is_file()}
             overrides=json.loads((ROOT/'data/presentation.json').read_text(encoding='utf-8'))
+            raw_datasets=[json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'data/nauts').glob('*.json'))]
+            editorial_views={p.stem:json.loads(p.read_text(encoding='utf-8'))['view'] for p in (ROOT/'data/editorial').glob('*.json')}
+            runtimes=[page_data(d,overrides,editorial_views.get(d['slug'])) for d in raw_datasets]
+            roster=json.loads((ROOT/'data/roster.json').read_text(encoding='utf-8'))
+            # Reconstruct canonical aliases and verify every original image byte
+            # is available under the published path; no source data is rewritten.
+            aliases=publish_naut_assets(ROOT/'src/static',out,runtimes,roster)
+            self.assertTrue(any(source != target for source,target in aliases.items()))
+            published=set(aliases.values())
+            actual={p.relative_to(out).as_posix() for p in (out/'assets/nauts').rglob('*.webp')}
+            self.assertEqual(actual,published,'no unused Naut artwork may reach the public output')
+            for source,published_path in aliases.items():
+                self.assertEqual((ROOT/'src/static'/source).read_bytes(),(out/published_path).read_bytes())
             for source in sorted((ROOT/'data/nauts').glob('*.json')):
                 slug=source.stem
                 p=out/'nauts'/slug/'index.html';self.assertTrue(p.is_file())
@@ -34,7 +48,7 @@ class BuildTests(unittest.TestCase):
                 runtime=json.loads((out/'nauts'/slug/'page-data.json').read_text(encoding='utf-8'))
                 editorial_path=ROOT/'data/editorial'/f'{slug}.json'
                 editorial_view=json.loads(editorial_path.read_text(encoding='utf-8')).get('view') if editorial_path.exists() else None
-                canonical=page_data(data,overrides,editorial_view)
+                canonical=page_data(data,overrides,editorial_view,aliases)
                 for section in ('abilities','items','itemGroups','skins'):
                     self.assertEqual(runtime[section],canonical[section],f'{slug}: {section} must be canonical')
                 self.assertEqual(doc.xpath('//*[@class="roster-note"]')[0].text_content(),data['name'].upper()+' SELECTED')

@@ -155,3 +155,23 @@ wording and curated skin descriptions only; it does not override item/ability
 metadata, skin selection/order, or artwork.
 There is no character-specific template or build branch. Steam charts remain
 in Community.
+
+## Build output optimisation
+
+The canonical source archive in `src/static/assets/nauts/<slug>/` remains
+complete. `scripts/build.py` publishes **only** the Naut images referenced by
+the 34 generated dossiers and the roster. Identical imported images, often
+shared upgrade icons, are emitted once under deterministic
+`dist/assets/nauts/shared/<sha256>.webp` paths. Generated Naut HTML and both
+runtime data representations reference the same published files. Importer
+snapshots, source hashes and missing-image diagnostics are unchanged.
+
+The two per-Naut runtime files are deliberately both retained:
+`page-data.js` provides the initial static dossier without a fetch, whereas
+`page-data.json` is used by in-page Naut navigation. Replacing either would
+require a separate browser/data-loading redesign, not a redundant-image fix.
+
+The source assets for Commander Rocket and Gnaw are larger than most Nauts;
+re-encoding them without checking readability/transparency would risk
+quality loss, so this change keeps their original WebP bytes. The generator
+reports the number of referenced images and avoided duplicate copies.

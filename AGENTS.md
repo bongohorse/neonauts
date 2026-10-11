@@ -20,3 +20,8 @@
   endpoints belong in site.config.json. Workers run separately from Neocities.
 - Prefer small cohesive commits. Do not deploy merely because CI passed;
   follow the user's current authorization and the documented deployment setup.
+
+- Treat imported Naut image assets as archival sources: never delete or
+  recompress them solely to reduce public-build size. The build-only Naut
+  image publisher keeps referenced images and coalesces identical bytes;
+  maintain its fail-closed checks and all output-url tests.
