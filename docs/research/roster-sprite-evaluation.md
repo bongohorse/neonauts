@@ -65,3 +65,33 @@ separate rendering change. A follow-up prototype must retain:
 This experiment does not alter scripts/build.py, current roster styling,
 Neocities deploy configuration, or any source picture. The workflow is
 read-only and uploads only a GitHub Actions artifact. No site deployments.
+
+
+## First benchmark result (GitHub Actions)
+
+[Reproducible run](https://github.com/bongohorse/neonauts/actions/runs/38107937664)
+· [visual side-by-side artifact](https://github.com/bongohorse/neonauts/actions/runs/38107937664/artifacts/11690094860)
+
+All 34 source images passed the 256 × 256 check, totaling **436,126 bytes**.
+
+| Decoded-source comparison | Output bytes | Saving versus existing source | Atlas PSNR | Worst Naut PSNR | Alpha error |
+|---|---:|---:|---:|---:|---:|
+| Individual WebPs (current) | 436,126 | baseline | reference | reference | reference |
+| Lossless WebP atlas | 2,510,716 | **−475.69%** (larger) | exact | exact | 0 |
+| WebP Q75 atlas | 270,704 | **+37.93%** | 34.05 dB | 32.75 dB | 0 |
+| WebP Q85 atlas | 405,948 | **+6.92%** | 40.50 dB | 38.15 dB | 0 |
+| WebP Q90 atlas | 471,916 | **−8.21%** (larger) | 40.67 dB | 38.62 dB | 0 |
+| WebP Q95 atlas | 540,944 | **−24.03%** (larger) | 42.23 dB | 39.99 dB | 0 |
+
+Saved-size percentages are **positive only for byte reductions**, unlike byte
+deltas. PSNR is a decoded-pixel RGB quality metric; human perception in the
+existing scaled/hex-clipped UI is not established by these numbers.
+
+**Interpretation:** Combining these *already compressed* WebPs does **not**
+necessarily reduce transferred bytes at acceptable quality. Lossless has no
+decoded-pixel damage but costs ~5.76× as many bytes. Q90 is larger; Q85 saves
+just ~30 KB and introduces second-pass image loss. Q75 saves ~165 KB but may
+visibly degrade artwork. No visual approval or HTTP/2/3 network benchmark has
+been performed yet. Do **not** change the public roster based only on the
+HTTP request count dropping 34→1. Proceed to a separately reviewed SVG/
+network A/B only if the user wants to test that tradeoff.
