@@ -48,6 +48,8 @@ let browser;
 async function smoke(prefix,viewport,label){
   const context=await browser.newContext({viewport});
   const page=await context.newPage();
+  page.setDefaultTimeout(10000);
+  page.setDefaultNavigationTimeout(15000);
   const failures=[];
   page.on('pageerror',error=>failures.push('Uncaught page error: '+error.message));
   page.on('response',response=>{
@@ -80,6 +82,7 @@ async function smoke(prefix,viewport,label){
     await page.locator('#map-search').fill('Sorona');
     assert.equal(await page.locator('.map-card:not([hidden])').count(),1,'map search should filter');
     await page.locator('.map-card:not([hidden])').first().click();
+    await page.locator('[data-map-tab="layout"]').click();
     await page.locator('#open-map-layout').click();
     assert.equal(await page.locator('#map-viewer').evaluate(e=>e.open),true,'map viewer must open');
     await page.locator('#map-viewer-close').click();
