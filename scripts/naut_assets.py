@@ -58,6 +58,13 @@ def publish_naut_assets(static_root, output, runtimes, roster):
         for original in originals:
             aliases[original] = target
     published = len(groups)
-    print(f"Naut images: {len(references)} source references -> {published} "
-          f"published files ({len(references) - published} duplicate copies avoided).")
+    source_files = [p for p in (static_root / "assets/nauts").rglob("*") if p.is_file()]
+    source_bytes = sum(p.stat().st_size for p in source_files)
+    published_files = [p for p in (output / "assets/nauts").rglob("*") if p.is_file()]
+    published_bytes = sum(p.stat().st_size for p in published_files)
+    print(f"Naut image archive: {len(source_files)} files ({source_bytes} bytes) -> "
+          f"{published} public files ({published_bytes} bytes). "
+          f"Sources referenced: {len(references)}; removed from public output: "
+          f"{len(source_files) - published} file copies / {source_bytes - published_bytes} bytes. "
+          f"Deduplicated references: {len(references) - published}.")
     return aliases
