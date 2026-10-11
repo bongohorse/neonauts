@@ -9,7 +9,7 @@ from pathlib import Path
 from unittest.mock import call, patch
 
 from deploy_neocities import (
-    MAX_FILES_PER_REQUEST, batches, collect_files, deploy, expected_site,
+    MAX_FILES_PER_REQUEST, audit_orphans, batches, collect_files, deploy, expected_site,
     is_entrypoint, multipart, publication_order, remote_files, seconds_until_safe_update,
 )
 
@@ -45,6 +45,28 @@ class NeocitiesDeployTests(unittest.TestCase):
     def remote(name, contents):
         return {"path": name, "is_directory": False,
                 "sha1_hash": hashlib.sha1(contents).hexdigest(), "size": len(contents)}
+
+    @patch("deploy_neocities.api_json")
+    def test_orphan_audit_lists_remote_only_files_without_writing(self, api):
+        api.side_effect = [self.info(), self.listing(
+            self.remote("index.html", (self.dist/"index.html").read_bytes()),
+            self.remote("manual/keep.txt", b"manual"),
+            self.remote("assets/old.webp", b"old"),
+        )]
+        with patch("builtins.print") as printer:
+            orphans = audit_orphans(self.dist, config_path=self.config)
+        self.assertEqual(orphans, [("assets/old.webp", 3), ("manual/keep.txt", 6)])
+        self.assertEqual([c.args[0] for c in api.call_args_list], ["/info", "/list"])
+        output = "\\n".join(" ".join(map(str, call.args)) for call in printer.call_args_list)
+        self.assertIn("remote-only files: 2", output)
+        self.assertIn("AUDIT ONLY", output)
+
+    @patch("deploy_neocities.api_json")
+    def test_orphan_audit_never_crosses_site_identity(self, api):
+        api.return_value = self.info(site="not-the-owner")
+        with self.assertRaisesRegex(RuntimeError, "does not belong"):
+            audit_orphans(self.dist, config_path=self.config)
+        self.assertEqual(api.call_count, 1)
 
     def test_expected_site_and_refuse_unexpected_origin(self):
         self.assertEqual(expected_site(self.config), "awesomenauts")
