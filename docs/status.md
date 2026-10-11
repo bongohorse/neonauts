@@ -358,3 +358,16 @@ from being combined with newly deployed markup.
   Browser tests cover bottom row coordinates, shared sprite request and
   root/GitHub Pages/immutable Neocities render variants.
 - No image re-encoding, no source image deletion, no Neocities publication.
+
+## Performance measurement foundation — issue #30
+
+- Added measurement-only Chromium harness and correctness tests, preserving site sources.
+- Five independent cold loads per desktop root/mobile Pages scenario; raw JSON,
+  CSV/Markdown median/range and native screenshots are CI artifacts.
+- Fixed CPU/network/cache conditions and explicit local/CDN/API limitations
+  documented in docs/performance.md. No timing thresholds, merge or deployment.
+- Ten isolated native cold runs completed; compact raw measurements and
+  median/ranges are in docs/performance/baseline-30.{json,md}.
+- 57 Python tests, four Node suites, two metric tests, all three build checkers,
+  root/Pages/immutable browser smoke and 34/34 raster portrait checks pass locally.
+- Real phone/touch/audio and production CDN performance remain separate checks.
