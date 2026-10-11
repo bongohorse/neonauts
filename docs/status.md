@@ -255,3 +255,12 @@ from being combined with newly deployed markup.
 - Existing 34 Naut datasets use acceptable Wiki links. Tests cover malicious
   schemes, lookalike hosts, URL credentials, relative/protocol-relative links,
   malformed ports, and refusal before writing a forged import.
+
+## Guestbook body safety — issue #14
+
+- Incoming JSON bodies are read with a strict 4096-byte upper limit rather
+  than unbounded `request.text()`; missing/forged Content-Length and malformed
+  UTF-8/JSON are tested, as are valid moderated entries and KV failures.
+- Remaining operational risks: Origin can be spoofed outside browsers, and
+  KV rate limits are eventually consistent. The Worker is not deployed by
+  this PR and requires separate abuse-controls/operational acceptance.

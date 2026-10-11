@@ -34,3 +34,8 @@
 - Saved Wiki links are untrusted. `url_policy.py` validates source, ability
   and item URLs at import and before build. Do not broaden allowed URL schemes
   or hosts without a reviewed threat model and regression tests.
+
+- The guestbook Worker must enforce byte-bounded streaming before JSON parse.
+  Origin/CORS is a browser constraint, not authentication. KV cooldown is
+  eventually consistent; maintain moderation and assess edge abuse controls
+  before public Worker deployment.
