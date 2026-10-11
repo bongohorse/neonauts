@@ -458,3 +458,12 @@ root/Pages/immutable builds and checks, native Chromium smoke in all three varia
 and 34/34 painted portraits. CI/merge/publication status is available on
 [PR #46](https://github.com/bongohorse/neonauts/pull/46). Existing publication settings
 are preserved; the repair does not enable Neocities automatic deployment.
+
+
+## Import follow-up — 11 October 2026
+
+With canonical imports repaired, a real HTML probe confirmed that a missing
+embedded portrait could replace accepted data and then fail the dossier build.
+The importer now rejects this before data or asset writes. Regression coverage
+checks absent and remote-only portraits while preserving the previous dataset
+and artwork. Optional missing artwork remains supported. All 63 Python tests pass.

@@ -18,6 +18,8 @@ def import_naut(source):
         slug=data['slug']
         # Validate before replacing any maintained dataset.
         if not data['abilities']:raise ValueError('No abilities found; import rejected')
+        if not data['portrait_asset'] or data['portrait_asset'] not in {a['id'] for a in data['assets']}:
+            raise ValueError('No embedded Naut portrait found; import rejected')
         target=ROOT/'data/nauts'/f'{slug}.json'
         asset_dir=ROOT/'src/static/assets/nauts'/slug
         asset_dir.mkdir(parents=True,exist_ok=True)
