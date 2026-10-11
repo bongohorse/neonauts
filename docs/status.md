@@ -264,3 +264,11 @@ from being combined with newly deployed markup.
 - Remaining operational risks: Origin can be spoofed outside browsers, and
   KV rate limits are eventually consistent. The Worker is not deployed by
   this PR and requires separate abuse-controls/operational acceptance.
+
+## Remote-only Neocities asset audit — issue #15
+
+- Added `--audit-orphans` and a separate manual GitHub workflow checkbox:
+  read-only API site validation and an escaped filename/byte listing of remote
+  files absent from the current build. It makes no remote write calls.
+- Cached older HTML and manually maintained files are intentionally excluded
+  from automatic deletion decisions; this work does **not** introduce pruning.

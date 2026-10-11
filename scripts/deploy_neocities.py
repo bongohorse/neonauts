@@ -280,9 +280,43 @@ def deploy(directory, dry_run=False, config_path=ROOT / "site.config.json"):
     return len(changed)
 
 
+def audit_orphans(directory, config_path=ROOT / "site.config.json"):
+    """Read-only report; remote-only does NOT imply safely deletable."""
+    from check import check
+    check(directory)
+    files = collect_files(directory)
+    site = expected_site(config_path)
+    key = os.environ.get("NEOCITIES_API_KEY")
+    if not key:
+        raise ValueError("NEOCITIES_API_KEY is required to inspect Neocities")
+    info = api_json("/info", key).get("info")
+    if not isinstance(info, dict) or info.get("sitename") != site:
+        raise RuntimeError(f"API key does not belong to configured site {site!r}; refused to inspect")
+    remote = remote_files(api_json("/list", key))
+    local_names = {name for name, _ in files}
+    orphaned = [(name, record["size"]) for name, record in remote.items()
+                if name not in local_names]
+    orphaned.sort()
+    print(f"Read-only Neocities audit for {site}. Local files: {len(files)}; "
+          f"remote-only files: {len(orphaned)}; remote-only bytes: "
+          f"{sum(size for _, size in orphaned)}.")
+    for name, size in orphaned:
+        # Quote untrusted remote names so special characters cannot forge log lines.
+        print(f"  {json.dumps(name, ensure_ascii=True)}: {size} bytes")
+    print("AUDIT ONLY: No files were uploaded or deleted. Remote-only files "
+          "may belong to cached older releases or user-owned content; "
+          "do not delete without a separate reviewed retention plan.")
+    return orphaned
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--directory", type=Path, default=ROOT / "dist")
     parser.add_argument("--dry-run", action="store_true", help="Read remote state; never upload")
+    parser.add_argument("--audit-orphans", action="store_true",
+                        help="List remote files absent from this build; never delete or upload")
     args = parser.parse_args()
-    deploy(args.directory, dry_run=args.dry_run)
+    if args.audit_orphans:
+        audit_orphans(args.directory)
+    else:
+        deploy(args.directory, dry_run=args.dry_run)

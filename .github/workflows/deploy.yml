@@ -9,6 +9,11 @@ on:
         type: boolean
         required: true
         default: true
+      audit_orphans:
+        description: 'List remote-only files with sizes (read-only, no deletion)'
+        type: boolean
+        required: true
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -48,9 +53,12 @@ jobs:
         env:
           NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+          AUDIT_ORPHANS: ${{ github.event_name == 'workflow_dispatch' && inputs.audit_orphans && '1' || '0' }}
         shell: bash
         run: |
-          if [ "$DRY_RUN" = "1" ]; then
+          if [ "$AUDIT_ORPHANS" = "1" ]; then
+            python scripts/deploy_neocities.py --audit-orphans
+          elif [ "$DRY_RUN" = "1" ]; then
             python scripts/deploy_neocities.py --dry-run
           else
             python scripts/deploy_neocities.py
