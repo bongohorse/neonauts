@@ -329,3 +329,20 @@ from being combined with newly deployed markup.
   previous 256px sources. No re-encoding is performed by the website build;
   any quality or crop concerns are inspected via native screenshots.
 - No Neocities production upload or automatic deploy enabled.
+
+
+## Hex portrait sprite placement correction — 11 October 2026
+
+- The first 128px atlas integration used a nested SVG viewBox that passed
+  element-coordinate checks but visually rendered many empty hexagons and
+  misplaced portraits outside their frames in Edge/Chromium.
+- The selector now draws the full 768px atlas through one SVG `image` per
+  hex, positions the correct 128px tile mathematically in the **outer**
+  78×90 viewBox and applies the existing polygon clip to that image.
+  The crop matches the earlier `xMidYMid slice` geometry; SVG borders,
+  hover/focus/selection and keyboard behaviors remain unchanged.
+- Browser checks enforce tile offsets, absence of nested SVGs and one
+  network request for all 34 portraits. A new Pillow raster test inspects
+  native Chromium screenshots to detect empty hexagon interiors, which
+  purely structural SVG checks previously missed.
+- The source atlas and per-Naut art are untouched; no Neocities upload.
