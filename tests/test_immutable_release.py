@@ -53,8 +53,11 @@ class ImmutableReleaseTests(unittest.TestCase):
                         if obj["image"]:
                             self.assertTrue((output / obj["image"]).is_file())
             maps_code = (output / files["maps-data.js"]).read_text()
-            self.assertNotIn('"assets/maps/', maps_code)
-            self.assertIn('"assets/maps/', (Path(__file__).parents[1] / "src/static/maps-data.js").read_text())
+            # Paths still start with assets/maps; their filename now carries
+            # the 24-digit content hash before .webp.
+            self.assertRegex(maps_code, r'assets/maps/ribbit-iv-splash\.[0-9a-f]{24}\.webp')
+            self.assertNotIn('"assets/maps/ribbit-iv-splash.webp"', maps_code)
+            self.assertIn('"assets/maps/ribbit-iv-splash.webp"', (Path(__file__).parents[1] / "src/static/maps-data.js").read_text())
             nav_code = (output / files["script.js"]).read_text()
             self.assertIn("entry?.dataUrl", nav_code)
             self.assertIn("sharedResources", nav_code)
