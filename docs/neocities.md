@@ -130,3 +130,25 @@ or distributed requests can bypass the advisory rate key. Keep the moderated
 `pending:` queue, and before exposing the public Worker consider Cloudflare
 edge rate-limiting rules / a verified Turnstile setup with a separate test gate.
 No Worker is deployed by this repository change.
+
+## Read-only orphan audit (no deletion)
+
+After a migration or asset optimization, Neocities may still host files that
+the latest build no longer references. To inspect them, run **Actions → Deploy
+to Neocities → Run workflow**, select `main`, and check **List remote-only
+files with sizes**. This mode performs a valid build and uses only API
+`GET /info` + `GET /list`, then prints counts, names and byte sizes. It
+**never uploads, deletes or prunes files**, even if the `dry_run` checkbox is
+unchecked. Site identity must match `site.config.json`.
+
+Local equivalent with the API key already privately set:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/build.py
+.\.venv\Scripts\python.exe scripts/deploy_neocities.py --audit-orphans
+```
+
+Remote-only does **not** mean safe to delete. The report may contain manually
+managed content or files still referenced by browsers' cached HTML. Any
+retention/deletion procedure requires a separate reviewed plan and explicit
+authorization; no such deletion workflow is provided.
