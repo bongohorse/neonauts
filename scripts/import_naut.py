@@ -6,6 +6,7 @@ import shutil
 import tempfile
 from pathlib import Path
 from extract_naut import extract
+from url_policy import validate_naut_urls
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -13,6 +14,7 @@ def import_naut(source):
     with tempfile.TemporaryDirectory() as temp:
         directory=Path(temp)
         data=extract(Path(source),directory)
+        validate_naut_urls(data)
         slug=data['slug']
         # Validate before replacing any maintained dataset.
         if not data['abilities']:raise ValueError('No abilities found; import rejected')
