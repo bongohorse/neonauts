@@ -127,7 +127,7 @@ def prepare(directory):
             code = js_assignment("archiveData", data)
         else:
             code = rewrite_assets(code, assets)
-        if name == "script.js" and "entry?.dataUrl" not in code:
+        if name == "script.js" and "selected?.dataUrl" not in code:
             raise ValueError("In-page navigation must fetch versioned roster data URLs")
         publish(name, code.encode("utf-8"))
 
